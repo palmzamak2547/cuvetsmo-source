@@ -1,0 +1,100 @@
+{
+  "slug": "meloxicam",
+  "nameEn": "Meloxicam",
+  "nameTh": "เมล็อกซิแคม",
+  "class": "NSAID — COX-2 preferential",
+  "mechanism": "TEMPLATE — รอ Thai translation จาก mirror source (กลไกการออกฤทธิ์: ยับยั้ง COX-2 มากกว่า COX-1 ทำให้ลดการอักเสบและปวดโดยมีผลข้างเคียงต่อระบบทางเดินอาหารน้อยกว่า non-selective NSAIDs)",
+  "brandNamesTh": ["Metacam", "Loxicom", "Mobic"],
+
+  "indications": [
+    {
+      "text": "TEMPLATE — รอ Thai translation จาก DailyMed package insert + faculty review (เช่น post-op pain, osteoarthritis ในสุนัข + แมว, ดู citation)",
+      "cites": ["dailymed-meloxicam", "who-eml-22"]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — รอ Thai translation จาก DailyMed + ภาควิชาเภสัชวิทยา review (ห้ามใช้ในสัตว์ที่มีโรคไต ตับ ระบบทางเดินอาหาร ฯลฯ)",
+      "cites": ["dailymed-meloxicam"]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — รอ Thai translation (GI upset, renal effects, hepatic effects, etc. — see DailyMed)",
+      "cites": ["dailymed-meloxicam"]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": ["dailymed-meloxicam"]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "SC",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": ["dailymed-meloxicam"]
+    }
+  ],
+
+  "citations": [
+    {
+      "id": "dailymed-meloxicam",
+      "type": "regulatory-database",
+      "title": "Meloxicam — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=meloxicam",
+      "note": "Mirror source for indications, contraindications, side effects. FDA-approved label, U.S. public domain."
+    },
+    {
+      "id": "who-eml-22",
+      "type": "guideline",
+      "title": "WHO Model List of Essential Medicines, 22nd List",
+      "year": 2021,
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "note": "WHO Essential Medicines List — Meloxicam listed as NSAID. Public domain."
+    },
+    {
+      "id": "pubchem-meloxicam",
+      "type": "monograph",
+      "title": "Meloxicam — PubChem CID 5281106",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Meloxicam",
+      "note": "Chemical structure, identifiers, pharmacology summary. NIH open data."
+    }
+  ],
+
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/",
+      "entryUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=meloxicam",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "who-eml",
+      "name": "WHO Model List of Essential Medicines",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publications — CC BY-NC-SA 3.0 IGO"
+    }
+  ],
+
+  "reviewedBy": null,
+
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — schema demonstration, mirrored from DailyMed + WHO EML, Thai translation + faculty review pending"
+    }
+  ]
+}
