@@ -1,0 +1,26 @@
+{
+  "cid": "f507164498eab9239b569c7ef962224ca6b0b666462e10ba3b088d3a5d83b5fb",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "NIH/NLM public domain",
+    "name": "PubChem (NIH/NLM)",
+    "sourceId": "pubchem",
+    "status": "stub",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Diltiazem"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-27T09:18:27.145Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://pubchem.ncbi.nlm.nih.gov/",
+      "contentType": "text/html",
+      "contentLength": 6151,
+      "lastModified": "Wed, 13 May 2026 18:32:13 GMT",
+      "etag": null,
+      "bodyHashSha256": "6ffafa52eb581297699fcec7b1475c9b36c4dc9404568e55e381d9ad69c2dd80",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

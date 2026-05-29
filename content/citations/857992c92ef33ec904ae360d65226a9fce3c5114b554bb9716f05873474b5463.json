@@ -1,0 +1,26 @@
+{
+  "cid": "857992c92ef33ec904ae360d65226a9fce3c5114b554bb9716f05873474b5463",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=doxycycline"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:09:40.896Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=doxycycline",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 142666,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "99465d3b6015e4986ff550b60907ecc623f23eee96afde9343c4bd2d6dce8666",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

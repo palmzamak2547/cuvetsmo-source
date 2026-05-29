@@ -1,0 +1,26 @@
+{
+  "cid": "7806ca0e56fae0933b6502565c9f094e6b09ffa955aa272862c690aa81680f8f",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=methimazole"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:09:27.971Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=methimazole",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 144275,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "48d2fa934e751946b51181bf1ac528141577633722e167b0bd3f1db75b0aefc5",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

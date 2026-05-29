@@ -1,0 +1,167 @@
+{
+  "slug": "chlorpheniramine",
+  "nameEn": "Chlorpheniramine",
+  "nameTh": "คลอร์เฟนิรามีน",
+  "class": "Antihistamine — H1 antagonist (first-generation, sedating)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Chlor-Trimeton",
+    "Piriton"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-chlorpheniramine",
+        "atc-R06AB04",
+        "pubchem-chlorpheniramine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-chlorpheniramine",
+        "atc-R06AB04",
+        "pubchem-chlorpheniramine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-chlorpheniramine",
+        "atc-R06AB04",
+        "pubchem-chlorpheniramine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-chlorpheniramine",
+        "atc-R06AB04",
+        "pubchem-chlorpheniramine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-chlorpheniramine",
+        "atc-R06AB04",
+        "pubchem-chlorpheniramine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-chlorpheniramine",
+      "type": "regulatory-database",
+      "title": "Chlorpheniramine — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=chlorpheniramine",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "7773618a0017966cbf7e0302440e09d030ed75ea48713aeb5308371f8a3fbb38"
+    },
+    {
+      "id": "atc-R06AB04",
+      "type": "guideline",
+      "title": "ATC R06AB04 — Chlorphenamine",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=R06AB04&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "af0e4ba28dcfdd1c913d1fe6ca2bbc55ee77da38970d866ae552f3a3d122b9cf"
+    },
+    {
+      "id": "pubchem-chlorpheniramine",
+      "type": "monograph",
+      "title": "Chlorpheniramine — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Chlorpheniramine",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "4cd757f7a1dc7e4bc0fb4957e6f86f3641354061f0e955728fa8b6d4f9de0381"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=chlorpheniramine",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=R06AB04&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Chlorpheniramine",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "7773618a0017966cbf7e0302440e09d030ed75ea48713aeb5308371f8a3fbb38",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "af0e4ba28dcfdd1c913d1fe6ca2bbc55ee77da38970d866ae552f3a3d122b9cf",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "4cd757f7a1dc7e4bc0fb4957e6f86f3641354061f0e955728fa8b6d4f9de0381",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "R06AB04",
+      "name": "Chlorphenamine",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "2317",
+      "name": "Chlorpheniramine"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC R06AB04 + RxNorm 2317. Thai translation + faculty review pending."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cid": "077dd26cdc9f970df1b46cf6fd223e98e9a2c4a45ed175d679a5d3c561b88637",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tmp-smx"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-27T09:16:42.888Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tmp-smx",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 77709,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "2af3fd0a15099b265a3edc800752c00463bc28401f0a882eb6e8ab8dc07c807e",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

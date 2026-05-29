@@ -1,0 +1,206 @@
+{
+  "slug": "butorphanol",
+  "nameEn": "Butorphanol",
+  "nameTh": "บูทอร์ฟานอล",
+  "class": "Opioid analgesic — κ-agonist / μ-antagonist (morphinan)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+  "brandNamesTh": [
+    "Torbugesic",
+    "Stadol"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-butorphanol",
+        "atc-N02AF01",
+        "pubchem-butorphanol",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-butorphanol",
+        "atc-N02AF01",
+        "pubchem-butorphanol",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-butorphanol",
+        "atc-N02AF01",
+        "pubchem-butorphanol",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-butorphanol",
+        "atc-N02AF01",
+        "pubchem-butorphanol",
+        "wsava-pain-2022"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-butorphanol",
+        "atc-N02AF01",
+        "pubchem-butorphanol",
+        "wsava-pain-2022"
+      ]
+    },
+    {
+      "species": "equine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-butorphanol",
+        "atc-N02AF01",
+        "pubchem-butorphanol",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-butorphanol",
+      "type": "regulatory-database",
+      "title": "Butorphanol — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=butorphanol",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "888c5d2b08423cee93fd4e37b8ad27da0f0445fa9f419992611f0ddc53099105"
+    },
+    {
+      "id": "atc-N02AF01",
+      "type": "guideline",
+      "title": "ATC N02AF01 — Butorphanol",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N02AF01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "76f843c5ab4aea3dfef2cec8db24b98bc668096c67d172a1e8ae5498af79f957"
+    },
+    {
+      "id": "pubchem-butorphanol",
+      "type": "monograph",
+      "title": "Butorphanol — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Butorphanol",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "4252685732c553c59b8ba45d9f90434f3da92b1eac18f44143cb3732cb021a68"
+    },
+    {
+      "id": "wsava-pain-2022",
+      "type": "guideline",
+      "title": "WSAVA Global Pain Council — Guidelines for Recognition, Assessment and Treatment of Pain",
+      "year": 2022,
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "note": "Cross-checked source: WSAVA global vet community standard for pain management.",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=butorphanol",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N02AF01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Butorphanol",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-pain",
+      "name": "WSAVA Global Pain Council guidelines",
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "888c5d2b08423cee93fd4e37b8ad27da0f0445fa9f419992611f0ddc53099105",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "76f843c5ab4aea3dfef2cec8db24b98bc668096c67d172a1e8ae5498af79f957",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "4252685732c553c59b8ba45d9f90434f3da92b1eac18f44143cb3732cb021a68",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-pain",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "N02AF01",
+      "name": "Butorphanol",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "1820",
+      "name": "Butorphanol"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC N02AF01 + RxNorm 1820. Thai translation + faculty review pending."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "methylprednisolone",
+  "nameEn": "Methylprednisolone",
+  "nameTh": "เมทิลเพรดนิโซโลน",
+  "class": "Glucocorticoid — intermediate-acting, lower mineralocorticoid activity than prednisolone",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Medrol",
+    "Depo-Medrol",
+    "Solu-Medrol"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-methylprednisolone",
+        "atc-H02AB04",
+        "pubchem-methylprednisolone"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-methylprednisolone",
+        "atc-H02AB04",
+        "pubchem-methylprednisolone"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-methylprednisolone",
+        "atc-H02AB04",
+        "pubchem-methylprednisolone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-methylprednisolone",
+        "atc-H02AB04",
+        "pubchem-methylprednisolone"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-methylprednisolone",
+        "atc-H02AB04",
+        "pubchem-methylprednisolone"
+      ]
+    },
+    {
+      "species": "equine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-methylprednisolone",
+        "atc-H02AB04",
+        "pubchem-methylprednisolone"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-methylprednisolone",
+      "type": "regulatory-database",
+      "title": "Methylprednisolone — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=methylprednisolone",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "8e564b17eab789f9c6eac0e7e1bea7b8ba22b76353cc61306848bf530237e6e7"
+    },
+    {
+      "id": "atc-H02AB04",
+      "type": "guideline",
+      "title": "ATC H02AB04 — Methylprednisolone",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=H02AB04&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "5b6c2aeb7ec659ba43b335378d861104928ed48cd1d72dcc0d905b7bb0a3099b"
+    },
+    {
+      "id": "pubchem-methylprednisolone",
+      "type": "monograph",
+      "title": "Methylprednisolone — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Methylprednisolone",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "3cf15f5c7b8cf2ef1350268d1617d82cb6a879da04b07090d518b8865565b0bf"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=methylprednisolone",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=H02AB04&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Methylprednisolone",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "8e564b17eab789f9c6eac0e7e1bea7b8ba22b76353cc61306848bf530237e6e7",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "5b6c2aeb7ec659ba43b335378d861104928ed48cd1d72dcc0d905b7bb0a3099b",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "3cf15f5c7b8cf2ef1350268d1617d82cb6a879da04b07090d518b8865565b0bf",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "H02AB04",
+      "name": "Methylprednisolone",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "6902",
+      "name": "Methylprednisolone"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC H02AB04 + RxNorm 6902. Thai translation + faculty review pending."
+    }
+  ]
+}

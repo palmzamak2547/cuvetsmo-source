@@ -1,0 +1,193 @@
+{
+  "slug": "hydromorphone",
+  "nameEn": "Hydromorphone",
+  "nameTh": "ไฮโดรมอร์โฟน",
+  "class": "Opioid analgesic — semi-synthetic μ-agonist (5x more potent than morphine)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+  "brandNamesTh": [
+    "Dilaudid"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-hydromorphone",
+        "atc-N02AA03",
+        "pubchem-hydromorphone",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-hydromorphone",
+        "atc-N02AA03",
+        "pubchem-hydromorphone",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-hydromorphone",
+        "atc-N02AA03",
+        "pubchem-hydromorphone",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-hydromorphone",
+        "atc-N02AA03",
+        "pubchem-hydromorphone",
+        "wsava-pain-2022"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-hydromorphone",
+        "atc-N02AA03",
+        "pubchem-hydromorphone",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-hydromorphone",
+      "type": "regulatory-database",
+      "title": "Hydromorphone — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=hydromorphone",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "f10c1358c252379d334f0c70b3e8d709f773ac8f138942ae2566d5de73604364"
+    },
+    {
+      "id": "atc-N02AA03",
+      "type": "guideline",
+      "title": "ATC N02AA03 — Hydromorphone",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N02AA03&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "928527281663b307ab39080956647fae76d9759773201ca57ebcf8b9d7b01c08"
+    },
+    {
+      "id": "pubchem-hydromorphone",
+      "type": "monograph",
+      "title": "Hydromorphone — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Hydromorphone",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "a93d6cf5c12e5b84bcf88d873c458b4e2699c05409e1feb401c5dffede14838a"
+    },
+    {
+      "id": "wsava-pain-2022",
+      "type": "guideline",
+      "title": "WSAVA Global Pain Council — Guidelines for Recognition, Assessment and Treatment of Pain",
+      "year": 2022,
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "note": "Cross-checked source: WSAVA global vet community standard for pain management.",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=hydromorphone",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N02AA03&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Hydromorphone",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-pain",
+      "name": "WSAVA Global Pain Council guidelines",
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "f10c1358c252379d334f0c70b3e8d709f773ac8f138942ae2566d5de73604364",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "928527281663b307ab39080956647fae76d9759773201ca57ebcf8b9d7b01c08",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "a93d6cf5c12e5b84bcf88d873c458b4e2699c05409e1feb401c5dffede14838a",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-pain",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "N02AA03",
+      "name": "Hydromorphone",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "3423",
+      "name": "Hydromorphone"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC N02AA03 + RxNorm 3423. Thai translation + faculty review pending."
+    }
+  ]
+}

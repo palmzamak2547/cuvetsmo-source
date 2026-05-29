@@ -1,0 +1,30 @@
+{
+  "718-7": {
+    "code": "718-7",
+    "name": "Hemoglobin [Mass/volume] in Blood",
+    "system": "Bld",
+    "scaleType": "Quantitative",
+    "note": "Common veterinary CBC parameter"
+  },
+  "2160-0": {
+    "code": "2160-0",
+    "name": "Creatinine [Mass/volume] in Serum or Plasma",
+    "system": "Ser/Plas",
+    "scaleType": "Quantitative",
+    "note": "Renal function monitoring — required before NSAID therapy"
+  },
+  "1742-6": {
+    "code": "1742-6",
+    "name": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "system": "Ser/Plas",
+    "scaleType": "Quantitative",
+    "note": "Hepatic function monitoring"
+  },
+  "6298-4": {
+    "code": "6298-4",
+    "name": "Potassium [Moles/volume] in Blood",
+    "system": "Bld",
+    "scaleType": "Quantitative",
+    "note": "Electrolyte monitoring during NSAID or diuretic therapy"
+  }
+}

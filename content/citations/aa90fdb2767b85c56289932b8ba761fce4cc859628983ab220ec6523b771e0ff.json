@@ -1,0 +1,26 @@
+{
+  "cid": "aa90fdb2767b85c56289932b8ba761fce4cc859628983ab220ec6523b771e0ff",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=dexamethasone"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-27T08:55:43.649Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=dexamethasone",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 138497,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "91616cb2600fafe6f40a25ed0e194151b013487ff4e4dbd1c38411c746f404be",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

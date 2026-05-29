@@ -1,0 +1,26 @@
+{
+  "cid": "2c279fb5d0396ea66cc246c843ac6c5f782a3768ebf754aa22966a8111d8d1b4",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=diphenhydramine"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:07:41.680Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=diphenhydramine",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 146133,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "c70ed6e6510ba348f3196c13db53bffe0effd5e43e8ad0cca0c3568cba128e9a",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

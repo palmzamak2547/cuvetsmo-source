@@ -1,0 +1,26 @@
+{
+  "cid": "29f7ea6edf16004626349e036f3eb2ea30803ca1f6efd437bff0e8a4f2f465f1",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "Free for educational use with attribution",
+    "name": "WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention",
+    "sourceId": "wsava-amr",
+    "status": "stub",
+    "url": "https://wsava.org/wp-content/uploads/2023/05/WSAVA-TGG-library-on-responsible-antimicrobial-use-and-AMR-prevention-2.pdf"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:17:33.133Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://wsava.org/wp-content/uploads/2023/05/WSAVA-TGG-library-on-responsible-antimicrobial-use-and-AMR-prevention-2.pdf",
+      "contentType": "application/pdf",
+      "contentLength": 6093667,
+      "lastModified": "Thu, 31 Oct 2024 14:10:14 GMT",
+      "etag": "\"67238fc6-5cfb63\"",
+      "bodyHashSha256": "9532329ec66edf81d111dc3542a80a5d9aa51b85d89882f79d17eb6a88bef2f3",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

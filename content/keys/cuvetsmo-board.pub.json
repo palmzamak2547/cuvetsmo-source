@@ -1,0 +1,9 @@
+{
+  "crv": "Ed25519",
+  "x": "7onMM_bCguCva_uHqAnc-9bGkH3GEHMtHSH-cLAYLwY",
+  "kty": "OKP",
+  "kid": "cuvetsmo-board",
+  "fingerprint": "ed25519:ab79526d8d088d18",
+  "displayName": "CUVETSMO Editorial Board",
+  "generatedAt": "2026-05-26T19:21:25.260Z"
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "acepromazine",
+  "nameEn": "Acepromazine",
+  "nameTh": "อะซีโพรมาซีน",
+  "class": "Tranquilizer — phenothiazine (D2 antagonist)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+  "brandNamesTh": [
+    "PromAce",
+    "Plegicil",
+    "Calmivet"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-acepromazine",
+        "atc-N05AA04",
+        "pubchem-acepromazine",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-acepromazine",
+        "atc-N05AA04",
+        "pubchem-acepromazine",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-acepromazine",
+        "atc-N05AA04",
+        "pubchem-acepromazine",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-acepromazine",
+        "atc-N05AA04",
+        "pubchem-acepromazine",
+        "wsava-anesth-2018"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-acepromazine",
+        "atc-N05AA04",
+        "pubchem-acepromazine",
+        "wsava-anesth-2018"
+      ]
+    },
+    {
+      "species": "equine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-acepromazine",
+        "atc-N05AA04",
+        "pubchem-acepromazine",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-acepromazine",
+      "type": "regulatory-database",
+      "title": "Acepromazine — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acepromazine",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "80adc7728db29f9bafd09b74ef43511557bed68d0d427b370e743e60c99ffc3e"
+    },
+    {
+      "id": "atc-N05AA04",
+      "type": "guideline",
+      "title": "ATC N05AA04 — Acepromazine",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N05AA04&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "ef38fe0c7ba0b21eabc7c86e03c7439ee9c32bdc3bef6ea69034923aac9e9149"
+    },
+    {
+      "id": "pubchem-acepromazine",
+      "type": "monograph",
+      "title": "Acepromazine — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Acepromazine",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "366e061945ce8af0e409d8c8e84bac2adbb35a6f4079a0edf7ac16fb9d6c69b5"
+    },
+    {
+      "id": "wsava-anesth-2018",
+      "type": "guideline",
+      "title": "WSAVA Anaesthesia and Sedation Guidelines",
+      "year": 2018,
+      "url": "https://wsava.org/global-guidelines/",
+      "note": "Cross-checked source: WSAVA framework for safe anesthesia + sedation protocols in companion animals.",
+      "cid": "33d00d5e60cef25ef915e1a10bce437a52b208e15173796168c8d8868a2f1090"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acepromazine",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N05AA04&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Acepromazine",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-anesth",
+      "name": "WSAVA Anaesthesia & Sedation guidelines",
+      "url": "https://wsava.org/global-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "80adc7728db29f9bafd09b74ef43511557bed68d0d427b370e743e60c99ffc3e",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "ef38fe0c7ba0b21eabc7c86e03c7439ee9c32bdc3bef6ea69034923aac9e9149",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "366e061945ce8af0e409d8c8e84bac2adbb35a6f4079a0edf7ac16fb9d6c69b5",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-anesth",
+      "cid": "33d00d5e60cef25ef915e1a10bce437a52b208e15173796168c8d8868a2f1090",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "N05AA04",
+      "name": "Acepromazine",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "65",
+      "name": "Acepromazine"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Anaesthesia & Sedation guidelines). ATC N05AA04 + RxNorm 65. Thai translation + faculty review pending."
+    }
+  ]
+}

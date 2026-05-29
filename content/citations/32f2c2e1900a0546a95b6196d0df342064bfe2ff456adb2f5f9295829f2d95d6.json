@@ -1,0 +1,26 @@
+{
+  "cid": "32f2c2e1900a0546a95b6196d0df342064bfe2ff456adb2f5f9295829f2d95d6",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=pyrantel"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:07:51.277Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=pyrantel",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 142179,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "5e2265d00ae7408f31a2bf75107b882b5d30d09357146ef17d5d74bd8cb4dac2",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cid": "896842f152b73e1034c71b08dc8a877098f9b6ecf60f40557ae5560576c4ea7b",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=spironolactone"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:09:51.747Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=spironolactone",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 137939,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "6410169493ff4e93be80df60ed39ca42d1ce22d5a7bdeabaf836e4a687181886",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

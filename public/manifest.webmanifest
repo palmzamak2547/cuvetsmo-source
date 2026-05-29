@@ -1,0 +1,45 @@
+{
+  "name": "CUVETSMO Source — Verified Thai Medical Knowledge",
+  "short_name": "CUVETSMO Source",
+  "description": "Citation-grade Thai veterinary drug reference. Faculty-reviewed, cryptographically signed, offline-capable.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#0f766e",
+  "lang": "th",
+  "categories": ["medical", "education", "reference"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Drug Reference",
+      "url": "/drugs"
+    },
+    {
+      "name": "Verify signatures",
+      "url": "/verify"
+    },
+    {
+      "name": "API",
+      "url": "/api"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cid": "414e8fa8691b9961ce7c82e83ca35c0763f1cfe53258dee45fa8476c15c48142",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ondansetron"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:08:18.343Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ondansetron",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 141686,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "94f2bb63cf2d4eebc3e78c7beaa2067e9d99c24f5d76e962d80a99bab294182e",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

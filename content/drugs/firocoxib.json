@@ -1,0 +1,211 @@
+{
+  "slug": "firocoxib",
+  "nameEn": "Firocoxib",
+  "nameTh": "ไฟโรค็อกซิบ",
+  "class": "NSAID — COX-2 selective coxib (veterinary)",
+  "mechanism": "ยากลุ่ม coxib ที่ยับยั้ง COX-2 อย่างจำเพาะสูง (ในสุนัข ~384 เท่าเทียบ COX-1 ใน whole-blood assay) จึงลดการสร้าง prostaglandin ที่ก่อการอักเสบและความปวด โดยกระทบ COX-1 ที่ปกป้อง GI mucosa และการไหลเวียนเลือดที่ไตน้อยกว่า nonselective NSAID; ดูดซึมเร็ว จับโปรตีน ~96% t½ ~8 ชั่วโมง",
+  "brandNamesTh": [
+    "Previcox",
+    "Equioxx"
+  ],
+  "indications": [
+    {
+      "text": "สุนัข — ควบคุมความปวดและการอักเสบจากโรคข้อเสื่อม (osteoarthritis) และความปวดหลังผ่าตัด; ได้รับการรับรองจาก FDA (Previcox)",
+      "cites": [
+        "merck-vet-nsaid",
+        "pubchem-firocoxib"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามใช้ในสัตว์ที่มีโรคไต/ตับ/หัวใจ, ภาวะขาดน้ำ, แผล/เลือดออกในทางเดินอาหาร, ความผิดปกติของการแข็งตัวของเลือด, และห้ามใช้ร่วมกับ NSAID อื่นหรือ corticosteroid",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระบบทางเดินอาหาร (อาเจียน ท้องเสีย เบื่ออาหาร) — โปรไฟล์ GI ดีกว่า nonselective NSAID เนื่องจาก COX-2 selective; ผลต่อไตและตับพบน้อย",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Osteoarthritis / post-operative pain",
+      "route": "PO",
+      "dose": "5 mg/kg วันละครั้ง",
+      "notes": "ใช้ขนาดต่ำสุดที่ได้ผล; ประเมินไต/ตับเมื่อใช้ระยะยาว",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-vet-nsaid",
+      "type": "textbook",
+      "title": "NSAIDs in Animals — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/nonsteroidal-anti-inflammatory-drugs-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — verified canine dose, COX selectivity, adverse-effect profile. Copyrighted — cited, not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-firocoxib",
+      "type": "monograph",
+      "title": "Firocoxib — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Firocoxib",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-firocoxib",
+      "type": "regulatory-database",
+      "title": "Firocoxib — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=firocoxib",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "8c6922c90349a51cd594a8d1823951a692a036af1373700659a723d31892bb93"
+    },
+    {
+      "id": "atc-M01AH05",
+      "type": "guideline",
+      "title": "ATC M01AH05 — Firocoxib",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AH05&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "4166fe9dbe03fcb3e04e7ba4462fec15737526555fd8396cfa88749d0d76a2ed"
+    },
+    {
+      "id": "pubchem-firocoxib",
+      "type": "monograph",
+      "title": "Firocoxib — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Firocoxib",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "fb20e59e7c26e5d85d6772793d15d4fd46e43fa6c60ae025fc259b0629c3214f"
+    },
+    {
+      "id": "wsava-pain-2022",
+      "type": "guideline",
+      "title": "WSAVA Global Pain Council — Guidelines for Recognition, Assessment and Treatment of Pain",
+      "year": 2022,
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "note": "Cross-checked source: WSAVA global vet community standard for pain management.",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=firocoxib",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AH05&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Firocoxib",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-pain",
+      "name": "WSAVA Global Pain Council guidelines",
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "8c6922c90349a51cd594a8d1823951a692a036af1373700659a723d31892bb93",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "4166fe9dbe03fcb3e04e7ba4462fec15737526555fd8396cfa88749d0d76a2ed",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "fb20e59e7c26e5d85d6772793d15d4fd46e43fa6c60ae025fc259b0629c3214f",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-pain",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "M01AH05",
+      "name": "Firocoxib",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "1310824",
+      "name": "Firocoxib"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC M01AH05 + RxNorm 1310824. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — canine dose 5 mg/kg/day + 384-fold COX-2 selectivity verified against Merck Veterinary Manual. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "interactions": [
+    {
+      "text": "เพิ่มความเสี่ยงเป็นพิษเมื่อใช้ร่วมกับ NSAID อื่น, corticosteroid, ยาขับปัสสาวะ, ACE inhibitor หรือยาพิษต่อไต; เว้น washout เมื่อเปลี่ยนจาก NSAID/steroid",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจค่าไต/ตับก่อนเริ่มและเป็นระยะเมื่อใช้ระยะยาว; หยุดยาหากมีอาการ GI",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ]
+}

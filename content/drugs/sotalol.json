@@ -1,0 +1,156 @@
+{
+  "slug": "sotalol",
+  "nameEn": "Sotalol",
+  "nameTh": "โซตาลอล",
+  "class": "Class III antiarrhythmic + non-selective beta blocker (ventricular tachyarrhythmia in dogs)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Betapace",
+    "Sotalex"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-sotalol",
+        "atc-C07AA07",
+        "pubchem-sotalol"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-sotalol",
+        "atc-C07AA07",
+        "pubchem-sotalol"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-sotalol",
+        "atc-C07AA07",
+        "pubchem-sotalol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-sotalol",
+        "atc-C07AA07",
+        "pubchem-sotalol"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-sotalol",
+      "type": "regulatory-database",
+      "title": "Sotalol — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sotalol",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "7af223b1afc5a7045c1a46bca7d556a84ba79aa21e3aaaf91cdae993447d7bba"
+    },
+    {
+      "id": "atc-C07AA07",
+      "type": "guideline",
+      "title": "ATC C07AA07 — Sotalol",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C07AA07&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "7adbc251c99ae86fabeb5a8e286fb1436a5b523341e8bf6298215929306e7906"
+    },
+    {
+      "id": "pubchem-sotalol",
+      "type": "monograph",
+      "title": "Sotalol — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Sotalol",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "af93054a2e16047a5558c6009af537540401a8fb272728ecb219c87e3b62a562"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sotalol",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C07AA07&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Sotalol",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "7af223b1afc5a7045c1a46bca7d556a84ba79aa21e3aaaf91cdae993447d7bba",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "7adbc251c99ae86fabeb5a8e286fb1436a5b523341e8bf6298215929306e7906",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "af93054a2e16047a5558c6009af537540401a8fb272728ecb219c87e3b62a562",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "C07AA07",
+      "name": "Sotalol",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "9947",
+      "name": "Sotalol"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC C07AA07 + RxNorm 9947. Thai translation + faculty review pending."
+    }
+  ]
+}

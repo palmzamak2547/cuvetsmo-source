@@ -1,0 +1,26 @@
+{
+  "cid": "f1ff634d5ccb62c68d988af8f5171c954e4edb3d881e09514e511a0a99281419",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=itraconazole"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:12:15.280Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=itraconazole",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 137619,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "7f02789e02de7fbd064890bf7bc098431cec3e3c73a7d7fe183f7c1fc56b063e",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

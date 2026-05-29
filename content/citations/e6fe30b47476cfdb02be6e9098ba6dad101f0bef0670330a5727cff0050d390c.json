@@ -1,0 +1,26 @@
+{
+  "cid": "e6fe30b47476cfdb02be6e9098ba6dad101f0bef0670330a5727cff0050d390c",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "NIH/NLM public domain",
+    "name": "PubChem — Compound Summary for Meloxicam (CID 5281106)",
+    "sourceId": "pubchem",
+    "status": "stub",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281106"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:02:34.854Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/5281106",
+      "contentType": "text/html",
+      "contentLength": 6428,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "7b1948eb8442e376737224ef43df153976845eb45835404ccd5266201252e349",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cid": "65f15af11f2c1a6a4a23ff7b3094af2e36fef477c604bc34461641fa3fa50d5a",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=meloxicam"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:02:28.192Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=meloxicam",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 145255,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "377b3631e1f6ef5ab145b7e74bc3bbf4191bcdc014ff523a270a57f3f7fd6250",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

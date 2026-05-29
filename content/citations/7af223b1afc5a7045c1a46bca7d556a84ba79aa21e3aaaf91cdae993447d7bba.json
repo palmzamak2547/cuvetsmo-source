@@ -1,0 +1,26 @@
+{
+  "cid": "7af223b1afc5a7045c1a46bca7d556a84ba79aa21e3aaaf91cdae993447d7bba",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sotalol"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-27T08:55:30.805Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sotalol",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 154515,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "9b8b5713583149c5cf22f993fd8458c43545fd2e5817907740ad11d32fdca2de",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

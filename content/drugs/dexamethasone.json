@@ -1,0 +1,206 @@
+{
+  "slug": "dexamethasone",
+  "nameEn": "Dexamethasone",
+  "nameTh": "เด็กซาเมทาโซน",
+  "class": "Glucocorticoid — potent long-acting, anti-inflammatory + immunosuppressive (emergency use)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "brandNamesTh": [
+    "Decadron",
+    "Voren"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-dexamethasone",
+        "atc-H02AB02",
+        "pubchem-dexamethasone",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-dexamethasone",
+        "atc-H02AB02",
+        "pubchem-dexamethasone",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-dexamethasone",
+        "atc-H02AB02",
+        "pubchem-dexamethasone",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-dexamethasone",
+        "atc-H02AB02",
+        "pubchem-dexamethasone",
+        "who-eml-22"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-dexamethasone",
+        "atc-H02AB02",
+        "pubchem-dexamethasone",
+        "who-eml-22"
+      ]
+    },
+    {
+      "species": "equine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-dexamethasone",
+        "atc-H02AB02",
+        "pubchem-dexamethasone",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-dexamethasone",
+      "type": "regulatory-database",
+      "title": "Dexamethasone — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=dexamethasone",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "aa90fdb2767b85c56289932b8ba761fce4cc859628983ab220ec6523b771e0ff"
+    },
+    {
+      "id": "atc-H02AB02",
+      "type": "guideline",
+      "title": "ATC H02AB02 — Dexamethasone",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=H02AB02&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "b85fd6c4380a92443ca7ecbcb4e3127b0987ed50dc66feee9eb85a560e67de12"
+    },
+    {
+      "id": "pubchem-dexamethasone",
+      "type": "monograph",
+      "title": "Dexamethasone — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Dexamethasone",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "254d3241717d66bd42e8108c84baac603377e50081f526cdc36c5b22c3958b4e"
+    },
+    {
+      "id": "who-eml-22",
+      "type": "guideline",
+      "title": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "year": 2021,
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "note": "Cross-checked source: drug appears on WHO EML — WHO recognizes its place in basic healthcare.",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=dexamethasone",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=H02AB02&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Dexamethasone",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "who-eml",
+      "name": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "asOfDate": "2026-05-27",
+      "license": "CC BY-NC-SA 3.0 IGO"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "aa90fdb2767b85c56289932b8ba761fce4cc859628983ab220ec6523b771e0ff",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "b85fd6c4380a92443ca7ecbcb4e3127b0987ed50dc66feee9eb85a560e67de12",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "254d3241717d66bd42e8108c84baac603377e50081f526cdc36c5b22c3958b4e",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "who-eml",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "H02AB02",
+      "name": "Dexamethasone",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "3264",
+      "name": "Dexamethasone"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC H02AB02 + RxNorm 3264. Thai translation + faculty review pending."
+    }
+  ]
+}

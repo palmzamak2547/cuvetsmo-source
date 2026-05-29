@@ -1,0 +1,26 @@
+{
+  "cid": "33d00d5e60cef25ef915e1a10bce437a52b208e15173796168c8d8868a2f1090",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "Free for educational use with attribution",
+    "name": "WSAVA Anaesthesia & Sedation guidelines",
+    "sourceId": "wsava-anesth",
+    "status": "stub",
+    "url": "https://wsava.org/global-guidelines/"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:03:47.957Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://wsava.org/global-guidelines/",
+      "contentType": "text/html; charset=UTF-8",
+      "contentLength": 141255,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "0e71cc86bb804735471a8c82e6b5eb3c6027a7bae519de333804337bace4fd3f",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

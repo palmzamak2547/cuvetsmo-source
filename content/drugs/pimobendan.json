@@ -1,0 +1,153 @@
+{
+  "slug": "pimobendan",
+  "nameEn": "Pimobendan",
+  "nameTh": "พิโมเบนแดน",
+  "class": "Inodilator — calcium sensitizer + PDE3 inhibitor (veterinary-only, congestive heart failure in dogs)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Vetmedin",
+    "Cardisure",
+    "Acardi"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-pimobendan",
+        "atc-QC01CE90",
+        "pubchem-pimobendan"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-pimobendan",
+        "atc-QC01CE90",
+        "pubchem-pimobendan"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-pimobendan",
+        "atc-QC01CE90",
+        "pubchem-pimobendan"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-pimobendan",
+        "atc-QC01CE90",
+        "pubchem-pimobendan"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-pimobendan",
+      "type": "regulatory-database",
+      "title": "Pimobendan — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=pimobendan",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "efdfc9b283119e1b50020317d118937b4e1110a1f32ab864fe675435a7907327"
+    },
+    {
+      "id": "atc-QC01CE90",
+      "type": "guideline",
+      "title": "ATC QC01CE90 — Pimobendan (veterinary)",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QC01CE90&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "eef68155e0bd3a3af1a836805aec06da9325a8ce208ebe55698f74b9ef560e28"
+    },
+    {
+      "id": "pubchem-pimobendan",
+      "type": "monograph",
+      "title": "Pimobendan — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Pimobendan",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "8c28390fe8adb425a620adbee0fdc9eb4ef3db01d518d9fb64052f5f6c394cc9"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=pimobendan",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QC01CE90&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Pimobendan",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "efdfc9b283119e1b50020317d118937b4e1110a1f32ab864fe675435a7907327",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "eef68155e0bd3a3af1a836805aec06da9325a8ce208ebe55698f74b9ef560e28",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "8c28390fe8adb425a620adbee0fdc9eb4ef3db01d518d9fb64052f5f6c394cc9",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "QC01CE90",
+      "name": "Pimobendan (veterinary)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC QC01CE90 (vet-only, no human RxNorm CUI). Thai translation + faculty review pending."
+    }
+  ]
+}

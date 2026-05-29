@@ -1,0 +1,168 @@
+{
+  "slug": "cyclosporine",
+  "nameEn": "Cyclosporine",
+  "nameTh": "ไซโคลสปอริน",
+  "class": "Calcineurin inhibitor immunosuppressant — atopic dermatitis, IMHA, KCS (eye drops)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Atopica",
+    "Optimmune (ocular)",
+    "Neoral"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-cyclosporine",
+        "atc-L04AD01",
+        "pubchem-cyclosporine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-cyclosporine",
+        "atc-L04AD01",
+        "pubchem-cyclosporine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-cyclosporine",
+        "atc-L04AD01",
+        "pubchem-cyclosporine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-cyclosporine",
+        "atc-L04AD01",
+        "pubchem-cyclosporine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-cyclosporine",
+        "atc-L04AD01",
+        "pubchem-cyclosporine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-cyclosporine",
+      "type": "regulatory-database",
+      "title": "Cyclosporine — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cyclosporine",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "abf1e16953a0245b48cd9d9414d0dafe129e808934c0c28fee6df4ca71c45706"
+    },
+    {
+      "id": "atc-L04AD01",
+      "type": "guideline",
+      "title": "ATC L04AD01 — Ciclosporin (Cyclosporine)",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=L04AD01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "86c2b8a9e9f7000116d36442504f6fef70c796c1cadd4e22b3c462ea15762d9d"
+    },
+    {
+      "id": "pubchem-cyclosporine",
+      "type": "monograph",
+      "title": "Cyclosporine — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Cyclosporine",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "e20a151fdc14a7108be5a4ef4f732716a950fc96748231069053540e18ad4fce"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cyclosporine",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=L04AD01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Cyclosporine",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "abf1e16953a0245b48cd9d9414d0dafe129e808934c0c28fee6df4ca71c45706",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "86c2b8a9e9f7000116d36442504f6fef70c796c1cadd4e22b3c462ea15762d9d",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "e20a151fdc14a7108be5a4ef4f732716a950fc96748231069053540e18ad4fce",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "L04AD01",
+      "name": "Ciclosporin (Cyclosporine)",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "3008",
+      "name": "Cyclosporine"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC L04AD01 + RxNorm 3008. Thai translation + faculty review pending."
+    }
+  ]
+}

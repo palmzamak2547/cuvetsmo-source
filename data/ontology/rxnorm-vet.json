@@ -1,0 +1,76 @@
+{
+  "6915":    { "cui": "6915",    "name": "Meloxicam",        "synonyms": ["Mobic", "Metacam", "Loxicom"], "xrefs": [{ "system": "ATC", "code": "M01AC06" }, { "system": "PubChem", "code": "5281106" }] },
+  "40048":   { "cui": "40048",   "name": "Carprofen",        "synonyms": ["Rimadyl", "Norocarp"],        "xrefs": [{ "system": "ATC", "code": "M01AE17" }] },
+  "1310824": { "cui": "1310824", "name": "Firocoxib",        "synonyms": ["Previcox", "Equioxx"],        "xrefs": [{ "system": "ATC", "code": "M01AH05" }] },
+  "6142":    { "cui": "6142",    "name": "Ketoprofen",       "synonyms": ["Ketofen"],                    "xrefs": [{ "system": "ATC", "code": "M01AE03" }] },
+  "8525":    { "cui": "8525",    "name": "Piroxicam",        "synonyms": ["Feldene"],                    "xrefs": [{ "system": "ATC", "code": "M01AC01" }] },
+  "5640":    { "cui": "5640",    "name": "Ibuprofen",                                                     "xrefs": [{ "system": "ATC", "code": "M01AE01" }] },
+  "3355":    { "cui": "3355",    "name": "Diclofenac",                                                    "xrefs": [{ "system": "ATC", "code": "M01AB05" }] },
+
+  "7052":    { "cui": "7052",    "name": "Morphine",                                                       "xrefs": [{ "system": "ATC", "code": "N02AA01" }] },
+  "4337":    { "cui": "4337",    "name": "Fentanyl",                                                       "xrefs": [{ "system": "ATC", "code": "N02AB03" }] },
+  "1819":    { "cui": "1819",    "name": "Buprenorphine",                                                  "xrefs": [{ "system": "ATC", "code": "N02AE01" }] },
+  "1820":    { "cui": "1820",    "name": "Butorphanol",                                                    "xrefs": [{ "system": "ATC", "code": "N02AF01" }] },
+  "10689":   { "cui": "10689",   "name": "Tramadol",                                                       "xrefs": [{ "system": "ATC", "code": "N02AX02" }] },
+
+  "723":     { "cui": "723",     "name": "Amoxicillin",      "synonyms": ["Synulox", "Clavamox"],         "xrefs": [{ "system": "ATC", "code": "J01CA04" }] },
+  "3640":    { "cui": "3640",    "name": "Doxycycline",      "synonyms": ["Vibramycin", "Doxiratio"],     "xrefs": [{ "system": "ATC", "code": "J01AA02" }] },
+  "2231":    { "cui": "2231",    "name": "Cefalexin",        "synonyms": ["Keflex", "Cephalexin"],        "xrefs": [{ "system": "ATC", "code": "J01DB01" }] },
+  "6922":    { "cui": "6922",    "name": "Metronidazole",    "synonyms": ["Flagyl"],                      "xrefs": [{ "system": "ATC", "code": "P01AB01" }] },
+  "37617":   { "cui": "37617",   "name": "Enrofloxacin",     "synonyms": ["Baytril"],                     "xrefs": [{ "system": "ATC", "code": "J01MA90" }] },
+
+  "6130":    { "cui": "6130",    "name": "Ketamine",                                                       "xrefs": [{ "system": "ATC", "code": "N01AX03" }] },
+  "8782":    { "cui": "8782",    "name": "Propofol",         "synonyms": ["Diprivan"],                     "xrefs": [{ "system": "ATC", "code": "N01AX10" }] },
+  "3322":    { "cui": "3322",    "name": "Diazepam",         "synonyms": ["Valium"],                       "xrefs": [{ "system": "ATC", "code": "N05BA01" }] },
+  "6960":    { "cui": "6960",    "name": "Midazolam",        "synonyms": ["Versed", "Dormicum"],           "xrefs": [{ "system": "ATC", "code": "N05CD08" }] },
+  "48937":   { "cui": "48937",   "name": "Dexmedetomidine",  "synonyms": ["Dexdomitor", "Precedex"],       "xrefs": [{ "system": "ATC", "code": "N05CM18" }] },
+  "65":      { "cui": "65",      "name": "Acepromazine",     "synonyms": ["PromAce", "Plegicil"],          "xrefs": [{ "system": "ATC", "code": "N05AA04" }] },
+
+  "6857":    { "cui": "6857",    "name": "Metoclopramide",   "synonyms": ["Reglan", "Plasil"],             "xrefs": [{ "system": "ATC", "code": "A03FA01" }] },
+  "4603":    { "cui": "4603",    "name": "Furosemide",       "synonyms": ["Lasix"],                        "xrefs": [{ "system": "ATC", "code": "C03CA01" }] },
+
+  "6058":    { "cui": "6058",    "name": "Ivermectin",       "synonyms": ["Heartgard", "Ivomec"],          "xrefs": [{ "system": "ATC", "code": "P02CF01" }] },
+  "8612":    { "cui": "8612",    "name": "Praziquantel",     "synonyms": ["Droncit", "Drontal"],           "xrefs": [{ "system": "ATC", "code": "P02BA01" }] },
+  "8819":    { "cui": "8819",    "name": "Pyrantel",         "synonyms": ["Strongid", "Nemex"],            "xrefs": [{ "system": "ATC", "code": "P02CC01" }] },
+
+  "6135":    { "cui": "6135",    "name": "Ketoconazole",                                                   "xrefs": [{ "system": "ATC", "code": "J02AB02" }] },
+  "4450":    { "cui": "4450",    "name": "Fluconazole",      "synonyms": ["Diflucan"],                     "xrefs": [{ "system": "ATC", "code": "J02AC01" }] },
+  "5829":    { "cui": "5829",    "name": "Itraconazole",     "synonyms": ["Sporanox", "Itrafungol"],       "xrefs": [{ "system": "ATC", "code": "J02AC02" }] },
+
+  "3498":    { "cui": "3498",    "name": "Diphenhydramine",  "synonyms": ["Benadryl"],                     "xrefs": [{ "system": "ATC", "code": "R06AA02" }] },
+  "2317":    { "cui": "2317",    "name": "Chlorpheniramine", "synonyms": ["Chlor-Trimeton"],               "xrefs": [{ "system": "ATC", "code": "R06AB04" }] },
+  "20610":   { "cui": "20610",   "name": "Cetirizine",       "synonyms": ["Zyrtec"],                       "xrefs": [{ "system": "ATC", "code": "R06AE07" }] },
+
+  "7646":    { "cui": "7646",    "name": "Omeprazole",       "synonyms": ["Prilosec", "Losec"],            "xrefs": [{ "system": "ATC", "code": "A02BC01" }] },
+  "4278":    { "cui": "4278",    "name": "Famotidine",       "synonyms": ["Pepcid"],                       "xrefs": [{ "system": "ATC", "code": "A02BA03" }] },
+  "26225":   { "cui": "26225",   "name": "Ondansetron",      "synonyms": ["Zofran"],                       "xrefs": [{ "system": "ATC", "code": "A04AA01" }] },
+
+  "18867":   { "cui": "18867",   "name": "Benazepril",       "synonyms": ["Fortekor", "Lotensin"],         "xrefs": [{ "system": "ATC", "code": "C09AA07" }] },
+  "9997":    { "cui": "9997",    "name": "Spironolactone",   "synonyms": ["Aldactone", "Prilactone"],      "xrefs": [{ "system": "ATC", "code": "C03DA01" }] },
+  "3407":    { "cui": "3407",    "name": "Digoxin",          "synonyms": ["Lanoxin"],                      "xrefs": [{ "system": "ATC", "code": "C01AA05" }] },
+
+  "6835":    { "cui": "6835",    "name": "Methimazole",      "synonyms": ["Tapazole", "Felimazole"],       "xrefs": [{ "system": "ATC", "code": "H03BB02" }] },
+
+  "8638":    { "cui": "8638",    "name": "Prednisolone",                                                   "xrefs": [{ "system": "ATC", "code": "H02AB06" }] },
+  "8640":    { "cui": "8640",    "name": "Prednisone",                                                     "xrefs": [{ "system": "ATC", "code": "H02AB07" }] },
+  "3264":    { "cui": "3264",    "name": "Dexamethasone",                                                  "xrefs": [{ "system": "ATC", "code": "H02AB02" }] },
+  "1202":    { "cui": "1202",    "name": "Atenolol",         "synonyms": ["Tenormin"],                     "xrefs": [{ "system": "ATC", "code": "C07AB03" }] },
+  "9947":    { "cui": "9947",    "name": "Sotalol",          "synonyms": ["Betapace"],                     "xrefs": [{ "system": "ATC", "code": "C07AA07" }] },
+  "7242":    { "cui": "7242",    "name": "Naloxone",         "synonyms": ["Narcan"],                       "xrefs": [{ "system": "ATC", "code": "V03AB15" }] },
+  "10582":   { "cui": "10582",   "name": "Levothyroxine",    "synonyms": ["Synthroid", "Thyro-Tabs"],      "xrefs": [{ "system": "ATC", "code": "H03AA01" }] },
+  "8134":    { "cui": "8134",    "name": "Phenobarbital",    "synonyms": ["Luminal"],                      "xrefs": [{ "system": "ATC", "code": "N03AA02" }] },
+  "5856":    { "cui": "5856",    "name": "Insulin (human)",  "synonyms": ["Humulin", "Vetsulin (porcine)"], "xrefs": [{ "system": "ATC", "code": "A10AB01" }] },
+  "67108":   { "cui": "67108",   "name": "Enoxaparin",       "synonyms": ["Lovenox", "Clexane"],           "xrefs": [{ "system": "ATC", "code": "B01AB05" }] },
+
+  "4849":    { "cui": "4849",    "name": "Gabapentin",       "synonyms": ["Neurontin"],                    "xrefs": [{ "system": "ATC", "code": "N03AX12" }] },
+  "2582":    { "cui": "2582",    "name": "Clindamycin",      "synonyms": ["Antirobe", "Cleocin"],          "xrefs": [{ "system": "ATC", "code": "J01FF01" }] },
+  "10180":   { "cui": "10180",   "name": "Trimethoprim and sulfamethoxazole", "synonyms": ["Bactrim", "Septra", "Tribrissen"], "xrefs": [{ "system": "ATC", "code": "J01EE01" }] },
+  "17767":   { "cui": "17767",   "name": "Amlodipine",       "synonyms": ["Norvasc"],                      "xrefs": [{ "system": "ATC", "code": "C08CA01" }] },
+  "3443":    { "cui": "3443",    "name": "Diltiazem",        "synonyms": ["Cardizem", "Dilacor"],          "xrefs": [{ "system": "ATC", "code": "C08DB01" }] },
+  "3423":    { "cui": "3423",    "name": "Hydromorphone",    "synonyms": ["Dilaudid"],                     "xrefs": [{ "system": "ATC", "code": "N02AA03" }] },
+  "6902":    { "cui": "6902",    "name": "Methylprednisolone", "synonyms": ["Medrol", "Depo-Medrol", "Solu-Medrol"], "xrefs": [{ "system": "ATC", "code": "H02AB04" }] },
+  "3008":    { "cui": "3008",    "name": "Cyclosporine",     "synonyms": ["Atopica", "Optimmune", "Neoral", "Sandimmune"], "xrefs": [{ "system": "ATC", "code": "L04AD01" }] },
+  "10156":   { "cui": "10156",   "name": "Sucralfate",       "synonyms": ["Carafate"],                     "xrefs": [{ "system": "ATC", "code": "A02BX02" }] },
+  "6929":    { "cui": "6929",    "name": "Mirtazapine",      "synonyms": ["Remeron", "Mirataz"],           "xrefs": [{ "system": "ATC", "code": "N06AX11" }] },
+  "10324":   { "cui": "10324",   "name": "Theophylline",     "synonyms": ["Theo-Dur"],                     "xrefs": [{ "system": "ATC", "code": "R03DA04" }] }
+}

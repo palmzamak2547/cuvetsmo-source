@@ -1,0 +1,60 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="source.cuvetsmo.com mark">
+  <!-- Modern monogram for source.cuvetsmo.com.
+       Bold sans S in deep teal rounded square with a coral verification dot.
+       Designed to read clearly at 16×16 favicon and scale up to hero sizes. -->
+
+  <defs>
+    <linearGradient id="bgGloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#0a635a"/>
+      <stop offset="100%" stop-color="#053634"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body — deep teal with subtle vertical gradient for depth -->
+  <rect width="64" height="64" rx="14" fill="url(#bgGloss)"/>
+
+  <!-- Inner stroke for crisper edge -->
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5"
+        fill="none" stroke="#063934" stroke-width="1"/>
+
+  <!-- Custom S — geometric path, font-independent, bold modern.
+       Construction: stacked horizontal pills connected by short verticals,
+       smoothed into a single flowing path. -->
+  <path
+    d="M 21 17
+       C 18 17, 16 19, 16 22
+       C 16 25, 18 27, 21 27
+       L 41 27
+       C 44 27, 46 30, 46 33
+       L 46 35
+       C 46 38, 44 40, 41 40
+       L 21 40
+       C 18 40, 16 42, 16 45
+       C 16 48, 18 50, 21 50
+       L 47 50
+       L 47 44
+       L 24 44
+       L 24 44
+       L 22 44
+       L 38 44
+       L 38 33
+       L 19 33
+       L 41 33
+       L 41 22
+       L 21 22 Z"
+    fill="#fbfaf7"
+    style="display:none"/>
+
+  <!-- Simpler S using text with bold modern sans stack. Letter-spacing -0.04em
+       tightens it for the geometric feel. -->
+  <text x="32" y="48"
+        font-family="'Inter Tight', 'Inter', 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="44" font-weight="900"
+        fill="#fbfaf7" text-anchor="middle"
+        letter-spacing="-2">S</text>
+
+  <!-- Verification accent — small coral dot at upper-right.
+       Implies "checked / flagged / source-of-truth marker". -->
+  <circle cx="50" cy="14" r="3.2" fill="#FB923C"/>
+  <circle cx="50" cy="14" r="1.6" fill="#FED7AA"/>
+</svg>

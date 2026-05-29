@@ -1,0 +1,193 @@
+{
+  "slug": "amlodipine",
+  "nameEn": "Amlodipine",
+  "nameTh": "แอมโลดิพีน",
+  "class": "Calcium channel blocker (dihydropyridine) — first-line for feline hypertension",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "brandNamesTh": [
+    "Norvasc"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-amlodipine",
+        "atc-C08CA01",
+        "pubchem-amlodipine",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-amlodipine",
+        "atc-C08CA01",
+        "pubchem-amlodipine",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-amlodipine",
+        "atc-C08CA01",
+        "pubchem-amlodipine",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-amlodipine",
+        "atc-C08CA01",
+        "pubchem-amlodipine",
+        "who-eml-22"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-amlodipine",
+        "atc-C08CA01",
+        "pubchem-amlodipine",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-amlodipine",
+      "type": "regulatory-database",
+      "title": "Amlodipine — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=amlodipine",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "e5382152f9cb6c86229e3b25f3db869df5980f78cbcb424e6d3d20b2d28f4057"
+    },
+    {
+      "id": "atc-C08CA01",
+      "type": "guideline",
+      "title": "ATC C08CA01 — Amlodipine",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C08CA01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "751c7aa17ff75256ee22597f11096d5d99a69378d7e4fcbb65f3e502a5a4c535"
+    },
+    {
+      "id": "pubchem-amlodipine",
+      "type": "monograph",
+      "title": "Amlodipine — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Amlodipine",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "36fc59d399cddd85c2c2664820f4ef3de10a956b0e4eb87c26bf32837a3e9e13"
+    },
+    {
+      "id": "who-eml-22",
+      "type": "guideline",
+      "title": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "year": 2021,
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "note": "Cross-checked source: drug appears on WHO EML — WHO recognizes its place in basic healthcare.",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=amlodipine",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C08CA01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Amlodipine",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "who-eml",
+      "name": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "asOfDate": "2026-05-27",
+      "license": "CC BY-NC-SA 3.0 IGO"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "e5382152f9cb6c86229e3b25f3db869df5980f78cbcb424e6d3d20b2d28f4057",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "751c7aa17ff75256ee22597f11096d5d99a69378d7e4fcbb65f3e502a5a4c535",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "36fc59d399cddd85c2c2664820f4ef3de10a956b0e4eb87c26bf32837a3e9e13",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "who-eml",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "C08CA01",
+      "name": "Amlodipine",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "17767",
+      "name": "Amlodipine"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC C08CA01 + RxNorm 17767. Thai translation + faculty review pending."
+    }
+  ]
+}

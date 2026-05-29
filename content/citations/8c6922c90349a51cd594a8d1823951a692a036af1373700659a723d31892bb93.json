@@ -1,0 +1,26 @@
+{
+  "cid": "8c6922c90349a51cd594a8d1823951a692a036af1373700659a723d31892bb93",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=firocoxib"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:10:01.515Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=firocoxib",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 140946,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "484b5fd3662edbfc3a9be1d7dc3c24be2aca355c8563c736e471b4789eb4e365",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

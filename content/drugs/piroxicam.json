@@ -1,0 +1,209 @@
+{
+  "slug": "piroxicam",
+  "nameEn": "Piroxicam",
+  "nameTh": "ไพร็อกซิแคม",
+  "class": "NSAID — oxicam derivative (notable antitumor use)",
+  "mechanism": "ยากลุ่ม NSAID ชนิด oxicam ยับยั้ง COX แบบ nonselective; มี enterohepatic recycling ทำให้ครึ่งชีวิตยาว; นอกจากฤทธิ์ต้านการอักเสบ มีฤทธิ์ต้านมะเร็ง (antitumor) ที่น่าสนใจในสุนัข",
+  "brandNamesTh": [
+    "Feldene"
+  ],
+  "indications": [
+    {
+      "text": "สุนัข — ใช้เป็น adjunct ในมะเร็ง โดยเฉพาะ transitional cell carcinoma (TCC) ของกระเพาะปัสสาวะ ที่มีรายงานช่วยลดขนาดก้อนเนื้องอก; ใช้ด้วยความระวังเนื่องจากขอบเขตความปลอดภัยแคบ",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ความเสี่ยงสูงต่อแผล/เลือดออกในทางเดินอาหาร และ renal papillary necrosis; ห้ามใช้ในโรคไต/ตับและภาวะ GI ulcer; ควรให้ร่วมกับยาปกป้องทางเดินอาหาร (GI protectant)",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "แผลและเลือดออกในทางเดินอาหารเด่นชัด, renal papillary necrosis; enterohepatic recycling ทำให้ครึ่งชีวิตยาวและเพิ่มความเสี่ยงการสะสม",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Antitumor adjunct (TCC) — specialist use",
+      "route": "PO",
+      "dose": "0.3 mg/kg วันละครั้ง (ขนาดที่รายงานใน TCC)",
+      "notes": "⚠️ ขอบเขตความปลอดภัยแคบมาก — Merck ระบุช่วง 0.3-1 mg/kg/วันว่าเริ่มมีพิษ; ต้องให้ร่วม GI protectant และอยู่ภายใต้การดูแลของ oncology; ดู protocol เฉพาะทางและให้ faculty ตรวจสอบก่อนใช้",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-vet-nsaid",
+      "type": "textbook",
+      "title": "NSAIDs in Animals — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/nonsteroidal-anti-inflammatory-drugs-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — verified canine dose, COX selectivity, adverse-effect profile. Copyrighted — cited, not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-piroxicam",
+      "type": "monograph",
+      "title": "Piroxicam — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Piroxicam",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-piroxicam",
+      "type": "regulatory-database",
+      "title": "Piroxicam — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=piroxicam",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "267196ba93c9c22b9cfe125babd8a963cde2babeb36fc8d71059b869a283f7f9"
+    },
+    {
+      "id": "atc-M01AC01",
+      "type": "guideline",
+      "title": "ATC M01AC01 — Piroxicam",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AC01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "a609e23b28c1a778560ba4a0db89a50d448b88569cac0fe3762a3a07763d5fa8"
+    },
+    {
+      "id": "pubchem-piroxicam",
+      "type": "monograph",
+      "title": "Piroxicam — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Piroxicam",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "d0b0236e95205afcd27d999e137db292346587ab801aff31233fd6988d3b5c22"
+    },
+    {
+      "id": "wsava-pain-2022",
+      "type": "guideline",
+      "title": "WSAVA Global Pain Council — Guidelines for Recognition, Assessment and Treatment of Pain",
+      "year": 2022,
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "note": "Cross-checked source: WSAVA global vet community standard for pain management.",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=piroxicam",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AC01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Piroxicam",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-pain",
+      "name": "WSAVA Global Pain Council guidelines",
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "267196ba93c9c22b9cfe125babd8a963cde2babeb36fc8d71059b869a283f7f9",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "a609e23b28c1a778560ba4a0db89a50d448b88569cac0fe3762a3a07763d5fa8",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "d0b0236e95205afcd27d999e137db292346587ab801aff31233fd6988d3b5c22",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-pain",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "M01AC01",
+      "name": "Piroxicam",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "8525",
+      "name": "Piroxicam"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC M01AC01 + RxNorm 8525. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — antitumor (TCC) use + GI/renal toxicity profile verified against Merck Veterinary Manual; Merck frames 0.3-1 mg/kg/day as the toxicity-onset range so the TCC dose is presented with narrow-margin cautions and an explicit faculty/oncology check. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "interactions": [
+    {
+      "text": "ห้ามใช้ร่วมกับ NSAID อื่น/corticosteroid (เพิ่มพิษ GI มาก); ระวังยาพิษต่อไตและ anticoagulant",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC, ค่าไต และเฝ้าระวัง melena/อาเจียนเป็นเลือดอย่างใกล้ชิด; ตรวจปัสสาวะติดตามทั้งโรคและภาวะแทรกซ้อนทางไต",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ]
+}

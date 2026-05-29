@@ -1,0 +1,26 @@
+{
+  "cid": "bb48b8598f39c9e68e580d020ec90a21d7667e5148d856edb57b4b8238ccfe0b",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ketoprofen"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:10:58.777Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ketoprofen",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 150114,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "a5f298bef8753818f586531a432bb556e222409c81437f37217c8430b9391cd9",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cid": "681bf935de1ef365381f071d18fb26a18a04685c25bdd994e153e062be6e4f0a",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=digoxin"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:09:03.113Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=digoxin",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 144166,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "83eb6b10202839fd34996f8bbd09fdb90e54cdb5f281ef8c61dbb1ab4d7751f7",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

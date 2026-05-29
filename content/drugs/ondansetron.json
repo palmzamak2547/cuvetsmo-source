@@ -1,0 +1,193 @@
+{
+  "slug": "ondansetron",
+  "nameEn": "Ondansetron",
+  "nameTh": "ออนแดนซีตรอน",
+  "class": "Anti-emetic — 5-HT3 receptor antagonist",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "brandNamesTh": [
+    "Zofran"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-ondansetron",
+        "atc-A04AA01",
+        "pubchem-ondansetron",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-ondansetron",
+        "atc-A04AA01",
+        "pubchem-ondansetron",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-ondansetron",
+        "atc-A04AA01",
+        "pubchem-ondansetron",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-ondansetron",
+        "atc-A04AA01",
+        "pubchem-ondansetron",
+        "who-eml-22"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-ondansetron",
+        "atc-A04AA01",
+        "pubchem-ondansetron",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-ondansetron",
+      "type": "regulatory-database",
+      "title": "Ondansetron — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ondansetron",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "414e8fa8691b9961ce7c82e83ca35c0763f1cfe53258dee45fa8476c15c48142"
+    },
+    {
+      "id": "atc-A04AA01",
+      "type": "guideline",
+      "title": "ATC A04AA01 — Ondansetron",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A04AA01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "53b9c64ef5240084ccc2a89a4b5b14d95e5ac03bb01799d552b3a6524e18fb67"
+    },
+    {
+      "id": "pubchem-ondansetron",
+      "type": "monograph",
+      "title": "Ondansetron — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Ondansetron",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "571110525b45795903bdbdb99aad6a014b865f8b4408fc1fb4f61642ec7a7c29"
+    },
+    {
+      "id": "who-eml-22",
+      "type": "guideline",
+      "title": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "year": 2021,
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "note": "Cross-checked source: drug appears on WHO EML — WHO recognizes its place in basic healthcare.",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ondansetron",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A04AA01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Ondansetron",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "who-eml",
+      "name": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "asOfDate": "2026-05-27",
+      "license": "CC BY-NC-SA 3.0 IGO"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "414e8fa8691b9961ce7c82e83ca35c0763f1cfe53258dee45fa8476c15c48142",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "53b9c64ef5240084ccc2a89a4b5b14d95e5ac03bb01799d552b3a6524e18fb67",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "571110525b45795903bdbdb99aad6a014b865f8b4408fc1fb4f61642ec7a7c29",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "who-eml",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "A04AA01",
+      "name": "Ondansetron",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "26225",
+      "name": "Ondansetron"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC A04AA01 + RxNorm 26225. Thai translation + faculty review pending."
+    }
+  ]
+}

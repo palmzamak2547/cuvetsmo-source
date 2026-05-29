@@ -1,0 +1,212 @@
+{
+  "slug": "carprofen",
+  "nameEn": "Carprofen",
+  "nameTh": "คาร์โพรเฟน",
+  "class": "NSAID — propionic acid / carbazole derivative, COX-2 preferential (veterinary)",
+  "mechanism": "ยากลุ่ม NSAID อนุพันธ์ carbazole/propionic acid ออกฤทธิ์ยับยั้งทั้ง COX-1 และ COX-2 โดยความเลือกสรรต่อ COX-2 แตกต่างกันตามสปีชีส์ (ในสุนัข ~129 เท่าใน in vitro assay แต่ ~7-17 เท่าใน whole-blood assay) จึงลดการสร้าง prostaglandin ที่ก่อการอักเสบ ความปวด และไข้",
+  "brandNamesTh": [
+    "Rimadyl",
+    "Norocarp",
+    "Carprodyl",
+    "Carprovet",
+    "Vetprofen",
+    "Quellin",
+    "Novox"
+  ],
+  "indications": [
+    {
+      "text": "สุนัข — บรรเทาความปวดและการอักเสบจากโรคข้อเสื่อม (osteoarthritis) และควบคุมความปวด/อักเสบเฉียบพลันหลังการผ่าตัด (soft tissue + orthopedic surgery); ได้รับการรับรองจาก FDA (Rimadyl)",
+      "cites": ["fda-rimadyl", "merck-vet-nsaid", "wikipedia-carprofen"]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามใช้ในสัตว์ที่มีความผิดปกติของการแข็งตัวของเลือด, โรคไต/ตับ/หัวใจ, ภาวะขาดน้ำหรือปริมาตรเลือดต่ำ, แผล/เลือดออกในทางเดินอาหาร, และห้ามใช้ร่วมกับ NSAID ตัวอื่นหรือ corticosteroid; ไม่ได้รับการรับรองให้ใช้ซ้ำในแมว",
+      "cites": ["fda-rimadyl", "merck-vet-nsaid"]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระบบทางเดินอาหารพบบ่อยที่สุด (ราว 1/4 ของรายงานอาการไม่พึงประสงค์: เบื่ออาหาร อาเจียน ท้องเสีย); idiosyncratic hepatopathy (ตับอักเสบเฉียบพลัน/necrosis — ราว 1/3 ของเคส hepatopathy ที่รายงานเป็น Labrador Retriever แต่ยังไม่ยืนยันว่าเป็น breed predisposition แน่ชัด); ผลต่อไตพบน้อย",
+      "cites": ["merck-vet-nsaid", "fda-rimadyl"]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Osteoarthritis / post-operative pain + inflammation",
+      "route": "PO",
+      "dose": "4.4 mg/kg วันละครั้ง หรือแบ่งให้ 2.2 mg/kg ทุก 12 ชั่วโมง",
+      "notes": "ให้พร้อมอาหาร; ใช้ขนาดต่ำสุดที่ได้ผล; ประเมินไต/ตับก่อนและระหว่างใช้ระยะยาว",
+      "cites": ["merck-vet-nsaid", "fda-rimadyl"]
+    }
+  ],
+  "interactions": [
+    {
+      "text": "เพิ่มความเสี่ยงเป็นพิษเมื่อใช้ร่วมกับ NSAID อื่น, corticosteroid, ยาขับปัสสาวะ (furosemide), ACE inhibitor หรือยาพิษต่อไตอื่น; ควรเว้นช่วง washout เมื่อเปลี่ยนจาก NSAID/steroid ตัวอื่น",
+      "cites": ["merck-vet-nsaid"]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจเอนไซม์ตับและค่าไต (BUN/creatinine) ก่อนเริ่มและเป็นระยะ โดยเฉพาะสัตว์สูงอายุหรือใช้ระยะยาว; สั่งหยุดยาและตรวจเพิ่มทันทีหากพบอาการ GI, ซึม, เบื่ออาหาร หรือดีซ่าน",
+      "cites": ["merck-vet-nsaid"]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-rimadyl",
+      "type": "package-insert",
+      "title": "Rimadyl (carprofen) — FDA Animal Drugs @ FDA, NADA 141-053",
+      "year": 2025,
+      "url": "https://animaldrugsatfda.fda.gov/adafda/views/#/search/Rimadyl",
+      "note": "FDA-approved veterinary product label — canine indications, contraindications, adverse reactions, dosing. U.S. Government work, public domain.",
+      "cid": null
+    },
+    {
+      "id": "merck-vet-nsaid",
+      "type": "textbook",
+      "title": "NSAIDs in Animals — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/nonsteroidal-anti-inflammatory-drugs-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — confirmed canine dose 4.4 mg/kg/day, COX selectivity range, hepatopathy + Labrador statistic. Copyrighted — cited, not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-carprofen",
+      "type": "monograph",
+      "title": "Carprofen — Wikipedia (Veterinary use)",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Carprofen",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Traces to FDA Rimadyl label — not sole authority for any clinical claim.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-carprofen",
+      "type": "regulatory-database",
+      "title": "Carprofen — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=carprofen",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "0612cdd0290cc3949f51db9a05745e53905229f6237e82160f7d9c63e8207ef2"
+    },
+    {
+      "id": "atc-M01AE17",
+      "type": "guideline",
+      "title": "ATC M01AE17 — Carprofen",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AE17&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "7f420b9282fd44a6b4ea66d14f1d57485182ecb29aa7b4bb79bbf0aa5f24082e"
+    },
+    {
+      "id": "pubchem-carprofen",
+      "type": "monograph",
+      "title": "Carprofen — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Carprofen",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary.",
+      "cid": "f9d02f1c6e2d6b33491499577ff3e9d38dc318b2438cfb35a81964fa82092263"
+    },
+    {
+      "id": "wsava-pain-2022",
+      "type": "guideline",
+      "title": "WSAVA Global Pain Council — Guidelines for Recognition, Assessment and Treatment of Pain",
+      "year": 2022,
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "note": "Cross-checked source: WSAVA global vet community standard for pain management.",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=carprofen",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AE17&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Carprofen",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-pain",
+      "name": "WSAVA Global Pain Council guidelines",
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "0612cdd0290cc3949f51db9a05745e53905229f6237e82160f7d9c63e8207ef2",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "7f420b9282fd44a6b4ea66d14f1d57485182ecb29aa7b4bb79bbf0aa5f24082e",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "f9d02f1c6e2d6b33491499577ff3e9d38dc318b2438cfb35a81964fa82092263",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-pain",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "M01AE17",
+      "name": "Carprofen",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "40048",
+      "name": "Carprofen"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC M01AE17 + RxNorm 40048. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled + translated from cited sources — canine dose 4.4 mg/kg/day verified against Merck Veterinary Manual + FDA Rimadyl label; COX selectivity + Labrador hepatopathy statistic from Merck. Every statement carries a citation. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

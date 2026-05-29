@@ -1,0 +1,26 @@
+{
+  "cid": "ec31d2bc1f50346f629d2060c9cce8b4e650b2d1a15c7a1be8889d42ecf38403",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cetirizine"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:11:57.880Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cetirizine",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 139084,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "e9a1b98a7e8b3a45fff0691f4ee1ec708e1003a43c94b808c1c3314114133c3b",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

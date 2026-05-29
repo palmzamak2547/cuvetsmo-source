@@ -1,0 +1,26 @@
+{
+  "cid": "d5624790d95a7ca310faa423ead7440f4514a0e9bb3e4a8d669f11c410bca8f7",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=naloxone"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-27T08:56:12.210Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=naloxone",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 144600,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "449798276e8dd8f1acfdd8a71bcdf1498a1b2021a0a8d3d2c4a4d31bbace61dc",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

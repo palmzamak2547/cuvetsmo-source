@@ -1,0 +1,26 @@
+{
+  "cid": "5d951aa404ae629bb26824198b3dd57751949bd2b4191c0145cac984e1823f24",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gabapentin"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-27T09:17:10.270Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gabapentin",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 164746,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "cbb71e06e1ff3a9b18d8c32d7f06470f73703fad6d1467a892530829b48fafaa",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

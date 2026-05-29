@@ -1,0 +1,38 @@
+{
+  "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "CC BY-NC-SA 3.0 IGO",
+    "name": "WHO Model List of Essential Medicines (22nd List, 2021)",
+    "sourceId": "who-eml",
+    "status": "stub",
+    "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:02:32.200Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 90398,
+      "lastModified": "Tue, 26 May 2026 07:54:32 GMT",
+      "etag": null,
+      "bodyHashSha256": "e3e68e4712d260b5ca779b3f5d419ce2112d21a79bb411a5d4442eea775f3198",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    },
+    {
+      "probedAt": "2026-05-26T21:17:35.598Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 90398,
+      "lastModified": "Tue, 26 May 2026 07:54:32 GMT",
+      "etag": null,
+      "bodyHashSha256": "e3e68e4712d260b5ca779b3f5d419ce2112d21a79bb411a5d4442eea775f3198",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

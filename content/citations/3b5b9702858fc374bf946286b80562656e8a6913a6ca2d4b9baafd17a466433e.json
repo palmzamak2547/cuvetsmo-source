@@ -1,0 +1,26 @@
+{
+  "cid": "3b5b9702858fc374bf946286b80562656e8a6913a6ca2d4b9baafd17a466433e",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ketoconazole"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:08:09.313Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ketoconazole",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 137075,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "5a2e8e08a5a0f042dd77648d1da7282564d77ffe7e072846220cc5433dd80799",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

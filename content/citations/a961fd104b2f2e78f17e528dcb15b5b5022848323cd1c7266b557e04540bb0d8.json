@@ -1,0 +1,26 @@
+{
+  "cid": "a961fd104b2f2e78f17e528dcb15b5b5022848323cd1c7266b557e04540bb0d8",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=omeprazole"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:10:35.958Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=omeprazole",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 140639,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "b65b4e55590ab378cf7613bab02a41add3a955a14fa84858593f04cc8032f2c4",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

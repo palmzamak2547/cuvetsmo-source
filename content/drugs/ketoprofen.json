@@ -1,0 +1,222 @@
+{
+  "slug": "ketoprofen",
+  "nameEn": "Ketoprofen",
+  "nameTh": "คีโตโพรเฟน",
+  "class": "NSAID — propionic acid derivative (nonselective)",
+  "mechanism": "ยากลุ่ม NSAID อนุพันธ์ propionic acid; ยับยั้ง COX แบบ nonselective (ทั้ง COX-1 และ COX-2) และยับยั้ง bradykinin กับ lipoxygenase บางส่วน; t½ สั้น ~2-3 ชั่วโมง",
+  "brandNamesTh": [
+    "Ketofen",
+    "Romefen"
+  ],
+  "indications": [
+    {
+      "text": "สุนัขและแมว — ควบคุมความปวดและการอักเสบเฉียบพลัน (เช่น หลังผ่าตัด); ประสิทธิภาพคุมปวดเทียบเท่า opioid ในบางสถานการณ์ — ใช้ระยะสั้นเท่านั้น",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "เป็น nonselective NSAID จึงเสี่ยงต่อ GI และไตสูงกว่ากลุ่ม COX-2 preferential; ห้ามใช้ในโรคไต/ตับ, ความผิดปกติการแข็งตัวของเลือด; มีฤทธิ์ antiplatelet จึงต้องระวังเป็นพิเศษช่วง perioperative",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระบบทางเดินอาหาร (GI upset), hepatopathy, โรคไต; ฤทธิ์ antiplatelet ทำให้เลือดออกง่ายขึ้น",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Acute pain / inflammation (short-term)",
+      "route": "PO",
+      "dose": "1 mg/kg วันละครั้ง — สูงสุด 5 วัน",
+      "duration": "ไม่เกิน 5 วัน",
+      "notes": "อาจให้ IV/SC ในวันแรก; ห้ามใช้ต่อเนื่องเกิน 5 วันตาม Merck",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Acute pain / inflammation (short-term)",
+      "route": "PO",
+      "dose": "1 mg/kg วันละครั้ง — สูงสุด 5 วัน",
+      "duration": "ไม่เกิน 5 วัน",
+      "notes": "ใช้ระยะสั้น; ระวังผลต่อไตในแมว",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-vet-nsaid",
+      "type": "textbook",
+      "title": "NSAIDs in Animals — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/nonsteroidal-anti-inflammatory-drugs-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — verified canine dose, COX selectivity, adverse-effect profile. Copyrighted — cited, not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-ketoprofen",
+      "type": "monograph",
+      "title": "Ketoprofen — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ketoprofen",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-ketoprofen",
+      "type": "regulatory-database",
+      "title": "Ketoprofen — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ketoprofen",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "bb48b8598f39c9e68e580d020ec90a21d7667e5148d856edb57b4b8238ccfe0b"
+    },
+    {
+      "id": "atc-M01AE03",
+      "type": "guideline",
+      "title": "ATC M01AE03 — Ketoprofen",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AE03&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "90aec6700b3bf1d8cd14bef698f7512b6a1ef33dfd4de87f62a41abd2b9fa9ad"
+    },
+    {
+      "id": "pubchem-ketoprofen",
+      "type": "monograph",
+      "title": "Ketoprofen — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Ketoprofen",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "dfdfb148f847627038097765866cbf8afbd146f8b39b1152e5d577738e1ff724"
+    },
+    {
+      "id": "wsava-pain-2022",
+      "type": "guideline",
+      "title": "WSAVA Global Pain Council — Guidelines for Recognition, Assessment and Treatment of Pain",
+      "year": 2022,
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "note": "Cross-checked source: WSAVA global vet community standard for pain management.",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ketoprofen",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AE03&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Ketoprofen",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-pain",
+      "name": "WSAVA Global Pain Council guidelines",
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "bb48b8598f39c9e68e580d020ec90a21d7667e5148d856edb57b4b8238ccfe0b",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "90aec6700b3bf1d8cd14bef698f7512b6a1ef33dfd4de87f62a41abd2b9fa9ad",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "dfdfb148f847627038097765866cbf8afbd146f8b39b1152e5d577738e1ff724",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-pain",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "M01AE03",
+      "name": "Ketoprofen",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "6142",
+      "name": "Ketoprofen"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC M01AE03 + RxNorm 6142. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — canine + feline dose 1 mg/kg/day max 5 days verified against Merck Veterinary Manual. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "interactions": [
+    {
+      "text": "เพิ่มความเสี่ยงเลือดออก/เป็นพิษเมื่อใช้ร่วมกับ NSAID อื่น, anticoagulant, corticosteroid หรือยาพิษต่อไต",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "เฝ้าระวังอาการ GI และภาวะเลือดออก โดยเฉพาะช่วงผ่าตัด; ตรวจค่าไต/ตับหากจำเป็น",
+      "cites": [
+        "merck-vet-nsaid"
+      ]
+    }
+  ]
+}

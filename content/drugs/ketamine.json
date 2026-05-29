@@ -1,0 +1,234 @@
+{
+  "slug": "ketamine",
+  "nameEn": "Ketamine",
+  "nameTh": "คีตามีน",
+  "class": "Anesthetic — NMDA antagonist, dissociative",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+  "brandNamesTh": [
+    "Ketalar",
+    "Ketamax"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-ketamine",
+        "atc-N01AX03",
+        "pubchem-ketamine",
+        "who-eml-22",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-ketamine",
+        "atc-N01AX03",
+        "pubchem-ketamine",
+        "who-eml-22",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-ketamine",
+        "atc-N01AX03",
+        "pubchem-ketamine",
+        "who-eml-22",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-ketamine",
+        "atc-N01AX03",
+        "pubchem-ketamine",
+        "who-eml-22",
+        "wsava-anesth-2018"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-ketamine",
+        "atc-N01AX03",
+        "pubchem-ketamine",
+        "who-eml-22",
+        "wsava-anesth-2018"
+      ]
+    },
+    {
+      "species": "equine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-ketamine",
+        "atc-N01AX03",
+        "pubchem-ketamine",
+        "who-eml-22",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-ketamine",
+      "type": "regulatory-database",
+      "title": "Ketamine — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ketamine",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "92b1e2f5ba07a0b084381fb166409f68472ac4ed3da37482f369afc32382af96"
+    },
+    {
+      "id": "atc-N01AX03",
+      "type": "guideline",
+      "title": "ATC N01AX03 — Ketamine",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N01AX03&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "b63900d16411418343783dbd31c2d2f4fe4bbcb8ca767563d3f451e322248a20"
+    },
+    {
+      "id": "pubchem-ketamine",
+      "type": "monograph",
+      "title": "Ketamine — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Ketamine",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "8c86a058e93a21cf1d2dfd7156d08c679d53cefca8b0fcd7eef44ddcb2b77181"
+    },
+    {
+      "id": "who-eml-22",
+      "type": "guideline",
+      "title": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "year": 2021,
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "note": "Cross-checked source: drug appears on WHO EML — WHO recognizes its place in basic healthcare.",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb"
+    },
+    {
+      "id": "wsava-anesth-2018",
+      "type": "guideline",
+      "title": "WSAVA Anaesthesia and Sedation Guidelines",
+      "year": 2018,
+      "url": "https://wsava.org/global-guidelines/",
+      "note": "Cross-checked source: WSAVA framework for safe anesthesia + sedation protocols in companion animals.",
+      "cid": "33d00d5e60cef25ef915e1a10bce437a52b208e15173796168c8d8868a2f1090"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ketamine",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N01AX03&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Ketamine",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "who-eml",
+      "name": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "asOfDate": "2026-05-27",
+      "license": "CC BY-NC-SA 3.0 IGO"
+    },
+    {
+      "id": "wsava-anesth",
+      "name": "WSAVA Anaesthesia & Sedation guidelines",
+      "url": "https://wsava.org/global-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "92b1e2f5ba07a0b084381fb166409f68472ac4ed3da37482f369afc32382af96",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "b63900d16411418343783dbd31c2d2f4fe4bbcb8ca767563d3f451e322248a20",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "8c86a058e93a21cf1d2dfd7156d08c679d53cefca8b0fcd7eef44ddcb2b77181",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "who-eml",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-anesth",
+      "cid": "33d00d5e60cef25ef915e1a10bce437a52b208e15173796168c8d8868a2f1090",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "N01AX03",
+      "name": "Ketamine",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "6130",
+      "name": "Ketamine"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA Anaesthesia & Sedation guidelines). ATC N01AX03 + RxNorm 6130. Thai translation + faculty review pending."
+    }
+  ]
+}

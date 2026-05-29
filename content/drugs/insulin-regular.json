@@ -1,0 +1,195 @@
+{
+  "slug": "insulin-regular",
+  "nameEn": "Insulin (regular)",
+  "nameTh": "อินซูลิน (regular)",
+  "class": "Fast-acting insulin (diabetic ketoacidosis emergency; species-specific products available)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "brandNamesTh": [
+    "Humulin R",
+    "Novolin R",
+    "Vetsulin (porcine)"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-insulin-regular",
+        "atc-A10AB01",
+        "pubchem-insulin-regular",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-insulin-regular",
+        "atc-A10AB01",
+        "pubchem-insulin-regular",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-insulin-regular",
+        "atc-A10AB01",
+        "pubchem-insulin-regular",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-insulin-regular",
+        "atc-A10AB01",
+        "pubchem-insulin-regular",
+        "who-eml-22"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-insulin-regular",
+        "atc-A10AB01",
+        "pubchem-insulin-regular",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-insulin-regular",
+      "type": "regulatory-database",
+      "title": "Insulin (regular) — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=insulin-regular",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "3421819623d8730101eee74a8edc8ac6c1b42076e4c1881ca4aca1459e83e6df"
+    },
+    {
+      "id": "atc-A10AB01",
+      "type": "guideline",
+      "title": "ATC A10AB01 — Insulin (human)",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A10AB01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "e63be6ab7de1f04fbf1618ea9a909e39d77c11f02502c54cad9e37a4c29191ae"
+    },
+    {
+      "id": "pubchem-insulin-regular",
+      "type": "monograph",
+      "title": "Insulin (regular) — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Insulin%20(regular)",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "71475070819548fdc7cf6032a597c59541f412827988366f9e23cfcc563a3581"
+    },
+    {
+      "id": "who-eml-22",
+      "type": "guideline",
+      "title": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "year": 2021,
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "note": "Cross-checked source: drug appears on WHO EML — WHO recognizes its place in basic healthcare.",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=insulin-regular",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A10AB01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Insulin%20(regular)",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "who-eml",
+      "name": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "asOfDate": "2026-05-27",
+      "license": "CC BY-NC-SA 3.0 IGO"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "3421819623d8730101eee74a8edc8ac6c1b42076e4c1881ca4aca1459e83e6df",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "e63be6ab7de1f04fbf1618ea9a909e39d77c11f02502c54cad9e37a4c29191ae",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "71475070819548fdc7cf6032a597c59541f412827988366f9e23cfcc563a3581",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "who-eml",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "A10AB01",
+      "name": "Insulin (human)",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "5856",
+      "name": "Insulin (human)"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC A10AB01 + RxNorm 5856. Thai translation + faculty review pending."
+    }
+  ]
+}

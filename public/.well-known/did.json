@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:source.cuvetsmo.com",
+  "verificationMethod": [
+    {
+      "id": "did:web:source.cuvetsmo.com#cuvetsmo-board",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:source.cuvetsmo.com",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "7onMM_bCguCva_uHqAnc-9bGkH3GEHMtHSH-cLAYLwY",
+        "kid": "cuvetsmo-board"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:source.cuvetsmo.com#cuvetsmo-board"
+  ],
+  "authentication": [
+    "did:web:source.cuvetsmo.com#cuvetsmo-board"
+  ],
+  "service": [
+    {
+      "id": "did:web:source.cuvetsmo.com#api",
+      "type": "CuvetsmoSourceAPI",
+      "serviceEndpoint": "https://source.cuvetsmo.com/api"
+    },
+    {
+      "id": "did:web:source.cuvetsmo.com#contributing",
+      "type": "EditorialPolicy",
+      "serviceEndpoint": "https://github.com/palmzamak2547/cuvetsmo-source/blob/main/CONTRIBUTING.md"
+    }
+  ]
+}

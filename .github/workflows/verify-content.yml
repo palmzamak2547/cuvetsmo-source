@@ -1,0 +1,49 @@
+# Content integrity gate for source.cuvetsmo.com.
+#
+# Runs on every push and pull_request. Fails the build if:
+#   - TypeScript does not compile
+#   - Any drug entry has a dangling cite reference
+#   - Any CID file does not hash-verify
+#   - Any ontology code does not resolve in our local mirror
+#   - Any canonical entry has a TEMPLATE marker
+#   - Any drafting block fails Iron Rule 0 checks
+#
+# See scripts/verify.mjs for the full check list.
+
+name: verify-content
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript check
+        run: npm run typecheck
+
+      - name: Content integrity check
+        run: npm run verify
+
+      - name: Lint (non-blocking)
+        run: npm run lint || echo "(lint warnings are informational at this stage)"
+        continue-on-error: true

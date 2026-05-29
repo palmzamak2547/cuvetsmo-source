@@ -1,0 +1,167 @@
+{
+  "slug": "diltiazem",
+  "nameEn": "Diltiazem",
+  "nameTh": "ดิลไทอาเซม",
+  "class": "Calcium channel blocker (benzothiazepine) — supraventricular tachyarrhythmia, HCM",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Cardizem",
+    "Dilacor"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-diltiazem",
+        "atc-C08DB01",
+        "pubchem-diltiazem"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-diltiazem",
+        "atc-C08DB01",
+        "pubchem-diltiazem"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-diltiazem",
+        "atc-C08DB01",
+        "pubchem-diltiazem"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-diltiazem",
+        "atc-C08DB01",
+        "pubchem-diltiazem"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-diltiazem",
+        "atc-C08DB01",
+        "pubchem-diltiazem"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-diltiazem",
+      "type": "regulatory-database",
+      "title": "Diltiazem — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=diltiazem",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "9ba967135205854ad85d37e3fbca890bd8fd4e56984154e6a957a3dd948dbbd4"
+    },
+    {
+      "id": "atc-C08DB01",
+      "type": "guideline",
+      "title": "ATC C08DB01 — Diltiazem",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C08DB01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "3861ed8502ce442aabbbd0f4a23154243c8f313f63e074e5d99819e8879c6611"
+    },
+    {
+      "id": "pubchem-diltiazem",
+      "type": "monograph",
+      "title": "Diltiazem — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Diltiazem",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "f507164498eab9239b569c7ef962224ca6b0b666462e10ba3b088d3a5d83b5fb"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=diltiazem",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C08DB01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Diltiazem",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "9ba967135205854ad85d37e3fbca890bd8fd4e56984154e6a957a3dd948dbbd4",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "3861ed8502ce442aabbbd0f4a23154243c8f313f63e074e5d99819e8879c6611",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "f507164498eab9239b569c7ef962224ca6b0b666462e10ba3b088d3a5d83b5fb",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "C08DB01",
+      "name": "Diltiazem",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "3443",
+      "name": "Diltiazem"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC C08DB01 + RxNorm 3443. Thai translation + faculty review pending."
+    }
+  ]
+}

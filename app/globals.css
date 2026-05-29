@@ -3,69 +3,478 @@
 /*
  * source.cuvetsmo.com brand tokens.
  *
- * Visual position: academic, trustworthy, citation-first. Distinct
- * from the cuvetsmo.com sky-blue / vettobe parchment / imaging
- * clinical-dark / labs cream-orange. Reads like a research reference
- * site (think UpToDate × MedRxiv × Wikipedia).
+ * Visual position: editorial medical reference. Reads closer to NEJM /
+ * UpToDate / DrugBank than to "tech startup with a card grid". Three
+ * surfaces share the design language but with different weights:
  *
- * Primary  · Deep teal — signals medical/clinical without leaning
- *                       into Chula-pink or main-site sky-blue.
- * Surface  · Warm stone with subtle warmth — easier on the eye than
- *                       pure neutral gray for long-form reading.
- * Accent   · Amber for "pending review" warnings; Emerald for
- *                       "faculty-reviewed" confirmation.
+ *   - UI chrome           — Inter, tighter tracking, smaller sizes
+ *   - Long-form prose     — Newsreader serif, 17px body, 1.65 leading
+ *   - Code + identifiers  — ui-monospace, monospaced numerals
+ *
+ * Color story:
+ *   source-*   Deep teal — clinical without being cold. Brand primary.
+ *   paper-*    Warm stone with a hint of cream — easier eye than gray.
+ *   ink-*      Slightly warm near-blacks for body text (not pure #000).
+ *   emerald-*  Verified / canonical states (Tailwind defaults are fine).
+ *   amber-*    Pending / template states.
+ *   red-*      Failures (signature broken, citation rotted) — sparing.
  */
 
 @theme {
-  --color-source-50:  #f0fdfa;
-  --color-source-100: #ccfbf1;
-  --color-source-200: #99f6e4;
-  --color-source-300: #5eead4;
-  --color-source-400: #2dd4bf;
-  --color-source-500: #14b8a6;
-  --color-source-600: #0d9488;
-  --color-source-700: #0f766e;
-  --color-source-800: #115e59;
-  --color-source-900: #134e4a;
+  /* Source teal — primary brand */
+  --color-source-50:  #effcf9;
+  --color-source-100: #c8f4ea;
+  --color-source-200: #95e7d4;
+  --color-source-300: #5dd1ba;
+  --color-source-400: #2eb6a0;
+  --color-source-500: #1a9d8b;
+  --color-source-600: #0d7d70;
+  --color-source-700: #0a635a;
+  --color-source-800: #094f48;
+  --color-source-900: #053634;
 
-  --color-paper-50:   #fafaf9;
-  --color-paper-100:  #f5f5f4;
-  --color-paper-200:  #e7e5e4;
-  --color-paper-300:  #d6d3d1;
-  --color-paper-700:  #44403c;
-  --color-paper-800:  #292524;
-  --color-paper-900:  #1c1917;
+  /* Paper — warm cream stone */
+  --color-paper-50:   #fbfaf7;
+  --color-paper-100:  #f5f3ec;
+  --color-paper-200:  #ebe7da;
+  --color-paper-300:  #d6cfbb;
+  --color-paper-400:  #b5ad95;
+
+  /* Ink — warm near-blacks for body */
+  --color-ink-500:    #6b5f4f;
+  --color-ink-700:    #3d362d;
+  --color-ink-900:    #1c1814;
+
+  /* Backwards-compat: paper-700/800/900 used to be the ink scale.
+     Keep them mapped so existing utility classes keep working. */
+  --color-paper-700:  #3d362d;
+  --color-paper-800:  #2a241e;
+  --color-paper-900:  #1c1814;
+
+  /* Optional verification accents */
+  --color-stamp:      #be3a26;
+}
+
+/* ─── Type setup ─────────────────────────────────────────────────── */
+
+:root {
+  --font-fallback-sans:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans Thai",
+                         sans-serif;
+  --font-fallback-serif: Georgia, Cambria, "Times New Roman", Times, "Noto Serif Thai",
+                         serif;
+  --font-mono:           ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas,
+                         "Liberation Mono", monospace;
 }
 
 html {
   scroll-behavior: smooth;
+  /* fluid type root — slight increase on wider viewports */
+  font-size: clamp(15px, 0.5vw + 13px, 16.5px);
 }
 
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Noto Sans Thai", sans-serif;
+  font-family: var(--font-sans, var(--font-fallback-sans));
   background: var(--color-paper-50);
-  color: var(--color-paper-900);
+  color: var(--color-ink-900);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11", "kern";
+  line-height: 1.5;
 }
 
-/* Long-form prose surfaces (drug detail, source explainer) use a
-   serif body for reading endurance. Keep headings sans for hierarchy. */
+/* ─── Keyboard focus ring (UI/UX Pro Max rule: visible focus indicators) ─
+   :focus-visible runs only for keyboard navigation, not mouse clicks, so
+   it doesn't add chrome to mouse users while keeping a11y for screen-reader
+   + keyboard-only users. Applied globally as a safety net — individual
+   components may override with stronger styles. */
+:focus-visible {
+  outline: 2px solid var(--color-source-600);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+/* Prevent double-ring on elements that already define their own */
+[data-no-default-focus]:focus-visible { outline: none; }
+
+/* ─── Pointer cursor on every interactive element (UI/UX Pro Max rule) ─
+   Browsers default to `cursor: default` on <button>, which is the #1
+   tell that an element is unclickable. Apply pointer to all non-disabled
+   buttons + role=button + summary tags globally so no individual component
+   needs to remember it. */
+button:not(:disabled),
+[role="button"]:not([aria-disabled="true"]),
+summary,
+label[for] {
+  cursor: pointer;
+}
+button:disabled,
+[role="button"][aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+/* ─── Long-form prose (drug detail, sources, credentials) ───────── */
+
+.prose-academic {
+  font-family: var(--font-serif, var(--font-fallback-serif));
+  color: var(--color-ink-900);
+  /* Cap line length for readability per WCAG / UI/UX Pro Max rec:
+     65-75ch is ideal; 70ch ≈ 41rem with 17px serif body. */
+  max-width: 70ch;
+}
+
+.prose-academic h1,
+.prose-academic h2,
+.prose-academic h3 {
+  font-family: var(--font-serif, var(--font-fallback-serif));
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
 .prose-academic p,
 .prose-academic li {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times,
-    "Noto Serif Thai", serif;
-  font-size: 1rem;
-  line-height: 1.65;
+  font-family: var(--font-serif, var(--font-fallback-serif));
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  text-wrap: pretty;
 }
 
-/* Inline citation token "[1]" — used by CiteRefs component. */
+.prose-academic p + p { margin-top: 0.6em; }
+
+/* ─── Visual primitives ─────────────────────────────────────────── */
+
+/* Eyebrow — small uppercase kicker above a heading. */
+.eyebrow {
+  font-family: var(--font-sans, var(--font-fallback-sans));
+  font-size: 0.6875rem;       /* 11px */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-source-800);
+}
+
+/* Display heading — generous, balanced, serif. */
+.display-h1 {
+  font-family: var(--font-serif, var(--font-fallback-serif));
+  font-size: clamp(2rem, 1.5rem + 2.5vw, 3.25rem);
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  color: var(--color-ink-900);
+}
+
+.display-h2 {
+  font-family: var(--font-serif, var(--font-fallback-serif));
+  font-size: clamp(1.4rem, 1.1rem + 1.4vw, 1.9rem);
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--color-ink-900);
+}
+
+/* Hairline rule — thin double line, vintage editorial. */
+.rule {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--color-paper-300) 12%,
+    var(--color-paper-300) 88%,
+    transparent 100%
+  );
+  margin: 2.5rem 0;
+}
+
+.rule-double {
+  position: relative;
+  height: 4px;
+  margin: 2rem 0;
+  border: 0;
+  background:
+    linear-gradient(to right,
+      transparent, var(--color-paper-300) 8%, var(--color-paper-300) 92%, transparent
+    ) 0 0 / 100% 1px no-repeat,
+    linear-gradient(to right,
+      transparent, var(--color-paper-300) 8%, var(--color-paper-300) 92%, transparent
+    ) 0 100% / 100% 1px no-repeat;
+}
+
+/* Inline citation token "[1]" used by CiteRefs component. */
 .cite-token {
   color: var(--color-source-700);
   text-decoration: none;
-  font-weight: 500;
+  font-family: var(--font-sans, var(--font-fallback-sans));
+  font-size: 0.7em;
+  font-weight: 600;
+  font-feature-settings: "tnum";
+  padding: 0 0.05em;
+  vertical-align: super;
+  line-height: 0;
 }
 .cite-token:hover {
+  color: var(--color-source-900);
   text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Monospaced numerals for tables (dose tables, hash tables) */
+.tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Stamp — pseudo-vintage seal for "verified" / "pending" states. */
+.stamp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.35em 0.75em;
+  border: 1.5px solid currentColor;
+  border-radius: 999px;
+  font-family: var(--font-sans, var(--font-fallback-sans));
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/* Selection — warm tint */
+::selection {
+  background: rgba(45, 212, 191, 0.22);
+  color: var(--color-ink-900);
+}
+
+/* Skeleton shimmer (for list/detail loading) */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.55; }
+  50%      { opacity: 0.85; }
+}
+.skel {
+  background: linear-gradient(
+    90deg,
+    var(--color-paper-200) 0%,
+    var(--color-paper-100) 50%,
+    var(--color-paper-200) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+/* Stamp-in — verification success animation. The verify banner uses
+   this when Web Crypto verify resolves to ok, giving that satisfying
+   "the seal hits the page" moment. */
+@keyframes stamp-in {
+  0%   { opacity: 0; transform: scale(0.92) rotate(-1.5deg); }
+  55%  { opacity: 1; transform: scale(1.04) rotate(0.8deg); }
+  100% { opacity: 1; transform: scale(1.00) rotate(0deg); }
+}
+.stamp-in {
+  animation: stamp-in 480ms cubic-bezier(0.2, 0.85, 0.2, 1) both;
+  transform-origin: center center;
+}
+
+/* Check-draw — used inside the verified banner. The check SVG path
+   uses stroke-dasharray to "draw itself" left-to-right after the
+   stamp-in lands. */
+@keyframes check-draw {
+  from { stroke-dashoffset: 60; }
+  to   { stroke-dashoffset: 0; }
+}
+.check-path {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  animation: check-draw 420ms 220ms cubic-bezier(0.2, 0.85, 0.2, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Per UI/UX Pro Max + WCAG 2.3.3 — Honor the user's OS-level "reduce
+     motion" setting. Disable all animations + transitions globally; named
+     keyframes (stamp-in, check-draw, skeleton-pulse) override with `none`. */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .stamp-in,
+  .check-path,
+  .skeleton {
+    animation: none !important;
+  }
+  .check-path {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Make h1/h2/h3 use serif by default outside prose for cohesion */
+h1, h2, h3 {
+  font-family: var(--font-serif, var(--font-fallback-serif));
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+/* Code/identifiers — slightly smaller, tabular */
+code, pre, .font-mono {
+  font-family: var(--font-mono);
+  font-feature-settings: "tnum", "ss01";
+}
+
+/* ─── Detail view modes ──────────────────────────────────────────── */
+/*
+ * Drug detail pages have an "essentials view" vs "expert view" toggle.
+ * Essentials = dose-first; crypto + ontology + mirror panels hidden.
+ * Expert    = everything visible.
+ *
+ * The toggle JS adds .view-essentials or .view-expert on the host
+ * <article data-view-host>. Elements marked [data-expert-only] are
+ * hidden when essentials is active. Default behavior (before JS) shows
+ * everything — graceful degradation for no-JS readers.
+ */
+
+[data-view-host].view-essentials [data-expert-only] {
+  display: none;
+}
+
+/* ─── Print stylesheet ──────────────────────────────────────────── */
+/*
+ * Goal: when a faculty/vet prints a drug page, they get a clean handout —
+ * site chrome hidden, sticky sidebar inlined, references expanded.
+ * Designed for A4 / Letter @ 96-100% scale.
+ */
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+
+  /* Site chrome — hide */
+  body > header,
+  body > footer {
+    display: none !important;
+  }
+
+  /* Hide elements explicitly marked no-print */
+  .no-print { display: none !important; }
+
+  /* Main container — drop max-width, lose padding */
+  main {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Sticky sidebar — unstick, allow it to flow */
+  aside.lg\:sticky,
+  aside[class*="lg:sticky"] {
+    position: static !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  /* Two-column drug layout collapses to single column for print */
+  article > div.grid {
+    display: block !important;
+  }
+  article > div.grid > div,
+  article > div.grid > aside {
+    width: 100% !important;
+    max-width: none !important;
+    margin-bottom: 1.2cm;
+  }
+
+  /* Backgrounds + tints — flatten to white so ink saves */
+  .bg-paper-50,
+  .bg-paper-100,
+  .bg-source-50,
+  .bg-source-50\/40,
+  .bg-source-50\/60,
+  .bg-emerald-50,
+  .bg-emerald-50\/40,
+  .bg-emerald-50\/60,
+  .bg-emerald-50\/70,
+  .bg-amber-50,
+  .bg-amber-50\/40,
+  .bg-amber-50\/60,
+  .bg-amber-50\/80,
+  .bg-red-50 {
+    background: #ffffff !important;
+  }
+
+  /* Keep verification stamps visible (semantic) */
+  .stamp {
+    background: #ffffff !important;
+    border-color: currentColor !important;
+  }
+
+  /* Borders — convert to single hairlines */
+  .border, .border-2 {
+    border-width: 1px !important;
+    border-color: #999 !important;
+  }
+  .border-l-4, .border-l-3 {
+    border-left-width: 2px !important;
+    border-left-color: #444 !important;
+  }
+
+  /* Inline footnote tokens — keep, they remain useful in print */
+  .cite-token {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  /* Expand external link URLs after the link text — vet can use them
+     without needing to be online */
+  a[href^="http"]:not(.cite-token)::after {
+    content: " <" attr(href) ">";
+    font-size: 0.78em;
+    color: #555;
+    word-break: break-all;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Reference list — single column, tight */
+  ol li[id^="cite-"] {
+    page-break-inside: avoid;
+    margin-bottom: 4mm;
+  }
+
+  /* Page break hints */
+  h1, h2, h3 { page-break-after: avoid; }
+  table, pre, dl { page-break-inside: avoid; }
+
+  /* Drug table — remove hover/transitions, add row borders */
+  table {
+    page-break-inside: auto !important;
+  }
+  table tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+
+  /* Drop visual noise */
+  .shadow-sm, .shadow-md { box-shadow: none !important; }
+  .backdrop-blur-sm { backdrop-filter: none !important; }
+
+  /* Page margins — A4 / Letter friendly */
+  @page {
+    margin: 18mm 16mm 22mm 16mm;
+  }
+
+  /* Add a discrete footer on every printed page */
+  @page {
+    @bottom-right {
+      content: "source.cuvetsmo.com — verified Thai medical knowledge";
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 8pt;
+      color: #888;
+    }
+  }
 }

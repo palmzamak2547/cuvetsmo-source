@@ -1,0 +1,26 @@
+{
+  "cid": "fa15c0e5e45f200bb4147f1989347f84edf6e821db420b2e0ac92e20a96382db",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=midazolam"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:12:26.317Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=midazolam",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 138905,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "c0298420c2c94841d1c336312f9b3ba3b1164b0f43c90c9d760f1be9857afcac",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

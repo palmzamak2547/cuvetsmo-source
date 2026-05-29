@@ -1,0 +1,183 @@
+{
+  "slug": "levothyroxine",
+  "nameEn": "Levothyroxine",
+  "nameTh": "เลโวไทร็อกซีน",
+  "class": "Synthetic T4 thyroid hormone (hypothyroidism in dogs)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "brandNamesTh": [
+    "Synthroid",
+    "Thyro-Tabs",
+    "Soloxine"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-levothyroxine",
+        "atc-H03AA01",
+        "pubchem-levothyroxine",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-levothyroxine",
+        "atc-H03AA01",
+        "pubchem-levothyroxine",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "cites": [
+        "dailymed-levothyroxine",
+        "atc-H03AA01",
+        "pubchem-levothyroxine",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-levothyroxine",
+        "atc-H03AA01",
+        "pubchem-levothyroxine",
+        "who-eml-22"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-levothyroxine",
+      "type": "regulatory-database",
+      "title": "Levothyroxine — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=levothyroxine",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "3ebbd7a4686a526e86d12f82a14a6550d6141803fa4320231b333886d1c68de0"
+    },
+    {
+      "id": "atc-H03AA01",
+      "type": "guideline",
+      "title": "ATC H03AA01 — Levothyroxine sodium",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=H03AA01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "ec48414e53a994982de0e4a94b5acb58fc14aa0ed92e1c419b6b2df840411d32"
+    },
+    {
+      "id": "pubchem-levothyroxine",
+      "type": "monograph",
+      "title": "Levothyroxine — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Levothyroxine",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "ae6d7771c4f4679b67dcf3edee67fb90161ea8bff4d89fbe31abe2aa6574addd"
+    },
+    {
+      "id": "who-eml-22",
+      "type": "guideline",
+      "title": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "year": 2021,
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "note": "Cross-checked source: drug appears on WHO EML — WHO recognizes its place in basic healthcare.",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=levothyroxine",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=H03AA01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Levothyroxine",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "who-eml",
+      "name": "WHO Model List of Essential Medicines (22nd List, 2021)",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "asOfDate": "2026-05-27",
+      "license": "CC BY-NC-SA 3.0 IGO"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "3ebbd7a4686a526e86d12f82a14a6550d6141803fa4320231b333886d1c68de0",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "ec48414e53a994982de0e4a94b5acb58fc14aa0ed92e1c419b6b2df840411d32",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "ae6d7771c4f4679b67dcf3edee67fb90161ea8bff4d89fbe31abe2aa6574addd",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "who-eml",
+      "cid": "71030c795c4e0c0cff56566bfc9ae4ed448eab9188ae68ce773a50d9f7fc53eb",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "H03AA01",
+      "name": "Levothyroxine sodium",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "10582",
+      "name": "Levothyroxine"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC H03AA01 + RxNorm 10582. Thai translation + faculty review pending."
+    }
+  ]
+}

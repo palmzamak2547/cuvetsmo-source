@@ -1,0 +1,194 @@
+{
+  "slug": "dexmedetomidine",
+  "nameEn": "Dexmedetomidine",
+  "nameTh": "เด็กซ์เมเดโทมิดีน",
+  "class": "Sedative — selective α2-adrenergic agonist",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+  "brandNamesTh": [
+    "Dexdomitor",
+    "Precedex"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-dexmedetomidine",
+        "atc-N05CM18",
+        "pubchem-dexmedetomidine",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-dexmedetomidine",
+        "atc-N05CM18",
+        "pubchem-dexmedetomidine",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "cites": [
+        "dailymed-dexmedetomidine",
+        "atc-N05CM18",
+        "pubchem-dexmedetomidine",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-dexmedetomidine",
+        "atc-N05CM18",
+        "pubchem-dexmedetomidine",
+        "wsava-anesth-2018"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-dexmedetomidine",
+        "atc-N05CM18",
+        "pubchem-dexmedetomidine",
+        "wsava-anesth-2018"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-dexmedetomidine",
+      "type": "regulatory-database",
+      "title": "Dexmedetomidine — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=dexmedetomidine",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "8996540a430f4ee572a33b5460697e5db36651872e1b0e864336e58b75024bc6"
+    },
+    {
+      "id": "atc-N05CM18",
+      "type": "guideline",
+      "title": "ATC N05CM18 — Dexmedetomidine",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N05CM18&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "16c290d193487059bc2f9fd6d9c669cef6b6b456a297d354544a92051c0b9512"
+    },
+    {
+      "id": "pubchem-dexmedetomidine",
+      "type": "monograph",
+      "title": "Dexmedetomidine — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Dexmedetomidine",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "2557a24d225cf3a2138d06a61ee93af087ddeb4f38c3bd33081381c2d961032c"
+    },
+    {
+      "id": "wsava-anesth-2018",
+      "type": "guideline",
+      "title": "WSAVA Anaesthesia and Sedation Guidelines",
+      "year": 2018,
+      "url": "https://wsava.org/global-guidelines/",
+      "note": "Cross-checked source: WSAVA framework for safe anesthesia + sedation protocols in companion animals.",
+      "cid": "33d00d5e60cef25ef915e1a10bce437a52b208e15173796168c8d8868a2f1090"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=dexmedetomidine",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N05CM18&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Dexmedetomidine",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-anesth",
+      "name": "WSAVA Anaesthesia & Sedation guidelines",
+      "url": "https://wsava.org/global-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "8996540a430f4ee572a33b5460697e5db36651872e1b0e864336e58b75024bc6",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "16c290d193487059bc2f9fd6d9c669cef6b6b456a297d354544a92051c0b9512",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "2557a24d225cf3a2138d06a61ee93af087ddeb4f38c3bd33081381c2d961032c",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-anesth",
+      "cid": "33d00d5e60cef25ef915e1a10bce437a52b208e15173796168c8d8868a2f1090",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "N05CM18",
+      "name": "Dexmedetomidine",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "48937",
+      "name": "Dexmedetomidine"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Anaesthesia & Sedation guidelines). ATC N05CM18 + RxNorm 48937. Thai translation + faculty review pending."
+    }
+  ]
+}

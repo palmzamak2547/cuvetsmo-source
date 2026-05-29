@@ -1,0 +1,166 @@
+{
+  "slug": "gabapentin",
+  "nameEn": "Gabapentin",
+  "nameTh": "กาบาเพนทิน",
+  "class": "GABA analog — anticonvulsant + neuropathic pain modulator (widely used in vet)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Neurontin"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-gabapentin",
+        "atc-N03AX12",
+        "pubchem-gabapentin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-gabapentin",
+        "atc-N03AX12",
+        "pubchem-gabapentin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-gabapentin",
+        "atc-N03AX12",
+        "pubchem-gabapentin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-gabapentin",
+        "atc-N03AX12",
+        "pubchem-gabapentin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-gabapentin",
+        "atc-N03AX12",
+        "pubchem-gabapentin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-gabapentin",
+      "type": "regulatory-database",
+      "title": "Gabapentin — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gabapentin",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "5d951aa404ae629bb26824198b3dd57751949bd2b4191c0145cac984e1823f24"
+    },
+    {
+      "id": "atc-N03AX12",
+      "type": "guideline",
+      "title": "ATC N03AX12 — Gabapentin",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N03AX12&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "4324bbf28e00253c18df49cf57f841f324b0d0621689d4c829e5a44bd76dd10d"
+    },
+    {
+      "id": "pubchem-gabapentin",
+      "type": "monograph",
+      "title": "Gabapentin — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Gabapentin",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "05c58f1f7afeb4c0537893af21844b6474a2d64ad1d721a27db558c824a1d5c7"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gabapentin",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N03AX12&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Gabapentin",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "5d951aa404ae629bb26824198b3dd57751949bd2b4191c0145cac984e1823f24",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "4324bbf28e00253c18df49cf57f841f324b0d0621689d4c829e5a44bd76dd10d",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "05c58f1f7afeb4c0537893af21844b6474a2d64ad1d721a27db558c824a1d5c7",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "N03AX12",
+      "name": "Gabapentin",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "4849",
+      "name": "Gabapentin"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC N03AX12 + RxNorm 4849. Thai translation + faculty review pending."
+    }
+  ]
+}

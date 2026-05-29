@@ -1,0 +1,26 @@
+{
+  "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "Free for educational use with attribution",
+    "name": "WSAVA Global Pain Council guidelines",
+    "sourceId": "wsava-pain",
+    "status": "stub",
+    "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:03:00.633Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://wsava.org/global-guidelines/pain-guidelines/",
+      "contentType": "text/html; charset=UTF-8",
+      "contentLength": 133581,
+      "lastModified": "Sun, 24 May 2026 03:32:51 GMT",
+      "etag": null,
+      "bodyHashSha256": "e147e64023e1600f3d6882aa19126c719dad1c8ebbcd4a1db33ee7dc21689461",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

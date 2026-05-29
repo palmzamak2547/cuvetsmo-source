@@ -1,0 +1,11 @@
+{
+  "keys": [
+    {
+      "kid": "cuvetsmo-board",
+      "fingerprint": "ed25519:ab79526d8d088d18",
+      "displayName": "CUVETSMO Editorial Board",
+      "pubKeyPath": "content/keys/cuvetsmo-board.pub.json",
+      "generatedAt": "2026-05-26T19:21:25.261Z"
+    }
+  ]
+}

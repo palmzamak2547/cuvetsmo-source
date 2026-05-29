@@ -1,0 +1,167 @@
+{
+  "slug": "theophylline",
+  "nameEn": "Theophylline",
+  "nameTh": "ทีโอฟิลลีน",
+  "class": "Methylxanthine bronchodilator + PDE inhibitor (chronic bronchitis, feline asthma)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Theo-Dur",
+    "Slo-Bid"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-theophylline",
+        "atc-R03DA04",
+        "pubchem-theophylline"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-theophylline",
+        "atc-R03DA04",
+        "pubchem-theophylline"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-theophylline",
+        "atc-R03DA04",
+        "pubchem-theophylline"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-theophylline",
+        "atc-R03DA04",
+        "pubchem-theophylline"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-theophylline",
+        "atc-R03DA04",
+        "pubchem-theophylline"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-theophylline",
+      "type": "regulatory-database",
+      "title": "Theophylline — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=theophylline",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "14d7834dbed552850929f2ff98b67339ad8fa800cef80bd8eaa0522be11ec748"
+    },
+    {
+      "id": "atc-R03DA04",
+      "type": "guideline",
+      "title": "ATC R03DA04 — Theophylline",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=R03DA04&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "6c8117c852e6b71de0cff5d34cecc1c7e2111228bc738209aabaf67b33caf5cd"
+    },
+    {
+      "id": "pubchem-theophylline",
+      "type": "monograph",
+      "title": "Theophylline — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Theophylline",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "f5cb79d4d4c5e6d2e12be05c6bc4cd662aaf9af600b7d1c3aba00fd5b2df42b7"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=theophylline",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=R03DA04&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Theophylline",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "14d7834dbed552850929f2ff98b67339ad8fa800cef80bd8eaa0522be11ec748",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "6c8117c852e6b71de0cff5d34cecc1c7e2111228bc738209aabaf67b33caf5cd",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "f5cb79d4d4c5e6d2e12be05c6bc4cd662aaf9af600b7d1c3aba00fd5b2df42b7",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "R03DA04",
+      "name": "Theophylline",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "10324",
+      "name": "Theophylline"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC R03DA04 + RxNorm 10324. Thai translation + faculty review pending."
+    }
+  ]
+}

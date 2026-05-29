@@ -1,0 +1,168 @@
+{
+  "slug": "metoclopramide",
+  "nameEn": "Metoclopramide",
+  "nameTh": "เมโตโคลพราไมด์",
+  "class": "Anti-emetic / prokinetic — D2 antagonist + 5-HT4 agonist",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Reglan",
+    "Plasil",
+    "Maxolon"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-metoclopramide",
+        "atc-A03FA01",
+        "pubchem-metoclopramide"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-metoclopramide",
+        "atc-A03FA01",
+        "pubchem-metoclopramide"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-metoclopramide",
+        "atc-A03FA01",
+        "pubchem-metoclopramide"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-metoclopramide",
+        "atc-A03FA01",
+        "pubchem-metoclopramide"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-metoclopramide",
+        "atc-A03FA01",
+        "pubchem-metoclopramide"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-metoclopramide",
+      "type": "regulatory-database",
+      "title": "Metoclopramide — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metoclopramide",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "c96eb3ba640551ae35eaa32828e0f7cbf1db11183b928a88c9ea14b0791db792"
+    },
+    {
+      "id": "atc-A03FA01",
+      "type": "guideline",
+      "title": "ATC A03FA01 — Metoclopramide",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A03FA01&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "d76244e69d74a7d8c4b5ae0a8d0df71487572753c5b7d63672a161501d6a16cf"
+    },
+    {
+      "id": "pubchem-metoclopramide",
+      "type": "monograph",
+      "title": "Metoclopramide — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Metoclopramide",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "758f4b126fc9974e936938000b07938b8fc8eb5e73a5d6a8d5e1eeaec090c496"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metoclopramide",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A03FA01&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Metoclopramide",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "c96eb3ba640551ae35eaa32828e0f7cbf1db11183b928a88c9ea14b0791db792",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "d76244e69d74a7d8c4b5ae0a8d0df71487572753c5b7d63672a161501d6a16cf",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "758f4b126fc9974e936938000b07938b8fc8eb5e73a5d6a8d5e1eeaec090c496",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "A03FA01",
+      "name": "Metoclopramide",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "6857",
+      "name": "Metoclopramide"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC A03FA01 + RxNorm 6857. Thai translation + faculty review pending."
+    }
+  ]
+}

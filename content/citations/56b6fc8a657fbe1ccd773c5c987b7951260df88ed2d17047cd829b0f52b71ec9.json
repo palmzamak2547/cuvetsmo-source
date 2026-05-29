@@ -1,0 +1,26 @@
+{
+  "cid": "56b6fc8a657fbe1ccd773c5c987b7951260df88ed2d17047cd829b0f52b71ec9",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=phenobarbital"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-27T08:55:16.134Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=phenobarbital",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 138019,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "385158a4fcb5cea44242bde20bbf0a8b238fffdda8ffbda12ee52557f284b329",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

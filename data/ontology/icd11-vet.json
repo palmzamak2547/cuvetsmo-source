@@ -1,0 +1,35 @@
+{
+  "FA20": {
+    "code": "FA20",
+    "name": "Osteoarthritis",
+    "chapter": "FA — Diseases of the musculoskeletal system or connective tissue",
+    "note": "Common indication for veterinary NSAID use in dogs + cats"
+  },
+  "FA00": {
+    "code": "FA00",
+    "name": "Inflammatory arthropathies",
+    "chapter": "FA — Diseases of the musculoskeletal system or connective tissue"
+  },
+  "1G50": {
+    "code": "1G50",
+    "name": "Sepsis without septic shock",
+    "chapter": "1 — Certain infectious or parasitic diseases",
+    "note": "Indication for systemic antibiotic therapy"
+  },
+  "CA40": {
+    "code": "CA40",
+    "name": "Pneumonia",
+    "chapter": "CA — Diseases of the respiratory system"
+  },
+  "GB60": {
+    "code": "GB60",
+    "name": "Acute pyelonephritis",
+    "chapter": "GB — Diseases of the genitourinary system"
+  },
+  "MG30.5": {
+    "code": "MG30.5",
+    "name": "Acute pain",
+    "chapter": "MG — Symptoms, signs or clinical findings",
+    "note": "General indication for analgesic therapy including NSAIDs and opioids"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cid": "a3ab5a5d404f9b950aae5658201af7e23845a77f83073faf88a09f9c959dd598",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metronidazole"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:10:22.777Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metronidazole",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 136335,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "e017ffa9132e125ee1e0cae5c0665d7d608f0b0d18fa02bb61a0fcd606fc2bfd",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

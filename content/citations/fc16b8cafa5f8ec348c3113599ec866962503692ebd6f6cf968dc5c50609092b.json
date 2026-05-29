@@ -1,0 +1,26 @@
+{
+  "cid": "fc16b8cafa5f8ec348c3113599ec866962503692ebd6f6cf968dc5c50609092b",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "WHO publication, free for use with attribution",
+    "name": "WHO ATC Classification",
+    "sourceId": "atc",
+    "status": "stub",
+    "url": "https://www.whocc.no/atc_ddd_index/?code=C07AB03&showdescription=no"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-27T08:56:24.410Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://atcddd.fhi.no/atc_ddd_index/?code=C07AB03&showdescription=no",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "contentLength": 10536,
+      "lastModified": "May 27 2026 10:56:27",
+      "etag": null,
+      "bodyHashSha256": "20fcf8f35a2db306552c861776917ef0695a018f9a4a260016d49364e6f9c7c8",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

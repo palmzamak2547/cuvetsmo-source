@@ -19,7 +19,7 @@ const SOURCES = [
     body: 'รายการยาจำเป็นสำหรับระบบสาธารณสุขโลกที่ WHO ทบทวนทุก 2 ปี',
     license: 'CC BY-NC-SA 3.0 IGO',
     url: 'https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02',
-    coverage: 'รายชื่อยาจำเป็น 460+ ตัว · therapeutic class · WHO recommendations',
+    coverage: 'รายชื่อยาจำเป็น 460+ ตัว, therapeutic class, WHO recommendations',
   },
   {
     id: 'thai-fda',
@@ -57,20 +57,18 @@ const SOURCES = [
 
 export default function Sources() {
   return (
-    <article className="prose-academic max-w-3xl">
-      <header>
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-source-700">
-          Curation methodology
-        </p>
-        <h1 className="mt-2 text-3xl font-bold text-paper-900">Sources & how we curate</h1>
-        <p className="mt-2 text-paper-700">
-          เราไม่สร้างข้อมูลทางการแพทย์ขึ้นเอง — เรา <b>mirror</b> จากแหล่งอ้างอิงที่เปิดสาธารณะตามใบอนุญาตของแต่ละแหล่ง
-          แล้ว <b>adapt เป็นภาษาไทย</b> และ <b>อาจารย์เซ็นต์รับ</b> ทุก entry
+    <article className="max-w-3xl">
+      <header className="border-b border-paper-300 pb-7">
+        <p className="eyebrow">Curation methodology</p>
+        <h1 className="display-h1 mt-3">Sources & how we curate</h1>
+        <p className="mt-5 max-w-2xl text-[17px] leading-relaxed text-ink-700">
+          เราไม่สร้างข้อมูลทางการแพทย์ขึ้นเอง — เรา <b>mirror</b> จากแหล่งอ้างอิงที่เปิดสาธารณะ
+          ตามใบอนุญาตของแต่ละแหล่ง แล้ว <b>adapt เป็นภาษาไทย</b> และ <b>อาจารย์เซ็นต์รับ</b> ทุก entry.
         </p>
       </header>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-bold text-paper-900">Authoritative sources</h2>
+      <section className="mt-10">
+        <h2 className="display-h2">Authoritative sources</h2>
         <ul className="mt-4 space-y-5">
           {SOURCES.map(s => (
             <li key={s.id} className="rounded-xl border border-paper-200 bg-white p-5">

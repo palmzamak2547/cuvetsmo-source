@@ -1,0 +1,26 @@
+{
+  "cid": "f2c281c11b6520cc096ddc7b701a988341240d3fefa3f3293f0d2be51f375c67",
+  "note": "Stub citation — bytes not yet mirrored. /c/<cid> redirects readers to the upstream URL until the mirror script runs (Week 2+). The hash is computed over the `canonical` sub-object and verifies via lib/cid.ts.",
+  "canonical": {
+    "capturedAt": "2026-05-27",
+    "license": "U.S. Government work — public domain. Attribution recommended.",
+    "name": "NLM DailyMed",
+    "sourceId": "dailymed",
+    "status": "stub",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cefovecin"
+  },
+  "probes": [
+    {
+      "probedAt": "2026-05-26T21:12:17.570Z",
+      "method": "GET",
+      "httpStatus": 200,
+      "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cefovecin",
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": 89591,
+      "lastModified": null,
+      "etag": null,
+      "bodyHashSha256": "6fb81b466469f57b7d1d0f3845d79c0584d589f44308f977a2acd206cdf7b760",
+      "note": "Body hash is a snapshot at probedAt. For dynamic pages (e.g. search results) the hash will differ on later fetches — that is information, not error. Original body bytes are NOT stored (copyright-safe)."
+    }
+  ]
+}

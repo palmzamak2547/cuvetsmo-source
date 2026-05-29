@@ -1,0 +1,177 @@
+{
+  "slug": "mavacoxib",
+  "nameEn": "Mavacoxib",
+  "nameTh": "มาวาค็อกซิบ",
+  "class": "NSAID — long-acting COX-2 selective coxib (veterinary-only, monthly dosing in dogs)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+  "brandNamesTh": [
+    "Trocoxil"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-mavacoxib",
+        "atc-QM01AH92",
+        "pubchem-mavacoxib",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-mavacoxib",
+        "atc-QM01AH92",
+        "pubchem-mavacoxib",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "cites": [
+        "dailymed-mavacoxib",
+        "atc-QM01AH92",
+        "pubchem-mavacoxib",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-mavacoxib",
+        "atc-QM01AH92",
+        "pubchem-mavacoxib",
+        "wsava-pain-2022"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-mavacoxib",
+      "type": "regulatory-database",
+      "title": "Mavacoxib — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mavacoxib",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "bcfccb438ae989747cda16e4b734765a6cd0033ea1bf0d375da331a2d8abb057"
+    },
+    {
+      "id": "atc-QM01AH92",
+      "type": "guideline",
+      "title": "ATC QM01AH92 — Mavacoxib (veterinary, long-acting)",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QM01AH92&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "a7e069f2bd56018ce5e649742f5ac3fb03ec87e225a74fec53494e77e5a2bf97"
+    },
+    {
+      "id": "pubchem-mavacoxib",
+      "type": "monograph",
+      "title": "Mavacoxib — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Mavacoxib",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "e4b28f49227ab517493bd8b4f9fbe8adb3fd484a126146b567938ac631d43ddc"
+    },
+    {
+      "id": "wsava-pain-2022",
+      "type": "guideline",
+      "title": "WSAVA Global Pain Council — Guidelines for Recognition, Assessment and Treatment of Pain",
+      "year": 2022,
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "note": "Cross-checked source: WSAVA global vet community standard for pain management.",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mavacoxib",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QM01AH92&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Mavacoxib",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    },
+    {
+      "id": "wsava-pain",
+      "name": "WSAVA Global Pain Council guidelines",
+      "url": "https://wsava.org/global-guidelines/global-pain-council-guidelines/",
+      "asOfDate": "2026-05-27",
+      "license": "Free for educational use with attribution"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "bcfccb438ae989747cda16e4b734765a6cd0033ea1bf0d375da331a2d8abb057",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "a7e069f2bd56018ce5e649742f5ac3fb03ec87e225a74fec53494e77e5a2bf97",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "e4b28f49227ab517493bd8b4f9fbe8adb3fd484a126146b567938ac631d43ddc",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "wsava-pain",
+      "cid": "4f3dfbc8262369e4ed25263fc5fd4051710cda271692dda3c34ef6bcf96b22aa",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "QM01AH92",
+      "name": "Mavacoxib (veterinary, long-acting)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC QM01AH92 (vet-only, no human RxNorm CUI). Thai translation + faculty review pending."
+    }
+  ]
+}

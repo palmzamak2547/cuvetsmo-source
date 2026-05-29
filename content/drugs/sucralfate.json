@@ -1,0 +1,167 @@
+{
+  "slug": "sucralfate",
+  "nameEn": "Sucralfate",
+  "nameTh": "ซูคราลเฟต",
+  "class": "GI cytoprotective — aluminum sucrose sulfate (GI ulcer + esophagitis coating)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Carafate",
+    "Antepsin"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-sucralfate",
+        "atc-A02BX02",
+        "pubchem-sucralfate"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-sucralfate",
+        "atc-A02BX02",
+        "pubchem-sucralfate"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-sucralfate",
+        "atc-A02BX02",
+        "pubchem-sucralfate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-sucralfate",
+        "atc-A02BX02",
+        "pubchem-sucralfate"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-sucralfate",
+        "atc-A02BX02",
+        "pubchem-sucralfate"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-sucralfate",
+      "type": "regulatory-database",
+      "title": "Sucralfate — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sucralfate",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "79aead5e3e15c700f39b7e38e86099e8c3136b2b82125ea87794d84eb7c17af4"
+    },
+    {
+      "id": "atc-A02BX02",
+      "type": "guideline",
+      "title": "ATC A02BX02 — Sucralfate",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A02BX02&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "f1d57d6177c51090fa520272e7b1abc3a9086d6e019e8aad71b36bf2bbf3f737"
+    },
+    {
+      "id": "pubchem-sucralfate",
+      "type": "monograph",
+      "title": "Sucralfate — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Sucralfate",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "ee50f7e09236f400a2a4a18f7e334434fd741cc1d9692b96d21bd0a6632e720b"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sucralfate",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A02BX02&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Sucralfate",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "79aead5e3e15c700f39b7e38e86099e8c3136b2b82125ea87794d84eb7c17af4",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "f1d57d6177c51090fa520272e7b1abc3a9086d6e019e8aad71b36bf2bbf3f737",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "ee50f7e09236f400a2a4a18f7e334434fd741cc1d9692b96d21bd0a6632e720b",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "A02BX02",
+      "name": "Sucralfate",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "10156",
+      "name": "Sucralfate"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC A02BX02 + RxNorm 10156. Thai translation + faculty review pending."
+    }
+  ]
+}

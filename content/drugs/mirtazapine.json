@@ -1,0 +1,167 @@
+{
+  "slug": "mirtazapine",
+  "nameEn": "Mirtazapine",
+  "nameTh": "เมอร์ตาซาพีน",
+  "class": "Tetracyclic antidepressant — used in vet as appetite stimulant + anti-emetic (esp. feline CKD)",
+  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "brandNamesTh": [
+    "Remeron",
+    "Mirataz (transdermal vet)"
+  ],
+  "indications": [
+    {
+      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-mirtazapine",
+        "atc-N06AX11",
+        "pubchem-mirtazapine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-mirtazapine",
+        "atc-N06AX11",
+        "pubchem-mirtazapine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "cites": [
+        "dailymed-mirtazapine",
+        "atc-N06AX11",
+        "pubchem-mirtazapine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-mirtazapine",
+        "atc-N06AX11",
+        "pubchem-mirtazapine"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "TEMPLATE — pending faculty review",
+      "route": "PO",
+      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "cites": [
+        "dailymed-mirtazapine",
+        "atc-N06AX11",
+        "pubchem-mirtazapine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dailymed-mirtazapine",
+      "type": "regulatory-database",
+      "title": "Mirtazapine — NLM DailyMed (FDA Structured Product Labeling)",
+      "year": 2025,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mirtazapine",
+      "note": "Cross-checked source: FDA-approved labeling. Search by name returns relevant product labelings.",
+      "cid": "bc65c5ffc711a9f68790fcd3814828014c2d72fd7452e0d9d052392f220fefcc"
+    },
+    {
+      "id": "atc-N06AX11",
+      "type": "guideline",
+      "title": "ATC N06AX11 — Mirtazapine",
+      "year": 2025,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N06AX11&showdescription=no",
+      "note": "Cross-checked source: WHO Collaborating Centre ATC/DDD index. Authoritative drug classification.",
+      "cid": "79c2c2b18074d716eff96a3fdbf8b3dbefda995518f3dd4a43b90b8a37456f97"
+    },
+    {
+      "id": "pubchem-mirtazapine",
+      "type": "monograph",
+      "title": "Mirtazapine — PubChem search",
+      "year": 2025,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Mirtazapine",
+      "note": "Cross-checked source: chemical structure, identifiers, pharmacology summary. Faculty review fills exact CID.",
+      "cid": "abf0390afe779287dc027c5ead37535819f5c969eb1ccab799defa214882b613"
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "dailymed",
+      "name": "NLM DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mirtazapine",
+      "asOfDate": "2026-05-27",
+      "license": "U.S. Government work — public domain. Attribution recommended."
+    },
+    {
+      "id": "atc",
+      "name": "WHO ATC Classification",
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N06AX11&showdescription=no",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem (NIH/NLM)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/#query=Mirtazapine",
+      "asOfDate": "2026-05-27",
+      "license": "NIH/NLM public domain"
+    }
+  ],
+  "mirrorCIDs": [
+    {
+      "sourceId": "dailymed",
+      "cid": "bc65c5ffc711a9f68790fcd3814828014c2d72fd7452e0d9d052392f220fefcc",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "atc",
+      "cid": "79c2c2b18074d716eff96a3fdbf8b3dbefda995518f3dd4a43b90b8a37456f97",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    },
+    {
+      "sourceId": "pubchem",
+      "cid": "abf0390afe779287dc027c5ead37535819f5c969eb1ccab799defa214882b613",
+      "capturedAt": "2026-05-27",
+      "status": "stub"
+    }
+  ],
+  "codes": {
+    "atc": {
+      "code": "N06AX11",
+      "name": "Mirtazapine",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "6929",
+      "name": "Mirtazapine"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 0,
+  "changelog": [
+    {
+      "version": 0,
+      "date": "2026-05-27",
+      "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC N06AX11 + RxNorm 6929. Thai translation + faculty review pending."
+    }
+  ]
+}
