@@ -2,8 +2,8 @@
   "slug": "pimobendan",
   "nameEn": "Pimobendan",
   "nameTh": "พิโมเบนแดน",
-  "class": "Inodilator — calcium sensitizer + PDE3 inhibitor (veterinary-only, congestive heart failure in dogs)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Inodilator — calcium sensitizer + PDE3 inhibitor (veterinary)",
+  "mechanism": "ยา inodilator สำหรับสัตว์โดยเฉพาะ ออกฤทธิ์สองทาง: เพิ่มความไวของ myofilament ต่อ calcium (เพิ่มแรงบีบหัวใจโดยไม่เพิ่ม oxygen demand มาก) และยับยั้ง PDE3 (ขยายหลอดเลือด); เพิ่มทั้ง inotropy และลด afterload",
   "brandNamesTh": [
     "Vetmedin",
     "Cardisure",
@@ -11,48 +11,60 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "รักษา congestive heart failure จาก myxomatous mitral valve disease (MMVD) และ dilated cardiomyopathy (DCM) ในสุนัข; การศึกษา QUEST แสดงว่าเหนือกว่า benazepril; ชะลอการเกิด CHF ในระยะ preclinical (EPIC study)",
       "cites": [
-        "dailymed-pimobendan",
-        "atc-QC01CE90",
-        "pubchem-pimobendan"
+        "acvim-dmvd",
+        "merck-inotropes"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ห้ามใช้ในภาวะที่การเพิ่มแรงบีบหัวใจเป็นอันตราย เช่น hypertrophic cardiomyopathy with outflow obstruction; ใช้ในแมวเป็น off-label",
       "cites": [
-        "dailymed-pimobendan",
-        "atc-QC01CE90",
-        "pubchem-pimobendan"
+        "merck-inotropes"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "โดยรวมทนได้ดี; อาจพบ inappetence, อาเจียน, หรือ arrhythmia เล็กน้อย",
       "cites": [
-        "dailymed-pimobendan",
-        "atc-QC01CE90",
-        "pubchem-pimobendan"
+        "merck-inotropes"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "CHF (MMVD / DCM)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.5 mg/kg/วัน แบ่งให้ 2 ครั้ง ห่างกัน 12 ชั่วโมง (ช่วง 0.2–0.6 mg/kg/วัน); ให้ก่อนอาหาร ~1 ชม.",
       "cites": [
-        "dailymed-pimobendan",
-        "atc-QC01CE90",
-        "pubchem-pimobendan"
+        "merck-inotropes",
+        "acvim-dmvd"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-inotropes",
+      "type": "textbook",
+      "title": "Positive Inotropes for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/positive-inotropes-for-use-in-animals",
+      "note": "Merck — pimobendan + digoxin dosing, digoxin narrow therapeutic index. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "acvim-dmvd",
+      "type": "guideline",
+      "title": "ACVIM Consensus: diagnosis + treatment of myxomatous mitral valve disease in dogs",
+      "year": 2019,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jvim.15488",
+      "note": "ACVIM consensus (J Vet Intern Med) — CHF therapy quartet (furosemide + pimobendan + ACEi + spironolactone). Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-pimobendan",
       "type": "regulatory-database",
@@ -142,12 +154,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC QC01CE90 (vet-only, no human RxNorm CUI). Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — pimobendan 0.5 mg/kg/day divided BID (range 0.2–0.6) verified against Merck positive-inotropes + ACVIM DMVD consensus. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

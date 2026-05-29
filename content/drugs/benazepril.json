@@ -2,67 +2,77 @@
   "slug": "benazepril",
   "nameEn": "Benazepril",
   "nameTh": "เบนาซีปริล",
-  "class": "ACE inhibitor — for CHF + chronic kidney disease",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "ACE inhibitor — RAAS blockade",
+  "mechanism": "ยับยั้ง angiotensin-converting enzyme (ACE) ลดการสร้าง angiotensin II จึงขยายหลอดเลือด ลด afterload/preload และลดการคั่งน้ำผ่านการลด aldosterone; เป็น prodrug เปลี่ยนเป็น benazeprilat",
   "brandNamesTh": [
     "Fortekor",
     "Lotensin"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "รักษา CHF (เป็น 1 ใน 4 ยาหลักร่วมกับ furosemide + pimobendan + spironolactone) และ proteinuric kidney disease; ลด proteinuria ในแมวโรคไตเรื้อรัง",
       "cites": [
-        "dailymed-benazepril",
-        "atc-C09AA07",
-        "pubchem-benazepril"
+        "acvim-dmvd",
+        "tufts-cardiorush"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ห้ามใช้ในภาวะขาดน้ำ, ความดันต่ำ, ตีบของหลอดเลือดไตทั้งสองข้าง; ระวัง hyperkalemia เมื่อใช้ร่วม spironolactone; หลีกเลี่ยงในสัตว์ตั้งท้อง",
       "cites": [
-        "dailymed-benazepril",
-        "atc-C09AA07",
-        "pubchem-benazepril"
+        "tufts-cardiorush"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ความดันต่ำ, azotemia (ลดการกรองที่ไต), hyperkalemia; ตรวจค่าไตและ K+ หลังเริ่มยา",
       "cites": [
-        "dailymed-benazepril",
-        "atc-C09AA07",
-        "pubchem-benazepril"
+        "tufts-cardiorush"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "CHF / proteinuria",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.25–0.5 mg/kg PO ทุก 12–24 ชั่วโมง (ฉลาก EU 0.25–1.0 mg/kg q24h; ACVIM แนะนำ 0.5 mg/kg q12h)",
       "cites": [
-        "dailymed-benazepril",
-        "atc-C09AA07",
-        "pubchem-benazepril"
+        "acvim-dmvd",
+        "tufts-cardiorush"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "CKD proteinuria / cardiac",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.5–1 mg/kg PO ทุก 24 ชั่วโมง",
       "cites": [
-        "dailymed-benazepril",
-        "atc-C09AA07",
-        "pubchem-benazepril"
+        "tufts-cardiorush"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "tufts-cardiorush",
+      "type": "guideline",
+      "title": "Cardiology Drug Formulary — Tufts CardioRush",
+      "year": 2024,
+      "url": "https://sites.tufts.edu/cardiorush/cardiology-drug-formulary/",
+      "note": "Tufts Cummings veterinary cardiology academic formulary. Authoritative reference for cardiac dosing.",
+      "cid": null
+    },
+    {
+      "id": "acvim-dmvd",
+      "type": "guideline",
+      "title": "ACVIM Consensus: diagnosis + treatment of myxomatous mitral valve disease in dogs",
+      "year": 2019,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jvim.15488",
+      "note": "ACVIM consensus (J Vet Intern Med) — CHF therapy quartet (furosemide + pimobendan + ACEi + spironolactone). Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-benazepril",
       "type": "regulatory-database",
@@ -156,12 +166,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC C09AA07 + RxNorm 18867. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — benazepril 0.25–0.5 mg/kg (ACVIM 0.5 mg/kg q12h) verified against Tufts CardioRush + ACVIM DMVD consensus. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจค่าไต (creatinine, BUN) และ K+ ก่อนและ 3–7 วันหลังเริ่มยาหรือปรับขนาด",
+      "cites": [
+        "tufts-cardiorush"
+      ]
     }
   ]
 }

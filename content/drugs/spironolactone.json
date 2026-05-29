@@ -2,72 +2,77 @@
   "slug": "spironolactone",
   "nameEn": "Spironolactone",
   "nameTh": "สไปโรโนแลกโทน",
-  "class": "Aldosterone antagonist — K-sparing diuretic",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Potassium-sparing diuretic — aldosterone antagonist",
+  "mechanism": "ยาขับปัสสาวะกลุ่ม K-sparing ออกฤทธิ์ต้าน aldosterone ที่ distal tubule; ฤทธิ์ขับปัสสาวะอ่อนแต่ลด aldosterone-mediated cardiac remodeling และเก็บ K+ ไว้",
   "brandNamesTh": [
     "Aldactone",
     "Prilactone"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "เสริมการรักษา CHF (1 ใน 4 ยาหลัก) เพื่อต้าน aldosterone escape และลด remodeling ของหัวใจ; ใช้ร่วม furosemide + pimobendan + ACE inhibitor",
       "cites": [
-        "dailymed-spironolactone",
-        "atc-C03DA01",
-        "pubchem-spironolactone",
-        "who-eml-22"
+        "acvim-dmvd",
+        "merck-diuretics"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวัง hyperkalemia โดยเฉพาะเมื่อใช้ร่วม ACE inhibitor หรือในไตบกพร่อง; ในแมวอาจเกิดแผลที่ผิวหนังบริเวณหน้า (facial dermatitis) ในบางพันธุ์",
       "cites": [
-        "dailymed-spironolactone",
-        "atc-C03DA01",
-        "pubchem-spironolactone",
-        "who-eml-22"
+        "merck-diuretics"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "hyperkalemia, GI upset; facial excoriation ในแมว Maine Coon ที่รายงาน; ฤทธิ์ขับปัสสาวะอ่อน",
       "cites": [
-        "dailymed-spironolactone",
-        "atc-C03DA01",
-        "pubchem-spironolactone",
-        "who-eml-22"
+        "merck-diuretics"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "CHF adjunct (anti-aldosterone)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "1–2 mg/kg PO ทุก 12 ชั่วโมง",
       "cites": [
-        "dailymed-spironolactone",
-        "atc-C03DA01",
-        "pubchem-spironolactone",
-        "who-eml-22"
+        "acvim-dmvd",
+        "merck-diuretics"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "CHF adjunct",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "1–2 mg/kg PO ทุก 12–24 ชั่วโมง",
       "cites": [
-        "dailymed-spironolactone",
-        "atc-C03DA01",
-        "pubchem-spironolactone",
-        "who-eml-22"
+        "merck-diuretics"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-diuretics",
+      "type": "textbook",
+      "title": "Diuretics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/diuretics-for-use-in-animals",
+      "note": "Merck cardiovascular pharmacology — diuretic dosing + furosemide resistance. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "acvim-dmvd",
+      "type": "guideline",
+      "title": "ACVIM Consensus: diagnosis + treatment of myxomatous mitral valve disease in dogs",
+      "year": 2019,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jvim.15488",
+      "note": "ACVIM consensus (J Vet Intern Med) — CHF therapy quartet (furosemide + pimobendan + ACEi + spironolactone). Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-spironolactone",
       "type": "regulatory-database",
@@ -183,12 +188,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC C03DA01 + RxNorm 9997. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — spironolactone 1–2 mg/kg q12h verified against Merck diuretics + ACVIM DMVD consensus. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

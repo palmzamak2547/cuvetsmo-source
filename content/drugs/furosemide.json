@@ -2,72 +2,77 @@
   "slug": "furosemide",
   "nameEn": "Furosemide",
   "nameTh": "ฟูโรซีไมด์",
-  "class": "Loop diuretic — NKCC2 inhibitor",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Loop diuretic",
+  "mechanism": "ยาขับปัสสาวะกลุ่ม loop diuretic ยับยั้ง Na-K-2Cl cotransporter ที่ thick ascending limb ของ loop of Henle ทำให้ขับน้ำและเกลือออกมาก; เป็นยาหลักลดภาวะน้ำท่วมปอด/ช่องท้องใน CHF",
   "brandNamesTh": [
     "Lasix",
     "Frusemide"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ลดภาวะคั่งน้ำใน congestive heart failure (น้ำท่วมปอด, ascites, pleural effusion); เป็น 1 ใน 4 ยาหลักของการรักษา CHF ร่วมกับ pimobendan, ACE inhibitor, spironolactone",
       "cites": [
-        "dailymed-furosemide",
-        "atc-C03CA01",
-        "pubchem-furosemide",
-        "who-eml-22"
+        "acvim-dmvd",
+        "merck-diuretics"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวังในสัตว์ขาดน้ำ, ไตวายเฉียบพลัน, electrolyte imbalance; ทำให้ K+ ต่ำซึ่งเพิ่มพิษ digoxin",
       "cites": [
-        "dailymed-furosemide",
-        "atc-C03CA01",
-        "pubchem-furosemide",
-        "who-eml-22"
+        "merck-diuretics"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ขาดน้ำ, hypokalemia, hyponatremia, azotemia (prerenal), ototoxicity เมื่อขนาดสูง; เมื่อขนาด > 8–10 mg/kg/วัน (สุนัข) หรือ ~6 (แมว) ให้สงสัย furosemide resistance",
       "cites": [
-        "dailymed-furosemide",
-        "atc-C03CA01",
-        "pubchem-furosemide",
-        "who-eml-22"
+        "merck-diuretics"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "CHF / pulmonary edema",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "1–5 mg/kg PO/IV/SC ทุก 12–24 ชั่วโมง; เฉียบพลัน 2 mg/kg IV ซ้ำได้ 2–4 mg/kg ถ้าไม่ขับปัสสาวะใน 1 ชม.",
       "cites": [
-        "dailymed-furosemide",
-        "atc-C03CA01",
-        "pubchem-furosemide",
-        "who-eml-22"
+        "merck-diuretics",
+        "acvim-dmvd"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "CHF / pulmonary edema",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "1–4 mg/kg PO/IV/SC ทุก 12–24 ชั่วโมง (ใช้ขนาดต่ำกว่าสุนัข)",
       "cites": [
-        "dailymed-furosemide",
-        "atc-C03CA01",
-        "pubchem-furosemide",
-        "who-eml-22"
+        "merck-diuretics"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-diuretics",
+      "type": "textbook",
+      "title": "Diuretics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/diuretics-for-use-in-animals",
+      "note": "Merck cardiovascular pharmacology — diuretic dosing + furosemide resistance. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "acvim-dmvd",
+      "type": "guideline",
+      "title": "ACVIM Consensus: diagnosis + treatment of myxomatous mitral valve disease in dogs",
+      "year": 2019,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jvim.15488",
+      "note": "ACVIM consensus (J Vet Intern Med) — CHF therapy quartet (furosemide + pimobendan + ACEi + spironolactone). Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-furosemide",
       "type": "regulatory-database",
@@ -183,12 +188,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC C03CA01 + RxNorm 4603. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — furosemide 1–5 mg/kg + acute 2 mg/kg IV + resistance threshold verified against Merck diuretics + ACVIM DMVD consensus. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ electrolyte (โดยเฉพาะ K+), ค่าไต, และภาวะน้ำในร่างกายเป็นระยะ; K+ ต่ำเพิ่มความเสี่ยงพิษ digoxin",
+      "cites": [
+        "merck-diuretics"
+      ]
     }
   ]
 }

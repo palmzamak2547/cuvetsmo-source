@@ -2,71 +2,75 @@
   "slug": "amlodipine",
   "nameEn": "Amlodipine",
   "nameTh": "แอมโลดิพีน",
-  "class": "Calcium channel blocker (dihydropyridine) — first-line for feline hypertension",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Calcium channel blocker — dihydropyridine (first-line feline hypertension)",
+  "mechanism": "ยาปิดกั้น L-type calcium channel กลุ่ม dihydropyridine ออกฤทธิ์ขยายหลอดเลือดแดงส่วนปลายเป็นหลัก ลดความดันโลหิต; เป็นยาเลือกแรกสำหรับ systemic hypertension ในแมว",
   "brandNamesTh": [
     "Norvasc"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "systemic hypertension โดยเฉพาะในแมว (มักสัมพันธ์กับ CKD หรือ hyperthyroidism) — เป็นยาเลือกแรก; ใช้ในสุนัขเป็นยาเสริมลดความดัน",
       "cites": [
-        "dailymed-amlodipine",
-        "atc-C08CA01",
-        "pubchem-amlodipine",
-        "who-eml-22"
+        "tufts-cardiorush",
+        "merck-antiarrhythmics"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวังในภาวะความดันต่ำ; ค่อย ๆ ปรับขนาด (titrate) เฝ้าระวัง hypotension; รักษาสาเหตุพื้นฐาน (CKD/hyperthyroid) ร่วมด้วย",
       "cites": [
-        "dailymed-amlodipine",
-        "atc-C08CA01",
-        "pubchem-amlodipine",
-        "who-eml-22"
+        "tufts-cardiorush"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ความดันต่ำเกินไป, ซึม; gingival hyperplasia เมื่อใช้นานในบางตัว; โดยรวมทนได้ดี",
       "cites": [
-        "dailymed-amlodipine",
-        "atc-C08CA01",
-        "pubchem-amlodipine",
-        "who-eml-22"
+        "tufts-cardiorush"
       ]
     }
   ],
   "dosages": [
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Systemic hypertension",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.625–1.25 mg/ตัว PO ทุก 12–24 ชั่วโมง (เริ่มต่ำแล้วปรับขึ้น)",
       "cites": [
-        "dailymed-amlodipine",
-        "atc-C08CA01",
-        "pubchem-amlodipine",
-        "who-eml-22"
+        "tufts-cardiorush"
       ]
     },
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Hypertension (adjunct)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.1–0.2 mg/kg PO ทุก 12 ชั่วโมง หรือ 0.2–0.4 mg/kg ทุก 24 ชั่วโมง",
       "cites": [
-        "dailymed-amlodipine",
-        "atc-C08CA01",
-        "pubchem-amlodipine",
-        "who-eml-22"
+        "tufts-cardiorush"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-antiarrhythmics",
+      "type": "textbook",
+      "title": "Antiarrhythmics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.msdvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/antiarrhythmics-for-use-in-animals",
+      "note": "Merck — beta-blocker, sotalol, Ca-channel-blocker dosing. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tufts-cardiorush",
+      "type": "guideline",
+      "title": "Cardiology Drug Formulary — Tufts CardioRush",
+      "year": 2024,
+      "url": "https://sites.tufts.edu/cardiorush/cardiology-drug-formulary/",
+      "note": "Tufts Cummings veterinary cardiology academic formulary. Authoritative reference for cardiac dosing.",
+      "cid": null
+    },
     {
       "id": "dailymed-amlodipine",
       "type": "regulatory-database",
@@ -182,12 +186,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC C08CA01 + RxNorm 17767. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — amlodipine cat 0.625–1.25 mg/cat (first-line feline hypertension), dog 0.1–0.2 mg/kg q12h verified against Tufts CardioRush + Merck. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "วัดความดันโลหิตเป็นระยะระหว่างปรับขนาด; ตรวจค่าไตในสัตว์ CKD",
+      "cites": [
+        "tufts-cardiorush"
+      ]
     }
   ]
 }

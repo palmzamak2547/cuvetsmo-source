@@ -2,56 +2,77 @@
   "slug": "sotalol",
   "nameEn": "Sotalol",
   "nameTh": "โซตาลอล",
-  "class": "Class III antiarrhythmic + non-selective beta blocker (ventricular tachyarrhythmia in dogs)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Class III antiarrhythmic + non-selective beta blocker",
+  "mechanism": "ยาต้านหัวใจเต้นผิดจังหวะ class III (ยืด repolarization โดยปิด K channel) ร่วมกับฤทธิ์ non-selective beta blocker (class II); ใช้คุม ventricular tachyarrhythmia",
   "brandNamesTh": [
     "Betapace",
     "Sotalex"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "คุม ventricular tachyarrhythmia ในสุนัข (เช่น Boxer ARVC, DCM) และ supraventricular arrhythmia บางชนิด",
       "cites": [
-        "dailymed-sotalol",
-        "atc-C07AA07",
-        "pubchem-sotalol"
+        "merck-antiarrhythmics",
+        "tufts-cardiorush"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ระวังใน CHF/DCM (ฤทธิ์ beta blocker กดการบีบหัวใจ — ใช้ขนาดต่ำสุด), bradyarrhythmia, AV block; เสี่ยง proarrhythmia (QT prolongation)",
       "cites": [
-        "dailymed-sotalol",
-        "atc-C07AA07",
-        "pubchem-sotalol"
+        "tufts-cardiorush"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "หัวใจเต้นช้า, ความดันต่ำ, อาจกระตุ้น arrhythmia ใหม่ (proarrhythmia); ระวังเมื่อใช้ร่วม mexiletine",
       "cites": [
-        "dailymed-sotalol",
-        "atc-C07AA07",
-        "pubchem-sotalol"
+        "merck-antiarrhythmics"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Ventricular tachyarrhythmia",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "1–2.5 mg/kg PO ทุก 12 ชั่วโมง (เริ่มขนาดต่ำใน CHF/DCM)",
       "cites": [
-        "dailymed-sotalol",
-        "atc-C07AA07",
-        "pubchem-sotalol"
+        "merck-antiarrhythmics",
+        "tufts-cardiorush"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Ventricular arrhythmia",
+      "route": "PO",
+      "dose": "1–2.5 mg/kg PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "merck-antiarrhythmics"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-antiarrhythmics",
+      "type": "textbook",
+      "title": "Antiarrhythmics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.msdvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/antiarrhythmics-for-use-in-animals",
+      "note": "Merck — beta-blocker, sotalol, Ca-channel-blocker dosing. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tufts-cardiorush",
+      "type": "guideline",
+      "title": "Cardiology Drug Formulary — Tufts CardioRush",
+      "year": 2024,
+      "url": "https://sites.tufts.edu/cardiorush/cardiology-drug-formulary/",
+      "note": "Tufts Cummings veterinary cardiology academic formulary. Authoritative reference for cardiac dosing.",
+      "cid": null
+    },
     {
       "id": "dailymed-sotalol",
       "type": "regulatory-database",
@@ -145,12 +166,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC C07AA07 + RxNorm 9947. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — sotalol 1–2.5 mg/kg q12h + proarrhythmia/CHF cautions verified against Merck antiarrhythmics + Tufts CardioRush. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

@@ -2,59 +2,79 @@
   "slug": "digoxin",
   "nameEn": "Digoxin",
   "nameTh": "ดิจ็อกซิน",
-  "class": "Cardiac glycoside — Na+/K+-ATPase inhibitor",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Cardiac glycoside — positive inotrope + AV-node modulator (narrow therapeutic index)",
+  "mechanism": "ยับยั้ง Na-K-ATPase ทำให้ Ca ในเซลล์หัวใจสูงขึ้น เพิ่มแรงบีบ (inotropy อ่อน) และเพิ่ม vagal tone ทำให้ชะลอการนำสัญญาณที่ AV node (ใช้คุมอัตราการเต้นใน atrial fibrillation); ⚠️ ช่วงระหว่างขนาดรักษากับขนาดเป็นพิษแคบมาก",
   "brandNamesTh": [
     "Lanoxin"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "คุมอัตราการเต้นหัวใจใน atrial fibrillation และ supraventricular tachyarrhythmia; เพิ่มแรงบีบในบางกรณี CHF (บทบาทลดลงเมื่อมี pimobendan)",
       "cites": [
-        "dailymed-digoxin",
-        "atc-C01AA05",
-        "pubchem-digoxin",
-        "who-eml-22"
+        "merck-inotropes",
+        "tufts-cardiorush"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "⚠️ ช่วงการรักษาแคบมาก — ขนาดเป็นพิษใกล้ขนาดรักษา; ห้าม/ระวังมากในไตบกพร่อง (ขับทางไต), hypokalemia (เพิ่มพิษ), ventricular arrhythmia, hypertrophic cardiomyopathy; furosemide ที่ทำให้ K+ ต่ำเพิ่มพิษ digoxin",
       "cites": [
-        "dailymed-digoxin",
-        "atc-C01AA05",
-        "pubchem-digoxin",
-        "who-eml-22"
+        "merck-inotropes"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "พิษ digoxin: เบื่ออาหาร อาเจียน ท้องเสีย (อาการแรก ๆ), arrhythmia (AV block, VPC), ซึม; ต้องตรวจระดับยาในเลือด 5–8 วันหลังเริ่ม",
       "cites": [
-        "dailymed-digoxin",
-        "atc-C01AA05",
-        "pubchem-digoxin",
-        "who-eml-22"
+        "merck-inotropes",
+        "tufts-cardiorush"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Atrial fibrillation rate control",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.003–0.011 mg/kg PO ทุก 12 ชั่วโมง",
+      "notes": "⚠️ narrow therapeutic index — คำนวณแม่นยำ ตรวจระดับยาในเลือด 5–8 วันหลังเริ่ม และยืนยันกับ faculty/cardiologist",
       "cites": [
-        "dailymed-digoxin",
-        "atc-C01AA05",
-        "pubchem-digoxin",
-        "who-eml-22"
+        "merck-inotropes",
+        "tufts-cardiorush"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Supraventricular arrhythmia",
+      "route": "PO",
+      "dose": "0.005–0.01 mg/kg PO ทุก 24–48 ชั่วโมง",
+      "notes": "⚠️ narrow therapeutic index — ตรวจระดับยา",
+      "cites": [
+        "merck-inotropes"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-inotropes",
+      "type": "textbook",
+      "title": "Positive Inotropes for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/positive-inotropes-for-use-in-animals",
+      "note": "Merck — pimobendan + digoxin dosing, digoxin narrow therapeutic index. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tufts-cardiorush",
+      "type": "guideline",
+      "title": "Cardiology Drug Formulary — Tufts CardioRush",
+      "year": 2024,
+      "url": "https://sites.tufts.edu/cardiorush/cardiology-drug-formulary/",
+      "note": "Tufts Cummings veterinary cardiology academic formulary. Authoritative reference for cardiac dosing.",
+      "cid": null
+    },
     {
       "id": "dailymed-digoxin",
       "type": "regulatory-database",
@@ -170,12 +190,26 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC C01AA05 + RxNorm 3407. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — digoxin dog 0.003–0.011 mg/kg q12h, cat 0.005–0.01 mg/kg q24–48h with prominent narrow-therapeutic-index + serum-monitoring warnings verified against Merck positive-inotropes + Tufts CardioRush. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจระดับ serum digoxin (trough) 5–8 วันหลังเริ่มหรือปรับขนาด, ตรวจ K+ และค่าไต; เฝ้าระวังอาการพิษ (GI signs มาก่อน arrhythmia)",
+      "cites": [
+        "merck-inotropes",
+        "tufts-cardiorush"
+      ]
     }
   ]
 }
