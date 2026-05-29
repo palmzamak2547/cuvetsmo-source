@@ -2,8 +2,8 @@
   "slug": "amoxicillin",
   "nameEn": "Amoxicillin",
   "nameTh": "อะม็อกซีซิลลิน",
-  "class": "Antibiotic — β-lactam, aminopenicillin (combinations with clavulanate: Synulox/Clavamox)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+  "class": "Antibiotic — aminopenicillin (β-lactam)",
+  "mechanism": "ยาปฏิชีวนะกลุ่ม β-lactam (aminopenicillin) ออกฤทธิ์ฆ่าเชื้อโดยจับ penicillin-binding proteins ยับยั้งการสร้างผนังเซลล์แบคทีเรีย (peptidoglycan cross-linking); รูปแบบผสม clavulanate (Clavamox/Synulox) ป้องกัน β-lactamase จึงครอบคลุมเชื้อดื้อยาได้กว้างขึ้น",
   "brandNamesTh": [
     "Synulox",
     "Clavamox",
@@ -11,69 +11,77 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ติดเชื้อแบคทีเรียทั้ง gram-positive และ gram-negative (Staphylococcus, Streptococcus, E. coli, Klebsiella, Pasteurella); รูปแบบ amoxicillin-clavulanate ใช้กับการติดเชื้อผิวหนัง ทางเดินปัสสาวะ และแผล",
       "cites": [
-        "dailymed-amoxicillin",
-        "atc-J01CA04",
-        "pubchem-amoxicillin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-penicillins-use-in-animals",
+        "who-eml-22"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ห้ามใช้ในสัตว์ที่แพ้ penicillin/cephalosporin (cross-reactivity); ระวังในสัตว์ที่มีประวัติแพ้ β-lactam",
       "cites": [
-        "dailymed-amoxicillin",
-        "atc-J01CA04",
-        "pubchem-amoxicillin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-penicillins-use-in-animals"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ปฏิกิริยาภูมิแพ้ (ผื่น angioedema anaphylaxis), อาการทางเดินอาหารหลังกินยา, อาจเกิด superinfection จากการใช้ยาวงกว้าง; อาจให้ผล false-positive Coombs test",
       "cites": [
-        "dailymed-amoxicillin",
-        "atc-J01CA04",
-        "pubchem-amoxicillin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-penicillins-use-in-animals"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Bacterial infection (amoxicillin)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "11–30 mg/kg ทุก 8–24 ชั่วโมง (PO/SC/IV)",
       "cites": [
-        "dailymed-amoxicillin",
-        "atc-J01CA04",
-        "pubchem-amoxicillin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-penicillins-use-in-animals"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Amoxicillin-clavulanate (Clavamox)",
+      "route": "PO",
+      "dose": "12.5–25 mg/kg ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "merck-penicillins-use-in-animals"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Amoxicillin-clavulanate (Clavamox)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "62.5 mg/ตัว ทุก 12 ชั่วโมง หรือ 10–20 mg/kg ทุก 8 ชั่วโมง",
       "cites": [
-        "dailymed-amoxicillin",
-        "atc-J01CA04",
-        "pubchem-amoxicillin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-penicillins-use-in-animals"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-penicillins-use-in-animals",
+      "type": "textbook",
+      "title": "Penicillins — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/penicillins-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — verified dose, spectrum, adverse-effect profile. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Amoxicillin",
+      "type": "monograph",
+      "title": "Amoxicillin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Amoxicillin",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
     {
       "id": "dailymed-amoxicillin",
       "type": "regulatory-database",
@@ -211,12 +219,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention). ATC J01CA04 + RxNorm 723. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — amoxicillin 11–30 mg/kg + clavulanate doses verified against Merck Veterinary Manual (Penicillins). Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "interactions": [
+    {
+      "text": "อาจลดประสิทธิภาพเมื่อใช้ร่วม bacteriostatic antibiotic (tetracycline, chloramphenicol); probenecid เพิ่มระดับยาในเลือด",
+      "cites": [
+        "merck-penicillins-use-in-animals"
+      ]
     }
   ]
 }

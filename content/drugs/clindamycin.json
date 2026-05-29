@@ -2,8 +2,8 @@
   "slug": "clindamycin",
   "nameEn": "Clindamycin",
   "nameTh": "คลินดาไมซิน",
-  "class": "Antibiotic — lincosamide (anaerobic + Gram-positive coverage, oral abscess + osteomyelitis)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+  "class": "Antibiotic — lincosamide (bacteriostatic)",
+  "mechanism": "ยาปฏิชีวนะกลุ่ม lincosamide ยับยั้งการสร้างโปรตีนโดยจับ 50S ribosomal subunit; ออกฤทธิ์ดีต่อ gram-positive, anaerobe และ Toxoplasma; ซึมเข้ากระดูกและฟันได้ดี",
   "brandNamesTh": [
     "Antirobe",
     "Cleocin",
@@ -11,69 +11,59 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ติดเชื้อ gram-positive และ anaerobe เช่น ฝีหนอง โรคปริทันต์ (periodontal) การติดเชื้อกระดูก (osteomyelitis); ใช้รักษา toxoplasmosis ในแมว",
       "cites": [
         "dailymed-clindamycin",
-        "atc-J01FF01",
-        "pubchem-clindamycin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "who-eml-22"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ห้ามใช้ในสัตว์ที่แพ้ lincosamide; ระวังในสัตว์ที่มีโรคตับหรือไตบกพร่อง",
       "cites": [
-        "dailymed-clindamycin",
-        "atc-J01FF01",
-        "pubchem-clindamycin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "dailymed-clindamycin"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "อาเจียน ท้องเสีย; ในแมวการป้อนยาเม็ดแบบแห้งอาจทำให้หลอดอาหารบาดเจ็บ จึงควรป้อนตามด้วยน้ำหรืออาหาร",
       "cites": [
-        "dailymed-clindamycin",
-        "atc-J01FF01",
-        "pubchem-clindamycin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "dailymed-clindamycin"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Soft-tissue / dental / bone infection",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "11 mg/kg ทุก 12 ชั่วโมง หรือ 22 mg/kg ทุก 24 ชั่วโมง",
       "cites": [
-        "dailymed-clindamycin",
-        "atc-J01FF01",
-        "pubchem-clindamycin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "dailymed-clindamycin"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Soft-tissue infection / toxoplasmosis",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "11–33 mg/kg ต่อวัน (ปรับตามความรุนแรง)",
       "cites": [
-        "dailymed-clindamycin",
-        "atc-J01FF01",
-        "pubchem-clindamycin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "dailymed-clindamycin"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "wikipedia-Clindamycin",
+      "type": "monograph",
+      "title": "Clindamycin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Clindamycin",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
     {
       "id": "dailymed-clindamycin",
       "type": "regulatory-database",
@@ -211,12 +201,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention). ATC J01FF01 + RxNorm 2582. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — dog 11 mg/kg q12h or 22 mg/kg q24h, cat 11–33 mg/kg/day verified against FDA Antirobe (DailyMed) label. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

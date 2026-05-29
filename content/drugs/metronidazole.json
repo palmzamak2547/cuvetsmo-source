@@ -3,75 +3,74 @@
   "nameEn": "Metronidazole",
   "nameTh": "เมโทรนิดาโซล",
   "class": "Antibiotic / antiprotozoal — nitroimidazole",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+  "mechanism": "ยากลุ่ม nitroimidazole ถูกรีดิวซ์ในแบคทีเรียที่ไม่ใช้ออกซิเจน (anaerobe) และโปรโตซัว เกิด radical ที่ทำลาย DNA ของจุลชีพ; ครอบคลุม anaerobe และโปรโตซัว (Giardia)",
   "brandNamesTh": [
     "Flagyl"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "การติดเชื้อ anaerobe, giardiasis, และภาวะลำไส้อักเสบบางชนิด รวมถึงใช้ใน hepatic encephalopathy",
       "cites": [
-        "dailymed-metronidazole",
-        "atc-P01AB01",
-        "pubchem-metronidazole",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-nitroimidazoles-use-in-animals"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ระวังในสัตว์ที่มีโรคตับ (ลดขนาดยา); หลีกเลี่ยงในสัตว์ตั้งท้องระยะแรก",
       "cites": [
-        "dailymed-metronidazole",
-        "atc-P01AB01",
-        "pubchem-metronidazole",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-nitroimidazoles-use-in-animals"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "⚠️ ความเป็นพิษต่อระบบประสาท (neurotoxicity): สั่น กล้ามเนื้อกระตุก เดินเซ (ataxia) จนถึงชัก — ขนาดยารวมต่อวันไม่ควรเกิน 65 mg/kg และมีหลักฐานพบพิษที่ขนาดต่ำกว่านั้น จึงควรระวังเมื่อให้ > 40 mg/kg ทุก 24 ชั่วโมง",
       "cites": [
-        "dailymed-metronidazole",
-        "atc-P01AB01",
-        "pubchem-metronidazole",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-nitroimidazoles-use-in-animals"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Giardiasis",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "25 mg/kg ทุก 12 ชั่วโมง นาน 5 วัน",
       "cites": [
-        "dailymed-metronidazole",
-        "atc-P01AB01",
-        "pubchem-metronidazole",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-nitroimidazoles-use-in-animals"
       ]
     },
     {
-      "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "species": "canine",
+      "indication": "Inflammatory GI / IBD",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "10–15 mg/kg ทุก 12 ชั่วโมง",
+      "notes": "ขนาดรวมต่อวันไม่เกิน 65 mg/kg (neurotoxicity); ระวังเมื่อ > 40 mg/kg/วัน",
       "cites": [
-        "dailymed-metronidazole",
-        "atc-P01AB01",
-        "pubchem-metronidazole",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-nitroimidazoles-use-in-animals"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-nitroimidazoles-use-in-animals",
+      "type": "textbook",
+      "title": "Nitroimidazoles — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/nitroimidazoles-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — verified dose, spectrum, adverse-effect profile. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Metronidazole",
+      "type": "monograph",
+      "title": "Metronidazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Metronidazole",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
     {
       "id": "dailymed-metronidazole",
       "type": "regulatory-database",
@@ -209,12 +208,33 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention). ATC P01AB01 + RxNorm 6922. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — metronidazole giardia 25 mg/kg q12h + IBD 10–15 mg/kg q12h + neurotoxicity ceiling 65 mg/kg/day (caution >40) verified against Merck Veterinary Manual (Nitroimidazoles). Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "interactions": [
+    {
+      "text": "อาจเพิ่มฤทธิ์ warfarin; ใช้ร่วม alcohol ทำให้เกิด disulfiram-like reaction",
+      "cites": [
+        "merck-nitroimidazoles-use-in-animals"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "เฝ้าระวังอาการทางระบบประสาท (สั่น เดินเซ ตากระตุก nystagmus) โดยเฉพาะเมื่อใช้ขนาดสูงหรือนาน; หยุดยาทันทีหากพบ",
+      "cites": [
+        "merck-nitroimidazoles-use-in-animals"
+      ]
     }
   ]
 }

@@ -2,8 +2,8 @@
   "slug": "cefalexin",
   "nameEn": "Cefalexin",
   "nameTh": "เซฟาเล็กซิน",
-  "class": "Antibiotic — first-generation cephalosporin",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+  "class": "Antibiotic — first-generation cephalosporin (β-lactam)",
+  "mechanism": "ยาปฏิชีวนะ β-lactam กลุ่ม cephalosporin รุ่นที่ 1 ยับยั้งการสร้างผนังเซลล์แบคทีเรีย; ออกฤทธิ์ดีต่อ gram-positive (โดยเฉพาะ Staphylococcus) แต่ครอบคลุม gram-negative ได้ปานกลางเท่านั้น",
   "brandNamesTh": [
     "Keflex",
     "Rilexine",
@@ -11,69 +11,67 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ติดเชื้อผิวหนังและเนื้อเยื่ออ่อน (pyoderma), ทางเดินปัสสาวะ, กระดูก ที่เกิดจากเชื้อ gram-positive โดยเฉพาะ Staphylococcus; ออกฤทธิ์น้อยต่อ E. coli",
       "cites": [
-        "dailymed-cefalexin",
-        "atc-J01DB01",
-        "pubchem-cefalexin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ห้ามใช้ในสัตว์ที่แพ้ cephalosporin; ระวัง cross-reactivity ในสัตว์ที่แพ้ penicillin",
       "cites": [
-        "dailymed-cefalexin",
-        "atc-J01DB01",
-        "pubchem-cefalexin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "คลื่นไส้ อาเจียน ท้องเสีย; อาจเกิด antimicrobial-induced colitis และปฏิกิริยาภูมิแพ้",
       "cites": [
-        "dailymed-cefalexin",
-        "atc-J01DB01",
-        "pubchem-cefalexin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Pyoderma / soft-tissue / UTI",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "15–45 mg/kg ทุก 6–12 ชั่วโมง",
       "cites": [
-        "dailymed-cefalexin",
-        "atc-J01DB01",
-        "pubchem-cefalexin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Skin / soft-tissue infection",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "15–35 mg/kg ทุก 6–12 ชั่วโมง",
       "cites": [
-        "dailymed-cefalexin",
-        "atc-J01DB01",
-        "pubchem-cefalexin",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-cephalosporins-and-cephamycins-use-in-animals",
+      "type": "textbook",
+      "title": "Cephalosporins and Cephamycins — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/cephalosporins-and-cephamycins-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — verified dose, spectrum, adverse-effect profile. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Cefalexin",
+      "type": "monograph",
+      "title": "Cefalexin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Cefalexin",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
     {
       "id": "dailymed-cefalexin",
       "type": "regulatory-database",
@@ -211,12 +209,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention). ATC J01DB01 + RxNorm 2231. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — cefalexin dog 15–45 / cat 15–35 mg/kg verified against Merck Veterinary Manual (Cephalosporins). Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

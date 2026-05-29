@@ -2,71 +2,65 @@
   "slug": "cefovecin",
   "nameEn": "Cefovecin",
   "nameTh": "เซโฟเวซิน",
-  "class": "Antibiotic — long-acting third-generation cephalosporin (veterinary-only, 14-day duration)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Antimicrobial Stewardship guidelines)",
+  "class": "Antibiotic — third-generation cephalosporin, long-acting (veterinary)",
+  "mechanism": "ยา β-lactam กลุ่ม cephalosporin รุ่นที่ 3 ชนิดออกฤทธิ์ยาว (sustained-release) สำหรับสัตว์โดยเฉพาะ (Convenia); ฉีดครั้งเดียวออกฤทธิ์นานถึง 14 วันจากการจับโปรตีนสูง",
   "brandNamesTh": [
     "Convenia"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ติดเชื้อผิวหนังและเนื้อเยื่ออ่อนในสุนัขและแมว โดยเฉพาะที่เกิดจาก Staphylococcus pseudintermedius; ครอบคลุม gram-negative ได้พอใช้; เหมาะเมื่อการป้อนยากินทำได้ยาก",
       "cites": [
-        "dailymed-cefovecin",
-        "atc-QJ01DD91",
-        "pubchem-cefovecin",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ห้ามใช้ในสัตว์ที่แพ้ cephalosporin/penicillin; เนื่องจากออกฤทธิ์ยาว 14 วันจึงถอนยาออกจากร่างกายไม่ได้หากเกิดอาการไม่พึงประสงค์",
       "cites": [
-        "dailymed-cefovecin",
-        "atc-QJ01DD91",
-        "pubchem-cefovecin",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "อาการทางเดินอาหารและปฏิกิริยาภูมิแพ้ตามกลุ่ม cephalosporin; ข้อควรระวังพิเศษคือฤทธิ์คงอยู่นานหลังฉีด",
       "cites": [
-        "dailymed-cefovecin",
-        "atc-QJ01DD91",
-        "pubchem-cefovecin",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Skin / soft-tissue infection",
+      "route": "SC",
+      "dose": "8 mg/kg ฉีดใต้ผิวหนัง ทุก 14 วัน",
       "cites": [
-        "dailymed-cefovecin",
-        "atc-QJ01DD91",
-        "pubchem-cefovecin",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Skin / soft-tissue infection",
+      "route": "SC",
+      "dose": "8 mg/kg ฉีดใต้ผิวหนัง ทุก 14 วัน",
       "cites": [
-        "dailymed-cefovecin",
-        "atc-QJ01DD91",
-        "pubchem-cefovecin",
-        "wsava-amr-2023"
+        "merck-cephalosporins-and-cephamycins-use-in-animals"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-cephalosporins-and-cephamycins-use-in-animals",
+      "type": "textbook",
+      "title": "Cephalosporins and Cephamycins — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/cephalosporins-and-cephamycins-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — verified dose, spectrum, adverse-effect profile. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-cefovecin",
       "type": "regulatory-database",
@@ -178,12 +172,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention). ATC QJ01DD91 (vet-only, no human RxNorm CUI). Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — cefovecin 8 mg/kg SC q14d verified against Merck Veterinary Manual (Cephalosporins). Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

@@ -2,8 +2,8 @@
   "slug": "tmp-smx",
   "nameEn": "Trimethoprim-Sulfamethoxazole",
   "nameTh": "ไตรเมโทพริม-ซัลฟาเมทอกซาโซล",
-  "class": "Antibiotic — sulfonamide + DHFR inhibitor combination (broad-spectrum)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+  "class": "Antibiotic — potentiated sulfonamide (trimethoprim + sulfonamide)",
+  "mechanism": "ยาผสมที่ยับยั้งการสร้าง folate ของแบคทีเรียแบบต่อเนื่อง 2 จุด: sulfonamide ยับยั้ง dihydropteroate synthase และ trimethoprim ยับยั้ง dihydrofolate reductase จึงออกฤทธิ์ bactericidal เมื่อใช้ร่วมกัน; ครอบคลุมเชื้อกว้างและโปรโตซัว (เช่น coccidia)",
   "brandNamesTh": [
     "Bactrim",
     "Septra",
@@ -12,69 +12,62 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ติดเชื้อแบคทีเรียวงกว้าง (ทางเดินปัสสาวะ ทางเดินหายใจ ผิวหนัง ต่อมลูกหมาก) และโรคโปรโตซัวบางชนิด เช่น coccidiosis",
       "cites": [
-        "dailymed-tmp-smx",
-        "atc-J01EE01",
-        "pubchem-tmp-smx",
         "who-eml-22",
-        "wsava-amr-2023"
+        "dailymed-tmp-smx"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ห้ามใช้ในสัตว์ที่แพ้ sulfonamide, มีภาวะตับ/ไตบกพร่องรุนแรง, เกล็ดเลือดต่ำ หรือโรคเลือด; ระวังในพันธุ์ Doberman (เสี่ยงแพ้ sulfonamide สูง)",
       "cites": [
-        "dailymed-tmp-smx",
-        "atc-J01EE01",
-        "pubchem-tmp-smx",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "dailymed-tmp-smx"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "⚠️ ในสุนัข: สัมพันธ์กับการเกิดภาวะตาแห้ง (keratoconjunctivitis sicca, KCS) โดยเฉพาะเมื่อใช้นาน — เฝ้าระวังตาแดง ขี้ตามาก กระพริบตาถี่ หรือหรี่ตา; อาการอื่น: อาเจียน เบื่ออาหาร ถ่ายเหลว น้ำลายไหล, ภาวะภูมิแพ้ และผลต่อเลือด",
       "cites": [
-        "dailymed-tmp-smx",
-        "atc-J01EE01",
-        "pubchem-tmp-smx",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "jvim-tms-kcs",
+        "dailymed-tmp-smx"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Bacterial infection",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "15 mg/kg (รวม trimethoprim + sulfonamide) ทุก 12 ชั่วโมง",
+      "notes": "⚠️ ตรวจสอบขนาดยาในตำราเฉพาะทาง (Plumb's) ก่อนใช้จริง; เฝ้าระวัง KCS เมื่อใช้นาน — ตรวจ tear production (Schirmer) เป็นระยะ",
       "cites": [
         "dailymed-tmp-smx",
-        "atc-J01EE01",
-        "pubchem-tmp-smx",
-        "who-eml-22",
-        "wsava-amr-2023"
-      ]
-    },
-    {
-      "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
-      "cites": [
-        "dailymed-tmp-smx",
-        "atc-J01EE01",
-        "pubchem-tmp-smx",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "jvim-tms-kcs"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "jvim-tms-kcs",
+      "type": "paper",
+      "title": "Development of keratoconjunctivitis sicca in dogs treated with trimethoprim-sulfonamide: a VetCompass Australia study",
+      "year": 2026,
+      "url": "https://academic.oup.com/jvim/article/40/1/aalaf013/8429714",
+      "note": "Peer-reviewed (J Vet Intern Med) evidence linking TMS to KCS (dry eye) in dogs. Cited for the KCS warning.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Co-trimoxazole",
+      "type": "monograph",
+      "title": "Co-trimoxazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Co-trimoxazole",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
     {
       "id": "dailymed-tmp-smx",
       "type": "regulatory-database",
@@ -212,12 +205,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention). ATC J01EE01 + RxNorm 10180. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — dog 15 mg/kg q12h with KCS (dry eye) monitoring warning from peer-reviewed JVIM VetCompass study + FDA label. Dose flagged for Plumb's faculty confirmation. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจการสร้างน้ำตา (Schirmer tear test) เป็นระยะเมื่อใช้ยานาน; เฝ้าระวังภาวะเลือด (CBC) เมื่อใช้ระยะยาว",
+      "cites": [
+        "jvim-tms-kcs"
+      ]
     }
   ]
 }

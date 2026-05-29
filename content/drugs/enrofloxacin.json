@@ -2,72 +2,79 @@
   "slug": "enrofloxacin",
   "nameEn": "Enrofloxacin",
   "nameTh": "เอนโรฟล็อกซาซิน",
-  "class": "Antibiotic — fluoroquinolone (veterinary)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Antimicrobial Stewardship guidelines)",
+  "class": "Antibiotic — fluoroquinolone (bactericidal, veterinary)",
+  "mechanism": "ยาปฏิชีวนะกลุ่ม fluoroquinolone ออกฤทธิ์ฆ่าเชื้อโดยยับยั้ง DNA gyrase และ topoisomerase IV ทำให้แบคทีเรียจำลอง DNA ไม่ได้; ครอบคลุม gram-negative ได้ดี รวมถึง Pseudomonas",
   "brandNamesTh": [
     "Baytril",
     "Enrocare"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ติดเชื้อแบคทีเรียที่ดื้อต่อยากลุ่มอื่น โดยเฉพาะ gram-negative รวม Pseudomonas; ใช้กับการติดเชื้อทางเดินปัสสาวะ ผิวหนัง ทางเดินหายใจ",
       "cites": [
-        "dailymed-enrofloxacin",
-        "atc-J01MA90",
-        "pubchem-enrofloxacin",
-        "wsava-amr-2023"
+        "elanco-baytril"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "หลีกเลี่ยงในสัตว์เล็กที่กระดูกยังเจริญไม่เต็มที่ (เสี่ยงต่อความเสียหายของกระดูกอ่อนข้อต่อ/cartilage); ⚠️ ห้ามให้เกินขนาดในแมว (ดู side effects)",
       "cites": [
-        "dailymed-enrofloxacin",
-        "atc-J01MA90",
-        "pubchem-enrofloxacin",
-        "wsava-amr-2023"
+        "elanco-baytril"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "⚠️ ในแมว: เป็นพิษต่อจอประสาทตา (retinal degeneration) ทำให้ตาบอดเฉียบพลันได้ โดยเฉพาะเมื่อเกินขนาดสูงสุด 5 mg/kg/วัน; ขนาด ≥20 mg/kg ทำให้น้ำลายไหล อาเจียน ซึม และรอยโรคที่จอตา; อาการทั่วไป: GI upset",
       "cites": [
-        "dailymed-enrofloxacin",
-        "atc-J01MA90",
-        "pubchem-enrofloxacin",
-        "wsava-amr-2023"
+        "pubmed-enro-retina",
+        "elanco-baytril"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Bacterial infection",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5–20 mg/kg ต่อวัน (เลือกตามความรุนแรงและความไวของเชื้อ)",
       "cites": [
-        "dailymed-enrofloxacin",
-        "atc-J01MA90",
-        "pubchem-enrofloxacin",
-        "wsava-amr-2023"
+        "elanco-baytril"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Bacterial infection",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5 mg/kg ต่อวัน — ⚠️ ห้ามเกิน 5 mg/kg/วัน (เสี่ยงจอประสาทตาเสื่อม/ตาบอด)",
+      "notes": "ขนาดสูงสุดในแมว 5 mg/kg/วันเด็ดขาด",
       "cites": [
-        "dailymed-enrofloxacin",
-        "atc-J01MA90",
-        "pubchem-enrofloxacin",
-        "wsava-amr-2023"
+        "elanco-baytril",
+        "pubmed-enro-retina"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "elanco-baytril",
+      "type": "package-insert",
+      "title": "Baytril (enrofloxacin) — Elanco / FDA-approved label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/baytril-enrofloxacin-antibacterial-tablets.html",
+      "note": "FDA-approved veterinary product label — canine 5–20 mg/kg/day, feline cap 5 mg/kg/day. Public FDA labeling.",
+      "cid": null
+    },
+    {
+      "id": "pubmed-enro-retina",
+      "type": "paper",
+      "title": "Enrofloxacin-associated retinal degeneration in cats",
+      "authors": "Gelatt KN, et al.",
+      "year": 2001,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11422990/",
+      "note": "Peer-reviewed evidence for feline retinotoxicity / blindness above 5 mg/kg/day. PubMed PMID 11422990.",
+      "cid": null
+    },
     {
       "id": "dailymed-enrofloxacin",
       "type": "regulatory-database",
@@ -183,12 +190,33 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention). ATC J01MA90 + RxNorm 37617. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — canine 5–20 mg/kg/day, feline hard cap 5 mg/kg/day with retinal-toxicity warning verified against FDA Baytril label + PubMed PMID 11422990. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "interactions": [
+    {
+      "text": "ลดการดูดซึมเมื่อให้ร่วม cation (Ca/Mg/Al/Fe, sucralfate, antacid); เพิ่มระดับ theophylline",
+      "cites": [
+        "elanco-baytril"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ในแมวเฝ้าระวังการมองเห็น (รูม่านตาขยาย ชนสิ่งของ); หยุดยาทันทีหากสงสัยปัญหาตา",
+      "cites": [
+        "pubmed-enro-retina"
+      ]
     }
   ]
 }

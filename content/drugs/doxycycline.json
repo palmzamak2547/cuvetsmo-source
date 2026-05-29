@@ -2,8 +2,8 @@
   "slug": "doxycycline",
   "nameEn": "Doxycycline",
   "nameTh": "ดอกซีไซคลิน",
-  "class": "Antibiotic — tetracycline (second generation)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+  "class": "Antibiotic — tetracycline (bacteriostatic)",
+  "mechanism": "ยาปฏิชีวนะกลุ่ม tetracycline ออกฤทธิ์ยับยั้งการสร้างโปรตีนโดยจับ 30S ribosomal subunit แบบ reversible; ออกฤทธิ์ bacteriostatic จึงต้องอาศัยภูมิคุ้มกันของ host ร่วม; ครอบคลุมเชื้อในเซลล์ (intracellular) ได้ดี",
   "brandNamesTh": [
     "Vibramycin",
     "Doxiratio",
@@ -11,69 +11,68 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ครอบคลุมเชื้อกว้างทั้ง gram-positive/negative, mycoplasma และ rickettsiae; เป็นยาเลือกแรกสำหรับโรคติดเชื้อในเซลล์ เช่น ehrlichiosis (Ehrlichia), anaplasmosis (Anaplasma) และ Rickettsia",
       "cites": [
-        "dailymed-doxycycline",
-        "atc-J01AA02",
-        "pubchem-doxycycline",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-tetracyclines-use-in-animals"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "ระวังในสัตว์ตั้งท้องและสัตว์เล็ก (อาจเกิดคราบสีที่ฟัน); หลีกเลี่ยงในภาวะตับบกพร่องรุนแรง",
       "cites": [
-        "dailymed-doxycycline",
-        "atc-J01AA02",
-        "pubchem-doxycycline",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-tetracyclines-use-in-animals"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Antimicrobial Stewardship guidelines)",
+      "text": "⚠️ ในแมว: การป้อนยาเม็ด/แคปซูลแบบแห้ง (dry-pilling) สัมพันธ์กับการเกิดแผลและการตีบของหลอดอาหาร (esophageal stricture) — ต้องป้อนตามด้วยน้ำราว 5 mL เสมอ; อาการอื่น: GI upset, ค่า BUN สูงขึ้นจาก catabolic effect",
       "cites": [
-        "dailymed-doxycycline",
-        "atc-J01AA02",
-        "pubchem-doxycycline",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-tetracyclines-use-in-animals"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Bacterial / rickettsial infection",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5–10 mg/kg ทุก 24 ชั่วโมง (หรือ 10 mg/kg ทุก 12 ชั่วโมง นาน 30 วัน สำหรับ adjunct รักษาพยาธิหนอนหัวใจ)",
       "cites": [
-        "dailymed-doxycycline",
-        "atc-J01AA02",
-        "pubchem-doxycycline",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-tetracyclines-use-in-animals"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Bacterial / rickettsial infection",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5–10 mg/kg ทุก 24 ชั่วโมง — ป้อนตามด้วยน้ำเสมอ",
+      "notes": "ดู esophageal stricture warning",
       "cites": [
-        "dailymed-doxycycline",
-        "atc-J01AA02",
-        "pubchem-doxycycline",
-        "who-eml-22",
-        "wsava-amr-2023"
+        "merck-tetracyclines-use-in-animals"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-tetracyclines-use-in-animals",
+      "type": "textbook",
+      "title": "Tetracyclines — MSD/Merck Veterinary Manual (Pharmacology)",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/tetracyclines-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference — verified dose, spectrum, adverse-effect profile. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Doxycycline",
+      "type": "monograph",
+      "title": "Doxycycline — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Doxycycline",
+      "note": "Tertiary cross-check for class, mechanism, brand names. CC BY-SA 4.0. Not sole authority for any clinical claim.",
+      "cid": null
+    },
     {
       "id": "dailymed-doxycycline",
       "type": "regulatory-database",
@@ -211,12 +210,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA TGG — Key Documents on Responsible Antimicrobial Use and AMR Prevention). ATC J01AA02 + RxNorm 3640. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — doxycycline 5–10 mg/kg/day + feline esophageal stricture warning verified against Merck Veterinary Manual (Tetracyclines). Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "interactions": [
+    {
+      "text": "ลดการดูดซึมเมื่อให้ร่วมผลิตภัณฑ์ที่มี calcium, magnesium, aluminium, iron (chelation); แยกเวลาการให้",
+      "cites": [
+        "merck-tetracyclines-use-in-animals"
+      ]
     }
   ]
 }
