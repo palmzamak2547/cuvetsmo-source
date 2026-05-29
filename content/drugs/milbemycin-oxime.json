@@ -1,0 +1,112 @@
+{
+  "slug": "milbemycin-oxime",
+  "nameEn": "Milbemycin oxime",
+  "nameTh": "มิลบีมัยซิน ออกซิม",
+  "class": "Antiparasitic — macrocyclic lactone (heartworm + intestinal)",
+  "mechanism": "macrocyclic lactone ออกฤทธิ์ที่ glutamate-gated chloride channel ของปรสิต ทำให้อัมพาตและตาย; ใช้ป้องกันพยาธิหนอนหัวใจและกำจัดพยาธิในลำไส้",
+  "brandNamesTh": [
+    "Interceptor",
+    "Milbemax",
+    "Sentinel"
+  ],
+  "indications": [
+    {
+      "text": "ป้องกันพยาธิหนอนหัวใจรายเดือน และกำจัดพยาธิตัวกลม ปากขอ แส้ม้า ในสุนัขและแมว; ใช้ขนาดสูงในการรักษา demodicosis บางโปรโตคอล",
+      "cites": [
+        "merck-milbemycin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ตรวจว่าไม่มีพยาธิหนอนหัวใจก่อนเริ่ม (heartworm test); ปลอดภัยกว่า ivermectin ในสุนัข MDR1 ที่ขนาดป้องกัน แต่ขนาดสูงยังต้องระวัง",
+      "cites": [
+        "merck-milbemycin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พบน้อยที่ขนาดป้องกัน; ในสุนัขที่มี microfilaria จำนวนมากอาจเกิดปฏิกิริยาจากพยาธิตาย",
+      "cites": [
+        "merck-milbemycin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Heartworm prevention / intestinal nematodes",
+      "route": "PO",
+      "dose": "0.5 mg/kg PO ทุกเดือน (ป้องกัน); ขนาดสูงกว่าในโปรโตคอลรักษา demodicosis",
+      "cites": [
+        "merck-milbemycin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Heartworm / intestinal nematodes",
+      "route": "PO",
+      "dose": "2 mg/kg PO ทุกเดือน",
+      "cites": [
+        "merck-milbemycin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-milbemycin",
+      "type": "textbook",
+      "title": "Anthelmintics (Macrocyclic Lactones) — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/macrocyclic-lactones",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Milbemycin_oxime",
+      "type": "monograph",
+      "title": "Milbemycin oxime — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Milbemycin_oxime",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP54AA06",
+      "name": "Milbemycin oxime",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

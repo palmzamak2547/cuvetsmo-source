@@ -74,9 +74,9 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'antiparasitics',
     label: 'Antiparasitics · ยาฆ่าพยาธิ',
-    subtitle: 'Anthelmintics — avermectins, benzimidazoles, pyrantel, praziquantel',
+    subtitle: 'Anthelmintics, endectocides, isoxazolines, anticoccidials',
     order: 60,
-    match: startsWithAtc('P02'),
+    match: startsWithAtc('P02', 'P51', 'P53', 'P54'),
   },
   {
     slug: 'gi',

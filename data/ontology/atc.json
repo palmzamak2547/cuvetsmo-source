@@ -1492,5 +1492,107 @@
     "name": "Terbinafine",
     "level": 5,
     "parent": "D01BA"
+  },
+  "N03AX14": {
+    "code": "N03AX14",
+    "name": "Levetiracetam",
+    "level": 5,
+    "parent": "N03AX"
+  },
+  "N03AX15": {
+    "code": "N03AX15",
+    "name": "Zonisamide",
+    "level": 5,
+    "parent": "N03AX"
+  },
+  "N06AB": {
+    "code": "N06AB",
+    "name": "Selective serotonin reuptake inhibitors",
+    "level": 4,
+    "parent": "N06A"
+  },
+  "N06AB03": {
+    "code": "N06AB03",
+    "name": "Fluoxetine",
+    "level": 5,
+    "parent": "N06AB"
+  },
+  "N06AX05": {
+    "code": "N06AX05",
+    "name": "Trazodone",
+    "level": 5,
+    "parent": "N06AX"
+  },
+  "R06AX": {
+    "code": "R06AX",
+    "name": "Other antihistamines for systemic use",
+    "level": 4,
+    "parent": "R06A"
+  },
+  "R06AX02": {
+    "code": "R06AX02",
+    "name": "Cyproheptadine",
+    "level": 5,
+    "parent": "R06AX"
+  },
+  "QJ01MA93": {
+    "code": "QJ01MA93",
+    "name": "Marbofloxacin (veterinary)",
+    "level": 5,
+    "parent": "QJ01MA"
+  },
+  "C03CA04": {
+    "code": "C03CA04",
+    "name": "Torasemide (torsemide)",
+    "level": 5,
+    "parent": "C03CA"
+  },
+  "QP54AA": {
+    "code": "QP54AA",
+    "name": "Avermectins / milbemycins (endectocides)",
+    "level": 4,
+    "parent": "QP54A"
+  },
+  "QP54AA05": {
+    "code": "QP54AA05",
+    "name": "Selamectin",
+    "level": 5,
+    "parent": "QP54AA"
+  },
+  "QP54AA06": {
+    "code": "QP54AA06",
+    "name": "Milbemycin oxime",
+    "level": 5,
+    "parent": "QP54AA"
+  },
+  "QP53BE": {
+    "code": "QP53BE",
+    "name": "Isoxazolines",
+    "level": 4,
+    "parent": "QP53B"
+  },
+  "QP53BE02": {
+    "code": "QP53BE02",
+    "name": "Fluralaner",
+    "level": 5,
+    "parent": "QP53BE"
+  },
+  "QP53BE03": {
+    "code": "QP53BE03",
+    "name": "Sarolaner",
+    "level": 5,
+    "parent": "QP53BE"
+  },
+  "QP51AJ": {
+    "code": "QP51AJ",
+    "name": "Triazinetrione anticoccidials",
+    "level": 4,
+    "parent": "QP51A"
+  },
+  "QP51AJ01": {
+    "code": "QP51AJ01",
+    "name": "Toltrazuril",
+    "level": 5,
+    "parent": "QP51AJ"
   }
 }

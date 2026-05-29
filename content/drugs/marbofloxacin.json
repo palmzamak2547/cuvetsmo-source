@@ -1,0 +1,121 @@
+{
+  "slug": "marbofloxacin",
+  "nameEn": "Marbofloxacin",
+  "nameTh": "มาร์โบฟลอกซาซิน",
+  "class": "Antibiotic — fluoroquinolone (veterinary, once-daily)",
+  "mechanism": "ยาปฏิชีวนะกลุ่ม fluoroquinolone สำหรับสัตว์ ยับยั้ง DNA gyrase/topoisomerase IV ฆ่าเชื้อ; ครอบคลุม gram-negative กว้างรวม Pseudomonas; ครึ่งชีวิตยาวให้วันละครั้ง",
+  "brandNamesTh": [
+    "Marbocyl",
+    "Zeniquin"
+  ],
+  "indications": [
+    {
+      "text": "ติดเชื้อแบคทีเรียที่ผิวหนัง ทางเดินปัสสาวะ ทางเดินหายใจ โดยเฉพาะ gram-negative; ทางเลือกแทน enrofloxacin (ให้วันละครั้ง)",
+      "cites": [
+        "fda-marbofloxacin",
+        "merck-marbo"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "หลีกเลี่ยงในสัตว์เล็กที่กระดูกยังเจริญไม่เต็มที่ (cartilage damage); ระวังในสัตว์ชัก; ปลอดภัยต่อจอตาแมวมากกว่า enrofloxacin แต่ยังควรระวังขนาดสูง",
+      "cites": [
+        "fda-marbofloxacin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset (อาเจียน เบื่ออาหาร); ผลต่อกระดูกอ่อนในสัตว์เล็ก; เป็นพิษต่อจอตาแมวน้อยกว่า enrofloxacin",
+      "cites": [
+        "fda-marbofloxacin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Bacterial infection",
+      "route": "PO",
+      "dose": "2.75–5.5 mg/kg PO วันละครั้ง (อย่างน้อย 5 วัน, สูงสุด 30 วัน)",
+      "cites": [
+        "fda-marbofloxacin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Bacterial infection",
+      "route": "PO",
+      "dose": "2.75–5.5 mg/kg PO วันละครั้ง",
+      "cites": [
+        "fda-marbofloxacin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-marbofloxacin",
+      "type": "package-insert",
+      "title": "Zeniquin (marbofloxacin) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/zeniquin-tablets-25-mg-can.html",
+      "note": "FDA-approved veterinary product label. Public FDA labeling.",
+      "cid": null
+    },
+    {
+      "id": "merck-marbo",
+      "type": "textbook",
+      "title": "Fluoroquinolones — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Marbofloxacin",
+      "type": "monograph",
+      "title": "Marbofloxacin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Marbofloxacin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QJ01MA93",
+      "name": "Marbofloxacin (veterinary)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

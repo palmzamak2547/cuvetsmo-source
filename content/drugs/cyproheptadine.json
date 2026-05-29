@@ -1,0 +1,110 @@
+{
+  "slug": "cyproheptadine",
+  "nameEn": "Cyproheptadine",
+  "nameTh": "ไซโปรเฮปตาดีน",
+  "class": "Antihistamine — first-generation H1 + serotonin antagonist (appetite stimulant)",
+  "mechanism": "ยาต้าน H1 รุ่นแรกที่มีฤทธิ์ต้าน serotonin (5-HT) ด้วย จึงกระตุ้นความอยากอาหารและใช้ในโรคหืดแมว; ฤทธิ์ anticholinergic ทำให้ง่วง",
+  "brandNamesTh": [
+    "Periactin"
+  ],
+  "indications": [
+    {
+      "text": "กระตุ้นความอยากอาหารในแมว (appetite stimulant), เสริมการจัดการโรคหืดแมว (feline asthma), และต้านอาการแพ้; ทางเลือกกระตุ้นอาหารร่วม/แทน mirtazapine",
+      "cites": [
+        "merck-cyproheptadine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในต้อหิน, ปัสสาวะคั่ง, โรคหัวใจ (ฤทธิ์ anticholinergic); ทำให้ง่วงและบางครั้งกระตุ้น",
+      "cites": [
+        "merck-cyproheptadine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ง่วงซึม, ปากแห้ง, บางครั้งกระตุ้น (excitement) ในแมว; กระตุ้นอาหารมาก",
+      "cites": [
+        "merck-cyproheptadine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Appetite stimulation / asthma adjunct",
+      "route": "PO",
+      "dose": "1–2 mg/ตัว PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "merck-cyproheptadine"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Antihistamine / appetite",
+      "route": "PO",
+      "dose": "0.3–2 mg/kg PO ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "merck-cyproheptadine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-cyproheptadine",
+      "type": "textbook",
+      "title": "Antihistamines / Respiratory drugs — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Cyproheptadine",
+      "type": "monograph",
+      "title": "Cyproheptadine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Cyproheptadine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "R06AX02",
+      "name": "Cyproheptadine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

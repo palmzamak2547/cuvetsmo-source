@@ -1,0 +1,121 @@
+{
+  "slug": "torsemide",
+  "nameEn": "Torsemide (torasemide)",
+  "nameTh": "ทอร์เซไมด์",
+  "class": "Loop diuretic — long-acting (refractory CHF)",
+  "mechanism": "ยาขับปัสสาวะกลุ่ม loop diuretic เช่นเดียวกับ furosemide แต่ออกฤทธิ์แรงกว่า ~10 เท่าและนานกว่า มีฤทธิ์ต้าน aldosterone บางส่วน; ใช้ในภาวะ CHF ที่ดื้อต่อ furosemide",
+  "brandNamesTh": [
+    "Upcard",
+    "Demadex"
+  ],
+  "indications": [
+    {
+      "text": "ลดภาวะคั่งน้ำใน CHF โดยเฉพาะที่ดื้อต่อ furosemide; การศึกษา CARPODIEM (JVIM) สนับสนุนการใช้ใน degenerative mitral valve disease",
+      "cites": [
+        "carpodiem",
+        "upcard-label"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ฤทธิ์แรงกว่า furosemide มาก — เสี่ยงขาดน้ำ/azotemia/electrolyte สูงกว่า; ระวังในไตบกพร่อง; ห้ามในภาวะปัสสาวะไม่ออก (anuria)",
+      "cites": [
+        "upcard-label"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ขาดน้ำ, hypokalemia, azotemia (เด่นกว่า furosemide เพราะแรงกว่า); ติดตามค่าไตและ electrolyte ใกล้ชิด",
+      "cites": [
+        "upcard-label"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "CHF (refractory / DMVD)",
+      "route": "PO",
+      "dose": "0.1–0.6 mg/kg PO วันละครั้ง (ส่วนใหญ่คงที่ที่ ≤ 0.3 mg/kg/วัน; ราว 1/10–1/20 ของขนาด furosemide)",
+      "cites": [
+        "carpodiem",
+        "upcard-label"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจค่าไตและ electrolyte (โดยเฉพาะ K+) บ่อยกว่าการใช้ furosemide เนื่องจากฤทธิ์แรงและนาน",
+      "cites": [
+        "upcard-label"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "carpodiem",
+      "type": "paper",
+      "title": "Efficacy of oral torasemide in dogs with DMVD and new-onset CHF: the CARPODIEM study",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.15864",
+      "year": 2024,
+      "note": "Peer-reviewed RCT (J Vet Intern Med) supporting torasemide in canine CHF.",
+      "cid": null
+    },
+    {
+      "id": "upcard-label",
+      "type": "package-insert",
+      "title": "Upcard (torasemide) — EMA/veterinary label",
+      "year": 2024,
+      "url": "https://www.evanspharmacy.com/downloads/1527597556Upcard.pdf",
+      "note": "Veterinary diuretic label — canine 0.1–0.6 mg/kg q24h.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Torasemide",
+      "type": "monograph",
+      "title": "Torasemide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Torasemide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C03CA04",
+      "name": "Torasemide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

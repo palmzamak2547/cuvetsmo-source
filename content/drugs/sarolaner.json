@@ -1,0 +1,112 @@
+{
+  "slug": "sarolaner",
+  "nameEn": "Sarolaner",
+  "nameTh": "ซาโรลาเนอร์",
+  "class": "Antiparasitic — isoxazoline (monthly flea & tick)",
+  "mechanism": "ยากำจัดหมัดและเห็บกลุ่ม isoxazoline ปิดกั้น GABA-gated chloride channel ของปรสิต; ออกฤทธิ์รายเดือน (สั้นกว่า fluralaner)",
+  "brandNamesTh": [
+    "Simparica",
+    "Simparica Trio"
+  ],
+  "indications": [
+    {
+      "text": "กำจัดและป้องกันหมัดและเห็บในสุนัขแบบรายเดือน (PO); รูปแบบ Simparica Trio รวม moxidectin + pyrantel ครอบคลุมพยาธิหนอนหัวใจและลำไส้",
+      "cites": [
+        "fda-simparica",
+        "fda-isoxazoline-b"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ คำเตือน FDA เรื่องเหตุการณ์ทางระบบประสาทในกลุ่ม isoxazoline — ระวังในสัตว์ที่มีประวัติชัก",
+      "cites": [
+        "fda-isoxazoline-b"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน ท้องเสีย; เหตุการณ์ทางระบบประสาท (สั่น ชัก เดินเซ) พบน้อยตามคำเตือนกลุ่ม isoxazoline",
+      "cites": [
+        "fda-isoxazoline-b"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Flea & tick (monthly)",
+      "route": "PO",
+      "dose": "2–4 mg/kg PO ทุกเดือน (ขั้นต่ำตามฉลาก 2 mg/kg)",
+      "cites": [
+        "fda-simparica"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-simparica",
+      "type": "package-insert",
+      "title": "Simparica (sarolaner) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/simparica.html",
+      "note": "FDA-approved veterinary product label. Public FDA labeling.",
+      "cid": null
+    },
+    {
+      "id": "fda-isoxazoline-b",
+      "type": "guideline",
+      "title": "FDA Fact Sheet — isoxazoline flea/tick neurologic adverse events",
+      "year": 2024,
+      "url": "https://www.fda.gov/animal-veterinary/animal-health-literacy/fact-sheet-pet-owners-and-veterinarians-about-potential-adverse-events-associated-isoxazoline-flea",
+      "note": "FDA safety communication on isoxazoline class.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Sarolaner",
+      "type": "monograph",
+      "title": "Sarolaner — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Sarolaner",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP53BE03",
+      "name": "Sarolaner",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
