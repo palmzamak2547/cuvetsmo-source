@@ -10,6 +10,25 @@ This file is the human-readable companion to the timeline shown at [/changelog](
 
 The full 8-primitive moonshot architecture shipped in one extended session. Per ARCHITECTURE.md week-by-week plan condensed into one continuous build.
 
+### 2026-05-27 — 📚 Catalog content complete: 65/65 drugs (every claim cited)
+
+Every drug entry now carries real clinical content compiled and translated from cited authoritative sources — **0 TEMPLATE placeholders remain**. Filled class by class, each dose cross-checked across multiple independent sources before writing:
+
+- **NSAIDs (5)** — meloxicam, carprofen, firocoxib, ketoprofen, piroxicam
+- **Antibiotics (8)** — amoxicillin, doxycycline, cefalexin, cefovecin, metronidazole, enrofloxacin, clindamycin, tmp-smx
+- **Anesthetics/sedatives (6)** — propofol, ketamine, dexmedetomidine, midazolam, diazepam, acepromazine
+- **GI/anti-emetics (6)** — maropitant, ondansetron, metoclopramide, omeprazole, famotidine, sucralfate
+- **Opioids (6) + antidotes (2)** — morphine, hydromorphone, fentanyl, buprenorphine, butorphanol, tramadol + naloxone, atipamezole
+- **Cardiovascular (9)** — furosemide, pimobendan, benazepril, spironolactone, digoxin, atenolol, sotalol, amlodipine, diltiazem
+- **Antiparasitics (3) + antifungals (3) + antihistamines (3)** — ivermectin, praziquantel, pyrantel + ketoconazole, fluconazole, itraconazole + diphenhydramine, chlorpheniramine, cetirizine
+- **Corticosteroids (4) + thyroid (2) + anticonvulsants (2) + singles (6)** — prednisolone, prednisone, dexamethasone, methylprednisolone + methimazole, levothyroxine + phenobarbital, gabapentin + insulin, cyclosporine, mirtazapine, theophylline, enoxaparin, mavacoxib
+
+**Sources** cross-checked: Merck/MSD Veterinary Manual (per-class pages), FDA Animal Drugs labels (Metacam, Rimadyl, Dexdomitor, Cerenia, Antisedan, Atopica, Mirataz), EMA Trocoxil SPC, Tufts CardioRush cardiology formulary, ACVIM consensus statements (DMVD, gastric protectants), AAHA allergic-skin-disease guidance, Lumb & Jones Veterinary Anesthesia, WSU MDR1 reference lab, and peer-reviewed studies (PubMed PMID 11422990 feline enrofloxacin retinopathy, PMC10295034 gabapentin PK, JVIM VetCompass TMS-KCS).
+
+**Authorship model:** content is a *cited compilation* (`drafting.aiAssisted: false`) — authority comes from the cited sources, not from the compiler. The `/health` page still reports 198/198 citations probed, 100% healthy. **Every entry remains `reviewedBy: null` — i.e. NOT canonical. They are clearly labelled "Pending review — Not for clinical use" until a faculty member attaches an Ed25519 signature.** A new `verify.mjs` source-traceability gate fails CI if any non-placeholder clinical claim lacks a citation.
+
+Critical species-specific safety flags surfaced in the content: feline enrofloxacin retinal-toxicity cap (5 mg/kg/day), meloxicam feline boxed warning, ivermectin MDR1/ABCB1 collie sensitivity, digoxin narrow therapeutic index, doxycycline feline esophageal stricture, TMP-SMX keratoconjunctivitis sicca, diazepam feline oral hepatotoxicity, prednisone feline poor-conversion, insulin individualized-dose + hypoglycemia.
+
 ### 2026-05-27 — 🚀 Live on `source.cuvetsmo.com`
 
 - Vercel production deploy (project `cuvetsmo-source`) wired to Cloudflare DNS via CNAME `source` → `cname.vercel-dns.com` (DNS-only, gray cloud).
