@@ -2,8 +2,8 @@
   "slug": "pyrantel",
   "nameEn": "Pyrantel",
   "nameTh": "ไพแรนเทล",
-  "class": "Antiparasitic — tetrahydropyrimidine (nematodes)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Antiparasitic — tetrahydropyrimidine (nematocide)",
+  "mechanism": "ยาฆ่าพยาธิตัวกลม ออกฤทธิ์เป็น depolarizing neuromuscular blocker ของพยาธิ ทำให้เกิดอัมพาตเกร็งแล้วถูกขับออก; ดูดซึมน้อยจึงออกฤทธิ์ในลำไส้เป็นหลักและปลอดภัย",
   "brandNamesTh": [
     "Strongid",
     "Nemex",
@@ -11,59 +11,58 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "กำจัดพยาธิตัวกลม (roundworm, Toxocara/Toxascaris) และพยาธิปากขอ (hookworm, Ancylostoma); ปลอดภัยใช้ในลูกสัตว์และสัตว์ตั้งท้อง",
       "cites": [
-        "dailymed-pyrantel",
-        "atc-P02CC01",
-        "pubchem-pyrantel"
+        "merck-anthelmintics"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ปลอดภัยสูง; ไม่ออกฤทธิ์ต่อพยาธิแส้ม้า (whipworm) และพยาธิตัวตืด",
       "cites": [
-        "dailymed-pyrantel",
-        "atc-P02CC01",
-        "pubchem-pyrantel"
+        "merck-anthelmintics"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "พบน้อยมาก: อาเจียนเป็นครั้งคราว",
       "cites": [
-        "dailymed-pyrantel",
-        "atc-P02CC01",
-        "pubchem-pyrantel"
+        "merck-anthelmintics"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Roundworm / hookworm",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5 mg/kg PO (ซ้ำใน 2–3 สัปดาห์เพื่อกำจัดระยะที่ฟักใหม่)",
       "cites": [
-        "dailymed-pyrantel",
-        "atc-P02CC01",
-        "pubchem-pyrantel"
+        "merck-anthelmintics"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Roundworm / hookworm",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "10 mg/kg PO (ซ้ำใน 2–3 สัปดาห์)",
       "cites": [
-        "dailymed-pyrantel",
-        "atc-P02CC01",
-        "pubchem-pyrantel"
+        "merck-anthelmintics"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-anthelmintics",
+      "type": "textbook",
+      "title": "Anthelmintics — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/anthelmintics-introduction",
+      "note": "Merck antiparasitic pharmacology — macrocyclic lactone / praziquantel / pyrantel dosing. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-pyrantel",
       "type": "regulatory-database",
@@ -157,12 +156,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC P02CC01 + RxNorm 8819. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — pyrantel dog 5 mg/kg, cat 10 mg/kg verified against Merck anthelmintics. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

@@ -2,71 +2,65 @@
   "slug": "cetirizine",
   "nameEn": "Cetirizine",
   "nameTh": "เซทิริซีน",
-  "class": "Antihistamine — H1 antagonist (second-generation, less sedating)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Antihistamine — second-generation H1 antagonist (less sedating)",
+  "mechanism": "ยาต้านฮิสตามีน H1 รุ่นที่ 2 ปิดกั้น H1 receptor แบบจำเพาะ ผ่าน blood-brain barrier น้อยจึงง่วงน้อยกว่ารุ่นแรก; นิยมในการจัดการ atopic dermatitis",
   "brandNamesTh": [
     "Zyrtec"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ควบคุมอาการคันจากภูมิแพ้/atopic dermatitis ในสุนัขและแมว; ทำให้ง่วงน้อยจึงเหมาะใช้ระยะยาว",
       "cites": [
-        "dailymed-cetirizine",
-        "atc-R06AE07",
-        "pubchem-cetirizine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ปรับลดขนาดในไต/ตับบกพร่อง; โดยรวมปลอดภัย",
       "cites": [
-        "dailymed-cetirizine",
-        "atc-R06AE07",
-        "pubchem-cetirizine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ง่วงเล็กน้อย, อาจมี GI upset; ในแมวมีรายงานน้ำลายไหลจากรสขม",
       "cites": [
-        "dailymed-cetirizine",
-        "atc-R06AE07",
-        "pubchem-cetirizine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Atopic dermatitis / pruritus",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "1 mg/kg PO ทุก 24 ชั่วโมง",
       "cites": [
-        "dailymed-cetirizine",
-        "atc-R06AE07",
-        "pubchem-cetirizine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Atopic dermatitis / pruritus",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "2.5–5 mg/ตัว PO ทุก 24 ชั่วโมง",
       "cites": [
-        "dailymed-cetirizine",
-        "atc-R06AE07",
-        "pubchem-cetirizine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "aaha-allergic-skin",
+      "type": "guideline",
+      "title": "Antihistamine dosing — AAHA / veterinary dermatology allergic skin disease guidance",
+      "year": 2023,
+      "url": "https://www.aaha.org/resources/2023-aaha-management-of-allergic-skin-diseases-in-dogs-and-cats-guidelines/",
+      "note": "AAHA guideline tables — H1-antihistamine canine/feline dosing. Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-cetirizine",
       "type": "regulatory-database",
@@ -182,12 +176,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC R06AE07 + RxNorm 20610. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — cetirizine dog 1 mg/kg, cat 2.5–5 mg/cat q24h verified against AAHA allergic-skin-disease guidance. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

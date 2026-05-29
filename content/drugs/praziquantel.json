@@ -2,8 +2,8 @@
   "slug": "praziquantel",
   "nameEn": "Praziquantel",
   "nameTh": "พราซิควอนเทล",
-  "class": "Antiparasitic — pyrazinoisoquinoline (cestodes + trematodes)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Antiparasitic — pyrazinoisoquinoline (cestocide)",
+  "mechanism": "ยาฆ่าพยาธิตัวตืด เพิ่มการซึมผ่านของ calcium เข้าผนังพยาธิ ทำให้เกิดการหดเกร็งและทำลาย tegument; ออกฤทธิ์ต่อ cestode (tapeworm) และ trematode",
   "brandNamesTh": [
     "Droncit",
     "Drontal",
@@ -11,64 +11,58 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "กำจัดพยาธิตัวตืด (cestode) เช่น Dipylidium caninum, Taenia spp., Echinococcus; มักรวมในสูตรถ่ายพยาธิรวม (เช่น Drontal)",
       "cites": [
-        "dailymed-praziquantel",
-        "atc-P02BA01",
-        "pubchem-praziquantel",
-        "who-eml-22"
+        "merck-anthelmintics"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ปลอดภัยสูง; ระวังในลูกสัตว์เล็กมากตามฉลากผลิตภัณฑ์",
       "cites": [
-        "dailymed-praziquantel",
-        "atc-P02BA01",
-        "pubchem-praziquantel",
-        "who-eml-22"
+        "merck-anthelmintics"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "พบน้อย: อาเจียน ท้องเสีย เบื่ออาหาร เจ็บบริเวณที่ฉีด (รูปแบบฉีด)",
       "cites": [
-        "dailymed-praziquantel",
-        "atc-P02BA01",
-        "pubchem-praziquantel",
-        "who-eml-22"
+        "merck-anthelmintics"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Tapeworm (cestode)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5 mg/kg PO ครั้งเดียว (อาจซ้ำตามชนิดพยาธิ)",
       "cites": [
-        "dailymed-praziquantel",
-        "atc-P02BA01",
-        "pubchem-praziquantel",
-        "who-eml-22"
+        "merck-anthelmintics"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Tapeworm (cestode)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5 mg/kg PO ครั้งเดียว",
       "cites": [
-        "dailymed-praziquantel",
-        "atc-P02BA01",
-        "pubchem-praziquantel",
-        "who-eml-22"
+        "merck-anthelmintics"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-anthelmintics",
+      "type": "textbook",
+      "title": "Anthelmintics — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/anthelmintics-introduction",
+      "note": "Merck antiparasitic pharmacology — macrocyclic lactone / praziquantel / pyrantel dosing. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-praziquantel",
       "type": "regulatory-database",
@@ -184,12 +178,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC P02BA01 + RxNorm 8612. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — praziquantel 5 mg/kg verified against Merck anthelmintics. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

@@ -2,71 +2,65 @@
   "slug": "diphenhydramine",
   "nameEn": "Diphenhydramine",
   "nameTh": "ไดเฟนไฮดรามีน",
-  "class": "Antihistamine — H1 antagonist (first-generation, sedating)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Antihistamine — first-generation H1 antagonist",
+  "mechanism": "ยาต้านฮิสตามีน H1 รุ่นที่ 1 ปิดกั้น H1 receptor ลดอาการแพ้ ผ่าน blood-brain barrier ได้จึงทำให้ง่วง; มีฤทธิ์ต้านอาเจียน (ใช้กับเมารถ) และ anticholinergic",
   "brandNamesTh": [
     "Benadryl"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "อาการแพ้ (allergic reaction, urticaria), pretreatment ก่อนให้ยาที่กระตุ้น histamine release, และป้องกันเมารถ; ฤทธิ์ระงับแพ้ในผิวหนังมักไม่พอเดี่ยว",
       "cites": [
-        "dailymed-diphenhydramine",
-        "atc-R06AA02",
-        "pubchem-diphenhydramine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวังในต้อหิน, ต่อมลูกหมากโต/ปัสสาวะคั่ง, โรคหัวใจ (ฤทธิ์ anticholinergic); ทำให้ง่วงและอาจ paradoxical excitement",
       "cites": [
-        "dailymed-diphenhydramine",
-        "atc-R06AA02",
-        "pubchem-diphenhydramine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ง่วงซึม, ปากแห้ง, ปัสสาวะคั่ง, บางครั้งกระตุ้น (excitement) โดยเฉพาะในแมว",
       "cites": [
-        "dailymed-diphenhydramine",
-        "atc-R06AA02",
-        "pubchem-diphenhydramine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Allergy / premedication / motion sickness",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "2–4 mg/kg PO ทุก 8–12 ชั่วโมง",
       "cites": [
-        "dailymed-diphenhydramine",
-        "atc-R06AA02",
-        "pubchem-diphenhydramine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Allergy",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "~2 mg/kg PO ทุก 12 ชั่วโมง",
       "cites": [
-        "dailymed-diphenhydramine",
-        "atc-R06AA02",
-        "pubchem-diphenhydramine",
-        "who-eml-22"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "aaha-allergic-skin",
+      "type": "guideline",
+      "title": "Antihistamine dosing — AAHA / veterinary dermatology allergic skin disease guidance",
+      "year": 2023,
+      "url": "https://www.aaha.org/resources/2023-aaha-management-of-allergic-skin-diseases-in-dogs-and-cats-guidelines/",
+      "note": "AAHA guideline tables — H1-antihistamine canine/feline dosing. Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-diphenhydramine",
       "type": "regulatory-database",
@@ -182,12 +176,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC R06AA02 + RxNorm 3498. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — diphenhydramine 2–4 mg/kg verified against AAHA allergic-skin-disease guidance. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

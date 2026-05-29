@@ -2,71 +2,65 @@
   "slug": "fluconazole",
   "nameEn": "Fluconazole",
   "nameTh": "ฟลูโคนาโซล",
-  "class": "Antifungal — triazole, systemic",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Antifungal — triazole (good CNS/urine penetration)",
+  "mechanism": "ยาต้านเชื้อรากลุ่ม triazole ยับยั้ง 14-α-demethylase ขัดขวางการสร้าง ergosterol; ละลายน้ำดี ซึมเข้า CNS, ตา และปัสสาวะได้ดี ยับยั้ง CYP ของ host น้อยกว่า ketoconazole",
   "brandNamesTh": [
     "Diflucan"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "การติดเชื้อรา โดยเฉพาะที่ระบบประสาทส่วนกลาง (cryptococcosis), ตา, และทางเดินปัสสาวะ เนื่องจากซึมเข้าได้ดี; candidiasis",
       "cites": [
-        "dailymed-fluconazole",
-        "atc-J02AC01",
-        "pubchem-fluconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ปรับลดขนาดในไตบกพร่อง (ขับทางไต); ตรวจตับเมื่อใช้นาน; drug interaction น้อยกว่า ketoconazole แต่ยังมี",
       "cites": [
-        "dailymed-fluconazole",
-        "atc-J02AC01",
-        "pubchem-fluconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "โดยรวมทนได้ดีกว่ากลุ่ม imidazole; อาจมี GI upset, เอนไซม์ตับสูงเล็กน้อย",
       "cites": [
-        "dailymed-fluconazole",
-        "atc-J02AC01",
-        "pubchem-fluconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "CNS / ocular / urinary mycosis",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5–10 mg/kg PO ทุก 24 ชั่วโมง",
       "cites": [
-        "dailymed-fluconazole",
-        "atc-J02AC01",
-        "pubchem-fluconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Cryptococcosis / mycosis",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "50 mg/ตัว PO ทุก 12–24 ชั่วโมง (≈ 10 mg/kg/วัน)",
       "cites": [
-        "dailymed-fluconazole",
-        "atc-J02AC01",
-        "pubchem-fluconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-antifungal",
+      "type": "textbook",
+      "title": "Antifungal Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/antifungal-agents-introduction",
+      "note": "Merck antifungal pharmacology — azole dosing + ketoconazole hepatotoxicity. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-fluconazole",
       "type": "regulatory-database",
@@ -182,12 +176,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC J02AC01 + RxNorm 4450. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — fluconazole 5–10 mg/kg with CNS/urinary penetration profile verified against Merck antifungal. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

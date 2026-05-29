@@ -2,72 +2,66 @@
   "slug": "itraconazole",
   "nameEn": "Itraconazole",
   "nameTh": "ไอทราโคนาโซล",
-  "class": "Antifungal — triazole, dermatophyte + systemic",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Antifungal — triazole (dermatophytosis, systemic mycoses)",
+  "mechanism": "ยาต้านเชื้อรากลุ่ม triazole ยับยั้ง 14-α-demethylase; สะสมในผิวหนัง เล็บ และขนได้ดี จึงเหมาะกับ dermatophytosis; ปลอดภัยต่อตับมากกว่า ketoconazole",
   "brandNamesTh": [
     "Sporanox",
     "Itrafungol"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "dermatophytosis (เชื้อราที่ผิวหนัง/ขน, เช่น Microsporum canis), Malassezia, และเชื้อราในระบบ (blastomycosis, histoplasmosis, sporotrichosis); มีสูตรสำหรับแมวโดยเฉพาะ (Itrafungol)",
       "cites": [
-        "dailymed-itraconazole",
-        "atc-J02AC02",
-        "pubchem-itraconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวังในโรคตับ (ยังเป็นพิษตับได้แม้น้อยกว่า ketoconazole), หัวใจล้มเหลว (ผลกด inotropy); ดูดซึมต้องการกรด — ให้พร้อมอาหาร",
       "cites": [
-        "dailymed-itraconazole",
-        "atc-J02AC02",
-        "pubchem-itraconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "เบื่ออาหาร อาเจียน, เอนไซม์ตับสูง, แผลที่ผิวหนัง (cutaneous vasculitis) เมื่อขนาดสูง",
       "cites": [
-        "dailymed-itraconazole",
-        "atc-J02AC02",
-        "pubchem-itraconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Dermatophytosis / systemic mycosis",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5 mg/kg PO ทุก 24 ชั่วโมง (ให้พร้อมอาหาร)",
       "cites": [
-        "dailymed-itraconazole",
-        "atc-J02AC02",
-        "pubchem-itraconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Dermatophytosis (pulse therapy)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5 mg/kg PO วันละครั้ง (มักให้แบบ pulse: 1 สัปดาห์เว้น 1 สัปดาห์)",
       "cites": [
-        "dailymed-itraconazole",
-        "atc-J02AC02",
-        "pubchem-itraconazole",
-        "who-eml-22"
+        "merck-antifungal"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-antifungal",
+      "type": "textbook",
+      "title": "Antifungal Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/antifungal-agents-introduction",
+      "note": "Merck antifungal pharmacology — azole dosing + ketoconazole hepatotoxicity. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-itraconazole",
       "type": "regulatory-database",
@@ -183,12 +177,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC J02AC02 + RxNorm 5829. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — itraconazole 5 mg/kg with dermatophytosis pulse-therapy note verified against Merck antifungal. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

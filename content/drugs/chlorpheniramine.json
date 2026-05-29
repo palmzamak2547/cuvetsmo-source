@@ -2,67 +2,66 @@
   "slug": "chlorpheniramine",
   "nameEn": "Chlorpheniramine",
   "nameTh": "คลอร์เฟนิรามีน",
-  "class": "Antihistamine — H1 antagonist (first-generation, sedating)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Antihistamine — first-generation H1 antagonist",
+  "mechanism": "ยาต้านฮิสตามีน H1 รุ่นที่ 1 ปิดกั้น H1 receptor; ทำให้ง่วงน้อยกว่า diphenhydramine บ้าง นิยมใช้ในแมวที่มีอาการคันจากภูมิแพ้",
   "brandNamesTh": [
     "Chlor-Trimeton",
     "Piriton"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ควบคุมอาการคันจากภูมิแพ้ (atopic/allergic pruritus) โดยเฉพาะในแมว; ใช้เป็นยาเสริมในการจัดการ allergic skin disease",
       "cites": [
-        "dailymed-chlorpheniramine",
-        "atc-R06AB04",
-        "pubchem-chlorpheniramine"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ระวังในต้อหิน, ปัสสาวะคั่ง, โรคหัวใจ; ฤทธิ์ anticholinergic",
       "cites": [
-        "dailymed-chlorpheniramine",
-        "atc-R06AB04",
-        "pubchem-chlorpheniramine"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ง่วงซึม, ปากแห้ง, เบื่ออาหาร; โดยรวมทนได้ดี",
       "cites": [
-        "dailymed-chlorpheniramine",
-        "atc-R06AB04",
-        "pubchem-chlorpheniramine"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "dosages": [
     {
-      "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "species": "feline",
+      "indication": "Allergic pruritus",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "1–2 mg/ตัว PO ทุก 8–12 ชั่วโมง",
       "cites": [
-        "dailymed-chlorpheniramine",
-        "atc-R06AB04",
-        "pubchem-chlorpheniramine"
+        "aaha-allergic-skin"
       ]
     },
     {
-      "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "species": "canine",
+      "indication": "Allergic pruritus",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.2–0.5 mg/kg PO ทุก 8–12 ชั่วโมง (4–8 mg/ตัว)",
       "cites": [
-        "dailymed-chlorpheniramine",
-        "atc-R06AB04",
-        "pubchem-chlorpheniramine"
+        "aaha-allergic-skin"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "aaha-allergic-skin",
+      "type": "guideline",
+      "title": "Antihistamine dosing — AAHA / veterinary dermatology allergic skin disease guidance",
+      "year": 2023,
+      "url": "https://www.aaha.org/resources/2023-aaha-management-of-allergic-skin-diseases-in-dogs-and-cats-guidelines/",
+      "note": "AAHA guideline tables — H1-antihistamine canine/feline dosing. Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-chlorpheniramine",
       "type": "regulatory-database",
@@ -156,12 +155,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC R06AB04 + RxNorm 2317. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — chlorpheniramine cat 1–2 mg/cat, dog 0.2–0.5 mg/kg verified against AAHA allergic-skin-disease guidance. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

@@ -2,55 +2,65 @@
   "slug": "ketoconazole",
   "nameEn": "Ketoconazole",
   "nameTh": "คีโตโคนาโซล",
-  "class": "Antifungal — imidazole, broad-spectrum",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Antifungal — imidazole (systemic, hepatotoxic)",
+  "mechanism": "ยาต้านเชื้อรากลุ่ม imidazole ยับยั้ง 14-α-demethylase (CYP450) ขัดขวางการสร้าง ergosterol ของเยื่อหุ้มเซลล์เชื้อรา; ยับยั้ง CYP ของ host ด้วยจึงมี drug interaction มากและกระทบฮอร์โมน",
   "brandNamesTh": [
     "Nizoral"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "การติดเชื้อราในระบบและผิวหนัง (dermatophytosis, Malassezia, ระบบบางชนิด); ปัจจุบันถูกแทนที่ด้วย azole รุ่นใหม่ที่ปลอดภัยกว่า (itraconazole, fluconazole)",
       "cites": [
-        "dailymed-ketoconazole",
-        "atc-J02AB02",
-        "pubchem-ketoconazole"
+        "merck-antifungal"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "⚠️ เป็นพิษต่อตับ (hepatotoxic) — แมวไวเป็นพิเศษ; ห้าม/ระวังมากในโรคตับ; ยับยั้ง CYP450 ทำให้เกิด drug interaction รุนแรง; กดการสร้าง cortisol/steroid",
       "cites": [
-        "dailymed-ketoconazole",
-        "atc-J02AB02",
-        "pubchem-ketoconazole"
+        "merck-antifungal"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "เบื่ออาหาร อาเจียน (โดยเฉพาะแมว), ตับอักเสบ/เอนไซม์ตับสูง, กดฮอร์โมน adrenal/sex steroid; drug interaction มาก",
       "cites": [
-        "dailymed-ketoconazole",
-        "atc-J02AB02",
-        "pubchem-ketoconazole"
+        "merck-antifungal"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Systemic / cutaneous mycosis",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "10–15 mg/kg PO ทุก 12–24 ชั่วโมง (ให้พร้อมอาหาร)",
       "cites": [
-        "dailymed-ketoconazole",
-        "atc-J02AB02",
-        "pubchem-ketoconazole"
+        "merck-antifungal"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Mycosis (use with caution)",
+      "route": "PO",
+      "dose": "5–10 mg/kg PO ทุก 12–24 ชั่วโมง — ⚠️ แมวไวต่อพิษตับ, นิยม itraconazole แทน",
+      "cites": [
+        "merck-antifungal"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-antifungal",
+      "type": "textbook",
+      "title": "Antifungal Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/antifungal-agents-introduction",
+      "note": "Merck antifungal pharmacology — azole dosing + ketoconazole hepatotoxicity. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-ketoconazole",
       "type": "regulatory-database",
@@ -144,12 +154,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC J02AB02 + RxNorm 6135. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — ketoconazole dog 10–15 mg/kg, cat 5–10 mg/kg with prominent hepatotoxicity (feline-sensitive) + CYP-interaction warnings verified against Merck antifungal. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจเอนไซม์ตับก่อนและระหว่างใช้; หยุดยาหากเบื่ออาหาร/อาเจียน/ดีซ่าน",
+      "cites": [
+        "merck-antifungal"
+      ]
     }
   ]
 }
