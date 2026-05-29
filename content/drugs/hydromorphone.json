@@ -2,71 +2,77 @@
   "slug": "hydromorphone",
   "nameEn": "Hydromorphone",
   "nameTh": "ไฮโดรมอร์โฟน",
-  "class": "Opioid analgesic — semi-synthetic μ-agonist (5x more potent than morphine)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+  "class": "Opioid analgesic — pure mu agonist (semisynthetic)",
+  "mechanism": "opioid pure mu agonist กึ่งสังเคราะห์ ออกฤทธิ์แรงกว่า morphine ~5 เท่า ให้การระงับปวด dose-dependent; ปล่อย histamine น้อยกว่า morphine จึงให้ IV ได้ปลอดภัยกว่า",
   "brandNamesTh": [
     "Dilaudid"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "ระงับปวดปานกลางถึงรุนแรง และ premedication; ทางเลือกแทน morphine เมื่อต้องการให้ IV",
       "cites": [
-        "dailymed-hydromorphone",
-        "atc-N02AA03",
-        "pubchem-hydromorphone",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "ระวังในสัตว์ที่มีปัญหาการหายใจและความดันในกะโหลกสูง; ในแมวอาจทำให้ไข้ขึ้น (hyperthermia)",
       "cites": [
-        "dailymed-hydromorphone",
-        "atc-N02AA03",
-        "pubchem-hydromorphone",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "กดการหายใจ, หัวใจเต้นช้า, อาเจียน, panting; hyperthermia ในแมว; แก้ฤทธิ์ด้วย naloxone",
       "cites": [
-        "dailymed-hydromorphone",
-        "atc-N02AA03",
-        "pubchem-hydromorphone",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Moderate–severe pain",
+      "route": "IV",
+      "dose": "0.05–0.2 mg/kg IV/IM/SC",
       "cites": [
-        "dailymed-hydromorphone",
-        "atc-N02AA03",
-        "pubchem-hydromorphone",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Moderate–severe pain",
+      "route": "IV",
+      "dose": "0.05–0.1 mg/kg IV/IM/SC",
+      "notes": "เฝ้าระวัง hyperthermia ในแมว",
       "cites": [
-        "dailymed-hydromorphone",
-        "atc-N02AA03",
-        "pubchem-hydromorphone",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-pain-mgmt",
+      "type": "textbook",
+      "title": "Pain Management in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-small-animals/pain-management-in-small-animals-with-lameness",
+      "note": "Merck pain-management reference — opioid dosing + mu/kappa pharmacology. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "dvm360-analgesia",
+      "type": "guideline",
+      "title": "Analgesic drugs and sedatives (Proceedings) — dvm360",
+      "year": 2024,
+      "url": "https://www.dvm360.com/view/analgesic-drugs-and-sedatives-proceedings",
+      "note": "Veterinary CE proceedings — opioid dose ranges for dogs and cats. Secondary clinical reference.",
+      "cid": null
+    },
     {
       "id": "dailymed-hydromorphone",
       "type": "regulatory-database",
@@ -182,12 +188,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC N02AA03 + RxNorm 3423. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — hydromorphone 0.05–0.2 mg/kg + feline hyperthermia note verified against Merck pain-management + dvm360. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

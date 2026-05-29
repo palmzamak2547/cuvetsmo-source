@@ -2,64 +2,68 @@
   "slug": "tramadol",
   "nameEn": "Tramadol",
   "nameTh": "ทรามาดอล",
-  "class": "Opioid analgesic — weak μ-agonist + SNRI",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+  "class": "Opioid analgesic — weak mu agonist + SNRI",
+  "mechanism": "ออกฤทธิ์ระงับปวดสองทาง: เป็น weak mu agonist และยับยั้งการเก็บกลับ serotonin/norepinephrine (SNRI); ในสุนัขการเปลี่ยนเป็น metabolite ออกฤทธิ์ (M1) ต่ำกว่าในคน จึงประสิทธิภาพระงับปวดเดี่ยวอาจจำกัด",
   "brandNamesTh": [
     "Tramal",
     "Ultram"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "ระงับปวดเบาถึงปานกลาง มักใช้เสริมกับ NSAID; หลักฐานประสิทธิภาพในสุนัขยังถกเถียง (M1 metabolite ต่ำ)",
       "cites": [
-        "dailymed-tramadol",
-        "atc-N02AX02",
-        "pubchem-tramadol",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "petplace-tramadol",
+        "dvm360-analgesia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "ระวังเมื่อใช้ร่วมยาที่เพิ่ม serotonin (SSRI, MAOI) เสี่ยง serotonin syndrome; ลดขนาดในตับ/ไตบกพร่อง; naloxone แก้ฤทธิ์ได้เพียงบางส่วน",
       "cites": [
-        "dailymed-tramadol",
-        "atc-N02AX02",
-        "pubchem-tramadol",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "petplace-tramadol"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "ง่วงซึม, ท้องไส้ปั่นป่วน, อาจชักหากขนาดสูง; เสี่ยง serotonin syndrome เมื่อใช้ร่วมยา serotonergic",
       "cites": [
-        "dailymed-tramadol",
-        "atc-N02AX02",
-        "pubchem-tramadol",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "petplace-tramadol"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Mild–moderate pain",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "2–4 mg/kg PO ทุก 8–12 ชั่วโมง (ช่วงกว้างถึง 4–10 mg/kg ทุก 8 ชั่วโมง)",
       "cites": [
-        "dailymed-tramadol",
-        "atc-N02AX02",
-        "pubchem-tramadol",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "petplace-tramadol",
+        "dvm360-analgesia"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "dvm360-analgesia",
+      "type": "guideline",
+      "title": "Analgesic drugs and sedatives (Proceedings) — dvm360",
+      "year": 2024,
+      "url": "https://www.dvm360.com/view/analgesic-drugs-and-sedatives-proceedings",
+      "note": "Veterinary CE proceedings — opioid dose ranges for dogs and cats. Secondary clinical reference.",
+      "cid": null
+    },
+    {
+      "id": "petplace-tramadol",
+      "type": "monograph",
+      "title": "Tramadol Hydrochloride (Ultram) for Dogs and Cats — PetPlace",
+      "year": 2024,
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/tramadol-hydrochloride-ultram-for-dogs-and-cats",
+      "note": "Clinical drug-library reference — canine dosing. Secondary reference; naloxone only partially reverses tramadol.",
+      "cid": null
+    },
     {
       "id": "dailymed-tramadol",
       "type": "regulatory-database",
@@ -197,12 +201,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA Global Pain Council guidelines). ATC N02AX02 + RxNorm 10689. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — tramadol dog 2–4 mg/kg q8–12h + dual mechanism + canine-efficacy caveat verified against PetPlace + dvm360. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

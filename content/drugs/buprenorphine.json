@@ -2,8 +2,8 @@
   "slug": "buprenorphine",
   "nameEn": "Buprenorphine",
   "nameTh": "บูพรีนอร์ฟีน",
-  "class": "Opioid analgesic — partial μ-agonist (oripavine)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+  "class": "Opioid analgesic — partial mu agonist (ceiling effect)",
+  "mechanism": "opioid partial mu agonist ออกฤทธิ์แรงกว่า morphine ~25–50 เท่า แต่มี ceiling effect (เพิ่มขนาดไม่เพิ่มฤทธิ์ระงับปวด); ออกฤทธิ์นาน; ในแมวดูดซึมดีทาง oral transmucosal (OTM)",
   "brandNamesTh": [
     "Vetergesic",
     "Simbadol",
@@ -11,64 +11,70 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "ระงับปวดเบาถึงปานกลาง; ในแมวนิยมหยอดใต้ลิน/กระพุ้งแก้ม (OTM) เพราะดูดซึมดีและให้ที่บ้านสะดวก",
       "cites": [
-        "dailymed-buprenorphine",
-        "atc-N02AE01",
-        "pubchem-buprenorphine",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "ไม่เหมาะกับปวดรุนแรง (ceiling effect); naloxone แก้ฤทธิ์ได้ยากกว่าเพราะจับ receptor แน่น",
       "cites": [
-        "dailymed-buprenorphine",
-        "atc-N02AE01",
-        "pubchem-buprenorphine",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "กดการหายใจน้อยกว่า pure agonist, ง่วงซึม, คลื่นไส้; ออกฤทธิ์นานทำให้ reversal ยาก",
       "cites": [
-        "dailymed-buprenorphine",
-        "atc-N02AE01",
-        "pubchem-buprenorphine",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "dosages": [
     {
-      "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "species": "canine",
+      "indication": "Mild–moderate pain",
+      "route": "IM",
+      "dose": "0.01–0.02 mg/kg IV/IM ทุก 6–8 ชั่วโมง",
       "cites": [
-        "dailymed-buprenorphine",
-        "atc-N02AE01",
-        "pubchem-buprenorphine",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     },
     {
-      "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "species": "feline",
+      "indication": "Mild–moderate pain",
+      "route": "IM",
+      "dose": "0.01–0.02 mg/kg IV/IM หรือ OTM (กระพุ้งแก้ม) ทุก 6–8 ชั่วโมง",
       "cites": [
-        "dailymed-buprenorphine",
-        "atc-N02AE01",
-        "pubchem-buprenorphine",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-pain-mgmt",
+      "type": "textbook",
+      "title": "Pain Management in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-small-animals/pain-management-in-small-animals-with-lameness",
+      "note": "Merck pain-management reference — opioid dosing + mu/kappa pharmacology. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "dvm360-analgesia",
+      "type": "guideline",
+      "title": "Analgesic drugs and sedatives (Proceedings) — dvm360",
+      "year": 2024,
+      "url": "https://www.dvm360.com/view/analgesic-drugs-and-sedatives-proceedings",
+      "note": "Veterinary CE proceedings — opioid dose ranges for dogs and cats. Secondary clinical reference.",
+      "cid": null
+    },
     {
       "id": "dailymed-buprenorphine",
       "type": "regulatory-database",
@@ -184,12 +190,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC N02AE01 + RxNorm 1819. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — buprenorphine 0.01–0.02 mg/kg + feline OTM route + ceiling effect verified against Merck pain-management + dvm360. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

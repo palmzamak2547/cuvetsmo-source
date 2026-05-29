@@ -2,77 +2,80 @@
   "slug": "fentanyl",
   "nameEn": "Fentanyl",
   "nameTh": "เฟนทานิล",
-  "class": "Opioid analgesic — synthetic phenylpiperidine (μ-agonist)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+  "class": "Opioid analgesic — pure mu agonist (short-acting, potent)",
+  "mechanism": "opioid pure mu agonist สังเคราะห์ ออกฤทธิ์แรงกว่า morphine ~100 เท่า ออกฤทธิ์เร็วและสั้น จึงเหมาะให้แบบ CRI หรือแผ่นแปะผิวหนัง (transdermal patch)",
   "brandNamesTh": [
     "Durogesic",
     "Sublimaze"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "ระงับปวดรุนแรงระหว่างและหลังผ่าตัด มักให้แบบ CRI; แผ่นแปะใช้คุมปวดต่อเนื่อง",
       "cites": [
-        "dailymed-fentanyl",
-        "atc-N02AB03",
-        "pubchem-fentanyl",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "ต้องเฝ้าระวังการหายใจอย่างใกล้ชิด (กดการหายใจแรง); หัวใจเต้นช้า; แผ่นแปะออกฤทธิ์ช้า 12–24 ชม. และระวังสัตว์/คนเลียสัมผัส",
       "cites": [
-        "dailymed-fentanyl",
-        "atc-N02AB03",
-        "pubchem-fentanyl",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "กดการหายใจ, หัวใจเต้นช้า, ง่วงซึม; แผ่นแปะมีความเสี่ยงได้รับยาเกินหากโดนความร้อน; แก้ฤทธิ์ด้วย naloxone",
       "cites": [
-        "dailymed-fentanyl",
-        "atc-N02AB03",
-        "pubchem-fentanyl",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Severe peri-operative pain",
+      "route": "IV",
+      "dose": "2–5 mcg/kg IV bolus จากนั้น CRI 3–10 mcg/kg/ชั่วโมง",
+      "notes": "⚠️ ตรวจสอบ protocol CRI กับตำราเฉพาะทางและให้ faculty ยืนยัน; ต้องเฝ้าระวังการหายใจ",
       "cites": [
-        "dailymed-fentanyl",
-        "atc-N02AB03",
-        "pubchem-fentanyl",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Severe peri-operative pain",
+      "route": "IV",
+      "dose": "2–5 mcg/kg IV bolus จากนั้น CRI 2–5 mcg/kg/ชั่วโมง",
+      "notes": "⚠️ ยืนยัน CRI กับ faculty",
       "cites": [
-        "dailymed-fentanyl",
-        "atc-N02AB03",
-        "pubchem-fentanyl",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-pain-mgmt",
+      "type": "textbook",
+      "title": "Pain Management in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-small-animals/pain-management-in-small-animals-with-lameness",
+      "note": "Merck pain-management reference — opioid dosing + mu/kappa pharmacology. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "dvm360-analgesia",
+      "type": "guideline",
+      "title": "Analgesic drugs and sedatives (Proceedings) — dvm360",
+      "year": 2024,
+      "url": "https://www.dvm360.com/view/analgesic-drugs-and-sedatives-proceedings",
+      "note": "Veterinary CE proceedings — opioid dose ranges for dogs and cats. Secondary clinical reference.",
+      "cid": null
+    },
     {
       "id": "dailymed-fentanyl",
       "type": "regulatory-database",
@@ -210,12 +213,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA Global Pain Council guidelines). ATC N02AB03 + RxNorm 4337. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — fentanyl 2–5 mcg/kg IV bolus + CRI verified against Merck pain-management + dvm360; CRI rate flagged for faculty confirmation. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

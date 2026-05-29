@@ -2,77 +2,78 @@
   "slug": "morphine",
   "nameEn": "Morphine",
   "nameTh": "มอร์ฟีน",
-  "class": "Opioid analgesic — natural opium alkaloid (μ-agonist)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+  "class": "Opioid analgesic — pure mu agonist (natural opium alkaloid)",
+  "mechanism": "ยาแก้ปวดกลุ่ม opioid ชนิด pure mu agonist ออกฤทธิ์ที่ mu receptor ให้การระงับปวดแบบ dose-dependent (ขนาดสูง = ปวดลดมากขึ้น); ใช้กับปวดปานกลางถึงรุนแรง",
   "brandNamesTh": [
     "MST",
     "Morphine HCl"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "ระงับปวดปานกลางถึงรุนแรง (หลังผ่าตัด, บาดเจ็บ, มะเร็ง); ใช้ premedication และ epidural",
       "cites": [
-        "dailymed-morphine",
-        "atc-N02AA01",
-        "pubchem-morphine",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "ระวังในสัตว์ที่มีปัญหาการหายใจ, ความดันในกะโหลกสูง, ตับบกพร่อง; ฉีด IV เร็วทำให้ปล่อย histamine + ความดันตก",
       "cites": [
-        "dailymed-morphine",
-        "atc-N02AA01",
-        "pubchem-morphine",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Pain Council guidelines)",
+      "text": "กดการหายใจ, หัวใจเต้นช้า, อาเจียน/คลื่นไส้, ท้องผูก, ปัสสาวะคั่ง; ในแมวขนาดสูงอาจกระตุ้น (excitation); แก้ฤทธิ์ด้วย naloxone",
       "cites": [
-        "dailymed-morphine",
-        "atc-N02AA01",
-        "pubchem-morphine",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Moderate–severe pain",
+      "route": "IM",
+      "dose": "0.5–2 mg/kg IM/SC หรือ IV ช้า ๆ",
       "cites": [
-        "dailymed-morphine",
-        "atc-N02AA01",
-        "pubchem-morphine",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Moderate–severe pain",
+      "route": "IM",
+      "dose": "0.1–0.3 mg/kg IM/SC (ขนาดต่ำกว่าสุนัข)",
       "cites": [
-        "dailymed-morphine",
-        "atc-N02AA01",
-        "pubchem-morphine",
-        "who-eml-22",
-        "wsava-pain-2022"
+        "merck-pain-mgmt",
+        "dvm360-analgesia"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-pain-mgmt",
+      "type": "textbook",
+      "title": "Pain Management in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-small-animals/pain-management-in-small-animals-with-lameness",
+      "note": "Merck pain-management reference — opioid dosing + mu/kappa pharmacology. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "dvm360-analgesia",
+      "type": "guideline",
+      "title": "Analgesic drugs and sedatives (Proceedings) — dvm360",
+      "year": 2024,
+      "url": "https://www.dvm360.com/view/analgesic-drugs-and-sedatives-proceedings",
+      "note": "Veterinary CE proceedings — opioid dose ranges for dogs and cats. Secondary clinical reference.",
+      "cid": null
+    },
     {
       "id": "dailymed-morphine",
       "type": "regulatory-database",
@@ -210,12 +211,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA Global Pain Council guidelines). ATC N02AA01 + RxNorm 7052. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — dog 0.5–2 mg/kg, cat 0.1–0.3 mg/kg verified against Merck pain-management + dvm360. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

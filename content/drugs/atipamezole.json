@@ -2,67 +2,78 @@
   "slug": "atipamezole",
   "nameEn": "Atipamezole",
   "nameTh": "อะติพาเมโซล",
-  "class": "α2-adrenergic antagonist — reversal agent for dexmedetomidine/medetomidine (veterinary-only)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Antidote — alpha-2 adrenergic antagonist (reversal agent, veterinary)",
+  "mechanism": "alpha-2 adrenergic antagonist (Antisedan) แย่งจับ alpha-2 receptor จึงกลับฤทธิ์สงบ ระงับปวด และผลต่อหัวใจ/หลอดเลือดของ dexmedetomidine/medetomidine; เป็นยาสำหรับสัตว์โดยเฉพาะ",
   "brandNamesTh": [
     "Antisedan",
     "Atipam"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "กลับฤทธิ์ alpha-2 agonist (dexmedetomidine, medetomidine) เพื่อให้สัตว์ฟื้นเร็วหลังสงบประสาท/วางยา",
       "cites": [
-        "dailymed-atipamezole",
-        "atc-QV03AB94",
-        "pubchem-atipamezole"
+        "fda-antisedan",
+        "cliniciansbrief-atipamezole"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "การกลับฤทธิ์เฉียบพลันทำให้ตื่นเต้น หัวใจเต้นเร็ว และความดันเปลี่ยน; ฉีด IV เร็วเสี่ยงต่อภาวะหัวใจและหลอดเลือด — แนะนำ IM",
       "cites": [
-        "dailymed-atipamezole",
-        "atc-QV03AB94",
-        "pubchem-atipamezole"
+        "fda-antisedan"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ตื่นเต้น/กระสับกระส่าย, หัวใจเต้นเร็ว, น้ำลายไหล, อาเจียน, ตัวสั่น; ฤทธิ์ระงับปวดของ alpha-2 หายไปด้วย",
       "cites": [
-        "dailymed-atipamezole",
-        "atc-QV03AB94",
-        "pubchem-atipamezole"
+        "fda-antisedan"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Alpha-2 (dexmedetomidine) reversal",
+      "route": "IM",
+      "dose": "0.1–0.3 mg/kg IM (โดยทั่วไปให้ปริมาตรเท่ากับ dexmedetomidine ที่ใช้)",
       "cites": [
-        "dailymed-atipamezole",
-        "atc-QV03AB94",
-        "pubchem-atipamezole"
+        "cliniciansbrief-atipamezole",
+        "fda-antisedan"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Alpha-2 reversal",
+      "route": "IM",
+      "dose": "0.1–0.3 mg/kg IM ตามปริมาตร dexmedetomidine ที่ให้",
       "cites": [
-        "dailymed-atipamezole",
-        "atc-QV03AB94",
-        "pubchem-atipamezole"
+        "cliniciansbrief-atipamezole",
+        "fda-antisedan"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "fda-antisedan",
+      "type": "package-insert",
+      "title": "Antisedan (atipamezole HCl) — FDA NADA 141-033",
+      "year": 2025,
+      "url": "https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/563",
+      "note": "FDA veterinary label — alpha-2 reversal dosing. Public FDA labeling.",
+      "cid": null
+    },
+    {
+      "id": "cliniciansbrief-atipamezole",
+      "type": "guideline",
+      "title": "Dexmedetomidine & Atipamezole Uses, Dosing in Dogs & Cats — Clinician’s Brief",
+      "year": 2024,
+      "url": "https://www.cliniciansbrief.com/article/dexmedetomidine-atipamezole",
+      "note": "Peer-reviewed clinical reference — atipamezole 0.1–0.3 mg/kg IM reversal. Secondary reference.",
+      "cid": null
+    },
     {
       "id": "dailymed-atipamezole",
       "type": "regulatory-database",
@@ -152,12 +163,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC QV03AB94 (vet-only, no human RxNorm CUI). Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — atipamezole 0.1–0.3 mg/kg IM (volume-matched to dexmedetomidine) verified against FDA Antisedan label + Clinician’s Brief. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

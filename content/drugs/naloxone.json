@@ -2,71 +2,66 @@
   "slug": "naloxone",
   "nameEn": "Naloxone",
   "nameTh": "นาล็อกโซน",
-  "class": "Opioid antagonist (μ-receptor) — reversal agent for opioid overdose",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Antidote — opioid receptor antagonist (reversal agent)",
+  "mechanism": "opioid antagonist ที่ mu receptor ออกฤทธิ์แย่ง opioid ออกจากตัวรับ จึงกลับฤทธิ์กดการหายใจและความสงบจาก opioid ได้อย่างรวดเร็ว; ออกฤทธิ์สั้นจึงอาจต้องให้ซ้ำ",
   "brandNamesTh": [
     "Narcan"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "แก้ภาวะ opioid overdose โดยเฉพาะการกดการหายใจ; ใช้กลับฤทธิ์ opioid ที่ให้ระหว่างวางยาสลบ",
       "cites": [
-        "dailymed-naloxone",
-        "atc-V03AB15",
-        "pubchem-naloxone",
-        "who-eml-22"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "การกลับฤทธิ์เฉียบพลันทำให้ปวดกลับมาทันทีและอาจกระตุ้นระบบประสาท; ออกฤทธิ์สั้นกว่า opioid หลายตัว จึงต้องเฝ้าระวัง re-narcotization และให้ซ้ำ",
       "cites": [
-        "dailymed-naloxone",
-        "atc-V03AB15",
-        "pubchem-naloxone",
-        "who-eml-22"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ปวดกลับเฉียบพลัน, กระสับกระส่าย, หัวใจเต้นเร็ว; ฤทธิ์สั้นทำให้ opioid ออกฤทธิ์ซ้ำได้",
       "cites": [
-        "dailymed-naloxone",
-        "atc-V03AB15",
-        "pubchem-naloxone",
-        "who-eml-22"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Opioid reversal",
+      "route": "IV",
+      "dose": "0.01–0.04 mg/kg IV/IM/SC ให้ซ้ำได้ตามอาการ",
+      "notes": "⚠️ ออกฤทธิ์สั้น — เฝ้าระวังและให้ซ้ำ; ยืนยันขนาดกับตำราเฉพาะทาง",
       "cites": [
-        "dailymed-naloxone",
-        "atc-V03AB15",
-        "pubchem-naloxone",
-        "who-eml-22"
+        "merck-pain-mgmt"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Opioid reversal",
+      "route": "IV",
+      "dose": "0.01–0.04 mg/kg IV/IM/SC ให้ซ้ำได้ตามอาการ",
       "cites": [
-        "dailymed-naloxone",
-        "atc-V03AB15",
-        "pubchem-naloxone",
-        "who-eml-22"
+        "merck-pain-mgmt"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-pain-mgmt",
+      "type": "textbook",
+      "title": "Pain Management in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-small-animals/pain-management-in-small-animals-with-lameness",
+      "note": "Merck pain-management reference — opioid dosing + mu/kappa pharmacology. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-naloxone",
       "type": "regulatory-database",
@@ -182,12 +177,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC V03AB15 + RxNorm 7242. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — naloxone 0.01–0.04 mg/kg opioid reversal + short-duration re-narcotization warning verified against Merck pain-management; dose flagged for faculty confirmation. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }
