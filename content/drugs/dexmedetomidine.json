@@ -2,72 +2,67 @@
   "slug": "dexmedetomidine",
   "nameEn": "Dexmedetomidine",
   "nameTh": "เด็กซ์เมเดโทมิดีน",
-  "class": "Sedative — selective α2-adrenergic agonist",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+  "class": "Sedative — alpha-2 adrenergic agonist",
+  "mechanism": "ยาสงบประสาทและระงับปวดกลุ่ม alpha-2 adrenergic agonist (enantiomer ออกฤทธิ์ของ medetomidine) ลดการหลั่ง norepinephrine ทำให้สงบ คลายกล้ามเนื้อ และระงับปวด; ออกฤทธิ์กลับได้ด้วย atipamezole",
   "brandNamesTh": [
     "Dexdomitor",
     "Precedex"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "text": "สงบประสาท ระงับปวด และ premedication ก่อนวางยาสลบในสุนัขและแมว; ออกฤทธิ์ใน 5–15 นาที peak ที่ 30 นาที",
       "cites": [
-        "dailymed-dexmedetomidine",
-        "atc-N05CM18",
-        "pubchem-dexmedetomidine",
-        "wsava-anesth-2018"
+        "fda-dexdomitor"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "text": "ห้ามใช้ในสัตว์ที่มีโรคหัวใจ/หลอดเลือด, ตับ/ไตบกพร่อง, ภาวะช็อก หรือสัตว์ป่วยหนัก เนื่องจากทำให้หัวใจเต้นช้าและความดันเปลี่ยนแปลงมาก",
       "cites": [
-        "dailymed-dexmedetomidine",
-        "atc-N05CM18",
-        "pubchem-dexmedetomidine",
-        "wsava-anesth-2018"
+        "fda-dexdomitor"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Anaesthesia guidelines)",
+      "text": "หัวใจเต้นช้า (bradycardia), AV block, ความดันเปลี่ยนสองระยะ (เริ่มสูงแล้วลดลง), อาเจียน, เยื่อเมือกซีด; แก้ฤทธิ์ด้วย atipamezole",
       "cites": [
-        "dailymed-dexmedetomidine",
-        "atc-N05CM18",
-        "pubchem-dexmedetomidine",
-        "wsava-anesth-2018"
+        "fda-dexdomitor"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Sedation / analgesia / premedication",
+      "route": "IM",
+      "dose": "375 mcg/m² IV หรือ 500 mcg/m² IM (≈ 1–10 mcg/kg ตามน้ำหนัก)",
+      "notes": "คำนวณตามพื้นที่ผิวกาย (m²) ตาม label",
       "cites": [
-        "dailymed-dexmedetomidine",
-        "atc-N05CM18",
-        "pubchem-dexmedetomidine",
-        "wsava-anesth-2018"
+        "fda-dexdomitor"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Sedation / analgesia / premedication",
+      "route": "IM",
+      "dose": "40 mcg/kg IM",
       "cites": [
-        "dailymed-dexmedetomidine",
-        "atc-N05CM18",
-        "pubchem-dexmedetomidine",
-        "wsava-anesth-2018"
+        "fda-dexdomitor"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "fda-dexdomitor",
+      "type": "package-insert",
+      "title": "Dexdomitor (dexmedetomidine) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/dexdomitor.html",
+      "note": "FDA veterinary label — alpha-2 agonist sedation/analgesia dosing. Public FDA labeling.",
+      "cid": null
+    },
     {
       "id": "dailymed-dexmedetomidine",
       "type": "regulatory-database",
@@ -183,12 +178,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Anaesthesia & Sedation guidelines). ATC N05CM18 + RxNorm 48937. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — dog 375 mcg/m² IV / 500 mcg/m² IM, cat 40 mcg/kg IM verified against FDA Dexdomitor label. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

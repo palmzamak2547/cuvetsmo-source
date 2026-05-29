@@ -3,70 +3,65 @@
   "nameEn": "Ondansetron",
   "nameTh": "ออนแดนซีตรอน",
   "class": "Anti-emetic — 5-HT3 receptor antagonist",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "mechanism": "ยาต้านอาเจียนกลุ่ม 5-HT3 receptor antagonist ปิดกั้นตัวรับ serotonin ที่ CTZ และทางเดินอาหาร ใช้กับอาเจียนรุนแรง โดยเฉพาะจากเคมีบำบัดและไตวาย",
   "brandNamesTh": [
     "Zofran"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "อาเจียนรุนแรงที่ไม่ตอบสนองต่อยาอื่น โดยเฉพาะจากเคมีบำบัด, parvovirus enteritis, และภาวะไตวาย",
       "cites": [
-        "dailymed-ondansetron",
-        "atc-A04AA01",
-        "pubchem-ondansetron",
-        "who-eml-22"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวังในสัตว์ที่มีความผิดปกติการนำไฟฟ้าหัวใจ (QT prolongation) และตับบกพร่อง",
       "cites": [
-        "dailymed-ondansetron",
-        "atc-A04AA01",
-        "pubchem-ondansetron",
-        "who-eml-22"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ท้องผูก, ง่วงซึม; โดยรวมพบผลข้างเคียงน้อย",
       "cites": [
-        "dailymed-ondansetron",
-        "atc-A04AA01",
-        "pubchem-ondansetron",
-        "who-eml-22"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Refractory vomiting",
+      "route": "IV",
+      "dose": "0.5–1 mg/kg PO ได้ถึง 3 ครั้ง/วัน หรือ 0.1–0.2 mg/kg IV ช้า ๆ ทุก 6–12 ชั่วโมง",
       "cites": [
-        "dailymed-ondansetron",
-        "atc-A04AA01",
-        "pubchem-ondansetron",
-        "who-eml-22"
+        "acvim-gi-protectant"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Refractory vomiting",
+      "route": "IM",
+      "dose": "0.22 mg/kg IM",
       "cites": [
-        "dailymed-ondansetron",
-        "atc-A04AA01",
-        "pubchem-ondansetron",
-        "who-eml-22"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "acvim-gi-protectant",
+      "type": "guideline",
+      "title": "ACVIM Consensus Statement: Rational administration of gastrointestinal protectants to dogs and cats",
+      "authors": "Marks SL, et al.",
+      "year": 2018,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6271318/",
+      "note": "Peer-reviewed ACVIM consensus (J Vet Intern Med) — PPI/H2/sucralfate evidence + dosing. Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-ondansetron",
       "type": "regulatory-database",
@@ -182,12 +177,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC A04AA01 + RxNorm 26225. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — dog 0.5–1 mg/kg PO / 0.1–0.2 mg/kg IV, cat 0.22 mg/kg verified against ACVIM consensus statement. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

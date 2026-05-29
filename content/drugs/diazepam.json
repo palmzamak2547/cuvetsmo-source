@@ -2,76 +2,65 @@
   "slug": "diazepam",
   "nameEn": "Diazepam",
   "nameTh": "ไดอาซีแพม",
-  "class": "Anxiolytic — benzodiazepine, GABA-A potentiator",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+  "class": "Sedative / anticonvulsant — benzodiazepine",
+  "mechanism": "ยากลุ่ม benzodiazepine เสริมการทำงาน GABA-A ให้ความสงบ คลายกล้ามเนื้อ และกันชัก; ไม่ละลายน้ำ (ตัวทำละลาย propylene glycol) จึงดูดซึมไม่แน่นอนเมื่อให้ IM — นิยมให้ IV",
   "brandNamesTh": [
     "Valium"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "ควบคุมภาวะชักเฉียบพลัน (status epilepticus), co-induction ร่วม ketamine, premedication, และคลายกล้ามเนื้อ",
       "cites": [
-        "dailymed-diazepam",
-        "atc-N05BA01",
-        "pubchem-diazepam",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "ระวังในสัตว์ตับบกพร่อง; ⚠️ ในแมวการให้ diazepam กินซ้ำสัมพันธ์กับภาวะตับวายเฉียบพลัน (idiosyncratic hepatic necrosis); หลีกเลี่ยง IM (ดูดซึมไม่แน่นอน + เจ็บ)",
       "cites": [
-        "dailymed-diazepam",
-        "atc-N05BA01",
-        "pubchem-diazepam",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "ง่วงซึม, ataxia, paradoxical excitement; ⚠️ feline idiosyncratic hepatotoxicity จากการกินซ้ำ; กดการหายใจเมื่อใช้ร่วมยากดประสาทอื่น",
       "cites": [
-        "dailymed-diazepam",
-        "atc-N05BA01",
-        "pubchem-diazepam",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Status epilepticus / co-induction",
+      "route": "IV",
+      "dose": "0.5 mg/kg IV (ชัก); 0.25 mg/kg IV ร่วม ketamine (co-induction)",
       "cites": [
-        "dailymed-diazepam",
-        "atc-N05BA01",
-        "pubchem-diazepam",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Seizure / co-induction",
+      "route": "IV",
+      "dose": "0.5 mg/kg IV — ⚠️ หลีกเลี่ยงการให้กินซ้ำ (เสี่ยงตับวาย)",
       "cites": [
-        "dailymed-diazepam",
-        "atc-N05BA01",
-        "pubchem-diazepam",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "lumb-jones-anesthesia",
+      "type": "textbook",
+      "title": "Lumb & Jones Veterinary Anesthesia and Analgesia (5th ed.) — injectable agents",
+      "year": 2015,
+      "url": "https://veteriankey.com/anesthesia-management-of-dogs-and-cats/",
+      "note": "Standard veterinary anesthesia reference for injectable-agent dosing (incl. extra-label benzodiazepine + phenothiazine use). Cited, not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-diazepam",
       "type": "regulatory-database",
@@ -209,12 +198,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA Anaesthesia & Sedation guidelines). ATC N05BA01 + RxNorm 3322. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — diazepam 0.5 mg/kg IV (seizure) / 0.25 mg/kg IV co-induction + feline oral hepatotoxicity warning verified against Lumb & Jones. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

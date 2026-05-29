@@ -2,66 +2,65 @@
   "slug": "maropitant",
   "nameEn": "Maropitant",
   "nameTh": "มาโรพิแทนต์",
-  "class": "Anti-emetic — neurokinin-1 (NK1) receptor antagonist (veterinary-only)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Anti-emetic — NK1 receptor antagonist (veterinary)",
+  "mechanism": "ยาต้านอาเจียนกลุ่ม NK1 receptor antagonist (Cerenia) ออกฤทธิ์ปิดกั้น substance P ที่ emetic center ครอบคลุมอาเจียนทั้งจากส่วนกลางและส่วนปลาย; เป็นยาสำหรับสัตว์โดยเฉพาะ",
   "brandNamesTh": [
     "Cerenia"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ป้องกันและรักษาอาเจียนในสุนัขและแมว รวมถึงอาเจียนจากเมารถ (motion sickness) และจากเคมีบำบัด; ครอบคลุมกว้างกว่ายาต้านอาเจียนกลุ่มเดิม",
       "cites": [
-        "dailymed-maropitant",
-        "atc-QA04AD90",
-        "pubchem-maropitant"
+        "fda-cerenia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ระวังในสัตว์ที่ตับบกพร่อง; ความปลอดภัยในลูกสัตว์อายุน้อยมากจำกัด — ดูช่วงอายุตาม label",
       "cites": [
-        "dailymed-maropitant",
-        "atc-QA04AD90",
-        "pubchem-maropitant"
+        "fda-cerenia"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "เจ็บบริเวณที่ฉีด SC (ลดได้โดยแช่เย็นยา), น้ำลายไหล, ซึม; โดยรวมปลอดภัยสูง",
       "cites": [
-        "dailymed-maropitant",
-        "atc-QA04AD90",
-        "pubchem-maropitant"
+        "fda-cerenia"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Acute vomiting / motion sickness",
+      "route": "SC",
+      "dose": "1 mg/kg SC วันละครั้ง หรือ 2 mg/kg PO วันละครั้ง (สูงสุด 5 วันต่อเนื่อง)",
       "cites": [
-        "dailymed-maropitant",
-        "atc-QA04AD90",
-        "pubchem-maropitant"
+        "fda-cerenia"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Acute vomiting",
+      "route": "SC",
+      "dose": "1 mg/kg SC วันละครั้ง",
       "cites": [
-        "dailymed-maropitant",
-        "atc-QA04AD90",
-        "pubchem-maropitant"
+        "fda-cerenia"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "fda-cerenia",
+      "type": "package-insert",
+      "title": "Cerenia (maropitant citrate) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/pro/cerenia.html",
+      "note": "FDA veterinary label — NK1 antagonist antiemetic, canine + feline dosing. Public FDA labeling.",
+      "cid": null
+    },
     {
       "id": "dailymed-maropitant",
       "type": "regulatory-database",
@@ -151,12 +150,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC QA04AD90 (vet-only, no human RxNorm CUI). Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — dog 1 mg/kg SC or 2 mg/kg PO, cat 1 mg/kg SC verified against FDA Cerenia label. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

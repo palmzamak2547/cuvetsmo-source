@@ -2,90 +2,76 @@
   "slug": "ketamine",
   "nameEn": "Ketamine",
   "nameTh": "คีตามีน",
-  "class": "Anesthetic — NMDA antagonist, dissociative",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+  "class": "Anesthetic — dissociative (NMDA antagonist)",
+  "mechanism": "ยาสลบชนิด dissociative ออกฤทธิ์ต้าน NMDA receptor ทำให้แยกการรับรู้ (dissociation) มีฤทธิ์ระงับปวด somatic; มักให้ร่วม benzodiazepine (diazepam/midazolam) เพื่อลดอาการเกร็งกล้ามเนื้อและชัก",
   "brandNamesTh": [
     "Ketalar",
     "Ketamax"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "นำสลบและคงสภาพสลบในสุนัขและแมว มักใช้ร่วม benzodiazepine หรือ alpha-2 agonist; ให้ฤทธิ์ระงับปวดในขนาด sub-anesthetic (CRI)",
       "cites": [
-        "dailymed-ketamine",
-        "atc-N01AX03",
-        "pubchem-ketamine",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "fda-ketaset",
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "ระวังในสัตว์ที่มีโรคหัวใจ (เพิ่ม heart rate + BP), ชัก, ความดันในกะโหลก/ลูกตาสูง; ในแมวที่ไตบกพร่องต้องระวังเพราะขับทางไต",
       "cites": [
-        "dailymed-ketamine",
-        "atc-N01AX03",
-        "pubchem-ketamine",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "เกร็งกล้ามเนื้อและชักหากให้เดี่ยว (จึงให้ร่วม benzodiazepine), น้ำลายไหลมาก, ตาเปิดค้าง, ฟื้นแบบ rough recovery; เพิ่ม HR และความดัน",
       "cites": [
-        "dailymed-ketamine",
-        "atc-N01AX03",
-        "pubchem-ketamine",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "IV induction (with benzodiazepine)",
+      "route": "IV",
+      "dose": "Ketamine 5–10 mg/kg IV ร่วมกับ diazepam 0.25 mg/kg IV (หรือ midazolam 0.2–0.4 mg/kg)",
       "cites": [
-        "dailymed-ketamine",
-        "atc-N01AX03",
-        "pubchem-ketamine",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "IV induction (with benzodiazepine)",
+      "route": "IV",
+      "dose": "Ketamine 5–10 mg/kg IV ร่วมกับ benzodiazepine",
       "cites": [
-        "dailymed-ketamine",
-        "atc-N01AX03",
-        "pubchem-ketamine",
-        "who-eml-22",
-        "wsava-anesth-2018"
-      ]
-    },
-    {
-      "species": "equine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
-      "cites": [
-        "dailymed-ketamine",
-        "atc-N01AX03",
-        "pubchem-ketamine",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "fda-ketaset",
+      "type": "package-insert",
+      "title": "Ketaset (ketamine HCl) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/ketaset.html",
+      "note": "FDA veterinary label — dissociative anesthetic. Public FDA labeling.",
+      "cid": null
+    },
+    {
+      "id": "lumb-jones-anesthesia",
+      "type": "textbook",
+      "title": "Lumb & Jones Veterinary Anesthesia and Analgesia (5th ed.) — injectable agents",
+      "year": 2015,
+      "url": "https://veteriankey.com/anesthesia-management-of-dogs-and-cats/",
+      "note": "Standard veterinary anesthesia reference for injectable-agent dosing (incl. extra-label benzodiazepine + phenothiazine use). Cited, not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-ketamine",
       "type": "regulatory-database",
@@ -223,12 +209,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA Anaesthesia & Sedation guidelines). ATC N01AX03 + RxNorm 6130. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — ketamine 5–10 mg/kg IV with benzodiazepine co-induction verified against FDA Ketaset label + Lumb & Jones. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

@@ -2,67 +2,79 @@
   "slug": "sucralfate",
   "nameEn": "Sucralfate",
   "nameTh": "ซูคราลเฟต",
-  "class": "GI cytoprotective — aluminum sucrose sulfate (GI ulcer + esophagitis coating)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "GI cytoprotective — sucrose-aluminium complex",
+  "mechanism": "พอลิเมอร์ sucrose octasulfate ที่จับกับเยื่อบุที่เป็นแผลในภาวะกรด เกิดชั้นเหนียวเคลือบป้องกัน (cytoprotective) ไม่ลดการหลั่งกรดโดยตรง; ออกฤทธิ์เฉพาะที่",
   "brandNamesTh": [
     "Carafate",
     "Antepsin"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "เคลือบป้องกันแผลในทางเดินอาหารและหลอดอาหารอักเสบ (esophagitis) โดยเฉพาะแผลที่เป็นแล้ว; ใช้เสริม PPI (แต่ต้องแยกเวลา)",
       "cites": [
-        "dailymed-sucralfate",
-        "atc-A02BX02",
-        "pubchem-sucralfate"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "แยกเวลาจาก PPI/H2 blocker และยาอื่นอย่างน้อย 2 ชั่วโมง (ลดการดูดซึมยาอื่น และต้องการกรดเพื่อกระตุ้น); ระวังในสัตว์ไตบกพร่อง (สะสม aluminium)",
       "cites": [
-        "dailymed-sucralfate",
-        "atc-A02BX02",
-        "pubchem-sucralfate"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ท้องผูก; ลดการดูดซึมยาอื่นที่ให้พร้อมกัน; ไม่ค่อยมีผลทั่วร่างกายเพราะดูดซึมน้อย",
       "cites": [
-        "dailymed-sucralfate",
-        "atc-A02BX02",
-        "pubchem-sucralfate"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "GI ulcer / esophagitis (mucosal protection)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "สุนัขใหญ่ 0.5–1 g, สุนัขเล็ก 0.25–0.5 g PO ทุก 6–8 ชั่วโมง",
+      "notes": "⚠️ ตรวจสอบขนาดในตำราเฉพาะทาง (Plumb's) ก่อนใช้; ให้ห่างจากยาอื่นอย่างน้อย 2 ชั่วโมง",
       "cites": [
-        "dailymed-sucralfate",
-        "atc-A02BX02",
-        "pubchem-sucralfate"
+        "acvim-gi-protectant",
+        "merck-antiulcer"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "GI ulcer / esophagitis",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.25–0.5 g PO ทุก 8–12 ชั่วโมง",
+      "notes": "ให้ห่างจากยาอื่นอย่างน้อย 2 ชั่วโมง",
       "cites": [
-        "dailymed-sucralfate",
-        "atc-A02BX02",
-        "pubchem-sucralfate"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "acvim-gi-protectant",
+      "type": "guideline",
+      "title": "ACVIM Consensus Statement: Rational administration of gastrointestinal protectants to dogs and cats",
+      "authors": "Marks SL, et al.",
+      "year": 2018,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6271318/",
+      "note": "Peer-reviewed ACVIM consensus (J Vet Intern Med) — PPI/H2/sucralfate evidence + dosing. Authoritative.",
+      "cid": null
+    },
+    {
+      "id": "merck-antiulcer",
+      "type": "textbook",
+      "title": "Antiulcerative Drugs — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/multimedia/table/antiulcerative-drugs",
+      "note": "Merck antiulcerative dosing table. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-sucralfate",
       "type": "regulatory-database",
@@ -156,12 +168,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC A02BX02 + RxNorm 10156. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — sucralfate mucosal-protectant dosing + 2-hour separation rule verified against ACVIM consensus + Merck antiulcerative table; per-weight gram dose flagged for Plumb's faculty confirmation. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

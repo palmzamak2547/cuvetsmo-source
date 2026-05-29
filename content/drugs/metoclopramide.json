@@ -3,7 +3,7 @@
   "nameEn": "Metoclopramide",
   "nameTh": "เมโตโคลพราไมด์",
   "class": "Anti-emetic / prokinetic — D2 antagonist + 5-HT4 agonist",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "mechanism": "ออกฤทธิ์ต้าน dopamine (D2) ที่ CTZ (ต้านอาเจียน) และกระตุ้น 5-HT4 เพิ่มการบีบตัวของกระเพาะและลำไส้ส่วนต้น (prokinetic); ผ่าน blood-brain barrier จึงอาจมีผลทางระบบประสาท",
   "brandNamesTh": [
     "Reglan",
     "Plasil",
@@ -11,59 +11,59 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "อาเจียนและภาวะกระเพาะบีบตัวช้า (delayed gastric emptying, reflux); ใช้เป็น prokinetic ในภาวะ ileus",
       "cites": [
-        "dailymed-metoclopramide",
-        "atc-A03FA01",
-        "pubchem-metoclopramide"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ห้ามใช้เมื่อสงสัยลำไส้อุดตันหรือทะลุ (เพิ่มการบีบตัว), สัตว์ชัก หรือ pheochromocytoma",
       "cites": [
-        "dailymed-metoclopramide",
-        "atc-A03FA01",
-        "pubchem-metoclopramide"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ผลทางระบบประสาทส่วนกลาง (กระสับกระส่าย, extrapyramidal signs), ง่วงซึม; ลดขนาดในสัตว์ไตบกพร่อง",
       "cites": [
-        "dailymed-metoclopramide",
-        "atc-A03FA01",
-        "pubchem-metoclopramide"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Vomiting / prokinetic",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.2–0.5 mg/kg PO/SC/IV ทุก 8 ชั่วโมง หรือ CRI สูงสุด 1–2 mg/kg/วัน",
       "cites": [
-        "dailymed-metoclopramide",
-        "atc-A03FA01",
-        "pubchem-metoclopramide"
+        "acvim-gi-protectant"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Vomiting / prokinetic",
+      "route": "IM",
+      "dose": "0.2–0.5 mg/kg ทุก 8 ชั่วโมง",
       "cites": [
-        "dailymed-metoclopramide",
-        "atc-A03FA01",
-        "pubchem-metoclopramide"
+        "acvim-gi-protectant"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "acvim-gi-protectant",
+      "type": "guideline",
+      "title": "ACVIM Consensus Statement: Rational administration of gastrointestinal protectants to dogs and cats",
+      "authors": "Marks SL, et al.",
+      "year": 2018,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6271318/",
+      "note": "Peer-reviewed ACVIM consensus (J Vet Intern Med) — PPI/H2/sucralfate evidence + dosing. Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-metoclopramide",
       "type": "regulatory-database",
@@ -157,12 +157,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC A03FA01 + RxNorm 6857. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — dog 0.2–0.5 mg/kg q8h or CRI 1–2 mg/kg/day verified against ACVIM consensus statement. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

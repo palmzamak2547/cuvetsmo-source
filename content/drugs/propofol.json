@@ -2,77 +2,79 @@
   "slug": "propofol",
   "nameEn": "Propofol",
   "nameTh": "โพรโพฟอล",
-  "class": "Anesthetic — GABA-A potentiator, intravenous induction",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+  "class": "Anesthetic — short-acting IV induction agent (GABA-A potentiator)",
+  "mechanism": "ยาสลบฉีดเข้าหลอดเลือดดำออกฤทธิ์สั้น เสริมการทำงานของ GABA-A receptor ทำให้สงบและสลบเร็ว; ไม่มีฤทธิ์ระงับปวด; metabolize เร็วจึงฟื้นเร็วและเหมาะทำ CRI",
   "brandNamesTh": [
     "Diprivan",
     "Propofol-Lipuro"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "นำสลบ (induction) ทางหลอดเลือดดำในสุนัขและแมว และใช้เป็น CRI สำหรับคงสภาพสลบ; ฟื้นตัวเร็ว เหมาะกับหัตถการสั้นหรือสัตว์ที่ต้องการฟื้นเร็ว",
       "cites": [
-        "dailymed-propofol",
-        "atc-N01AX10",
-        "pubchem-propofol",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "fda-propoflo",
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "ระวังในสัตว์ที่มีภาวะช็อก ความดันต่ำ หรือหัวใจล้มเหลว (กดการทำงานหัวใจและหลอดเลือด); ฉีดเร็วเกินไปทำให้หยุดหายใจ",
       "cites": [
-        "dailymed-propofol",
-        "atc-N01AX10",
-        "pubchem-propofol",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List + WSAVA Anaesthesia guidelines)",
+      "text": "กดการหายใจ (apnea หากฉีดเร็ว), ความดันโลหิตต่ำ; ในแมวการให้ซ้ำหลายวันอาจเกิด Heinz body anemia; อาจพบ excitement ช่วงนำสลบ",
       "cites": [
-        "dailymed-propofol",
-        "atc-N01AX10",
-        "pubchem-propofol",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "IV induction",
+      "route": "IV",
+      "dose": "4–6 mg/kg IV ค่อย ๆ ฉีดจนได้ผล (to effect); ลดขนาดเมื่อให้ premedication",
+      "notes": "ฉีดครึ่งหนึ่งใน 40–60 วินาทีแล้วที่เหลือจนได้ผล; CRI คงสภาพ 0.2–0.8 mg/kg/min",
       "cites": [
-        "dailymed-propofol",
-        "atc-N01AX10",
-        "pubchem-propofol",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia",
+        "fda-propoflo"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "IV induction",
+      "route": "IV",
+      "dose": "4–6 mg/kg IV จนได้ผล (to effect)",
+      "notes": "ระวัง Heinz body anemia เมื่อให้ซ้ำหลายวันในแมว",
       "cites": [
-        "dailymed-propofol",
-        "atc-N01AX10",
-        "pubchem-propofol",
-        "who-eml-22",
-        "wsava-anesth-2018"
+        "lumb-jones-anesthesia"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "fda-propoflo",
+      "type": "package-insert",
+      "title": "PropoFlo (propofol) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/propoflo-28.html",
+      "note": "FDA veterinary label — canine/feline IV induction. Public FDA labeling.",
+      "cid": null
+    },
+    {
+      "id": "lumb-jones-anesthesia",
+      "type": "textbook",
+      "title": "Lumb & Jones Veterinary Anesthesia and Analgesia (5th ed.) — injectable agents",
+      "year": 2015,
+      "url": "https://veteriankey.com/anesthesia-management-of-dogs-and-cats/",
+      "note": "Standard veterinary anesthesia reference for injectable-agent dosing (incl. extra-label benzodiazepine + phenothiazine use). Cited, not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-propofol",
       "type": "regulatory-database",
@@ -210,12 +212,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 5 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021), WSAVA Anaesthesia & Sedation guidelines). ATC N01AX10 + RxNorm 8782. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — propofol 4–6 mg/kg IV to-effect + CRI 0.2–0.8 mg/kg/min verified against FDA PropoFlo label + Lumb & Jones. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }
