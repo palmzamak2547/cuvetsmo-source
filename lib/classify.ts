@@ -48,7 +48,7 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     label: 'Opioids · ยาแก้ปวดกลุ่ม opioid',
     subtitle: 'μ-agonists, partial agonists, κ-agonists — moderate to severe pain',
     order: 20,
-    match: startsWithAtc('N02A'),
+    match: startsWithAtc('N02A', 'N07BC'),
   },
   {
     slug: 'anesthetics-sedatives',
@@ -67,9 +67,9 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'antifungals',
     label: 'Antifungals · ยาต้านเชื้อรา',
-    subtitle: 'Imidazoles + triazoles, systemic',
+    subtitle: 'Imidazoles + triazoles + allylamines, systemic & dermatological',
     order: 50,
-    match: startsWithAtc('J02'),
+    match: startsWithAtc('J02', 'D01'),
   },
   {
     slug: 'antiparasitics',
@@ -144,9 +144,16 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'antidotes',
     label: 'Antidotes · ยาต้าน/แก้พิษ',
-    subtitle: 'Opioid antagonists, α2-antagonist reversal, other antidotes',
+    subtitle: 'Opioid antagonists, α2-antagonist reversal, vitamin K, other antidotes',
     order: 150,
-    match: startsWithAtc('V03'),
+    match: startsWithAtc('V03', 'B02BA'),
+  },
+  {
+    slug: 'muscle-relaxants',
+    label: 'Muscle relaxants · ยาคลายกล้ามเนื้อ',
+    subtitle: 'Centrally-acting muscle relaxants — tremorgenic toxicity, muscle spasm',
+    order: 155,
+    match: startsWithAtc('M03'),
   },
   {
     slug: 'immunomodulators',

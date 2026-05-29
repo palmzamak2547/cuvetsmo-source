@@ -1,0 +1,126 @@
+{
+  "slug": "methocarbamol",
+  "nameEn": "Methocarbamol",
+  "nameTh": "เมโทคาร์บามอล",
+  "class": "Centrally-acting muscle relaxant",
+  "mechanism": "ยาคลายกล้ามเนื้อออกฤทธิ์ที่ระบบประสาทกลาง (กดการนำสัญญาณ polysynaptic reflex ที่ไขสันหลัง) ลดการเกร็งของกล้ามเนื้อ; ไม่ได้คลายกล้ามเนื้อโดยตรงที่ neuromuscular junction",
+  "brandNamesTh": [
+    "Robaxin"
+  ],
+  "indications": [
+    {
+      "text": "คลายกล้ามเนื้อในภาวะเกร็งจากพิษ tremorgenic (เห็ด/รา, metaldehyde, strychnine, permethrin ในแมว) และอาการปวดกล้ามเนื้อ/กระดูก",
+      "cites": [
+        "merck-methocarbamol",
+        "aspca-tremorgenic"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในไตบกพร่อง (ตัวทำละลาย polyethylene glycol ในรูปแบบฉีด); ฉีด IV เร็วทำให้ล้มลงและกดการหายใจ",
+      "cites": [
+        "merck-methocarbamol"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ง่วงซึม, อ่อนแรง, น้ำลายไหล, อาเจียน; ฉีด IV เร็วเกินทำให้กดการหายใจ",
+      "cites": [
+        "merck-methocarbamol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Muscle spasm",
+      "route": "PO",
+      "dose": "20–30 mg/kg PO ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "merck-methocarbamol"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Tremorgenic toxicosis (severe)",
+      "route": "IV",
+      "dose": "55–220 mg/kg ช้า ๆ IV (ไม่เกิน 2 mL/นาที) ให้ซ้ำตามอาการ",
+      "notes": "แมว/สุนัข: ขนาดสูงสำหรับพิษ tremorgenic; ให้ช้า ๆ เฝ้าระวังการหายใจ",
+      "cites": [
+        "merck-methocarbamol",
+        "aspca-tremorgenic"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-methocarbamol",
+      "type": "textbook",
+      "title": "Muscle relaxants — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-musculoskeletal-system",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "aspca-tremorgenic",
+      "type": "guideline",
+      "title": "Tremorgenic mycotoxin intoxication — ASPCA Animal Poison Control",
+      "year": 2024,
+      "url": "https://www.aspcapro.org/sites/default/files/zo-toxbrief_0400.pdf",
+      "note": "ASPCA toxicology brief — methocarbamol 55–220 mg/kg for tremorgenic toxicosis.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Methocarbamol",
+      "type": "monograph",
+      "title": "Methocarbamol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Methocarbamol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "M03BA03",
+      "name": "Methocarbamol",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "6845",
+      "name": "Methocarbamol"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

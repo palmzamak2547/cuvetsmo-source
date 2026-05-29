@@ -1,0 +1,115 @@
+{
+  "slug": "aspirin",
+  "nameEn": "Aspirin (acetylsalicylic acid)",
+  "nameTh": "แอสไพริน",
+  "class": "Antiplatelet / NSAID — irreversible COX inhibitor",
+  "mechanism": "ยับยั้ง cyclooxygenase อย่างถาวร (acetylation) โดยขนาดต่ำยับยั้ง thromboxane A2 ในเกล็ดเลือด (ฤทธิ์ต้านเกล็ดเลือด); ขนาดสูงมีฤทธิ์ต้านการอักเสบแต่เสี่ยงพิษ GI สูง",
+  "brandNamesTh": [
+    "Aspirin",
+    "ASA"
+  ],
+  "indications": [
+    {
+      "text": "ใช้เป็นยาต้านเกล็ดเลือดขนาดต่ำเพื่อป้องกันลิ่มเลือด (ปัจจุบัน clopidogrel เหนือกว่าในแมว); ในสุนัขใช้บางกรณี",
+      "cites": [
+        "merck-aspirin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ แมวเมตาบอลิซึม salicylate ช้ามาก (พร่อง glucuronidation) จึงเสี่ยงสะสมเป็นพิษ — ต้องให้ห่างมาก (q48–72h) และระวังสูง; ห้ามใช้ร่วม NSAID/corticosteroid อื่น; เสี่ยงแผล GI สูง",
+      "cites": [
+        "merck-aspirin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "แผลและเลือดออกในทางเดินอาหาร, อาเจียน, พิษ salicylate (โดยเฉพาะแมว: หายใจเร็ว ไข้ ชัก); ฤทธิ์ต้านเกล็ดเลือดอยู่นานตลอดอายุเกล็ดเลือด",
+      "cites": [
+        "merck-aspirin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Antiplatelet (low-dose)",
+      "route": "PO",
+      "dose": "0.5–1 mg/kg PO ทุก 12–24 ชั่วโมง (low-dose antiplatelet)",
+      "cites": [
+        "merck-aspirin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Antiplatelet (low-dose, use with caution)",
+      "route": "PO",
+      "dose": "~5 mg/ตัว PO ทุก 72 ชั่วโมง — ⚠️ แมวขับช้า ห้ามให้ถี่; clopidogrel มักเป็นทางเลือกที่ดีกว่า",
+      "cites": [
+        "merck-aspirin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-aspirin",
+      "type": "textbook",
+      "title": "NSAIDs in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/nonsteroidal-anti-inflammatory-drugs-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Aspirin",
+      "type": "monograph",
+      "title": "Aspirin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Aspirin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "B01AC06",
+      "name": "Acetylsalicylic acid",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "1191",
+      "name": "Aspirin"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

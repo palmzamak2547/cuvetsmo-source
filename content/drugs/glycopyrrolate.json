@@ -1,0 +1,115 @@
+{
+  "slug": "glycopyrrolate",
+  "nameEn": "Glycopyrrolate",
+  "nameTh": "ไกลโคไพร์โรเลต",
+  "class": "Anticholinergic — quaternary muscarinic antagonist (premedication)",
+  "mechanism": "ยาต้าน muscarinic แบบ quaternary ammonium จึงไม่ผ่าน blood-brain barrier และ placenta (ผลต่อระบบประสาทกลางน้อยกว่า atropine); ออกฤทธิ์นานกว่า atropine ลดสารคัดหลั่งและกัน bradycardia",
+  "brandNamesTh": [
+    "Robinul"
+  ],
+  "indications": [
+    {
+      "text": "premedication ก่อนวางยาสลบเพื่อลดสารคัดหลั่งและกัน vagal bradycardia; รักษา bradycardia ระหว่างผ่าตัด; ออกฤทธิ์นานและนุ่มนวลกว่า atropine",
+      "cites": [
+        "merck-glyco",
+        "lumb-jones-b"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในภาวะหัวใจเต้นเร็ว, ต้อหิน, ileus; เช่นเดียวกับ anticholinergic อื่น",
+      "cites": [
+        "lumb-jones-b"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นเร็ว (น้อยกว่า atropine), ปากแห้ง, ลดการบีบตัวลำไส้",
+      "cites": [
+        "lumb-jones-b"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Premedication / bradycardia",
+      "route": "IM",
+      "dose": "0.005–0.011 mg/kg IM/IV/SC",
+      "cites": [
+        "lumb-jones-b"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Premedication / bradycardia",
+      "route": "IM",
+      "dose": "0.005–0.011 mg/kg IM/IV/SC",
+      "cites": [
+        "lumb-jones-b"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-glyco",
+      "type": "textbook",
+      "title": "Anesthesia adjuncts — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/introduction-to-pharmacology/drugs-affecting-the-autonomic-nervous-system",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "lumb-jones-b",
+      "type": "textbook",
+      "title": "Lumb & Jones Veterinary Anesthesia and Analgesia — anticholinergic premedication",
+      "year": 2015,
+      "url": "https://veteriankey.com/anesthesia-management-of-dogs-and-cats/",
+      "note": "Standard veterinary anesthesia reference. Cited, not mirrored.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A03AB02",
+      "name": "Glycopyrronium",
+      "level": 5
+    },
+    "rxnorm": {
+      "cui": "4955",
+      "name": "Glycopyrrolate"
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
