@@ -2,60 +2,58 @@
   "slug": "prednisone",
   "nameEn": "Prednisone",
   "nameTh": "เพรดนิโซน",
-  "class": "Glucocorticoid prodrug — hepatically converted to prednisolone (poor conversion in cats)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Corticosteroid — glucocorticoid prodrug (→ prednisolone)",
+  "mechanism": "glucocorticoid prodrug ต้องเปลี่ยนเป็น prednisolone ที่ตับจึงออกฤทธิ์; ⚠️ แมวเปลี่ยนได้ไม่ดี จึงควรใช้ prednisolone ในแมวแทน",
   "brandNamesTh": [
     "Deltasone",
     "Sterapred"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ภาวะอักเสบ ภูมิแพ้ และโรคภูมิคุ้มกัน ในสุนัข (ฤทธิ์เทียบเท่า prednisolone เมื่อตับเปลี่ยนสมบูรณ์)",
       "cites": [
-        "dailymed-prednisone",
-        "atc-H02AB07",
-        "pubchem-prednisone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "⚠️ ในแมวเปลี่ยนเป็น prednisolone ได้ไม่ดี — ใช้ prednisolone โดยตรงแทน; ข้อห้ามอื่นเหมือน prednisolone (เบาหวาน, ติดเชื้อ, NSAID ร่วม, แผล GI)",
       "cites": [
-        "dailymed-prednisone",
-        "atc-H02AB07",
-        "pubchem-prednisone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "PU/PD, polyphagia, น้ำหนักขึ้น, ภูมิคุ้มกันลด, iatrogenic Cushing; ประสิทธิภาพในแมวด้อยกว่า prednisolone",
       "cites": [
-        "dailymed-prednisone",
-        "atc-H02AB07",
-        "pubchem-prednisone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Anti-inflammatory / immunosuppressive",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "anti-inflammatory 0.5–1 mg/kg/วัน; immunosuppressive 2.2–4 mg/kg/วัน (เหมือน prednisolone)",
+      "notes": "ในแมวใช้ prednisolone แทน",
       "cites": [
-        "dailymed-prednisone",
-        "atc-H02AB07",
-        "pubchem-prednisone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-glucocorticoid",
+      "type": "textbook",
+      "title": "Glucocorticoids / Anti-inflammatory Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/corticosteroids",
+      "note": "Merck corticosteroid pharmacology — anti-inflammatory vs immunosuppressive dosing + relative potency. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-prednisone",
       "type": "regulatory-database",
@@ -171,12 +169,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC H02AB07 + RxNorm 8640. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — prednisone dosing + feline poor-conversion warning (use prednisolone) verified against Merck corticosteroids. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

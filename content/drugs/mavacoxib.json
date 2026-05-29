@@ -2,59 +2,57 @@
   "slug": "mavacoxib",
   "nameEn": "Mavacoxib",
   "nameTh": "มาวาค็อกซิบ",
-  "class": "NSAID — long-acting COX-2 selective coxib (veterinary-only, monthly dosing in dogs)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+  "class": "NSAID — long-acting coxib (COX-2 selective, veterinary)",
+  "mechanism": "NSAID กลุ่ม coxib ที่ยับยั้ง COX-2 อย่างจำเพาะและออกฤทธิ์ยาวมาก (ครึ่งชีวิตเป็นสัปดาห์) จึงให้แบบรายเดือน; สำหรับสุนัขโดยเฉพาะ (Trocoxil)",
   "brandNamesTh": [
     "Trocoxil"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "ควบคุมความปวดและการอักเสบจากโรคข้อเสื่อม (osteoarthritis) ในสุนัข ที่ต้องการรักษาต่อเนื่องเกิน 1 เดือน; ข้อดีคือให้รายเดือนเพิ่ม compliance",
       "cites": [
-        "dailymed-mavacoxib",
-        "atc-QM01AH92",
-        "pubchem-mavacoxib",
-        "wsava-pain-2022"
+        "ema-trocoxil"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "⚠️ ครึ่งชีวิตยาวมาก — ถอนยากลับไม่ได้หากเกิดผลข้างเคียง; ห้ามในสุนัข < 12 เดือน/น้ำหนักน้อย, โรคไต/ตับ/หัวใจ, แผล GI, ขาดน้ำ; ห้ามใช้ร่วม NSAID อื่น/corticosteroid",
       "cites": [
-        "dailymed-mavacoxib",
-        "atc-QM01AH92",
-        "pubchem-mavacoxib",
-        "wsava-pain-2022"
+        "ema-trocoxil"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WSAVA Pain Council guidelines)",
+      "text": "GI (อาเจียน ท้องเสีย), ผลต่อไต/ตับ; เนื่องจากออกฤทธิ์ยาว ผลข้างเคียงอาจคงอยู่นานหลังหยุด",
       "cites": [
-        "dailymed-mavacoxib",
-        "atc-QM01AH92",
-        "pubchem-mavacoxib",
-        "wsava-pain-2022"
+        "ema-trocoxil"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Osteoarthritis (chronic)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "2 mg/kg PO พร้อม/ก่อนอาหารมื้อหลัก, ให้ซ้ำที่ 14 วัน จากนั้นทุก 1 เดือน",
+      "duration": "รอบการรักษาไม่เกิน 7 โดสติดต่อกัน (~6.5 เดือน)",
       "cites": [
-        "dailymed-mavacoxib",
-        "atc-QM01AH92",
-        "pubchem-mavacoxib",
-        "wsava-pain-2022"
+        "ema-trocoxil"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "ema-trocoxil",
+      "type": "package-insert",
+      "title": "Trocoxil (mavacoxib) — EMA Summary of Product Characteristics",
+      "year": 2021,
+      "url": "https://ec.europa.eu/health/documents/community-register/2021/20210426151538/anx_151538_en.pdf",
+      "note": "EMA SPC — canine 2 mg/kg, repeat at 14 days then monthly, max 7 consecutive doses. Authoritative regulatory label.",
+      "cid": null
+    },
     {
       "id": "dailymed-mavacoxib",
       "type": "regulatory-database",
@@ -166,12 +164,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WSAVA Global Pain Council guidelines). ATC QM01AH92 (vet-only, no human RxNorm CUI). Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — mavacoxib 2 mg/kg, repeat at 14 days then monthly, max 7 consecutive doses, with long-half-life irreversibility warning verified against EMA Trocoxil SPC. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

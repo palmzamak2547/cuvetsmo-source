@@ -2,8 +2,8 @@
   "slug": "levothyroxine",
   "nameEn": "Levothyroxine",
   "nameTh": "เลโวไทร็อกซีน",
-  "class": "Synthetic T4 thyroid hormone (hypothyroidism in dogs)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Thyroid hormone — synthetic T4 (hypothyroidism)",
+  "mechanism": "ฮอร์โมนไทรอยด์สังเคราะห์ (levothyroxine, T4) ทดแทนในภาวะพร่องไทรอยด์ ร่างกายเปลี่ยน T4 เป็น T3 ที่ออกฤทธิ์; เป็นยาหลักของ canine hypothyroidism",
   "brandNamesTh": [
     "Synthroid",
     "Thyro-Tabs",
@@ -11,52 +11,49 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ภาวะพร่องไทรอยด์ในสุนัข (canine hypothyroidism) — รักษาทดแทนตลอดชีวิต; ปรับขนาดตามอาการและระดับ T4",
       "cites": [
-        "dailymed-levothyroxine",
-        "atc-H03AA01",
-        "pubchem-levothyroxine",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวังในสัตว์ที่มีโรคหัวใจหรือ hypoadrenocorticism ที่ยังไม่ได้รักษา (เริ่มขนาดต่ำ); ขนาดเกินทำให้ thyrotoxicosis",
       "cites": [
-        "dailymed-levothyroxine",
-        "atc-H03AA01",
-        "pubchem-levothyroxine",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "อาการได้ยาเกิน (thyrotoxicosis): หัวใจเต้นเร็ว กระสับกระส่าย น้ำหนักลด PU/PD, หอบ; ปรับขนาดตามระดับ T4",
       "cites": [
-        "dailymed-levothyroxine",
-        "atc-H03AA01",
-        "pubchem-levothyroxine",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Hypothyroidism (replacement)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.02 mg/kg PO ทุก 12 ชั่วโมง แล้วปรับตามระดับ T4 และอาการ",
       "cites": [
-        "dailymed-levothyroxine",
-        "atc-H03AA01",
-        "pubchem-levothyroxine",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-thyroid",
+      "type": "textbook",
+      "title": "Thyroid disease (hypo/hyperthyroidism) — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/endocrine-system/the-thyroid-gland/hyperthyroidism-in-animals",
+      "note": "Merck endocrine reference — methimazole + levothyroxine dosing. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-levothyroxine",
       "type": "regulatory-database",
@@ -172,12 +169,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC H03AA01 + RxNorm 10582. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — levothyroxine 0.02 mg/kg q12h + T4 monitoring verified against Merck thyroid. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ total T4 (peak 4–6 ชม. หลังให้ยา) ที่ 4–8 สัปดาห์หลังเริ่ม/ปรับขนาด; ติดตามอาการทางคลินิก",
+      "cites": [
+        "merck-thyroid"
+      ]
     }
   ]
 }

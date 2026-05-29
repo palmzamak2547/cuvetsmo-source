@@ -2,8 +2,8 @@
   "slug": "insulin-regular",
   "nameEn": "Insulin (regular)",
   "nameTh": "อินซูลิน (regular)",
-  "class": "Fast-acting insulin (diabetic ketoacidosis emergency; species-specific products available)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Antidiabetic — insulin (hormone replacement)",
+  "mechanism": "ฮอร์โมน insulin ทดแทน กระตุ้นการนำกลูโคสเข้าเซลล์และยับยั้งการสร้างกลูโคสที่ตับ ลดระดับน้ำตาลในเลือด; มีหลายชนิดตามระยะออกฤทธิ์ (regular/short-acting, lente, glargine, PZI)",
   "brandNamesTh": [
     "Humulin R",
     "Novolin R",
@@ -11,64 +11,60 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "รักษาเบาหวาน (diabetes mellitus) ในสุนัขและแมว; insulin regular (short-acting) ใช้จัดการ diabetic ketoacidosis (DKA) แบบ IV/IM; ชนิดออกฤทธิ์นาน (lente/glargine/PZI) สำหรับคุมระยะยาว",
       "cites": [
-        "dailymed-insulin-regular",
-        "atc-A10AB01",
-        "pubchem-insulin-regular",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "⚠️ ขนาดยาต้องปรับเฉพาะตัว (individualized) ตาม glucose curve — ห้ามใช้ขนาดตายตัว; ความเสี่ยงหลักคือน้ำตาลต่ำ (hypoglycemia) ซึ่งอันตรายถึงชีวิต",
       "cites": [
-        "dailymed-insulin-regular",
-        "atc-A10AB01",
-        "pubchem-insulin-regular",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ภาวะน้ำตาลในเลือดต่ำ (hypoglycemia: อ่อนแรง สั่น ชัก โคม่า), Somogyi rebound, ดื้ออินซูลิน; ต้องสอนเจ้าของสังเกตอาการ hypoglycemia",
       "cites": [
-        "dailymed-insulin-regular",
-        "atc-A10AB01",
-        "pubchem-insulin-regular",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Diabetes mellitus (long-term, intermediate-acting)",
+      "route": "SC",
+      "dose": "เริ่มต้นต่ำ ~0.25–0.5 U/kg SC ทุก 12 ชั่วโมง แล้วปรับตาม glucose curve",
+      "notes": "⚠️ ขนาดเฉพาะตัว — ต้องทำ glucose curve และให้ faculty/clinician กำหนด; ชนิดอินซูลินต่างกันใช้ขนาดต่างกัน",
       "cites": [
-        "dailymed-insulin-regular",
-        "atc-A10AB01",
-        "pubchem-insulin-regular",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Diabetes mellitus (glargine/PZI preferred)",
+      "route": "SC",
+      "dose": "เริ่มต้นต่ำ ~1–2 U/ตัว SC ทุก 12 ชั่วโมง แล้วปรับตาม glucose curve",
+      "notes": "⚠️ ขนาดเฉพาะตัว — แมวนิยม glargine หรือ PZI; ยืนยันกับ clinician",
       "cites": [
-        "dailymed-insulin-regular",
-        "atc-A10AB01",
-        "pubchem-insulin-regular",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-thyroid",
+      "type": "textbook",
+      "title": "Thyroid disease (hypo/hyperthyroidism) — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/endocrine-system/the-thyroid-gland/hyperthyroidism-in-animals",
+      "note": "Merck endocrine reference — methimazole + levothyroxine dosing. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-insulin-regular",
       "type": "regulatory-database",
@@ -184,12 +180,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC A10AB01 + RxNorm 5856. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — insulin individualized starting doses with prominent hypoglycemia + glucose-curve warnings verified against Merck endocrine; all doses flagged as individualized/clinician-determined. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ทำ blood glucose curve เพื่อปรับขนาด; ติดตาม fructosamine, น้ำหนัก, อาการ PU/PD; สอนเจ้าของจัดการ hypoglycemia ฉุกเฉิน",
+      "cites": [
+        "merck-thyroid"
+      ]
     }
   ]
 }

@@ -2,72 +2,66 @@
   "slug": "prednisolone",
   "nameEn": "Prednisolone",
   "nameTh": "เพรดนิโซโลน",
-  "class": "Glucocorticoid — synthetic intermediate-acting (anti-inflammatory + immunosuppressive)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Corticosteroid — synthetic intermediate-acting glucocorticoid",
+  "mechanism": "glucocorticoid สังเคราะห์ออกฤทธิ์ปานกลาง จับ glucocorticoid receptor ลดการอักเสบและกดภูมิคุ้มกันแบบ dose-dependent; เป็น active form (ไม่ต้องเปลี่ยนที่ตับ ต่างจาก prednisone) จึงนิยมในแมว",
   "brandNamesTh": [
     "Prelone",
     "Predforte"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ภาวะอักเสบและภูมิแพ้ (ขนาด anti-inflammatory) และโรคภูมิคุ้มกันทำลายตนเอง/immune-mediated (ขนาด immunosuppressive); เป็น glucocorticoid ที่ใช้บ่อยที่สุดในสัตว์เล็ก",
       "cites": [
-        "dailymed-prednisolone",
-        "atc-H02AB06",
-        "pubchem-prednisolone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวังในเบาหวาน, การติดเชื้อระบบ, แผลในทางเดินอาหาร, ไตวาย; ห้ามใช้ร่วม NSAID (เพิ่มแผล GI); ห้ามหยุดกะทันหันหลังใช้นาน (ค่อย ๆ ลดเพื่อให้ adrenal ฟื้น)",
       "cites": [
-        "dailymed-prednisolone",
-        "atc-H02AB06",
-        "pubchem-prednisolone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "PU/PD (ดื่ม/ปัสสาวะมาก), polyphagia, น้ำหนักขึ้น, panting, ภูมิคุ้มกันลด, แผล GI, iatrogenic Cushing เมื่อใช้นาน; แมวทนได้ดีกว่าสุนัข",
       "cites": [
-        "dailymed-prednisolone",
-        "atc-H02AB06",
-        "pubchem-prednisolone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Anti-inflammatory",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.5–1 mg/kg/วัน",
       "cites": [
-        "dailymed-prednisolone",
-        "atc-H02AB06",
-        "pubchem-prednisolone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     },
     {
-      "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "species": "canine",
+      "indication": "Immunosuppressive",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "2.2 mg/kg ทุก 24 ชั่วโมง (ถึง 6.6 mg/kg/วันในโรครุนแรง) แล้วค่อย ๆ ลด",
       "cites": [
-        "dailymed-prednisolone",
-        "atc-H02AB06",
-        "pubchem-prednisolone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-glucocorticoid",
+      "type": "textbook",
+      "title": "Glucocorticoids / Anti-inflammatory Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/corticosteroids",
+      "note": "Merck corticosteroid pharmacology — anti-inflammatory vs immunosuppressive dosing + relative potency. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-prednisolone",
       "type": "regulatory-database",
@@ -183,12 +177,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC H02AB06 + RxNorm 8638. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — anti-inflammatory 0.5–1, immunosuppressive 2.2–6.6 mg/kg/day verified against Merck corticosteroids. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

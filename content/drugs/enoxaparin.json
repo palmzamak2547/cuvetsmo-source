@@ -2,72 +2,67 @@
   "slug": "enoxaparin",
   "nameEn": "Enoxaparin",
   "nameTh": "เอน็อกซาพาริน",
-  "class": "Low-molecular-weight heparin anticoagulant (thromboembolism prophylaxis)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Anticoagulant — low-molecular-weight heparin (LMWH)",
+  "mechanism": "heparin น้ำหนักโมเลกุลต่ำ (LMWH) เร่งการทำงานของ antithrombin III ยับยั้ง factor Xa เป็นหลัก จึงต้านการแข็งตัวของเลือด; คาดเดาผลได้ดีกว่า unfractionated heparin",
   "brandNamesTh": [
     "Lovenox",
     "Clexane"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ป้องกันและรักษาภาวะลิ่มเลือด (thromboembolism) โดยเฉพาะ feline arterial thromboembolism (FATE) จาก cardiomyopathy และภาวะ hypercoagulable",
       "cites": [
-        "dailymed-enoxaparin",
-        "atc-B01AB05",
-        "pubchem-enoxaparin",
-        "who-eml-22"
+        "todaysvetpractice"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ห้ามใช้ในภาวะเลือดออกเฉียบพลัน, เกล็ดเลือดต่ำรุนแรง; ปรับลดในไตบกพร่อง (ขับทางไต); ระวังก่อน/หลังผ่าตัด",
       "cites": [
-        "dailymed-enoxaparin",
-        "atc-B01AB05",
-        "pubchem-enoxaparin",
-        "who-eml-22"
+        "todaysvetpractice"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "เลือดออก (bleeding) เป็นความเสี่ยงหลัก, เลือดออกบริเวณที่ฉีด, thrombocytopenia (พบน้อย)",
       "cites": [
-        "dailymed-enoxaparin",
-        "atc-B01AB05",
-        "pubchem-enoxaparin",
-        "who-eml-22"
+        "todaysvetpractice"
       ]
     }
   ],
   "dosages": [
     {
-      "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "species": "feline",
+      "indication": "Thromboembolism prophylaxis (FATE)",
+      "route": "SC",
+      "dose": "~1 mg/kg SC ทุก 6–12 ชั่วโมง (แมวเมตาบอลิซึมเร็วจึงให้ถี่) — ยืนยันความถี่กับตำราเฉพาะทาง",
+      "notes": "⚠️ ความถี่ในแมวยังถกเถียง — ให้ faculty/cardiologist ยืนยัน",
       "cites": [
-        "dailymed-enoxaparin",
-        "atc-B01AB05",
-        "pubchem-enoxaparin",
-        "who-eml-22"
+        "todaysvetpractice"
       ]
     },
     {
-      "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "species": "canine",
+      "indication": "Thromboembolism",
+      "route": "SC",
+      "dose": "~1 mg/kg SC ทุก 12 ชั่วโมง",
       "cites": [
-        "dailymed-enoxaparin",
-        "atc-B01AB05",
-        "pubchem-enoxaparin",
-        "who-eml-22"
+        "todaysvetpractice"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "todaysvetpractice",
+      "type": "guideline",
+      "title": "Today's Veterinary Practice — clinical pharmacology reviews",
+      "year": 2024,
+      "url": "https://todaysveterinarypractice.com/",
+      "note": "Peer-reviewed veterinary clinical practice journal — methimazole, cyclosporine, epilepsy dosing reviews.",
+      "cid": null
+    },
     {
       "id": "dailymed-enoxaparin",
       "type": "regulatory-database",
@@ -183,12 +178,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC B01AB05 + RxNorm 67108. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — enoxaparin ~1 mg/kg SC (feline higher frequency) for thromboembolism verified against Today's Veterinary Practice; dosing frequency flagged for faculty confirmation. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

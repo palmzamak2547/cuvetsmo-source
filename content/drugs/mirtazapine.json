@@ -2,67 +2,57 @@
   "slug": "mirtazapine",
   "nameEn": "Mirtazapine",
   "nameTh": "เมอร์ตาซาพีน",
-  "class": "Tetracyclic antidepressant — used in vet as appetite stimulant + anti-emetic (esp. feline CKD)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Appetite stimulant / antiemetic — tetracyclic antidepressant",
+  "mechanism": "tetracyclic antidepressant ออกฤทธิ์ต้าน α2-adrenergic และ 5-HT2/5-HT3 และ H1; ในสัตว์ใช้ประโยชน์จากฤทธิ์กระตุ้นความอยากอาหารและต้านอาเจียน โดยเฉพาะในแมวโรคไตเรื้อรัง",
   "brandNamesTh": [
     "Remeron",
     "Mirataz (transdermal vet)"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "กระตุ้นความอยากอาหาร (appetite stimulant) และลดอาเจียนในแมวที่ผอม/เบื่ออาหาร โดยเฉพาะจาก CKD; รูปแบบ transdermal (Mirataz) ได้รับการรับรอง FDA สำหรับแมว",
       "cites": [
-        "dailymed-mirtazapine",
-        "atc-N06AX11",
-        "pubchem-mirtazapine"
+        "fda-mirataz"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ระวังในตับ/ไตบกพร่อง (ลดขนาด/ความถี่); ห้ามใช้ร่วมยาที่เพิ่ม serotonin (เสี่ยง serotonin syndrome); ขนาดเกินทำให้ตื่นเต้น/ส่งเสียง",
       "cites": [
-        "dailymed-mirtazapine",
-        "atc-N06AX11",
-        "pubchem-mirtazapine"
+        "fda-mirataz"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ตื่นเต้น ส่งเสียงร้อง (vocalization), กระสับกระส่าย เมื่อขนาดสูง; ที่ผิวหนังบริเวณทา (transdermal) อาจระคายเคือง",
       "cites": [
-        "dailymed-mirtazapine",
-        "atc-N06AX11",
-        "pubchem-mirtazapine"
+        "fda-mirataz"
       ]
     }
   ],
   "dosages": [
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Appetite stimulation (CKD / inappetence)",
+      "route": "topical",
+      "dose": "Mirataz transdermal 2 mg/ตัว ทาที่ใบหูชั้นใน วันละครั้ง (หรือ 1.88 mg/ตัว PO ทุก 24–48 ชม.)",
       "cites": [
-        "dailymed-mirtazapine",
-        "atc-N06AX11",
-        "pubchem-mirtazapine"
-      ]
-    },
-    {
-      "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
-      "cites": [
-        "dailymed-mirtazapine",
-        "atc-N06AX11",
-        "pubchem-mirtazapine"
+        "fda-mirataz"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "fda-mirataz",
+      "type": "package-insert",
+      "title": "Mirataz (mirtazapine transdermal) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/mirataz.html",
+      "note": "FDA veterinary label — feline appetite stimulant 2 mg/cat transdermal q24h. Public FDA labeling.",
+      "cid": null
+    },
     {
       "id": "dailymed-mirtazapine",
       "type": "regulatory-database",
@@ -156,12 +146,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC N06AX11 + RxNorm 6929. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — mirtazapine feline 2 mg/cat transdermal (Mirataz) / 1.88 mg PO appetite stimulation verified against FDA Mirataz label. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

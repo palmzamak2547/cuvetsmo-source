@@ -2,66 +2,65 @@
   "slug": "gabapentin",
   "nameEn": "Gabapentin",
   "nameTh": "กาบาเพนทิน",
-  "class": "GABA analog — anticonvulsant + neuropathic pain modulator (widely used in vet)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Anticonvulsant / analgesic — neuropathic pain + situational anxiety",
+  "mechanism": "จับ α2δ subunit ของ voltage-gated calcium channel ลดการปล่อย excitatory neurotransmitter; ใช้กับปวดประสาท (neuropathic pain), เสริมยากันชัก, และลดความเครียดก่อนพบสัตวแพทย์ (โดยเฉพาะแมว)",
   "brandNamesTh": [
     "Neurontin"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ปวดเรื้อรัง/ปวดประสาท (เสริม NSAID/opioid), ยากันชักเสริม, และลดความวิตกกังวลก่อนมาคลินิก/เดินทาง (situational anxiety) โดยเฉพาะในแมว",
       "cites": [
-        "dailymed-gabapentin",
-        "atc-N03AX12",
-        "pubchem-gabapentin"
+        "gabapentin-pk-review"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ปรับลดขนาดในไตบกพร่อง (ขับทางไต); ห้ามหยุดกะทันหันเมื่อใช้กันชัก; รูปแบบน้ำของคนบางยี่ห้อมี xylitol — ห้ามใช้ในสุนัข",
       "cites": [
-        "dailymed-gabapentin",
-        "atc-N03AX12",
-        "pubchem-gabapentin"
+        "gabapentin-pk-review"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ง่วงซึม เดินเซ (เด่นชัด โดยเฉพาะช่วงแรกหรือขนาดสูง); โดยรวมปลอดภัย",
       "cites": [
-        "dailymed-gabapentin",
-        "atc-N03AX12",
-        "pubchem-gabapentin"
+        "gabapentin-pk-review"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Neuropathic pain / seizure adjunct",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5–10 mg/kg PO ทุก 8–12 ชั่วโมง (ช่วงกว้าง 3–20 mg/kg ตามข้อบ่งใช้)",
       "cites": [
-        "dailymed-gabapentin",
-        "atc-N03AX12",
-        "pubchem-gabapentin"
+        "gabapentin-pk-review"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Pre-visit anxiety / pain",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "50–100 mg/ตัว PO ก่อนเดินทาง ~2–3 ชม. (ปวด: 5–10 mg/kg ทุก 8–12 ชม.)",
       "cites": [
-        "dailymed-gabapentin",
-        "atc-N03AX12",
-        "pubchem-gabapentin"
+        "gabapentin-pk-review"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "gabapentin-pk-review",
+      "type": "paper",
+      "title": "Gabapentin: Clinical Use and Pharmacokinetics in Dogs, Cats, and Horses",
+      "year": 2023,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10295034/",
+      "note": "Peer-reviewed PK review — gabapentin dosing ranges for dogs and cats. Authoritative.",
+      "cid": null
+    },
     {
       "id": "dailymed-gabapentin",
       "type": "regulatory-database",
@@ -155,12 +154,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC N03AX12 + RxNorm 4849. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — gabapentin 5–10 mg/kg (range 3–20) + feline pre-visit 50–100 mg/cat verified against peer-reviewed PK review (PMC10295034). Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

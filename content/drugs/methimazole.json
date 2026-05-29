@@ -3,59 +3,67 @@
   "nameEn": "Methimazole",
   "nameTh": "เมไทมาโซล",
   "class": "Antithyroid — thyroid peroxidase inhibitor (feline hyperthyroidism)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "mechanism": "ยับยั้งเอนไซม์ thyroid peroxidase ขัดขวางการสร้างฮอร์โมนไทรอยด์ (T4/T3); ควบคุมแต่ไม่รักษาให้หาย จึงต้องให้ต่อเนื่อง; เป็นยาหลักของ feline hyperthyroidism",
   "brandNamesTh": [
     "Tapazole",
     "Felimazole"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ภาวะไทรอยด์เป็นพิษในแมว (feline hyperthyroidism) — ควบคุมระดับฮอร์โมน; ใช้ก่อนผ่าตัด/รังสีบำบัด หรือเป็นการรักษาระยะยาว; มีรูปแบบ transdermal สำหรับแมวที่ป้อนยาก",
       "cites": [
-        "dailymed-methimazole",
-        "atc-H03BB02",
-        "pubchem-methimazole",
-        "who-eml-22"
+        "merck-thyroid",
+        "todaysvetpractice"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ระวังในแมวที่มีโรคไตซ่อนเร้น (การลดไทรอยด์อาจเผยภาวะไตวาย); ตรวจ CBC เพราะอาจกด bone marrow",
       "cites": [
-        "dailymed-methimazole",
-        "atc-H03BB02",
-        "pubchem-methimazole",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "เบื่ออาหาร อาเจียน ซึม (ช่วงแรก), อาการคันที่หน้า (facial excoriation), ตับอักเสบ, เม็ดเลือดต่ำ (blood dyscrasia); เผยภาวะไตวายที่ซ่อนอยู่",
       "cites": [
-        "dailymed-methimazole",
-        "atc-H03BB02",
-        "pubchem-methimazole",
-        "who-eml-22"
+        "merck-thyroid"
       ]
     }
   ],
   "dosages": [
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Hyperthyroidism",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "2.5 mg/ตัว ทุก 12 ชั่วโมง (เริ่มต้น 2 สัปดาห์) แล้วปรับตามระดับ T4; ส่วนใหญ่ต้องการ 5–7.5 mg/วัน",
       "cites": [
-        "dailymed-methimazole",
-        "atc-H03BB02",
-        "pubchem-methimazole",
-        "who-eml-22"
+        "merck-thyroid",
+        "todaysvetpractice"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-thyroid",
+      "type": "textbook",
+      "title": "Thyroid disease (hypo/hyperthyroidism) — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/endocrine-system/the-thyroid-gland/hyperthyroidism-in-animals",
+      "note": "Merck endocrine reference — methimazole + levothyroxine dosing. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "todaysvetpractice",
+      "type": "guideline",
+      "title": "Today's Veterinary Practice — clinical pharmacology reviews",
+      "year": 2024,
+      "url": "https://todaysveterinarypractice.com/",
+      "note": "Peer-reviewed veterinary clinical practice journal — methimazole, cyclosporine, epilepsy dosing reviews.",
+      "cid": null
+    },
     {
       "id": "dailymed-methimazole",
       "type": "regulatory-database",
@@ -171,12 +179,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC H03BB02 + RxNorm 6835. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — methimazole 2.5 mg/cat q12h start + T4/renal monitoring verified against Merck thyroid + Today's Veterinary Practice. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ total T4, CBC, และค่าไต (BUN/creatinine) ที่ 2–3 สัปดาห์หลังเริ่มและทุกครั้งที่ปรับขนาด",
+      "cites": [
+        "merck-thyroid"
+      ]
     }
   ]
 }

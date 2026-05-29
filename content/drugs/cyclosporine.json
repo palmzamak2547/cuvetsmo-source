@@ -2,8 +2,8 @@
   "slug": "cyclosporine",
   "nameEn": "Cyclosporine",
   "nameTh": "ไซโคลสปอริน",
-  "class": "Calcineurin inhibitor immunosuppressant — atopic dermatitis, IMHA, KCS (eye drops)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Immunomodulator — calcineurin inhibitor",
+  "mechanism": "ยากดภูมิคุ้มกันกลุ่ม calcineurin inhibitor ยับยั้งการทำงานของ T-lymphocyte (ลดการสร้าง IL-2) จึงลดการตอบสนองภูมิคุ้มกัน; ใช้กับโรคภูมิแพ้ผิวหนังและโรคภูมิคุ้มกัน",
   "brandNamesTh": [
     "Atopica",
     "Optimmune (ocular)",
@@ -11,59 +11,58 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "atopic dermatitis ในสุนัข (Atopica) และโรคภูมิคุ้มกันต่าง ๆ (perianal fistula, IMHA adjunct); รูปแบบตา (Optimmune) สำหรับ KCS",
       "cites": [
-        "dailymed-cyclosporine",
-        "atc-L04AD01",
-        "pubchem-cyclosporine"
+        "fda-atopica"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ระวังการติดเชื้อฉวยโอกาสและการเกิดเนื้องอกเมื่อกดภูมินาน; drug interaction ผ่าน CYP3A (ketoconazole เพิ่มระดับ); หลีกเลี่ยงในประวัติมะเร็ง",
       "cites": [
-        "dailymed-cyclosporine",
-        "atc-L04AD01",
-        "pubchem-cyclosporine"
+        "fda-atopica"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "อาเจียน ท้องเสีย (ช่วงแรก พบบ่อย), เหงือกหนา (gingival hyperplasia), papilloma, ขนขึ้นมาก (hypertrichosis); การติดเชื้อฉวยโอกาส",
       "cites": [
-        "dailymed-cyclosporine",
-        "atc-L04AD01",
-        "pubchem-cyclosporine"
+        "fda-atopica"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Atopic dermatitis",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "5 mg/kg PO วันละครั้ง นาน 30 วัน จากนั้นค่อย ๆ ลดความถี่ (วันเว้นวัน หรือ 2 ครั้ง/สัปดาห์)",
       "cites": [
-        "dailymed-cyclosporine",
-        "atc-L04AD01",
-        "pubchem-cyclosporine"
+        "fda-atopica"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Atopic dermatitis (off-label)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "7 mg/kg PO วันละครั้ง แล้วปรับลดความถี่",
       "cites": [
-        "dailymed-cyclosporine",
-        "atc-L04AD01",
-        "pubchem-cyclosporine"
+        "fda-atopica"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "fda-atopica",
+      "type": "package-insert",
+      "title": "Atopica (cyclosporine) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/atopica.html",
+      "note": "FDA veterinary label — canine atopic dermatitis 5 mg/kg/day + taper. Public FDA labeling.",
+      "cid": null
+    },
     {
       "id": "dailymed-cyclosporine",
       "type": "regulatory-database",
@@ -157,12 +156,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC L04AD01 + RxNorm 3008. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — cyclosporine 5 mg/kg/day + taper verified against FDA Atopica label. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

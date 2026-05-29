@@ -2,71 +2,65 @@
   "slug": "phenobarbital",
   "nameEn": "Phenobarbital",
   "nameTh": "ฟีโนบาร์บิทัล",
-  "class": "Barbiturate anticonvulsant — first-line maintenance for canine + feline epilepsy",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Anticonvulsant — barbiturate (first-line canine epilepsy)",
+  "mechanism": "barbiturate เสริมการทำงานของ GABA-A receptor เพิ่ม chloride influx ยับยั้งการนำสัญญาณประสาท จึงกันชัก; เป็นยาเลือกแรกของโรคลมชักในสุนัขและแมว",
   "brandNamesTh": [
     "Luminal"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "รักษาโรคลมชัก (idiopathic epilepsy) ในสุนัขและแมวเป็นยาเลือกแรก; ควบคุมชักได้ในสัตว์ส่วนใหญ่",
       "cites": [
-        "dailymed-phenobarbital",
-        "atc-N03AA02",
-        "pubchem-phenobarbital",
-        "who-eml-22"
+        "merck-epilepsy"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "⚠️ เป็นพิษต่อตับเมื่อใช้นาน — ห้าม/ระวังในโรคตับ; เป็น hepatic enzyme inducer ทำให้เกิด drug interaction; ห้ามหยุดกะทันหัน (เสี่ยงชักถี่/status epilepticus)",
       "cites": [
-        "dailymed-phenobarbital",
-        "atc-N03AA02",
-        "pubchem-phenobarbital",
-        "who-eml-22"
+        "merck-epilepsy"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ช่วงแรก: ง่วงซึม เดินเซ (หายใน 1–2 สัปดาห์), PU/PD, polyphagia; ใช้นาน: ตับเป็นพิษ, เม็ดเลือดผิดปกติ (พบน้อย)",
       "cites": [
-        "dailymed-phenobarbital",
-        "atc-N03AA02",
-        "pubchem-phenobarbital",
-        "who-eml-22"
+        "merck-epilepsy"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Idiopathic epilepsy",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "2–3 mg/kg PO ทุก 12 ชั่วโมง แล้วปรับตามระดับยาในเลือดและการคุมชัก",
       "cites": [
-        "dailymed-phenobarbital",
-        "atc-N03AA02",
-        "pubchem-phenobarbital",
-        "who-eml-22"
+        "merck-epilepsy"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Epilepsy",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "2–3 mg/kg PO ทุก 12 ชั่วโมง",
       "cites": [
-        "dailymed-phenobarbital",
-        "atc-N03AA02",
-        "pubchem-phenobarbital",
-        "who-eml-22"
+        "merck-epilepsy"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-epilepsy",
+      "type": "textbook",
+      "title": "Epilepsy in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/nervous-system/epilepsy-in-small-animals/epilepsy-in-small-animals",
+      "note": "Merck neurology reference — phenobarbital dosing + therapeutic monitoring. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-phenobarbital",
       "type": "regulatory-database",
@@ -182,12 +176,25 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC N03AA02 + RxNorm 8134. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — phenobarbital 2–3 mg/kg q12h + hepatotoxicity + serum-level monitoring verified against Merck epilepsy. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจระดับ serum phenobarbital ที่ 2–3 สัปดาห์หลังเริ่ม/ปรับขนาด; ตรวจค่าตับ (รวม bile acids) ทุก 6 เดือนเมื่อใช้นาน",
+      "cites": [
+        "merck-epilepsy"
+      ]
     }
   ]
 }

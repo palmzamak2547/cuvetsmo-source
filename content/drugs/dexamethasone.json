@@ -2,84 +2,58 @@
   "slug": "dexamethasone",
   "nameEn": "Dexamethasone",
   "nameTh": "เด็กซาเมทาโซน",
-  "class": "Glucocorticoid — potent long-acting, anti-inflammatory + immunosuppressive (emergency use)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+  "class": "Corticosteroid — long-acting glucocorticoid (high potency)",
+  "mechanism": "glucocorticoid สังเคราะห์ออกฤทธิ์ยาว ความแรงต้านการอักเสบสูง (~7 เท่าของ prednisolone) และแทบไม่มีฤทธิ์ mineralocorticoid; ใช้เมื่อต้องการฤทธิ์แรงและนาน",
   "brandNamesTh": [
     "Decadron",
     "Voren"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ภาวะอักเสบรุนแรง, ภาวะช็อก, สมองบวม, ใช้ทดสอบ (dexamethasone suppression test) สำหรับ Cushing; ฤทธิ์ยาวกว่า prednisolone",
       "cites": [
-        "dailymed-dexamethasone",
-        "atc-H02AB02",
-        "pubchem-dexamethasone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "ฤทธิ์กด HPA axis แรงและนาน จึงเสี่ยง iatrogenic Cushing มากกว่า; ข้อห้ามเหมือน glucocorticoid อื่น (เบาหวาน, ติดเชื้อ, NSAID ร่วม, แผล GI)",
       "cites": [
-        "dailymed-dexamethasone",
-        "atc-H02AB02",
-        "pubchem-dexamethasone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem + WHO Essential Medicines List)",
+      "text": "PU/PD, polyphagia, กด HPA axis แรง, แผล GI (เสี่ยงสูงกว่าเพราะฤทธิ์ยาว), iatrogenic Cushing",
       "cites": [
-        "dailymed-dexamethasone",
-        "atc-H02AB02",
-        "pubchem-dexamethasone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "indication": "Anti-inflammatory",
+      "route": "IV",
+      "dose": "0.1–0.6 mg/kg (ปรับตามความรุนแรง; ~7 เท่าแรงกว่า prednisolone ในขนาดเทียบเท่า)",
+      "notes": "ฤทธิ์ยาว — ยืนยันขนาดและความถี่ตามข้อบ่งใช้กับ faculty",
       "cites": [
-        "dailymed-dexamethasone",
-        "atc-H02AB02",
-        "pubchem-dexamethasone",
-        "who-eml-22"
-      ]
-    },
-    {
-      "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
-      "cites": [
-        "dailymed-dexamethasone",
-        "atc-H02AB02",
-        "pubchem-dexamethasone",
-        "who-eml-22"
-      ]
-    },
-    {
-      "species": "equine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
-      "cites": [
-        "dailymed-dexamethasone",
-        "atc-H02AB02",
-        "pubchem-dexamethasone",
-        "who-eml-22"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-glucocorticoid",
+      "type": "textbook",
+      "title": "Glucocorticoids / Anti-inflammatory Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/corticosteroids",
+      "note": "Merck corticosteroid pharmacology — anti-inflammatory vs immunosuppressive dosing + relative potency. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-dexamethasone",
       "type": "regulatory-database",
@@ -195,12 +169,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 4 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM), WHO Model List of Essential Medicines (22nd List, 2021)). ATC H02AB02 + RxNorm 3264. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — dexamethasone potency (~7x prednisolone), long-acting profile + dosing verified against Merck corticosteroids. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

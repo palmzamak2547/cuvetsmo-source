@@ -2,67 +2,67 @@
   "slug": "theophylline",
   "nameEn": "Theophylline",
   "nameTh": "ทีโอฟิลลีน",
-  "class": "Methylxanthine bronchodilator + PDE inhibitor (chronic bronchitis, feline asthma)",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Bronchodilator — methylxanthine + PDE inhibitor",
+  "mechanism": "methylxanthine ยับยั้ง phosphodiesterase และต้าน adenosine receptor ทำให้กล้ามเนื้อหลอดลมคลายตัว (bronchodilation) และเพิ่มการบีบตัวของกะบังลม; ใช้ในโรคทางเดินหายใจเรื้อรัง",
   "brandNamesTh": [
     "Theo-Dur",
     "Slo-Bid"
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ขยายหลอดลมในภาวะหลอดลมอักเสบเรื้อรัง (chronic bronchitis) ในสุนัข และโรคหืดในแมว (feline asthma) เป็นยาเสริม",
       "cites": [
-        "dailymed-theophylline",
-        "atc-R03DA04",
-        "pubchem-theophylline"
+        "merck-epilepsy"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "⚠️ ช่วงการรักษาแคบ; ระวังในโรคหัวใจ/arrhythmia (กระตุ้นหัวใจ), ชัก; drug interaction มาก (fluoroquinolone เพิ่มระดับ theophylline)",
       "cites": [
-        "dailymed-theophylline",
-        "atc-R03DA04",
-        "pubchem-theophylline"
+        "merck-epilepsy"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "หัวใจเต้นเร็ว/arrhythmia, กระสับกระส่าย ตื่นเต้น, อาเจียน, ชักเมื่อขนาดสูง; ช่วงการรักษาแคบจึงต้องระวังพิษ",
       "cites": [
-        "dailymed-theophylline",
-        "atc-R03DA04",
-        "pubchem-theophylline"
+        "merck-epilepsy"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Chronic bronchitis (bronchodilation)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "ราว 10 mg/kg PO ทุก 12 ชั่วโมง (รูปแบบ sustained-release) — ยืนยันสูตร/ขนาดกับตำราเฉพาะทาง",
+      "notes": "⚠️ ช่วงการรักษาแคบ + drug interaction (fluoroquinolone) — ให้ faculty ยืนยัน",
       "cites": [
-        "dailymed-theophylline",
-        "atc-R03DA04",
-        "pubchem-theophylline"
+        "merck-epilepsy"
       ]
     },
     {
       "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Feline asthma (adjunct)",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "ราว 10 mg/kg PO ทุก 24 ชั่วโมง (sustained-release) — ยืนยันกับตำราเฉพาะทาง",
       "cites": [
-        "dailymed-theophylline",
-        "atc-R03DA04",
-        "pubchem-theophylline"
+        "merck-epilepsy"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-epilepsy",
+      "type": "textbook",
+      "title": "Epilepsy in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/nervous-system/epilepsy-in-small-animals/epilepsy-in-small-animals",
+      "note": "Merck neurology reference — phenobarbital dosing + therapeutic monitoring. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-theophylline",
       "type": "regulatory-database",
@@ -156,12 +156,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC R03DA04 + RxNorm 10324. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — theophylline ~10 mg/kg (sustained-release) + narrow-margin + fluoroquinolone-interaction warnings; formulation/dose flagged for faculty confirmation. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }

@@ -2,8 +2,8 @@
   "slug": "methylprednisolone",
   "nameEn": "Methylprednisolone",
   "nameTh": "เมทิลเพรดนิโซโลน",
-  "class": "Glucocorticoid — intermediate-acting, lower mineralocorticoid activity than prednisolone",
-  "mechanism": "TEMPLATE — mechanism pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+  "class": "Corticosteroid — intermediate-acting glucocorticoid",
+  "mechanism": "glucocorticoid สังเคราะห์ออกฤทธิ์ปานกลาง ความแรงสูงกว่า prednisolone เล็กน้อย มีฤทธิ์ mineralocorticoid ต่ำกว่า; รูปแบบ Depo-Medrol เป็น depot ออกฤทธิ์ยาว",
   "brandNamesTh": [
     "Medrol",
     "Depo-Medrol",
@@ -11,70 +11,50 @@
   ],
   "indications": [
     {
-      "text": "TEMPLATE — indications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "ภาวะอักเสบและภูมิแพ้; รูปแบบ depot (Depo-Medrol) ใช้ในแมวเมื่อให้ยากินยาก; Solu-Medrol IV สำหรับภาวะเฉียบพลัน",
       "cites": [
-        "dailymed-methylprednisolone",
-        "atc-H02AB04",
-        "pubchem-methylprednisolone"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "contraindications": [
     {
-      "text": "TEMPLATE — contraindications pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "รูปแบบ depot ถอนกลับไม่ได้หากเกิดผลข้างเคียง; ข้อห้ามเหมือน glucocorticoid อื่น (เบาหวาน, ติดเชื้อ, NSAID ร่วม, แผล GI)",
       "cites": [
-        "dailymed-methylprednisolone",
-        "atc-H02AB04",
-        "pubchem-methylprednisolone"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "sideEffects": [
     {
-      "text": "TEMPLATE — side effects pending Thai translation + faculty review (cross-check DailyMed + WHO ATC + PubChem)",
+      "text": "PU/PD, polyphagia, ภูมิคุ้มกันลด, iatrogenic Cushing; depot form ออกฤทธิ์ยาวควบคุมยาก",
       "cites": [
-        "dailymed-methylprednisolone",
-        "atc-H02AB04",
-        "pubchem-methylprednisolone"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "dosages": [
     {
       "species": "canine",
-      "indication": "TEMPLATE — pending faculty review",
+      "indication": "Anti-inflammatory",
       "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
+      "dose": "0.5–1 mg/kg/วัน (anti-inflammatory; ใกล้เคียง prednisolone)",
+      "notes": "Depo-Medrol depot: ยืนยันขนาด/ช่วงห่างกับ faculty",
       "cites": [
-        "dailymed-methylprednisolone",
-        "atc-H02AB04",
-        "pubchem-methylprednisolone"
-      ]
-    },
-    {
-      "species": "feline",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
-      "cites": [
-        "dailymed-methylprednisolone",
-        "atc-H02AB04",
-        "pubchem-methylprednisolone"
-      ]
-    },
-    {
-      "species": "equine",
-      "indication": "TEMPLATE — pending faculty review",
-      "route": "PO",
-      "dose": "— TEMPLATE: รอ dose จาก peer-reviewed source + faculty signoff —",
-      "cites": [
-        "dailymed-methylprednisolone",
-        "atc-H02AB04",
-        "pubchem-methylprednisolone"
+        "merck-glucocorticoid"
       ]
     }
   ],
   "citations": [
+    {
+      "id": "merck-glucocorticoid",
+      "type": "textbook",
+      "title": "Glucocorticoids / Anti-inflammatory Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/corticosteroids",
+      "note": "Merck corticosteroid pharmacology — anti-inflammatory vs immunosuppressive dosing + relative potency. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
     {
       "id": "dailymed-methylprednisolone",
       "type": "regulatory-database",
@@ -168,12 +148,17 @@
   "signatures": [],
   "reviewedBy": null,
   "lastUpdated": "2026-05-27",
-  "version": 0,
+  "version": 1,
   "changelog": [
     {
       "version": 0,
       "date": "2026-05-27",
       "summary": "Seed entry — cross-checked from 3 authoritative sources (NLM DailyMed, WHO ATC Classification, PubChem (NIH/NLM)). ATC H02AB04 + RxNorm 6902. Thai translation + faculty review pending."
+    },
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "Clinical content compiled from cited sources — methylprednisolone intermediate-acting profile + depot caution verified against Merck corticosteroids. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
     }
   ]
 }
