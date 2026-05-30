@@ -7,6 +7,8 @@ import {
   type ClinicalSection,
   findDrug,
   DRUGS,
+  verificationTier,
+  freshAttestations,
 } from '@/lib/drugs'
 import { shortCID } from '@/lib/cid'
 import { lookupATC, lookupRxNorm, lookupICD11, lookupLOINC } from '@/lib/ontology'
@@ -126,32 +128,91 @@ export default async function DrugDetail({ params }: { params: Promise<{ slug: s
 // Trust + signatures
 // ──────────────────────────────────────────────────────────────────
 
+// Tier-aware trust stamp — every entry shows a legitimate badge; nothing
+// reads as "broken / do not use".
 function TrustStamp({ drug }: { drug: Drug }) {
-  if (!drug.reviewedBy) {
+  const t = verificationTier(drug)
+  if (t === 'expert') {
+    const r = drug.reviewedBy!
     return (
-      <section className="rounded-md border border-amber-300 bg-amber-50/80 p-5">
-        <p className="stamp border-amber-700 text-amber-800">⏳ Pending</p>
-        <p className="mt-3 text-sm text-amber-900">
-          Mirrored snapshot รอ Thai translation + faculty signoff
-        </p>
-        <p className="mt-2 text-[11px] text-amber-800">
-          ห้ามใช้อ้างอิงทางคลินิก จนกว่า banner เป็น emerald
+      <section className="rounded-md border border-emerald-400 bg-emerald-50/70 p-5">
+        <p className="stamp border-emerald-700 text-emerald-800">✓ Expert-reviewed</p>
+        <p className="mt-3 text-sm leading-snug text-emerald-900">
+          <b>{r.name}</b>
+          {r.title && <span><br/>{r.title}</span>}
+          {r.department && <span> · {r.department}</span>}
+          <span className="block text-xs text-emerald-800">{r.affiliation}</span>
+          <span className="block text-[11px] tabular text-emerald-800">Reviewed {r.date}</span>
         </p>
       </section>
     )
   }
-  const r = drug.reviewedBy
+  if (t === 'community') {
+    const n = freshAttestations(drug).length
+    return (
+      <section className="rounded-md border border-sky-300 bg-sky-50/70 p-5">
+        <p className="stamp border-sky-700 text-sky-800">✓✓ Community-checked</p>
+        <p className="mt-3 text-sm leading-snug text-sky-900">
+          ตรวจทานโดยผู้ใช้อิสระ <b>{n}</b> คน · ยืนยันว่าเนื้อหาตรงกับแหล่งอ้างอิง
+          <span className="mt-2 block text-[11px] text-sky-800">
+            ตรวจขนาดยากับตำราก่อนใช้ทางคลินิกเสมอ
+          </span>
+        </p>
+      </section>
+    )
+  }
   return (
-    <section className="rounded-md border border-emerald-400 bg-emerald-50/70 p-5">
-      <p className="stamp border-emerald-700 text-emerald-800">✓ Canonical</p>
-      <p className="mt-3 text-sm leading-snug text-emerald-900">
-        <b>{r.name}</b>
-        {r.title && <span><br/>{r.title}</span>}
-        {r.department && <span> · {r.department}</span>}
-        <span className="block text-xs text-emerald-800">{r.affiliation}</span>
-        <span className="block text-[11px] tabular text-emerald-800">Reviewed {r.date}</span>
+    <section className="rounded-md border border-source-300 bg-source-50/60 p-5">
+      <p className="stamp border-source-600 text-source-800">◆ Sourced</p>
+      <p className="mt-3 text-sm leading-snug text-ink-800">
+        อ้างอิงแหล่ง + cross-check {drug.citations?.length ?? 0} แหล่ง · reference-grade
+        <span className="mt-2 block text-[11px] text-ink-600">
+          ตรวจขนาดยากับตำราหรืออาจารย์ก่อนใช้ทางคลินิกเสมอ
+        </span>
       </p>
     </section>
+  )
+}
+
+// Verification banner — honest, tier-aware. Sourced framed as reference-grade
+// + confirm-before-clinical-use, NOT a dead "do not use" page.
+function VerificationBanner({ drug, tier }: { drug: Drug; tier: ReturnType<typeof verificationTier> }) {
+  const nSources = drug.citations?.length ?? 0
+  if (tier === 'expert') {
+    return (
+      <aside className="mt-7 rounded-md border border-emerald-300 bg-emerald-50 px-5 py-4 text-sm text-emerald-900" role="note">
+        <p className="font-semibold">✓ Expert-reviewed · faculty-endorsed</p>
+        <p className="mt-1 text-emerald-800">
+          ตรวจและรับรองโดย <b>{drug.reviewedBy?.name}</b>
+          {drug.reviewedBy?.affiliation ? ` (${drug.reviewedBy.affiliation})` : ''} ·
+          ผนึกด้วยลายเซ็นดิจิทัล Ed25519 ในทะเบียนโปร่งใส (<Link href="/log" className="underline">ดู log</Link>).
+          ยังควรใช้วิจารณญาณทางคลินิกร่วมเสมอ
+        </p>
+      </aside>
+    )
+  }
+  if (tier === 'community') {
+    const n = freshAttestations(drug).length
+    return (
+      <aside className="mt-7 rounded-md border border-sky-300 bg-sky-50 px-5 py-4 text-sm text-sky-900" role="note">
+        <p className="font-semibold">✓✓ Community-checked · ตรวจทานโดยผู้ใช้อิสระ {n} คน</p>
+        <p className="mt-1 text-sky-800">
+          ผู้ตรวจอิสระยืนยันว่าเนื้อหาตรงกับแหล่งอ้างอิงที่ระบุ. ทุก claim มี citation ({nSources} แหล่ง) ·
+          ตรวจขนาดยากับตำราของคุณก่อนใช้ทางคลินิกเสมอ ·{' '}
+          <Link href="/verify" className="underline">ช่วยตรวจ/รับรอง</Link>
+        </p>
+      </aside>
+    )
+  }
+  return (
+    <aside className="mt-7 rounded-md border border-source-300 bg-source-50/60 px-5 py-4 text-sm text-ink-800" role="note">
+      <p className="font-semibold text-source-900">◆ Sourced · อ้างอิงแหล่ง + cross-check {nSources} แหล่ง</p>
+      <p className="mt-1 text-ink-700">
+        ทุกข้อความตามรอยถึงแหล่ง authoritative ได้ (Merck Vet Manual, FDA/EMA labels, ฯลฯ) และผ่านการตรวจสอบข้ามแหล่ง —
+        ใช้เป็นแหล่งอ้างอิง/ทบทวนได้. <b>ตรวจขนาดยากับตำราหรืออาจารย์ก่อนใช้จริงทางคลินิกเสมอ</b> (ยังไม่ผ่าน expert review).{' '}
+        <Link href="/verify" className="underline text-source-800">ช่วยตรวจให้เลื่อนขั้น →</Link>
+      </p>
+    </aside>
   )
 }
 
