@@ -2242,5 +2242,125 @@
     "name": "Cefpodoxime proxetil",
     "level": 5,
     "parent": "J01DD"
+  },
+  "C09C": {
+    "code": "C09C",
+    "name": "Angiotensin II receptor blockers (ARBs), plain",
+    "level": 3,
+    "parent": "C09"
+  },
+  "C09CA": {
+    "code": "C09CA",
+    "name": "Angiotensin II receptor blockers (ARBs), plain",
+    "level": 4,
+    "parent": "C09C"
+  },
+  "C09CA07": {
+    "code": "C09CA07",
+    "name": "Telmisartan",
+    "level": 5,
+    "parent": "C09CA"
+  },
+  "C02C": {
+    "code": "C02C",
+    "name": "Antiadrenergic agents, peripherally acting",
+    "level": 3,
+    "parent": "C02"
+  },
+  "C02CA": {
+    "code": "C02CA",
+    "name": "Alpha-adrenoreceptor antagonists",
+    "level": 4,
+    "parent": "C02C"
+  },
+  "C02CA01": {
+    "code": "C02CA01",
+    "name": "Prazosin",
+    "level": 5,
+    "parent": "C02CA"
+  },
+  "N06AA09": {
+    "code": "N06AA09",
+    "name": "Amitriptyline",
+    "level": 5,
+    "parent": "N06AA"
+  },
+  "N05BA12": {
+    "code": "N05BA12",
+    "name": "Alprazolam",
+    "level": 5,
+    "parent": "N05BA"
+  },
+  "R03AC02": {
+    "code": "R03AC02",
+    "name": "Salbutamol (albuterol)",
+    "level": 5,
+    "parent": "R03AC"
+  },
+  "A02BA02": {
+    "code": "A02BA02",
+    "name": "Ranitidine",
+    "level": 5,
+    "parent": "A02BA"
+  },
+  "A02BC02": {
+    "code": "A02BC02",
+    "name": "Pantoprazole",
+    "level": 5,
+    "parent": "A02BC"
+  },
+  "M03C": {
+    "code": "M03C",
+    "name": "Muscle relaxants, directly acting agents",
+    "level": 3,
+    "parent": "M03"
+  },
+  "M03CA": {
+    "code": "M03CA",
+    "name": "Dantrolene and derivatives",
+    "level": 4,
+    "parent": "M03C"
+  },
+  "M03CA01": {
+    "code": "M03CA01",
+    "name": "Dantrolene",
+    "level": 5,
+    "parent": "M03CA"
+  },
+  "V03AB17": {
+    "code": "V03AB17",
+    "name": "Methylthioninium chloride (methylene blue)",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "V03AB04": {
+    "code": "V03AB04",
+    "name": "Pralidoxime",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "L01XA": {
+    "code": "L01XA",
+    "name": "Platinum compounds",
+    "level": 4,
+    "parent": "L01X"
+  },
+  "L01XA02": {
+    "code": "L01XA02",
+    "name": "Carboplatin",
+    "level": 5,
+    "parent": "L01XA"
+  },
+  "L01XE": {
+    "code": "L01XE",
+    "name": "Protein kinase inhibitors",
+    "level": 4,
+    "parent": "L01X"
+  },
+  "QL01XE91": {
+    "code": "QL01XE91",
+    "name": "Toceranib (veterinary tyrosine kinase inhibitor)",
+    "level": 5,
+    "parent": "L01XE"
   }
 }

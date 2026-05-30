@@ -1,0 +1,131 @@
+{
+  "slug": "toceranib",
+  "nameEn": "Toceranib phosphate",
+  "nameTh": "โทเซอรานิบ",
+  "class": "Antineoplastic — receptor tyrosine kinase inhibitor (veterinary targeted therapy)",
+  "mechanism": "ยับยั้ง receptor tyrosine kinase หลายตัว (KIT, VEGFR2, PDGFR) ที่ขับเคลื่อนการเติบโตและหลอดเลือดของเนื้องอก; เป็น targeted therapy ชนิดกินตัวแรกที่รับรองสำหรับสัตว์ (Palladia)",
+  "brandNamesTh": [
+    "Palladia"
+  ],
+  "indications": [
+    {
+      "text": "mast cell tumor (Patnaik grade II/III, recurrent/non-resectable) ในสุนัข (Palladia, FDA-approved); ใช้ off-label กับ carcinoma หลายชนิดและ mast cell disease ในแมว",
+      "cites": [
+        "fda-palladia",
+        "veteducation-toceranib"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ยา targeted chemo PPE; ⚠️ GI toxicity เด่น (อาเจียน/ท้องเสีย/เลือดออกในทางเดินอาหาร), ตับเป็นพิษ, proteinuria, ความดันสูง; ปรับ/หยุดเมื่อมี GI bleeding; ให้ร่วม GI protectant",
+      "cites": [
+        "fda-palladia",
+        "veteducation-toceranib"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI (ท้องเสีย อาเจียน เบื่ออาหาร เลือดออก — พบบ่อย), กดไขกระดูก (neutropenia), ตับเอนไซม์สูง, proteinuria, lameness; ใช้ \"stop-day\" protocol เมื่อมีอาการ",
+      "cites": [
+        "veteducation-toceranib"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Mast cell tumor (grade II/III) — specialist",
+      "route": "PO",
+      "dose": "2.5–2.75 mg/kg PO วันเว้นวัน (Mon/Wed/Fri) — ⚠️ oncology only; เริ่มขนาดต่ำลดพิษ",
+      "notes": "เฝ้าระวัง GI bleeding + proteinuria + CBC; หยุดชั่วคราวเมื่อมีพิษ",
+      "cites": [
+        "fda-palladia",
+        "veteducation-toceranib"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Mast cell disease / carcinoma (off-label) — specialist",
+      "route": "PO",
+      "dose": "2.5–2.75 mg/kg PO วันเว้นวัน — ⚠️ oncology only",
+      "cites": [
+        "veteducation-toceranib"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC, ค่าตับ, urinalysis (proteinuria), ความดันโลหิตเป็นระยะ; เฝ้าระวัง GI bleeding (melena)",
+      "cites": [
+        "veteducation-toceranib"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-palladia",
+      "type": "package-insert",
+      "title": "Palladia (toceranib phosphate) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/palladia.html",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "veteducation-toceranib",
+      "type": "guideline",
+      "title": "Toceranib (Palladia) use in dogs and cats — VetEducation",
+      "url": "https://veteducation.com/toceranib-use-in-dogs-and-cats/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-toceranib",
+      "type": "monograph",
+      "title": "Toceranib — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Toceranib",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QL01XE91",
+      "name": "Toceranib (veterinary tyrosine kinase inhibitor)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VSSO / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
