@@ -10,6 +10,15 @@ This file is the human-readable companion to the timeline shown at [/changelog](
 
 The full 8-primitive moonshot architecture shipped in one extended session. Per ARCHITECTURE.md week-by-week plan condensed into one continuous build.
 
+### 2026-05-27 — 🌱 Catalog expansion: 65 → 89 drugs (+24 new entries)
+
+Two expansion batches of brand-new entries (new files + ontology codes), each dose cross-checked across multiple authoritative sources before writing. Established the repeatable "add new drug" pipeline: extend `data/ontology/atc.json` (+40 ATC entries, now 266) + `data/ontology/rxnorm-vet.json` (+10 CUIs), extend `lib/classify.ts` routing, create `content/drugs/<slug>.json` with cited content + empty `mirrorCIDs`.
+
+- **Batch A (12)** — fenbendazole, enalapril, clopidogrel, aspirin, atropine, glycopyrrolate, methadone, alfaxalone, lidocaine, methocarbamol, phytomenadione (vit K1), terbinafine. New therapeutic class added: **muscle relaxants** (M03).
+- **Batch B (12)** — levetiracetam, zonisamide, fluoxetine, trazodone, cyproheptadine, marbofloxacin, torsemide, selamectin, milbemycin oxime, fluralaner, sarolaner, toltrazuril. Antiparasitics class extended to vet ATC families (P51 anticoccidials, P53 isoxazolines, P54 endectocides).
+
+Sources: Merck/MSD Veterinary Manual, FDA/EMA labels (Alfaxan, Bravecto, Simparica, Revolution, Zeniquin, Upcard), Tufts CardioRush, Clinician's Brief, VETgirl, ASPCA APCC, Today's Veterinary Practice, CARPODIEM (JVIM), PubMed. New safety flags: isoxazoline FDA neurologic warning, lidocaine feline sensitivity, aspirin feline slow salicylate metabolism, vitamin K1 never-IV (anaphylaxis), atropine organophosphate-antidote dose. **89 drugs total, every claim cited, all `reviewedBy: null` (pending faculty canonical signature).**
+
 ### 2026-05-27 — 📚 Catalog content complete: 65/65 drugs (every claim cited)
 
 Every drug entry now carries real clinical content compiled and translated from cited authoritative sources — **0 TEMPLATE placeholders remain**. Filled class by class, each dose cross-checked across multiple independent sources before writing:
