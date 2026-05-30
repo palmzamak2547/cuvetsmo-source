@@ -106,7 +106,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'respiratory', label: 'Respiratory', prefixes: ['R03', 'R07'] },
   { slug: 'emergency-cardiac', label: 'Emergency & cardiac stimulants', prefixes: ['C01CA'] },
   { slug: 'fluids-electrolytes', label: 'Fluids & electrolytes', prefixes: ['B05', 'A12', 'V06D'] },
-  { slug: 'toxicology-emesis', label: 'Toxicology & emesis', prefixes: ['A07BA', 'V03AB25', 'V03AB07'] },
+  { slug: 'toxicology-emesis', label: 'Toxicology & emesis', prefixes: ['A07BA', 'V03AB25', 'V03AB07', 'N04BC'] },
   { slug: 'pituitary-hormones', label: 'Pituitary hormones', prefixes: ['H01B'] },
   { slug: 'antineoplastics', label: 'Antineoplastics', prefixes: ['L01'] },
   { slug: 'ophthalmology', label: 'Ophthalmology', prefixes: ['S01'] },

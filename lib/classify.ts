@@ -202,7 +202,7 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     label: 'Toxicology & emesis · พิษวิทยาและยากระตุ้นอาเจียน',
     subtitle: 'Emetics, adsorbents, antidotes for poisoning + decontamination',
     order: 195,
-    match: startsWithAtc('A07BA', 'V03AB25', 'V03AB07'),
+    match: startsWithAtc('A07BA', 'V03AB25', 'V03AB07', 'N04BC'),
   },
   {
     slug: 'pituitary-hormones',
