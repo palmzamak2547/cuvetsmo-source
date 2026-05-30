@@ -10,6 +10,18 @@ This file is the human-readable companion to the timeline shown at [/changelog](
 
 The full 8-primitive moonshot architecture shipped in one extended session. Per ARCHITECTURE.md week-by-week plan condensed into one continuous build.
 
+### 2026-05-27 — 🪜 Verification ladder (anti-vaporware redesign)
+
+The original trust model was binary: an entry was either faculty-signed-canonical or it read **"⏳ Pending — Not for clinical use."** Because faculty Ed25519 signing is high-friction (most lecturers won't manage private keys), signing was a *single point of failure* — if no faculty signed, all 101 entries read "do not use" forever. That is the failure mode where a project's use-case never works and it quietly dies.
+
+Replaced the locked gate with a **three-rung ladder** where every rung is achievable and even the bottom rung is genuinely useful:
+
+- **◆ Sourced** (default) — every claim cited + cross-checked across ≥2 authoritative sources, content-addressed. Reference-grade: confirm dose against your own formulary before clinical use, exactly as with any tertiary reference. **No entry ever reads "broken."**
+- **✓✓ Community-checked** — ≥2 independent contributors attested the entry matches its cited sources (logged transparently). The network-effect rung — a static scrape can never replicate a living community of checkers.
+- **✓ Expert-reviewed** — a named, identity-verified vet/faculty endorsed it. The Ed25519 signature seals the *record* for tamper-evidence; the endorser does **not** need to manage a key (platform can sign on record of their explicit logged approval, DocuSign-style; self-custody signing stays available).
+
+Shipped across every surface: `verificationTier()` + `Attestation` type (`lib/drugs.ts`); tier-aware badges + honest banners on drug detail, catalog list, home colophon, and Cmd+K palette; `/verify` reframed as a ladder; `/api/drugs` now returns ALL entries with `verificationTier` + `tierCounts` (was `publishedDrugs()` = expert-only = empty); `attest-entry` + `report-error` intents on `/feedback` make the community rung reachable today (GitHub public-audit-log, zero backend). Site-wide sweep: **0 "Not for clinical use" across all 557 pages.** Tiers populate only from real actions — no fabricated attestations (Iron Rule 0). The moat is provenance + a living community + freshness, not cryptography.
+
 ### 2026-05-27 — 🚑 Catalog crosses 100: 89 → 101 drugs (+ emergency/critical-care)
 
 Batch C added the emergency, critical-care, and antidote shelf that every clinic crash-cart needs — 12 entries, 5 new therapeutic classes. Each dose cross-checked against the RECOVER 2024 CPR dosing charts, BSAVA emergency formulary, AAHA fluid-therapy guidelines, ACVIM status-epilepticus consensus, and Merck.
