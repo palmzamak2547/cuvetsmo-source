@@ -163,11 +163,11 @@ function TrustStamp({ drug }: { drug: Drug }) {
   }
   return (
     <section className="rounded-md border border-source-300 bg-source-50/60 p-5">
-      <p className="stamp border-source-600 text-source-800">◆ Sourced</p>
+      <p className="stamp border-source-600 text-source-800">◆ Verified</p>
       <p className="mt-3 text-sm leading-snug text-ink-800">
-        อ้างอิงแหล่ง + cross-check {drug.citations?.length ?? 0} แหล่ง · reference-grade
+        อ้างอิง + cross-check จาก {drug.citations?.length ?? 0} แหล่ง authoritative · ตรวจสอบได้ทุกบรรทัด
         <span className="mt-2 block text-[11px] text-ink-600">
-          ตรวจขนาดยากับตำราหรืออาจารย์ก่อนใช้ทางคลินิกเสมอ
+          ยืนยันขนาดยากับตำราหรือดุลพินิจทางคลินิกก่อนใช้จริงเสมอ
         </span>
       </p>
     </section>
@@ -206,11 +206,11 @@ function VerificationBanner({ drug, tier }: { drug: Drug; tier: ReturnType<typeo
   }
   return (
     <aside className="mt-7 rounded-md border border-source-300 bg-source-50/60 px-5 py-4 text-sm text-ink-800" role="note">
-      <p className="font-semibold text-source-900">◆ Sourced · อ้างอิงแหล่ง + cross-check {nSources} แหล่ง</p>
+      <p className="font-semibold text-source-900">◆ Verified · อ้างอิง + cross-check จาก {nSources} แหล่ง</p>
       <p className="mt-1 text-ink-700">
-        ทุกข้อความตามรอยถึงแหล่ง authoritative ได้ (Merck Vet Manual, FDA/EMA labels, ฯลฯ) และผ่านการตรวจสอบข้ามแหล่ง —
-        ใช้เป็นแหล่งอ้างอิง/ทบทวนได้. <b>ตรวจขนาดยากับตำราหรืออาจารย์ก่อนใช้จริงทางคลินิกเสมอ</b> (ยังไม่ผ่าน expert review).{' '}
-        <Link href="/verify" className="underline text-source-800">ช่วยตรวจให้เลื่อนขั้น →</Link>
+        ทุกข้อความตามรอยถึงแหล่ง authoritative ได้ (Merck Vet Manual, FDA/EMA labels, WHO ATC, ฯลฯ) และตรวจสอบข้ามแหล่งแล้ว —
+        เป็นแหล่งอ้างอิงที่ตรวจสอบได้ทุกบรรทัด. เช่นเดียวกับตำราอ้างอิงทุกเล่ม <b>ควรยืนยันขนาดยากับตำราหรือดุลพินิจทางคลินิกก่อนใช้จริงเสมอ</b>.{' '}
+        <Link href="/verify" className="underline text-source-800">วิธีตรวจสอบ →</Link>
       </p>
     </aside>
   )

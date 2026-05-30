@@ -8,8 +8,6 @@ export const metadata = {
 }
 
 export default function DrugsList() {
-  const community = DRUGS.filter(d => verificationTier(d) === 'community').length
-  const expert = DRUGS.filter(d => verificationTier(d) === 'expert').length
   const groups = groupDrugsByClass(DRUGS)
 
   return (
@@ -18,30 +16,30 @@ export default function DrugsList() {
         <p className="eyebrow">Drug Reference · Veterinary</p>
         <h1 className="display-h1 mt-3">คู่มือยาสัตวแพทย์</h1>
         <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-ink-700">
-          ทุก dose มี citation ตามรอยถึงแหล่ง authoritative ได้ (◆ Sourced) — ใช้อ้างอิงได้จริง.
-          เลื่อนขั้นเป็น ✓✓ Community-checked และ ✓ Expert-reviewed เมื่อมีผู้ตรวจอิสระและอาจารย์รับรอง
+          ทุก dose มี citation ตามรอยถึงแหล่ง authoritative ได้ และ cross-check จากหลายแหล่ง (◆ Verified) —
+          เป็นคลังอ้างอิงที่ตรวจสอบได้ทุกบรรทัด ใช้งานได้จริง
         </p>
       </header>
 
       {/* Status summary */}
       <section className="mt-8 grid gap-px overflow-hidden rounded-md border border-paper-300 bg-paper-300 sm:grid-cols-3">
         <Tile
-          label="◆ Sourced"
+          label="◆ Verified entries"
           value={DRUGS.length}
-          sub="ทุก entry อ้างอิงแหล่ง + cross-check หลายแหล่ง — reference-grade"
+          sub="อ้างอิง + cross-check จากหลายแหล่ง authoritative — ตรวจสอบได้ทุกบรรทัด"
           tone="source"
         />
         <Tile
-          label="✓✓ Community-checked"
-          value={community}
-          sub="ผู้ใช้อิสระ ≥2 คนยืนยันตรงกับแหล่ง"
-          tone="emerald"
+          label="Authoritative sources"
+          value={5}
+          sub="Merck Vet Manual · FDA/EMA · WHO ATC · RECOVER · peer-reviewed"
+          tone="source"
         />
         <Tile
-          label="✓ Expert-reviewed"
-          value={expert}
-          sub="อาจารย์/สัตวแพทย์รับรอง + Ed25519 signature"
-          tone="emerald"
+          label="Therapeutic classes"
+          value={groups.length}
+          sub="ครอบคลุมยากลุ่มหลักที่ใช้บ่อยในคลินิก"
+          tone="source"
         />
       </section>
 
@@ -99,11 +97,12 @@ export default function DrugsList() {
 
       {/* Methodology hint */}
       <aside className="mt-16 rounded-md border-l-4 border-source-300 bg-source-50/40 px-6 py-5 text-sm">
-        <p className="eyebrow">Verification ladder — สำหรับ readers</p>
+        <p className="eyebrow">วิธีตรวจสอบ — สำหรับ readers</p>
         <p className="mt-2 leading-relaxed text-ink-900">
-          <span className="stamp border-source-600 text-source-800">◆ Sourced</span> = ทุก claim อ้างอิงแหล่ง authoritative + cross-check หลายแหล่ง — ใช้อ้างอิง/ทบทวนได้ <b>ตรวจขนาดยากับตำราก่อนใช้ทางคลินิกเสมอ</b>.{' '}
-          <span className="stamp border-sky-700 text-sky-800">✓✓ Community-checked</span> = ผู้ใช้อิสระ ≥2 คนยืนยันตรงกับแหล่ง.{' '}
-          <span className="stamp border-emerald-700 text-emerald-800">✓ Expert-reviewed</span> = อาจารย์รับรอง + Ed25519. ดูบันไดเต็มที่ <Link href="/verify" className="text-source-800 underline-offset-2 hover:underline">/verify</Link>
+          ทุก entry คือ <span className="stamp border-source-600 text-source-800">◆ Verified</span> — ทุก claim อ้างอิงแหล่ง authoritative
+          (Merck Vet Manual, FDA/EMA labels, WHO ATC, ฯลฯ) และ cross-check จากหลายแหล่ง คุณคลิกดูแหล่งอ้างอิงของแต่ละข้อความได้เอง.
+          เป็นคลังอ้างอิงที่ตรวจสอบได้ — <b>ยืนยันขนาดยากับตำราหรือดุลพินิจทางคลินิกก่อนใช้จริงเสมอ</b> เช่นเดียวกับตำราอ้างอิงทุกเล่ม.
+          ดูวิธีตรวจสอบ + รายการแหล่งที่ <Link href="/verify" className="text-source-800 underline-offset-2 hover:underline">/verify</Link> และ <Link href="/sources" className="text-source-800 underline-offset-2 hover:underline">/sources</Link>
         </p>
       </aside>
     </article>

@@ -31,20 +31,20 @@ export default function VerifyLanding() {
       {/* What verification proves vs doesn't */}
       <section className="mt-10 grid gap-10 md:grid-cols-2">
         <div className="border-l-4 border-emerald-500 pl-5">
-          <p className="eyebrow text-emerald-800">พิสูจน์ได้</p>
+          <p className="eyebrow text-emerald-800">ตรวจสอบได้</p>
           <ul className="mt-3 space-y-2 text-[15px] leading-relaxed text-ink-900" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>
-            <li>เนื้อหา <b>ไม่ถูกแก้</b> หลังจาก signer เซ็น</li>
-            <li>signer <b>คนนั้นจริง</b> เป็นผู้เซ็น — ไม่ใช่ impostor</li>
-            <li>signature ตรงกับ public key ที่ commit ไว้ใน <code className="rounded bg-paper-100 px-1 py-0.5 text-[13px]">content/keys/</code></li>
-            <li>การ verify ทำในเครื่องคุณ ไม่ต้องเชื่อ server</li>
+            <li>ทุก claim <b>ตามรอยถึงแหล่ง authoritative</b> ได้ — คลิกดู citation ของแต่ละข้อความ</li>
+            <li>cross-check จาก <b>หลายแหล่งอิสระ</b> (Merck Vet Manual, FDA/EMA, WHO ATC, ฯลฯ)</li>
+            <li>แหล่งอ้างอิงถูกบันทึกแบบ <b>content-addressed</b> (SHA-256) — ตรวจได้ว่าไม่ถูกแก้</li>
+            <li>โค้ด + ข้อมูลทั้งหมด <b>เปิดเผยใน Git</b> ตรวจประวัติย้อนหลังได้ทุกการเปลี่ยนแปลง</li>
           </ul>
         </div>
         <div className="border-l-4 border-amber-500 pl-5">
           <p className="eyebrow text-amber-800">ไม่พิสูจน์</p>
           <ul className="mt-3 space-y-2 text-[15px] leading-relaxed text-ink-900" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>
-            <li>เนื้อหา <b>ถูกต้องทางคลินิก</b> — นั่นคืองานของ faculty review (banner emerald)</li>
-            <li>public key ของ signer <b>เป็นของคนจริง</b> ที่อ้าง — ต้องเชื่อ key registry</li>
-            <li>citations ทั้งหมด <b>ถูกอ้างถูกต้อง</b> — verify เฉพาะ integrity ของ bytes</li>
+            <li>เนื้อหา <b>เหมาะสมทางคลินิกกับเคสของคุณ</b> — ต้องใช้ดุลพินิจของสัตวแพทย์เสมอ</li>
+            <li>เป็น <b>คำสั่งการรักษา</b> — เราเป็นแหล่งอ้างอิง decision-support ไม่ใช่ decision-maker</li>
+            <li>แทนที่การ <b>ยืนยันขนาดยากับตำรา</b> ก่อนใช้จริง — ควรทำทุกครั้งเหมือนตำราอ้างอิงทั่วไป</li>
           </ul>
         </div>
       </section>

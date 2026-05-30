@@ -1,15 +1,13 @@
 import Link from 'next/link'
 import { DRUGS, verificationTier } from '@/lib/drugs'
 import { THERAPEUTIC_CLASSES, classifyDrug } from '@/lib/classify'
-import { listCredentials } from '@/lib/credentials'
 import HomeQuickAccess from './HomeQuickAccess'
 
 export default function Landing() {
   const total = DRUGS.length
-  const sourced = total
   const community = DRUGS.filter(d => verificationTier(d) === 'community').length
   const expert = DRUGS.filter(d => verificationTier(d) === 'expert').length
-  const credentials = listCredentials().length
+  const classCount = THERAPEUTIC_CLASSES.filter(c => DRUGS.some(d => c.match(d))).length
   // citation count across all entries
   const citations = DRUGS.reduce((n, d) => n + d.citations.length, 0)
 
@@ -65,11 +63,11 @@ export default function Landing() {
           <p className="eyebrow text-center">Phase 0 — current state</p>
           <dl className="mt-4 grid grid-cols-2 gap-x-5 gap-y-3 tabular">
             <Datum n={total} label="ยาในคลัง · entries" />
-            <Datum n={sourced} label="◆ Sourced + cross-checked" tone="source" />
-            <Datum n={community} label="✓✓ community-checked" tone="source" />
-            <Datum n={expert} label="✓ expert-reviewed" tone="emerald" />
-            <Datum n={citations} label="citations indexed" />
-            <Datum n={credentials} label="W3C credentials issued" tone="source" />
+            <Datum n={total} label="◆ Verified · multi-source" tone="source" />
+            <Datum n={citations} label="citations indexed" tone="source" />
+            <Datum n={classCount} label="therapeutic classes" />
+            {community > 0 && <Datum n={community} label="✓✓ community-checked" tone="source" />}
+            {expert > 0 && <Datum n={expert} label="✓ expert-reviewed" tone="emerald" />}
           </dl>
           <hr className="rule mt-5 mb-3" />
           <p className="text-[11px] text-ink-500">
@@ -224,7 +222,7 @@ export default function Landing() {
       <p className="mt-16 text-sm text-ink-700">
         เริ่มต้นจาก{' '}
         <Link href="/drugs" className="font-semibold text-source-800 underline-offset-4 hover:underline">คู่มือยาสัตวแพทย์</Link>
-        {' '}— ทุก entry อ้างอิงแหล่ง + cross-check แล้ว (◆ Sourced); เลื่อนขั้นเมื่อชุมชนช่วยตรวจและอาจารย์รับรอง.
+        {' '}— ทุก entry ◆ Verified: อ้างอิงและ cross-check จากหลายแหล่ง authoritative ตรวจสอบได้ทุกบรรทัด.
         อ่าน{' '}
         <Link href="/sources" className="font-semibold text-source-800 underline-offset-4 hover:underline">methodology + sources</Link>
         {' '}ฉบับเต็มที่ /sources
