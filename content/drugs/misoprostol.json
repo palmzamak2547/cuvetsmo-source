@@ -1,0 +1,113 @@
+{
+  "slug": "misoprostol",
+  "nameEn": "Misoprostol",
+  "nameTh": "ไมโซพรอสตอล",
+  "class": "GI — prostaglandin E1 analogue (NSAID-ulcer prevention)",
+  "mechanism": "อนุพันธ์ prostaglandin E1 สังเคราะห์ ทดแทน prostaglandin ที่ NSAID ยับยั้ง จึงเพิ่มการสร้างเมือกและ bicarbonate ปกป้องเยื่อบุกระเพาะ และลดการหลั่งกรด; ป้องกันแผลจาก NSAID",
+  "brandNamesTh": [
+    "Cytotec"
+  ],
+  "indications": [
+    {
+      "text": "ป้องกันและรักษาแผลในกระเพาะจาก NSAID (NSAID-induced gastric ulcer) ในสุนัข โดยเฉพาะสัตว์ความเสี่ยงสูงที่ต้องใช้ NSAID ต่อเนื่อง",
+      "cites": [
+        "petplace-misoprostol",
+        "wedgewood-misoprostol"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามใช้ในสัตว์ตั้งท้อง — เป็น abortifacient (กระตุ้นมดลูกบีบตัว/แท้ง); ⚠️ หญิงตั้งครรภ์ห้ามสัมผัสยา; อาจทำให้ท้องเสีย/ปวดท้อง",
+      "cites": [
+        "petplace-misoprostol",
+        "wedgewood-misoprostol"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องเสีย ปวดท้อง ลมในท้อง (พบบ่อย dose-dependent); อาเจียน",
+      "cites": [
+        "petplace-misoprostol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "NSAID-induced ulcer prevention/treatment",
+      "route": "PO",
+      "dose": "2–5 mcg/kg PO ทุก 8 ชั่วโมง",
+      "cites": [
+        "petplace-misoprostol",
+        "wedgewood-misoprostol"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "petplace-misoprostol",
+      "type": "monograph",
+      "title": "Misoprostol for Dogs and Cats — PetPlace",
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/misoprostol-for-dogs-and-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wedgewood-misoprostol",
+      "type": "guideline",
+      "title": "Misoprostol (Cytotec) veterinary dosing — Wedgewood",
+      "url": "https://www.wedgewood.com/medications/misoprostol/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-misoprostol",
+      "type": "monograph",
+      "title": "Misoprostol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Misoprostol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A02BB01",
+      "name": "Misoprostol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VIN / PetPlace / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

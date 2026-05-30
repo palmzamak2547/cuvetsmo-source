@@ -1,0 +1,123 @@
+{
+  "slug": "cyclophosphamide",
+  "nameEn": "Cyclophosphamide",
+  "nameTh": "ไซโคลฟอสฟาไมด์",
+  "class": "Antineoplastic / immunosuppressant — alkylating agent (⚠️ hemorrhagic cystitis)",
+  "mechanism": "ยา alkylating ชนิด nitrogen mustard prodrug (เปลี่ยนที่ตับ) เชื่อมขวาง DNA ยับยั้งการแบ่งเซลล์; ใช้ในเคมีบำบัด (CHOP lymphoma) และกดภูมิคุ้มกัน",
+  "brandNamesTh": [
+    "Cytoxan",
+    "Endoxan"
+  ],
+  "indications": [
+    {
+      "text": "มะเร็งต่อมน้ำเหลือง (CHOP protocol), sarcoma, และโรคภูมิคุ้มกันบางชนิดในสุนัขและแมว — ยา oncology",
+      "cites": [
+        "petplace-cyclophosphamide",
+        "merck-onco-b"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ยาเคมีบำบัด PPE; ⚠️ sterile hemorrhagic cystitis จาก metabolite acrolein — ให้ตอนเช้าพร้อมขับปัสสาวะ (diuresis), ส่งเสริมการดื่มน้ำ; กดไขกระดูก; ห้ามในการติดเชื้อทางเดินปัสสาวะ active",
+      "cites": [
+        "petplace-cyclophosphamide",
+        "merck-onco-b"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก (neutropenia), GI upset, ⚠️ hemorrhagic cystitis (ปัสสาวะเป็นเลือด เบ่งปัสสาวะ), ผมร่วงในบางพันธุ์; เฝ้าระวัง CBC + urinalysis",
+      "cites": [
+        "petplace-cyclophosphamide"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Lymphoma (CHOP) / immune-mediated (specialist)",
+      "route": "PO",
+      "dose": "50 mg/m² PO วันละครั้ง แบบ 4 วันให้-3 วันหยุด หรือ 200–250 mg/m² ในรอบ CHOP — ⚠️ oncology only",
+      "notes": "ให้ตอนเช้า + ส่งเสริม diuresis เพื่อกัน hemorrhagic cystitis; ตรวจ CBC ก่อนทุกรอบ",
+      "cites": [
+        "petplace-cyclophosphamide",
+        "merck-onco-b"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC ก่อนทุกรอบ (nadir); urinalysis เฝ้าระวัง hemorrhagic cystitis; หยุดยาหากพบปัสสาวะเป็นเลือด",
+      "cites": [
+        "merck-onco-b"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "petplace-cyclophosphamide",
+      "type": "monograph",
+      "title": "Cyclophosphamide for Dogs and Cats — PetPlace",
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/cyclophosphamide-for-dogs-and-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-onco-b",
+      "type": "textbook",
+      "title": "Antineoplastic Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antineoplastic-agents/antineoplastic-agents-introduction",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-cyclophosphamide",
+      "type": "monograph",
+      "title": "Cyclophosphamide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Cyclophosphamide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L01AA01",
+      "name": "Cyclophosphamide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VIN / PetPlace / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

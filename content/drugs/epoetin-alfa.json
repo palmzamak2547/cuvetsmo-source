@@ -1,0 +1,133 @@
+{
+  "slug": "epoetin-alfa",
+  "nameEn": "Epoetin alfa (erythropoietin)",
+  "nameTh": "อีโพอิติน อัลฟา",
+  "class": "Hematopoietic — erythropoiesis-stimulating agent (anemia of CKD)",
+  "mechanism": "recombinant erythropoietin กระตุ้นไขกระดูกให้สร้างเม็ดเลือดแดง; ทดแทน erythropoietin ที่ไตสร้างลดลงในโรคไตเรื้อรัง จึงแก้ภาวะโลหิตจาง",
+  "brandNamesTh": [
+    "Epogen",
+    "Procrit",
+    "Eprex"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะโลหิตจางจากโรคไตเรื้อรัง (anemia of chronic kidney disease) ในสุนัขและแมว เมื่อ erythropoietin ภายในร่างกายไม่พอ",
+      "cites": [
+        "vin-esa",
+        "tvp-ckd-anemia"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ความเสี่ยงสำคัญ: pure red cell aplasia จาก anti-erythropoietin antibody (เพราะเป็น human recombinant ในสัตว์) — darbepoetin immunogenic น้อยกว่าและมักเลือกใช้แทน; ระวังความดันสูงและ iron deficiency",
+      "cites": [
+        "vin-esa",
+        "tvp-ckd-anemia"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "⚠️ pure red cell aplasia (antibody-mediated — อาจรุนแรง), ความดันโลหิตสูง, ชัก, iron depletion (ต้องเสริมธาตุเหล็ก)",
+      "cites": [
+        "vin-esa"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Anemia of CKD",
+      "route": "SC",
+      "dose": "100 U/kg SC สัปดาห์ละ 3 ครั้งช่วงแรก แล้วลดเป็น maintenance ตาม PCV; เสริมธาตุเหล็กร่วม",
+      "notes": "⚠️ เฝ้าระวัง PCV และ anti-EPO antibody; darbepoetin มักเป็นทางเลือกที่ดีกว่า",
+      "cites": [
+        "vin-esa",
+        "tvp-ckd-anemia"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Anemia of CKD",
+      "route": "SC",
+      "dose": "100 U/kg SC สัปดาห์ละ 3 ครั้งช่วงแรก แล้วปรับ maintenance",
+      "cites": [
+        "vin-esa"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ PCV/hematocrit ทุก 1–2 สัปดาห์ช่วงปรับขนาด, ความดันโลหิต, ระดับธาตุเหล็ก; เฝ้าระวังการตอบสนองลดลง (อาจเป็น PRCA)",
+      "cites": [
+        "vin-esa"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vin-esa",
+      "type": "guideline",
+      "title": "Erythropoiesis-Stimulating Agents in Veterinary Medicine — VIN",
+      "url": "https://www.vin.com/doc/?id=8089890",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "tvp-ckd-anemia",
+      "type": "guideline",
+      "title": "Anemia of Chronic Kidney Disease — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/nephrology-urology/anemia-of-chronic-kidney-disease/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-erythropoietin",
+      "type": "monograph",
+      "title": "Erythropoietin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Erythropoietin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "B03XA01",
+      "name": "Erythropoietin (epoetin)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VIN / PetPlace / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

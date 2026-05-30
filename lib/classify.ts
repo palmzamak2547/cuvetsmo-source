@@ -232,6 +232,34 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     order: 215,
     match: startsWithAtc('D11'),
   },
+  {
+    slug: 'antivirals',
+    label: 'Antivirals · ยาต้านไวรัส',
+    subtitle: 'Nucleoside analogues — feline herpesvirus (famciclovir)',
+    order: 220,
+    match: startsWithAtc('J05'),
+  },
+  {
+    slug: 'hepatobiliary',
+    label: 'Hepatobiliary · ยาตับและทางเดินน้ำดี',
+    subtitle: 'Bile acids + hepatoprotectants — cholestasis, liver support',
+    order: 225,
+    match: startsWithAtc('A05'),
+  },
+  {
+    slug: 'metabolic-nutritional',
+    label: 'Metabolic & nutritional · ยาเมตาบอลิกและโภชนาการ',
+    subtitle: 'Hepatoprotectants (SAMe) + appetite stimulants (capromorelin)',
+    order: 230,
+    match: startsWithAtc('A16'),
+  },
+  {
+    slug: 'hematopoietic',
+    label: 'Hematopoietic · ยากระตุ้นการสร้างเม็ดเลือด',
+    subtitle: 'Erythropoiesis-stimulating agents — anemia of chronic kidney disease',
+    order: 235,
+    match: startsWithAtc('B03'),
+  },
 ]
 
 /**

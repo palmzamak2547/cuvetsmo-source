@@ -1,0 +1,123 @@
+{
+  "slug": "sam-e",
+  "nameEn": "S-Adenosylmethionine (SAMe)",
+  "nameTh": "เอส-อะดีโนซิลเมไทโอนีน (SAMe)",
+  "class": "Metabolic / hepatoprotectant — glutathione precursor",
+  "mechanism": "สารตั้งต้นในการสร้าง glutathione (สารต้านอนุมูลอิสระหลักของตับ) และเกี่ยวข้องใน transmethylation/transsulfuration; ปกป้องเซลล์ตับจาก oxidative damage; เป็น nutraceutical hepatoprotectant",
+  "brandNamesTh": [
+    "Denosyl",
+    "Denamarin (ร่วม silybin)",
+    "Zentonil"
+  ],
+  "indications": [
+    {
+      "text": "สนับสนุนและปกป้องตับ (hepatoprotection) ในโรคตับเรื้อรัง, ตับเป็นพิษจากยา (เช่น acetaminophen, lomustine, azole), และภาวะ oxidative liver injury ในสุนัขและแมว; มักให้ร่วม silybin (Denamarin)",
+      "cites": [
+        "petplace-same",
+        "merck-hepatoprotect"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "โดยรวมปลอดภัยมาก (nutraceutical); ให้ตอนท้องว่าง (เพิ่มการดูดซึม) และเก็บเม็ดในแผง (ดูดความชื้น)",
+      "cites": [
+        "petplace-same"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พบน้อยมาก; อาจมี GI upset เล็กน้อย",
+      "cites": [
+        "petplace-same"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Hepatoprotection / liver support",
+      "route": "PO",
+      "dose": "18–20 mg/kg PO วันละครั้ง ตอนท้องว่าง",
+      "cites": [
+        "petplace-same",
+        "merck-hepatoprotect"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Hepatoprotection / liver support",
+      "route": "PO",
+      "dose": "~20 mg/kg PO วันละครั้ง ตอนท้องว่าง (มักใช้ 90 mg/ตัว)",
+      "cites": [
+        "petplace-same"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "petplace-same",
+      "type": "monograph",
+      "title": "S-Adenosylmethionine (SAMe) for Dogs and Cats — PetPlace",
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/s-adenosylmethionine-same-for-dogs-and-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-hepatoprotect",
+      "type": "textbook",
+      "title": "Hepatic Disease — Hepatoprotectants — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/treatment-of-hepatic-disease-in-small-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-s-adenosyl_methionine",
+      "type": "monograph",
+      "title": "S-Adenosylmethionine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/S-Adenosyl_methionine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A16AA90",
+      "name": "Ademetionine (SAMe)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VIN / PetPlace / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

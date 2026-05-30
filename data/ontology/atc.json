@@ -2074,5 +2074,173 @@
     "name": "Robenacoxib (veterinary)",
     "level": 5,
     "parent": "M01AH"
+  },
+  "J05": {
+    "code": "J05",
+    "name": "Antivirals for systemic use",
+    "level": 2,
+    "parent": "J"
+  },
+  "J05A": {
+    "code": "J05A",
+    "name": "Direct acting antivirals",
+    "level": 3,
+    "parent": "J05"
+  },
+  "J05AB": {
+    "code": "J05AB",
+    "name": "Nucleosides and nucleotides excl. reverse transcriptase inhibitors",
+    "level": 4,
+    "parent": "J05A"
+  },
+  "J05AB09": {
+    "code": "J05AB09",
+    "name": "Famciclovir",
+    "level": 5,
+    "parent": "J05AB"
+  },
+  "A05": {
+    "code": "A05",
+    "name": "Bile and liver therapy",
+    "level": 2,
+    "parent": "A"
+  },
+  "A05A": {
+    "code": "A05A",
+    "name": "Bile therapy",
+    "level": 3,
+    "parent": "A05"
+  },
+  "A05AA": {
+    "code": "A05AA",
+    "name": "Bile acid preparations",
+    "level": 4,
+    "parent": "A05A"
+  },
+  "A05AA02": {
+    "code": "A05AA02",
+    "name": "Ursodeoxycholic acid (ursodiol)",
+    "level": 5,
+    "parent": "A05AA"
+  },
+  "A16": {
+    "code": "A16",
+    "name": "Other alimentary tract and metabolism products",
+    "level": 2,
+    "parent": "A"
+  },
+  "A16A": {
+    "code": "A16A",
+    "name": "Other alimentary tract and metabolism products",
+    "level": 3,
+    "parent": "A16"
+  },
+  "A16AA": {
+    "code": "A16AA",
+    "name": "Amino acids and derivatives",
+    "level": 4,
+    "parent": "A16A"
+  },
+  "A16AA90": {
+    "code": "A16AA90",
+    "name": "Ademetionine (SAMe)",
+    "level": 5,
+    "parent": "A16AA"
+  },
+  "QA16QA90": {
+    "code": "QA16QA90",
+    "name": "Capromorelin (veterinary appetite stimulant)",
+    "level": 5,
+    "parent": "A16A"
+  },
+  "L01AA01": {
+    "code": "L01AA01",
+    "name": "Cyclophosphamide",
+    "level": 5,
+    "parent": "L01AA"
+  },
+  "L04AA": {
+    "code": "L04AA",
+    "name": "Selective immunosuppressants",
+    "level": 4,
+    "parent": "L04A"
+  },
+  "L04AA06": {
+    "code": "L04AA06",
+    "name": "Mycophenolic acid (mycophenolate)",
+    "level": 5,
+    "parent": "L04AA"
+  },
+  "L01BC": {
+    "code": "L01BC",
+    "name": "Pyrimidine analogues",
+    "level": 4,
+    "parent": "L01B"
+  },
+  "L01BC01": {
+    "code": "L01BC01",
+    "name": "Cytarabine",
+    "level": 5,
+    "parent": "L01BC"
+  },
+  "A02BB": {
+    "code": "A02BB",
+    "name": "Prostaglandins (GI mucosal protection)",
+    "level": 4,
+    "parent": "A02B"
+  },
+  "A02BB01": {
+    "code": "A02BB01",
+    "name": "Misoprostol",
+    "level": 5,
+    "parent": "A02BB"
+  },
+  "B03": {
+    "code": "B03",
+    "name": "Antianemic preparations",
+    "level": 2,
+    "parent": "B"
+  },
+  "B03X": {
+    "code": "B03X",
+    "name": "Other antianemic preparations",
+    "level": 3,
+    "parent": "B03"
+  },
+  "B03XA": {
+    "code": "B03XA",
+    "name": "Erythropoiesis-stimulating agents",
+    "level": 4,
+    "parent": "B03X"
+  },
+  "B03XA01": {
+    "code": "B03XA01",
+    "name": "Erythropoietin (epoetin)",
+    "level": 5,
+    "parent": "B03XA"
+  },
+  "B03XA02": {
+    "code": "B03XA02",
+    "name": "Darbepoetin alfa",
+    "level": 5,
+    "parent": "B03XA"
+  },
+  "J01FA90": {
+    "code": "J01FA90",
+    "name": "Tylosin (veterinary macrolide)",
+    "level": 5,
+    "parent": "J01FA"
+  },
+  "J01DD": {
+    "code": "J01DD",
+    "name": "Third-generation cephalosporins",
+    "level": 4,
+    "parent": "J01D"
+  },
+  "J01DD64": {
+    "code": "J01DD64",
+    "name": "Cefpodoxime proxetil",
+    "level": 5,
+    "parent": "J01DD"
   }
 }
