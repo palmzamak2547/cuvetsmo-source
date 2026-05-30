@@ -1,0 +1,121 @@
+{
+  "slug": "calcium-gluconate",
+  "nameEn": "Calcium gluconate",
+  "nameTh": "แคลเซียมกลูโคเนต",
+  "class": "Electrolyte — calcium replacement (emergency)",
+  "mechanism": "ทดแทนแคลเซียมในภาวะ hypocalcemia และทำให้เยื่อหุ้มเซลล์หัวใจคงตัว (cardioprotective) ในภาวะ hyperkalemia; ออกฤทธิ์เร็วเมื่อให้ IV",
+  "brandNamesTh": [
+    "Calcium gluconate 10%"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะแคลเซียมในเลือดต่ำเฉียบพลัน (eclampsia/ครรภ์เป็นพิษหลังคลอด, hypoparathyroidism) และป้องกันหัวใจในภาวะ hyperkalemia (เช่น urethral obstruction ในแมว)",
+      "cites": [
+        "bsava-emergency",
+        "merck-calcium"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ให้ IV ช้ามากพร้อมติด ECG — ฉีดเร็วทำให้หัวใจเต้นผิดจังหวะ/หยุดเต้น; ห้ามให้ร่วมสาย bicarbonate (ตกตะกอน); extravasation ทำให้เนื้อตาย",
+      "cites": [
+        "bsava-emergency"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นช้า/arrhythmia หากให้เร็ว, เนื้อตายจากการรั่วออกนอกหลอดเลือด; เฝ้าระวัง ECG ตลอดการให้",
+      "cites": [
+        "bsava-emergency"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Hypocalcemia / hyperkalemia cardioprotection",
+      "route": "IV",
+      "dose": "0.5–1.5 mL/kg ของสารละลาย 10% (50–150 mg/kg) IV ช้า ๆ พร้อมติด ECG",
+      "cites": [
+        "bsava-emergency",
+        "merck-calcium"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Hyperkalemia (urethral obstruction)",
+      "route": "IV",
+      "dose": "0.5–1.5 mL/kg ของสารละลาย 10% IV ช้า ๆ พร้อม ECG",
+      "cites": [
+        "bsava-emergency"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "bsava-emergency",
+      "type": "guideline",
+      "title": "Emergency doses for dogs and cats — BSAVA Formulary",
+      "year": 2025,
+      "url": "https://www.bsavalibrary.com/content/formulary/backmatter/canine-and-felineemergencydosesfordogsandcats",
+      "note": "BSAVA emergency drug dosing table. Authoritative reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-calcium",
+      "type": "textbook",
+      "title": "Fluid/Electrolyte Therapy — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/fluid-therapy/fluid-therapy-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Calcium_gluconate",
+      "type": "monograph",
+      "title": "Calcium gluconate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Calcium_gluconate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A12AA03",
+      "name": "Calcium gluconate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (RECOVER 2024 / BSAVA / Merck / AAHA / ACVIM / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

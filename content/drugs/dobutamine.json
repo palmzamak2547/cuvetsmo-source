@@ -1,0 +1,121 @@
+{
+  "slug": "dobutamine",
+  "nameEn": "Dobutamine",
+  "nameTh": "โดบูทามีน",
+  "class": "Emergency — β1-adrenergic inotrope (CRI)",
+  "mechanism": "กระตุ้น β1-adrenergic receptor เป็นหลัก เพิ่มแรงบีบหัวใจ (inotropy) โดยมีผลต่ออัตราการเต้นและความดันน้อยกว่า dopamine; ให้แบบ CRI สำหรับภาวะหัวใจบีบตัวอ่อน",
+  "brandNamesTh": [
+    "Dobutrex"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะหัวใจบีบตัวอ่อน (myocardial failure, cardiogenic shock) เพื่อเพิ่ม cardiac output; รองรับการไหลเวียนในภาวะวิกฤต; ให้แบบ CRI",
+      "cites": [
+        "merck-dobutamine",
+        "tvp-cri-b"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ให้ทาง CRI ผ่าน infusion pump เท่านั้น; ระวัง arrhythmia (โดยเฉพาะแมวที่ไวกว่า — อาจชัก); ระวังใน HCM with outflow obstruction",
+      "cites": [
+        "merck-dobutamine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นเร็ว/arrhythmia, ในแมวอาจเกิดอาการชัก (seizure) ที่ขนาดสูง; ปรับขนาดอย่างระมัดระวัง",
+      "cites": [
+        "merck-dobutamine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Myocardial failure (CRI)",
+      "route": "IV",
+      "dose": "2–15 mcg/kg/min CRI ปรับตามการตอบสนอง",
+      "cites": [
+        "merck-dobutamine",
+        "tvp-cri-b"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Myocardial failure (CRI)",
+      "route": "IV",
+      "dose": "1–5 mcg/kg/min CRI (ขนาดต่ำกว่าสุนัข — เสี่ยงชัก)",
+      "cites": [
+        "merck-dobutamine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-dobutamine",
+      "type": "textbook",
+      "title": "Positive Inotropes — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/positive-inotropes-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tvp-cri-b",
+      "type": "guideline",
+      "title": "CRI use for anesthesia and analgesia — Today's Veterinary Practice",
+      "url": "https://www.dvm360.com/view/cri-use-anesthesia-and-analgesia-proceedings",
+      "year": 2024,
+      "note": "Peer-reviewed veterinary clinical practice journal.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Dobutamine",
+      "type": "monograph",
+      "title": "Dobutamine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Dobutamine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C01CA07",
+      "name": "Dobutamine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (RECOVER 2024 / BSAVA / Merck / AAHA / ACVIM / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -172,9 +172,44 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'respiratory',
     label: 'Respiratory · ระบบทางเดินหายใจ',
-    subtitle: 'Xanthines, bronchodilators, theophylline',
+    subtitle: 'Xanthines, bronchodilators, theophylline, respiratory stimulants',
     order: 180,
-    match: startsWithAtc('R03'),
+    match: startsWithAtc('R03', 'R07'),
+  },
+  {
+    slug: 'emergency-cardiac',
+    label: 'Emergency & cardiac stimulants · ยาฉุกเฉินกระตุ้นหัวใจ',
+    subtitle: 'Adrenergic/dopaminergic agents — epinephrine, dopamine, dobutamine (CPR, shock, inotropy)',
+    order: 185,
+    match: startsWithAtc('C01CA'),
+  },
+  {
+    slug: 'fluids-electrolytes',
+    label: 'Fluids & electrolytes · สารน้ำและเกลือแร่',
+    subtitle: 'Osmotic diuretics, electrolyte replacement, dextrose',
+    order: 190,
+    match: startsWithAtc('B05', 'A12', 'V06D'),
+  },
+  {
+    slug: 'toxicology-emesis',
+    label: 'Toxicology & emesis · พิษวิทยาและยากระตุ้นอาเจียน',
+    subtitle: 'Emetics, adsorbents, antidotes for poisoning + decontamination',
+    order: 195,
+    match: startsWithAtc('A07BA', 'V03AB25', 'V03AB07'),
+  },
+  {
+    slug: 'pituitary-hormones',
+    label: 'Pituitary hormones · ฮอร์โมนต่อมใต้สมอง',
+    subtitle: 'Vasopressin analogues (desmopressin) — central diabetes insipidus',
+    order: 200,
+    match: startsWithAtc('H01B'),
+  },
+  {
+    slug: 'antineoplastics',
+    label: 'Antineoplastics · ยาเคมีบำบัด',
+    subtitle: 'Cytotoxic chemotherapy — vinca alkaloids, alkylating agents',
+    order: 205,
+    match: startsWithAtc('L01'),
   },
 ]
 

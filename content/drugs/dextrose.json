@@ -1,0 +1,122 @@
+{
+  "slug": "dextrose",
+  "nameEn": "Dextrose (glucose)",
+  "nameTh": "เด็กซ์โทรส (กลูโคส)",
+  "class": "Electrolyte/nutrient — hypoglycemia emergency",
+  "mechanism": "น้ำตาลกลูโคสทดแทนทางหลอดเลือดในภาวะน้ำตาลในเลือดต่ำ; รูปแบบเข้มข้น (50%) ต้องเจือจางก่อนให้เพราะ hyperosmolar ทำลายหลอดเลือด",
+  "brandNamesTh": [
+    "Dextrose 50%",
+    "D50W"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะน้ำตาลในเลือดต่ำเฉียบพลัน (insulin overdose, xylitol toxicity, neonatal/toy-breed hypoglycemia, insulinoma, sepsis); เติมใน maintenance fluid",
+      "cites": [
+        "bsava-emergency",
+        "recover-2024"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ สารละลายเข้มข้น (50%) ต้องเจือจาง 1:2–1:4 ก่อนให้ IV (hyperosmolar — ทำลายหลอดเลือด/ phlebitis); ระวัง rebound hyperglycemia",
+      "cites": [
+        "bsava-emergency"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "phlebitis/เนื้อตายหากให้เข้มข้นไม่เจือจาง, hyperglycemia, hyperosmolarity; ให้ช้า ๆ",
+      "cites": [
+        "bsava-emergency"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Acute hypoglycemia",
+      "route": "IV",
+      "dose": "0.5–1 mL/kg ของ 50% เจือจาง 1:2–1:4 IV ช้า ๆ (≈ 0.25–0.5 g/kg)",
+      "cites": [
+        "bsava-emergency",
+        "recover-2024"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Acute hypoglycemia",
+      "route": "IV",
+      "dose": "0.5–1 mL/kg ของ 50% เจือจาง IV ช้า ๆ",
+      "cites": [
+        "bsava-emergency"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "bsava-emergency",
+      "type": "guideline",
+      "title": "Emergency doses for dogs and cats — BSAVA Formulary",
+      "year": 2025,
+      "url": "https://www.bsavalibrary.com/content/formulary/backmatter/canine-and-felineemergencydosesfordogsandcats",
+      "note": "BSAVA emergency drug dosing table. Authoritative reference.",
+      "cid": null
+    },
+    {
+      "id": "recover-2024",
+      "type": "guideline",
+      "title": "RECOVER 2024 CPR Drug Dosing Charts (Reassessment Campaign on Veterinary Resuscitation)",
+      "year": 2024,
+      "url": "https://recoverinitiative.org/wp-content/uploads/2024/07/RECOVER-2024-Drug-Dosing-Charts-LBS.pdf",
+      "note": "Consensus veterinary CPR dosing charts. Authoritative emergency reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Glucose",
+      "type": "monograph",
+      "title": "Glucose (dextrose) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Glucose",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "V06DC01",
+      "name": "Glucose (dextrose)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (RECOVER 2024 / BSAVA / Merck / AAHA / ACVIM / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

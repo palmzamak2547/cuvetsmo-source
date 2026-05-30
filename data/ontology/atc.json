@@ -1594,5 +1594,161 @@
     "name": "Toltrazuril",
     "level": 5,
     "parent": "QP51AJ"
+  },
+  "C01CA": {
+    "code": "C01CA",
+    "name": "Adrenergic and dopaminergic agents",
+    "level": 4,
+    "parent": "C01C"
+  },
+  "C01CA24": {
+    "code": "C01CA24",
+    "name": "Epinephrine (adrenaline)",
+    "level": 5,
+    "parent": "C01CA"
+  },
+  "C01CA04": {
+    "code": "C01CA04",
+    "name": "Dopamine",
+    "level": 5,
+    "parent": "C01CA"
+  },
+  "C01CA07": {
+    "code": "C01CA07",
+    "name": "Dobutamine",
+    "level": 5,
+    "parent": "C01CA"
+  },
+  "B05B": {
+    "code": "B05B",
+    "name": "IV solutions",
+    "level": 3,
+    "parent": "B05"
+  },
+  "B05BC": {
+    "code": "B05BC",
+    "name": "Solutions producing osmotic diuresis",
+    "level": 4,
+    "parent": "B05B"
+  },
+  "B05BC01": {
+    "code": "B05BC01",
+    "name": "Mannitol",
+    "level": 5,
+    "parent": "B05BC"
+  },
+  "A12A": {
+    "code": "A12A",
+    "name": "Calcium",
+    "level": 3,
+    "parent": "A12"
+  },
+  "A12AA": {
+    "code": "A12AA",
+    "name": "Calcium",
+    "level": 4,
+    "parent": "A12A"
+  },
+  "A12AA03": {
+    "code": "A12AA03",
+    "name": "Calcium gluconate",
+    "level": 5,
+    "parent": "A12AA"
+  },
+  "V06D": {
+    "code": "V06D",
+    "name": "Other nutrients",
+    "level": 3,
+    "parent": "V06"
+  },
+  "V06DC": {
+    "code": "V06DC",
+    "name": "Carbohydrates",
+    "level": 4,
+    "parent": "V06D"
+  },
+  "V06DC01": {
+    "code": "V06DC01",
+    "name": "Glucose (dextrose)",
+    "level": 5,
+    "parent": "V06DC"
+  },
+  "H01B": {
+    "code": "H01B",
+    "name": "Posterior pituitary lobe hormones",
+    "level": 3,
+    "parent": "H01"
+  },
+  "H01BA": {
+    "code": "H01BA",
+    "name": "Vasopressin and analogues",
+    "level": 4,
+    "parent": "H01B"
+  },
+  "H01BA02": {
+    "code": "H01BA02",
+    "name": "Desmopressin",
+    "level": 5,
+    "parent": "H01BA"
+  },
+  "V03AB25": {
+    "code": "V03AB25",
+    "name": "Flumazenil",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "V03AB07": {
+    "code": "V03AB07",
+    "name": "Activated charcoal (adsorbent)",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "A07BA": {
+    "code": "A07BA",
+    "name": "Charcoal preparations",
+    "level": 4,
+    "parent": "A07B"
+  },
+  "A07BA01": {
+    "code": "A07BA01",
+    "name": "Medicinal charcoal",
+    "level": 5,
+    "parent": "A07BA"
+  },
+  "R07A": {
+    "code": "R07A",
+    "name": "Other respiratory system products",
+    "level": 3,
+    "parent": "R07"
+  },
+  "R07AB": {
+    "code": "R07AB",
+    "name": "Respiratory stimulants",
+    "level": 4,
+    "parent": "R07A"
+  },
+  "R07AB01": {
+    "code": "R07AB01",
+    "name": "Doxapram",
+    "level": 5,
+    "parent": "R07AB"
+  },
+  "N04BC02": {
+    "code": "N04BC02",
+    "name": "Apomorphine",
+    "level": 5,
+    "parent": "N04BC"
+  },
+  "L01CA": {
+    "code": "L01CA",
+    "name": "Vinca alkaloids and analogues",
+    "level": 4,
+    "parent": "L01C"
+  },
+  "L01CA02": {
+    "code": "L01CA02",
+    "name": "Vincristine",
+    "level": 5,
+    "parent": "L01CA"
   }
 }
