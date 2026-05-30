@@ -1,10 +1,12 @@
 # source.cuvetsmo.com
 
-> Verified Thai medical knowledge — citation-grade, faculty-approved, anti-AI-hallucination by construction.
+> Verified Thai veterinary drug knowledge — every claim cited to authoritative sources and cross-checked, traceable line by line.
 
-Phase 0 of the **verified knowledge platform** wedge in the CUVETSMO ecosystem. All 8 architectural primitives shipped — ready for faculty onboarding.
+The **verified data plane** of the CUVETSMO ecosystem: one source of truth (`content/drugs/*.json` + `data/ontology/*.json`) served three ways — website, public REST API, and an MCP server any agent can call.
 
-**Current state:** 43 drugs across 11 therapeutic classes · 132 citations (100% probed, 100% healthy) · 156 ATC + 41 RxNorm + 6 ICD-11 + 4 LOINC ontology codes · 1 W3C Verifiable Credential issued · 1 Ed25519 signature recorded · 25+ public routes serving · 175/175 content units pass Iron Rule 0 integrity checks.
+**Current state:** 195 drugs across 32 therapeutic classes · 792 citations · 457 ATC + 72 RxNorm + 6 ICD-11 + 4 LOINC ontology codes · every entry **◆ Verified** (cited + cross-checked across ≥2 authoritative sources) · 393 content units pass the Iron Rule 0 integrity gate (`scripts/verify.mjs`) on every push.
+
+**Trust model — cited compilation.** Authority comes from the cited sources, not from a model. Every dose, indication, and contraindication links to an authoritative reference (Merck/MSD Veterinary Manual, FDA/EMA labels, WHO ATC, VSSO, ACVIM/AAHA, peer-reviewed studies) and is cross-checked across at least two. The single headline tier is **◆ Verified**. The cryptographic faculty-signature + Verifiable-Credential infrastructure below remains in the schema as a dormant, optional future tier — no entry currently carries a faculty signature.
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for the design, [CONTRIBUTING.md](./CONTRIBUTING.md) for the editorial workflow, [FACULTY-ONBOARDING.md](./FACULTY-ONBOARDING.md) for the 30-minute first-signature flow, [CHANGELOG.md](./CHANGELOG.md) for the milestone timeline.
 
@@ -49,9 +51,9 @@ See `/sources` page for the full curation methodology.
 
 | Phase | What | Status |
 |---|---|---|
-| **0** | 8-primitive infrastructure + 43-drug catalog + 100% citation health + full provenance surfaces | ✅ shipped |
-| **1** | First faculty signoffs (3-5 entries flip from amber pending to emerald canonical) | next |
-| **2** | Expand to 100+ drugs · curriculum tagging · institutional API tier soft launch | |
+| **0** | 8-primitive infrastructure + cited-compilation catalog (195 drugs / 32 classes / 792 citations) + MCP data-plane server (stdio + HTTP) + full provenance surfaces | ✅ shipped |
+| **1** | Optional faculty signoffs (entries can flip from ◆ Verified to an emerald expert tier) · wire MCP into cuvetsmo.com/chat + VetOS | next |
+| **2** | Curriculum tagging · institutional API tier soft launch · new therapeutic classes (urinary incontinence, piprants, etc.) | |
 | **3** | Flashcard / SRS / quiz mode (the LEARN pillar bolts on) | |
 | **4** | WebGPU LLM (Phi-3 / Llama 3.2) opt-in for client-side Thai translation suggestions | |
 | **5** | BBS+ signatures for true ZK selective disclosure | |
@@ -71,7 +73,7 @@ See `/sources` page for the full curation methodology.
 
 This project is governed by Iron Rule 0: **no fabrication**.
 
-Every dose, indication, contraindication that ships canonical (`reviewedBy !== null && signatures.length > 0`) must have a verifiable citation chain. Template/pending entries render with an amber "PENDING REVIEW — NOT FOR CLINICAL USE" banner and never claim authority. `scripts/verify.mjs` enforces the rule on every PR via GitHub Actions.
+Every dose, indication, and contraindication must trace to a cited authoritative source — `scripts/verify.mjs` fails the build on any dangling citation or any clinical claim that lacks a source (`checkSourceTraceability`), and is enforced on every push via GitHub Actions + a local pre-push hook. Each entry is cross-checked across ≥2 sources before it ships as **◆ Verified**. As with any drug reference, confirm the dose against a textbook or clinical judgement before real-world use.
 
 ## Related
 
@@ -85,16 +87,17 @@ Every dose, indication, contraindication that ships canonical (`reviewedBy !== n
 | Path | What it is |
 |---|---|
 | `/` | Editorial hero + 8-primitive surfaces grid |
-| `/drugs` | 43 entries grouped by 11 therapeutic classes |
+| `/drugs` | 195 entries grouped by 32 therapeutic classes |
 | `/drugs/<slug>` | Per-drug detail with sticky sidebar (trust stamp, signatures, ontology, mirror, drafting) |
-| `/drugs/class/<slug>` | 11 therapeutic class browse pages with prev/next nav |
+| `/drugs/class/<slug>` | 32 therapeutic class browse pages with prev/next nav |
 | `/search` | Client-side filter (status + class chips), works offline after PWA install |
 | `/verify` + `/verify/<slug>` | Browser-side Ed25519 verification with animated emerald check on success |
 | `/credentials` + `/credentials/<slug>` | W3C Verifiable Credentials, did:web root of trust |
 | `/c/<cid>` | Content-addressed citation viewer with probe history |
 | `/trust` | Chain-of-trust visualization (DID → keys → credentials + entries) |
 | `/log` | Append-only transparency log |
-| `/health` | Citation upstream-URL health dashboard (132/132 healthy) |
+| `/health` | Citation upstream-URL health dashboard |
+| `/mcp` | MCP data-plane server (stdio + streamable-HTTP) — `cuvetsmo-source-mcp` package under `mcp/` |
 | `/about` | 8-primitive technology explainer + "are we first?" research with 11 cited sources |
 | `/use-cases` | 8 user personas across 3 adoption tiers + Defi-failure comparison |
 | `/onboarding` | Faculty walkthrough (~30 min first time, ~5 min per entry after) |
