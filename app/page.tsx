@@ -1,20 +1,26 @@
 import Link from 'next/link'
 import { DRUGS, verificationTier } from '@/lib/drugs'
-import { THERAPEUTIC_CLASSES, classifyDrug } from '@/lib/classify'
+import { THERAPEUTIC_CLASSES, classifyDrug, groupDrugsByClass } from '@/lib/classify'
 import HomeQuickAccess from './HomeQuickAccess'
 
 export default function Landing() {
   const total = DRUGS.length
   const community = DRUGS.filter(d => verificationTier(d) === 'community').length
   const expert = DRUGS.filter(d => verificationTier(d) === 'expert').length
-  const classCount = THERAPEUTIC_CLASSES.filter(c => DRUGS.some(d => c.match(d))).length
+  // Use the same first-match-wins grouping the /drugs page renders, so the
+  // headline class count == the number of class sections a visitor actually sees
+  // (a class whose drugs all fall under an earlier-matching class renders 0
+  // sections and must not be counted). Keeps home == /drugs == README at 31.
+  const classCount = groupDrugsByClass(DRUGS).length
   // citation count across all entries
   const citations = DRUGS.reduce((n, d) => n + d.citations.length, 0)
 
-  // Top therapeutic classes for the quick-access bar
-  const topClasses = THERAPEUTIC_CLASSES
-    .map(c => ({ slug: c.slug, label: c.label.split('·')[0].trim(), count: DRUGS.filter(d => c.match(d)).length }))
-    .filter(c => c.count > 0)
+  // Top therapeutic classes for the quick-access bar — derived from the same
+  // first-match-wins grouping the /drugs + class pages render, so every chip
+  // links to a class page that actually has those entries (no dead chips for
+  // classes whose drugs all fall under an earlier-matching class).
+  const topClasses = groupDrugsByClass(DRUGS)
+    .map(({ klass, entries }) => ({ slug: klass.slug, label: klass.label.split('·')[0].trim(), count: entries.length }))
 
   // Slim drug list for the recently-viewed lookup
   const drugIndex = DRUGS.map(d => ({
