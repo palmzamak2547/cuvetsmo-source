@@ -4,7 +4,7 @@
 
 The **verified data plane** of the CUVETSMO ecosystem: one source of truth (`content/drugs/*.json` + `data/ontology/*.json`) served three ways — website, public REST API, and an MCP server any agent can call.
 
-**Current state:** 195 drugs across 32 therapeutic classes · 792 citations · 457 ATC + 72 RxNorm + 6 ICD-11 + 4 LOINC ontology codes · every entry **◆ Verified** (cited + cross-checked across ≥2 authoritative sources) · 393 content units pass the Iron Rule 0 integrity gate (`scripts/verify.mjs`) on every push.
+**Current state:** 195 drugs across 31 therapeutic classes, with 732 cited references and 457 ATC + 72 RxNorm + 6 ICD-11 + 4 LOINC ontology codes. Every entry is **◆ Verified** — cited and cross-checked across ≥2 authoritative sources — and 393 content units pass the Iron Rule 0 integrity gate (`scripts/verify.mjs`) on every push.
 
 **Trust model — cited compilation.** Authority comes from the cited sources, not from a model. Every dose, indication, and contraindication links to an authoritative reference (Merck/MSD Veterinary Manual, FDA/EMA labels, WHO ATC, VSSO, ACVIM/AAHA, peer-reviewed studies) and is cross-checked across at least two. The single headline tier is **◆ Verified**. The cryptographic faculty-signature + Verifiable-Credential infrastructure below remains in the schema as a dormant, optional future tier — no entry currently carries a faculty signature.
 
@@ -51,7 +51,7 @@ See `/sources` page for the full curation methodology.
 
 | Phase | What | Status |
 |---|---|---|
-| **0** | 8-primitive infrastructure + cited-compilation catalog (195 drugs / 32 classes / 792 citations) + MCP data-plane server (stdio + HTTP) + full provenance surfaces | ✅ shipped |
+| **0** | 8-primitive infrastructure + cited-compilation catalog (195 drugs, 31 classes, 732 cited references) + MCP data-plane server (stdio + HTTP) + full provenance surfaces | ✅ shipped |
 | **1** | Optional faculty signoffs (entries can flip from ◆ Verified to an emerald expert tier) · wire MCP into cuvetsmo.com/chat + VetOS | next |
 | **2** | Curriculum tagging · institutional API tier soft launch · new therapeutic classes (urinary incontinence, piprants, etc.) | |
 | **3** | Flashcard / SRS / quiz mode (the LEARN pillar bolts on) | |
@@ -87,9 +87,9 @@ Every dose, indication, and contraindication must trace to a cited authoritative
 | Path | What it is |
 |---|---|
 | `/` | Editorial hero + 8-primitive surfaces grid |
-| `/drugs` | 195 entries grouped by 32 therapeutic classes |
+| `/drugs` | 195 entries grouped by 31 therapeutic classes |
 | `/drugs/<slug>` | Per-drug detail with sticky sidebar (trust stamp, signatures, ontology, mirror, drafting) |
-| `/drugs/class/<slug>` | 32 therapeutic class browse pages with prev/next nav |
+| `/drugs/class/<slug>` | 31 therapeutic class browse pages with prev/next nav |
 | `/search` | Client-side filter (status + class chips), works offline after PWA install |
 | `/verify` + `/verify/<slug>` | Browser-side Ed25519 verification with animated emerald check on success |
 | `/credentials` + `/credentials/<slug>` | W3C Verifiable Credentials, did:web root of trust |

@@ -165,7 +165,7 @@ export default function Landing() {
           <Surface
             href="/drugs"
             title="Drug Reference"
-            sub="คู่มือยาสัตวแพทย์ — 43 entries, 11 therapeutic classes"
+            sub={`คู่มือยาสัตวแพทย์ — ${total} entries, ${classCount} therapeutic classes`}
             tag="P7 git-native"
           />
           <Surface
