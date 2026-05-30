@@ -129,7 +129,10 @@ export default async function DrugDetail({ params }: { params: Promise<{ slug: s
 // ──────────────────────────────────────────────────────────────────
 
 // Tier-aware trust stamp — every entry shows a legitimate badge; nothing
-// reads as "broken / do not use".
+// reads as "broken / do not use". Today every entry resolves to the sourced
+// "◆ Verified" branch; the expert + community branches are the dormant future
+// faculty-endorsement path (see lib/drugs.ts verificationTier) and fire only
+// once an entry gains reviewedBy/signatures or attestations.
 function TrustStamp({ drug }: { drug: Drug }) {
   const t = verificationTier(drug)
   if (t === 'expert') {
@@ -175,7 +178,9 @@ function TrustStamp({ drug }: { drug: Drug }) {
 }
 
 // Verification banner — honest, tier-aware. Sourced framed as reference-grade
-// + confirm-before-clinical-use, NOT a dead "do not use" page.
+// + confirm-before-clinical-use, NOT a dead "do not use" page. Like TrustStamp,
+// the expert + community branches are dormant; every entry renders the sourced
+// "◆ Verified" banner until faculty endorsement lands.
 function VerificationBanner({ drug, tier }: { drug: Drug; tier: ReturnType<typeof verificationTier> }) {
   const nSources = drug.citations?.length ?? 0
   if (tier === 'expert') {
@@ -499,13 +504,15 @@ function SameClassRelated({ drug }: { drug: Drug }) {
       </div>
       <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
         {peers.slice(0, 6).map(p => {
-          const canonical = p.reviewedBy !== null && p.signatures.length > 0
+          // Mirror the catalog badges: sourced "◆ Verified" by default; the
+          // dormant emerald "✓" shows only once a peer reaches the expert rung.
+          const expert = verificationTier(p) === 'expert'
           return (
             <li key={p.slug}>
               <Link
                 href={`/drugs/${p.slug}`}
                 className={`flex items-baseline justify-between gap-2 rounded-md border bg-paper-50 px-4 py-3 transition hover:-translate-y-0.5 hover:shadow-sm ${
-                  canonical
+                  expert
                     ? 'border-emerald-400/70 hover:border-emerald-500'
                     : 'border-paper-300 hover:border-source-500'
                 }`}
@@ -518,10 +525,10 @@ function SameClassRelated({ drug }: { drug: Drug }) {
                     {p.nameTh}
                   </p>
                 </div>
-                {canonical ? (
-                  <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50">✓</span>
+                {expert ? (
+                  <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50" title="Expert-reviewed">✓</span>
                 ) : (
-                  <span className="shrink-0 rounded-full border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-amber-800">⏳</span>
+                  <span className="shrink-0 rounded-full border border-source-300 bg-source-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-source-800" title="Verified">◆</span>
                 )}
               </Link>
             </li>

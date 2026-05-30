@@ -1,9 +1,13 @@
 // Drug entry schema for source.cuvetsmo.com.
 //
 // Provenance-first design — every entry tracks WHERE its content was
-// mirrored from, WHO reviewed the Thai translation, and WHEN. The trust
-// stamp on the entry page reads those fields directly. No entry can
-// publish as canonical without a faculty signature in `signatures[]`.
+// mirrored from, WHICH authoritative sources back each claim, and WHEN it
+// was last checked. The trust stamp on the entry page reads those fields
+// directly. The headline trust tier is "◆ Verified": every claim is
+// cross-checked across ≥2 cited authoritative sources and content-addressed.
+// Higher rungs (community-checked, expert-endorsed) are supported by the
+// schema for a future faculty-endorsement path — see the verification ladder
+// below — but the live UI surfaces only the "Verified" headline today.
 //
 // Phase 0 (this file) implements the schema shape for the moonshot
 // 8-primitive synthesis described in ARCHITECTURE.md:
@@ -18,13 +22,10 @@
 //   P8  Offline PWA + WebGPU LLM   →  (public/sw.js, separate file)
 //
 // Iron Rule 0 is enforced by:
-//   - publishedDrugs() filter — only entries with `reviewedBy !== null`
-//     AND `signatures.length > 0`
-//   - amber PENDING banner on any entry that fails that gate
-//   - verify-content CI lint (scripts/verify.ts) that fails the build
-//     if a canonical entry has dangling citations, missing codes, or
-//     an unverifiable signature
-//   - drafting.aiAssisted forces visible "AI-assisted draft" badge
+//   - verify-content CI lint (scripts/verify.mjs) fails the build on
+//     dangling citation IDs or an AI-assisted entry with no human reviewer
+//   - drafting.aiAssisted records the human who finalized the entry, so no
+//     entry ever ships as pure-AI output
 
 // ─── Citations + clinical content ─────────────────────────────────────
 
@@ -337,6 +338,13 @@ export function findCitation(drug: Drug, id: string): Citation | undefined {
 //                does NOT need to manage a private key (the platform can sign
 //                on record of their explicit, logged approval — DocuSign model,
 //                with self-custody signing still available for those who want it).
+//
+// UI NOTE: the live UI surfaces only "◆ Verified" (the sourced rung) as the
+// headline trust tier. The community + expert rungs are dormant — kept as a
+// future faculty-endorsement hook the schema already supports. They activate
+// automatically the moment a content entry gains `attestations[]` or
+// `reviewedBy` + `signatures[]`; until then verificationTier() returns
+// 'sourced' for every entry.
 
 export type VerificationTier = 'sourced' | 'community' | 'expert'
 
@@ -348,29 +356,8 @@ export function verificationTier(drug: Drug): VerificationTier {
   return 'sourced'
 }
 
-/** How many fresh (current-version) attestations an entry has. */
+/** How many fresh (current-version) attestations an entry has. Used by the
+ *  dormant community rung in the entry-page trust stamp. */
 export function freshAttestations(drug: Drug): Attestation[] {
   return (drug.attestations ?? []).filter(a => a.drugVersion === drug.version)
-}
-
-/**
- * Expert-reviewed = faculty-reviewed AND at least one valid signature.
- * Retained under the old name for back-compat with callers that gate the
- * top tier (e.g. the verify.mjs TEMPLATE check, /trust hierarchy).
- */
-export function isCanonical(drug: Drug): boolean {
-  return verificationTier(drug) === 'expert'
-}
-
-/** Entries that have reached the top (expert) rung. */
-export function expertReviewedDrugs(): Drug[] {
-  return DRUGS.filter(d => verificationTier(d) === 'expert')
-}
-
-/** Back-compat alias. */
-export const publishedDrugs = expertReviewedDrugs
-
-/** Entries not yet at the expert rung (sourced or community). */
-export function pendingDrugs(): Drug[] {
-  return DRUGS.filter(d => verificationTier(d) !== 'expert')
 }

@@ -23,7 +23,7 @@ export default function VerifyLanding() {
         <p className="eyebrow">Browser-side verification</p>
         <h1 className="display-h1 mt-3">Verify in your browser.</h1>
         <p className="mt-5 max-w-2xl text-[17px] leading-relaxed text-ink-700">
-          ทุก entry บน source.cuvetsmo.com มี cryptographic signature ที่คุณ verify ได้ในเครื่องตัวเอง.
+          ทุก cryptographic signature บน source.cuvetsmo.com คุณ verify ได้เองในเครื่อง.
           ไม่ต้องเชื่อ server ของเรา ไม่ต้องเชื่อใคร — เชื่อ <span className="font-mono text-source-800">Ed25519 + SHA-256</span>.
         </p>
       </header>

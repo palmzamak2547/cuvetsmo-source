@@ -128,6 +128,10 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
   )
 }
 
+// Every entry currently renders the sourced "◆" badge. The expert/community
+// branches below are the dormant future faculty-endorsement path the schema
+// supports (see lib/drugs.ts verificationTier); they fire only once an entry
+// gains reviewedBy/signatures or attestations.
 function DrugCard({ drug }: { drug: Drug }) {
   const t = verificationTier(drug)
   return (
