@@ -1,0 +1,129 @@
+{
+  "slug": "vancomycin",
+  "nameEn": "Vancomycin",
+  "nameTh": "แวนโคไมซิน",
+  "class": "Antibiotic — glycopeptide (drug of last resort)",
+  "mechanism": "glycopeptide ยับยั้งการสร้างผนังเซลล์แบคทีเรีย gram-positive (จับ D-Ala-D-Ala ของ peptidoglycan); ใช้เป็นยาสำรองสุดท้ายสำหรับเชื้อ gram-positive ดื้อยา (MRSP/MRSA, Enterococcus)",
+  "brandNamesTh": [
+    "Vancocin"
+  ],
+  "indications": [
+    {
+      "text": "ติดเชื้อ gram-positive ดื้อยาหลายขนาน (MRSP, MRSA, vancomycin-susceptible Enterococcus) ที่ไม่มีทางเลือกอื่น ในสุนัขและแมว — ⚠️ ยาสำรองสุดท้าย",
+      "cites": [
+        "merck-glycopeptide",
+        "paper-vancomycin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ drug of LAST RESORT — ใช้เฉพาะเมื่อ culture/sensitivity ยืนยันไม่มีทางเลือก (กัน vancomycin resistance); พิษไต; ให้ IV ช้า (เร็วเกิด \"red man\" reaction); TDM แนะนำ; ปรับตามไต",
+      "cites": [
+        "merck-glycopeptide",
+        "paper-vancomycin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พิษไต, ให้เร็วเกิดความดันต่ำ/ผื่นแดง (red man syndrome), phlebitis; ดื้อยาเป็นความเสี่ยงระดับ public health",
+      "cites": [
+        "paper-vancomycin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Resistant gram-positive (last resort)",
+      "route": "IV",
+      "dose": "15 mg/kg IV (infuse ช้า ≥1 ชม.) ทุก 6–8 ชั่วโมง — ⚠️ TDM + ปรับตามไต",
+      "cites": [
+        "paper-vancomycin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Resistant gram-positive (last resort)",
+      "route": "IV",
+      "dose": "~15–20 mg/kg IV (infuse ช้า ≥1 ชม.) ทุก 12 ชั่วโมง — ⚠️ TDM",
+      "cites": [
+        "paper-vancomycin"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "therapeutic drug monitoring (trough) + ค่าไต; infuse ช้าเพื่อเลี่ยง red man reaction",
+      "cites": [
+        "paper-vancomycin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-glycopeptide",
+      "type": "textbook",
+      "title": "Glycopeptides Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/glycopeptides-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "paper-vancomycin",
+      "type": "paper",
+      "title": "Parenterally administered vancomycin in 29 dogs and 7 cats (2003-2017, JVIM)",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jvim.15357",
+      "year": 2023,
+      "note": "Peer-reviewed small-animal vancomycin case series.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-vancomycin",
+      "type": "monograph",
+      "title": "Vancomycin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Vancomycin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01XA01",
+      "name": "Vancomycin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / CURATIVE / Tufts CardioRush / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

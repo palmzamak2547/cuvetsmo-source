@@ -1,0 +1,131 @@
+{
+  "slug": "hydroxyurea",
+  "nameEn": "Hydroxyurea (hydroxycarbamide)",
+  "nameTh": "ไฮดรอกซียูเรีย",
+  "class": "Antineoplastic — ribonucleotide reductase inhibitor",
+  "mechanism": "ยับยั้งเอนไซม์ ribonucleotide reductase ขัดขวางการสร้าง DNA (S-phase specific) ลดการสร้างเม็ดเลือด; ใช้คุมจำนวนเซลล์ใน polycythemia vera และ chronic leukemia",
+  "brandNamesTh": [
+    "Hydrea",
+    "Droxia"
+  ],
+  "indications": [
+    {
+      "text": "polycythemia vera (เม็ดเลือดแดงมากผิดปกติ), chronic myelogenous leukemia, essential thrombocythemia, mastocytosis ในสุนัขและแมว — ลดจำนวนเซลล์",
+      "cites": [
+        "merck-polycythemia",
+        "dvm360-hydroxyurea"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ยาเคมีบำบัด PPE; กดไขกระดูก (dose-limiting) — ตรวจ CBC สม่ำเสมอ; ⚠️ ในแมวมีรายงานพิษ (methemoglobinemia, sloughing เล็บ); ปรับในไตบกพร่อง; teratogenic",
+      "cites": [
+        "merck-polycythemia",
+        "dvm360-hydroxyurea"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก (leukopenia/thrombocytopenia), GI upset, ผมร่วง, การเปลี่ยนแปลงผิวหนัง/เล็บ; แมวไวต่อพิษมากกว่า",
+      "cites": [
+        "dvm360-hydroxyurea"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Polycythemia vera / CML — specialist",
+      "route": "PO",
+      "dose": "30 mg/kg PO วันละครั้ง นาน 7–10 วัน แล้วลดเป็น 15 mg/kg วันละครั้ง ปรับตาม hematocrit/CBC (หรือ 40–50 mg/kg q48h)",
+      "cites": [
+        "merck-polycythemia",
+        "dvm360-hydroxyurea"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Polycythemia vera — specialist",
+      "route": "PO",
+      "dose": "15–30 mg/kg PO วันเว้นวัน หรือสัปดาห์ละ 2–3 ครั้ง ปรับตาม hematocrit — ⚠️ แมวระวังพิษ",
+      "cites": [
+        "dvm360-hydroxyurea"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC (RBC/WBC/platelet) สม่ำเสมอ; ปรับขนาดให้ hematocrit < 60% แล้วใช้ขนาดต่ำสุดที่คุมได้",
+      "cites": [
+        "merck-polycythemia"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-polycythemia",
+      "type": "textbook",
+      "title": "Erythrocytosis (Polycythemia) in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/circulatory-system/erythrocytosis-polycythemia/erythrocytosis-polycythemia-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "dvm360-hydroxyurea",
+      "type": "guideline",
+      "title": "Toxicology Brief: Hydroxyurea toxicosis in dogs and cats — dvm360",
+      "url": "https://www.dvm360.com/view/toxicology-brief-hydroxyurea-toxicosis-dogs-and-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-hydroxycarbamide",
+      "type": "monograph",
+      "title": "Hydroxycarbamide (hydroxyurea) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Hydroxycarbamide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L01XX05",
+      "name": "Hydroxycarbamide (hydroxyurea)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / CURATIVE / Tufts CardioRush / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

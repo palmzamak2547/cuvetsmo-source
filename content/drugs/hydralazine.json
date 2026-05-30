@@ -1,0 +1,130 @@
+{
+  "slug": "hydralazine",
+  "nameEn": "Hydralazine",
+  "nameTh": "ไฮดราลาซีน",
+  "class": "Cardiovascular — arteriolar vasodilator",
+  "mechanism": "ขยายหลอดเลือดแดงโดยตรง (direct arteriolar vasodilator) คลายกล้ามเนื้อเรียบหลอดเลือด ลด afterload จึงลด mitral regurgitation และเพิ่ม forward stroke volume",
+  "brandNamesTh": [
+    "Apresoline"
+  ],
+  "indications": [
+    {
+      "text": "ลด afterload ใน mitral regurgitation รุนแรง/CHF (โดยเฉพาะจาก degenerative mitral valve disease หรือ DCM) และความดันโลหิตสูงในสุนัขและแมว — มักใช้เมื่อ ACEi ไม่พอ",
+      "cites": [
+        "merck-vasoactive",
+        "tufts-hydralazine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ titrate จากขนาดต่ำ เฝ้าระวัง hypotension (เป้า systolic 90–100 mmHg ใน acute CHF); reflex tachycardia + Na/water retention (อาจต้องใช้คู่ diuretic); ระวังในขาดน้ำ",
+      "cites": [
+        "merck-vasoactive",
+        "tufts-hydralazine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ, หัวใจเต้นเร็วสะท้อนกลับ (reflex tachycardia), ซึม/อ่อนแรง, GI upset, คั่งน้ำ-โซเดียม",
+      "cites": [
+        "merck-vasoactive"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Afterload reduction (mitral regurgitation / CHF)",
+      "route": "PO",
+      "dose": "0.5–2 mg/kg PO ทุก 12 ชั่วโมง (เริ่มต่ำแล้ว titrate ตามความดัน; ช่วงกว้าง 0.5–3 mg/kg)",
+      "cites": [
+        "merck-vasoactive",
+        "tufts-hydralazine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Hypertension / afterload reduction",
+      "route": "PO",
+      "dose": "2.5 mg/ตัว PO ทุก 12 ชั่วโมง (titrate)",
+      "cites": [
+        "tufts-hydralazine"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจความดันโลหิต (เลี่ยง hypotension) + อัตราการเต้นหัวใจ + ค่าไตเมื่อ titrate",
+      "cites": [
+        "merck-vasoactive"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-vasoactive",
+      "type": "textbook",
+      "title": "Vasoactive Drugs for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/vasoactive-drugs-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tufts-hydralazine",
+      "type": "guideline",
+      "title": "Hydralazine — Tufts CardioRush Cardiology Drug Formulary",
+      "url": "https://sites.tufts.edu/cardiorush/cardiology-drug-formulary/",
+      "year": 2024,
+      "note": "Tufts cardiology reference dosing.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-hydralazine",
+      "type": "monograph",
+      "title": "Hydralazine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Hydralazine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C02DB02",
+      "name": "Hydralazine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / CURATIVE / Tufts CardioRush / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "voriconazole",
+  "nameEn": "Voriconazole",
+  "nameTh": "โวริโคนาโซล",
+  "class": "Antifungal — second-generation triazole",
+  "mechanism": "triazole รุ่นใหม่ ยับยั้ง fungal CYP450 (14-alpha-demethylase) ลดการสร้าง ergosterol; ออกฤทธิ์กว้างรวม Aspergillus และซึมเข้าระบบประสาท/ตาได้ดี",
+  "brandNamesTh": [
+    "Vfend"
+  ],
+  "indications": [
+    {
+      "text": "เชื้อรารุกราน โดยเฉพาะ aspergillosis (รวม sinonasal/CNS), เชื้อราที่ดื้อ itraconazole ในสุนัข; ใช้ในแมวได้แต่ต้องระวังพิษมาก",
+      "cites": [
+        "merck-azoles",
+        "paper-voriconazole"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ แมวไวต่อพิษรุนแรง (ขนาดคน/สุนัข 5 mg/kg q12h ทำให้แมวตายได้ — visual abnormality, ataxia, arrhythmia) ใช้ขนาดต่ำ + therapeutic drug monitoring; พิษตับ; ปฏิกิริยายาหลายชนิด (CYP); narrow therapeutic window",
+      "cites": [
+        "paper-voriconazole",
+        "merck-azoles"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พิษตับ, ความผิดปกติการมองเห็น, ataxia/neurotoxicity, K+ ต่ำ, หัวใจเต้นผิดจังหวะ (เด่นในแมว)",
+      "cites": [
+        "paper-voriconazole"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Aspergillosis / invasive mycosis",
+      "route": "PO",
+      "dose": "2.5–3.3 mg/kg PO ทุก 12 ชั่วโมง (ปรับด้วย TDM, trough 1–5 mg/L)",
+      "cites": [
+        "paper-voriconazole"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Aspergillosis — extreme caution",
+      "route": "PO",
+      "dose": "⚠️ induction ~25 mg/ตัว PO ครั้งเดียว แล้ว 12.5 mg/ตัว PO ทุก 48 ชั่วโมง (≈ 2–2.7 mg/kg) — ระวังพิษ + TDM",
+      "cites": [
+        "paper-voriconazole"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "therapeutic drug monitoring (trough 1–5 mg/L); ค่าตับ; electrolyte + ECG ในแมว",
+      "cites": [
+        "paper-voriconazole"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-azoles",
+      "type": "textbook",
+      "title": "Azoles for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/azoles-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "paper-voriconazole",
+      "type": "paper",
+      "title": "Pharmacokinetics of voriconazole after IV and oral administration to healthy cats (AJVR)",
+      "url": "https://avmajournals.avma.org/view/journals/ajvr/77/9/ajvr.77.9.931.xml",
+      "year": 2023,
+      "note": "Peer-reviewed feline voriconazole PK + toxicity study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-voriconazole",
+      "type": "monograph",
+      "title": "Voriconazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Voriconazole",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J02AC03",
+      "name": "Voriconazole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / CURATIVE / Tufts CardioRush / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

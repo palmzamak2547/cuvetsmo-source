@@ -1,0 +1,122 @@
+{
+  "slug": "propranolol",
+  "nameEn": "Propranolol",
+  "nameTh": "โพรพราโนลอล",
+  "class": "Cardiovascular — non-selective beta blocker",
+  "mechanism": "ปิดกั้น beta-1 และ beta-2 adrenergic receptor (non-selective) ลดอัตราและแรงบีบหัวใจ ลดความต้องการออกซิเจน และคุมการเต้นผิดจังหวะ; ลดอาการ tachycardia จากไทรอยด์เป็นพิษ",
+  "brandNamesTh": [
+    "Inderal"
+  ],
+  "indications": [
+    {
+      "text": "หัวใจเต้นผิดจังหวะ (supraventricular tachycardia, atrial fibrillation/flutter, PVC), tachycardia จาก hyperthyroidism (แมว) และ pheochromocytoma ในสุนัขและแมว",
+      "cites": [
+        "merck-antiarrhythmic-j",
+        "vca-propranolol"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้าม/ระวังในโรคทางเดินหายใจ (asthma — beta-2 block ทำหลอดลมหด), หัวใจล้มเหลวที่ยังไม่คุม, bradycardia/AV block; ห้ามหยุดกะทันหัน (rebound); ระวังในเบาหวาน (บัง hypoglycemia)",
+      "cites": [
+        "merck-antiarrhythmic-j",
+        "vca-propranolol"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นช้า, ความดันต่ำ, หลอดลมหดเกร็ง, ซึม/อ่อนแรง, แย่ลงใน CHF ที่ไม่คุม",
+      "cites": [
+        "vca-propranolol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Arrhythmia (titrate)",
+      "route": "PO",
+      "dose": "0.2–1 mg/kg PO ทุก 8 ชั่วโมง (เริ่มต่ำ titrate ตามผล)",
+      "cites": [
+        "merck-antiarrhythmic-j",
+        "vca-propranolol"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Arrhythmia / hyperthyroid tachycardia",
+      "route": "PO",
+      "dose": "0.4–1.2 mg/kg (2.5–5 mg/ตัว) PO ทุก 8 ชั่วโมง",
+      "cites": [
+        "vca-propranolol"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-antiarrhythmic-j",
+      "type": "textbook",
+      "title": "Antiarrhythmics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/antiarrhythmics-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vca-propranolol",
+      "type": "monograph",
+      "title": "Propranolol — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/propranolol",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-propranolol",
+      "type": "monograph",
+      "title": "Propranolol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Propranolol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C07AA05",
+      "name": "Propranolol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / CURATIVE / Tufts CardioRush / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

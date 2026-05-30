@@ -2560,5 +2560,125 @@
     "name": "Leflunomide",
     "level": 5,
     "parent": "L04AA"
+  },
+  "QP53A": {
+    "code": "QP53A",
+    "name": "Ectoparasiticides for topical use incl. insecticides",
+    "level": 3,
+    "parent": "QP53"
+  },
+  "QP53AD": {
+    "code": "QP53AD",
+    "name": "Amidines (formamidine acaricides)",
+    "level": 4,
+    "parent": "QP53A"
+  },
+  "QP53AD01": {
+    "code": "QP53AD01",
+    "name": "Amitraz",
+    "level": 5,
+    "parent": "QP53AD"
+  },
+  "L01XX": {
+    "code": "L01XX",
+    "name": "Other antineoplastic agents",
+    "level": 4,
+    "parent": "L01X"
+  },
+  "L01XX02": {
+    "code": "L01XX02",
+    "name": "Asparaginase",
+    "level": 5,
+    "parent": "L01XX"
+  },
+  "L01XX05": {
+    "code": "L01XX05",
+    "name": "Hydroxycarbamide (hydroxyurea)",
+    "level": 5,
+    "parent": "L01XX"
+  },
+  "B01AF": {
+    "code": "B01AF",
+    "name": "Direct factor Xa inhibitors",
+    "level": 4,
+    "parent": "B01A"
+  },
+  "B01AF01": {
+    "code": "B01AF01",
+    "name": "Rivaroxaban",
+    "level": 5,
+    "parent": "B01AF"
+  },
+  "J02AC03": {
+    "code": "J02AC03",
+    "name": "Voriconazole",
+    "level": 5,
+    "parent": "J02AC"
+  },
+  "N03AX10": {
+    "code": "N03AX10",
+    "name": "Felbamate",
+    "level": 5,
+    "parent": "N03AX"
+  },
+  "C02D": {
+    "code": "C02D",
+    "name": "Arteriolar smooth muscle, agents acting on",
+    "level": 3,
+    "parent": "C02"
+  },
+  "C02DB": {
+    "code": "C02DB",
+    "name": "Hydrazinophthalazine derivatives",
+    "level": 4,
+    "parent": "C02D"
+  },
+  "C02DB02": {
+    "code": "C02DB02",
+    "name": "Hydralazine",
+    "level": 5,
+    "parent": "C02DB"
+  },
+  "A04AA04": {
+    "code": "A04AA04",
+    "name": "Dolasetron",
+    "level": 5,
+    "parent": "A04AA"
+  },
+  "C07AA05": {
+    "code": "C07AA05",
+    "name": "Propranolol",
+    "level": 5,
+    "parent": "C07AA"
+  },
+  "QN05CM": {
+    "code": "QN05CM",
+    "name": "Other hypnotics and sedatives",
+    "level": 4,
+    "parent": "N05C"
+  },
+  "QN05CM92": {
+    "code": "QN05CM92",
+    "name": "Xylazine",
+    "level": 5,
+    "parent": "QN05CM"
+  },
+  "J01XA": {
+    "code": "J01XA",
+    "name": "Glycopeptide antibacterials",
+    "level": 4,
+    "parent": "J01X"
+  },
+  "J01XA01": {
+    "code": "J01XA01",
+    "name": "Vancomycin",
+    "level": 5,
+    "parent": "J01XA"
+  },
+  "J01DD04": {
+    "code": "J01DD04",
+    "name": "Ceftriaxone",
+    "level": 5,
+    "parent": "J01DD"
   }
 }

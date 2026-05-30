@@ -1,0 +1,129 @@
+{
+  "slug": "rivaroxaban",
+  "nameEn": "Rivaroxaban",
+  "nameTh": "ริวารอกซาบัน",
+  "class": "Hematology — direct factor Xa inhibitor (oral anticoagulant)",
+  "mechanism": "ยับยั้ง factor Xa โดยตรง (DOAC) ขัดขวางการสร้าง thrombin จึงป้องกันลิ่มเลือด; กินได้ ไม่ต้อง monitor บ่อยเท่า heparin/warfarin",
+  "brandNamesTh": [
+    "Xarelto"
+  ],
+  "indications": [
+    {
+      "text": "ป้องกัน/รักษาลิ่มเลือดอุดตันแดง โดยเฉพาะ feline arterial thromboembolism (ATE) จากโรคหัวใจ (HCM); cardiac chamber thrombus; ใช้เดี่ยวหรือคู่ clopidogrel",
+      "cites": [
+        "curative-rivaroxaban",
+        "paper-rivaroxaban-cat"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้าม/ระวังในภาวะเลือดออกหรือเสี่ยงเลือดออก; ไม่มี antidote เฉพาะที่ใช้ง่ายในสัตว์ (andexanet แพง); ปรับในตับ/ไตบกพร่อง; หยุดก่อนผ่าตัด",
+      "cites": [
+        "curative-rivaroxaban"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เลือดออก (เด่นสุด — เหงือก ทางเดินอาหาร ปัสสาวะ), GI upset; โดยรวมทนได้ดีในแมว",
+      "cites": [
+        "paper-rivaroxaban-cat"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Arterial thromboembolism (ATE)",
+      "route": "PO",
+      "dose": "0.5–1 mg/kg PO วันละครั้ง (ตาม CURATIVE); ขนาดที่ใช้จริงบ่อย 2.5 mg/ตัว วันละครั้ง",
+      "cites": [
+        "curative-rivaroxaban",
+        "paper-rivaroxaban-cat"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Thromboembolism",
+      "route": "PO",
+      "dose": "1–2 mg/kg/วัน PO (แบ่งหรือครั้งเดียว ตามความเสี่ยง)",
+      "cites": [
+        "curative-rivaroxaban"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "เฝ้าระวังอาการเลือดออกทางคลินิก; anti-Xa (rivaroxaban-calibrated) หรือ TEG/PT ใช้ติดตามได้แต่ไม่บังคับ",
+      "cites": [
+        "curative-rivaroxaban"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "curative-rivaroxaban",
+      "type": "guideline",
+      "title": "CURATIVE consensus on rational use of antithrombotics — direct Xa inhibitors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6498440/",
+      "year": 2024,
+      "note": "Veterinary consensus / clinical guideline.",
+      "cid": null
+    },
+    {
+      "id": "paper-rivaroxaban-cat",
+      "type": "paper",
+      "title": "Indications and outcomes of rivaroxaban use in cats (Frontiers Vet Sci)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12226864/",
+      "year": 2023,
+      "note": "Peer-reviewed feline rivaroxaban outcome study (66 cats).",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-rivaroxaban",
+      "type": "monograph",
+      "title": "Rivaroxaban — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Rivaroxaban",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "B01AF01",
+      "name": "Rivaroxaban",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / CURATIVE / Tufts CardioRush / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

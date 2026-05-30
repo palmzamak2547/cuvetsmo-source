@@ -1,0 +1,121 @@
+{
+  "slug": "felbamate",
+  "nameEn": "Felbamate",
+  "nameTh": "เฟลบาเมต",
+  "class": "Anticonvulsant — dicarbamate (add-on)",
+  "mechanism": "ออกฤทธิ์หลายกลไก — ยับยั้ง NMDA receptor และเสริม GABA; ใช้เสริม (add-on) ในการชักที่ดื้อยา ข้อดีคือไม่ค่อยกดประสาทและไม่กระทบ phenobarbital level",
+  "brandNamesTh": [
+    "Felbatol"
+  ],
+  "indications": [
+    {
+      "text": "การชักที่ดื้อยา (refractory epilepsy) ในสุนัข — เป็นยาเสริม โดยเฉพาะ focal seizures; margin of safety กว้าง",
+      "cites": [
+        "merck-anticonvulsant-j",
+        "tvp-epilepsy"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ พิษตับ (โดยเฉพาะใช้ร่วม phenobarbital) — ตรวจตับ; blood dyscrasia (leukopenia/thrombocytopenia); keratoconjunctivitis sicca (ตาแห้ง); ปรับในตับบกพร่อง; ห้ามหยุดกะทันหัน",
+      "cites": [
+        "merck-anticonvulsant-j",
+        "tvp-epilepsy"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ตัวสั่น น้ำลายมาก กระสับกระส่าย (ขนาดสูง), ตาแห้ง (KCS), พิษตับ, เม็ดเลือดผิดปกติ; ไม่ค่อยกดประสาท",
+      "cites": [
+        "tvp-epilepsy"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Refractory epilepsy (add-on)",
+      "route": "PO",
+      "dose": "15–20 mg/kg PO ทุก 8 ชั่วโมง; เพิ่มทีละ 15 mg/kg ทุก 2 สัปดาห์ตามต้องการ (สูงสุด ~70 mg/kg q8h)",
+      "cites": [
+        "merck-anticonvulsant-j",
+        "tvp-epilepsy"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจค่าตับ + CBC + ตา (Schirmer) ทุก ~6 เดือน โดยเฉพาะเมื่อใช้ร่วม phenobarbital",
+      "cites": [
+        "tvp-epilepsy"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-anticonvulsant-j",
+      "type": "textbook",
+      "title": "Anticonvulsants for Treatment of Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/anticonvulsants-for-treatment-of-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tvp-epilepsy",
+      "type": "guideline",
+      "title": "Antiseizure Medications for Dogs and Cats — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/pharmacology/antiseizure-medications-for-dogs-and-cats/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-felbamate",
+      "type": "monograph",
+      "title": "Felbamate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Felbamate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "N03AX10",
+      "name": "Felbamate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / CURATIVE / Tufts CardioRush / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "dolasetron",
+  "nameEn": "Dolasetron",
+  "nameTh": "โดลาเซตรอน",
+  "class": "Anti-emetic — 5-HT3 receptor antagonist",
+  "mechanism": "ปิดกั้น serotonin 5-HT3 receptor ทั้งส่วนกลาง (chemoreceptor trigger zone) และส่วนปลาย (vagal afferent ในลำไส้) ยับยั้งการอาเจียน; กลุ่มเดียวกับ ondansetron แต่ให้วันละครั้ง",
+  "brandNamesTh": [
+    "Anzemet"
+  ],
+  "indications": [
+    {
+      "text": "อาเจียน/คลื่นไส้ที่ดื้อยา โดยเฉพาะจากเคมีบำบัด, ไตวาย, pancreatitis, parvovirus ในสุนัขและแมว — ให้ก่อนเคมีบำบัด 30 นาที",
+      "cites": [
+        "merck-emesis-j",
+        "ref-dolasetron"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวัง ECG changes (PR/QT prolongation, QRS widening จาก metabolite block Na channel) — ใช้ระวังในโรคหัวใจ/ร่วมยา arrhythmogenic; ปรับในตับบกพร่อง",
+      "cites": [
+        "ref-dolasetron"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "โดยรวมทนได้ดี; ECG interval prolongation ที่ขนาดสูง; ปวด/บวมจุดฉีด",
+      "cites": [
+        "ref-dolasetron"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Vomiting / chemo-induced nausea",
+      "route": "IV",
+      "dose": "0.6–1 mg/kg IV/PO วันละครั้ง (หรือ 30 นาทีก่อนเคมีบำบัด)",
+      "cites": [
+        "merck-emesis-j",
+        "ref-dolasetron"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Vomiting / chemo-induced nausea",
+      "route": "IV",
+      "dose": "0.6–1 mg/kg IV/PO วันละครั้ง",
+      "cites": [
+        "ref-dolasetron"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-emesis-j",
+      "type": "textbook",
+      "title": "Drugs Used to Control or Stimulate Vomiting in Monogastric Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-control-or-stimulate-vomiting-in-monogastric-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "ref-dolasetron",
+      "type": "guideline",
+      "title": "Dolasetron (Anzemet) veterinary antiemetic dosing",
+      "url": "https://wendyblount.com/handouts-drugs/DrugHandout-Dolasetron.pdf",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-dolasetron",
+      "type": "monograph",
+      "title": "Dolasetron — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Dolasetron",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A04AA04",
+      "name": "Dolasetron",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / CURATIVE / Tufts CardioRush / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
