@@ -335,7 +335,7 @@ export default function AboutPage() {
             <b>เราไม่ใช่ blockchain project.</b> ไม่มี token, ไม่มี mining, ไม่มี smart contract. Ed25519 signatures + Git history + content addressing — เครื่องมือธรรมดาที่ standardized + boring + works.
           </Boundary>
           <Boundary>
-            <b>เราไม่ใช่การแทนที่อาจารย์.</b> ทุก canonical content ต้องมีอาจารย์ผู้เชี่ยวชาญลงชื่อรับรอง. โดยจะดูจาก <code>reviewedBy !== null</code> + <code>signatures.length &gt; 0</code>.
+            <b>เราไม่ใช่การแทนที่อาจารย์.</b> ความน่าเชื่อถือเป็นบันได 3 ขั้น: <b>◆ Sourced</b> (ทุก claim อ้างอิงแหล่ง + cross-check), <b>✓✓ Community-checked</b> (ผู้ใช้อิสระยืนยัน), <b>✓ Expert-reviewed</b> (อาจารย์รับรอง + Ed25519). ขั้นสูงสุดต้องมีอาจารย์ลงชื่อ — แต่ทุก entry ใช้อ้างอิงได้ตั้งแต่ขั้น Sourced.
           </Boundary>
           <Boundary>
             <b>เราไม่ใช่ clinical advice.</b> Entry ที่ <i>pending</i> ห้ามใช้อ้างอิงทางคลินิก. แม้แต่ canonical entries — ยังเป็น

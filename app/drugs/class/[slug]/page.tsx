@@ -30,8 +30,8 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
   const entries = DRUGS.filter(d => classifyDrug(d)?.slug === klass.slug)
     .sort((a, b) => a.nameEn.localeCompare(b.nameEn))
 
-  const canonical = entries.filter(e => e.reviewedBy !== null && e.signatures.length > 0).length
-  const pending = entries.length - canonical
+  const community = entries.filter(e => verificationTier(e) === 'community').length
+  const expert = entries.filter(e => verificationTier(e) === 'expert').length
 
   // Adjacent classes for navigation
   const idx = THERAPEUTIC_CLASSES.findIndex(c => c.slug === klass.slug)
@@ -52,16 +52,18 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
         </p>
         <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-1 text-[11px] tabular text-ink-500">
           <span>{entries.length} entries</span>
-          {canonical > 0 && (
+          <span aria-hidden>·</span>
+          <span className="text-source-800">◆ {entries.length} sourced</span>
+          {community > 0 && (
             <>
               <span aria-hidden>·</span>
-              <span className="text-emerald-800">{canonical} canonical</span>
+              <span className="text-sky-800">✓✓ {community} community-checked</span>
             </>
           )}
-          {pending > 0 && (
+          {expert > 0 && (
             <>
               <span aria-hidden>·</span>
-              <span className="text-amber-800">{pending} pending</span>
+              <span className="text-emerald-800">✓ {expert} expert-reviewed</span>
             </>
           )}
         </div>
@@ -127,14 +129,16 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
 }
 
 function DrugCard({ drug }: { drug: Drug }) {
-  const canonical = drug.reviewedBy !== null && drug.signatures.length > 0
+  const t = verificationTier(drug)
   return (
     <li>
       <Link
         href={`/drugs/${drug.slug}`}
         className={`flex h-full flex-col rounded-md border bg-paper-50 p-5 transition hover:-translate-y-0.5 hover:shadow-sm ${
-          canonical
+          t === 'expert'
             ? 'border-emerald-400/70 hover:border-emerald-500 hover:bg-emerald-50/40'
+            : t === 'community'
+            ? 'border-sky-400/70 hover:border-sky-500 hover:bg-sky-50/40'
             : 'border-paper-300 hover:border-source-500 hover:bg-paper-100/60'
         }`}
       >
@@ -142,10 +146,12 @@ function DrugCard({ drug }: { drug: Drug }) {
           <h3 className="text-[17px] font-semibold tracking-tight text-ink-900" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>
             {drug.nameEn}
           </h3>
-          {canonical ? (
-            <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50">✓</span>
+          {t === 'expert' ? (
+            <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50" title="Expert-reviewed">✓</span>
+          ) : t === 'community' ? (
+            <span className="shrink-0 rounded-full bg-sky-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-sky-50" title="Community-checked">✓✓</span>
           ) : (
-            <span className="shrink-0 rounded-full border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-amber-800">⏳</span>
+            <span className="shrink-0 rounded-full border border-source-300 bg-source-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-source-800" title="Sourced">◆</span>
           )}
         </div>
         <p className="text-[13px] italic text-ink-700" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>{drug.nameTh}</p>
@@ -164,12 +170,6 @@ function DrugCard({ drug }: { drug: Drug }) {
             <>
               <span aria-hidden>·</span>
               <span>{drug.mirroredFrom.length} sources</span>
-            </>
-          )}
-          {drug.signatures.length > 0 && (
-            <>
-              <span aria-hidden>·</span>
-              <span className="text-source-800">🔏 {drug.signatures.length}</span>
             </>
           )}
         </div>
