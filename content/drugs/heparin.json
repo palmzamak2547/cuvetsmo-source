@@ -1,0 +1,129 @@
+{
+  "slug": "heparin",
+  "nameEn": "Heparin (unfractionated)",
+  "nameTh": "เฮพาริน (ชนิดไม่แยกส่วน)",
+  "class": "Hematology — anticoagulant (antithrombin potentiator)",
+  "mechanism": "เร่งการทำงานของ antithrombin III หลายเท่า ยับยั้ง thrombin (IIa) และ factor Xa จึงป้องกันการเกิดลิ่มเลือด; unfractionated ออกฤทธิ์เร็ว ปรับขนาดด้วยการตรวจการแข็งตัว",
+  "brandNamesTh": [
+    "Heparin sodium"
+  ],
+  "indications": [
+    {
+      "text": "ป้องกัน/รักษาภาวะลิ่มเลือดอุดตัน (feline arterial thromboembolism, DIC, pulmonary thromboembolism, IMHA thromboprophylaxis) ในสุนัขและแมว",
+      "cites": [
+        "merck-anticoagulant-h",
+        "acvim-curative"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามในภาวะเลือดออกหรือเสี่ยงเลือดออก; ต้อง monitor (aPTT หรือ anti-Xa); antidote = protamine sulfate; ไม่ให้ IM (hematoma)",
+      "cites": [
+        "merck-anticoagulant-h"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เลือดออก (เด่นสุด), thrombocytopenia, hematoma จุดฉีด; ต้องเฝ้าระวัง coagulation",
+      "cites": [
+        "acvim-curative"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Thromboprophylaxis / treatment",
+      "route": "SC",
+      "dose": "100–300 IU/kg SC ทุก 6–8 ชั่วโมง แล้วปรับตาม aPTT/anti-Xa",
+      "cites": [
+        "merck-anticoagulant-h",
+        "acvim-curative"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Arterial thromboembolism (ATE)",
+      "route": "SC",
+      "dose": "250–300 IU/kg SC ทุก 6 ชั่วโมง แล้วปรับตามการตรวจการแข็งตัว",
+      "cites": [
+        "acvim-curative"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ aPTT (เป้าหมาย ~1.5–2 เท่าของ baseline) หรือ anti-Xa; เฝ้าระวังเลือดออก + เกล็ดเลือด",
+      "cites": [
+        "acvim-curative"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-anticoagulant-h",
+      "type": "textbook",
+      "title": "Anticoagulants — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/hemostatic-and-anticoagulant-drugs",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "acvim-curative",
+      "type": "guideline",
+      "title": "CURATIVE consensus on rational use of antithrombotics in veterinary critical care",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6498440/",
+      "year": 2024,
+      "note": "ACVIM/AAHA consensus or guideline.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-heparin",
+      "type": "monograph",
+      "title": "Heparin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Heparin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "B01AB01",
+      "name": "Heparin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / EMA-FDA labels / VSSO / ACVIM-AAHA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "ampicillin",
+  "nameEn": "Ampicillin",
+  "nameTh": "แอมพิซิลลิน",
+  "class": "Antibiotic — aminopenicillin (beta-lactam)",
+  "mechanism": "aminopenicillin ออกฤทธิ์ฆ่าเชื้อโดยยับยั้งการสร้างผนังเซลล์แบคทีเรีย (bind penicillin-binding proteins); ครอบคลุมกว้างกว่า penicillin G เล็กน้อย (รวม gram-negative บางชนิด) แต่ถูก beta-lactamase ทำลายได้",
+  "brandNamesTh": [
+    "Polyflex",
+    "Ampicillin sodium"
+  ],
+  "indications": [
+    {
+      "text": "ติดเชื้อแบคทีเรียที่ไวต่อยา (ทางเดินปัสสาวะ ผิวหนัง ทางเดินหายใจ leptospirosis); รูปฉีดนิยมกว่ารูปกินเพราะการดูดซึมทางปากต่ำ (amoxicillin ดูดซึมดีกว่าสำหรับ PO)",
+      "cites": [
+        "merck-penicillins-h",
+        "vca-ampicillin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามใช้ในสัตว์แพ้ penicillin/cephalosporin; ปรับขนาดในไตบกพร่อง; ลด efficacy ต่อเชื้อที่สร้าง beta-lactamase (ใช้ amoxicillin-clavulanate แทน)",
+      "cites": [
+        "merck-penicillins-h"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset (อาเจียน ท้องเสีย), แพ้ยา (ผื่น anaphylaxis ได้น้อย), เปลี่ยนแปลง gut flora",
+      "cites": [
+        "vca-ampicillin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Susceptible bacterial infection",
+      "route": "IV",
+      "dose": "10–20 mg/kg IV/IM/SC ทุก 6–8 ชั่วโมง (รูปฉีด); 20–40 mg/kg PO ทุก 8 ชม. แต่ดูดซึมต่ำ",
+      "cites": [
+        "merck-penicillins-h",
+        "vca-ampicillin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Susceptible bacterial infection",
+      "route": "IV",
+      "dose": "10–20 mg/kg IV/IM/SC ทุก 6–8 ชั่วโมง",
+      "cites": [
+        "merck-penicillins-h"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-penicillins-h",
+      "type": "textbook",
+      "title": "Penicillins — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/penicillins",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vca-ampicillin",
+      "type": "monograph",
+      "title": "Ampicillin — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/ampicillin",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-ampicillin",
+      "type": "monograph",
+      "title": "Ampicillin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ampicillin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01CA01",
+      "name": "Ampicillin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / EMA-FDA labels / VSSO / ACVIM-AAHA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

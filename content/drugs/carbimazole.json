@@ -1,0 +1,131 @@
+{
+  "slug": "carbimazole",
+  "nameEn": "Carbimazole",
+  "nameTh": "คาร์บิมาโซล",
+  "class": "Endocrine — antithyroid (methimazole prodrug)",
+  "mechanism": "prodrug ที่ถูกเปลี่ยนเป็น methimazole (thiamazole) ในร่างกาย ยับยั้ง thyroid peroxidase ลดการสร้างฮอร์โมนไทรอยด์; มีรูป controlled-release (Vidalta) ให้วันละครั้ง",
+  "brandNamesTh": [
+    "Vidalta",
+    "Neo-Mercazole"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะไทรอยด์เป็นพิษในแมว (feline hyperthyroidism) — ทั้งคุมอาการระยะยาวและเตรียมก่อนผ่าตัด/รังสีไอโอดีน; รูป controlled-release ให้วันละครั้ง",
+      "cites": [
+        "ema-vidalta",
+        "everycat-carbimazole"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวัง hepatotoxicity และ blood dyscrasia (neutropenia/thrombocytopenia) — ตรวจ CBC + ตับ; ห้ามในตั้งท้อง/ให้นม; ขนาด >20 mg/วันใช้ด้วยความระวัง",
+      "cites": [
+        "ema-vidalta",
+        "everycat-carbimazole"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน เบื่ออาหาร ซึม (ช่วงแรก), คันหน้า/excoriation, ตับเอนไซม์สูง, เม็ดเลือดผิดปกติ (พบน้อยกว่า methimazole บางรายงาน)",
+      "cites": [
+        "everycat-carbimazole"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Hyperthyroidism (controlled-release, Vidalta)",
+      "route": "PO",
+      "dose": "เริ่ม 15 mg/ตัว PO วันละครั้ง (10 mg ถ้า T4 รวม 50–100 nmol/L); ปรับ 10–25 mg วันละครั้งตาม T4",
+      "cites": [
+        "ema-vidalta",
+        "everycat-carbimazole"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Hyperthyroidism (conventional)",
+      "route": "PO",
+      "dose": "5 mg/ตัว PO ทุก 8–12 ชั่วโมง (รูปธรรมดา)",
+      "cites": [
+        "everycat-carbimazole"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ total T4 + CBC + ค่าตับ + ไต (ก่อนเริ่ม และซ้ำ ~2–3 สัปดาห์ ปรับขนาด); เฝ้าระวัง azotemia ที่เผยหลังคุมไทรอยด์",
+      "cites": [
+        "everycat-carbimazole"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "ema-vidalta",
+      "type": "package-insert",
+      "title": "Vidalta (controlled-release carbimazole) — EMA veterinary label / dosing",
+      "year": 2025,
+      "url": "https://www.vidalta.com/vidalta/dosage/",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "everycat-carbimazole",
+      "type": "guideline",
+      "title": "Treatment of Feline Hyperthyroidism with Carbimazole — EveryCat Health Foundation",
+      "url": "https://everycat.org/cat-health/treatment-of-feline-hyperthyroidism-with-carbimazole/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-carbimazole",
+      "type": "monograph",
+      "title": "Carbimazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Carbimazole",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "H03BB01",
+      "name": "Carbimazole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / EMA-FDA labels / VSSO / ACVIM-AAHA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

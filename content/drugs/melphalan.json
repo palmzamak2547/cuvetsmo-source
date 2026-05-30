@@ -1,0 +1,131 @@
+{
+  "slug": "melphalan",
+  "nameEn": "Melphalan",
+  "nameTh": "เมลฟาแลน",
+  "class": "Antineoplastic — alkylating agent (nitrogen mustard)",
+  "mechanism": "alkylating agent กลุ่ม nitrogen mustard สร้าง DNA cross-link ยับยั้งการจำลอง DNA; เป็นหลักของการรักษา multiple myeloma คู่ prednisone",
+  "brandNamesTh": [
+    "Alkeran"
+  ],
+  "indications": [
+    {
+      "text": "multiple myeloma (คู่ prednisone), lymphoma บางชนิด และ macroglobulinemia ในสุนัขและแมว",
+      "cites": [
+        "vsso-melphalan",
+        "dvm360-myeloma"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ยาเคมีบำบัด PPE; ⚠️ กดไขกระดูก (thrombocytopenia แบบสะสม/ล่าช้า — dose-limiting); ⚠️ ห้ามแบ่งเม็ดยา + ระวังขนาดในสุนัขตัวเล็ก (เสี่ยง overdose จากขนาดเม็ด)",
+      "cites": [
+        "vsso-melphalan",
+        "dvm360-myeloma"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก (thrombocytopenia สะสม), GI upset; พิษล่าช้าจึงต้องตรวจ CBC สม่ำเสมอ",
+      "cites": [
+        "dvm360-myeloma"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Multiple myeloma (with prednisone) — specialist",
+      "route": "PO",
+      "dose": "0.1 mg/kg PO วันละครั้ง นาน 10 วัน แล้วลดเป็น 0.05 mg/kg วันละครั้ง จน relapse หรือ myelosuppression — ⚠️ oncology only",
+      "notes": "pulse: 7 mg/m² PO วันละครั้ง 5 วัน ทุก 21 วัน",
+      "cites": [
+        "vsso-melphalan",
+        "dvm360-myeloma"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Multiple myeloma — specialist",
+      "route": "PO",
+      "dose": "0.1 mg/kg PO วันละครั้ง นาน 10–14 วัน แล้ววันเว้นวันจนตอบสนอง/myelosuppression — ⚠️ oncology only",
+      "cites": [
+        "dvm360-myeloma"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC สม่ำเสมอ (thrombocytopenia สะสม-ล่าช้า); ปรับ/หยุดเมื่อเกล็ดเลือดต่ำ",
+      "cites": [
+        "vsso-melphalan"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vsso-melphalan",
+      "type": "guideline",
+      "title": "Melphalan chemotherapy protocol — Veterinary Society of Surgical Oncology",
+      "url": "https://www.vsso.org/chemotherapy-protocols",
+      "year": 2024,
+      "note": "VSSO chemotherapy protocol reference.",
+      "cid": null
+    },
+    {
+      "id": "dvm360-myeloma",
+      "type": "guideline",
+      "title": "An overview of multiple myeloma in dogs and cats — dvm360",
+      "url": "https://www.dvm360.com/view/overview-multiple-myeloma-dogs-and-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-melphalan",
+      "type": "monograph",
+      "title": "Melphalan — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Melphalan",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L01AA03",
+      "name": "Melphalan",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / EMA-FDA labels / VSSO / ACVIM-AAHA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

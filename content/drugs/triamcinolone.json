@@ -1,0 +1,122 @@
+{
+  "slug": "triamcinolone",
+  "nameEn": "Triamcinolone",
+  "nameTh": "ไตรแอมซิโนโลน",
+  "class": "Corticosteroid — intermediate-acting glucocorticoid",
+  "mechanism": "glucocorticoid สังเคราะห์ที่แรงกว่า prednisolone (~ ×5) ฤทธิ์ต้านการอักเสบและกดภูมิ; มีรูปฉีด acetonide ออกฤทธิ์ยาว (depot) สำหรับโรคผิวหนัง/ข้อ",
+  "brandNamesTh": [
+    "Vetalog",
+    "Kenalog"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะอักเสบและภูมิแพ้ (allergic dermatitis, pruritus), โรคภูมิคุ้มกัน, ฉีดเข้าข้อ/รอยโรคผิวหนังเฉพาะที่ ในสุนัขและแมว",
+      "cites": [
+        "merck-corticosteroid-h",
+        "vca-triamcinolone"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามใช้ร่วม NSAID (แผล GI), ระวัง DM/ติดเชื้อ/ตั้งท้อง; ใช้นานเกิด iatrogenic Cushing + กด HPA axis — ค่อย ๆ ลด ห้ามหยุดกะทันหัน",
+      "cites": [
+        "merck-corticosteroid-h"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "PU/PD, เจริญอาหาร, น้ำหนักขึ้น, น้ำตาลสูง, เสี่ยงติดเชื้อ; การใช้ depot ซ้ำเพิ่มผลข้างเคียง systemic",
+      "cites": [
+        "vca-triamcinolone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Anti-inflammatory / allergic",
+      "route": "PO",
+      "dose": "0.11–0.22 mg/kg PO วันละครั้ง จนคุมอาการ แล้วค่อย ๆ ลดเหลือขนาดต่ำสุดวันเว้นวัน",
+      "cites": [
+        "merck-corticosteroid-h",
+        "vca-triamcinolone"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Anti-inflammatory / allergic",
+      "route": "PO",
+      "dose": "0.11–0.22 mg/kg PO วันละครั้ง แล้วค่อย ๆ ลด",
+      "cites": [
+        "vca-triamcinolone"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-corticosteroid-h",
+      "type": "textbook",
+      "title": "Glucocorticoids — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/glucocorticoids",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vca-triamcinolone",
+      "type": "monograph",
+      "title": "Triamcinolone — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/triamcinolone",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-triamcinolone",
+      "type": "monograph",
+      "title": "Triamcinolone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Triamcinolone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "H02AB08",
+      "name": "Triamcinolone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / EMA-FDA labels / VSSO / ACVIM-AAHA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -2362,5 +2362,95 @@
     "name": "Toceranib (veterinary tyrosine kinase inhibitor)",
     "level": 5,
     "parent": "L01XE"
+  },
+  "J01CA01": {
+    "code": "J01CA01",
+    "name": "Ampicillin",
+    "level": 5,
+    "parent": "J01CA"
+  },
+  "N03AX16": {
+    "code": "N03AX16",
+    "name": "Pregabalin",
+    "level": 5,
+    "parent": "N03AX"
+  },
+  "N06AB06": {
+    "code": "N06AB06",
+    "name": "Sertraline",
+    "level": 5,
+    "parent": "N06AB"
+  },
+  "H02AB08": {
+    "code": "H02AB08",
+    "name": "Triamcinolone",
+    "level": 5,
+    "parent": "H02AB"
+  },
+  "R06AA04": {
+    "code": "R06AA04",
+    "name": "Clemastine",
+    "level": 5,
+    "parent": "R06AA"
+  },
+  "B01AB01": {
+    "code": "B01AB01",
+    "name": "Heparin",
+    "level": 5,
+    "parent": "B01AB"
+  },
+  "H03BB01": {
+    "code": "H03BB01",
+    "name": "Carbimazole",
+    "level": 5,
+    "parent": "H03BB"
+  },
+  "L01DB07": {
+    "code": "L01DB07",
+    "name": "Mitoxantrone",
+    "level": 5,
+    "parent": "L01DB"
+  },
+  "L01CA01": {
+    "code": "L01CA01",
+    "name": "Vinblastine",
+    "level": 5,
+    "parent": "L01CA"
+  },
+  "L01AA03": {
+    "code": "L01AA03",
+    "name": "Melphalan",
+    "level": 5,
+    "parent": "L01AA"
+  },
+  "C03A": {
+    "code": "C03A",
+    "name": "Low-ceiling diuretics, thiazides",
+    "level": 3,
+    "parent": "C03"
+  },
+  "C03AA": {
+    "code": "C03AA",
+    "name": "Thiazides, plain",
+    "level": 4,
+    "parent": "C03A"
+  },
+  "C03AA03": {
+    "code": "C03AA03",
+    "name": "Hydrochlorothiazide",
+    "level": 5,
+    "parent": "C03AA"
+  },
+  "A10AE": {
+    "code": "A10AE",
+    "name": "Insulins and analogues for injection, long-acting",
+    "level": 4,
+    "parent": "A10A"
+  },
+  "A10AE04": {
+    "code": "A10AE04",
+    "name": "Insulin glargine",
+    "level": 5,
+    "parent": "A10AE"
   }
 }

@@ -1,0 +1,131 @@
+{
+  "slug": "mitoxantrone",
+  "nameEn": "Mitoxantrone",
+  "nameTh": "ไมทอกแซนโทรน",
+  "class": "Antineoplastic — anthracenedione (topoisomerase II inhibitor)",
+  "mechanism": "anthracenedione แทรกตัวใน DNA และยับยั้ง topoisomerase II ขัดขวางการจำลอง/ซ่อม DNA; cardiotoxic น้อยกว่า doxorubicin จึงใช้แทนในบางโปรโตคอล",
+  "brandNamesTh": [
+    "Novantrone"
+  ],
+  "indications": [
+    {
+      "text": "lymphoma, transitional cell carcinoma (TCC, คู่ piroxicam), squamous cell carcinoma และมะเร็งอื่น ในสุนัขและแมว — เป็น rescue/substitute ของ doxorubicin",
+      "cites": [
+        "vsso-mitoxantrone",
+        "paper-mitox"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ยาเคมีบำบัด PPE; กดไขกระดูก (neutropenia nadir); ⚠️ ทำให้ปัสสาวะ/ตาขาว/น้ำตาเป็นสีฟ้า-เขียว (คาดได้); ปรับในตับบกพร่อง; เจือจางใน NaCl 0.9% ก่อนให้ IV",
+      "cites": [
+        "vsso-mitoxantrone",
+        "paper-mitox"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก (neutropenia), GI (อาเจียน เบื่ออาหาร ท้องเสีย), ปัสสาวะสีฟ้า-เขียว; cardiotoxicity น้อยกว่า doxorubicin",
+      "cites": [
+        "paper-mitox"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Lymphoma / carcinoma — specialist",
+      "route": "IV",
+      "dose": "5–6 mg/m² IV ทุก 21 วัน (TCC ใช้ 5–5.5 mg/m² คู่ piroxicam) — ⚠️ oncology only, เจือจางใน NaCl",
+      "notes": "ตรวจ CBC ก่อนทุกรอบ",
+      "cites": [
+        "vsso-mitoxantrone",
+        "paper-mitox"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Lymphoma / carcinoma — specialist",
+      "route": "IV",
+      "dose": "5.5–6.5 mg/m² IV ทุก 21 วัน — ⚠️ oncology only",
+      "cites": [
+        "vsso-mitoxantrone"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC ก่อนทุกรอบ (neutrophil nadir); ค่าตับ; เฝ้าระวังหัวใจเมื่อใช้สะสม",
+      "cites": [
+        "vsso-mitoxantrone"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vsso-mitoxantrone",
+      "type": "guideline",
+      "title": "Mitoxantrone chemotherapy protocol — Veterinary Society of Surgical Oncology",
+      "url": "https://www.vsso.org/chemotherapy-protocols",
+      "year": 2024,
+      "note": "VSSO chemotherapy protocol reference.",
+      "cid": null
+    },
+    {
+      "id": "paper-mitox",
+      "type": "paper",
+      "title": "Efficacy of mitoxantrone against various neoplasms in dogs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2061177/",
+      "year": 2023,
+      "note": "Peer-reviewed canine mitoxantrone efficacy study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-mitoxantrone",
+      "type": "monograph",
+      "title": "Mitoxantrone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Mitoxantrone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L01DB07",
+      "name": "Mitoxantrone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / EMA-FDA labels / VSSO / ACVIM-AAHA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

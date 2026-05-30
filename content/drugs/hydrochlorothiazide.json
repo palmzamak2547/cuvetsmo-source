@@ -1,0 +1,130 @@
+{
+  "slug": "hydrochlorothiazide",
+  "nameEn": "Hydrochlorothiazide",
+  "nameTh": "ไฮโดรคลอโรไทอาไซด์",
+  "class": "Cardiovascular — thiazide diuretic",
+  "mechanism": "thiazide diuretic ยับยั้ง Na-Cl cotransporter ที่ distal convoluted tubule เพิ่มการขับโซเดียมและน้ำ; ใช้เสริม loop diuretic ใน CHF ดื้อยา และลดการสร้างนิ่ว calcium oxalate (ลด calcium ในปัสสาวะ)",
+  "brandNamesTh": [
+    "HCTZ",
+    "Microzide"
+  ],
+  "indications": [
+    {
+      "text": "หัวใจล้มเหลวที่ดื้อ furosemide (sequential nephron blockade), nephrogenic diabetes insipidus, และลดการกลับเป็นนิ่ว calcium oxalate ในสุนัข",
+      "cites": [
+        "merck-diuretics-h",
+        "vca-hctz"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ระวัง hypokalemia + hyponatremia + dehydration + azotemia (โดยเฉพาะคู่ furosemide) — ต้อง monitor electrolyte/ไต; ห้ามในภาวะขาดน้ำ/ปัสสาวะไม่ออก",
+      "cites": [
+        "merck-diuretics-h"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "โพแทสเซียมต่ำ, โซเดียมต่ำ, ขาดน้ำ, azotemia ก่อนไต, น้ำตาล/แคลเซียมในเลือดเปลี่ยน",
+      "cites": [
+        "vca-hctz"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Refractory CHF / calcium oxalate prevention",
+      "route": "PO",
+      "dose": "1–4 mg/kg PO ทุก 12 ชั่วโมง (เริ่มต่ำ; เสริม furosemide ใช้ขนาดต่ำ + monitor ใกล้ชิด)",
+      "cites": [
+        "merck-diuretics-h",
+        "vca-hctz"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Refractory CHF",
+      "route": "PO",
+      "dose": "1–2 mg/kg PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "vca-hctz"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ electrolyte (K+, Na+) + ค่าไต + hydration เป็นระยะ โดยเฉพาะเมื่อใช้คู่ loop diuretic",
+      "cites": [
+        "merck-diuretics-h"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-diuretics-h",
+      "type": "textbook",
+      "title": "Diuretics — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-renal-system/diuretics",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vca-hctz",
+      "type": "monograph",
+      "title": "Hydrochlorothiazide — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/hydrochlorothiazide",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-hydrochlorothiazide",
+      "type": "monograph",
+      "title": "Hydrochlorothiazide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Hydrochlorothiazide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C03AA03",
+      "name": "Hydrochlorothiazide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / EMA-FDA labels / VSSO / ACVIM-AAHA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

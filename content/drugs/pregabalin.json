@@ -1,0 +1,130 @@
+{
+  "slug": "pregabalin",
+  "nameEn": "Pregabalin",
+  "nameTh": "พรีกาบาลิน",
+  "class": "Anticonvulsant / analgesic — alpha-2-delta calcium channel ligand",
+  "mechanism": "จับ alpha-2-delta subunit ของ voltage-gated calcium channel ลดการปล่อย neurotransmitter ที่กระตุ้น จึงลดการชัก ความปวดประสาท และความวิตกกังวล (gabapentinoid รุ่นที่แรงและดูดซึมแน่นอนกว่า gabapentin)",
+  "brandNamesTh": [
+    "Lyrica",
+    "Bonqat"
+  ],
+  "indications": [
+    {
+      "text": "การชักที่ดื้อยา (add-on), ความปวดประสาท (neuropathic pain), และความเครียด/วิตกกังวลในแมว (Bonqat รูปน้ำกินรับรองสำหรับลดความเครียดก่อนเดินทาง/พบสัตวแพทย์)",
+      "cites": [
+        "merck-anticonvulsant-h",
+        "ema-bonqat"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามหยุดยากะทันหัน (เสี่ยงชัก rebound — ค่อย ๆ ลด); ปรับขนาดในไตบกพร่อง (ขับทางไต); ระวัง sedation; เป็นยาควบคุมในบางประเทศ",
+      "cites": [
+        "merck-anticonvulsant-h"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ง่วงซึม เดินเซ (ataxia) โดยเฉพาะช่วงแรก, น้ำหนักขึ้นเมื่อใช้นาน",
+      "cites": [
+        "ema-bonqat"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Refractory seizures / neuropathic pain",
+      "route": "PO",
+      "dose": "3–4 mg/kg PO ทุก 8–12 ชั่วโมง (เริ่มต่ำแล้วค่อยปรับขึ้นลด sedation)",
+      "cites": [
+        "merck-anticonvulsant-h"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Transport / veterinary-visit anxiety (Bonqat)",
+      "route": "PO",
+      "dose": "5 mg/kg PO ครั้งเดียว ~1.5 ชม. ก่อนเหตุการณ์ (Bonqat oral solution)",
+      "cites": [
+        "ema-bonqat"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Neuropathic pain / seizures",
+      "route": "PO",
+      "dose": "1–2 mg/kg PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "merck-anticonvulsant-h"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-anticonvulsant-h",
+      "type": "textbook",
+      "title": "Anticonvulsants — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/anticonvulsants-in-monogastric-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "ema-bonqat",
+      "type": "package-insert",
+      "title": "Bonqat (pregabalin oral solution for cats) — EMA veterinary label",
+      "year": 2025,
+      "url": "https://www.ema.europa.eu/en/medicines/veterinary/EPAR/bonqat",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-pregabalin",
+      "type": "monograph",
+      "title": "Pregabalin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Pregabalin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "N03AX16",
+      "name": "Pregabalin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / EMA-FDA labels / VSSO / ACVIM-AAHA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
