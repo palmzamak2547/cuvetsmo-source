@@ -2680,5 +2680,65 @@
     "name": "Ceftriaxone",
     "level": 5,
     "parent": "J01DD"
+  },
+  "J01CR03": {
+    "code": "J01CR03",
+    "name": "Ticarcillin and beta-lactamase inhibitor",
+    "level": 5,
+    "parent": "J01CR"
+  },
+  "J01DB04": {
+    "code": "J01DB04",
+    "name": "Cefazolin",
+    "level": 5,
+    "parent": "J01DB"
+  },
+  "L01XB": {
+    "code": "L01XB",
+    "name": "Methylhydrazines",
+    "level": 4,
+    "parent": "L01X"
+  },
+  "L01XB01": {
+    "code": "L01XB01",
+    "name": "Procarbazine",
+    "level": 5,
+    "parent": "L01XB"
+  },
+  "L01AX04": {
+    "code": "L01AX04",
+    "name": "Dacarbazine",
+    "level": 5,
+    "parent": "L01AX"
+  },
+  "L01AA05": {
+    "code": "L01AA05",
+    "name": "Chlormethine (mechlorethamine)",
+    "level": 5,
+    "parent": "L01AA"
+  },
+  "L01BA01": {
+    "code": "L01BA01",
+    "name": "Methotrexate",
+    "level": 5,
+    "parent": "L01BA"
+  },
+  "QP51AA06": {
+    "code": "QP51AA06",
+    "name": "Ronidazole",
+    "level": 5,
+    "parent": "QP51AA"
+  },
+  "C03AA04": {
+    "code": "C03AA04",
+    "name": "Chlorothiazide",
+    "level": 5,
+    "parent": "C03AA"
+  },
+  "M01AB16": {
+    "code": "M01AB16",
+    "name": "Tepoxalin",
+    "level": 5,
+    "parent": "M01AB"
   }
 }

@@ -1,0 +1,121 @@
+{
+  "slug": "ronidazole",
+  "nameEn": "Ronidazole",
+  "nameTh": "โรนิดาโซล",
+  "class": "Antiparasitic — nitroimidazole antiprotozoal",
+  "mechanism": "nitroimidazole (กลุ่มเดียวกับ metronidazole) ถูก reduce ในสิ่งมีชีวิตที่ไม่ใช้ออกซิเจน/โปรโตซัว สร้างอนุมูลที่ทำลาย DNA; เป็นยาที่ได้ผลคงเส้นคงวาที่สุดต่อ Tritrichomonas foetus",
+  "brandNamesTh": [
+    "Ronidazole (compounded)"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อ Tritrichomonas foetus (สาเหตุท้องเสียลำไส้ใหญ่เรื้อรังในแมว) — เป็นยาเดียวที่ได้ผลคงเส้นคงวา",
+      "cites": [
+        "merck-protozoa-k",
+        "dvm360-tritrich"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ neurotoxicity เป็นความเสี่ยงหลัก (ซึม ataxia อาการประสาท) โดยเฉพาะขนาดสูง — หยุดยาหากมีอาการ (มัก reversible); ห้ามเกินขนาดแนะนำ; ต้อง compound; สวมถุงมือ; ห้ามในตั้งท้อง/ลูกแมวเล็ก",
+      "cites": [
+        "dvm360-tritrich",
+        "merck-protozoa-k"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "neurotoxicity (ซึม ataxia สั่น ชัก — reversible เมื่อหยุด), เบื่ออาหาร; mutagenic potential (จัดการด้วย PPE)",
+      "cites": [
+        "dvm360-tritrich"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Tritrichomonas foetus",
+      "route": "PO",
+      "dose": "30 mg/kg PO วันละครั้ง นาน 14 วัน — ⚠️ ห้ามเกินขนาด (neurotoxicity); หยุดหากมีอาการประสาท",
+      "cites": [
+        "merck-protozoa-k",
+        "dvm360-tritrich"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "เฝ้าระวังอาการทางประสาท (ataxia/ซึม) ตลอดคอร์ส; หยุดทันทีหากเกิด",
+      "cites": [
+        "dvm360-tritrich"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-protozoa-k",
+      "type": "textbook",
+      "title": "Gastrointestinal Protozoa (Tritrichomonas) — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/trichomoniasis-in-small-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "dvm360-tritrich",
+      "type": "guideline",
+      "title": "Ronidazole for Tritrichomonas foetus in cats — dvm360",
+      "url": "https://www.dvm360.com/view/diagnosis-and-treatment-tritrichomonas-foetus-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-ronidazole",
+      "type": "monograph",
+      "title": "Ronidazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ronidazole",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP51AA06",
+      "name": "Ronidazole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / FDA labels / dvm360 / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

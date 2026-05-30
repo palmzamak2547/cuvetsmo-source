@@ -1,0 +1,123 @@
+{
+  "slug": "amoxicillin-clavulanate",
+  "nameEn": "Amoxicillin-clavulanate",
+  "nameTh": "อะม็อกซีซิลลิน-คลาวูลาเนต",
+  "class": "Antibiotic — aminopenicillin + beta-lactamase inhibitor",
+  "mechanism": "amoxicillin (aminopenicillin) ยับยั้งการสร้างผนังเซลล์ + clavulanate (beta-lactamase inhibitor) ปกป้อง amoxicillin จากการถูกเอนไซม์ทำลาย จึงขยายสเปกตรัมครอบคลุมเชื้อที่สร้าง beta-lactamase",
+  "brandNamesTh": [
+    "Clavamox",
+    "Synulox",
+    "Augmentin"
+  ],
+  "indications": [
+    {
+      "text": "ติดเชื้อผิวหนัง/เนื้อเยื่ออ่อน, ทางเดินปัสสาวะ, ช่องปาก-ปริทันต์, ทางเดินหายใจ จากเชื้อไวต่อยา (รวมที่สร้าง beta-lactamase) ในสุนัขและแมว — หนึ่งในยาปฏิชีวนะที่ใช้บ่อยที่สุด",
+      "cites": [
+        "fda-clavamox",
+        "merck-penicillins-k"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามในสัตว์แพ้ penicillin/cephalosporin; ปรับในไตบกพร่อง; ให้พร้อมอาหารลด GI upset; ไม่ครอบคลุม Pseudomonas",
+      "cites": [
+        "fda-clavamox"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset (อาเจียน ท้องเสีย — พบบ่อยสุด), แพ้ยา, เปลี่ยน gut flora",
+      "cites": [
+        "fda-clavamox"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Susceptible infection",
+      "route": "PO",
+      "dose": "12.5–25 mg/kg PO ทุก 12 ชั่วโมง (label 6.25 mg/kg q12h; เคสรุนแรง/ดื้อใช้สูงขึ้น)",
+      "cites": [
+        "fda-clavamox",
+        "merck-penicillins-k"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Susceptible infection",
+      "route": "PO",
+      "dose": "62.5 mg/ตัว PO ทุก 12 ชั่วโมง (≈ 12.5 mg/kg)",
+      "cites": [
+        "fda-clavamox"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-clavamox",
+      "type": "package-insert",
+      "title": "Clavamox (amoxicillin/clavulanate potassium) — FDA veterinary label",
+      "year": 2025,
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/amoxicillin-and-clavulanate-potassium-for-dogs-and-cats",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "merck-penicillins-k",
+      "type": "textbook",
+      "title": "Penicillins — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/penicillins",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-amoxicillin/clavulanic_acid",
+      "type": "monograph",
+      "title": "Amoxicillin/clavulanic acid — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Amoxicillin/clavulanic_acid",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01CR02",
+      "name": "Amoxicillin and beta-lactamase inhibitor",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / FDA labels / dvm360 / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

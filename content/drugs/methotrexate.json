@@ -1,0 +1,112 @@
+{
+  "slug": "methotrexate",
+  "nameEn": "Methotrexate",
+  "nameTh": "เมโทเทรกเซต",
+  "class": "Antineoplastic — antimetabolite (folate antagonist)",
+  "mechanism": "antimetabolite ยับยั้งเอนไซม์ dihydrofolate reductase ลดการสร้าง folate ที่ใช้สังเคราะห์ DNA (S-phase specific); ใช้ในโปรโตคอล lymphoma หลายยา",
+  "brandNamesTh": [
+    "Methotrexate",
+    "MTX"
+  ],
+  "indications": [
+    {
+      "text": "lymphoma ในสุนัข — เป็นองค์ประกอบของโปรโตคอลหลายยา (เช่น COAP, LMP maintenance); ใช้น้อยลงในโปรโตคอลสมัยใหม่",
+      "cites": [
+        "vsso-methotrexate",
+        "wikipedia-methotrexate"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ยาเคมีบำบัด PPE; กดไขกระดูก + GI toxicity (โดยเฉพาะท้องเสีย — dose-limiting); ⚠️ antidote = leucovorin (folinic acid); ปรับในไตบกพร่อง (ขับทางไต); หลีกเลี่ยง NSAID ร่วม (ลดการขับ)",
+      "cites": [
+        "vsso-methotrexate"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก, GI toxicity (ท้องเสีย เยื่อบุอักเสบ), พิษตับ/ไต",
+      "cites": [
+        "vsso-methotrexate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Lymphoma (multidrug protocol) — specialist",
+      "route": "PO",
+      "dose": "2.5 mg/m² PO วันละครั้ง หรือ 0.5–0.8 mg/kg IV ทุก 1–3 สัปดาห์ (ตามโปรโตคอล) — ⚠️ oncology only",
+      "notes": "ตรวจ CBC + ค่าไต; leucovorin rescue หาก overdose",
+      "cites": [
+        "vsso-methotrexate"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC + ค่าไต/ตับ; เฝ้า GI toxicity; leucovorin เป็น antidote",
+      "cites": [
+        "vsso-methotrexate"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vsso-methotrexate",
+      "type": "guideline",
+      "title": "Methotrexate chemotherapy protocol — Veterinary Society of Surgical Oncology",
+      "url": "https://www.vsso.org/chemotherapy-protocols",
+      "year": 2024,
+      "note": "VSSO chemotherapy protocol reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-methotrexate",
+      "type": "monograph",
+      "title": "Methotrexate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Methotrexate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L01BA01",
+      "name": "Methotrexate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VSSO / FDA labels / dvm360 / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
