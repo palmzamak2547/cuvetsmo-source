@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { type Drug, DRUGS, pendingDrugs, publishedDrugs } from '@/lib/drugs'
+import { type Drug, DRUGS, verificationTier } from '@/lib/drugs'
 import { THERAPEUTIC_CLASSES, groupDrugsByClass } from '@/lib/classify'
 
 export const metadata = {
@@ -8,8 +8,8 @@ export const metadata = {
 }
 
 export default function DrugsList() {
-  const published = publishedDrugs()
-  const pending = pendingDrugs()
+  const community = DRUGS.filter(d => verificationTier(d) === 'community').length
+  const expert = DRUGS.filter(d => verificationTier(d) === 'expert').length
   const groups = groupDrugsByClass(DRUGS)
 
   return (
@@ -18,30 +18,30 @@ export default function DrugsList() {
         <p className="eyebrow">Drug Reference · Veterinary</p>
         <h1 className="display-h1 mt-3">คู่มือยาสัตวแพทย์</h1>
         <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-ink-700">
-          ทุก dose มี citation, ทุก entry อาจารย์เซ็นต์รับด้วย Ed25519 ก่อน publish เป็น canonical.
-          คุณ verify ในเครื่องตัวเองได้ทุก signature โดยไม่ต้องเชื่อ server ของเรา
+          ทุก dose มี citation ตามรอยถึงแหล่ง authoritative ได้ (◆ Sourced) — ใช้อ้างอิงได้จริง.
+          เลื่อนขั้นเป็น ✓✓ Community-checked และ ✓ Expert-reviewed เมื่อมีผู้ตรวจอิสระและอาจารย์รับรอง
         </p>
       </header>
 
       {/* Status summary */}
       <section className="mt-8 grid gap-px overflow-hidden rounded-md border border-paper-300 bg-paper-300 sm:grid-cols-3">
         <Tile
-          label="Canonical"
-          value={published.length}
-          sub="faculty-reviewed + Ed25519 signed"
+          label="◆ Sourced"
+          value={DRUGS.length}
+          sub="ทุก entry อ้างอิงแหล่ง + cross-check หลายแหล่ง — reference-grade"
+          tone="source"
+        />
+        <Tile
+          label="✓✓ Community-checked"
+          value={community}
+          sub="ผู้ใช้อิสระ ≥2 คนยืนยันตรงกับแหล่ง"
           tone="emerald"
         />
         <Tile
-          label="Pending review"
-          value={pending.length}
-          sub="mirrored, awaiting Thai translation + signoff"
-          tone="amber"
-        />
-        <Tile
-          label="Total seeded"
-          value={DRUGS.length}
-          sub="all with cross-checked provenance metadata"
-          tone="source"
+          label="✓ Expert-reviewed"
+          value={expert}
+          sub="อาจารย์/สัตวแพทย์รับรอง + Ed25519 signature"
+          tone="emerald"
         />
       </section>
 
@@ -99,12 +99,11 @@ export default function DrugsList() {
 
       {/* Methodology hint */}
       <aside className="mt-16 rounded-md border-l-4 border-source-300 bg-source-50/40 px-6 py-5 text-sm">
-        <p className="eyebrow">Iron Rule 0 — สำหรับ readers</p>
+        <p className="eyebrow">Verification ladder — สำหรับ readers</p>
         <p className="mt-2 leading-relaxed text-ink-900">
-          Entry ที่ <span className="stamp border-amber-700 text-amber-800">⏳ pending</span> = mirrored จาก authoritative source แล้ว
-          แต่ยังไม่ผ่านการตรวจสอบของอาจารย์ผู้เชี่ยวชาญ — <b>ห้ามใช้อ้างอิงทางคลินิก</b>.
-          Entry ที่ <span className="stamp border-emerald-700 text-emerald-800">✓ canonical</span> = faculty-reviewed
-          + Ed25519 signed, ดู signature ของอาจารย์คนไหนได้ที่ <Link href="/verify" className="text-source-800 underline-offset-2 hover:underline">/verify</Link>
+          <span className="stamp border-source-600 text-source-800">◆ Sourced</span> = ทุก claim อ้างอิงแหล่ง authoritative + cross-check หลายแหล่ง — ใช้อ้างอิง/ทบทวนได้ <b>ตรวจขนาดยากับตำราก่อนใช้ทางคลินิกเสมอ</b>.{' '}
+          <span className="stamp border-sky-700 text-sky-800">✓✓ Community-checked</span> = ผู้ใช้อิสระ ≥2 คนยืนยันตรงกับแหล่ง.{' '}
+          <span className="stamp border-emerald-700 text-emerald-800">✓ Expert-reviewed</span> = อาจารย์รับรอง + Ed25519. ดูบันไดเต็มที่ <Link href="/verify" className="text-source-800 underline-offset-2 hover:underline">/verify</Link>
         </p>
       </aside>
     </article>
@@ -114,14 +113,16 @@ export default function DrugsList() {
 // ──────────────────────────────────────────────────────────────────
 
 function DrugCard({ drug }: { drug: Drug }) {
-  const canonical = drug.reviewedBy !== null && drug.signatures.length > 0
+  const t = verificationTier(drug)
   return (
     <li>
       <Link
         href={`/drugs/${drug.slug}`}
         className={`flex h-full flex-col rounded-md border bg-paper-50 p-5 transition hover:-translate-y-0.5 hover:shadow-sm ${
-          canonical
+          t === 'expert'
             ? 'border-emerald-400/70 hover:border-emerald-500 hover:bg-emerald-50/40'
+            : t === 'community'
+            ? 'border-sky-400/70 hover:border-sky-500 hover:bg-sky-50/40'
             : 'border-paper-300 hover:border-source-500 hover:bg-paper-100/60'
         }`}
       >
@@ -129,10 +130,12 @@ function DrugCard({ drug }: { drug: Drug }) {
           <h3 className="text-[17px] font-semibold tracking-tight text-ink-900" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>
             {drug.nameEn}
           </h3>
-          {canonical ? (
-            <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50">✓</span>
+          {t === 'expert' ? (
+            <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50" title="Expert-reviewed">✓</span>
+          ) : t === 'community' ? (
+            <span className="shrink-0 rounded-full bg-sky-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-sky-50" title="Community-checked">✓✓</span>
           ) : (
-            <span className="shrink-0 rounded-full border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-amber-800">⏳</span>
+            <span className="shrink-0 rounded-full border border-source-300 bg-source-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-source-800" title="Sourced">◆</span>
           )}
         </div>
         <p className="text-[13px] italic text-ink-700" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>{drug.nameTh}</p>

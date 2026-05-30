@@ -256,9 +256,9 @@ export default function CommandPalette({ drugs }: { drugs: PaletteDrug[] }) {
                             </span>
                           )}
                           {r.drug.isCanonical ? (
-                            <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50">✓</span>
+                            <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50" title="Expert-reviewed">✓</span>
                           ) : (
-                            <span className="shrink-0 rounded-full border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-amber-800">⏳</span>
+                            <span className="shrink-0 rounded-full border border-source-300 bg-source-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-source-800" title="Sourced &amp; cross-checked">◆</span>
                           )}
                         </>
                       ) : (

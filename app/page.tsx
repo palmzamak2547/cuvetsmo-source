@@ -1,14 +1,14 @@
 import Link from 'next/link'
-import { DRUGS, pendingDrugs, publishedDrugs } from '@/lib/drugs'
+import { DRUGS, verificationTier } from '@/lib/drugs'
 import { THERAPEUTIC_CLASSES, classifyDrug } from '@/lib/classify'
 import { listCredentials } from '@/lib/credentials'
 import HomeQuickAccess from './HomeQuickAccess'
 
 export default function Landing() {
-  const published = publishedDrugs().length
-  const pending = pendingDrugs().length
   const total = DRUGS.length
-  const signatures = DRUGS.reduce((n, d) => n + d.signatures.length, 0)
+  const sourced = total
+  const community = DRUGS.filter(d => verificationTier(d) === 'community').length
+  const expert = DRUGS.filter(d => verificationTier(d) === 'expert').length
   const credentials = listCredentials().length
   // citation count across all entries
   const citations = DRUGS.reduce((n, d) => n + d.citations.length, 0)
@@ -24,7 +24,7 @@ export default function Landing() {
     nameEn: d.nameEn,
     nameTh: d.nameTh,
     class: d.class,
-    isCanonical: d.reviewedBy !== null && d.signatures.length > 0,
+    isCanonical: verificationTier(d) === 'expert',
   }))
 
   return (
@@ -64,10 +64,10 @@ export default function Landing() {
           </div>
           <p className="eyebrow text-center">Phase 0 — current state</p>
           <dl className="mt-4 grid grid-cols-2 gap-x-5 gap-y-3 tabular">
-            <Datum n={total} label="entries seeded" />
-            <Datum n={published} label="canonical (reviewed + signed)" tone="emerald" />
-            <Datum n={pending} label="pending faculty review" tone="amber" />
-            <Datum n={signatures} label="Ed25519 signatures" tone="source" />
+            <Datum n={total} label="ยาในคลัง · entries" />
+            <Datum n={sourced} label="◆ Sourced + cross-checked" tone="source" />
+            <Datum n={community} label="✓✓ community-checked" tone="source" />
+            <Datum n={expert} label="✓ expert-reviewed" tone="emerald" />
             <Datum n={citations} label="citations indexed" />
             <Datum n={credentials} label="W3C credentials issued" tone="source" />
           </dl>
