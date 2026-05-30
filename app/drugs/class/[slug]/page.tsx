@@ -5,7 +5,7 @@
 
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { type Drug, DRUGS } from '@/lib/drugs'
+import { type Drug, DRUGS, verificationTier } from '@/lib/drugs'
 import { THERAPEUTIC_CLASSES, findClassBySlug, classifyDrug } from '@/lib/classify'
 
 export async function generateStaticParams() {

@@ -338,8 +338,8 @@ export default function AboutPage() {
             <b>เราไม่ใช่การแทนที่อาจารย์.</b> ความน่าเชื่อถือเป็นบันได 3 ขั้น: <b>◆ Sourced</b> (ทุก claim อ้างอิงแหล่ง + cross-check), <b>✓✓ Community-checked</b> (ผู้ใช้อิสระยืนยัน), <b>✓ Expert-reviewed</b> (อาจารย์รับรอง + Ed25519). ขั้นสูงสุดต้องมีอาจารย์ลงชื่อ — แต่ทุก entry ใช้อ้างอิงได้ตั้งแต่ขั้น Sourced.
           </Boundary>
           <Boundary>
-            <b>เราไม่ใช่ clinical advice.</b> Entry ที่ <i>pending</i> ห้ามใช้อ้างอิงทางคลินิก. แม้แต่ canonical entries — ยังเป็น
-            <i>knowledge reference</i>, decision อยู่ที่สัตวแพทย์ผู้ตรวจรักษา.
+            <b>เราไม่ใช่ clinical advice.</b> ทุก entry — รวมถึงขั้น expert-reviewed — เป็น
+            <i>knowledge reference</i> เสมอ. ตรวจขนาดยากับตำราหรืออาจารย์ก่อนใช้ทางคลินิกทุกครั้ง; decision อยู่ที่สัตวแพทย์ผู้ตรวจรักษา.
           </Boundary>
           <Boundary>
             <b>เราไม่ใช่ paid product สำหรับ readers.</b> Public read ฟรีตลอดไป.
