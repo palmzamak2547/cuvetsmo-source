@@ -18,11 +18,23 @@ import { readFileSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join, resolve } from 'node:path'
 
+import { existsSync } from 'node:fs'
+
 const __dirname = dirname(fileURLToPath(import.meta.url))
-// dist/ or src/ -> mcp/ -> repo root
-const REPO_ROOT = resolve(__dirname, '..', '..')
-const DRUGS_DIR = join(REPO_ROOT, 'content', 'drugs')
-const ONTOLOGY_DIR = join(REPO_ROOT, 'data', 'ontology')
+// Data resolution — two modes over ONE source of truth:
+//   • In-repo dev:  read the live repo files (content/drugs, data/ontology).
+//     Edit a drug -> next server start reflects it. No copy, no drift.
+//   • Published npm: the repo files aren't present, so read a frozen snapshot
+//     bundled at publish time into mcp/_data/ (see prepublishOnly in
+//     package.json — it copies content/drugs + data/ontology into _data/).
+// The snapshot is a point-in-time freeze of the same truth; republish to
+// refresh, or run the HTTP transport against the always-current repo in dev.
+const MCP_ROOT = resolve(__dirname, '..')          // dist/ -> mcp/
+const REPO_ROOT = resolve(MCP_ROOT, '..')          // mcp/  -> repo root
+const SNAPSHOT = join(MCP_ROOT, '_data')           // bundled in published pkg
+const usingSnapshot = existsSync(join(SNAPSHOT, 'drugs'))
+const DRUGS_DIR = usingSnapshot ? join(SNAPSHOT, 'drugs') : join(REPO_ROOT, 'content', 'drugs')
+const ONTOLOGY_DIR = usingSnapshot ? join(SNAPSHOT, 'ontology') : join(REPO_ROOT, 'data', 'ontology')
 
 export type Drug = {
   slug: string
@@ -111,6 +123,10 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'antineoplastics', label: 'Antineoplastics', prefixes: ['L01'] },
   { slug: 'ophthalmology', label: 'Ophthalmology', prefixes: ['S01'] },
   { slug: 'dermatology', label: 'Dermatology', prefixes: ['D11'] },
+  { slug: 'antivirals', label: 'Antivirals', prefixes: ['J05'] },
+  { slug: 'hepatobiliary', label: 'Hepatobiliary', prefixes: ['A05'] },
+  { slug: 'metabolic-nutritional', label: 'Metabolic & nutritional', prefixes: ['A16'] },
+  { slug: 'hematopoietic', label: 'Hematopoietic', prefixes: ['B03'] },
 ]
 export function classifyDrug(d: Drug): { slug: string; label: string } | null {
   const code = stripQ(d.codes?.atc?.code ?? '')

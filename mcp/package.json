@@ -1,17 +1,25 @@
 {
   "name": "cuvetsmo-source-mcp",
   "version": "0.1.0",
-  "description": "MCP server exposing the source.cuvetsmo.com verified veterinary drug data plane — search, lookup by ontology code, and citation verification as tools any AI agent (cuvetsmo.com/chat, VetOS, Claude) can call.",
+  "description": "MCP server exposing the source.cuvetsmo.com verified veterinary drug data plane — search, lookup by ontology code (ATC/RxNorm), and citation verification as tools any AI agent (cuvetsmo.com/chat, VetOS, Claude) can call. stdio + streamable-HTTP transports.",
   "type": "module",
   "bin": {
-    "cuvetsmo-source-mcp": "./dist/index.js"
+    "cuvetsmo-source-mcp": "./dist/index.js",
+    "cuvetsmo-source-mcp-http": "./dist/http.js"
   },
-  "files": ["dist"],
+  "files": ["dist", "_data", "README.md"],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "node --loader ts-node/esm src/index.ts",
-    "smoke": "node dist/smoke.js"
+    "smoke": "node dist/smoke.js",
+    "snapshot": "node scripts/snapshot.mjs",
+    "prepublishOnly": "npm run build && npm run snapshot && npm run smoke"
   },
+  "keywords": [
+    "mcp", "model-context-protocol", "veterinary", "veterinary-drugs",
+    "drug-reference", "cuvetsmo", "thai", "ontology", "atc", "rxnorm",
+    "ai-tools", "data-plane"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4"
   },
@@ -20,5 +28,7 @@
     "typescript": "^5.7.2"
   },
   "engines": { "node": ">=20" },
+  "repository": { "type": "git", "url": "https://github.com/palmzamak2547/cuvetsmo-source", "directory": "mcp" },
+  "homepage": "https://source.cuvetsmo.com",
   "license": "MIT"
 }
