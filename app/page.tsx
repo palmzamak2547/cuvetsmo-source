@@ -224,7 +224,7 @@ export default function Landing() {
       <p className="mt-16 text-sm text-ink-700">
         เริ่มต้นจาก{' '}
         <Link href="/drugs" className="font-semibold text-source-800 underline-offset-4 hover:underline">คู่มือยาสัตวแพทย์</Link>
-        {' '}— Phase 0 มี {pending} entries ที่ mirrored + รอ faculty review.
+        {' '}— ทุก entry อ้างอิงแหล่ง + cross-check แล้ว (◆ Sourced); เลื่อนขั้นเมื่อชุมชนช่วยตรวจและอาจารย์รับรอง.
         อ่าน{' '}
         <Link href="/sources" className="font-semibold text-source-800 underline-offset-4 hover:underline">methodology + sources</Link>
         {' '}ฉบับเต็มที่ /sources
