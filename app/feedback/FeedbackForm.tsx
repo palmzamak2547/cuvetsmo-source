@@ -22,6 +22,8 @@ type Role =
   | 'other'
 
 type IntentTag =
+  | 'attest-entry'
+  | 'report-error'
   | 'request-drug'
   | 'request-feature'
   | 'report-bug'
@@ -42,6 +44,8 @@ const ROLE_LABEL: Record<Role, string> = {
 }
 
 const INTENT_LABEL: Record<IntentTag, string> = {
+  'attest-entry':         '✓ ยืนยันว่า entry ถูกต้อง (attest)',
+  'report-error':         '⚠ พบข้อมูลไม่ตรงกับตำรา',
   'request-drug':         'Request a drug entry',
   'request-feature':      'Suggest a feature',
   'report-bug':           'Report a bug / dead link',
@@ -199,6 +203,10 @@ export default function FeedbackForm() {
 
 function getPlaceholder(intent: IntentTag): string {
   switch (intent) {
+    case 'attest-entry':
+      return 'ยืนยันว่า entry ไหน + ตรวจกับแหล่งอะไร (เช่น "carprofen — ตรวจ dog dose 4.4 mg/kg กับ Plumb\'s 9th ed p.180 แล้ว ตรงกัน"). ใส่ชื่อ/handle + บทบาท (นิสิต/สัตวแพทย์) เพื่อบันทึกในทะเบียน. 2 การยืนยันอิสระเลื่อน entry เป็น Community-checked.'
+    case 'report-error':
+      return 'entry ไหน + จุดที่ไม่ตรง + ตำราที่คุณอ้าง (เช่น "meloxicam cat dose ควรเป็น X ตาม Plumb\'s p.YYY"). เราจะตรวจและแก้ พร้อมบันทึกใน transparency log.'
     case 'request-drug':
       return 'Drug name + ATC code if you know it. Why it matters for your work (e.g. "Cyclosporine — used commonly in canine atopic dermatitis, would be useful for derm rotation").'
     case 'request-feature':

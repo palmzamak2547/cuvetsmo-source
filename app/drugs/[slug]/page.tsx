@@ -32,7 +32,7 @@ export default async function DrugDetail({ params }: { params: Promise<{ slug: s
   const { slug } = await params
   const drug = findDrug(slug)
   if (!drug) notFound()
-  const isCanonical = drug.reviewedBy !== null && drug.signatures.length > 0
+  const tier = verificationTier(drug)
 
   return (
     <article data-view-host>

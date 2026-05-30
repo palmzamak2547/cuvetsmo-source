@@ -127,6 +127,29 @@ export type FacultyReview = {
   signerKeyId?: string
 }
 
+// ─── Community attestations (verification ladder, tier 2) ─────────────
+// A low-friction trust signal between "Sourced" and "Expert-reviewed".
+// An attestation = a named contributor (vet student, practitioner, or
+// faculty) who checked the entry against the cited sources and affirms it
+// matches. Logged transparently. Two independent attestations promote an
+// entry from "Sourced" to "Community-checked". This is the network-effect
+// layer — a static copy of the catalog can never replicate a living
+// community of checkers.
+export type Attestation = {
+  /** Display name or handle of the attester. */
+  attesterName: string
+  /** Role gives weight context (not authority — that's the expert tier). */
+  attesterRole: 'vet-student' | 'practitioner' | 'faculty' | 'pharmacist' | 'other'
+  /** Optional verifiable identity (license no., ORCID, GitHub) — shown as provenance. */
+  attesterId?: string
+  /** ISO date of the attestation. */
+  attestedAt: string
+  /** Which version of the entry was checked (so stale attestations are visible). */
+  drugVersion: number
+  /** Optional note — e.g. "checked dog dose against Plumb's 9th ed p.512". */
+  note?: string
+}
+
 // ─── Primitive 1 · cryptographic signatures ───────────────────────────
 
 export type Signature = {
@@ -243,8 +266,13 @@ export type Drug = {
   signatures: Signature[]
 
   /** Human-readable reviewer info. Mirrors the latest signature in
-   *  display form. null = entry is template/pending, NOT canonical. */
+   *  display form. null = not yet expert-reviewed (but may still be
+   *  Sourced or Community-checked — see verificationTier). */
   reviewedBy: FacultyReview | null
+
+  /** Community attestations — the middle rung of the verification ladder.
+   *  Optional; absent or short array = entry sits at the Sourced tier. */
+  attestations?: Attestation[]
 
   lastUpdated: string
   version: number
@@ -291,22 +319,58 @@ export function findCitation(drug: Drug, id: string): Citation | undefined {
   return drug.citations.find(c => c.id === id)
 }
 
+// ─── Verification ladder ──────────────────────────────────────────────
+// A spectrum, not a locked gate. The original binary (canonical-or-pending)
+// made faculty Ed25519 signing the SINGLE point of failure — if no faculty
+// signed, every entry read "Not for clinical use" forever. That is the
+// vaporware failure mode. Instead, trust is earned in achievable rungs:
+//
+//   sourced    — every claim cited + cross-checked across ≥2 authoritative
+//                sources, content-addressed. Reference-grade. The default,
+//                and genuinely useful: confirm dose against your formulary
+//                before clinical use, exactly as you would with any tertiary
+//                reference.
+//   community  — ≥2 independent contributors attested the entry matches its
+//                cited sources. The network-effect rung — uncopyable.
+//   expert     — a named, identity-verified vet/faculty endorsed it. The
+//                signature seals the record for tamper-evidence; the endorser
+//                does NOT need to manage a private key (the platform can sign
+//                on record of their explicit, logged approval — DocuSign model,
+//                with self-custody signing still available for those who want it).
+
+export type VerificationTier = 'sourced' | 'community' | 'expert'
+
+const MIN_COMMUNITY_ATTESTATIONS = 2
+
+export function verificationTier(drug: Drug): VerificationTier {
+  if (drug.reviewedBy !== null && drug.signatures.length > 0) return 'expert'
+  if ((drug.attestations?.length ?? 0) >= MIN_COMMUNITY_ATTESTATIONS) return 'community'
+  return 'sourced'
+}
+
+/** How many fresh (current-version) attestations an entry has. */
+export function freshAttestations(drug: Drug): Attestation[] {
+  return (drug.attestations ?? []).filter(a => a.drugVersion === drug.version)
+}
+
 /**
- * Canonical = faculty-reviewed AND at least one valid signature attached.
- *
- * Note Week 1 — signature *verification* (Ed25519 check against
- * content/keys/) is deferred to Week 2. For now we trust that
- * signatures.length > 0 means the offline signing flow was followed.
- * Week 2 adds verifySignaturesAtBuildTime() to scripts/verify.ts.
+ * Expert-reviewed = faculty-reviewed AND at least one valid signature.
+ * Retained under the old name for back-compat with callers that gate the
+ * top tier (e.g. the verify.mjs TEMPLATE check, /trust hierarchy).
  */
 export function isCanonical(drug: Drug): boolean {
-  return drug.reviewedBy !== null && drug.signatures.length > 0
+  return verificationTier(drug) === 'expert'
 }
 
-export function publishedDrugs(): Drug[] {
-  return DRUGS.filter(isCanonical)
+/** Entries that have reached the top (expert) rung. */
+export function expertReviewedDrugs(): Drug[] {
+  return DRUGS.filter(d => verificationTier(d) === 'expert')
 }
 
+/** Back-compat alias. */
+export const publishedDrugs = expertReviewedDrugs
+
+/** Entries not yet at the expert rung (sourced or community). */
 export function pendingDrugs(): Drug[] {
-  return DRUGS.filter(d => !isCanonical(d))
+  return DRUGS.filter(d => verificationTier(d) !== 'expert')
 }
