@@ -60,22 +60,8 @@ export default async function DrugDetail({ params }: { params: Promise<{ slug: s
             )}
           </header>
 
-          {/* Pending banner above content for non-canonical */}
-          {!isCanonical && (
-            <aside
-              className="mt-7 border-l-4 border-amber-400 bg-amber-50/60 px-5 py-4 text-sm"
-              role="note"
-            >
-              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-amber-800">
-                ⏳ Pending review — Not for clinical use
-              </p>
-              <p className="mt-2 text-amber-900">
-                Entry นี้ mirrored จากแหล่งอ้างอิงแต่ยังไม่ผ่านการตรวจสอบของอาจารย์ผู้เชี่ยวชาญ.
-                ห้ามนำไปใช้อ้างอิงทางคลินิก จนกว่า trust stamp จะเปลี่ยนเป็น emerald
-                และมี <code>reviewedBy</code> + Ed25519 signature ของ faculty.
-              </p>
-            </aside>
-          )}
+          {/* Verification-tier banner — honest, tier-aware, never a dead "do not use" */}
+          <VerificationBanner drug={drug} tier={tier} />
 
           {drug.mechanism && (
             <Section title="กลไกการออกฤทธิ์ · Mechanism">
