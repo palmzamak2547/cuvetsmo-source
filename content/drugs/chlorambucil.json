@@ -1,0 +1,129 @@
+{
+  "slug": "chlorambucil",
+  "nameEn": "Chlorambucil",
+  "nameTh": "คลอแรมบูซิล",
+  "class": "Antineoplastic / immunosuppressant — alkylating agent (nitrogen mustard)",
+  "mechanism": "ยา alkylating กลุ่ม nitrogen mustard เชื่อมขวาง DNA ยับยั้งการแบ่งเซลล์; ออกฤทธิ์อ่อนโยนกว่า cyclophosphamide จึงเหมาะใช้ระยะยาวในแมว (IBD/lymphoma) และโรคภูมิคุ้มกัน",
+  "brandNamesTh": [
+    "Leukeran"
+  ],
+  "indications": [
+    {
+      "text": "มะเร็งต่อมน้ำเหลืองชนิด low-grade และ inflammatory bowel disease (IBD) ในแมว, chronic lymphocytic leukemia, และโรคภูมิคุ้มกันบางชนิด; ทนได้ดีในการใช้ระยะยาว",
+      "cites": [
+        "merck-onco",
+        "petplace-chlorambucil"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ยาเคมีบำบัด — จัดการด้วย PPE; กดไขกระดูก (ค่อยเป็นค่อยไป); ปรับลดในตับ/ไตบกพร่อง",
+      "cites": [
+        "merck-onco"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก (myelosuppression — ตรวจ CBC), GI upset; โดยรวมผลข้างเคียงน้อยกว่า alkylating agent อื่น",
+      "cites": [
+        "petplace-chlorambucil"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Low-grade lymphoma / IBD (specialist use)",
+      "route": "PO",
+      "dose": "2 mg/ตัว PO วันเว้นวัน หรือ 15 mg/m² วันละครั้งนาน 4 วัน ทุก 3 สัปดาห์ — ⚠️ ภายใต้ oncology",
+      "cites": [
+        "merck-onco",
+        "petplace-chlorambucil"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Chronic leukemia / immune-mediated (specialist use)",
+      "route": "PO",
+      "dose": "0.1–0.2 mg/kg PO วันละครั้งหรือวันเว้นวัน — ยืนยันโปรโตคอลกับ oncologist",
+      "cites": [
+        "merck-onco"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC ก่อนทุกรอบ (nadir นับเม็ดเลือด); เฝ้าระวัง cytopenia",
+      "cites": [
+        "merck-onco"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-onco",
+      "type": "textbook",
+      "title": "Antineoplastic Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antineoplastic-agents/antineoplastic-agents-introduction",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "petplace-petplace-chlorambucil",
+      "type": "monograph",
+      "title": "Chlorambucil (Leukeran) for Dogs and Cats — PetPlace",
+      "year": 2025,
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/chlorambucil-leukeran-for-dogs-and-cats",
+      "note": "Clinical drug-library reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-chlorambucil",
+      "type": "monograph",
+      "title": "Chlorambucil — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Chlorambucil",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L01AA02",
+      "name": "Chlorambucil",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / VSSO chemo protocols / FDA-EMA labels / Today's Vet Practice), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

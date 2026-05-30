@@ -214,9 +214,23 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'antineoplastics',
     label: 'Antineoplastics · ยาเคมีบำบัด',
-    subtitle: 'Cytotoxic chemotherapy — vinca alkaloids, alkylating agents',
+    subtitle: 'Cytotoxic chemotherapy — vinca alkaloids, alkylating agents, anthracyclines',
     order: 205,
     match: startsWithAtc('L01'),
+  },
+  {
+    slug: 'ophthalmology',
+    label: 'Ophthalmology · ยาทางตา',
+    subtitle: 'Glaucoma agents, mydriatics — topical ocular therapeutics',
+    order: 210,
+    match: startsWithAtc('S01'),
+  },
+  {
+    slug: 'dermatology',
+    label: 'Dermatology · ยาผิวหนัง',
+    subtitle: 'Antipruritics + JAK inhibitors — atopic dermatitis (oclacitinib)',
+    order: 215,
+    match: startsWithAtc('D11'),
   },
 ]
 

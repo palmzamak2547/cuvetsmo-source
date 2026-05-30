@@ -1,0 +1,122 @@
+{
+  "slug": "dorzolamide",
+  "nameEn": "Dorzolamide",
+  "nameTh": "ดอร์โซลาไมด์",
+  "class": "Ophthalmology — topical carbonic anhydrase inhibitor (glaucoma)",
+  "mechanism": "ยาหยอดตายับยั้ง carbonic anhydrase ที่ ciliary body ลดการสร้าง aqueous humor จึงลดความดันลูกตา (IOP); ใช้รักษา glaucoma แบบเฉพาะที่ มักให้ร่วม timolol",
+  "brandNamesTh": [
+    "Trusopt",
+    "Cosopt (กับ timolol)"
+  ],
+  "indications": [
+    {
+      "text": "ลดความดันลูกตาใน glaucoma ของสุนัขและแมว (ทั้งจัดการและป้องกันตาอีกข้าง); มักใช้ร่วม prostaglandin analogue และ/หรือ timolol",
+      "cites": [
+        "merck-ophthalmic",
+        "tvp-glaucoma"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในสัตว์ที่แพ้ sulfonamide (เป็นอนุพันธ์ sulfa); ใช้เฉพาะที่จึงผลทั่วร่างกายน้อย",
+      "cites": [
+        "merck-ophthalmic"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระคายเคืองตาเฉพาะที่ (แสบ น้ำตาไหล), เยื่อบุตาแดง; ผลทั่วร่างกายพบน้อยมาก",
+      "cites": [
+        "merck-ophthalmic"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Glaucoma (IOP reduction)",
+      "route": "ocular",
+      "dose": "หยอดตา 2% ข้างที่เป็น ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "merck-ophthalmic",
+        "tvp-glaucoma"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Glaucoma (IOP reduction)",
+      "route": "ocular",
+      "dose": "หยอดตา 2% ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "merck-ophthalmic"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-ophthalmic",
+      "type": "textbook",
+      "title": "Ophthalmic Pharmacology and Therapeutics — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/ophthalmic-pharmacology-and-therapeutics",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tvp-glaucoma",
+      "type": "guideline",
+      "title": "Medical Management of Glaucoma — Today's Veterinary Practice",
+      "year": 2024,
+      "url": "https://todaysveterinarypractice.com/ophthalmology/medical-management-of-glaucoma/",
+      "note": "Peer-reviewed clinical reference — topical CAI + prostaglandin glaucoma management.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-dorzolamide",
+      "type": "monograph",
+      "title": "Dorzolamide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Dorzolamide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01EC03",
+      "name": "Dorzolamide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / VSSO chemo protocols / FDA-EMA labels / Today's Vet Practice), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

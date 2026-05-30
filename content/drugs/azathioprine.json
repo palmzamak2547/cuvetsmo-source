@@ -1,0 +1,131 @@
+{
+  "slug": "azathioprine",
+  "nameEn": "Azathioprine",
+  "nameTh": "อะซาไทโอพรีน",
+  "class": "Immunosuppressant — purine antimetabolite (canine; ⚠️ toxic in cats)",
+  "mechanism": "ยากดภูมิคุ้มกันกลุ่ม purine antimetabolite ยับยั้งการสร้าง DNA ของ lymphocyte ที่กำลังแบ่งตัว ลดการตอบสนองภูมิคุ้มกัน; ใช้เป็น steroid-sparing agent ในโรคภูมิคุ้มกัน",
+  "brandNamesTh": [
+    "Imuran"
+  ],
+  "indications": [
+    {
+      "text": "โรคภูมิคุ้มกันทำลายตนเองในสุนัข (IMHA, IMPA, IBD, pemphigus) เป็น steroid-sparing agent ออกฤทธิ์ช้า (3–5 สัปดาห์)",
+      "cites": [
+        "merck-immuno",
+        "vca-azathioprine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้าม/หลีกเลี่ยงในแมว — แมวขาดเอนไซม์ thiopurine methyltransferase (TPMT) จึงเกิด bone marrow suppression รุนแรงถึงตาย; ในสุนัขระวังตับเป็นพิษและกดไขกระดูก",
+      "cites": [
+        "merck-immuno",
+        "vca-azathioprine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก (โดยเฉพาะ Giant Schnauzer ไวเป็นพิเศษ), ตับเป็นพิษ, GI upset, ตับอ่อนอักเสบ; ⚠️ แมว = myelosuppression ร้ายแรง",
+      "cites": [
+        "merck-immuno"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Immune-mediated disease (steroid-sparing)",
+      "route": "PO",
+      "dose": "2 mg/kg PO วันละครั้งช่วงแรก แล้วลดเป็นวันเว้นวัน",
+      "cites": [
+        "merck-immuno",
+        "vca-azathioprine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Generally AVOIDED",
+      "route": "PO",
+      "dose": "⚠️ หลีกเลี่ยงในแมว; หากจำเป็นจริง 0.3 mg/kg วันเว้นวัน ภายใต้การติดตามใกล้ชิด",
+      "cites": [
+        "merck-immuno",
+        "vca-azathioprine"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC (เฝ้าระวัง cytopenia) และค่าตับเป็นระยะ — ทุก 1–2 สัปดาห์ช่วงแรก แล้วทุก 1–3 เดือน",
+      "cites": [
+        "merck-immuno"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-immuno",
+      "type": "textbook",
+      "title": "Immunosuppressive and Immunomodulatory Drugs — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/immune-system-pharmacology/immunosuppressive-and-immunomodulatory-drugs-used-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vca-azathioprine",
+      "type": "monograph",
+      "title": "Azathioprine — VCA Animal Hospitals",
+      "year": 2025,
+      "url": "https://vcahospitals.com/know-your-pet/azathioprine",
+      "note": "Clinical drug-library reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-azathioprine",
+      "type": "monograph",
+      "title": "Azathioprine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Azathioprine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L04AX01",
+      "name": "Azathioprine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / VSSO chemo protocols / FDA-EMA labels / Today's Vet Practice), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

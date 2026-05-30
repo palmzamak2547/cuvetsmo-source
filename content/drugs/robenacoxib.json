@@ -1,0 +1,122 @@
+{
+  "slug": "robenacoxib",
+  "nameEn": "Robenacoxib",
+  "nameTh": "โรเบนาคอกซิบ",
+  "class": "NSAID — COX-2 selective coxib (tissue-selective, veterinary)",
+  "mechanism": "ยา NSAID กลุ่ม coxib ยับยั้ง COX-2 อย่างจำเพาะ และมีคุณสมบัติ tissue-selective (สะสมที่บริเวณอักเสบ คงในเลือดสั้น) จึงลดผลต่อ GI/ไต; สำหรับสัตว์โดยเฉพาะ (Onsior)",
+  "brandNamesTh": [
+    "Onsior"
+  ],
+  "indications": [
+    {
+      "text": "ควบคุมความปวดและการอักเสบจากกล้ามเนื้อกระดูก (osteoarthritis) และความปวดหลังผ่าตัดในสุนัขและแมว; tissue-selectivity ทำให้เหมาะกับแมวที่ไวต่อ NSAID",
+      "cites": [
+        "petplace-robenacoxib",
+        "ema-onsior"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามใช้ในโรคไต/ตับ/หัวใจ, ขาดน้ำ, แผล GI, ความผิดปกติการแข็งตัวของเลือด; ห้ามใช้ร่วม NSAID อื่น/corticosteroid; ในแมวจำกัดระยะ 3–6 วัน",
+      "cites": [
+        "ema-onsior",
+        "petplace-robenacoxib"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI (อาเจียน ท้องเสีย เบื่ออาหาร), ผลต่อไต/ตับ; โดยรวมผล GI น้อยกว่า nonselective NSAID จาก COX-2 selectivity + tissue-selectivity",
+      "cites": [
+        "petplace-robenacoxib"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Osteoarthritis / post-op pain",
+      "route": "PO",
+      "dose": "1–2 mg/kg PO วันละครั้ง (ให้เวลาเดียวกันทุกวัน)",
+      "cites": [
+        "ema-onsior",
+        "petplace-robenacoxib"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Acute musculoskeletal / post-op pain",
+      "route": "PO",
+      "dose": "1–2 mg/kg PO วันละครั้ง (จำกัด 3–6 วันตามฉลาก)",
+      "cites": [
+        "ema-onsior"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "petplace-petplace-robenacoxib",
+      "type": "monograph",
+      "title": "Robenacoxib (Onsior) for Dogs and Cats — PetPlace",
+      "year": 2025,
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/robenacoxib-onsior-for-dogs-and-cats",
+      "note": "Clinical drug-library reference.",
+      "cid": null
+    },
+    {
+      "id": "ema-onsior",
+      "type": "package-insert",
+      "title": "Onsior (robenacoxib) — EMA/FDA veterinary label",
+      "year": 2025,
+      "url": "https://www.ema.europa.eu/en/medicines/veterinary/EPAR/onsior",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-robenacoxib",
+      "type": "monograph",
+      "title": "Robenacoxib — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Robenacoxib",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QM01AH91",
+      "name": "Robenacoxib (veterinary)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / VSSO chemo protocols / FDA-EMA labels / Today's Vet Practice), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

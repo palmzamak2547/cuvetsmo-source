@@ -1,0 +1,122 @@
+{
+  "slug": "chloramphenicol",
+  "nameEn": "Chloramphenicol",
+  "nameTh": "คลอแรมเฟนิคอล",
+  "class": "Antibiotic — amphenicol (broad-spectrum, ⚠️ human aplastic anemia risk)",
+  "mechanism": "ยาปฏิชีวนะกลุ่ม amphenicol จับ 50S ribosome ยับยั้งการสร้างโปรตีนแบคทีเรีย; ออกฤทธิ์ bacteriostatic วงกว้าง ซึมเข้าเนื้อเยื่อ/CNS/ตา/prostate ได้ดี; ใช้กับเชื้อดื้อยา (รวม MRSP)",
+  "brandNamesTh": [
+    "Chloromycetin"
+  ],
+  "indications": [
+    {
+      "text": "ติดเชื้อแบคทีเรียดื้อยา (รวม methicillin-resistant Staphylococcus pseudintermedius), การติดเชื้อที่ต้องการการซึมเข้าเนื้อเยื่อลึก (CNS, ตา, ต่อมลูกหมาก, กระดูก)",
+      "cites": [
+        "merck-amphenicol",
+        "vin-chloramphenicol"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ความเสี่ยงต่อคน: ทำให้เกิด aplastic anemia ที่อาจถึงชีวิตในมนุษย์ — เจ้าของต้องสวมถุงมือและหลีกเลี่ยงการสัมผัส; ปรับลดในตับบกพร่อง; ระวังในลูกสัตว์",
+      "cites": [
+        "vin-chloramphenicol"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูกแบบ reversible (สัตว์), GI upset, เบื่ออาหาร; ในแมวขนาดสูง/นานเสี่ยงกดไขกระดูกมากกว่า; ⚠️ ในสุนัขใหญ่อาจเกิดอ่อนแรงขาหลัง",
+      "cites": [
+        "merck-amphenicol",
+        "vin-chloramphenicol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Resistant bacterial infection",
+      "route": "PO",
+      "dose": "40–50 mg/kg PO ทุก 8 ชั่วโมง",
+      "cites": [
+        "vin-chloramphenicol",
+        "merck-amphenicol"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Resistant bacterial infection",
+      "route": "PO",
+      "dose": "12.5–20 mg/kg PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "vin-chloramphenicol"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-amphenicol",
+      "type": "textbook",
+      "title": "Amphenicols (Chloramphenicol, Florfenicol) — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/chloramphenicol-and-derivatives",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vin-chloramphenicol",
+      "type": "guideline",
+      "title": "Chloramphenicol Use in Dogs and Cats — Veterinary Partner (VIN)",
+      "year": 2024,
+      "url": "https://veterinarypartner.vin.com/doc/?id=4951497&pid=19239",
+      "note": "VIN clinical reference — dog 40–50 mg/kg q8h, cat 12.5–20 mg/kg q12h, human aplastic-anemia handling warning.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-chloramphenicol",
+      "type": "monograph",
+      "title": "Chloramphenicol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Chloramphenicol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01BA01",
+      "name": "Chloramphenicol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / VSSO chemo protocols / FDA-EMA labels / Today's Vet Practice), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

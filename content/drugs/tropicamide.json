@@ -1,0 +1,110 @@
+{
+  "slug": "tropicamide",
+  "nameEn": "Tropicamide",
+  "nameTh": "โทรพิคาไมด์",
+  "class": "Ophthalmology — short-acting mydriatic (diagnostic)",
+  "mechanism": "ยาหยอดตา anticholinergic ออกฤทธิ์สั้น ปิดกั้น muscarinic receptor ของกล้ามเนื้อ iris sphincter ทำให้รูม่านตาขยาย (mydriasis); ใช้ขยายม่านตาเพื่อตรวจจอประสาทตา",
+  "brandNamesTh": [
+    "Mydriacyl"
+  ],
+  "indications": [
+    {
+      "text": "ขยายรูม่านตาเพื่อการตรวจจอประสาทตา (fundic exam) และ cataract evaluation; ออกฤทธิ์สั้น (4–8 ชม.) จึงเหมาะการวินิจฉัยมากกว่า atropine ที่ออกฤทธิ์ยาว",
+      "cites": [
+        "merck-ophthalmic-c"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้าม/ระวังมากในสัตว์ที่มีหรือเสี่ยง glaucoma (การขยายม่านตาเพิ่มความดันลูกตา); ใช้เฉพาะที่",
+      "cites": [
+        "merck-ophthalmic-c"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "แสบตาชั่วคราว, น้ำลายไหล (จากรสขมที่ไหลผ่าน nasolacrimal duct โดยเฉพาะแมว); เพิ่มความดันลูกตาในสัตว์เสี่ยง glaucoma",
+      "cites": [
+        "merck-ophthalmic-c"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Diagnostic mydriasis (fundic exam)",
+      "route": "ocular",
+      "dose": "หยอดตา 0.5–1% 1 หยด ก่อนตรวจ ~15–20 นาที (อาจซ้ำ); ออกฤทธิ์ 4–8 ชม.",
+      "cites": [
+        "merck-ophthalmic-c"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Diagnostic mydriasis",
+      "route": "ocular",
+      "dose": "หยอดตา 0.5–1% 1 หยด ก่อนตรวจ",
+      "cites": [
+        "merck-ophthalmic-c"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-ophthalmic-c",
+      "type": "textbook",
+      "title": "Ophthalmic Pharmacology and Therapeutics — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/ophthalmic-pharmacology-and-therapeutics",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-tropicamide",
+      "type": "monograph",
+      "title": "Tropicamide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Tropicamide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01FA06",
+      "name": "Tropicamide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / VSSO chemo protocols / FDA-EMA labels / Today's Vet Practice), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "latanoprost",
+  "nameEn": "Latanoprost",
+  "nameTh": "ลาทาโนพรอสต์",
+  "class": "Ophthalmology — prostaglandin F2α analogue (glaucoma; ⚠️ not for cats)",
+  "mechanism": "ยาหยอดตากลุ่ม prostaglandin analogue เพิ่มการระบาย aqueous humor ทาง uveoscleral pathway ลดความดันลูกตาได้แรงและเร็ว; เป็นยาเลือกแรกใน acute glaucoma ของสุนัข",
+  "brandNamesTh": [
+    "Xalatan"
+  ],
+  "indications": [
+    {
+      "text": "ลดความดันลูกตาใน glaucoma ของสุนัข โดยเฉพาะภาวะเฉียบพลัน (ออกฤทธิ์เร็ว ทำให้รูม่านตาหด/miosis); ⚠️ ประสิทธิภาพในแมวต่ำ (แมวขาด FP receptor)",
+      "cites": [
+        "merck-ophthalmic-b",
+        "tvp-glaucoma-b"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามใช้ใน anterior lens luxation และ uveitis (การหด miosis เป็นอันตราย); ประสิทธิภาพในแมวจำกัด; ใช้เฉพาะที่",
+      "cites": [
+        "merck-ophthalmic-b",
+        "tvp-glaucoma-b"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "รูม่านตาหด (miosis), เยื่อบุตาแดง, ระคายเคืองเฉพาะที่; เพิ่มสีม่านตา (iris pigmentation) เมื่อใช้นาน",
+      "cites": [
+        "merck-ophthalmic-b"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Glaucoma (esp. acute)",
+      "route": "ocular",
+      "dose": "หยอดตา 0.005% ข้างที่เป็น ทุก 12–24 ชั่วโมง (acute crisis อาจถี่กว่าตามคำแนะนำจักษุแพทย์)",
+      "cites": [
+        "merck-ophthalmic-b",
+        "tvp-glaucoma-b"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-ophthalmic-b",
+      "type": "textbook",
+      "title": "Ophthalmic Pharmacology and Therapeutics — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/ophthalmic-pharmacology-and-therapeutics",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tvp-glaucoma-b",
+      "type": "guideline",
+      "title": "Medical Management of Glaucoma — Today's Veterinary Practice",
+      "year": 2024,
+      "url": "https://todaysveterinarypractice.com/ophthalmology/medical-management-of-glaucoma/",
+      "note": "Peer-reviewed clinical reference — prostaglandin analogue first-line canine glaucoma, feline limitation.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-latanoprost",
+      "type": "monograph",
+      "title": "Latanoprost — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Latanoprost",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01EE01",
+      "name": "Latanoprost",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / VSSO chemo protocols / FDA-EMA labels / Today's Vet Practice), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

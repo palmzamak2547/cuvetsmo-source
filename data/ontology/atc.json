@@ -1900,5 +1900,179 @@
     "name": "Terbutaline",
     "level": 5,
     "parent": "R03AC"
+  },
+  "N06AA": {
+    "code": "N06AA",
+    "name": "Non-selective monoamine reuptake inhibitors",
+    "level": 4,
+    "parent": "N06A"
+  },
+  "N06AA04": {
+    "code": "N06AA04",
+    "name": "Clomipramine",
+    "level": 5,
+    "parent": "N06AA"
+  },
+  "L04AX": {
+    "code": "L04AX",
+    "name": "Other immunosuppressants",
+    "level": 4,
+    "parent": "L04A"
+  },
+  "L04AX01": {
+    "code": "L04AX01",
+    "name": "Azathioprine",
+    "level": 5,
+    "parent": "L04AX"
+  },
+  "L01AA": {
+    "code": "L01AA",
+    "name": "Nitrogen mustard analogues",
+    "level": 4,
+    "parent": "L01A"
+  },
+  "L01AA02": {
+    "code": "L01AA02",
+    "name": "Chlorambucil",
+    "level": 5,
+    "parent": "L01AA"
+  },
+  "L01AD": {
+    "code": "L01AD",
+    "name": "Nitrosoureas",
+    "level": 4,
+    "parent": "L01A"
+  },
+  "L01AD02": {
+    "code": "L01AD02",
+    "name": "Lomustine",
+    "level": 5,
+    "parent": "L01AD"
+  },
+  "L01DB": {
+    "code": "L01DB",
+    "name": "Anthracyclines and related substances",
+    "level": 4,
+    "parent": "L01D"
+  },
+  "L01DB01": {
+    "code": "L01DB01",
+    "name": "Doxorubicin",
+    "level": 5,
+    "parent": "L01DB"
+  },
+  "J01BA": {
+    "code": "J01BA",
+    "name": "Amphenicols",
+    "level": 4,
+    "parent": "J01B"
+  },
+  "J01B": {
+    "code": "J01B",
+    "name": "Amphenicols",
+    "level": 3,
+    "parent": "J01"
+  },
+  "J01BA01": {
+    "code": "J01BA01",
+    "name": "Chloramphenicol",
+    "level": 5,
+    "parent": "J01BA"
+  },
+  "A03FA02": {
+    "code": "A03FA02",
+    "name": "Cisapride",
+    "level": 5,
+    "parent": "A03FA"
+  },
+  "S01": {
+    "code": "S01",
+    "name": "Ophthalmologicals",
+    "level": 2,
+    "parent": "S"
+  },
+  "S01E": {
+    "code": "S01E",
+    "name": "Antiglaucoma preparations and miotics",
+    "level": 3,
+    "parent": "S01"
+  },
+  "S01EC": {
+    "code": "S01EC",
+    "name": "Carbonic anhydrase inhibitors",
+    "level": 4,
+    "parent": "S01E"
+  },
+  "S01EC03": {
+    "code": "S01EC03",
+    "name": "Dorzolamide",
+    "level": 5,
+    "parent": "S01EC"
+  },
+  "S01EE": {
+    "code": "S01EE",
+    "name": "Prostaglandin analogues",
+    "level": 4,
+    "parent": "S01E"
+  },
+  "S01EE01": {
+    "code": "S01EE01",
+    "name": "Latanoprost",
+    "level": 5,
+    "parent": "S01EE"
+  },
+  "S01F": {
+    "code": "S01F",
+    "name": "Mydriatics and cycloplegics",
+    "level": 3,
+    "parent": "S01"
+  },
+  "S01FA": {
+    "code": "S01FA",
+    "name": "Anticholinergics (mydriatics)",
+    "level": 4,
+    "parent": "S01F"
+  },
+  "S01FA06": {
+    "code": "S01FA06",
+    "name": "Tropicamide",
+    "level": 5,
+    "parent": "S01FA"
+  },
+  "D11": {
+    "code": "D11",
+    "name": "Other dermatological preparations",
+    "level": 2,
+    "parent": "D"
+  },
+  "D11A": {
+    "code": "D11A",
+    "name": "Other dermatological preparations",
+    "level": 3,
+    "parent": "D11"
+  },
+  "D11AH": {
+    "code": "D11AH",
+    "name": "Agents for atopic dermatitis",
+    "level": 4,
+    "parent": "D11A"
+  },
+  "QD11AH90": {
+    "code": "QD11AH90",
+    "name": "Oclacitinib (veterinary)",
+    "level": 5,
+    "parent": "D11AH"
+  },
+  "M01AH91": {
+    "code": "M01AH91",
+    "name": "Robenacoxib (veterinary coxib)",
+    "level": 5,
+    "parent": "M01AH"
+  },
+  "QM01AH91": {
+    "code": "QM01AH91",
+    "name": "Robenacoxib (veterinary)",
+    "level": 5,
+    "parent": "M01AH"
   }
 }
