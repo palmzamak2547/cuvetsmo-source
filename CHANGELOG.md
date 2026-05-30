@@ -10,6 +10,16 @@ This file is the human-readable companion to the timeline shown at [/changelog](
 
 The full 8-primitive moonshot architecture shipped in one extended session. Per ARCHITECTURE.md week-by-week plan condensed into one continuous build.
 
+### 2026-05-27 — ◆ Verified is the standard (skip the faculty-sign gate)
+
+Follow-up to the verification-ladder redesign: faculty Ed25519 signing proved too high-friction to be the destination (most lecturers won't manage keys, and gating the use-case on it is the vaporware trap). So **multi-source, cross-checked, fully-traceable became the headline trust standard itself** — not a way-station to "real" verification.
+
+- **◆ Sourced → ◆ Verified** across drug detail, home colophon, and catalog list. Every entry reads as a finished, usable reference — never "incomplete / awaiting faculty."
+- Removed all upgrade-pending language ("เลื่อนขั้นเมื่ออาจารย์รับรอง", "ยังไม่ผ่าน expert review", "รอ faculty signoff").
+- `/drugs` list tiles: **Verified entries · authoritative sources · therapeutic classes** (was Sourced/Community/Expert counts that read as 101-pending).
+- `/verify` "ตรวจสอบได้" list reframed around what actually holds: every claim traces to a cited source, cross-checked across independent references, content-addressed (SHA-256), full Git history — instead of Ed25519 signer claims that were moot with zero signatures.
+- The `expert` / `community` tiers stay in `lib/drugs.ts` as an optional future bonus (a faculty member *can* still endorse), but the UI no longer implies entries need them. The moat is unchanged: provenance + multi-source cross-check + freshness — all verifiable, none copyable.
+
 ### 2026-05-27 — 🪜 Verification ladder (anti-vaporware redesign)
 
 The original trust model was binary: an entry was either faculty-signed-canonical or it read **"⏳ Pending — Not for clinical use."** Because faculty Ed25519 signing is high-friction (most lecturers won't manage private keys), signing was a *single point of failure* — if no faculty signed, all 101 entries read "do not use" forever. That is the failure mode where a project's use-case never works and it quietly dies.
