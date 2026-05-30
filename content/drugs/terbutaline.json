@@ -1,0 +1,123 @@
+{
+  "slug": "terbutaline",
+  "nameEn": "Terbutaline",
+  "nameTh": "เทอร์บูทาลีน",
+  "class": "Respiratory — beta-2 adrenergic bronchodilator",
+  "mechanism": "กระตุ้น β2-adrenergic receptor ทำให้กล้ามเนื้อเรียบหลอดลมคลายตัว (bronchodilation); ใช้รักษาภาวะหลอดลมหดเกร็ง โดยเฉพาะโรคหืดแมว (feline asthma) และหลอดลมอักเสบ",
+  "brandNamesTh": [
+    "Brethine",
+    "Bricanyl"
+  ],
+  "indications": [
+    {
+      "text": "ขยายหลอดลมในภาวะหลอดลมหดเกร็ง — โรคหืดแมว (feline asthma/bronchial disease) และหลอดลมอักเสบในสุนัข; รูปแบบฉีดใช้ในภาวะหายใจลำบากเฉียบพลัน",
+      "cites": [
+        "tvp-feline-airway",
+        "merck-airway"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในโรคหัวใจ/arrhythmia (กระตุ้นหัวใจ), ไทรอยด์เป็นพิษ, เบาหวาน; ขนาดสูงทำให้หัวใจเต้นเร็วและสั่น",
+      "cites": [
+        "merck-airway"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นเร็ว, ตัวสั่น (tremor), กระสับกระส่าย, K+ ในเลือดต่ำเมื่อขนาดสูง",
+      "cites": [
+        "merck-airway"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Bronchospasm / bronchitis",
+      "route": "PO",
+      "dose": "0.05–0.1 mg/kg PO ทุก 8–12 ชั่วโมง; ฉีด 0.01 mg/kg SC/IM ทุก 4–6 ชม.",
+      "cites": [
+        "merck-airway"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Feline asthma (incl. acute crisis)",
+      "route": "SC",
+      "dose": "0.01 mg/kg SC/IM (ภาวะเฉียบพลัน); PO 0.625 mg/ตัว (1/4 เม็ด 2.5 mg) ทุก 12 ชม.",
+      "notes": "รูปแบบฉีดช่วยภาวะหายใจลำบากเฉียบพลันในแมวได้เร็ว",
+      "cites": [
+        "tvp-feline-airway",
+        "merck-airway"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "tvp-feline-airway",
+      "type": "guideline",
+      "title": "Treatment of Feline Lower Airway Disease — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/respiratory-medicine/treatment-of-feline-lower-airway-disease/",
+      "year": 2024,
+      "note": "Peer-reviewed veterinary clinical practice journal.",
+      "cid": null
+    },
+    {
+      "id": "merck-airway",
+      "type": "textbook",
+      "title": "Systemic Treatment of Inflammatory Airway Disease in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/systemic-treatment-of-inflammatory-airway-disease-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Terbutaline",
+      "type": "monograph",
+      "title": "Terbutaline — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Terbutaline",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "R03AC03",
+      "name": "Terbutaline",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / AAHA + ACVIM guidelines / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

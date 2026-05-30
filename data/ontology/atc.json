@@ -1750,5 +1750,155 @@
     "name": "Vincristine",
     "level": 5,
     "parent": "L01CA"
+  },
+  "H02C": {
+    "code": "H02C",
+    "name": "Antiadrenal preparations",
+    "level": 3,
+    "parent": "H02"
+  },
+  "H02CA": {
+    "code": "H02CA",
+    "name": "Anticorticosteroids",
+    "level": 4,
+    "parent": "H02C"
+  },
+  "H02CA01": {
+    "code": "H02CA01",
+    "name": "Trilostane",
+    "level": 5,
+    "parent": "H02CA"
+  },
+  "H02AA": {
+    "code": "H02AA",
+    "name": "Mineralocorticoids",
+    "level": 4,
+    "parent": "H02A"
+  },
+  "H02AA03": {
+    "code": "H02AA03",
+    "name": "Desoxycorticosterone (DOCP)",
+    "level": 5,
+    "parent": "H02AA"
+  },
+  "J01G": {
+    "code": "J01G",
+    "name": "Aminoglycoside antibacterials",
+    "level": 3,
+    "parent": "J01"
+  },
+  "J01GB": {
+    "code": "J01GB",
+    "name": "Other aminoglycosides",
+    "level": 4,
+    "parent": "J01G"
+  },
+  "J01GB03": {
+    "code": "J01GB03",
+    "name": "Gentamicin",
+    "level": 5,
+    "parent": "J01GB"
+  },
+  "J01GB06": {
+    "code": "J01GB06",
+    "name": "Amikacin",
+    "level": 5,
+    "parent": "J01GB"
+  },
+  "J01FA": {
+    "code": "J01FA",
+    "name": "Macrolides",
+    "level": 4,
+    "parent": "J01F"
+  },
+  "J01FA10": {
+    "code": "J01FA10",
+    "name": "Azithromycin",
+    "level": 5,
+    "parent": "J01FA"
+  },
+  "V03AB23": {
+    "code": "V03AB23",
+    "name": "Acetylcysteine (antidote)",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "V03AB34": {
+    "code": "V03AB34",
+    "name": "Fomepizole",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "QN03AX90": {
+    "code": "QN03AX90",
+    "name": "Potassium bromide (veterinary antiepileptic)",
+    "level": 5,
+    "parent": "N03AX"
+  },
+  "H01BB": {
+    "code": "H01BB",
+    "name": "Oxytocin and analogues",
+    "level": 4,
+    "parent": "H01B"
+  },
+  "H01BB02": {
+    "code": "H01BB02",
+    "name": "Oxytocin",
+    "level": 5,
+    "parent": "H01BB"
+  },
+  "A06": {
+    "code": "A06",
+    "name": "Drugs for constipation",
+    "level": 2,
+    "parent": "A"
+  },
+  "A06A": {
+    "code": "A06A",
+    "name": "Drugs for constipation",
+    "level": 3,
+    "parent": "A06"
+  },
+  "A06AD": {
+    "code": "A06AD",
+    "name": "Osmotically acting laxatives",
+    "level": 4,
+    "parent": "A06A"
+  },
+  "A06AD11": {
+    "code": "A06AD11",
+    "name": "Lactulose",
+    "level": 5,
+    "parent": "A06AD"
+  },
+  "C02K": {
+    "code": "C02K",
+    "name": "Other antihypertensives",
+    "level": 3,
+    "parent": "C02"
+  },
+  "C02KX": {
+    "code": "C02KX",
+    "name": "Antihypertensives for pulmonary arterial hypertension",
+    "level": 4,
+    "parent": "C02K"
+  },
+  "C02KX01": {
+    "code": "C02KX01",
+    "name": "Sildenafil (PAH)",
+    "level": 5,
+    "parent": "C02KX"
+  },
+  "R03AC": {
+    "code": "R03AC",
+    "name": "Selective beta-2-adrenoreceptor agonists",
+    "level": 4,
+    "parent": "R03A"
+  },
+  "R03AC03": {
+    "code": "R03AC03",
+    "name": "Terbutaline",
+    "level": 5,
+    "parent": "R03AC"
   }
 }

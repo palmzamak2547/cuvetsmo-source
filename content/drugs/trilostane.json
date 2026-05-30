@@ -1,0 +1,133 @@
+{
+  "slug": "trilostane",
+  "nameEn": "Trilostane",
+  "nameTh": "ไตรโลสเทน",
+  "class": "Adrenal — steroidogenesis inhibitor (canine Cushing)",
+  "mechanism": "ยับยั้งเอนไซม์ 3β-hydroxysteroid dehydrogenase ในต่อมหมวกไต ลดการสร้าง cortisol (และ aldosterone บางส่วน); เป็นยาหลักรักษา hyperadrenocorticism (Cushing) ในสุนัข ออกฤทธิ์ชั่วคราวจึงต้องให้ต่อเนื่อง",
+  "brandNamesTh": [
+    "Vetoryl"
+  ],
+  "indications": [
+    {
+      "text": "รักษา hyperadrenocorticism (Cushing) ในสุนัข ทั้งชนิด pituitary-dependent และ adrenal-dependent; ใช้ในแมวบางกรณี (off-label)",
+      "cites": [
+        "fda-vetoryl",
+        "tvp-trilostane"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามใช้ในสัตว์ที่มีโรคไต/ตับรุนแรง, ตั้งท้อง; ⚠️ เสี่ยง iatrogenic hypoadrenocorticism (Addison) — ทั้งชั่วคราวและถาวร; ให้พร้อมอาหาร",
+      "cites": [
+        "fda-vetoryl",
+        "aaha-endocrine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เบื่ออาหาร อาเจียน ซึม (อาจเป็นสัญญาณ cortisol ต่ำเกิน); ⚠️ hypoadrenocortical crisis (อ่อนแรง ช็อก electrolyte ผิดปกติ) ที่อาจถึงชีวิต; adrenal necrosis พบน้อย",
+      "cites": [
+        "fda-vetoryl",
+        "tvp-trilostane"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Hyperadrenocorticism (Cushing)",
+      "route": "PO",
+      "dose": "เริ่ม ~1–2 mg/kg PO วันละครั้ง (FDA label 2.2–6.7 mg/kg/วัน) หลายคนเริ่มต่ำ ~1 mg/kg ทุก 12 ชม.; ปรับตาม ACTH stim/cortisol",
+      "notes": "ให้พร้อมอาหาร; ปรับขนาดตามผลตรวจ ห้ามปรับโดยไม่ติดตาม",
+      "cites": [
+        "fda-vetoryl",
+        "tvp-trilostane"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ติดตามด้วย ACTH stimulation test หรือ pre-pill cortisol ที่ 10–14 วัน, 30 วัน, 90 วัน หลังเริ่ม/ปรับขนาด; เฝ้าระวัง electrolyte และอาการ Addisonian",
+      "cites": [
+        "aaha-endocrine",
+        "tvp-trilostane"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-vetoryl",
+      "type": "package-insert",
+      "title": "Vetoryl (trilostane) — FDA-approved veterinary label",
+      "year": 2025,
+      "url": "https://www.dechra-us.com/management-areas/companion-animals/endocrinology/canine-hyperadrenocorticism/treating-cushings",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "tvp-trilostane",
+      "type": "guideline",
+      "title": "Trilostane for Dogs with Hyperadrenocorticism — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/pharmacology/trilostane-for-dogs-with-hyperadrenocorticism/",
+      "year": 2024,
+      "note": "Peer-reviewed veterinary clinical practice journal.",
+      "cid": null
+    },
+    {
+      "id": "aaha-endocrine",
+      "type": "guideline",
+      "title": "2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines",
+      "url": "https://www.aaha.org/resources/2023-aaha-selected-endocrinopathies-of-dogs-and-cats-guidelines/",
+      "year": 2023,
+      "note": "AAHA consensus guideline. Authoritative.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Trilostane",
+      "type": "monograph",
+      "title": "Trilostane — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Trilostane",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-27",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "H02CA01",
+      "name": "Trilostane",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-27",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-27",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-27",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / AAHA + ACVIM guidelines / peer-reviewed studies), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

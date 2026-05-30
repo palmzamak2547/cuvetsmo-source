@@ -81,9 +81,9 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'gi',
     label: 'GI · ระบบทางเดินอาหาร',
-    subtitle: 'PPIs, H2 blockers, prokinetics — acid suppression + motility',
+    subtitle: 'PPIs, H2 blockers, prokinetics, laxatives — acid suppression + motility',
     order: 70,
-    match: (d) => startsWithAtc('A02', 'A03')(d),
+    match: (d) => startsWithAtc('A02', 'A03', 'A06')(d),
   },
   {
     slug: 'anti-emetics',
@@ -112,6 +112,13 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     subtitle: 'Thyroid hormones, antithyroid agents',
     order: 110,
     match: startsWithAtc('H03'),
+  },
+  {
+    slug: 'adrenal',
+    label: 'Adrenal · ยาต่อมหมวกไต',
+    subtitle: 'Cushing (trilostane) + Addison (DOCP) — adrenal axis modulators',
+    order: 112,
+    match: startsWithAtc('H02CA', 'H02AA', 'V03AB99'),
   },
   {
     slug: 'corticosteroids',
