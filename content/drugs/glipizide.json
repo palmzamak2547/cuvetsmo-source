@@ -1,0 +1,121 @@
+{
+  "slug": "glipizide",
+  "nameEn": "Glipizide",
+  "nameTh": "กลิพิไซด์",
+  "class": "Diabetes — oral sulfonylurea (hypoglycemic)",
+  "mechanism": "sulfonylurea กระตุ้น beta-cell ของตับอ่อนให้หลั่ง insulin (ต้องมี beta-cell ที่ยังทำงาน); ใช้กับเบาหวานแมวบางรายที่เจ้าของไม่สะดวกฉีด insulin",
+  "brandNamesTh": [
+    "Glucotrol"
+  ],
+  "indications": [
+    {
+      "text": "เบาหวานในแมวที่อาการเบา-ปานกลาง, ไม่อยู่ในภาวะ ketoacidosis, monitor ได้ใกล้ชิด และเจ้าของปฏิเสธการฉีด insulin (ตอบสนอง ~40%)",
+      "cites": [
+        "aaha-noninsulin",
+        "vin-glipizide"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามในภาวะ ketosis/DKA (ต้องใช้ insulin); ไม่ได้ผลถ้า beta-cell หมดสภาพ; ถ้าไม่ตอบสนองใน 4–6 สัปดาห์ให้เปลี่ยนเป็น insulin; ระวัง hypoglycemia + พิษตับ",
+      "cites": [
+        "aaha-noninsulin",
+        "vin-glipizide"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน (ช่วงแรก), น้ำตาลต่ำ, ตับเอนไซม์สูง/ดีซ่าน (บางตัว); ผลต่อน้ำตาลอาจเห็นช้า 4–8 สัปดาห์",
+      "cites": [
+        "vin-glipizide"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Diabetes mellitus (mild, non-DKA)",
+      "route": "PO",
+      "dose": "เริ่ม 2.5 mg/ตัว PO ทุก 12 ชั่วโมง (พร้อมอาหาร); เพิ่มเป็น 5 mg/ตัว q12h หากตอบสนองไม่พอใน 2 สัปดาห์",
+      "cites": [
+        "aaha-noninsulin",
+        "vin-glipizide"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "blood glucose + อาการ; เฝ้า hypoglycemia + ค่าตับ; เปลี่ยนเป็น insulin ถ้าไม่ตอบสนองใน 4–6 สัปดาห์",
+      "cites": [
+        "vin-glipizide"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "aaha-noninsulin",
+      "type": "guideline",
+      "title": "AAHA Diabetes Management Guidelines — non-insulin therapies",
+      "url": "https://www.aaha.org/resources/2018-aaha-diabetes-management-guideline-for-dogs-and-cats/non-insulin-therapies/",
+      "year": 2024,
+      "note": "ACVIM/AAHA consensus or guideline.",
+      "cid": null
+    },
+    {
+      "id": "vin-glipizide",
+      "type": "guideline",
+      "title": "Glipizide (Glucotrol) — Veterinary Partner / VIN",
+      "url": "https://veterinarypartner.vin.com/default.aspx?pid=19239&id=4951423",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-glipizide",
+      "type": "monograph",
+      "title": "Glipizide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Glipizide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A10BB07",
+      "name": "Glipizide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM-AAHA / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

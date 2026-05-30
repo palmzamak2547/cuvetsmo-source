@@ -1,0 +1,122 @@
+{
+  "slug": "moxidectin",
+  "nameEn": "Moxidectin",
+  "nameTh": "มอกซิเดกติน",
+  "class": "Antiparasitic — macrocyclic lactone (milbemycin)",
+  "mechanism": "macrocyclic lactone กลุ่ม milbemycin จับ glutamate-gated chloride channel ของพยาธิ ทำให้เป็นอัมพาตและตาย; ใช้ป้องกันพยาธิหนอนหัวใจและกำจัดพยาธิภายใน/ภายนอก มีรูปฉีดออกฤทธิ์ยาว (ProHeart)",
+  "brandNamesTh": [
+    "ProHeart",
+    "Advocate/Advantage Multi (คู่ imidacloprid)"
+  ],
+  "indications": [
+    {
+      "text": "ป้องกันพยาธิหนอนหัวใจ (Dirofilaria immitis) ในสุนัข/แมว, กำจัดพยาธิตัวกลมในลำไส้, ไรขี้เรื้อน (demodicosis/sarcoptic ในสูตรเฉพาะ); รูปฉีด ProHeart ป้องกันได้ 6–12 เดือน",
+      "cites": [
+        "tvp-moxidectin",
+        "paper-moxidectin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในสุนัขพันธุ์ที่มี MDR1/ABCB1 mutation (Collie ฯลฯ) — ไวต่อ neurotoxicity ที่ขนาดสูง; ตรวจ heartworm antigen ก่อนเริ่มป้องกัน; รูปฉีดให้โดยสัตวแพทย์เท่านั้น",
+      "cites": [
+        "tvp-moxidectin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "โดยทั่วไปปลอดภัยที่ขนาดป้องกัน; ขนาดสูง/MDR1 → ataxia ซึม น้ำลายไหล ชัก; ปฏิกิริยาบริเวณฉีด (รูป depot)",
+      "cites": [
+        "tvp-moxidectin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Heartworm prevention (oral monthly)",
+      "route": "PO",
+      "dose": "24 µg/kg PO เดือนละครั้ง (สูตรกินรุ่นใหม่; สูตรเดิม 3 µg/kg)",
+      "cites": [
+        "paper-moxidectin"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Heartworm prevention (extended-release injection)",
+      "route": "SC",
+      "dose": "ProHeart 6: 0.17 mg/kg SC ทุก 6 เดือน; ProHeart 12: 0.5 mg/kg SC ทุก 12 เดือน — สัตวแพทย์ให้",
+      "cites": [
+        "tvp-moxidectin",
+        "paper-moxidectin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "tvp-moxidectin",
+      "type": "guideline",
+      "title": "Moxidectin for Dogs — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/pharmacology/moxidectin-for-dogs/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "paper-moxidectin",
+      "type": "paper",
+      "title": "Preventive efficacy of oral moxidectin at various doses against heartworm in dogs (Parasites & Vectors)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6737633/",
+      "year": 2023,
+      "note": "Peer-reviewed canine moxidectin heartworm-prevention study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-moxidectin",
+      "type": "monograph",
+      "title": "Moxidectin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Moxidectin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP54AA02",
+      "name": "Moxidectin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM-AAHA / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

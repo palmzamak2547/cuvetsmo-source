@@ -2452,5 +2452,113 @@
     "name": "Insulin glargine",
     "level": 5,
     "parent": "A10AE"
+  },
+  "J01CE": {
+    "code": "J01CE",
+    "name": "Beta-lactamase sensitive penicillins",
+    "level": 4,
+    "parent": "J01C"
+  },
+  "J01CE01": {
+    "code": "J01CE01",
+    "name": "Benzylpenicillin (penicillin G)",
+    "level": 5,
+    "parent": "J01CE"
+  },
+  "J01AA07": {
+    "code": "J01AA07",
+    "name": "Tetracycline",
+    "level": 5,
+    "parent": "J01AA"
+  },
+  "J02AA": {
+    "code": "J02AA",
+    "name": "Antibiotics (polyene antifungals)",
+    "level": 4,
+    "parent": "J02A"
+  },
+  "J02AA01": {
+    "code": "J02AA01",
+    "name": "Amphotericin B",
+    "level": 5,
+    "parent": "J02AA"
+  },
+  "D01BA01": {
+    "code": "D01BA01",
+    "name": "Griseofulvin",
+    "level": 5,
+    "parent": "D01BA"
+  },
+  "QP54AA02": {
+    "code": "QP54AA02",
+    "name": "Moxidectin",
+    "level": 5,
+    "parent": "QP54AA"
+  },
+  "N06AB05": {
+    "code": "N06AB05",
+    "name": "Paroxetine",
+    "level": 5,
+    "parent": "N06AB"
+  },
+  "L04AD02": {
+    "code": "L04AD02",
+    "name": "Tacrolimus",
+    "level": 5,
+    "parent": "L04AD"
+  },
+  "R03B": {
+    "code": "R03B",
+    "name": "Other inhalants for obstructive airway diseases",
+    "level": 3,
+    "parent": "R03"
+  },
+  "R03BA": {
+    "code": "R03BA",
+    "name": "Glucocorticoids (inhaled)",
+    "level": 4,
+    "parent": "R03B"
+  },
+  "R03BA05": {
+    "code": "R03BA05",
+    "name": "Fluticasone",
+    "level": 5,
+    "parent": "R03BA"
+  },
+  "A02BC05": {
+    "code": "A02BC05",
+    "name": "Esomeprazole",
+    "level": 5,
+    "parent": "A02BC"
+  },
+  "H02AA02": {
+    "code": "H02AA02",
+    "name": "Fludrocortisone",
+    "level": 5,
+    "parent": "H02AA"
+  },
+  "A10B": {
+    "code": "A10B",
+    "name": "Blood glucose lowering drugs, excl. insulins",
+    "level": 3,
+    "parent": "A10"
+  },
+  "A10BB": {
+    "code": "A10BB",
+    "name": "Sulfonylureas",
+    "level": 4,
+    "parent": "A10B"
+  },
+  "A10BB07": {
+    "code": "A10BB07",
+    "name": "Glipizide",
+    "level": 5,
+    "parent": "A10BB"
+  },
+  "L04AA13": {
+    "code": "L04AA13",
+    "name": "Leflunomide",
+    "level": 5,
+    "parent": "L04AA"
   }
 }

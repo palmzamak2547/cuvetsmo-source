@@ -1,0 +1,120 @@
+{
+  "slug": "leflunomide",
+  "nameEn": "Leflunomide",
+  "nameTh": "เลฟลูโนไมด์",
+  "class": "Immunomodulator — pyrimidine synthesis inhibitor",
+  "mechanism": "ถูกเปลี่ยนเป็น teriflunomide ยับยั้งเอนไซม์ dihydroorotate dehydrogenase ลดการสร้าง pyrimidine จึงยับยั้งการแบ่งตัวของ lymphocyte; เป็น immunosuppressant เสริม (มักคู่ corticosteroid)",
+  "brandNamesTh": [
+    "Arava"
+  ],
+  "indications": [
+    {
+      "text": "โรคภูมิคุ้มกันทำลายตนเองในสุนัข — immune-mediated polyarthritis (IMPA), hemolytic anemia (IMHA), thrombocytopenia (ITP); ใช้เป็น steroid-sparing/adjunct",
+      "cites": [
+        "acvim-imha-i",
+        "paper-leflunomide"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ขนาด >4 mg/kg/วัน ทำให้ dose-dependent anemia — เริ่มต่ำ; monitor CBC + ตับ; ระวังในตับบกพร่อง/ติดเชื้อ; teratogenic (ห้ามตั้งท้อง)",
+      "cites": [
+        "paper-leflunomide"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องเสีย ซึม, ⚠️ anemia/thrombocytopenia (dose-related), ตับเอนไซม์สูง, เลือดออกผิดปกติ; พบผลข้างเคียง ~12%",
+      "cites": [
+        "paper-leflunomide"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "IMHA / IMPA / ITP (with prednisolone)",
+      "route": "PO",
+      "dose": "2 mg/kg PO วันละครั้ง (ตาม ACVIM IMHA; ช่วง 2–4 mg/kg — เริ่มต่ำลดพิษ) อย่างน้อย 6 สัปดาห์ก่อนปรับ",
+      "cites": [
+        "acvim-imha-i",
+        "paper-leflunomide"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC (anemia/thrombocytopenia) + ค่าตับเป็นระยะ; ลดขนาดเมื่อมีพิษ",
+      "cites": [
+        "paper-leflunomide"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "acvim-imha-i",
+      "type": "guideline",
+      "title": "ACVIM consensus statement on the treatment of immune-mediated hemolytic anemia in dogs (Swann 2019)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.15463",
+      "year": 2024,
+      "note": "ACVIM/AAHA consensus or guideline.",
+      "cid": null
+    },
+    {
+      "id": "paper-leflunomide",
+      "type": "paper",
+      "title": "Efficacy of leflunomide for immune-mediated polyarthritis in dogs: 14 cases",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20113244/",
+      "year": 2023,
+      "note": "Peer-reviewed canine IMPA leflunomide study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-leflunomide",
+      "type": "monograph",
+      "title": "Leflunomide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Leflunomide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L04AA13",
+      "name": "Leflunomide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM-AAHA / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

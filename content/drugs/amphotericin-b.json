@@ -1,0 +1,121 @@
+{
+  "slug": "amphotericin-b",
+  "nameEn": "Amphotericin B",
+  "nameTh": "แอมโฟเทอริซิน บี",
+  "class": "Antifungal — polyene (systemic mycoses)",
+  "mechanism": "polyene จับ ergosterol ที่เยื่อหุ้มเซลล์เชื้อรา สร้างรูรั่วทำให้เซลล์ตาย; ออกฤทธิ์แรงต่อเชื้อราระบบ แต่เป็นพิษต่อไตสูง — รูป lipid ลดพิษไต",
+  "brandNamesTh": [
+    "Fungizone",
+    "AmBisome (liposomal)"
+  ],
+  "indications": [
+    {
+      "text": "เชื้อราระบบรุนแรง (blastomycosis, histoplasmosis, cryptococcosis, coccidioidomycosis), leishmaniasis ในสุนัขและแมว — มักใช้เมื่อ azole ไม่พอ",
+      "cites": [
+        "merck-antifungal-i",
+        "wikipedia-amphotericin_b"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ พิษไตสูง (nephrotoxic) — ต้องให้สารน้ำก่อน, monitor BUN/creatinine, หยุดเมื่อไตแย่; ห้ามในไตบกพร่อง; รูป lipid (AmBisome) พิษไตน้อยกว่าแต่ราคาสูง; ให้ IV ช้า ๆ",
+      "cites": [
+        "merck-antifungal-i"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "azotemia/ไตวาย (dose-limiting), ไข้-หนาวสั่นขณะให้, K+/Mg ต่ำ, ซีด, phlebitis; สะสมพิษไตตามขนาดรวม",
+      "cites": [
+        "merck-antifungal-i"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Systemic mycosis — specialist",
+      "route": "IV",
+      "dose": "0.25–0.5 mg/kg IV (ช้า/เจือจาง) วันเว้นวัน จนถึง cumulative dose เป้าหมาย — ⚠️ ให้สารน้ำร่วม + monitor ไต",
+      "notes": "รูป lipid: 1–3 mg/kg",
+      "cites": [
+        "merck-antifungal-i"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Cryptococcosis — specialist",
+      "route": "IV",
+      "dose": "0.25 mg/kg IV (ช้า) วันเว้นวัน — แมวไวต่อพิษไต, ใช้ขนาดต่ำ + monitor",
+      "cites": [
+        "merck-antifungal-i"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ BUN/creatinine + electrolyte (K+, Mg) ก่อนทุกครั้งที่ให้; หยุด/เลื่อนเมื่อ azotemia",
+      "cites": [
+        "merck-antifungal-i"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-antifungal-i",
+      "type": "textbook",
+      "title": "Antifungal Agents — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/polyene-antifungals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-amphotericin_b",
+      "type": "monograph",
+      "title": "Amphotericin B — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Amphotericin_B",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J02AA01",
+      "name": "Amphotericin B",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM-AAHA / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

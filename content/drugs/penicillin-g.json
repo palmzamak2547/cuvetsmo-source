@@ -1,0 +1,122 @@
+{
+  "slug": "penicillin-g",
+  "nameEn": "Penicillin G (benzylpenicillin)",
+  "nameTh": "เพนิซิลลิน จี",
+  "class": "Antibiotic — natural penicillin (beta-lactam)",
+  "mechanism": "natural penicillin ยับยั้งการสร้างผนังเซลล์แบคทีเรีย (bind PBP); ออกฤทธิ์ดีต่อ gram-positive และ anaerobe หลายชนิด แต่ถูก beta-lactamase ทำลายและสเปกตรัมแคบกว่า aminopenicillin",
+  "brandNamesTh": [
+    "Penicillin G sodium/potassium",
+    "Procaine penicillin G"
+  ],
+  "indications": [
+    {
+      "text": "ติดเชื้อ gram-positive และ anaerobe ที่ไวต่อยา (เช่น Clostridium, Streptococcus), leptospirosis, แผลติดเชื้อ; รูป procaine ออกฤทธิ์ยาวให้ IM",
+      "cites": [
+        "merck-penicillins-i",
+        "vca-pengsodium"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามในสัตว์แพ้ penicillin/cephalosporin; ⚠️ procaine penicillin ห้ามให้ IV (procaine เป็นพิษ); ปรับในไตบกพร่อง; ไม่ครอบคลุมเชื้อที่สร้าง beta-lactamase",
+      "cites": [
+        "merck-penicillins-i"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "แพ้ยา (ผื่น anaphylaxis), GI upset, เปลี่ยน gut flora; procaine reaction (ตื่นเต้น/ชัก) ถ้าฉีดเข้าหลอดเลือดโดยไม่ตั้งใจ",
+      "cites": [
+        "vca-pengsodium"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Susceptible gram-positive / anaerobe",
+      "route": "IV",
+      "dose": "20,000–40,000 IU/kg IV/IM ทุก 6–8 ชั่วโมง (penicillin G sodium/potassium)",
+      "cites": [
+        "merck-penicillins-i",
+        "vca-pengsodium"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Sustained coverage (procaine)",
+      "route": "IM",
+      "dose": "20,000–40,000 IU/kg IM ทุก 12–24 ชั่วโมง (procaine penicillin G — IM เท่านั้น)",
+      "cites": [
+        "merck-penicillins-i"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-penicillins-i",
+      "type": "textbook",
+      "title": "Penicillins — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/penicillins",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vca-pengsodium",
+      "type": "monograph",
+      "title": "Penicillin G — drug reference",
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/penicillins",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-benzylpenicillin",
+      "type": "monograph",
+      "title": "Benzylpenicillin (penicillin G) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Benzylpenicillin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01CE01",
+      "name": "Benzylpenicillin (penicillin G)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM-AAHA / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

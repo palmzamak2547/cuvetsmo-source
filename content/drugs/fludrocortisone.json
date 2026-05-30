@@ -1,0 +1,120 @@
+{
+  "slug": "fludrocortisone",
+  "nameEn": "Fludrocortisone",
+  "nameTh": "ฟลูโดรคอร์ติโซน",
+  "class": "Adrenal — mineralocorticoid replacement",
+  "mechanism": "corticosteroid สังเคราะห์ที่มีฤทธิ์ mineralocorticoid เด่น (ออกฤทธิ์ที่ไตเพิ่มการดูดกลับ Na+ และขับ K+); ใช้ทดแทนในภาวะต่อมหมวกไตทำงานบกพร่อง (Addison's)",
+  "brandNamesTh": [
+    "Florinef"
+  ],
+  "indications": [
+    {
+      "text": "รักษาภาวะต่อมหมวกไตวายเรื้อรัง (hypoadrenocorticism / Addison's disease) ชนิดที่ต้องการ mineralocorticoid ในสุนัข (ทางเลือกแบบกินเทียบกับ DOCP ฉีด)",
+      "cites": [
+        "merck-addison-i",
+        "vca-fludrocortisone"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ต้องปรับขนาดตาม Na+/K+ เป็นรายตัว; บางตัวต้องเสริม glucocorticoid (prednisolone) ร่วม; ระวังในหัวใจล้มเหลว/ความดันสูง (Na retention)",
+      "cites": [
+        "merck-addison-i"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "PU/PD, ความดันสูง, K+ ต่ำ, บวมน้ำเมื่อขนาดสูง; คุม electrolyte ไม่ได้ถ้าขนาดต่ำเกิน",
+      "cites": [
+        "vca-fludrocortisone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Hypoadrenocorticism (Addison's)",
+      "route": "PO",
+      "dose": "เริ่ม 0.01–0.02 mg/kg PO วันละครั้ง (หรือแบ่ง BID) แล้วปรับตาม Na+/K+ ทุก 1–2 สัปดาห์",
+      "cites": [
+        "merck-addison-i",
+        "vca-fludrocortisone"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ Na+/K+ (เป้า Na:K > 27) ทุก 1–2 สัปดาห์ช่วงปรับขนาด แล้วทุก 3–6 เดือน",
+      "cites": [
+        "merck-addison-i"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-addison-i",
+      "type": "textbook",
+      "title": "Hypoadrenocorticism (Addison Disease) — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/endocrine-system/the-adrenal-glands/hypoadrenocorticism-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vca-fludrocortisone",
+      "type": "monograph",
+      "title": "Fludrocortisone — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/fludrocortisone-acetate",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-fludrocortisone",
+      "type": "monograph",
+      "title": "Fludrocortisone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Fludrocortisone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "H02AA02",
+      "name": "Fludrocortisone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM-AAHA / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

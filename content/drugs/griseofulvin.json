@@ -1,0 +1,131 @@
+{
+  "slug": "griseofulvin",
+  "nameEn": "Griseofulvin",
+  "nameTh": "กรีซีโอฟุลวิน",
+  "class": "Antifungal — antidermatophyte (oral)",
+  "mechanism": "จับ microtubule ของเชื้อรา ขัดขวาง mitosis และฝังตัวในเคราตินที่สร้างใหม่ ป้องกันการติดเชื้อ dermatophyte ที่ผิวหนัง/ขน/เล็บ; ดูดซึมดีขึ้นเมื่อกินกับอาหารไขมัน",
+  "brandNamesTh": [
+    "Fulvicin",
+    "Grisovin"
+  ],
+  "indications": [
+    {
+      "text": "โรคเชื้อราผิวหนัง (dermatophytosis/ringworm จาก Microsporum, Trichophyton) ในสุนัขและแมว — รักษานานจนเพาะเชื้อเป็นลบ (6–10 สัปดาห์)",
+      "cites": [
+        "merck-griseofulvin-i",
+        "vin-ringworm"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ teratogenic รุนแรง — ห้ามในสัตว์ตั้งท้องและลูกแมว <12 สัปดาห์; ⚠️ แมว (โดยเฉพาะ FeLV/FIV+) เสี่ยง bone marrow suppression รุนแรงไม่ขึ้นกับขนาด — ตรวจ FeLV/FIV ก่อน + CBC ทุกเดือน; ห้ามในตับบกพร่อง",
+      "cites": [
+        "merck-griseofulvin-i",
+        "vin-ringworm"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset, ⚠️ neutropenia/bone marrow suppression (แมว), พิษตับ, ผื่นผิวหนัง; teratogenic",
+      "cites": [
+        "vin-ringworm"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Dermatophytosis",
+      "route": "PO",
+      "dose": "50 mg/kg PO วันละครั้ง (microsize, กินกับอาหารไขมัน); refractory ใช้สูงขึ้นได้",
+      "cites": [
+        "merck-griseofulvin-i"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Dermatophytosis",
+      "route": "PO",
+      "dose": "microsize 25 mg/kg/วัน (แบ่ง BID) หรือ ultramicrosize 5–10 mg/kg/วัน — ⚠️ ตรวจ FeLV/FIV + CBC รายเดือน",
+      "cites": [
+        "merck-griseofulvin-i",
+        "vin-ringworm"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "CBC รายเดือน (แมว — เฝ้า neutropenia); ค่าตับ; เพาะเชื้อยืนยันหายก่อนหยุด",
+      "cites": [
+        "vin-ringworm"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-griseofulvin-i",
+      "type": "textbook",
+      "title": "Griseofulvin for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/griseofulvin-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vin-ringworm",
+      "type": "guideline",
+      "title": "Griseofulvin (Fulvicin) — Veterinary Partner / VIN",
+      "url": "https://veterinarypartner.vin.com/doc/?id=4951425&pid=19239",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-griseofulvin",
+      "type": "monograph",
+      "title": "Griseofulvin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Griseofulvin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-30",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D01BA01",
+      "name": "Griseofulvin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-30",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-30",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-30",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM-AAHA / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
