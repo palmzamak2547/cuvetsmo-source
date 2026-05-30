@@ -10,6 +10,20 @@ This file is the human-readable companion to the timeline shown at [/changelog](
 
 The full 8-primitive moonshot architecture shipped in one extended session. Per ARCHITECTURE.md week-by-week plan condensed into one continuous build.
 
+### 2026-05-27 — 🚑 Catalog crosses 100: 89 → 101 drugs (+ emergency/critical-care)
+
+Batch C added the emergency, critical-care, and antidote shelf that every clinic crash-cart needs — 12 entries, 5 new therapeutic classes. Each dose cross-checked against the RECOVER 2024 CPR dosing charts, BSAVA emergency formulary, AAHA fluid-therapy guidelines, ACVIM status-epilepticus consensus, and Merck.
+
+- **Emergency cardiac (C01CA):** epinephrine, dopamine, dobutamine
+- **Fluids & electrolytes (B05/A12/V06D):** mannitol, calcium gluconate, dextrose
+- **Toxicology & emesis (A07/V03):** apomorphine, activated charcoal
+- **Antidote (V03):** flumazenil (benzodiazepine reversal)
+- **Respiratory stimulant (R07):** doxapram
+- **Pituitary hormone (H01B):** desmopressin (central diabetes insipidus)
+- **Antineoplastic (L01):** vincristine
+
+Critical safety flags: epinephrine CPR 0.01 mg/kg (low-dose, RECOVER), calcium IV-slow-with-ECG, 50% dextrose must be diluted, vincristine vesicant/extravasation + MDR1 risk, activated-charcoal hypernatremia caution. **101 drugs total across 46 therapeutic-class labels, every claim cited, all `reviewedBy: null` (pending faculty canonical signature).**
+
 ### 2026-05-27 — 🌱 Catalog expansion: 65 → 89 drugs (+24 new entries)
 
 Two expansion batches of brand-new entries (new files + ontology codes), each dose cross-checked across multiple authoritative sources before writing. Established the repeatable "add new drug" pipeline: extend `data/ontology/atc.json` (+40 ATC entries, now 266) + `data/ontology/rxnorm-vet.json` (+10 CUIs), extend `lib/classify.ts` routing, create `content/drugs/<slug>.json` with cited content + empty `mirrorCIDs`.
