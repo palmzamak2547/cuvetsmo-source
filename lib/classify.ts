@@ -260,6 +260,17 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     order: 235,
     match: startsWithAtc('B03'),
   },
+  {
+    slug: 'reproductive',
+    label: 'Reproductive & sex hormones · ระบบสืบพันธุ์และฮอร์โมนเพศ',
+    subtitle: 'GnRH agonists, prostaglandins, progestins, gonadotropins, 5α-reductase — theriogenology',
+    order: 240,
+    // G02A prostaglandins/oxytocics, G03 sex hormones (progestins/estrogens/
+    // gonadotropins), G04C BPH agents, H01CA gonadotropin-releasing hormones.
+    // H01CA is disjoint from the H01B pituitary-hormones class (desmopressin/
+    // oxytocin) which uses H01BA/H01BB.
+    match: startsWithAtc('G02A', 'G03', 'G04C', 'H01CA'),
+  },
 ]
 
 /**

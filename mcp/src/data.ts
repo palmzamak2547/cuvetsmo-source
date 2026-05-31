@@ -127,6 +127,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'hepatobiliary', label: 'Hepatobiliary', prefixes: ['A05'] },
   { slug: 'metabolic-nutritional', label: 'Metabolic & nutritional', prefixes: ['A16'] },
   { slug: 'hematopoietic', label: 'Hematopoietic', prefixes: ['B03'] },
+  { slug: 'reproductive', label: 'Reproductive & sex hormones', prefixes: ['G02A', 'G03', 'G04C', 'H01CA'] },
 ]
 export function classifyDrug(d: Drug): { slug: string; label: string } | null {
   const code = stripQ(d.codes?.atc?.code ?? '')

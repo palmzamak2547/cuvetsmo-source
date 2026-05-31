@@ -1,0 +1,112 @@
+{
+  "slug": "altrenogest",
+  "nameEn": "Altrenogest",
+  "nameTh": "อัลทรีโนเจสต์",
+  "class": "Reproductive — synthetic progestogen (oral)",
+  "mechanism": "progestogen สังเคราะห์ชนิดกิน ออกฤทธิ์เหมือน progesterone กด GnRH/LH ระงับการเป็นสัด; ใช้คุมวงรอบการเป็นสัดในม้าและสุกรเป็นหลัก",
+  "brandNamesTh": [
+    "Regu-Mate",
+    "Altren"
+  ],
+  "indications": [
+    {
+      "text": "ระงับการเป็นสัด (estrus suppression) ในม้า เพื่อให้กำหนดเวลาการเป็นสัดได้หลังหยุดยา; ซิงโครไนซ์การเป็นสัดในสุกร",
+      "cites": [
+        "fda-regumate",
+        "merck-repro-overview-b"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ดูดซึมผ่านผิวหนังคน — ผู้ตั้งครรภ์/ผู้มีภาวะลิ่มเลือด/ผู้หญิงห้ามสัมผัส (สวมถุงมือ); ห้ามในม้าที่มี/เสี่ยงมดลูกอักเสบ; ใช้รูปกินตรงโคนลิ้นหรือผสมอาหาร",
+      "cites": [
+        "fda-regumate"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "โดยรวมทนได้ดีในม้า; ความเสี่ยงหลักคือการสัมผัสของผู้ให้ยา (human exposure)",
+      "cites": [
+        "fda-regumate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "equine",
+      "indication": "Estrus suppression (mare)",
+      "route": "PO",
+      "dose": "0.044 mg/kg PO วันละครั้ง นาน 15 วันติดต่อกัน (1 mL ต่อ 50 kg ของสารละลาย 2.2 mg/mL)",
+      "cites": [
+        "fda-regumate"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-regumate",
+      "type": "package-insert",
+      "title": "Regu-Mate (altrenogest) — Merck/FDA veterinary label",
+      "year": 2025,
+      "url": "https://www.merck-animal-health-usa.com/products/regu-mate/",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "merck-repro-overview-b",
+      "type": "textbook",
+      "title": "Systemic Pharmacotherapeutics of the Reproductive System — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-reproductive-system/overview-of-systemic-pharmacotherapeutics-of-the-reproductive-system-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-altrenogest",
+      "type": "monograph",
+      "title": "Altrenogest — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Altrenogest",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QG03DX90",
+      "name": "Altrenogest (veterinary progestogen)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / WSAVA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

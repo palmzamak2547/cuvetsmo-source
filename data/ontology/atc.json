@@ -2740,5 +2740,125 @@
     "name": "Tepoxalin",
     "level": 5,
     "parent": "M01AB"
+  },
+  "H01C": {
+    "code": "H01C",
+    "name": "Hypothalamic hormones",
+    "level": 3,
+    "parent": "H01"
+  },
+  "H01CA": {
+    "code": "H01CA",
+    "name": "Gonadotropin-releasing hormones",
+    "level": 4,
+    "parent": "H01C"
+  },
+  "H01CA01": {
+    "code": "H01CA01",
+    "name": "Gonadorelin",
+    "level": 5,
+    "parent": "H01CA"
+  },
+  "QH01CA93": {
+    "code": "QH01CA93",
+    "name": "Deslorelin (veterinary GnRH agonist)",
+    "level": 5,
+    "parent": "H01CA"
+  },
+  "G02A": {
+    "code": "G02A",
+    "name": "Uterotonics",
+    "level": 3,
+    "parent": "G02"
+  },
+  "G02AD": {
+    "code": "G02AD",
+    "name": "Prostaglandins (uterotonic)",
+    "level": 4,
+    "parent": "G02A"
+  },
+  "G02AD01": {
+    "code": "G02AD01",
+    "name": "Dinoprost",
+    "level": 5,
+    "parent": "G02AD"
+  },
+  "QG02AD90": {
+    "code": "QG02AD90",
+    "name": "Cloprostenol (veterinary PGF2α analog)",
+    "level": 5,
+    "parent": "G02AD"
+  },
+  "G03": {
+    "code": "G03",
+    "name": "Sex hormones and modulators of the genital system",
+    "level": 2,
+    "parent": "G"
+  },
+  "G03D": {
+    "code": "G03D",
+    "name": "Progestogens",
+    "level": 3,
+    "parent": "G03"
+  },
+  "G03DB": {
+    "code": "G03DB",
+    "name": "Pregnadien derivatives",
+    "level": 4,
+    "parent": "G03D"
+  },
+  "G03DB02": {
+    "code": "G03DB02",
+    "name": "Megestrol",
+    "level": 5,
+    "parent": "G03DB"
+  },
+  "QG03DX90": {
+    "code": "QG03DX90",
+    "name": "Altrenogest (veterinary progestogen)",
+    "level": 5,
+    "parent": "G03D"
+  },
+  "G03G": {
+    "code": "G03G",
+    "name": "Gonadotropins and other ovulation stimulants",
+    "level": 3,
+    "parent": "G03"
+  },
+  "G03GA": {
+    "code": "G03GA",
+    "name": "Gonadotropins",
+    "level": 4,
+    "parent": "G03G"
+  },
+  "G03GA01": {
+    "code": "G03GA01",
+    "name": "Chorionic gonadotropin",
+    "level": 5,
+    "parent": "G03GA"
+  },
+  "G04": {
+    "code": "G04",
+    "name": "Urologicals",
+    "level": 2,
+    "parent": "G"
+  },
+  "G04C": {
+    "code": "G04C",
+    "name": "Drugs used in benign prostatic hypertrophy",
+    "level": 3,
+    "parent": "G04"
+  },
+  "G04CB": {
+    "code": "G04CB",
+    "name": "Testosterone-5-alpha reductase inhibitors",
+    "level": 4,
+    "parent": "G04C"
+  },
+  "G04CB01": {
+    "code": "G04CB01",
+    "name": "Finasteride",
+    "level": 5,
+    "parent": "G04CB"
   }
 }

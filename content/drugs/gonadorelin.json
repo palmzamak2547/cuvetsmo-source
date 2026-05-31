@@ -1,0 +1,123 @@
+{
+  "slug": "gonadorelin",
+  "nameEn": "Gonadorelin (GnRH)",
+  "nameTh": "โกนาโดเรลิน",
+  "class": "Reproductive — gonadotropin-releasing hormone (GnRH)",
+  "mechanism": "GnRH สังเคราะห์ (decapeptide เหมือนของธรรมชาติ) กระตุ้นต่อมใต้สมองส่วนหน้าให้หลั่ง LH และ FSH — ใช้ขนาดเดี่ยว/เป็นพัก ๆ (ต่างจาก deslorelin ที่กระตุ้นต่อเนื่องเพื่อกด)",
+  "brandNamesTh": [
+    "Factrel",
+    "Cystorelin",
+    "OvaCyst"
+  ],
+  "indications": [
+    {
+      "text": "รักษา ovarian follicular cyst (เด่นในโค), เหนี่ยวนำ/จับเวลา ovulation, ประเมินการทำงานของ pituitary-gonadal axis; ใช้ในสุนัข/แมวแบบ off-label สำหรับ cystic ovary และ ovulation timing",
+      "cites": [
+        "fda-factrel",
+        "merck-repro-overview"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ผลขึ้นกับจังหวะการให้ (single vs pulsatile); ประสิทธิภาพในสัตว์เล็กผันแปร; ปลอดภัยสูง (สุนัขทน 72 mcg/kg/วัน IV 15 วันไม่มีผลเสีย)",
+      "cites": [
+        "fda-factrel"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ผลข้างเคียงน้อยมาก; อาจมีปฏิกิริยาบริเวณฉีดเล็กน้อย",
+      "cites": [
+        "fda-factrel"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Ovulation induction / cystic ovary",
+      "route": "IM",
+      "dose": "50–100 mcg/ตัว IM (off-label; ปรับตามขนาดตัวและข้อบ่งใช้)",
+      "cites": [
+        "merck-repro-overview",
+        "fda-factrel"
+      ]
+    },
+    {
+      "species": "bovine",
+      "indication": "Ovarian follicular cyst (labeled)",
+      "route": "IM",
+      "dose": "100 mcg/ตัว IM (Factrel — labeled สำหรับโค)",
+      "cites": [
+        "fda-factrel"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-factrel",
+      "type": "package-insert",
+      "title": "Factrel (gonadorelin) — Zoetis veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/ovacyst-gonadorelin.html",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "merck-repro-overview",
+      "type": "textbook",
+      "title": "Systemic Pharmacotherapeutics of the Reproductive System — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-reproductive-system/overview-of-systemic-pharmacotherapeutics-of-the-reproductive-system-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-gonadorelin",
+      "type": "monograph",
+      "title": "Gonadorelin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Gonadorelin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "H01CA01",
+      "name": "Gonadorelin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / WSAVA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

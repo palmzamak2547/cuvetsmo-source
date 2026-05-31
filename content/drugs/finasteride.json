@@ -1,0 +1,122 @@
+{
+  "slug": "finasteride",
+  "nameEn": "Finasteride",
+  "nameTh": "ฟิแนสเตอไรด์",
+  "class": "Reproductive — 5α-reductase inhibitor (BPH)",
+  "mechanism": "ยับยั้งเอนไซม์ 5α-reductase type II ที่เปลี่ยน testosterone เป็น dihydrotestosterone (DHT) — ลด DHT ทำให้ต่อมลูกหมากที่โตจาก hormone หดเล็กลง โดยไม่กระทบ testosterone หรือคุณภาพน้ำเชื้อ",
+  "brandNamesTh": [
+    "Proscar",
+    "Finapet"
+  ],
+  "indications": [
+    {
+      "text": "ต่อมลูกหมากโตชนิดไม่ใช่มะเร็ง (benign prostatic hyperplasia, BPH) ในสุนัขเพศผู้ — ลดขนาดต่อมลูกหมากโดยไม่ลดคุณภาพน้ำเชื้อ (เหมาะกับสุนัขพ่อพันธุ์)",
+      "cites": [
+        "merck-bph",
+        "paper-finasteride"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ teratogenic — ผู้หญิงตั้งครรภ์ห้ามสัมผัสเม็ดที่บด (เสี่ยงต่อทารกเพศชาย); ต้องใช้ต่อเนื่องตลอด (หยุดแล้วต่อมลูกหมากโตกลับ); ทางเลือกถาวรคือทำหมัน",
+      "cites": [
+        "merck-bph",
+        "paper-finasteride"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "โดยรวมทนได้ดี ไม่กระทบ testosterone/semen; ผลกลับคืนเมื่อหยุดยา (ต่อมโตซ้ำ)",
+      "cites": [
+        "paper-finasteride"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Benign prostatic hyperplasia (male)",
+      "route": "PO",
+      "dose": "0.1–0.5 mg/kg PO วันละครั้ง (หรือ 5 mg/ตัว สำหรับสุนัข 10–50 kg); ผลเห็นใน ~16 สัปดาห์",
+      "cites": [
+        "merck-bph",
+        "paper-finasteride"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ติดตามขนาดต่อมลูกหมาก (อัลตราซาวด์) + อาการทางคลินิก; ต้องใช้ต่อเนื่อง",
+      "cites": [
+        "merck-bph"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-bph",
+      "type": "textbook",
+      "title": "Benign Prostatic Hyperplasia in Dogs and Cats — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/reproductive-system/prostatic-diseases/benign-prostatic-hyperplasia-in-dogs-and-cats",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "paper-finasteride",
+      "type": "paper",
+      "title": "Effects of finasteride on prostate size and semen quality in dogs with BPH (JAVMA 2001)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11330612/",
+      "year": 2023,
+      "note": "Peer-reviewed canine finasteride BPH study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-finasteride",
+      "type": "monograph",
+      "title": "Finasteride — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Finasteride",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "G04CB01",
+      "name": "Finasteride",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / WSAVA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

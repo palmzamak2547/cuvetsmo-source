@@ -1,0 +1,121 @@
+{
+  "slug": "deslorelin",
+  "nameEn": "Deslorelin acetate",
+  "nameTh": "เดสโลเรลิน",
+  "class": "Reproductive — GnRH superagonist (slow-release implant)",
+  "mechanism": "GnRH superagonist รูปฝังใต้ผิวหนังปล่อยช้า — กระตุ้นต่อเนื่องทำให้ GnRH receptor ที่ต่อมใต้สมอง down-regulate จึงกด LH/FSH และฮอร์โมนเพศลง (chemical castration แบบ reversible)",
+  "brandNamesTh": [
+    "Suprelorin"
+  ],
+  "indications": [
+    {
+      "text": "เหนี่ยวนำภาวะเป็นหมันชั่วคราว (reversible) ในสุนัขเพศผู้ที่สมบูรณ์พันธุ์ (Suprelorin), เลื่อน puberty ในสุนัขเพศเมีย, ลด testosterone-driven behaviour; ใช้ในแมวและเฟอร์เร็ตแบบ off-label",
+      "cites": [
+        "fda-suprelorin",
+        "paper-deslorelin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ผล \"flare-up\" ช่วงแรก (1–2 สัปดาห์) — fertility/testosterone เพิ่มชั่วคราวก่อนกด จึงต้องคุมการผสมพันธุ์ช่วงนั้น; ออกฤทธิ์เต็มที่ใช้เวลาหลายสัปดาห์; เป็น implant ต้องฝังโดยสัตวแพทย์",
+      "cites": [
+        "fda-suprelorin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "บวม/ก้อนบริเวณฝัง implant ชั่วคราว, อัณฑะเล็กลง (คาดได้), flare-up ระยะแรก; โดยรวมปลอดภัยและ reversible",
+      "cites": [
+        "fda-suprelorin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Temporary infertility / chemical castration (male)",
+      "route": "implant",
+      "dose": "ฝัง implant 4.7 mg ใต้ผิวหนัง (ออกฤทธิ์ ~6 เดือน); ขนาด 9.4 mg ออกฤทธิ์ ~12 เดือน — สัตวแพทย์ฝัง",
+      "cites": [
+        "fda-suprelorin",
+        "paper-deslorelin"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Delay puberty (prepubertal female)",
+      "route": "implant",
+      "dose": "ฝัง implant 4.7 mg ใต้ผิวหนัง — เลื่อน puberty ได้อย่างน้อย ~5.5 เดือน",
+      "cites": [
+        "paper-deslorelin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-suprelorin",
+      "type": "package-insert",
+      "title": "Suprelorin (deslorelin acetate implant) — EMA/FDA veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/suprelorin-4-7-mg-implant-deslorelin-implant-for-dogs-can.html",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "paper-deslorelin",
+      "type": "paper",
+      "title": "Efficacy and safety of 4.7 mg deslorelin implants suppressing oestrus in prepubertal bitches (Animals 2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9774346/",
+      "year": 2023,
+      "note": "Peer-reviewed canine deslorelin efficacy study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-deslorelin",
+      "type": "monograph",
+      "title": "Deslorelin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Deslorelin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QH01CA93",
+      "name": "Deslorelin (veterinary GnRH agonist)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / WSAVA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

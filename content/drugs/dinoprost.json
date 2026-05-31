@@ -1,0 +1,122 @@
+{
+  "slug": "dinoprost",
+  "nameEn": "Dinoprost tromethamine (PGF2α)",
+  "nameTh": "ไดโนพรอสต์",
+  "class": "Reproductive — natural prostaglandin F2α (uterotonic / luteolytic)",
+  "mechanism": "prostaglandin F2α ธรรมชาติ — ทำให้ corpus luteum สลาย (luteolysis ลด progesterone) และมดลูกบีบตัวแรง จึงขับสิ่งคั่งในมดลูกและยุติการตั้งท้อง",
+  "brandNamesTh": [
+    "Lutalyse"
+  ],
+  "indications": [
+    {
+      "text": "รักษา open pyometra (ขับหนองออกจากมดลูก), ยุติการตั้งท้องที่ไม่ต้องการ, ขับ mummified fetus/lochia ในสุนัขและแมว (มักใช้คู่ antibiotic ± cabergoline)",
+      "cites": [
+        "fda-lutalyse",
+        "paper-pgf-pyometra"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามใน CLOSED pyometra (เสี่ยงมดลูกแตก); ห้ามในสัตว์ตั้งท้องที่ต้องการเก็บ; ห้ามในหอบหืด/โรคทางเดินหายใจ; ⚠️ ผู้ที่ตั้งครรภ์/หอบหืดห้ามสัมผัส (ดูดซึมผ่านผิวหนังได้)",
+      "cites": [
+        "fda-lutalyse",
+        "paper-pgf-pyometra"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "น้ำลายไหล หอบ อาเจียน ถ่าย ปัสสาวะ กระสับกระส่าย เดินเซ (เริ่มทันที มัก<30 นาทีหาย); เริ่มขนาดต่ำให้ปรับตัว",
+      "cites": [
+        "fda-lutalyse"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Open pyometra",
+      "route": "SC",
+      "dose": "0.1–0.25 mg/kg SC วันละครั้ง (เริ่ม 0.1 day1, 0.2 day2 ให้ปรับตัว) นาน 5–7 วัน จนหนองหมด — ⚠️ open เท่านั้น",
+      "cites": [
+        "fda-lutalyse",
+        "paper-pgf-pyometra"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Open pyometra",
+      "route": "SC",
+      "dose": "0.1 mg/kg SC วันละครั้ง",
+      "cites": [
+        "paper-pgf-pyometra"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-lutalyse",
+      "type": "package-insert",
+      "title": "Lutalyse (dinoprost tromethamine) — FDA veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/lutalyse-injection.html",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "paper-pgf-pyometra",
+      "type": "paper",
+      "title": "Prostaglandin F2α treatment of canine pyometra",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3793594/",
+      "year": 2023,
+      "note": "Peer-reviewed canine pyometra PGF2α study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-dinoprost",
+      "type": "monograph",
+      "title": "Dinoprost (PGF2α) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Dinoprost",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "G02AD01",
+      "name": "Dinoprost",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / WSAVA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
