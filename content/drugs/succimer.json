@@ -1,0 +1,130 @@
+{
+  "slug": "succimer",
+  "nameEn": "Succimer (DMSA)",
+  "nameTh": "ซักซิเมอร์ (DMSA)",
+  "class": "Antidote — heavy-metal chelator (oral)",
+  "mechanism": "meso-2,3-dimercaptosuccinic acid (DMSA) — chelator ที่มีหมู่ thiol จับโลหะหนัก (ตะกั่ว สารหนู ปรอท) เกิดสารประกอบขับทางปัสสาวะ; กินได้และผลข้างเคียงน้อยกว่า Ca-EDTA",
+  "brandNamesTh": [
+    "Chemet"
+  ],
+  "indications": [
+    {
+      "text": "พิษตะกั่ว (lead poisoning) และโลหะหนักอื่น (สารหนู ปรอท) ในสุนัขและแมว — chelator แบบกินที่ลดระดับตะกั่วในเลือดได้ผล + ปลอดภัยกว่า Ca-EDTA",
+      "cites": [
+        "paper-succimer-dog",
+        "merck-lead"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ต้องกำจัดแหล่งโลหะออกจากทางเดินอาหารก่อน (เช่นเอาวัตถุตะกั่วออก); ปรับในไตบกพร่อง; GI upset; ให้รูปเหน็บได้ถ้าอาเจียน; ไม่ใช้ป้องกัน (ใช้เมื่อมีพิษยืนยัน)",
+      "cites": [
+        "paper-succimer-dog",
+        "merck-lead"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset (อาเจียน ท้องเสีย), กลิ่นกำมะถัน; ผลข้างเคียงน้อยกว่า Ca-EDTA",
+      "cites": [
+        "paper-succimer-dog"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Lead poisoning",
+      "route": "PO",
+      "dose": "10 mg/kg PO ทุก 8 ชั่วโมง นาน 10 วัน (ให้รูปเหน็บได้ถ้าอาเจียน)",
+      "cites": [
+        "paper-succimer-dog",
+        "merck-lead"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Lead poisoning",
+      "route": "PO",
+      "dose": "10 mg/kg PO ทุก 8 ชั่วโมง นาน 10 วัน",
+      "cites": [
+        "merck-lead"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจระดับตะกั่วในเลือดหลังคอร์ส; ยืนยันกำจัดแหล่งโลหะออกแล้ว",
+      "cites": [
+        "merck-lead"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "paper-succimer-dog",
+      "type": "paper",
+      "title": "Use of oral succimer (DMSA) for treatment of lead poisoning in dogs (JAVMA)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8575967/",
+      "year": 2023,
+      "note": "Peer-reviewed canine succimer lead-poisoning study.",
+      "cid": null
+    },
+    {
+      "id": "merck-lead",
+      "type": "textbook",
+      "title": "Lead Poisoning in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-dimercaptosuccinic_acid",
+      "type": "monograph",
+      "title": "Succimer (DMSA) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Dimercaptosuccinic_acid",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "V03AB09",
+      "name": "Succimer (dimercaptosuccinic acid)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / dvm360 / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

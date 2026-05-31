@@ -114,7 +114,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'corticosteroids', label: 'Corticosteroids', prefixes: ['H02'] },
   { slug: 'anticonvulsants', label: 'Anticonvulsants', prefixes: ['N03'] },
   { slug: 'diabetes', label: 'Diabetes', prefixes: ['A10'] },
-  { slug: 'hematology', label: 'Hematology', prefixes: ['B01'] },
+  { slug: 'hematology', label: 'Hematology', prefixes: ['B01', 'B02A'] },
   { slug: 'antidotes', label: 'Antidotes', prefixes: ['V03', 'B02BA'] },
   { slug: 'muscle-relaxants', label: 'Muscle relaxants', prefixes: ['M03'] },
   { slug: 'immunomodulators', label: 'Immunomodulators', prefixes: ['L04', 'L03'] },

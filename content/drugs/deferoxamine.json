@@ -1,0 +1,130 @@
+{
+  "slug": "deferoxamine",
+  "nameEn": "Deferoxamine",
+  "nameTh": "เดเฟอรอกซามีน",
+  "class": "Antidote — iron chelator",
+  "mechanism": "iron chelator — จับ ferric iron (Fe³⁺) ที่อิสระเกิดเป็น ferrioxamine ที่ละลายน้ำขับทางปัสสาวะ; เป็น chelator ที่เลือกใช้สำหรับพิษเหล็กเฉียบพลัน",
+  "brandNamesTh": [
+    "Desferal"
+  ],
+  "indications": [
+    {
+      "text": "พิษเหล็กเฉียบพลัน (acute iron toxicosis — กินวิตามินรวม/อาหารเสริมเหล็กเกิน) ในสุนัขและแมว — chelator ที่เลือกใช้, ได้ผลดีเมื่อให้ภายใน 24 ชม.แรก",
+      "cites": [
+        "dvm360-iron-tox",
+        "tvn-iron"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ให้ IV เร็วทำให้ความดันตก (ให้ช้า ๆ / CRI); ปรับในไตบกพร่อง (ขับทางไต); ปัสสาวะสีชมพู-แดง (vin rosé — บ่งว่ากำลังขับเหล็ก); หยุดเมื่อ serum iron <300 µg/dL + ปัสสาวะสีปกติ",
+      "cites": [
+        "dvm360-iron-tox",
+        "tvn-iron"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ (IV เร็ว), ปัสสาวะสีแดง (คาดได้), ปฏิกิริยาแพ้; ใช้นานเสี่ยงพิษตา/หู (พบน้อยในการใช้เฉียบพลัน)",
+      "cites": [
+        "dvm360-iron-tox"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Acute iron toxicosis",
+      "route": "IV",
+      "dose": "40 mg/kg IM ทุก 4–8 ชั่วโมง หรือ CRI 15 mg/kg/ชม. IV — ให้ภายใน 24 ชม.แรก จนปัสสาวะสีปกติ + iron <300 µg/dL",
+      "cites": [
+        "dvm360-iron-tox",
+        "tvn-iron"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Acute iron toxicosis",
+      "route": "IV",
+      "dose": "40 mg/kg IM ทุก 4–8 ชั่วโมง หรือ 15 mg/kg/ชม. IV CRI",
+      "cites": [
+        "tvn-iron"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ serum iron + สีปัสสาวะ + ความดัน; หยุดเมื่อ iron <300 µg/dL และอาการหาย",
+      "cites": [
+        "dvm360-iron-tox"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "dvm360-iron-tox",
+      "type": "guideline",
+      "title": "Toxicology Brief: The toxicity of iron (deferoxamine chelation) — dvm360",
+      "url": "https://www.dvm360.com/view/toxicology-brief-toxicity-iron-essential-element",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "tvn-iron",
+      "type": "guideline",
+      "title": "Iron Toxicosis (deferoxamine) — Today's Veterinary Nurse",
+      "url": "https://todaysveterinarynurse.com/toxicology/iron-toxicosis/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-deferoxamine",
+      "type": "monograph",
+      "title": "Deferoxamine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Deferoxamine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "V03AC01",
+      "name": "Deferoxamine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / dvm360 / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

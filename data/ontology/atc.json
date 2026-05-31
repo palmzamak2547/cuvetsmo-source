@@ -3706,5 +3706,53 @@
     "name": "Yohimbine (veterinary alpha-2 antagonist)",
     "level": 5,
     "parent": "V03AB"
+  },
+  "N02AX06": {
+    "code": "N02AX06",
+    "name": "Tapentadol",
+    "level": 5,
+    "parent": "N02AX"
+  },
+  "V03AC": {
+    "code": "V03AC",
+    "name": "Iron chelating agents",
+    "level": 4,
+    "parent": "V03A"
+  },
+  "V03AC01": {
+    "code": "V03AC01",
+    "name": "Deferoxamine",
+    "level": 5,
+    "parent": "V03AC"
+  },
+  "V03AB09": {
+    "code": "V03AB09",
+    "name": "Succimer (dimercaptosuccinic acid)",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "B02": {
+    "code": "B02",
+    "name": "Antihemorrhagics",
+    "level": 2,
+    "parent": "B"
+  },
+  "B02A": {
+    "code": "B02A",
+    "name": "Antifibrinolytics",
+    "level": 3,
+    "parent": "B02"
+  },
+  "B02AA": {
+    "code": "B02AA",
+    "name": "Amino acids (antifibrinolytic)",
+    "level": 4,
+    "parent": "B02A"
+  },
+  "B02AA02": {
+    "code": "B02AA02",
+    "name": "Tranexamic acid",
+    "level": 5,
+    "parent": "B02AA"
   }
 }

@@ -170,9 +170,12 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'hematology',
     label: 'Hematology · ยาเลือดและการแข็งตัว',
-    subtitle: 'Anticoagulants, antiplatelets, heparin group',
+    subtitle: 'Anticoagulants, antiplatelets, heparin group, antifibrinolytics (tranexamic acid)',
     order: 140,
-    match: startsWithAtc('B01'),
+    // B01 antithrombotics + B02A antifibrinolytics (tranexamic acid B02AA).
+    // B02A is disjoint from antidotes' B02BA (phytomenadione/vitamin K1) —
+    // B02AA ≠ B02BA, so the two never collide regardless of array order.
+    match: startsWithAtc('B01', 'B02A'),
   },
   {
     slug: 'antidotes',
