@@ -1,0 +1,123 @@
+{
+  "slug": "yohimbine",
+  "nameEn": "Yohimbine",
+  "nameTh": "โยฮิมบีน",
+  "class": "Antidote — alpha-2 adrenergic antagonist (reversal agent)",
+  "mechanism": "centrally-acting alpha-2 adrenergic antagonist — ปิดกั้น alpha-2 receptor จึงกลับฤทธิ์ของ alpha-2 agonist (xylazine, detomidine) ที่กดประสาท-หัวใจ-หายใจ; ออกฤทธิ์เร็ว ครึ่งชีวิตสั้น",
+  "brandNamesTh": [
+    "Yobine",
+    "Antagonil"
+  ],
+  "codes": {
+    "atc": {
+      "code": "QV03AB91",
+      "name": "Yohimbine (veterinary alpha-2 antagonist)",
+      "level": 5
+    }
+  },
+  "indications": [
+    {
+      "text": "กลับฤทธิ์การสงบประสาทจาก alpha-2 agonist (xylazine, detomidine) ในสุนัขและแมว — เร่งให้สัตว์ฟื้น; เคยใช้แก้พิษ amitraz (ซึ่งมีฤทธิ์ alpha-2)",
+      "cites": [
+        "petplace-yohimbine",
+        "paper-yohimbine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ อาจทำให้ตื่นเต้น/หัวใจเต้นผิดจังหวะ — ให้ IV ช้า ๆ (ครึ่งหนึ่งก่อน แล้วที่เหลือถ้าจำเป็น); ครึ่งชีวิตสั้น (1.5–2 ชม. ในสุนัข) อาจต้องให้ซ้ำหาก sedation กลับมา; ระวังในโรคหัวใจ/ลมชัก; atipamezole เป็นทางเลือกที่จำเพาะกว่า",
+      "cites": [
+        "petplace-yohimbine",
+        "paper-yohimbine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ตื่นเต้น/กระวนกระวาย, หัวใจเต้นเร็ว/ผิดจังหวะ, ตัวสั่น, น้ำลายไหล (transient); resedation เมื่อยาหมดฤทธิ์เร็วกว่า agonist",
+      "cites": [
+        "petplace-yohimbine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Xylazine / alpha-2 agonist reversal",
+      "route": "IV",
+      "dose": "0.1 mg/kg IV ช้า ๆ (อาจซ้ำได้เพราะครึ่งชีวิตสั้น)",
+      "cites": [
+        "petplace-yohimbine",
+        "paper-yohimbine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Xylazine / ketamine-xylazine reversal",
+      "route": "IV",
+      "dose": "0.1 mg/kg IV ช้า ๆ (ฟื้นภายในไม่กี่นาที)",
+      "cites": [
+        "paper-yohimbine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "petplace-yohimbine",
+      "type": "monograph",
+      "title": "Yohimbine (Yobine, Antagonil) for Dogs and Cats — PetPlace",
+      "year": 2025,
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/yohimbine-yobine-antagonil-for-dogs-and-cats",
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "paper-yohimbine",
+      "type": "paper",
+      "title": "Effect of yohimbine on xylazine-induced CNS depression in dogs (JAVMA 1983)",
+      "year": 1983,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6841252/",
+      "note": "Peer-reviewed canine yohimbine reversal study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-yohimbine",
+      "type": "monograph",
+      "title": "Yohimbine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Yohimbine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atcvet/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry (post-audit) — resolves xylazine reversal cross-ref. Compiled from cited authoritative sources (PetPlace / JAVMA), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

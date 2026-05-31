@@ -104,8 +104,10 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'gi', label: 'GI', prefixes: ['A02', 'A03', 'A06'] },
   { slug: 'anti-emetics', label: 'Anti-emetics', prefixes: ['A04'] },
   { slug: 'antihistamines', label: 'Antihistamines', prefixes: ['R06'] },
-  // urinary MUST precede cardiovascular: C04AX starts with C0 (mirror lib/classify.ts order)
+  // urinary + emergency-cardiac MUST precede cardiovascular: C04AX and C01CA
+  // both start with C0 (mirror lib/classify.ts order; first match wins)
   { slug: 'urinary', label: 'Urinary & micturition', prefixes: ['N07AB', 'C04AX', 'G04B', 'G04CA'] },
+  { slug: 'emergency-cardiac', label: 'Emergency & cardiac stimulants', prefixes: ['C01CA'] },
   { slug: 'cardiovascular', label: 'Cardiovascular', prefixes: ['C0'] },
   { slug: 'endocrine', label: 'Endocrine', prefixes: ['H03'] },
   { slug: 'adrenal', label: 'Adrenal', prefixes: ['H02CA', 'H02AA', 'V03AB99'] },
@@ -118,7 +120,6 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'immunomodulators', label: 'Immunomodulators', prefixes: ['L04', 'L03'] },
   { slug: 'cns-psychotropic', label: 'CNS / psychotropic', prefixes: ['N06', 'N04BB'] },
   { slug: 'respiratory', label: 'Respiratory', prefixes: ['R03', 'R07'] },
-  { slug: 'emergency-cardiac', label: 'Emergency & cardiac stimulants', prefixes: ['C01CA'] },
   { slug: 'fluids-electrolytes', label: 'Fluids & electrolytes', prefixes: ['B05', 'A12', 'V06D'] },
   { slug: 'toxicology-emesis', label: 'Toxicology & emesis', prefixes: ['A07BA', 'V03AB25', 'V03AB07', 'N04BC'] },
   { slug: 'pituitary-hormones', label: 'Pituitary hormones', prefixes: ['H01B', 'H01CB'] },

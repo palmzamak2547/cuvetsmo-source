@@ -115,6 +115,17 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     match: startsWithAtc('N07AB', 'C04AX', 'G04B', 'G04CA'),
   },
   {
+    // MUST precede cardiovascular: C01CA (epinephrine/dopamine/dobutamine)
+    // starts with C0 and would otherwise be swallowed by the cardiovascular
+    // matcher — leaving this emergency class permanently empty. classifyDrug
+    // returns the FIRST array match, so order (not the `order` field) decides.
+    slug: 'emergency-cardiac',
+    label: 'Emergency & cardiac stimulants · ยาฉุกเฉินกระตุ้นหัวใจ',
+    subtitle: 'Adrenergic/dopaminergic agents — epinephrine, dopamine, dobutamine (CPR, shock, inotropy)',
+    order: 98,
+    match: startsWithAtc('C01CA'),
+  },
+  {
     slug: 'cardiovascular',
     label: 'Cardiovascular · ระบบหัวใจ',
     subtitle: 'Diuretics, ACE inhibitors, cardiac glycosides',
@@ -201,13 +212,6 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     subtitle: 'Xanthines, bronchodilators, theophylline, respiratory stimulants',
     order: 180,
     match: startsWithAtc('R03', 'R07'),
-  },
-  {
-    slug: 'emergency-cardiac',
-    label: 'Emergency & cardiac stimulants · ยาฉุกเฉินกระตุ้นหัวใจ',
-    subtitle: 'Adrenergic/dopaminergic agents — epinephrine, dopamine, dobutamine (CPR, shock, inotropy)',
-    order: 185,
-    match: startsWithAtc('C01CA'),
   },
   {
     slug: 'fluids-electrolytes',

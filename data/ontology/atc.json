@@ -3700,5 +3700,11 @@
     "name": "Bismuth preparations",
     "level": 4,
     "parent": "A07B"
+  },
+  "QV03AB91": {
+    "code": "QV03AB91",
+    "name": "Yohimbine (veterinary alpha-2 antagonist)",
+    "level": 5,
+    "parent": "V03AB"
   }
 }
