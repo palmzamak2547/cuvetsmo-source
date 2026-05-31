@@ -286,11 +286,13 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   },
   {
     slug: 'antitussives',
-    label: 'Antitussives · ยาระงับอาการไอ',
-    subtitle: 'Opioid + non-opioid cough suppressants — kennel cough, tracheal collapse',
+    label: 'Antitussives & expectorants · ยาระงับไอและขับเสมหะ',
+    subtitle: 'Cough suppressants (opioid + non-opioid) + expectorants/mucolytics',
     order: 248,
-    // R05D cough suppressants. Disjoint from respiratory (R03/R07).
-    match: startsWithAtc('R05D'),
+    // R05 cough & cold: R05D suppressants (dextromethorphan/hydrocodone) +
+    // R05C expectorants/mucolytics (guaifenesin). Disjoint from respiratory
+    // (R03/R07) and antihistamines (R06).
+    match: startsWithAtc('R05'),
   },
   {
     slug: 'reproductive',

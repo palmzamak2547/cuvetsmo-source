@@ -1,0 +1,112 @@
+{
+  "slug": "mexiletine",
+  "nameEn": "Mexiletine",
+  "nameTh": "เมกซิเลทีน",
+  "class": "Cardiovascular — class Ib antiarrhythmic (oral)",
+  "mechanism": "class Ib antiarrhythmic — ปิดกั้น fast sodium channel (คล้าย lidocaine แบบกินได้) ลด ventricular ectopy; มักใช้คู่ sotalol เสริมฤทธิ์",
+  "brandNamesTh": [
+    "Mexitil"
+  ],
+  "indications": [
+    {
+      "text": "ventricular arrhythmia เรื้อรัง (premature ventricular complex, ventricular tachycardia) ในสุนัข — รูปกินต่อยอดจาก lidocaine IV; คู่ sotalol คุม inherited VT (เช่น German Shepherd) ได้ดี",
+      "cites": [
+        "merck-antiarrhythmic-q2",
+        "paper-mexiletine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "GI upset เป็นผลข้างเคียงหลัก (ให้พร้อมอาหารช่วยลด); ระวังในตับบกพร่อง (เมแทบอลิซึมที่ตับ); ครึ่งชีวิตสั้นต้องให้บ่อย; ระวัง proarrhythmia",
+      "cites": [
+        "merck-antiarrhythmic-q2"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset (อาเจียน เบื่ออาหาร — dose-related), ตัวสั่น, ซึม; proarrhythmia พบน้อย",
+      "cites": [
+        "paper-mexiletine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Ventricular arrhythmia (chronic oral)",
+      "route": "PO",
+      "dose": "4–8 mg/kg PO ทุก 8 ชั่วโมง พร้อมอาหาร (ลด GI upset)",
+      "cites": [
+        "merck-antiarrhythmic-q2",
+        "paper-mexiletine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-antiarrhythmic-q2",
+      "type": "textbook",
+      "title": "Antiarrhythmics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/antiarrhythmics-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "paper-mexiletine",
+      "type": "paper",
+      "title": "Mexiletine + sotalol for inherited ventricular arrhythmias in German Shepherds (randomized cross-over)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20663731/",
+      "year": 2023,
+      "note": "Peer-reviewed canine mexiletine study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-mexiletine",
+      "type": "monograph",
+      "title": "Mexiletine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Mexiletine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C01BB02",
+      "name": "Mexiletine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / FDA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

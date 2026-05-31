@@ -1,0 +1,114 @@
+{
+  "slug": "guaifenesin",
+  "nameEn": "Guaifenesin",
+  "nameTh": "กไวเฟเนซิน",
+  "class": "Antitussives & expectorants — centrally-acting muscle relaxant / expectorant",
+  "mechanism": "ออกฤทธิ์ 2 อย่าง: (1) expectorant — เพิ่มการหลั่งของเหลวในทางเดินหายใจ ทำให้เสมหะเหลวขับง่าย; (2) centrally-acting muscle relaxant — กดการส่งสัญญาณที่ internuncial neuron ของไขสันหลัง/ก้านสมอง ใช้ในการวางยาสลบม้า",
+  "brandNamesTh": [
+    "Guailaxin",
+    "GG",
+    "Mucinex"
+  ],
+  "indications": [
+    {
+      "text": "expectorant ขับเสมหะ; centrally-acting muscle relaxant ในการเหนี่ยวนำสลบม้า (มักคู่ ketamine/thiopental) เพื่อคลายกล้ามเนื้อขณะล้มตัว",
+      "cites": [
+        "merck-muscle-relax-q",
+        "wedgewood-guaifenesin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "รูปฉีดความเข้มข้น >5% ทำให้ hemolysis + thrombophlebitis — ใช้ ≤5% และให้ทางหลอดเลือดดำที่แน่นอน; ขนาดสูงกดการหายใจ; เป็น muscle relaxant ไม่ใช่ยาสลบ/ระงับปวดเดี่ยว (ต้องร่วมยาอื่น)",
+      "cites": [
+        "merck-muscle-relax-q"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "hemolysis/thrombophlebitis (ความเข้มข้นสูง), กดการหายใจ (ขนาดสูง), ความดันต่ำชั่วคราว, ล้มตัวขณะเหนี่ยวนำ",
+      "cites": [
+        "wedgewood-guaifenesin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "equine",
+      "indication": "Anesthetic induction (centrally-acting muscle relaxant)",
+      "route": "IV",
+      "dose": "40–100 mg/kg IV (สารละลาย ≤5%) เพื่อเหนี่ยวนำ มักคู่ ketamine/thiopental; 5–10 mg/kg ในม้าที่สลบแล้วเพื่อคลายกล้ามเนื้อเสริม",
+      "cites": [
+        "merck-muscle-relax-q",
+        "wedgewood-guaifenesin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-muscle-relax-q",
+      "type": "textbook",
+      "title": "Skeletal Muscle Relaxants for Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system/skeletal-muscle-relaxants-for-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wedgewood-guaifenesin",
+      "type": "guideline",
+      "title": "Guaifenesin for Horses — Wedgewood Pharmacy",
+      "url": "https://www.wedgewood.com/medications/guaifenesin/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-guaifenesin",
+      "type": "monograph",
+      "title": "Guaifenesin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Guaifenesin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "R05CA03",
+      "name": "Guaifenesin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / FDA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

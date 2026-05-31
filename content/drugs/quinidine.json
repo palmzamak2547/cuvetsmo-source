@@ -1,0 +1,121 @@
+{
+  "slug": "quinidine",
+  "nameEn": "Quinidine",
+  "nameTh": "ควินิดีน",
+  "class": "Cardiovascular — class Ia antiarrhythmic",
+  "mechanism": "class Ia antiarrhythmic — ปิดกั้น sodium channel + ฤทธิ์ vagolytic; ใช้แปลง atrial fibrillation กลับเป็น sinus rhythm (cardioversion) เป็นหลัก",
+  "brandNamesTh": [
+    "Quinidine sulfate/gluconate"
+  ],
+  "indications": [
+    {
+      "text": "แปลง atrial fibrillation กลับเป็น normal sinus rhythm (chemical cardioversion) ในสุนัข (โดยเฉพาะ AF ที่ไม่มีโรคหัวใจโครงสร้าง) และในม้า",
+      "cites": [
+        "merck-antiarrhythmic-q4",
+        "tufts-quinidine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ proarrhythmia (torsades/QT ยาว), ฤทธิ์ vagolytic เพิ่ม ventricular rate (ใน AF ต้องคุม rate ก่อน), เพิ่มระดับ digoxin (drug interaction); GI upset เด่น; ห้ามใน AV block; ระวังในโรคหัวใจโครงสร้าง",
+      "cites": [
+        "merck-antiarrhythmic-q4",
+        "tufts-quinidine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset (ท้องเสีย อาเจียน — เด่น), proarrhythmia/QT prolongation, ความดันต่ำ, เพิ่ม digoxin level",
+      "cites": [
+        "merck-antiarrhythmic-q4"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Atrial fibrillation cardioversion",
+      "route": "PO",
+      "dose": "quinidine sulfate 6–20 mg/kg PO ทุก 6–8 ชั่วโมง; gluconate 6–20 mg/kg IM ทุก 6 ชม. — ส่วนใหญ่แปลงภายใน 24 ชม.",
+      "cites": [
+        "merck-antiarrhythmic-q4",
+        "tufts-quinidine"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ECG (QT/proarrhythmia + ventricular rate); ระดับ digoxin หากใช้ร่วม",
+      "cites": [
+        "merck-antiarrhythmic-q4"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-antiarrhythmic-q4",
+      "type": "textbook",
+      "title": "Antiarrhythmics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/antiarrhythmics-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tufts-quinidine",
+      "type": "guideline",
+      "title": "Quinidine — Tufts CardioRush Cardiology Drug Formulary",
+      "url": "https://sites.tufts.edu/cardiorush/cardiology-drug-formulary/",
+      "year": 2024,
+      "note": "Tufts cardiology reference dosing.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-quinidine",
+      "type": "monograph",
+      "title": "Quinidine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Quinidine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C01BA01",
+      "name": "Quinidine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / FDA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

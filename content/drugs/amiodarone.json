@@ -1,0 +1,122 @@
+{
+  "slug": "amiodarone",
+  "nameEn": "Amiodarone",
+  "nameTh": "อะมิโอดาโรน",
+  "class": "Cardiovascular — class III antiarrhythmic",
+  "mechanism": "class III antiarrhythmic — ปิดกั้น potassium channel เป็นหลัก (ยืด repolarization/refractory period) ร่วมกับฤทธิ์ class I/II/IV; ใช้คุมการเต้นผิดจังหวะที่ดื้อยาทั้ง ventricular และ supraventricular",
+  "brandNamesTh": [
+    "Cordarone",
+    "Pacerone"
+  ],
+  "indications": [
+    {
+      "text": "ventricular tachycardia/arrhythmia ที่ดื้อยา, atrial fibrillation, supraventricular tachycardia ในสุนัข — มักใช้เมื่อ sotalol/mexiletine ไม่พอ",
+      "cites": [
+        "merck-antiarrhythmic-q",
+        "tufts-amiodarone"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ พิษหลายระบบเมื่อใช้นาน — ตับ (เอนไซม์สูง/ตับอักเสบ), ปอด (pulmonary fibrosis), ไทรอยด์, ผิวหนัง; ⚠️ ปฏิกิริยา anaphylactoid ขณะให้ IV; ยับยั้ง CYP เพิ่มระดับ digoxin/อื่น ๆ; เริ่ม low + titrate",
+      "cites": [
+        "merck-antiarrhythmic-q",
+        "tufts-amiodarone"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset, ตับเอนไซม์สูง/hepatotoxicity, ปอดอักเสบ, ไทรอยด์ผิดปกติ, IV reaction; ผลข้างเคียงสะสมตามขนาดรวม",
+      "cites": [
+        "merck-antiarrhythmic-q"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Refractory VT / AF (loading then maintenance)",
+      "route": "PO",
+      "dose": "loading 10–20 mg/kg PO วันละครั้ง 7–10 วัน แล้ว maintenance 3–15 mg/kg PO ทุก 24–48 ชม.; acute IV 2 mg/kg ช้า ๆ (ซ้ำได้)",
+      "cites": [
+        "merck-antiarrhythmic-q",
+        "tufts-amiodarone"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจค่าตับ + T4 เป็นระยะ; ECG; เฝ้าอาการทางปอด; เริ่มขนาดต่ำ titrate ช้า",
+      "cites": [
+        "merck-antiarrhythmic-q"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-antiarrhythmic-q",
+      "type": "textbook",
+      "title": "Antiarrhythmics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/antiarrhythmics-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tufts-amiodarone",
+      "type": "guideline",
+      "title": "Amiodarone — Tufts CardioRush Cardiology Drug Formulary",
+      "url": "https://sites.tufts.edu/cardiorush/cardiology-drug-formulary/",
+      "year": 2024,
+      "note": "Tufts cardiology reference dosing.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-amiodarone",
+      "type": "monograph",
+      "title": "Amiodarone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Amiodarone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C01BD01",
+      "name": "Amiodarone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / FDA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -3262,5 +3262,83 @@
     "name": "Hydrocodone",
     "level": 5,
     "parent": "R05DA"
+  },
+  "C01B": {
+    "code": "C01B",
+    "name": "Antiarrhythmics, class I and III",
+    "level": 3,
+    "parent": "C01"
+  },
+  "C01BA": {
+    "code": "C01BA",
+    "name": "Antiarrhythmics, class Ia",
+    "level": 4,
+    "parent": "C01B"
+  },
+  "C01BA01": {
+    "code": "C01BA01",
+    "name": "Quinidine",
+    "level": 5,
+    "parent": "C01BA"
+  },
+  "C01BA02": {
+    "code": "C01BA02",
+    "name": "Procainamide",
+    "level": 5,
+    "parent": "C01BA"
+  },
+  "C01BB02": {
+    "code": "C01BB02",
+    "name": "Mexiletine",
+    "level": 5,
+    "parent": "C01BB"
+  },
+  "C01BD": {
+    "code": "C01BD",
+    "name": "Antiarrhythmics, class III",
+    "level": 4,
+    "parent": "C01B"
+  },
+  "C01BD01": {
+    "code": "C01BD01",
+    "name": "Amiodarone",
+    "level": 5,
+    "parent": "C01BD"
+  },
+  "A03FA03": {
+    "code": "A03FA03",
+    "name": "Domperidone",
+    "level": 5,
+    "parent": "A03FA"
+  },
+  "A02BA04": {
+    "code": "A02BA04",
+    "name": "Nizatidine",
+    "level": 5,
+    "parent": "A02BA"
+  },
+  "QN01AX99": {
+    "code": "QN01AX99",
+    "name": "Tiletamine, combinations (with zolazepam)",
+    "level": 5,
+    "parent": "N01AX"
+  },
+  "R05C": {
+    "code": "R05C",
+    "name": "Expectorants, excl. combinations with cough suppressants",
+    "level": 3,
+    "parent": "R05"
+  },
+  "R05CA": {
+    "code": "R05CA",
+    "name": "Expectorants",
+    "level": 4,
+    "parent": "R05C"
+  },
+  "R05CA03": {
+    "code": "R05CA03",
+    "name": "Guaifenesin",
+    "level": 5,
+    "parent": "R05CA"
   }
 }

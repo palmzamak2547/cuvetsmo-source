@@ -1,0 +1,123 @@
+{
+  "slug": "domperidone",
+  "nameEn": "Domperidone",
+  "nameTh": "ดอมเพอริโดน",
+  "class": "GI — peripheral dopamine antagonist (prokinetic)",
+  "mechanism": "dopamine D2 antagonist ที่ไม่ผ่าน blood-brain barrier — เพิ่มการบีบตัวของกระเพาะ/ลำไส้ส่วนต้น (prokinetic) โดยไม่ก่อผล CNS แบบ metoclopramide; ในม้าใช้แก้ fescue toxicosis",
+  "brandNamesTh": [
+    "Motilium",
+    "Equidone (ม้า)"
+  ],
+  "indications": [
+    {
+      "text": "กระตุ้นการบีบตัวกระเพาะ (gastric stasis, delayed emptying) ในสุนัขและแมว (off-label, ผลผันแปร), แก้ fescue toxicosis และเพิ่มน้ำนมในม้า (Equidone)",
+      "cites": [
+        "merck-prokinetic",
+        "vetdepot-domperidone"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ยืด QT interval — เพิ่มเสี่ยง arrhythmia (ถูกถอนจากตลาดคนในสหรัฐฯ ด้วยเหตุนี้); ระวังในโรคหัวใจ/ใช้ร่วมยายืด QT; ประสิทธิภาพ prokinetic ในสัตว์เล็กยังถกเถียง",
+      "cites": [
+        "merck-prokinetic",
+        "vetdepot-domperidone"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "QT prolongation (เสี่ยง arrhythmia), เพิ่ม prolactin (galactorrhea); CNS น้อยกว่า metoclopramide (ไม่ผ่าน BBB)",
+      "cites": [
+        "vetdepot-domperidone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Prokinetic (gastric stasis, off-label)",
+      "route": "PO",
+      "dose": "0.05–0.1 mg/kg PO วันละ 1–2 ครั้ง (≈ 2–5 mg/ตัว)",
+      "cites": [
+        "merck-prokinetic",
+        "vetdepot-domperidone"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Prokinetic (off-label)",
+      "route": "PO",
+      "dose": "0.05–0.1 mg/kg PO วันละ 1–2 ครั้ง",
+      "cites": [
+        "vetdepot-domperidone"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-prokinetic",
+      "type": "textbook",
+      "title": "Gastrointestinal Prokinetic Drugs Used in Monogastric Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/gastrointestinal-prokinetic-drugs-used-in-monogastric-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vetdepot-domperidone",
+      "type": "guideline",
+      "title": "Domperidone medication guide — VetDepot",
+      "url": "http://explore.vetdepot.com/medications/Domperidone/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-domperidone",
+      "type": "monograph",
+      "title": "Domperidone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Domperidone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A03FA03",
+      "name": "Domperidone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / FDA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
