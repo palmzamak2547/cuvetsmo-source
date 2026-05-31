@@ -1,0 +1,123 @@
+{
+  "slug": "metoprolol",
+  "nameEn": "Metoprolol",
+  "nameTh": "เมโทโพรลอล",
+  "class": "Cardiovascular — selective beta-1 blocker",
+  "mechanism": "selective beta-1 adrenergic antagonist — ลดอัตราและแรงบีบหัวใจ ความต้องการออกซิเจนของกล้ามเนื้อหัวใจ และคุมการเต้นผิดจังหวะ; เลือก beta-1 จึงปลอดภัยกว่า propranolol ในโรคทางเดินหายใจ",
+  "brandNamesTh": [
+    "Lopressor",
+    "Betaloc"
+  ],
+  "indications": [
+    {
+      "text": "หัวใจเต้นเร็ว/ผิดจังหวะ (supraventricular tachycardia), คุมอัตราหัวใจใน cardiomyopathy บางชนิด, ความดันสูง ในสุนัขและแมว — beta-1 selective (ดีกว่า propranolol เมื่อมีโรคหลอดลม)",
+      "cites": [
+        "merck-antiarrhythmic-t",
+        "tufts-metoprolol-t"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้าม/ระวังในหัวใจล้มเหลวที่ยังไม่คุม, bradycardia/AV block; ห้ามหยุดกะทันหัน (rebound tachycardia/hypertension); ระวังในเบาหวาน (บัง hypoglycemia); selectivity ลดลงที่ขนาดสูง (ระวังหลอดลมหด)",
+      "cites": [
+        "merck-antiarrhythmic-t",
+        "tufts-metoprolol-t"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นช้า ความดันต่ำ ซึม/อ่อนแรง, แย่ลงใน CHF ที่ไม่คุม; หลอดลมหดที่ขนาดสูง",
+      "cites": [
+        "tufts-metoprolol-t"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Tachyarrhythmia / rate control",
+      "route": "PO",
+      "dose": "0.5–1 mg/kg PO ทุก 8–12 ชั่วโมง (เริ่มต่ำ titrate)",
+      "cites": [
+        "merck-antiarrhythmic-t",
+        "tufts-metoprolol-t"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Tachyarrhythmia (HCM adjunct)",
+      "route": "PO",
+      "dose": "2–15 mg/ตัว PO ทุก 8 ชั่วโมง (titrate)",
+      "cites": [
+        "tufts-metoprolol-t"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-antiarrhythmic-t",
+      "type": "textbook",
+      "title": "Antiarrhythmics for Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/antiarrhythmics-for-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tufts-metoprolol-t",
+      "type": "guideline",
+      "title": "Metoprolol — Tufts CardioRush Cardiology Drug Formulary",
+      "url": "https://sites.tufts.edu/cardiorush/cardiology-drug-formulary/",
+      "year": 2024,
+      "note": "Tufts cardiology reference dosing.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-metoprolol",
+      "type": "monograph",
+      "title": "Metoprolol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Metoprolol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C07AB02",
+      "name": "Metoprolol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / VCA / dvm360 / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

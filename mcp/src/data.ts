@@ -105,7 +105,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'anti-emetics', label: 'Anti-emetics', prefixes: ['A04'] },
   { slug: 'antihistamines', label: 'Antihistamines', prefixes: ['R06'] },
   // urinary MUST precede cardiovascular: C04AX starts with C0 (mirror lib/classify.ts order)
-  { slug: 'urinary', label: 'Urinary & micturition', prefixes: ['N07AB', 'C04AX', 'G04B'] },
+  { slug: 'urinary', label: 'Urinary & micturition', prefixes: ['N07AB', 'C04AX', 'G04B', 'G04CA'] },
   { slug: 'cardiovascular', label: 'Cardiovascular', prefixes: ['C0'] },
   { slug: 'endocrine', label: 'Endocrine', prefixes: ['H03'] },
   { slug: 'adrenal', label: 'Adrenal', prefixes: ['H02CA', 'H02AA', 'V03AB99'] },

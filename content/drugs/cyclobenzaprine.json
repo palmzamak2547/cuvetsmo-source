@@ -1,0 +1,113 @@
+{
+  "slug": "cyclobenzaprine",
+  "nameEn": "Cyclobenzaprine",
+  "nameTh": "ไซโคลเบนซาพรีน",
+  "class": "Muscle relaxant — centrally-acting (skeletal muscle spasm)",
+  "mechanism": "centrally-acting muscle relaxant โครงสร้างคล้าย tricyclic — ลดการส่งสัญญาณ tonic somatic motor ที่ก้านสมอง คลายกล้ามเนื้อโครงร่างที่หดเกร็ง; ใช้ off-label สำหรับ muscle spasm จากโรคกระดูกสันหลัง",
+  "brandNamesTh": [
+    "Flexeril",
+    "Amrix"
+  ],
+  "indications": [
+    {
+      "text": "อาการกล้ามเนื้อหดเกร็ง (muscle spasm) จากโรคกระดูกสันหลัง/บาดเจ็บกล้ามเนื้อในสุนัข — ใช้ off-label ภายใต้สัตวแพทย์ (ไม่มีทะเบียนสัตว์)",
+      "cites": [
+        "singlecare-cyclobenzaprine",
+        "merck-muscle-relax-t"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ไม่มีขนาดมาตรฐานที่รับรองในสัตว์ — สัตวแพทย์บางท่านไม่ใช้เพราะข้อมูลจำกัด; ⚠️ พิษที่ ~12 mg/kg (ตัวสั่น ชัก ซึมลึก หัวใจเต้นช้า อุณหภูมิต่ำ); ห้ามใช้ร่วม MAOI/serotonergic (serotonin syndrome); ระวังในโรคหัวใจ/ต้อหิน",
+      "cites": [
+        "singlecare-cyclobenzaprine",
+        "merck-muscle-relax-t"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ง่วงซึม ปากแห้ง อ่อนแรง; ขนาดสูง — ตัวสั่น เสียสมดุล ชัก หัวใจเต้นช้า",
+      "cites": [
+        "singlecare-cyclobenzaprine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Muscle spasm (off-label)",
+      "route": "PO",
+      "dose": "off-label ตามขนาดตัว (เช่น ~2.5 mg สุนัขเล็ก ถึง ~10–15 mg สุนัขใหญ่ วันละครั้ง) — ⚠️ ไม่มีขนาด mg/kg มาตรฐาน, ใช้ภายใต้สัตวแพทย์",
+      "cites": [
+        "singlecare-cyclobenzaprine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "singlecare-cyclobenzaprine",
+      "type": "guideline",
+      "title": "Cyclobenzaprine for dogs: muscle spasms and pain — SingleCare",
+      "url": "https://www.singlecare.com/blog/cyclobenzaprine-for-dogs/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-muscle-relax-t",
+      "type": "textbook",
+      "title": "Skeletal Muscle Relaxants for Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system/skeletal-muscle-relaxants-for-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-cyclobenzaprine",
+      "type": "monograph",
+      "title": "Cyclobenzaprine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Cyclobenzaprine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "M03BX08",
+      "name": "Cyclobenzaprine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / VCA / dvm360 / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

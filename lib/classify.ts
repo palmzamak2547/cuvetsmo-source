@@ -107,7 +107,12 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     label: 'Urinary & micturition · ระบบปัสสาวะและการขับถ่ายปัสสาวะ',
     subtitle: 'Detrusor stimulants, urethral relaxants — retention, atony, dyssynergia',
     order: 95,
-    match: startsWithAtc('N07AB', 'C04AX', 'G04B'),
+    // N07AB cholinergic detrusor stimulants, C04AX urethral relaxants
+    // (phenoxybenzamine), G04B urologicals, G04CA alpha-blockers for BPH/
+    // urethral relaxation (tamsulosin). G04CA is disjoint from reproductive's
+    // G04CB (finasteride 5α-reductase) — tamsulosin relaxes the urethra,
+    // finasteride shrinks the prostate, so they live in different classes.
+    match: startsWithAtc('N07AB', 'C04AX', 'G04B', 'G04CA'),
   },
   {
     slug: 'cardiovascular',

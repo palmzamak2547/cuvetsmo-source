@@ -3568,5 +3568,53 @@
     "name": "Liothyronine sodium (T3)",
     "level": 5,
     "parent": "H03AA"
+  },
+  "M03BX08": {
+    "code": "M03BX08",
+    "name": "Cyclobenzaprine",
+    "level": 5,
+    "parent": "M03BX"
+  },
+  "M03BX": {
+    "code": "M03BX",
+    "name": "Other centrally acting muscle relaxants",
+    "level": 4,
+    "parent": "M03B"
+  },
+  "A16AA01": {
+    "code": "A16AA01",
+    "name": "Levocarnitine (L-carnitine)",
+    "level": 5,
+    "parent": "A16AA"
+  },
+  "L01XX23": {
+    "code": "L01XX23",
+    "name": "Mitotane",
+    "level": 5,
+    "parent": "L01XX"
+  },
+  "G04CA": {
+    "code": "G04CA",
+    "name": "Alpha-adrenoreceptor antagonists (urological)",
+    "level": 4,
+    "parent": "G04C"
+  },
+  "G04CA02": {
+    "code": "G04CA02",
+    "name": "Tamsulosin",
+    "level": 5,
+    "parent": "G04CA"
+  },
+  "N05AA01": {
+    "code": "N05AA01",
+    "name": "Chlorpromazine",
+    "level": 5,
+    "parent": "N05AA"
+  },
+  "C07AB02": {
+    "code": "C07AB02",
+    "name": "Metoprolol",
+    "level": 5,
+    "parent": "C07AB"
   }
 }

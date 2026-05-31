@@ -1,0 +1,114 @@
+{
+  "slug": "tamsulosin",
+  "nameEn": "Tamsulosin",
+  "nameTh": "แทมสุโลซิน",
+  "class": "Urinary — selective alpha-1A antagonist (urethral relaxant)",
+  "mechanism": "alpha-1 adrenergic antagonist ที่จำเพาะต่อ subtype 1A (พบมากที่ท่อปัสสาวะ/ต่อมลูกหมาก/กระเพาะปัสสาวะ) — คลายกล้ามเนื้อเรียบหูรูดท่อปัสสาวะ ช่วยขับปัสสาวะ/นิ่ว โดยมีผลต่อความดันน้อยกว่า prazosin (uroselective)",
+  "brandNamesTh": [
+    "Flomax",
+    "Harnal"
+  ],
+  "indications": [
+    {
+      "text": "คลายหูรูดท่อปัสสาวะใน functional urethral obstruction/urethral spasm และช่วยขับนิ่วท่อไต/ท่อปัสสาวะ (medical expulsive therapy) ในสุนัข — uroselective กว่า prazosin",
+      "cites": [
+        "vetdrugs-tamsulosin",
+        "paper-tamsulosin"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวัง hypotension (น้อยกว่า prazosin แต่ยังมี); ห้าม/ระวังใช้ร่วม alpha-blocker อื่น (prazosin/phenoxybenzamine — เสริมความดันตก); ปรับในตับบกพร่อง; ขนาดเป็น mcg/kg (เล็ก)",
+      "cites": [
+        "vetdrugs-tamsulosin",
+        "paper-tamsulosin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ (uroselective จึงน้อยกว่า prazosin), ซึม/อ่อนแรง; GI upset",
+      "cites": [
+        "vetdrugs-tamsulosin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Functional urethral obstruction / ureterolith expulsion",
+      "route": "PO",
+      "dose": "4–6 mcg/kg PO ทุก 12–24 ชั่วโมง (≈ 0.1–0.2 mg ต่อ 10 kg; สูงสุด ~0.4 mg/วัน)",
+      "cites": [
+        "vetdrugs-tamsulosin",
+        "paper-tamsulosin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vetdrugs-tamsulosin",
+      "type": "guideline",
+      "title": "Tamsulosin Hydrochloride veterinary dosing — Vet Drugs List",
+      "url": "https://www.vet-ebooks.com/vetdrugslist/tamsulosin-hydrochloride/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "paper-tamsulosin",
+      "type": "paper",
+      "title": "Tamsulosin uroselectivity: prostatic/urethral retention in dogs",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022356524388056",
+      "year": 2023,
+      "note": "Peer-reviewed canine tamsulosin urethral study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-tamsulosin",
+      "type": "monograph",
+      "title": "Tamsulosin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Tamsulosin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "G04CA02",
+      "name": "Tamsulosin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / VCA / dvm360 / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

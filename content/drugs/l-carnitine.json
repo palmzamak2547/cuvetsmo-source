@@ -1,0 +1,122 @@
+{
+  "slug": "l-carnitine",
+  "nameEn": "L-carnitine (levocarnitine)",
+  "nameTh": "แอล-คาร์นิทีน",
+  "class": "Metabolic & nutritional — amino acid (fatty-acid transport)",
+  "mechanism": "amino acid ที่จำเป็นต่อการขนส่งกรดไขมันสายยาวเข้า mitochondria เพื่อสร้างพลังงาน (beta-oxidation); ใช้เสริมในภาวะที่ต้องการเมแทบอลิซึมไขมันที่ดี (หัวใจ/ตับ)",
+  "brandNamesTh": [
+    "L-carnitine",
+    "Levocarnitine"
+  ],
+  "indications": [
+    {
+      "text": "เสริมในโรคกล้ามเนื้อหัวใจขยาย (dilated cardiomyopathy — โดยเฉพาะ Boxer, Cocker Spaniel ที่ขาด carnitine) ในสุนัข; ช่วยในภาวะตับสะสมไขมัน (hepatic lipidosis) ในแมว (ยังถกเถียง)",
+      "cites": [
+        "vca-carnitine",
+        "merck-dcm-t"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "โดยรวมปลอดภัยมาก (สารอาหาร); ไม่ใช่การรักษาหลักของ DCM (เสริมเท่านั้น); ประโยชน์ในแมว hepatic lipidosis ยังไม่ชัดเจน",
+      "cites": [
+        "vca-carnitine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ปลอดภัยมาก; GI upset เล็กน้อย/กลิ่นตัวคาวปลาเมื่อขนาดสูง",
+      "cites": [
+        "vca-carnitine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Dilated cardiomyopathy (adjunct)",
+      "route": "PO",
+      "dose": "50–100 mg/kg PO ทุก 8–12 ชั่วโมง (ผสมอาหาร)",
+      "cites": [
+        "vca-carnitine",
+        "merck-dcm-t"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Hepatic lipidosis (adjunct, controversial)",
+      "route": "PO",
+      "dose": "250–500 mg/ตัว PO วันละครั้ง",
+      "cites": [
+        "vca-carnitine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-carnitine",
+      "type": "monograph",
+      "title": "Carnitine (levocarnitine) — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/carnitine",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-dcm-t",
+      "type": "textbook",
+      "title": "Cardiomyopathy in Dogs — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/circulatory-system/cardiomyopathy-in-dogs-and-cats/cardiomyopathy-in-dogs",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-carnitine",
+      "type": "monograph",
+      "title": "Carnitine (levocarnitine) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Carnitine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A16AA01",
+      "name": "Levocarnitine (L-carnitine)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / Tufts CardioRush / VCA / dvm360 / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
