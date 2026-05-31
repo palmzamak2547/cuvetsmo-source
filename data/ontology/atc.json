@@ -3154,5 +3154,113 @@
     "name": "Aminophylline",
     "level": 5,
     "parent": "R03DA"
+  },
+  "S01A": {
+    "code": "S01A",
+    "name": "Antiinfectives (ophthalmological)",
+    "level": 3,
+    "parent": "S01"
+  },
+  "S01AA": {
+    "code": "S01AA",
+    "name": "Antibiotics (ophthalmological)",
+    "level": 4,
+    "parent": "S01A"
+  },
+  "S01AA12": {
+    "code": "S01AA12",
+    "name": "Tobramycin (ophthalmic)",
+    "level": 5,
+    "parent": "S01AA"
+  },
+  "S01AE": {
+    "code": "S01AE",
+    "name": "Fluoroquinolones (ophthalmological)",
+    "level": 4,
+    "parent": "S01A"
+  },
+  "S01AE01": {
+    "code": "S01AE01",
+    "name": "Ofloxacin (ophthalmic)",
+    "level": 5,
+    "parent": "S01AE"
+  },
+  "S01AE03": {
+    "code": "S01AE03",
+    "name": "Ciprofloxacin (ophthalmic)",
+    "level": 5,
+    "parent": "S01AE"
+  },
+  "J01FA09": {
+    "code": "J01FA09",
+    "name": "Clarithromycin",
+    "level": 5,
+    "parent": "J01FA"
+  },
+  "D01A": {
+    "code": "D01A",
+    "name": "Antifungals for topical use",
+    "level": 3,
+    "parent": "D01"
+  },
+  "D01AC": {
+    "code": "D01AC",
+    "name": "Imidazole and triazole derivatives (topical)",
+    "level": 4,
+    "parent": "D01A"
+  },
+  "D01AC02": {
+    "code": "D01AC02",
+    "name": "Miconazole",
+    "level": 5,
+    "parent": "D01AC"
+  },
+  "D06A": {
+    "code": "D06A",
+    "name": "Antibiotics for topical use",
+    "level": 3,
+    "parent": "D06"
+  },
+  "D06AX": {
+    "code": "D06AX",
+    "name": "Other antibiotics for topical use",
+    "level": 4,
+    "parent": "D06A"
+  },
+  "D06AX09": {
+    "code": "D06AX09",
+    "name": "Mupirocin",
+    "level": 5,
+    "parent": "D06AX"
+  },
+  "R05": {
+    "code": "R05",
+    "name": "Cough and cold preparations",
+    "level": 2,
+    "parent": "R"
+  },
+  "R05D": {
+    "code": "R05D",
+    "name": "Cough suppressants, excl. combinations with expectorants",
+    "level": 3,
+    "parent": "R05"
+  },
+  "R05DA": {
+    "code": "R05DA",
+    "name": "Opium alkaloids and derivatives",
+    "level": 4,
+    "parent": "R05D"
+  },
+  "R05DA09": {
+    "code": "R05DA09",
+    "name": "Dextromethorphan",
+    "level": 5,
+    "parent": "R05DA"
+  },
+  "R05DA03": {
+    "code": "R05DA03",
+    "name": "Hydrocodone",
+    "level": 5,
+    "parent": "R05DA"
   }
 }

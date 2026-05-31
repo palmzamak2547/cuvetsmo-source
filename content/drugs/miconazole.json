@@ -1,0 +1,123 @@
+{
+  "slug": "miconazole",
+  "nameEn": "Miconazole (topical)",
+  "nameTh": "ไมโคนาโซล (ทาภายนอก)",
+  "class": "Antifungal — imidazole (topical)",
+  "mechanism": "imidazole antifungal — ยับยั้ง fungal CYP450 (14α-demethylase) ลดการสร้าง ergosterol ที่เยื่อหุ้มเซลล์เชื้อรา; รูปทาภายนอกใช้กับเชื้อราผิวหนังและ Malassezia",
+  "brandNamesTh": [
+    "Conofite",
+    "Miconazole 2%",
+    "Malaseb (คู่ chlorhexidine)"
+  ],
+  "indications": [
+    {
+      "text": "เชื้อราผิวหนัง (dermatophytosis/ringworm) และ Malassezia dermatitis ในสุนัขและแมว — รูปทา/แชมพู (มักผสม chlorhexidine เสริมฤทธิ์)",
+      "cites": [
+        "vca-miconazole",
+        "merck-integ-antifungal"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ใช้ภายนอกเท่านั้น; ระคายผิว/แพ้สัมผัสบางตัว; เลี่ยงเข้าตา; สำหรับรอยโรคกว้าง/refractory พิจารณา systemic antifungal ร่วม",
+      "cites": [
+        "vca-miconazole"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระคายผิว/แดงเฉพาะที่, แพ้สัมผัส (พบน้อย); ดูดซึม systemic น้อยมาก",
+      "cites": [
+        "vca-miconazole"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Dermatophytosis / Malassezia dermatitis",
+      "route": "topical",
+      "dose": "ทา lotion/cream 2% บาง ๆ บริเวณรอยโรค วันละครั้ง นาน 2–4 สัปดาห์; แชมพูตามคำแนะนำ",
+      "cites": [
+        "vca-miconazole",
+        "merck-integ-antifungal"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Dermatophytosis / Malassezia dermatitis",
+      "route": "topical",
+      "dose": "ทา 2% บาง ๆ วันละครั้ง; แชมพู (มักคู่ chlorhexidine)",
+      "cites": [
+        "vca-miconazole"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-miconazole",
+      "type": "monograph",
+      "title": "Miconazole Topical — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/miconazole-topical",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-integ-antifungal",
+      "type": "textbook",
+      "title": "Antifungals for Integumentary Disease in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/antifungals-for-integumentary-disease-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-miconazole",
+      "type": "monograph",
+      "title": "Miconazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Miconazole",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D01AC02",
+      "name": "Miconazole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

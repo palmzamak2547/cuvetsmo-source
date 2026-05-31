@@ -1,0 +1,122 @@
+{
+  "slug": "mupirocin",
+  "nameEn": "Mupirocin (topical)",
+  "nameTh": "มิวพิโรซิน (ทาภายนอก)",
+  "class": "Antiseptic — topical antibiotic (pseudomonic acid)",
+  "mechanism": "topical antibiotic (pseudomonic acid A) — ยับยั้ง bacterial isoleucyl-tRNA synthetase หยุดการสร้างโปรตีน; ออกฤทธิ์ดีต่อ gram-positive โดยเฉพาะ Staphylococcus (รวม MRSP/MRSA)",
+  "brandNamesTh": [
+    "Muricin",
+    "Bactroban"
+  ],
+  "indications": [
+    {
+      "text": "ติดเชื้อแบคทีเรียที่ผิวหนังเฉพาะที่ (localized/superficial pyoderma) จาก Staphylococcus รวมสายพันธุ์ดื้อ methicillin, acne ในแมว (off-label) ในสุนัขและแมว",
+      "cites": [
+        "vca-mupirocin",
+        "merck-integ-abx"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ใช้เฉพาะที่ ≤30 วัน; ⚠️ ฐานยา polyethylene glycol — เลี่ยงทาบริเวณกว้าง/แผลเปิดลึกในเคสที่ดูดซึม PEG ได้ (พิษไตทางทฤษฎี); ห้ามให้เลียออก 20–30 นาที; ต้อง contact time ~10 นาที",
+      "cites": [
+        "vca-mupirocin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระคายเฉพาะที่ (พบน้อย); ดูดซึม systemic น้อยมากเมื่อใช้บริเวณจำกัด",
+      "cites": [
+        "vca-mupirocin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Localized superficial pyoderma",
+      "route": "topical",
+      "dose": "ทา ointment 2% บริเวณรอยโรค วันละ 2 ครั้ง (ไม่เกิน 30 วัน); contact time ~10 นาที",
+      "cites": [
+        "vca-mupirocin",
+        "merck-integ-abx"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Chin acne / localized pyoderma (off-label)",
+      "route": "topical",
+      "dose": "ทา ointment 2% บาง ๆ วันละ 2 ครั้ง",
+      "cites": [
+        "vca-mupirocin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-mupirocin",
+      "type": "monograph",
+      "title": "Mupirocin Topical — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/mupirocin-topical",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-integ-abx",
+      "type": "textbook",
+      "title": "Antibacterials for Integumentary Disease in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/antibacterials-for-integumentary-disease-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-mupirocin",
+      "type": "monograph",
+      "title": "Mupirocin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Mupirocin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D06AX09",
+      "name": "Mupirocin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

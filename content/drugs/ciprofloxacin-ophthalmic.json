@@ -1,0 +1,122 @@
+{
+  "slug": "ciprofloxacin-ophthalmic",
+  "nameEn": "Ciprofloxacin (ophthalmic)",
+  "nameTh": "ซิโพรฟล็อกซาซิน (หยอดตา)",
+  "class": "Ophthalmology — fluoroquinolone antibiotic (topical)",
+  "mechanism": "fluoroquinolone — ยับยั้ง DNA gyrase/topoisomerase IV; รูปหยอดตาครอบคลุมกว้างรวม Pseudomonas ใช้กับแผลกระจกตาจากแบคทีเรีย",
+  "brandNamesTh": [
+    "Ciloxan",
+    "Ciprofloxacin 0.3%"
+  ],
+  "indications": [
+    {
+      "text": "แผลกระจกตาจากแบคทีเรีย, conjunctivitis, keratitis, blepharitis ในสุนัข แมว และม้า — โดยเฉพาะเมื่อสงสัย Pseudomonas",
+      "cites": [
+        "petplace-cipro-eye",
+        "merck-ocular-c"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ใช้เฉพาะที่; ⚠️ corneal precipitate สีขาว (พบบ่อยกว่า ofloxacin — มักหายเอง); ใช้พร่ำเพรื่อส่งเสริมเชื้อดื้อ — สงวนสำหรับแผลกระจกตา/เคสบ่งชี้",
+      "cites": [
+        "petplace-cipro-eye"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระคายตา, corneal precipitate สีขาว (reversible), แสบชั่วคราว",
+      "cites": [
+        "petplace-cipro-eye"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Bacterial corneal ulcer",
+      "route": "topical",
+      "dose": "หยอด 2 หยด ทุก 15 นาที 6 ชม.แรก แล้วทุก 30 นาทีจนครบวันแรก; วัน 2 ทุกชั่วโมง; วัน 3–14 ทุก 4 ชั่วโมง",
+      "cites": [
+        "petplace-cipro-eye",
+        "merck-ocular-c"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Bacterial conjunctivitis / keratitis",
+      "route": "topical",
+      "dose": "หยอด 1–2 หยด ทุก 6–8 ชั่วโมง (เคสทั่วไป)",
+      "cites": [
+        "petplace-cipro-eye"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "petplace-cipro-eye",
+      "type": "monograph",
+      "title": "Ciprofloxacin ophthalmic for Dogs, Cats, Horses — drug reference",
+      "url": "https://entirelypetspharmacy.com/ciprofloxacin-ophthalmic-solution.html",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-ocular-c",
+      "type": "textbook",
+      "title": "Ocular Pharmacology and Therapeutics — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/eye-and-ear/ophthalmology/ocular-pharmacology-and-therapeutics",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-ciprofloxacin",
+      "type": "monograph",
+      "title": "Ciprofloxacin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ciprofloxacin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01AE03",
+      "name": "Ciprofloxacin (ophthalmic)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

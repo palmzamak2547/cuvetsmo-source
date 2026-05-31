@@ -1,0 +1,122 @@
+{
+  "slug": "clarithromycin",
+  "nameEn": "Clarithromycin",
+  "nameTh": "คลาริโทรมัยซิน",
+  "class": "Antibiotic — macrolide",
+  "mechanism": "macrolide — จับ 50S ribosome ยับยั้งการสร้างโปรตีนแบคทีเรีย (bacteriostatic); ซึมเข้าเนื้อเยื่อ/intracellular ดี ใช้กับเชื้อในเซลล์และ atypical",
+  "brandNamesTh": [
+    "Klacid",
+    "Biaxin"
+  ],
+  "indications": [
+    {
+      "text": "ติดเชื้อในเซลล์/atypical (เช่น Mycobacterium, Rhodococcus equi ในลูกม้า — มักคู่ rifampin), ติดเชื้อผิวหนัง/ทางเดินหายใจที่ไวต่อยา ในสุนัขและแมว (off-label — ไม่มีทะเบียนสัตว์)",
+      "cites": [
+        "merck-macrolide",
+        "aavpt-macrolide"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามในสัตว์แพ้ macrolide; ⚠️ ยับยั้ง CYP3A — เพิ่มระดับยาหลายชนิด (cisapride, cyclosporine ฯลฯ); GI upset; ปรับในตับ/ไตบกพร่อง; off-label",
+      "cites": [
+        "merck-macrolide"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset (อาเจียน ท้องเสีย เบื่ออาหาร), drug interactions (CYP3A), ตับเอนไซม์สูงบางตัว",
+      "cites": [
+        "merck-macrolide"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Susceptible / intracellular infection",
+      "route": "PO",
+      "dose": "7.5 mg/kg PO ทุก 12 ชั่วโมง (off-label)",
+      "cites": [
+        "merck-macrolide",
+        "aavpt-macrolide"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Susceptible infection (incl. mycobacterial — combo)",
+      "route": "PO",
+      "dose": "7.5 mg/kg PO ทุก 12 ชั่วโมง (มักอยู่ในสูตรหลายยาสำหรับ mycobacteria)",
+      "cites": [
+        "aavpt-macrolide"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-macrolide",
+      "type": "textbook",
+      "title": "Macrolide Use in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/macrolide-use-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "aavpt-macrolide",
+      "type": "guideline",
+      "title": "Macrolides (Veterinary—Systemic) — AAVPT monograph",
+      "url": "https://cdn.ymaws.com/www.aavpt.org/resource/resmgr/imported/macrolides.pdf",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-clarithromycin",
+      "type": "monograph",
+      "title": "Clarithromycin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Clarithromycin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01FA09",
+      "name": "Clarithromycin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / Today's Vet Practice / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

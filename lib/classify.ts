@@ -277,12 +277,20 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'antiseptics',
     label: 'Antiseptics & topical antimicrobials · ยาฆ่าเชื้อและยาทาภายนอก',
-    subtitle: 'Biguanides, topical sulfonamides, silver — wound + skin antisepsis',
+    subtitle: 'Biguanides, topical sulfonamides, silver, topical antibiotics — wound + skin',
     order: 245,
-    // D08 antiseptics/disinfectants (chlorhexidine) + D06B topical chemo-
-    // therapeutics (silver sulfadiazine). Disjoint from D01 (antifungals) and
-    // D11 (dermatology) already in use.
+    // D08 antiseptics/disinfectants (chlorhexidine) + D06 topical chemo-
+    // therapeutics (silver sulfadiazine D06B, mupirocin D06AX). Disjoint from
+    // D01 (antifungals) and D11 (dermatology) already in use.
     match: startsWithAtc('D08', 'D06'),
+  },
+  {
+    slug: 'antitussives',
+    label: 'Antitussives · ยาระงับอาการไอ',
+    subtitle: 'Opioid + non-opioid cough suppressants — kennel cough, tracheal collapse',
+    order: 248,
+    // R05D cough suppressants. Disjoint from respiratory (R03/R07).
+    match: startsWithAtc('R05D'),
   },
   {
     slug: 'reproductive',

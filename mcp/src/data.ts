@@ -130,6 +130,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'metabolic-nutritional', label: 'Metabolic & nutritional', prefixes: ['A16', 'A11'] },
   { slug: 'hematopoietic', label: 'Hematopoietic', prefixes: ['B03'] },
   { slug: 'antiseptics', label: 'Antiseptics & topical antimicrobials', prefixes: ['D08', 'D06'] },
+  { slug: 'antitussives', label: 'Antitussives', prefixes: ['R05D'] },
   { slug: 'reproductive', label: 'Reproductive & sex hormones', prefixes: ['G02', 'G03', 'G04C', 'H01CA'] },
 ]
 export function classifyDrug(d: Drug): { slug: string; label: string } | null {
