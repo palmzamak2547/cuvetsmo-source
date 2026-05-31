@@ -104,6 +104,8 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'gi', label: 'GI', prefixes: ['A02', 'A03', 'A06'] },
   { slug: 'anti-emetics', label: 'Anti-emetics', prefixes: ['A04'] },
   { slug: 'antihistamines', label: 'Antihistamines', prefixes: ['R06'] },
+  // urinary MUST precede cardiovascular: C04AX starts with C0 (mirror lib/classify.ts order)
+  { slug: 'urinary', label: 'Urinary & micturition', prefixes: ['N07AB', 'C04AX', 'G04B'] },
   { slug: 'cardiovascular', label: 'Cardiovascular', prefixes: ['C0'] },
   { slug: 'endocrine', label: 'Endocrine', prefixes: ['H03'] },
   { slug: 'adrenal', label: 'Adrenal', prefixes: ['H02CA', 'H02AA', 'V03AB99'] },
@@ -127,7 +129,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'hepatobiliary', label: 'Hepatobiliary', prefixes: ['A05'] },
   { slug: 'metabolic-nutritional', label: 'Metabolic & nutritional', prefixes: ['A16'] },
   { slug: 'hematopoietic', label: 'Hematopoietic', prefixes: ['B03'] },
-  { slug: 'reproductive', label: 'Reproductive & sex hormones', prefixes: ['G02A', 'G03', 'G04C', 'H01CA'] },
+  { slug: 'reproductive', label: 'Reproductive & sex hormones', prefixes: ['G02', 'G03', 'G04C', 'H01CA'] },
 ]
 export function classifyDrug(d: Drug): { slug: string; label: string } | null {
   const code = stripQ(d.codes?.atc?.code ?? '')

@@ -1,0 +1,122 @@
+{
+  "slug": "cabergoline",
+  "nameEn": "Cabergoline",
+  "nameTh": "คาเบอร์โกลีน",
+  "class": "Reproductive — dopamine agonist (prolactin inhibitor)",
+  "mechanism": "dopamine D2 agonist ออกฤทธิ์ยาว — กด prolactin (ซึ่งเป็น luteotroph ที่จำเป็นต่อ corpus luteum ในสุนัขตั้งท้อง) จึงเกิด luteolysis, progesterone ตก และยุติการตั้งท้อง; ลด lactation ใน false pregnancy",
+  "brandNamesTh": [
+    "Galastop",
+    "Dostinex"
+  ],
+  "indications": [
+    {
+      "text": "รักษา false pregnancy (pseudopregnancy) และระงับการสร้างน้ำนม, ยุติการตั้งท้องที่ไม่ต้องการ (มักคู่ cloprostenol) ในสุนัข; ลด prolactin",
+      "cites": [
+        "merck-repro-overview-m",
+        "paper-cabergoline"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามในสัตว์ตั้งท้องที่ต้องการเก็บ; อาเจียน (ลดได้โดยให้พร้อมอาหาร/ตอนเย็น); ห้ามใช้ร่วม dopamine antagonist (metoclopramide ลดฤทธิ์); ระวังในตับบกพร่อง",
+      "cites": [
+        "merck-repro-overview-m"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน เบื่ออาหาร ซึม (ช่วงแรก — มักหายเอง); โดยรวมทนได้ดีกว่า bromocriptine",
+      "cites": [
+        "paper-cabergoline"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Pseudopregnancy / lactation suppression",
+      "route": "PO",
+      "dose": "5 mcg/kg PO วันละครั้ง นาน 5–7 วัน (หรือจนอาการหาย)",
+      "cites": [
+        "merck-repro-overview-m",
+        "paper-cabergoline"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Pregnancy termination (with PGF2α)",
+      "route": "PO",
+      "dose": "5 mcg/kg PO วันละครั้ง นาน 5 วัน (หลังวันที่ 40) หรือ 1.7 mcg/kg SC ทุก 2 วัน รวม 6 วัน; มักคู่ cloprostenol",
+      "cites": [
+        "paper-cabergoline"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-repro-overview-m",
+      "type": "textbook",
+      "title": "Systemic Pharmacotherapeutics of the Reproductive System — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-reproductive-system/overview-of-systemic-pharmacotherapeutics-of-the-reproductive-system-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "paper-cabergoline",
+      "type": "paper",
+      "title": "Cabergoline + cloprostenol to terminate pregnancy in dogs (Onclin, JSAP 1996)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8736225/",
+      "year": 2023,
+      "note": "Peer-reviewed canine cabergoline pregnancy study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-cabergoline",
+      "type": "monograph",
+      "title": "Cabergoline — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Cabergoline",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "G02CB03",
+      "name": "Cabergoline",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

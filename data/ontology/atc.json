@@ -2860,5 +2860,101 @@
     "name": "Finasteride",
     "level": 5,
     "parent": "G04CB"
+  },
+  "N07A": {
+    "code": "N07A",
+    "name": "Parasympathomimetics",
+    "level": 3,
+    "parent": "N07"
+  },
+  "N07AB": {
+    "code": "N07AB",
+    "name": "Choline esters",
+    "level": 4,
+    "parent": "N07A"
+  },
+  "N07AB02": {
+    "code": "N07AB02",
+    "name": "Bethanechol",
+    "level": 5,
+    "parent": "N07AB"
+  },
+  "C04": {
+    "code": "C04",
+    "name": "Peripheral vasodilators",
+    "level": 2,
+    "parent": "C"
+  },
+  "C04A": {
+    "code": "C04A",
+    "name": "Peripheral vasodilators",
+    "level": 3,
+    "parent": "C04"
+  },
+  "C04AX": {
+    "code": "C04AX",
+    "name": "Other peripheral vasodilators",
+    "level": 4,
+    "parent": "C04A"
+  },
+  "C04AX02": {
+    "code": "C04AX02",
+    "name": "Phenoxybenzamine",
+    "level": 5,
+    "parent": "C04AX"
+  },
+  "G02C": {
+    "code": "G02C",
+    "name": "Other gynecologicals",
+    "level": 3,
+    "parent": "G02"
+  },
+  "G02CB": {
+    "code": "G02CB",
+    "name": "Prolactine inhibitors",
+    "level": 4,
+    "parent": "G02C"
+  },
+  "G02CB03": {
+    "code": "G02CB03",
+    "name": "Cabergoline",
+    "level": 5,
+    "parent": "G02CB"
+  },
+  "G03C": {
+    "code": "G03C",
+    "name": "Estrogens",
+    "level": 3,
+    "parent": "G03"
+  },
+  "G03CA": {
+    "code": "G03CA",
+    "name": "Natural and semisynthetic estrogens, plain",
+    "level": 4,
+    "parent": "G03C"
+  },
+  "G03CA04": {
+    "code": "G03CA04",
+    "name": "Estriol",
+    "level": 5,
+    "parent": "G03CA"
+  },
+  "S01EB": {
+    "code": "S01EB",
+    "name": "Parasympathomimetics",
+    "level": 4,
+    "parent": "S01E"
+  },
+  "S01EB01": {
+    "code": "S01EB01",
+    "name": "Pilocarpine",
+    "level": 5,
+    "parent": "S01EB"
+  },
+  "S01EC01": {
+    "code": "S01EC01",
+    "name": "Acetazolamide",
+    "level": 5,
+    "parent": "S01EC"
   }
 }

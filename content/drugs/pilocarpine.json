@@ -1,0 +1,123 @@
+{
+  "slug": "pilocarpine",
+  "nameEn": "Pilocarpine",
+  "nameTh": "ไพโลคาร์พีน",
+  "class": "Ophthalmology — cholinergic (miotic / neurogenic KCS)",
+  "mechanism": "direct-acting muscarinic agonist (parasympathomimetic) — กระตุ้นต่อมน้ำตา/น้ำลายและทำให้รูม่านตาหด (miosis); ใช้กินสำหรับ neurogenic KCS (ตาแห้งจากเส้นประสาท) และหยอดสำหรับต้อหินบางชนิด",
+  "brandNamesTh": [
+    "Pilocarpine",
+    "Isopto Carpine"
+  ],
+  "indications": [
+    {
+      "text": "neurogenic keratoconjunctivitis sicca (ตาแห้งจากความผิดปกติของเส้นประสาท — กระตุ้นต่อมน้ำตา), ต้อหินบางชนิด (miosis) ในสุนัข; รูปกินใช้กับ neurogenic KCS",
+      "cites": [
+        "merck-kcs",
+        "vin-kcs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ฤทธิ์ cholinergic แรง — ระวังพิษ (น้ำลายไหล อาเจียน ถ่าย หัวใจเต้นช้า) โดยเฉพาะเมื่อกิน; รูปหยอดระคายเคือง (pH เป็นกรด); titrate เพิ่มทีละหยดจนเริ่มมีอาการพิษเล็กน้อย; ห้ามในหอบหืด/แผล GI",
+      "cites": [
+        "merck-kcs",
+        "vin-kcs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "cholinergic — น้ำลายไหล อาเจียน ท้องเสีย หัวใจเต้นช้า; รูปหยอดแสบตา; antidote = atropine",
+      "cites": [
+        "vin-kcs"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Neurogenic KCS (oral)",
+      "route": "PO",
+      "dose": "ยาหยอดตา 1–2% หยดผสมอาหาร 1 หยด/10 kg ทุก 12 ชั่วโมง (เริ่มต่ำ เพิ่มทีละหยดทุก 3 วันจนเริ่มมีอาการพิษเล็กน้อย)",
+      "cites": [
+        "merck-kcs",
+        "vin-kcs"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Glaucoma / miosis (topical)",
+      "route": "topical",
+      "dose": "pilocarpine 1–2% หยอดตา ตามที่กำหนด",
+      "cites": [
+        "merck-kcs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-kcs",
+      "type": "textbook",
+      "title": "Keratoconjunctivitis Sicca in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/eye-and-ear/the-cornea/keratoconjunctivitis-sicca-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vin-kcs",
+      "type": "guideline",
+      "title": "KCS treatment beyond cyclosporine (oral pilocarpine for neurogenic KCS) — WSAVA/VIN",
+      "url": "https://www.vin.com/apputil/content/defaultadv1.aspx?pId=24437&id=9382983",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-pilocarpine",
+      "type": "monograph",
+      "title": "Pilocarpine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Pilocarpine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01EB01",
+      "name": "Pilocarpine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -100,6 +100,16 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     match: startsWithAtc('R06'),
   },
   {
+    // MUST precede cardiovascular: phenoxybenzamine (C04AX02) starts with C0
+    // and would otherwise be swallowed by the cardiovascular 'C0' matcher.
+    // classifyDrug() returns the FIRST matching class in array order.
+    slug: 'urinary',
+    label: 'Urinary & micturition · ระบบปัสสาวะและการขับถ่ายปัสสาวะ',
+    subtitle: 'Detrusor stimulants, urethral relaxants — retention, atony, dyssynergia',
+    order: 95,
+    match: startsWithAtc('N07AB', 'C04AX', 'G04B'),
+  },
+  {
     slug: 'cardiovascular',
     label: 'Cardiovascular · ระบบหัวใจ',
     subtitle: 'Diuretics, ACE inhibitors, cardiac glycosides',
@@ -265,11 +275,12 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     label: 'Reproductive & sex hormones · ระบบสืบพันธุ์และฮอร์โมนเพศ',
     subtitle: 'GnRH agonists, prostaglandins, progestins, gonadotropins, 5α-reductase — theriogenology',
     order: 240,
-    // G02A prostaglandins/oxytocics, G03 sex hormones (progestins/estrogens/
+    // G02 gynecologicals (prostaglandins/oxytocics G02A + prolactin inhibitors
+    // G02C like cabergoline), G03 sex hormones (progestins/estrogens/
     // gonadotropins), G04C BPH agents, H01CA gonadotropin-releasing hormones.
     // H01CA is disjoint from the H01B pituitary-hormones class (desmopressin/
     // oxytocin) which uses H01BA/H01BB.
-    match: startsWithAtc('G02A', 'G03', 'G04C', 'H01CA'),
+    match: startsWithAtc('G02', 'G03', 'G04C', 'H01CA'),
   },
 ]
 

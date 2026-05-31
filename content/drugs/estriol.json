@@ -1,0 +1,112 @@
+{
+  "slug": "estriol",
+  "nameEn": "Estriol",
+  "nameTh": "เอสไตรออล",
+  "class": "Reproductive — short-acting estrogen (urinary incontinence)",
+  "mechanism": "short-acting natural estrogen — เพิ่มความตึงตัวและการตอบสนองต่อ alpha-receptor ของหูรูดท่อปัสสาวะ จึงคุมการกลั้นปัสสาวะใน estrogen-responsive incontinence (USMI)",
+  "brandNamesTh": [
+    "Incurin"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะกลั้นปัสสาวะไม่อยู่ที่ตอบสนองต่อ estrogen (urethral sphincter mechanism incompetence, USMI) ในสุนัขเพศเมียที่ทำหมันแล้ว (Incurin, FDA-approved)",
+      "cites": [
+        "fda-incurin",
+        "merck-incontinence"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ใช้ขนาดต่ำสุดที่คุมได้ (ขนาดสูง/นานเสี่ยงกดไขกระดูกแบบ estrogen — แม้ estriol short-acting เสี่ยงน้อยกว่า estradiol); ห้ามในสัตว์ที่ยังไม่ทำหมัน/ตั้งท้อง; ไม่ขึ้นกับน้ำหนักตัว",
+      "cites": [
+        "fda-incurin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เบื่ออาหาร อาเจียน ดื่มน้ำมาก ปากช่องคลอดบวม; estrogenic signs เมื่อขนาดสูง",
+      "cites": [
+        "fda-incurin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Estrogen-responsive urinary incontinence (spayed female)",
+      "route": "PO",
+      "dose": "เริ่ม 2 mg/ตัว PO วันละครั้ง อย่างน้อย 14 วัน แล้วลดเหลือขนาดต่ำสุดที่คุมได้ (อาจวันเว้นวัน); ไม่เกิน 2 mg/วัน",
+      "cites": [
+        "fda-incurin",
+        "merck-incontinence"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-incurin",
+      "type": "package-insert",
+      "title": "Incurin (estriol) — FDA/Merck veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/incurin-tablets.html",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "merck-incontinence",
+      "type": "textbook",
+      "title": "Pharmacotherapeutics in Urinary Incontinence in Dogs and Cats — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-urinary-incontinence-in-dogs-and-cats",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-estriol",
+      "type": "monograph",
+      "title": "Estriol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Estriol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "G03CA04",
+      "name": "Estriol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VIN / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
