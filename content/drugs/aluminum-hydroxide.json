@@ -1,0 +1,132 @@
+{
+  "slug": "aluminum-hydroxide",
+  "nameEn": "Aluminium hydroxide",
+  "nameTh": "อะลูมิเนียมไฮดรอกไซด์",
+  "class": "GI — antacid / phosphate binder",
+  "mechanism": "จับฟอสเฟตในทางเดินอาหารเป็นสารประกอบที่ไม่ดูดซึม (ขับทางอุจจาระ) ลดการดูดซึมฟอสฟอรัส; มีฤทธิ์ลดกรดในกระเพาะด้วย — ใช้คุม hyperphosphatemia ใน CKD",
+  "brandNamesTh": [
+    "Amphojel",
+    "Phos-Bind",
+    "AlternaGEL"
+  ],
+  "indications": [
+    {
+      "text": "คุม hyperphosphatemia ในโรคไตเรื้อรัง (CKD) สุนัขและแมว (phosphate binder ราคาถูกที่ใช้บ่อย), ลดกรดในกระเพาะ; ให้พร้อมอาหารเพื่อจับฟอสเฟตจากมื้อ",
+      "cites": [
+        "vca-aluminum",
+        "merck-ckd-o2"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ให้พร้อม/ก่อนอาหารทันที (จับฟอสเฟตจากมื้อ); ⚠️ ใช้นาน/ขนาดสูงเสี่ยง aluminium toxicity (neurotoxicity, microcytic anemia) — แม้ดูดซึมน้อยในไตปกติ แต่สะสมในไตวาย; constipation; รบกวนการดูดซึมยาอื่น (เว้นระยะ)",
+      "cites": [
+        "vca-aluminum",
+        "merck-ckd-o2"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องผูก, รบกวนการดูดซึมยาอื่น; aluminium toxicity เมื่อใช้นานในไตวาย (neurotoxicity, anemia)",
+      "cites": [
+        "vca-aluminum"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Hyperphosphatemia (CKD)",
+      "route": "PO",
+      "dose": "เริ่ม 30 mg/kg ทุก 8 ชม. หรือ 45 mg/kg ทุก 12 ชม. พร้อมอาหาร (ช่วง 30–100 mg/kg/วัน) ปรับทุก 4–6 สัปดาห์ตามฟอสฟอรัส",
+      "cites": [
+        "vca-aluminum",
+        "merck-ckd-o2"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Hyperphosphatemia (CKD)",
+      "route": "PO",
+      "dose": "30–90 mg/kg/วัน PO แบ่งให้พร้อมอาหาร ปรับตามค่าฟอสฟอรัส",
+      "cites": [
+        "vca-aluminum"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ serum phosphorus ทุก 2–4 สัปดาห์; เฝ้า aluminium toxicity เมื่อใช้นาน (ซีด microcytic, อาการประสาท)",
+      "cites": [
+        "vca-aluminum"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-aluminum",
+      "type": "monograph",
+      "title": "Aluminum Hydroxide — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/aluminum-hydroxide",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-ckd-o2",
+      "type": "textbook",
+      "title": "Chronic Kidney Disease in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/urinary-system/noninfectious-diseases-of-the-urinary-system-in-small-animals/chronic-kidney-disease-in-dogs-and-cats",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-aluminium_hydroxide",
+      "type": "monograph",
+      "title": "Aluminium hydroxide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Aluminium_hydroxide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A02AB01",
+      "name": "Aluminium hydroxide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

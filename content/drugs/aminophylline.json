@@ -1,0 +1,122 @@
+{
+  "slug": "aminophylline",
+  "nameEn": "Aminophylline",
+  "nameTh": "อะมิโนฟิลลีน",
+  "class": "Respiratory — methylxanthine bronchodilator",
+  "mechanism": "สารประกอบ theophylline + ethylenediamine — ยับยั้ง phosphodiesterase (เพิ่ม cAMP) และต้าน adenosine ทำให้กล้ามเนื้อเรียบหลอดลมคลายตัว; กระตุ้นการหายใจและการขับเสมหะ",
+  "brandNamesTh": [
+    "Aminophylline"
+  ],
+  "indications": [
+    {
+      "text": "หลอดลมหดเกร็ง/หลอดลมอักเสบเรื้อรัง, โรคหืดแมว, หลอดลมตีบ (collapsing trachea adjunct) ในสุนัขและแมว — bronchodilator แบบกิน/ฉีด (systemic)",
+      "cites": [
+        "merck-airway-o",
+        "petplace-aminophylline"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ดัชนีความปลอดภัยแคบ — ระวังพิษ (tachycardia, ชัก, อาเจียน) โดยเฉพาะร่วม fluoroquinolone (เพิ่มระดับ theophylline); ระวังในโรคหัวใจ/ลมชัก; ปรับในตับบกพร่อง",
+      "cites": [
+        "merck-airway-o",
+        "petplace-aminophylline"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นเร็ว/ผิดจังหวะ, กระสับกระส่าย, อาเจียน, ปัสสาวะมาก, ชัก (พิษ); แคบระหว่างขนาดรักษากับพิษ",
+      "cites": [
+        "petplace-aminophylline"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Bronchospasm / chronic bronchitis",
+      "route": "PO",
+      "dose": "6–11 mg/kg PO/IV (ช้า) ทุก 8 ชั่วโมง",
+      "cites": [
+        "merck-airway-o",
+        "petplace-aminophylline"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Asthma / bronchospasm",
+      "route": "PO",
+      "dose": "5 mg/kg PO ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "petplace-aminophylline"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-airway-o",
+      "type": "textbook",
+      "title": "Systemic Treatment of Inflammatory Airway Disease in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/systemic-treatment-of-inflammatory-airway-disease-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "petplace-aminophylline",
+      "type": "monograph",
+      "title": "Aminophylline for Dogs and Cats — PetPlace",
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/aminophylline-for-dogs-and-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-aminophylline",
+      "type": "monograph",
+      "title": "Aminophylline — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Aminophylline",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "R03DA05",
+      "name": "Aminophylline",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "sodium-bicarbonate",
+  "nameEn": "Sodium bicarbonate",
+  "nameTh": "โซเดียมไบคาร์บอเนต",
+  "class": "Fluids & electrolytes — systemic alkalinizer",
+  "mechanism": "ให้ bicarbonate ไอออนโดยตรง — เพิ่ม buffer ในเลือด แก้ภาวะเลือดเป็นกรด (metabolic acidosis) และทำให้ปัสสาวะเป็นด่าง (เร่งการขับสารพิษบางชนิด)",
+  "brandNamesTh": [
+    "Sodium bicarbonate 8.4%",
+    "NaHCO3"
+  ],
+  "indications": [
+    {
+      "text": "แก้ภาวะ metabolic acidosis รุนแรง (เช่น CKD ระยะท้าย, ท้องเสียรุนแรง), urinary alkalinization ในพิษบางชนิด และ hyperkalemia (ช่วยดัน K+ เข้าเซลล์) ในสุนัขและแมว",
+      "cites": [
+        "merck-acidbase",
+        "tvp-acidbase"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ เสี่ยง overcorrection → metabolic alkalosis, hypernatremia, hypokalemia, hypocalcemia; ให้ช้า ๆ + monitor blood gas; ห้ามใน respiratory acidosis ที่ระบายไม่ได้; ห้ามผสมสายเดียวกับแคลเซียม (ตกตะกอน)",
+      "cites": [
+        "merck-acidbase",
+        "tvp-acidbase"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "alkalosis เมื่อให้เกิน, โซเดียมสูง, K+/Ca ต่ำ, paradoxical CSF acidosis ถ้าให้เร็ว",
+      "cites": [
+        "tvp-acidbase"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Severe metabolic acidosis",
+      "route": "IV",
+      "dose": "ขนาดประมาณ 1 / 3 / 5 mEq/kg สำหรับ acidosis เบา/ปานกลาง/รุนแรง ให้ช้า ๆ 4–8 ชม. (หรือคำนวณจาก base deficit) — monitor blood gas",
+      "cites": [
+        "merck-acidbase",
+        "tvp-acidbase"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Severe metabolic acidosis",
+      "route": "IV",
+      "dose": "คำนวณจาก base deficit; ให้ช้า ๆ + monitor — ระวัง overcorrection",
+      "cites": [
+        "tvp-acidbase"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ blood gas + electrolyte (Na/K/Ca) ระหว่างให้; ให้แบบ fractional + recheck เพื่อเลี่ยง overdose",
+      "cites": [
+        "merck-acidbase"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-acidbase",
+      "type": "textbook",
+      "title": "Acid-Base Balance / Fluid Therapy in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/fluid-therapy/fluid-therapy-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "tvp-acidbase",
+      "type": "guideline",
+      "title": "The Practitioner's Acid-Base Primer — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/internal-medicine/the-practitioners-acid-base-primer-differential-diagnoses-treatment/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-sodium_bicarbonate",
+      "type": "monograph",
+      "title": "Sodium bicarbonate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Sodium_bicarbonate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "B05XA02",
+      "name": "Sodium bicarbonate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

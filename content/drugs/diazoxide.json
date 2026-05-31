@@ -1,0 +1,120 @@
+{
+  "slug": "diazoxide",
+  "nameEn": "Diazoxide",
+  "nameTh": "ไดอะซอกไซด์",
+  "class": "Antidote — hyperglycemic agent (insulinoma)",
+  "mechanism": "เปิด ATP-sensitive potassium channel ที่ beta cell ยับยั้งการหลั่ง insulin; กระตุ้น hepatic gluconeogenesis/glycogenolysis และลดการนำกลูโคสเข้าเซลล์ — เพิ่มน้ำตาลในเลือด",
+  "brandNamesTh": [
+    "Proglycem"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะน้ำตาลต่ำจาก insulinoma ในสุนัข — เป็นยาทางการแพทย์อันดับแรกเมื่อผ่าตัดไม่ได้/น้ำตาลยังต่ำหลังผ่าตัด; คุมน้ำตาลได้ ~59–85%",
+      "cites": [
+        "tvp-insulinoma-b",
+        "merck-islet"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในหัวใจล้มเหลว (Na/water retention), เบาหวาน; GI upset (ให้พร้อมอาหารช่วยได้); อาจเกิด tachycardia; ราคาสูง",
+      "cites": [
+        "tvp-insulinoma-b"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เบื่ออาหาร อาเจียน ท้องเสีย (พบบ่อย — ลดได้โดยให้พร้อมอาหาร), tachycardia, คั่งน้ำ-โซเดียม; ใช้นานอาจ hyperglycemia เกิน",
+      "cites": [
+        "tvp-insulinoma-b"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Insulinoma hypoglycemia",
+      "route": "PO",
+      "dose": "เริ่ม 5 mg/kg PO ทุก 12 ชั่วโมง แล้วค่อยเพิ่มตามต้องการได้ถึง 30 mg/kg ทุก 12 ชั่วโมง (long-term)",
+      "cites": [
+        "tvp-insulinoma-b",
+        "merck-islet"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจน้ำตาลในเลือด + อาการทางคลินิก; ปรับขนาดให้น้ำตาลพ้นช่วงอันตรายโดยไม่สูงเกิน",
+      "cites": [
+        "tvp-insulinoma-b"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "tvp-insulinoma-b",
+      "type": "guideline",
+      "title": "Canine Insulinoma: Diagnosis, Treatment, Staging — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/oncology/canine-insulinoma-diagnosis-treatment-staging/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-islet",
+      "type": "textbook",
+      "title": "Islet Cell Tumors in Dogs and Cats — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/endocrine-system/the-pancreas/islet-cell-tumors-in-dogs-and-cats",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-diazoxide",
+      "type": "monograph",
+      "title": "Diazoxide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Diazoxide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "V03AH01",
+      "name": "Diazoxide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

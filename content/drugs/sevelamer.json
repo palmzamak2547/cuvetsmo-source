@@ -1,0 +1,130 @@
+{
+  "slug": "sevelamer",
+  "nameEn": "Sevelamer",
+  "nameTh": "เซเวลาเมอร์",
+  "class": "Antidote — phosphate binder (calcium-free)",
+  "mechanism": "พอลิเมอร์ที่จับฟอสเฟตในทางเดินอาหาร (ไม่ดูดซึม) ลดการดูดซึมฟอสฟอรัสจากอาหาร โดยไม่มีแคลเซียมหรืออะลูมิเนียม — เลี่ยง hypercalcemia/aluminium toxicity",
+  "brandNamesTh": [
+    "Renagel",
+    "Renvela"
+  ],
+  "indications": [
+    {
+      "text": "คุม hyperphosphatemia ในโรคไตเรื้อรัง (CKD) สุนัขและแมวที่ diet จำกัดฟอสฟอรัสไม่พอ — ทางเลือก calcium-free (ดีเมื่อแคลเซียมสูง); ชะลอ vascular calcification",
+      "cites": [
+        "vca-sevelamer",
+        "paper-phosphate-binders"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ให้พร้อมอาหารเสมอ (จับฟอสเฟตจากมื้อ); ⚠️ ห้ามบด/เคี้ยว (พองตัวในน้ำ); แยกจากยา/วิตามินอื่น ≥1 ชม. (ลดการดูดซึมยาร่วม); ระวัง constipation; ปรับตาม serum phosphorus",
+      "cites": [
+        "vca-sevelamer"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องผูก/GI upset; รบกวนการดูดซึมยาอื่นและวิตามินที่ละลายในไขมัน; โดยรวมปลอดภัย (ไม่ดูดซึม)",
+      "cites": [
+        "vca-sevelamer"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Hyperphosphatemia (CKD)",
+      "route": "PO",
+      "dose": "30–40 mg/kg PO ทุก 8 ชั่วโมง พร้อมอาหาร (เริ่ม ~60–90 mg/kg/วัน แบ่งให้) ปรับตาม serum phosphorus",
+      "cites": [
+        "vca-sevelamer",
+        "paper-phosphate-binders"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Hyperphosphatemia (CKD)",
+      "route": "PO",
+      "dose": "30–40 mg/kg PO ทุก 8 ชั่วโมง พร้อมอาหาร ปรับตามค่าฟอสฟอรัส",
+      "cites": [
+        "vca-sevelamer"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ serum phosphorus ทุก 2–4 สัปดาห์ ปรับขนาดให้อยู่ในเป้า IRIS",
+      "cites": [
+        "vca-sevelamer"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-sevelamer",
+      "type": "monograph",
+      "title": "Sevelamer — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/sevelamer",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "paper-phosphate-binders",
+      "type": "paper",
+      "title": "Treatment options for hyperphosphatemia in feline CKD (Kidder & Chew, JFMS 2009)",
+      "url": "https://journals.sagepub.com/doi/10.1016/j.jfms.2009.09.012",
+      "year": 2023,
+      "note": "Peer-reviewed feline phosphate-binder review.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-sevelamer",
+      "type": "monograph",
+      "title": "Sevelamer — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Sevelamer",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "V03AE03",
+      "name": "Sevelamer",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

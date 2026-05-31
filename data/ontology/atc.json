@@ -3040,5 +3040,119 @@
     "name": "Silver sulfadiazine",
     "level": 5,
     "parent": "D06BA"
+  },
+  "A11": {
+    "code": "A11",
+    "name": "Vitamins",
+    "level": 2,
+    "parent": "A"
+  },
+  "A11C": {
+    "code": "A11C",
+    "name": "Vitamin A and D, incl. combinations of the two",
+    "level": 3,
+    "parent": "A11"
+  },
+  "A11CC": {
+    "code": "A11CC",
+    "name": "Vitamin D and analogues",
+    "level": 4,
+    "parent": "A11C"
+  },
+  "A11CC04": {
+    "code": "A11CC04",
+    "name": "Calcitriol",
+    "level": 5,
+    "parent": "A11CC"
+  },
+  "V03AE": {
+    "code": "V03AE",
+    "name": "Drugs for treatment of hyperkalemia and hyperphosphatemia",
+    "level": 4,
+    "parent": "V03A"
+  },
+  "V03AE03": {
+    "code": "V03AE03",
+    "name": "Sevelamer",
+    "level": 5,
+    "parent": "V03AE"
+  },
+  "H01CB": {
+    "code": "H01CB",
+    "name": "Somatostatin and analogues",
+    "level": 4,
+    "parent": "H01C"
+  },
+  "H01CB02": {
+    "code": "H01CB02",
+    "name": "Octreotide",
+    "level": 5,
+    "parent": "H01CB"
+  },
+  "V03AH": {
+    "code": "V03AH",
+    "name": "Drugs for treatment of hypoglycemia",
+    "level": 4,
+    "parent": "V03A"
+  },
+  "V03AH01": {
+    "code": "V03AH01",
+    "name": "Diazoxide",
+    "level": 5,
+    "parent": "V03AH"
+  },
+  "A12B": {
+    "code": "A12B",
+    "name": "Potassium",
+    "level": 3,
+    "parent": "A12"
+  },
+  "A12BA": {
+    "code": "A12BA",
+    "name": "Potassium",
+    "level": 4,
+    "parent": "A12B"
+  },
+  "A12BA02": {
+    "code": "A12BA02",
+    "name": "Potassium citrate",
+    "level": 5,
+    "parent": "A12BA"
+  },
+  "B05X": {
+    "code": "B05X",
+    "name": "I.V. solution additives",
+    "level": 3,
+    "parent": "B05"
+  },
+  "B05XA": {
+    "code": "B05XA",
+    "name": "Electrolyte solutions",
+    "level": 4,
+    "parent": "B05X"
+  },
+  "B05XA02": {
+    "code": "B05XA02",
+    "name": "Sodium bicarbonate",
+    "level": 5,
+    "parent": "B05XA"
+  },
+  "A02AB": {
+    "code": "A02AB",
+    "name": "Aluminium compounds",
+    "level": 4,
+    "parent": "A02A"
+  },
+  "A02AB01": {
+    "code": "A02AB01",
+    "name": "Aluminium hydroxide",
+    "level": 5,
+    "parent": "A02AB"
+  },
+  "R03DA05": {
+    "code": "R03DA05",
+    "name": "Aminophylline",
+    "level": 5,
+    "parent": "R03DA"
   }
 }

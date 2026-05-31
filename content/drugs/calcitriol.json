@@ -1,0 +1,130 @@
+{
+  "slug": "calcitriol",
+  "nameEn": "Calcitriol",
+  "nameTh": "แคลซิไตรออล",
+  "class": "Metabolic & nutritional — active vitamin D (renal 2° hyperparathyroidism)",
+  "mechanism": "รูปออกฤทธิ์ของวิตามินดี (1,25-dihydroxyvitamin D3) — กดการหลั่ง parathyroid hormone (PTH) โดยตรงและเพิ่มการดูดซึมแคลเซียม จึงคุม renal secondary hyperparathyroidism ในโรคไตเรื้อรัง",
+  "brandNamesTh": [
+    "Rocaltrol",
+    "Calcijex"
+  ],
+  "indications": [
+    {
+      "text": "คุม renal secondary hyperparathyroidism ในโรคไตเรื้อรัง (CKD) สุนัขและแมว — เริ่มเร็วในระยะแรกได้ผลดีกว่า; มีหลักฐาน survival benefit ในสุนัข CKD",
+      "cites": [
+        "paper-calcitriol",
+        "merck-ckd-o"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ต้องคุม serum phosphorus ให้ปกติก่อนเริ่ม (เลี่ยง soft-tissue mineralization); ⚠️ เสี่ยง hypercalcemia — ใช้ขนาดต่ำสุด + monitor ionized calcium สม่ำเสมอ; ดัชนีความปลอดภัยแคบมาก (ขนาดเป็น ng/kg)",
+      "cites": [
+        "paper-calcitriol"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "hypercalcemia (อันตรายหลัก — เบื่ออาหาร อาเจียน PU/PD ไตแย่ลง), soft-tissue mineralization เมื่อ Ca×P สูง",
+      "cites": [
+        "paper-calcitriol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Renal secondary hyperparathyroidism (CKD)",
+      "route": "PO",
+      "dose": "2.5–3.5 ng/kg PO วันละครั้ง (ขนาดต่ำ — ng ไม่ใช่ mg/mcg); คุม phosphorus ปกติก่อน",
+      "cites": [
+        "paper-calcitriol",
+        "merck-ckd-o"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Renal secondary hyperparathyroidism (CKD)",
+      "route": "PO",
+      "dose": "2.5–3.5 ng/kg PO วันละครั้ง (หรือ intermittent dosing) — ⚠️ monitor ionized Ca",
+      "cites": [
+        "paper-calcitriol"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ ionized calcium + phosphorus + PTH สม่ำเสมอ; ใช้ขนาดต่ำสุดที่คุม PTH โดย Ca อยู่ปลายล่างของช่วงปกติ",
+      "cites": [
+        "paper-calcitriol"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "paper-calcitriol",
+      "type": "paper",
+      "title": "Benefits of calcitriol therapy and serum phosphorus control in dogs and cats with chronic renal failure",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8911021/",
+      "year": 2023,
+      "note": "Peer-reviewed calcitriol CKD study.",
+      "cid": null
+    },
+    {
+      "id": "merck-ckd-o",
+      "type": "textbook",
+      "title": "Chronic Kidney Disease in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/urinary-system/noninfectious-diseases-of-the-urinary-system-in-small-animals/chronic-kidney-disease-in-dogs-and-cats",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-calcitriol",
+      "type": "monograph",
+      "title": "Calcitriol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Calcitriol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A11CC04",
+      "name": "Calcitriol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

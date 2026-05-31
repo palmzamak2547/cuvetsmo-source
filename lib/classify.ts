@@ -217,9 +217,11 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'pituitary-hormones',
     label: 'Pituitary hormones · ฮอร์โมนต่อมใต้สมอง',
-    subtitle: 'Vasopressin analogues (desmopressin) — central diabetes insipidus',
+    subtitle: 'Vasopressin analogues (desmopressin), somatostatin analogues (octreotide)',
     order: 200,
-    match: startsWithAtc('H01B'),
+    // H01B posterior-pituitary (desmopressin/oxytocin) + H01CB somatostatins
+    // (octreotide). Disjoint from reproductive's H01CA (GnRH).
+    match: startsWithAtc('H01B', 'H01CB'),
   },
   {
     slug: 'antineoplastics',
@@ -259,9 +261,11 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'metabolic-nutritional',
     label: 'Metabolic & nutritional · ยาเมตาบอลิกและโภชนาการ',
-    subtitle: 'Hepatoprotectants (SAMe) + appetite stimulants (capromorelin)',
+    subtitle: 'Hepatoprotectants (SAMe), appetite stimulants (capromorelin), vitamin D (calcitriol)',
     order: 230,
-    match: startsWithAtc('A16'),
+    // A16 other alimentary/metabolic + A11 vitamins (calcitriol A11CC for renal
+    // secondary hyperparathyroidism).
+    match: startsWithAtc('A16', 'A11'),
   },
   {
     slug: 'hematopoietic',

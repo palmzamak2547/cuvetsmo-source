@@ -1,0 +1,123 @@
+{
+  "slug": "potassium-citrate",
+  "nameEn": "Potassium citrate",
+  "nameTh": "โพแทสเซียมซิเตรต",
+  "class": "Fluids & electrolytes — urinary alkalinizer / K supplement",
+  "mechanism": "ถูกเปลี่ยนเป็น bicarbonate ที่ตับ — เป็น alkalinizing agent (ทำให้ปัสสาวะเป็นด่าง) และ citrate จับแคลเซียมลดการเกิดผลึก calcium oxalate; เสริมโพแทสเซียมด้วย",
+  "brandNamesTh": [
+    "K-Cit",
+    "Urocit-K",
+    "CitraVet"
+  ],
+  "indications": [
+    {
+      "text": "ป้องกันนิ่ว calcium oxalate และ urate (ทำให้ปัสสาวะเป็นด่าง + ลดผลึก), รักษา hypokalemia และ metabolic acidosis (เช่นในโรคไตเรื้อรัง) ในสุนัขและแมว",
+      "cites": [
+        "acvim-urolith",
+        "vetdrugs-kcit"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ระวัง hyperkalemia (โดยเฉพาะในไตวาย/ใช้ร่วม ACEi/spironolactone) — monitor K+; ห้ามในไตบกพร่องรุนแรง/หัวใจที่ K+ สูง; ปรับขนาดตาม urine pH (เป้า 7.0–7.5)",
+      "cites": [
+        "acvim-urolith"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "GI upset; hyperkalemia เมื่อขนาดสูง/ไตบกพร่อง; โดยรวมทนได้ดี",
+      "cites": [
+        "vetdrugs-kcit"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Calcium oxalate prevention / alkalinization",
+      "route": "PO",
+      "dose": "50–75 mg/kg PO ทุก 12 ชั่วโมง พร้อมอาหาร ปรับให้ urine pH 7.0–7.5",
+      "cites": [
+        "acvim-urolith",
+        "vetdrugs-kcit"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Calcium oxalate prevention / hypokalemia",
+      "route": "PO",
+      "dose": "50–75 mg/kg PO ทุก 12 ชั่วโมง พร้อมอาหาร",
+      "cites": [
+        "vetdrugs-kcit"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "acvim-urolith",
+      "type": "paper",
+      "title": "ACVIM Consensus Recommendations on Treatment and Prevention of Uroliths in Dogs and Cats",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5032870/",
+      "year": 2023,
+      "note": "ACVIM urolith consensus.",
+      "cid": null
+    },
+    {
+      "id": "vetdrugs-kcit",
+      "type": "guideline",
+      "title": "Potassium Citrate veterinary dosing — Vet Drugs List",
+      "url": "https://www.vet-ebooks.com/vetdrugslist/potassium-citrate/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-potassium_citrate",
+      "type": "monograph",
+      "title": "Potassium citrate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Potassium_citrate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A12BA02",
+      "name": "Potassium citrate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / ACVIM / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
