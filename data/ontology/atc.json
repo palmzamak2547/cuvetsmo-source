@@ -3340,5 +3340,143 @@
     "name": "Guaifenesin",
     "level": 5,
     "parent": "R05CA"
+  },
+  "A07D": {
+    "code": "A07D",
+    "name": "Antipropulsives",
+    "level": 3,
+    "parent": "A07"
+  },
+  "A07DA": {
+    "code": "A07DA",
+    "name": "Antipropulsives",
+    "level": 4,
+    "parent": "A07D"
+  },
+  "A07DA03": {
+    "code": "A07DA03",
+    "name": "Loperamide",
+    "level": 5,
+    "parent": "A07DA"
+  },
+  "A07E": {
+    "code": "A07E",
+    "name": "Intestinal antiinflammatory agents",
+    "level": 3,
+    "parent": "A07"
+  },
+  "A07EA": {
+    "code": "A07EA",
+    "name": "Corticosteroids acting locally",
+    "level": 4,
+    "parent": "A07E"
+  },
+  "A07EA06": {
+    "code": "A07EA06",
+    "name": "Budesonide",
+    "level": 5,
+    "parent": "A07EA"
+  },
+  "A07EC": {
+    "code": "A07EC",
+    "name": "Aminosalicylic acid and similar agents",
+    "level": 4,
+    "parent": "A07E"
+  },
+  "A07EC01": {
+    "code": "A07EC01",
+    "name": "Sulfasalazine",
+    "level": 5,
+    "parent": "A07EC"
+  },
+  "A07AA": {
+    "code": "A07AA",
+    "name": "Antibiotics (intestinal)",
+    "level": 4,
+    "parent": "A07A"
+  },
+  "A07AA06": {
+    "code": "A07AA06",
+    "name": "Paromomycin",
+    "level": 5,
+    "parent": "A07AA"
+  },
+  "A07A": {
+    "code": "A07A",
+    "name": "Intestinal antiinfectives",
+    "level": 3,
+    "parent": "A07"
+  },
+  "N05BE": {
+    "code": "N05BE",
+    "name": "Azaspirodecanedione derivatives",
+    "level": 4,
+    "parent": "N05B"
+  },
+  "N05BE01": {
+    "code": "N05BE01",
+    "name": "Buspirone",
+    "level": 5,
+    "parent": "N05BE"
+  },
+  "A11D": {
+    "code": "A11D",
+    "name": "Vitamin B1, plain and in combination with vitamin B6 and B12",
+    "level": 3,
+    "parent": "A11"
+  },
+  "A11DA": {
+    "code": "A11DA",
+    "name": "Vitamin B1, plain",
+    "level": 4,
+    "parent": "A11D"
+  },
+  "A11DA01": {
+    "code": "A11DA01",
+    "name": "Thiamine (vitamin B1)",
+    "level": 5,
+    "parent": "A11DA"
+  },
+  "B03A": {
+    "code": "B03A",
+    "name": "Iron preparations",
+    "level": 3,
+    "parent": "B03"
+  },
+  "B03AC": {
+    "code": "B03AC",
+    "name": "Iron, parenteral preparations",
+    "level": 4,
+    "parent": "B03A"
+  },
+  "B03AC06": {
+    "code": "B03AC06",
+    "name": "Iron dextran",
+    "level": 5,
+    "parent": "B03AC"
+  },
+  "L03": {
+    "code": "L03",
+    "name": "Immunostimulants",
+    "level": 2,
+    "parent": "L"
+  },
+  "L03A": {
+    "code": "L03A",
+    "name": "Immunostimulants",
+    "level": 3,
+    "parent": "L03"
+  },
+  "L03AB": {
+    "code": "L03AB",
+    "name": "Interferons",
+    "level": 4,
+    "parent": "L03A"
+  },
+  "QL03AB": {
+    "code": "QL03AB",
+    "name": "Interferons (veterinary)",
+    "level": 4,
+    "parent": "L03A"
   }
 }

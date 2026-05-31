@@ -1,0 +1,122 @@
+{
+  "slug": "thiamine",
+  "nameEn": "Thiamine (vitamin B1)",
+  "nameTh": "ไทอามีน (วิตามินบี 1)",
+  "class": "Metabolic & nutritional — vitamin B1 supplement",
+  "mechanism": "วิตามินบี 1 (thiamine) — coenzyme จำเป็นในเมแทบอลิซึมคาร์โบไฮเดรตและการทำงานของระบบประสาท; ทดแทนในภาวะขาด (พบบ่อยในแมวจากอาหารปลาดิบ/ที่มี thiaminase หรือผ่านความร้อน/ซัลไฟต์)",
+  "brandNamesTh": [
+    "Vitamin B1",
+    "Thiamine HCl"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะขาด thiamine (พบบ่อยในแมว — อาหารปลาดิบ/มี thiaminase, อาหารถนอมด้วยซัลเฟอร์ไดออกไซด์) แสดงอาการทางประสาท (ventroflexion คอ ชัก ataxia); เสริมในโรคตับ",
+      "cites": [
+        "vca-thiamine",
+        "merck-thiamine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ขนาด >50 mg ทาง IV ให้ช้า ๆ (เสี่ยง anaphylaxis); ปลอดภัยสูงทาง SC/IM/PO; แก้สาเหตุพื้นฐาน (เปลี่ยนอาหาร)",
+      "cites": [
+        "vca-thiamine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ปลอดภัยมาก (ส่วนเกินขับทางปัสสาวะ); IV เร็วเสี่ยง anaphylaxis; ปฏิกิริยาบริเวณฉีดเล็กน้อย",
+      "cites": [
+        "vca-thiamine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Thiamine deficiency",
+      "route": "SC",
+      "dose": "10–25 mg/ตัว IM/SC ทุก 12–24 ชั่วโมง จนอาการดีขึ้น แล้ว 10 mg/kg PO นาน 21 วัน",
+      "cites": [
+        "vca-thiamine",
+        "merck-thiamine"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Thiamine deficiency",
+      "route": "SC",
+      "dose": "50–250 mg/ตัว IM/SC/PO ทุก 12–24 ชั่วโมง จนอาการดีขึ้น",
+      "cites": [
+        "vca-thiamine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-thiamine",
+      "type": "monograph",
+      "title": "Thiamine — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/thiamine",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-thiamine",
+      "type": "textbook",
+      "title": "Nutritional Disorders / Thiamine Deficiency — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/nutritional-disorders-of-the-spinal-column-and-cord-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-thiamine",
+      "type": "monograph",
+      "title": "Thiamine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Thiamine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A11DA01",
+      "name": "Thiamine (vitamin B1)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

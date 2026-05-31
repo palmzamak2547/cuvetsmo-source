@@ -174,10 +174,11 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   },
   {
     slug: 'immunomodulators',
-    label: 'Immunomodulators · ยากดภูมิคุ้มกัน',
-    subtitle: 'Calcineurin inhibitors, atopic dermatitis, transplant medicine',
+    label: 'Immunomodulators · ยาปรับภูมิคุ้มกัน',
+    subtitle: 'Calcineurin inhibitors, antimetabolites, interferons — atopy, IMHA, antiviral immune support',
     order: 160,
-    match: startsWithAtc('L04'),
+    // L04 immunosuppressants + L03 immunostimulants (interferon omega).
+    match: startsWithAtc('L04', 'L03'),
   },
   {
     slug: 'cns-psychotropic',
@@ -293,6 +294,17 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     // R05C expectorants/mucolytics (guaifenesin). Disjoint from respiratory
     // (R03/R07) and antihistamines (R06).
     match: startsWithAtc('R05'),
+  },
+  {
+    slug: 'intestinal',
+    label: 'Intestinal — antidiarrheals & IBD · ยาลำไส้และลำไส้อักเสบ',
+    subtitle: 'Antidiarrheals, intestinal antibiotics, IBD anti-inflammatories (budesonide, sulfasalazine)',
+    order: 250,
+    // A07A intestinal antiinfectives (paromomycin), A07D antipropulsives
+    // (loperamide), A07E intestinal anti-inflammatories (budesonide/
+    // sulfasalazine). EXCLUDES A07BA (activated charcoal) which stays in
+    // toxicology-emesis — that's why specific A07A/A07D/A07E, not bare A07.
+    match: startsWithAtc('A07A', 'A07D', 'A07E'),
   },
   {
     slug: 'reproductive',

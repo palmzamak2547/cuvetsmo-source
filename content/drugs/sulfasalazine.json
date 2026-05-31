@@ -1,0 +1,131 @@
+{
+  "slug": "sulfasalazine",
+  "nameEn": "Sulfasalazine",
+  "nameTh": "ซัลฟาซาลาซีน",
+  "class": "Intestinal — aminosalicylate anti-inflammatory (colitis)",
+  "mechanism": "prodrug: แบคทีเรียในลำไส้ใหญ่ตัดเป็น 5-aminosalicylic acid (5-ASA ต้านการอักเสบเฉพาะที่ลำไส้ใหญ่) + sulfapyridine; ลดการอักเสบใน large bowel colitis",
+  "brandNamesTh": [
+    "Azulfidine",
+    "Salazopyrin"
+  ],
+  "indications": [
+    {
+      "text": "large bowel inflammatory bowel disease / lymphocytic-plasmacytic colitis ในสุนัข — เป็นยาที่สัตวแพทย์หลายคนเลือกเป็นอันดับแรกสำหรับ colitis",
+      "cites": [
+        "vca-sulfasalazine",
+        "merck-colitis"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ใช้นานเสี่ยง keratoconjunctivitis sicca (KCS/ตาแห้ง — จาก sulfapyridine) ต้อง monitor tear production; ห้ามในสัตว์แพ้ sulfonamide; ระวังในแมว (ไวต่อ salicylate — ใช้ขนาดต่ำ/ระวังมาก); ค่อย ๆ ลดเมื่อตอบสนอง",
+      "cites": [
+        "vca-sulfasalazine",
+        "merck-colitis"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "⚠️ KCS (ตาแห้ง — ตรวจ Schirmer เป็นระยะ), GI upset, แพ้ sulfa, blood dyscrasia (พบน้อย); แมวไวต่อ salicylate",
+      "cites": [
+        "vca-sulfasalazine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Large bowel colitis / IBD",
+      "route": "PO",
+      "dose": "10–25 mg/kg PO ทุก 8 ชั่วโมง นาน 4–6 สัปดาห์ แล้วค่อย ๆ ลด (สูงสุด ~1 g/ครั้ง)",
+      "cites": [
+        "vca-sulfasalazine",
+        "merck-colitis"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Colitis (extreme caution)",
+      "route": "PO",
+      "dose": "⚠️ 10–20 mg/kg PO วันละครั้ง — แมวไวต่อ salicylate ใช้ระวังมาก + monitor",
+      "cites": [
+        "vca-sulfasalazine"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ tear production (Schirmer) เป็นระยะ — เฝ้า KCS; CBC เมื่อใช้นาน",
+      "cites": [
+        "vca-sulfasalazine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-sulfasalazine",
+      "type": "monograph",
+      "title": "Sulfasalazine — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/sulfasalazine",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-colitis",
+      "type": "textbook",
+      "title": "Colitis in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-large-intestine-in-small-animals/colitis-in-small-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-sulfasalazine",
+      "type": "monograph",
+      "title": "Sulfasalazine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Sulfasalazine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A07EC01",
+      "name": "Sulfasalazine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

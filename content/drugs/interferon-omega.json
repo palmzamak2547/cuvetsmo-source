@@ -1,0 +1,121 @@
+{
+  "slug": "interferon-omega",
+  "nameEn": "Interferon omega (feline origin)",
+  "nameTh": "อินเตอร์เฟอรอน โอเมกา",
+  "class": "Immunomodulator — recombinant interferon (antiviral immunostimulant)",
+  "mechanism": "recombinant feline interferon-ω — กระตุ้นการตอบสนองต้านไวรัสของเซลล์ (เพิ่มเอนไซม์ต้านไวรัส, modulate ภูมิคุ้มกัน); ใช้ช่วยควบคุมโรคไวรัสและเสริมภูมิ",
+  "brandNamesTh": [
+    "Virbagen Omega"
+  ],
+  "indications": [
+    {
+      "text": "โรคที่เกิด/เกี่ยวข้องกับไวรัสในแมว (FeLV, FIV, FIP adjunct, calicivirus) และ canine parvovirus ในสุนัข — immunomodulator เสริมการรักษาประคับประคอง",
+      "cites": [
+        "vca-interferon-omega",
+        "paper-interferon"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "เป็น adjunct/supportive ไม่ใช่ยารักษาหายขาด; หลักฐานประสิทธิภาพผันแปรตามโรค; ราคาสูง; ระวังในสัตว์ตั้งท้อง (ข้อมูลจำกัด); ให้ตามโปรโตคอลเฉพาะ",
+      "cites": [
+        "vca-interferon-omega"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ไข้ชั่วคราว, อาเจียน/ท้องเสีย, ซึม, เม็ดเลือดเปลี่ยนแปลงชั่วคราว; โดยรวมทนได้",
+      "cites": [
+        "vca-interferon-omega"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Virus-associated disease (FeLV/FIV adjunct)",
+      "route": "SC",
+      "dose": "1 MU/kg SC วันละครั้ง 5 วัน ทำ 3 รอบ (วันที่ 0, 14, 60) ตามโปรโตคอล Virbagen Omega",
+      "cites": [
+        "vca-interferon-omega",
+        "paper-interferon"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Parvovirus (adjunct)",
+      "route": "IV",
+      "dose": "2.5 MU/kg IV วันละครั้ง 3 วันติดต่อกัน",
+      "cites": [
+        "vca-interferon-omega"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-interferon-omega",
+      "type": "monograph",
+      "title": "Interferon Omega (feline origin) — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/interferon-omega-feline-origin",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "paper-interferon",
+      "type": "paper",
+      "title": "Recombinant feline interferon omega as immune-modulator in FIV-infected cats",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5606590/",
+      "year": 2023,
+      "note": "Peer-reviewed feline interferon omega study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-feline_interferon-omega",
+      "type": "monograph",
+      "title": "Feline interferon omega — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Feline_interferon-omega",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QL03AB",
+      "name": "Interferons (veterinary)",
+      "level": 4
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
