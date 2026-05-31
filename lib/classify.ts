@@ -241,9 +241,12 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'dermatology',
     label: 'Dermatology · ยาผิวหนัง',
-    subtitle: 'Antipruritics + JAK inhibitors — atopic dermatitis (oclacitinib)',
+    subtitle: 'Antipruritics, JAK inhibitors (oclacitinib), systemic retinoids (isotretinoin)',
     order: 215,
-    match: startsWithAtc('D11'),
+    // D11 other dermatologicals (oclacitinib) + D10 anti-acne/retinoids
+    // (isotretinoin for sebaceous adenitis). Disjoint from D01 antifungals +
+    // D06/D08 antiseptics.
+    match: startsWithAtc('D11', 'D10'),
   },
   {
     slug: 'antivirals',

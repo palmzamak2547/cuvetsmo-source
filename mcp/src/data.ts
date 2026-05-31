@@ -124,7 +124,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'pituitary-hormones', label: 'Pituitary hormones', prefixes: ['H01B', 'H01CB'] },
   { slug: 'antineoplastics', label: 'Antineoplastics', prefixes: ['L01'] },
   { slug: 'ophthalmology', label: 'Ophthalmology', prefixes: ['S01'] },
-  { slug: 'dermatology', label: 'Dermatology', prefixes: ['D11'] },
+  { slug: 'dermatology', label: 'Dermatology', prefixes: ['D11', 'D10'] },
   { slug: 'antivirals', label: 'Antivirals', prefixes: ['J05'] },
   { slug: 'hepatobiliary', label: 'Hepatobiliary', prefixes: ['A05'] },
   { slug: 'metabolic-nutritional', label: 'Metabolic & nutritional', prefixes: ['A16', 'A11'] },

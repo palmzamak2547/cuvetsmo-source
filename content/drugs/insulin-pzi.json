@@ -1,0 +1,129 @@
+{
+  "slug": "insulin-pzi",
+  "nameEn": "Protamine zinc insulin (PZI)",
+  "nameTh": "อินซูลิน PZI",
+  "class": "Diabetes — long-acting insulin (feline first-line)",
+  "mechanism": "recombinant human insulin จับ protamine + zinc ให้ดูดซึมช้า ออกฤทธิ์ยาว — เป็น insulin ทางเลือกแรกของเบาหวานแมว (ProZinc, รับรองสำหรับแมวและสุนัข)",
+  "brandNamesTh": [
+    "ProZinc"
+  ],
+  "indications": [
+    {
+      "text": "เบาหวาน (diabetes mellitus) ในแมว — insulin ทางเลือกแรกที่ FDA รับรอง (ProZinc); รับรองในสุนัขด้วย",
+      "cites": [
+        "fda-prozinc",
+        "cb-insulins"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ใช้ U-40 syringe เท่านั้น (40 IU/mL — ใช้ syringe ผิดขนาด = dosing ผิด); ⚠️ hypoglycemia เป็นความเสี่ยงหลัก; กลิ้งขวดเบา ๆ (ห้ามเขย่า); ให้พร้อม/หลังอาหาร; ปรับขนาดหลัง glucose curve เท่านั้น",
+      "cites": [
+        "fda-prozinc"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "น้ำตาลต่ำ (อ่อนแรง ชัก โคม่า), Somogyi rebound เมื่อขนาดสูงเกิน; ปฏิกิริยาจุดฉีดพบน้อย",
+      "cites": [
+        "fda-prozinc"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Diabetes mellitus (newly diagnosed)",
+      "route": "SC",
+      "dose": "เริ่ม 0.2–0.7 IU/kg (0.1–0.3 IU/lb) SC ทุก 12 ชั่วโมง พร้อม/หลังอาหาร; ปรับตาม glucose curve",
+      "cites": [
+        "fda-prozinc",
+        "cb-insulins"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Diabetes mellitus",
+      "route": "SC",
+      "dose": "~0.5 IU/kg SC ทุก 12 ชั่วโมง ปรับตามการตอบสนอง (ProZinc รับรองในสุนัขด้วย)",
+      "cites": [
+        "fda-prozinc"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "blood glucose curve / continuous glucose monitor + fructosamine; ประเมิน 5–7 วันก่อนปรับ",
+      "cites": [
+        "fda-prozinc"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "fda-prozinc",
+      "type": "package-insert",
+      "title": "ProZinc (protamine zinc recombinant human insulin) — FDA veterinary label",
+      "year": 2025,
+      "url": "https://www.drugs.com/vet/prozinc-protamine-zinc-recombinant-human-insulin-for-cats-and-dogs.html",
+      "note": "FDA/EMA-approved veterinary product label. Public regulatory labeling.",
+      "cid": null
+    },
+    {
+      "id": "cb-insulins",
+      "type": "guideline",
+      "title": "Top 5 Maintenance Insulins for Use in Veterinary Medicine — Clinician's Brief",
+      "url": "https://www.cliniciansbrief.com/article/top-5-maintenance-insulins",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-protamine_zinc_insulin",
+      "type": "monograph",
+      "title": "Protamine zinc insulin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Protamine_zinc_insulin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A10AC01",
+      "name": "Insulin (human) — isophane/protamine zinc",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / EveryCat / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

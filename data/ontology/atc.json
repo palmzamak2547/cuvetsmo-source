@@ -3478,5 +3478,95 @@
     "name": "Interferons (veterinary)",
     "level": 4,
     "parent": "L03A"
+  },
+  "A10AC": {
+    "code": "A10AC",
+    "name": "Insulins and analogues for injection, intermediate-acting",
+    "level": 4,
+    "parent": "A10A"
+  },
+  "A10AC01": {
+    "code": "A10AC01",
+    "name": "Insulin (human) — isophane/protamine zinc",
+    "level": 5,
+    "parent": "A10AC"
+  },
+  "A05B": {
+    "code": "A05B",
+    "name": "Liver therapy, lipotropics",
+    "level": 3,
+    "parent": "A05"
+  },
+  "A05BA": {
+    "code": "A05BA",
+    "name": "Liver therapy",
+    "level": 4,
+    "parent": "A05B"
+  },
+  "A05BA03": {
+    "code": "A05BA03",
+    "name": "Silymarin",
+    "level": 5,
+    "parent": "A05BA"
+  },
+  "J05AB01": {
+    "code": "J05AB01",
+    "name": "Aciclovir",
+    "level": 5,
+    "parent": "J05AB"
+  },
+  "J05AF": {
+    "code": "J05AF",
+    "name": "Nucleoside and nucleotide reverse transcriptase inhibitors",
+    "level": 4,
+    "parent": "J05A"
+  },
+  "J05AF01": {
+    "code": "J05AF01",
+    "name": "Zidovudine",
+    "level": 5,
+    "parent": "J05AF"
+  },
+  "D10": {
+    "code": "D10",
+    "name": "Anti-acne preparations",
+    "level": 2,
+    "parent": "D"
+  },
+  "D10B": {
+    "code": "D10B",
+    "name": "Anti-acne preparations for systemic use",
+    "level": 3,
+    "parent": "D10"
+  },
+  "D10BA": {
+    "code": "D10BA",
+    "name": "Retinoids for treatment of acne",
+    "level": 4,
+    "parent": "D10B"
+  },
+  "D10BA01": {
+    "code": "D10BA01",
+    "name": "Isotretinoin",
+    "level": 5,
+    "parent": "D10BA"
+  },
+  "N05AB": {
+    "code": "N05AB",
+    "name": "Phenothiazines with piperazine structure",
+    "level": 4,
+    "parent": "N05A"
+  },
+  "N05AB04": {
+    "code": "N05AB04",
+    "name": "Prochlorperazine",
+    "level": 5,
+    "parent": "N05AB"
+  },
+  "H03AA02": {
+    "code": "H03AA02",
+    "name": "Liothyronine sodium (T3)",
+    "level": 5,
+    "parent": "H03AA"
   }
 }

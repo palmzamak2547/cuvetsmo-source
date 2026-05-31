@@ -1,0 +1,122 @@
+{
+  "slug": "isotretinoin",
+  "nameEn": "Isotretinoin",
+  "nameTh": "ไอโซเทรทิโนอิน",
+  "class": "Dermatology — systemic retinoid",
+  "mechanism": "synthetic retinoid (vitamin A derivative) รุ่นแรก — ลดการทำงานและขนาดของต่อมไขมัน (sebostatic), ปรับการสร้างเคราตินและการอักเสบของผิวหนัง; ใช้กับโรคผิวหนังที่เกี่ยวกับต่อมไขมัน",
+  "brandNamesTh": [
+    "Accutane",
+    "Roaccutane"
+  ],
+  "indications": [
+    {
+      "text": "sebaceous adenitis, sebaceous gland disorders, schnauzer comedo syndrome, บาง keratinization disorder ในสุนัข — ตอบสนอง ~50% ของ sebaceous adenitis",
+      "cites": [
+        "paper-isotretinoin",
+        "merck-derm-vitamins"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ teratogenic รุนแรงมาก — ห้ามในสัตว์ตั้งท้อง + ผู้หญิงตั้งครรภ์/อาจตั้งครรภ์ห้ามสัมผัส; ⚠️ ตรวจค่าตับ + triglyceride ทุก 2 สัปดาห์ช่วง induction (ตับเป็นพิษ/ไขมันสูง); KCS (ตาแห้ง); ต้องใช้ ≥2 เดือนก่อนประเมินผล",
+      "cites": [
+        "paper-isotretinoin",
+        "merck-derm-vitamins"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ตับเอนไซม์สูง, triglyceride สูง, KCS (ตาแห้ง), GI upset, ผิวแห้ง; ⚠️ teratogenic",
+      "cites": [
+        "paper-isotretinoin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Sebaceous adenitis / sebaceous gland disorders",
+      "route": "PO",
+      "dose": "1–3 mg/kg PO วันละครั้ง (หรือแบ่ง q12h) จนดีขึ้น แล้ว taper เป็นวันเว้นวัน/0.5 mg/kg; ใช้ ≥2 เดือน",
+      "cites": [
+        "paper-isotretinoin",
+        "merck-derm-vitamins"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจค่าตับ + triglyceride ทุก 2 สัปดาห์ช่วง induction; Schirmer tear test (KCS); ยืนยันไม่ตั้งท้อง",
+      "cites": [
+        "paper-isotretinoin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "paper-isotretinoin",
+      "type": "paper",
+      "title": "Sebaceous adenitis in dogs treated with isotretinoin and etretinate: 30 cases (JAVMA 1995)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7601715/",
+      "year": 2023,
+      "note": "Peer-reviewed canine isotretinoin sebaceous adenitis study.",
+      "cid": null
+    },
+    {
+      "id": "merck-derm-vitamins",
+      "type": "textbook",
+      "title": "Vitamins and Minerals for Integumentary Disease in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/vitamins-and-minerals-for-integumentary-disease-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-isotretinoin",
+      "type": "monograph",
+      "title": "Isotretinoin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Isotretinoin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D10BA01",
+      "name": "Isotretinoin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / EveryCat / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

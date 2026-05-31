@@ -1,0 +1,121 @@
+{
+  "slug": "acyclovir",
+  "nameEn": "Aciclovir (acyclovir)",
+  "nameTh": "อะไซโคลเวียร์",
+  "class": "Antiviral — nucleoside analogue (herpesvirus)",
+  "mechanism": "nucleoside analogue — ถูก phosphorylate โดย viral thymidine kinase แล้วยับยั้ง viral DNA polymerase หยุดการจำลอง herpesvirus; ประสิทธิภาพต่อ feline herpesvirus จำกัด (poor potency + bioavailability)",
+  "brandNamesTh": [
+    "Zovirax"
+  ],
+  "indications": [
+    {
+      "text": "feline herpesvirus-1 (FHV-1) — ใช้ได้แต่ประสิทธิภาพจำกัด; ⚠️ ปัจจุบัน famciclovir เป็นทางเลือกที่ดีและปลอดภัยกว่ามาก สำหรับ FHV-1",
+      "cites": [
+        "everycat-fhv",
+        "paper-acyclovir"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ เป็นพิษต่อแมว (กดไขกระดูก) เมื่อให้ systemic + bioavailability ต่ำ (ระดับยาไม่ถึง IC50 ของ FHV-1) — โดยรวม \"ควรหลีกเลี่ยง\" ในแมว, ใช้ famciclovir แทน; ตรวจ CBC หากจำเป็นต้องใช้",
+      "cites": [
+        "paper-acyclovir",
+        "everycat-fhv"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "⚠️ bone marrow suppression (ตรวจ CBC), GI upset, พิษไต; แมวไวต่อพิษ + ดูดซึมแย่",
+      "cites": [
+        "paper-acyclovir"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "FHV-1 (limited efficacy — famciclovir preferred)",
+      "route": "PO",
+      "dose": "10–25 mg/kg PO วันละ 2 ครั้ง — ⚠️ ประสิทธิภาพจำกัด + เสี่ยงพิษ, พิจารณา famciclovir แทน",
+      "cites": [
+        "everycat-fhv",
+        "paper-acyclovir"
+      ]
+    }
+  ],
+  "monitoring": [
+    {
+      "text": "ตรวจ CBC (กดไขกระดูก) หากใช้ systemic; เฝ้าค่าไต",
+      "cites": [
+        "paper-acyclovir"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "everycat-fhv",
+      "type": "guideline",
+      "title": "Evaluating treatments for feline herpesvirus type 1 — EveryCat Health Foundation",
+      "url": "https://everycat.org/cat-health/evaluating-treatments-for-feline-herpesvirus-type-1/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "paper-acyclovir",
+      "type": "paper",
+      "title": "A review of antiviral drugs with activity against feline herpesvirus-1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4930706/",
+      "year": 2023,
+      "note": "Peer-reviewed FHV-1 antiviral review.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-aciclovir",
+      "type": "monograph",
+      "title": "Aciclovir — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Aciclovir",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J05AB01",
+      "name": "Aciclovir",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / EveryCat / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
