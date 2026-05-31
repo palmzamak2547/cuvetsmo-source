@@ -1,0 +1,123 @@
+{
+  "slug": "bisacodyl",
+  "nameEn": "Bisacodyl",
+  "nameTh": "บิสาโคดิล",
+  "class": "GI — stimulant laxative",
+  "mechanism": "stimulant laxative — กระตุ้นปลายประสาทในผนังลำไส้ใหญ่โดยตรง เพิ่มการบีบตัว (peristalsis) และการหลั่งน้ำ จึงเร่งการขับถ่าย",
+  "brandNamesTh": [
+    "Dulcolax",
+    "Modane"
+  ],
+  "indications": [
+    {
+      "text": "ท้องผูกระยะสั้น และ megacolon (แมว) ในสุนัขและแมว — stimulant laxative ที่ได้ผลดีโดยเฉพาะในแมว (5 mg วันละครั้ง)",
+      "cites": [
+        "vca-bisacodyl",
+        "merck-constipation-b"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามในลำไส้อุดตัน (ileus/obstruction) และภาวะขาดน้ำ; ไม่เหมาะใช้ระยะยาว (ลำไส้ขี้เกียจ); ปวดเกร็งท้อง; onset ~6–10 ชม. (กิน) หรือ 15–60 นาที (เหน็บ)",
+      "cites": [
+        "vca-bisacodyl",
+        "merck-constipation-b"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ปวดเกร็งท้อง ท้องเสีย; ใช้นานทำให้ลำไส้ทำงานเองลดลง (cathartic colon)",
+      "cites": [
+        "vca-bisacodyl"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Short-term constipation",
+      "route": "PO",
+      "dose": "เล็ก 5 mg, กลาง 10 mg, ใหญ่ 15–20 mg PO ตามต้องการ",
+      "cites": [
+        "vca-bisacodyl",
+        "merck-constipation-b"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Constipation / megacolon",
+      "route": "PO",
+      "dose": "5 mg/ตัว PO วันละครั้ง (stimulant laxative ที่ได้ผลดีสุดในแมว)",
+      "cites": [
+        "merck-constipation-b"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "vca-bisacodyl",
+      "type": "monograph",
+      "title": "Bisacodyl — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/bisacodyl",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-constipation-b",
+      "type": "textbook",
+      "title": "Constipation, Obstipation, and Megacolon in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/constipation-and-obstipation-in-small-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-bisacodyl",
+      "type": "monograph",
+      "title": "Bisacodyl — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Bisacodyl",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A06AB02",
+      "name": "Bisacodyl",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / Today's Vet Practice / PetPlace / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

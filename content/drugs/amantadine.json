@@ -1,0 +1,121 @@
+{
+  "slug": "amantadine",
+  "nameEn": "Amantadine",
+  "nameTh": "อะแมนตาดีน",
+  "class": "CNS — NMDA antagonist (chronic pain adjunct)",
+  "mechanism": "NMDA receptor antagonist (กลไกคล้าย ketamine) — ลด central sensitization / \"wind-up\" ของความปวด จึงเป็นยาเสริมในความปวดเรื้อรังและ neuropathic; ต้องใช้ร่วมยาแก้ปวดจริง (NSAID/opioid/gabapentin)",
+  "brandNamesTh": [
+    "Symmetrel"
+  ],
+  "indications": [
+    {
+      "text": "ยาเสริม (adjunct) ในความปวดเรื้อรัง/neuropathic (osteoarthritis, มะเร็ง, ปวดที่ดื้อยา) ในสุนัขและแมว — ใช้ใน multimodal protocol คู่ NSAID/gabapentin",
+      "cites": [
+        "tvp-amantadine",
+        "merck-pain-u"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "เป็น adjunct ไม่ใช่ยาแก้ปวดเดี่ยว (ต้องคู่ยาแก้ปวดจริง); ออกฤทธิ์ค่อยเป็นค่อยไป (1–3 สัปดาห์); ⚠️ พิษในแมวที่ 30 mg/kg, พฤติกรรมเปลี่ยนที่ 15 mg/kg; ห้ามใช้ร่วม serotonergic เกิน; ปรับในไตบกพร่อง (ขับทางไต)",
+      "cites": [
+        "tvp-amantadine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ซึมหรือกระสับกระส่าย, GI upset/อาเจียน (dopaminergic); ขนาดสูง — agitation, ataxia",
+      "cites": [
+        "tvp-amantadine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Chronic / neuropathic pain (adjunct)",
+      "route": "PO",
+      "dose": "3–5 mg/kg PO ทุก 12–24 ชั่วโมง (q12h preferred); ใช้ร่วมยาแก้ปวดหลัก",
+      "cites": [
+        "tvp-amantadine",
+        "merck-pain-u"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Chronic / neuropathic pain (adjunct)",
+      "route": "PO",
+      "dose": "3–5 mg/kg PO วันละครั้ง",
+      "cites": [
+        "tvp-amantadine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "tvp-amantadine",
+      "type": "guideline",
+      "title": "Gabapentin and Amantadine for Chronic Pain in Dogs and Cats — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/pain_management/gabapentin-and-amantadine-for-chronic-pain/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-pain-u",
+      "type": "textbook",
+      "title": "Pain Management / Analgesic Pharmacology in Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/analgesic-pharmacology-in-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-amantadine",
+      "type": "monograph",
+      "title": "Amantadine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Amantadine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "N04BB01",
+      "name": "Amantadine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / Today's Vet Practice / PetPlace / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

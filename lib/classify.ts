@@ -188,9 +188,12 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'cns-psychotropic',
     label: 'CNS · ยาด้านจิตเวช · appetite stimulants',
-    subtitle: 'Antidepressants used as appetite stimulants in vet (mirtazapine), other psychotropics',
+    subtitle: 'Antidepressants used as appetite stimulants in vet (mirtazapine), NMDA pain adjuncts (amantadine), other psychotropics',
     order: 170,
-    match: startsWithAtc('N06'),
+    // N06 psychoanaleptics + N04BB (amantadine — NMDA antagonist used as a
+    // chronic/neuropathic pain adjunct). N04BB is disjoint from apomorphine's
+    // N04BC (toxicology-emesis).
+    match: startsWithAtc('N06', 'N04BB'),
   },
   {
     slug: 'respiratory',
@@ -312,7 +315,7 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     // (loperamide), A07E intestinal anti-inflammatories (budesonide/
     // sulfasalazine). EXCLUDES A07BA (activated charcoal) which stays in
     // toxicology-emesis — that's why specific A07A/A07D/A07E, not bare A07.
-    match: startsWithAtc('A07A', 'A07D', 'A07E'),
+    match: startsWithAtc('A07A', 'A07D', 'A07E', 'A07BB'),
   },
   {
     slug: 'reproductive',

@@ -3616,5 +3616,89 @@
     "name": "Metoprolol",
     "level": 5,
     "parent": "C07AB"
+  },
+  "N04B": {
+    "code": "N04B",
+    "name": "Dopaminergic agents",
+    "level": 3,
+    "parent": "N04"
+  },
+  "N04BB": {
+    "code": "N04BB",
+    "name": "Adamantane derivatives",
+    "level": 4,
+    "parent": "N04B"
+  },
+  "N04BB01": {
+    "code": "N04BB01",
+    "name": "Amantadine",
+    "level": 5,
+    "parent": "N04BB"
+  },
+  "N05CH": {
+    "code": "N05CH",
+    "name": "Melatonin receptor agonists",
+    "level": 4,
+    "parent": "N05C"
+  },
+  "N05CH01": {
+    "code": "N05CH01",
+    "name": "Melatonin",
+    "level": 5,
+    "parent": "N05CH"
+  },
+  "A02BA01": {
+    "code": "A02BA01",
+    "name": "Cimetidine",
+    "level": 5,
+    "parent": "A02BA"
+  },
+  "R05DA04": {
+    "code": "R05DA04",
+    "name": "Codeine",
+    "level": 5,
+    "parent": "R05DA"
+  },
+  "A06AA": {
+    "code": "A06AA",
+    "name": "Softeners, emollients",
+    "level": 4,
+    "parent": "A06A"
+  },
+  "A06AA02": {
+    "code": "A06AA02",
+    "name": "Docusate sodium",
+    "level": 5,
+    "parent": "A06AA"
+  },
+  "A06AB": {
+    "code": "A06AB",
+    "name": "Contact laxatives",
+    "level": 4,
+    "parent": "A06A"
+  },
+  "A06AB02": {
+    "code": "A06AB02",
+    "name": "Bisacodyl",
+    "level": 5,
+    "parent": "A06AB"
+  },
+  "H02AB09": {
+    "code": "H02AB09",
+    "name": "Hydrocortisone",
+    "level": 5,
+    "parent": "H02AB"
+  },
+  "A07B": {
+    "code": "A07B",
+    "name": "Intestinal adsorbents",
+    "level": 3,
+    "parent": "A07"
+  },
+  "A07BB": {
+    "code": "A07BB",
+    "name": "Bismuth preparations",
+    "level": 4,
+    "parent": "A07B"
   }
 }

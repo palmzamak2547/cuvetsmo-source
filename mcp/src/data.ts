@@ -116,7 +116,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'antidotes', label: 'Antidotes', prefixes: ['V03', 'B02BA'] },
   { slug: 'muscle-relaxants', label: 'Muscle relaxants', prefixes: ['M03'] },
   { slug: 'immunomodulators', label: 'Immunomodulators', prefixes: ['L04', 'L03'] },
-  { slug: 'cns-psychotropic', label: 'CNS / psychotropic', prefixes: ['N06'] },
+  { slug: 'cns-psychotropic', label: 'CNS / psychotropic', prefixes: ['N06', 'N04BB'] },
   { slug: 'respiratory', label: 'Respiratory', prefixes: ['R03', 'R07'] },
   { slug: 'emergency-cardiac', label: 'Emergency & cardiac stimulants', prefixes: ['C01CA'] },
   { slug: 'fluids-electrolytes', label: 'Fluids & electrolytes', prefixes: ['B05', 'A12', 'V06D'] },
@@ -131,7 +131,7 @@ const CLASS_RULES: { slug: string; label: string; prefixes: string[] }[] = [
   { slug: 'hematopoietic', label: 'Hematopoietic', prefixes: ['B03'] },
   { slug: 'antiseptics', label: 'Antiseptics & topical antimicrobials', prefixes: ['D08', 'D06'] },
   { slug: 'antitussives', label: 'Antitussives & expectorants', prefixes: ['R05'] },
-  { slug: 'intestinal', label: 'Intestinal — antidiarrheals & IBD', prefixes: ['A07A', 'A07D', 'A07E'] },
+  { slug: 'intestinal', label: 'Intestinal — antidiarrheals & IBD', prefixes: ['A07A', 'A07D', 'A07E', 'A07BB'] },
   { slug: 'reproductive', label: 'Reproductive & sex hormones', prefixes: ['G02', 'G03', 'G04C', 'H01CA'] },
 ]
 export function classifyDrug(d: Drug): { slug: string; label: string } | null {

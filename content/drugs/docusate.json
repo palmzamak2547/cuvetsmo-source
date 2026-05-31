@@ -1,0 +1,122 @@
+{
+  "slug": "docusate",
+  "nameEn": "Docusate sodium",
+  "nameTh": "โดคูเสต โซเดียม",
+  "class": "GI — stool softener (emollient laxative)",
+  "mechanism": "surfactant (emollient laxative) — ลดแรงตึงผิว ทำให้น้ำและไขมันแทรกเข้าก้อนอุจจาระ จึงนิ่มลงและขับง่าย; ใช้กับท้องผูก/megacolon",
+  "brandNamesTh": [
+    "Colace",
+    "Docusate"
+  ],
+  "indications": [
+    {
+      "text": "ท้องผูก, อุจจาระแข็ง, ป้องกันการเบ่งหลังผ่าตัด/ในโรค megacolon ในสุนัขและแมว — ทำให้อุจจาระนิ่ม",
+      "cites": [
+        "petplace-docusate",
+        "merck-constipation"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ต้องให้น้ำเพียงพอ (ทำงานโดยดึงน้ำเข้าอุจจาระ); ห้ามในภาวะลำไส้อุดตัน/ขาดน้ำ; เลี่ยงให้ร่วม mineral oil (เพิ่มการดูดซึม mineral oil); ระยะสั้น",
+      "cites": [
+        "petplace-docusate"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "โดยรวมปลอดภัย; ปวดเกร็งท้อง/ท้องเสียถ้าขนาดสูง; ขาดน้ำถ้าไม่ดื่มน้ำพอ",
+      "cites": [
+        "petplace-docusate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Constipation / stool softening",
+      "route": "PO",
+      "dose": "สุนัขเล็ก 25–50 mg/ตัว, กลาง 50–100 mg, ใหญ่ 100–200 mg PO ทุก 12–24 ชั่วโมง",
+      "cites": [
+        "petplace-docusate",
+        "merck-constipation"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Constipation / megacolon",
+      "route": "PO",
+      "dose": "50 mg/ตัว PO ทุก 12–24 ชั่วโมง",
+      "cites": [
+        "petplace-docusate"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "petplace-docusate",
+      "type": "monograph",
+      "title": "Docusate (Colace) for Dogs and Cats — PetPlace",
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/docusate-colace-for-dogs-and-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-constipation",
+      "type": "textbook",
+      "title": "Constipation, Obstipation, and Megacolon in Small Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/constipation-and-obstipation-in-small-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-docusate",
+      "type": "monograph",
+      "title": "Docusate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Docusate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A06AA02",
+      "name": "Docusate sodium",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / Today's Vet Practice / PetPlace / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

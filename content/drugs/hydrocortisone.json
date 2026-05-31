@@ -1,0 +1,123 @@
+{
+  "slug": "hydrocortisone",
+  "nameEn": "Hydrocortisone (cortisol)",
+  "nameTh": "ไฮโดรคอร์ติโซน",
+  "class": "Corticosteroid — short-acting glucocorticoid",
+  "mechanism": "glucocorticoid ออกฤทธิ์สั้น (เหมือน cortisol ธรรมชาติ) มีฤทธิ์ทั้ง gluco- และ mineralocorticoid เล็กน้อย; ใช้ต้านการอักเสบ, ทดแทนใน adrenal crisis และทาภายนอก",
+  "brandNamesTh": [
+    "Cortef",
+    "Solu-Cortef",
+    "Hydrocortisone cream"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะต่อมหมวกไตวายเฉียบพลัน (Addisonian crisis — รูปฉีด IV), ต้านการอักเสบ/ภูมิแพ้, ทาภายนอกลดคัน-อักเสบเฉพาะที่ ในสุนัขและแมว",
+      "cites": [
+        "petplace-hydrocortisone",
+        "merck-glucocorticoid-u"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามใช้ร่วม NSAID (แผล GI); ระวัง DM/ติดเชื้อ/ตั้งท้อง; ใช้นานเกิด iatrogenic Cushing + กด HPA — ค่อย ๆ ลด; ออกฤทธิ์สั้นจึงไม่เหมาะ chronic anti-inflammatory (ใช้ pred แทน)",
+      "cites": [
+        "petplace-hydrocortisone"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "PU/PD, เจริญอาหาร, น้ำตาลสูง, เสี่ยงติดเชื้อ (systemic); ทาภายนอก — ผิวบางเฉพาะที่เมื่อใช้นาน",
+      "cites": [
+        "petplace-hydrocortisone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Anti-inflammatory",
+      "route": "PO",
+      "dose": "0.5 mg/kg PO ทุก 12 ชั่วโมง (anti-inflammatory); topical ทาบาง ๆ ทุก 6–12 ชม.",
+      "cites": [
+        "petplace-hydrocortisone",
+        "merck-glucocorticoid-u"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Acute Addisonian crisis",
+      "route": "IV",
+      "dose": "0.5 mg/kg/ชม. IV CRI (acute crisis) หรือ bolus ตามโปรโตคอล",
+      "cites": [
+        "petplace-hydrocortisone"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "petplace-hydrocortisone",
+      "type": "monograph",
+      "title": "Hydrocortisone (cortisol) for Dogs and Cats — PetPlace",
+      "url": "https://www.petplace.com/article/drug-library/drug-library/library/hydrocortisone-cortisol-for-dogs-and-cats",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "merck-glucocorticoid-u",
+      "type": "textbook",
+      "title": "Glucocorticoids — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/anti-inflammatory-agents/glucocorticoids",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-hydrocortisone",
+      "type": "monograph",
+      "title": "Hydrocortisone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Hydrocortisone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "H02AB09",
+      "name": "Hydrocortisone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / VCA / Today's Vet Practice / PetPlace / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
