@@ -271,6 +271,16 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     match: startsWithAtc('B03'),
   },
   {
+    slug: 'antiseptics',
+    label: 'Antiseptics & topical antimicrobials · ยาฆ่าเชื้อและยาทาภายนอก',
+    subtitle: 'Biguanides, topical sulfonamides, silver — wound + skin antisepsis',
+    order: 245,
+    // D08 antiseptics/disinfectants (chlorhexidine) + D06B topical chemo-
+    // therapeutics (silver sulfadiazine). Disjoint from D01 (antifungals) and
+    // D11 (dermatology) already in use.
+    match: startsWithAtc('D08', 'D06'),
+  },
+  {
     slug: 'reproductive',
     label: 'Reproductive & sex hormones · ระบบสืบพันธุ์และฮอร์โมนเพศ',
     subtitle: 'GnRH agonists, prostaglandins, progestins, gonadotropins, 5α-reductase — theriogenology',

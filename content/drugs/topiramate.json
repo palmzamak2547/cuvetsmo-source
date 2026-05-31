@@ -1,0 +1,113 @@
+{
+  "slug": "topiramate",
+  "nameEn": "Topiramate",
+  "nameTh": "โทพิราเมต",
+  "class": "Anticonvulsant — multi-mechanism (add-on)",
+  "mechanism": "ยากันชักหลายกลไก — ปิดกั้น voltage-gated sodium channel, เสริม GABA, ยับยั้ง glutamate (AMPA/kainate) และ carbonic anhydrase อ่อน ๆ; ใช้เสริมในชักดื้อยา",
+  "brandNamesTh": [
+    "Topamax"
+  ],
+  "indications": [
+    {
+      "text": "การชักที่ดื้อยา (refractory idiopathic epilepsy) ในสุนัข — เป็นยาเสริม (add-on) เมื่อ phenobarbital/KBr/levetiracetam ไม่พอ; ทนได้ดี",
+      "cites": [
+        "tvp-epilepsy-n",
+        "paper-topiramate"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามหยุดกะทันหัน (ชัก rebound — ค่อย ๆ ลด); ปรับในไตบกพร่อง (ขับทางไต); ระวังนิ่วไต/metabolic acidosis (ฤทธิ์ CAI อ่อน); ครึ่งชีวิตสั้นในสุนัขจึงต้องให้บ่อย",
+      "cites": [
+        "tvp-epilepsy-n",
+        "paper-topiramate"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ง่วงซึม เดินเซ (ataxia) โดยเฉพาะช่วงแรก, เบื่ออาหาร/น้ำหนักลด; โดยรวมทนได้ดี",
+      "cites": [
+        "paper-topiramate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Refractory epilepsy (add-on)",
+      "route": "PO",
+      "dose": "เริ่ม 2 mg/kg PO ทุก 12 ชั่วโมง แล้วค่อยเพิ่มเป็น 5–10 mg/kg ทุก 8–12 ชั่วโมง ตามการตอบสนอง",
+      "cites": [
+        "tvp-epilepsy-n",
+        "paper-topiramate"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "tvp-epilepsy-n",
+      "type": "guideline",
+      "title": "Treatment Plans for Routine and Refractory Canine Epilepsy — Today's Veterinary Practice",
+      "url": "https://todaysveterinarypractice.com/neurology/treatment-plans-for-routine-and-refractory-canine-epilepsy/",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "paper-topiramate",
+      "type": "paper",
+      "title": "Topiramate as add-on for refractory canine idiopathic epilepsy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24032479/",
+      "year": 2023,
+      "note": "Peer-reviewed canine topiramate add-on study.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-topiramate",
+      "type": "monograph",
+      "title": "Topiramate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Topiramate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "N03AX11",
+      "name": "Topiramate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

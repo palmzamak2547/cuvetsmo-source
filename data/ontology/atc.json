@@ -2956,5 +2956,89 @@
     "name": "Acetazolamide",
     "level": 5,
     "parent": "S01EC"
+  },
+  "B03BA01": {
+    "code": "B03BA01",
+    "name": "Cyanocobalamin (vitamin B12)",
+    "level": 5,
+    "parent": "B03BA"
+  },
+  "B03BA": {
+    "code": "B03BA",
+    "name": "Vitamin B12 (cyanocobalamin and analogues)",
+    "level": 4,
+    "parent": "B03B"
+  },
+  "B03B": {
+    "code": "B03B",
+    "name": "Vitamin B12 and folic acid",
+    "level": 3,
+    "parent": "B03"
+  },
+  "N03AX11": {
+    "code": "N03AX11",
+    "name": "Topiramate",
+    "level": 5,
+    "parent": "N03AX"
+  },
+  "QP53AX17": {
+    "code": "QP53AX17",
+    "name": "Imidacloprid",
+    "level": 5,
+    "parent": "QP53AX"
+  },
+  "QP53AX": {
+    "code": "QP53AX",
+    "name": "Other ectoparasiticides for topical use",
+    "level": 4,
+    "parent": "QP53A"
+  },
+  "D08": {
+    "code": "D08",
+    "name": "Antiseptics and disinfectants",
+    "level": 2,
+    "parent": "D"
+  },
+  "D08A": {
+    "code": "D08A",
+    "name": "Antiseptics and disinfectants",
+    "level": 3,
+    "parent": "D08"
+  },
+  "D08AC": {
+    "code": "D08AC",
+    "name": "Biguanides and amidines",
+    "level": 4,
+    "parent": "D08A"
+  },
+  "D08AC02": {
+    "code": "D08AC02",
+    "name": "Chlorhexidine",
+    "level": 5,
+    "parent": "D08AC"
+  },
+  "D06": {
+    "code": "D06",
+    "name": "Antibiotics and chemotherapeutics for dermatological use",
+    "level": 2,
+    "parent": "D"
+  },
+  "D06B": {
+    "code": "D06B",
+    "name": "Chemotherapeutics for topical use",
+    "level": 3,
+    "parent": "D06"
+  },
+  "D06BA": {
+    "code": "D06BA",
+    "name": "Sulfonamides (topical)",
+    "level": 4,
+    "parent": "D06B"
+  },
+  "D06BA01": {
+    "code": "D06BA01",
+    "name": "Silver sulfadiazine",
+    "level": 5,
+    "parent": "D06BA"
   }
 }

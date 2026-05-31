@@ -1,0 +1,124 @@
+{
+  "slug": "chlorhexidine",
+  "nameEn": "Chlorhexidine",
+  "nameTh": "คลอร์เฮกซิดีน",
+  "class": "Antiseptic — biguanide (topical)",
+  "mechanism": "biguanide antiseptic — จับเยื่อหุ้มเซลล์แบคทีเรียที่มีประจุลบ ทำให้เยื่อรั่วและโปรตีนในเซลล์ตกตะกอน ฆ่าเชื้อแบคทีเรียและเชื้อราหลายชนิด; ออกฤทธิ์ค้าง (residual) บนผิวหนัง",
+  "brandNamesTh": [
+    "Hibiscrub",
+    "Nolvasan",
+    "Chlorhexidine gluconate/acetate"
+  ],
+  "indications": [
+    {
+      "text": "ทำความสะอาดแผลและเตรียมผิวหนังก่อนผ่าตัด, รักษาการติดเชื้อแบคทีเรีย/เชื้อราที่ผิวหนัง (รูปแชมพู/น้ำยา/ครีม), ฆ่าเชื้อในช่องปาก ในสุนัข แมว และม้า",
+      "cites": [
+        "merck-biguanides",
+        "vca-chlorhexidine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ความเข้มข้นสูง (>0.5%) เป็นพิษต่อ fibroblast/ทำให้แผลหายช้า — เจือจางเหลือ 0.05% สำหรับล้างแผล; ⚠️ พิษต่อกระจกตา/หูชั้นกลาง — หลีกเลี่ยงในตาและหูที่แก้วหูทะลุ; ระคายผิวบางตัว",
+      "cites": [
+        "merck-biguanides",
+        "vca-chlorhexidine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระคายผิว/แพ้สัมผัสบางตัว; เป็นพิษต่อแผลเปิดเมื่อความเข้มข้นสูง; พิษกระจกตา/หูชั้นในเมื่อสัมผัสโดยตรง",
+      "cites": [
+        "vca-chlorhexidine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Wound cleaning",
+      "route": "topical",
+      "dose": "เจือจางเป็น 0.05% ล้างแผล; แชมพู 2–4% อาบทุก 2–3 วันสำหรับ pyoderma; ครีม acetate 1% ทาแผล",
+      "cites": [
+        "merck-biguanides",
+        "vca-chlorhexidine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Skin antisepsis",
+      "route": "topical",
+      "dose": "เจือจาง 0.05% สำหรับแผล; แชมพูตามคำแนะนำ — ⚠️ เลี่ยงตา/หู",
+      "cites": [
+        "vca-chlorhexidine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "merck-biguanides",
+      "type": "textbook",
+      "title": "Biguanides as Antiseptics and Disinfectants for Use With Animals — MSD/Merck Veterinary Manual",
+      "year": 2025,
+      "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/biguanides-as-antiseptics-and-disinfectants-for-use-with-animals",
+      "note": "Authoritative veterinary pharmacology reference. Copyrighted, cited not mirrored.",
+      "cid": null
+    },
+    {
+      "id": "vca-chlorhexidine",
+      "type": "monograph",
+      "title": "Chlorhexidine Topical — VCA Animal Hospitals",
+      "url": "https://vcahospitals.com/know-your-pet/chlorhexidine-topical",
+      "year": 2025,
+      "note": "Clinical veterinary drug reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-chlorhexidine",
+      "type": "monograph",
+      "title": "Chlorhexidine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Chlorhexidine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-05-31",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D08AC02",
+      "name": "Chlorhexidine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-05-31",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-05-31",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-05-31",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Veterinary Manual / FDA-EMA labels / VCA / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
