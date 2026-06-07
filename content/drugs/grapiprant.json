@@ -1,0 +1,125 @@
+{
+  "slug": "grapiprant",
+  "nameEn": "Grapiprant",
+  "nameTh": "กราพิแพรนต์",
+  "class": "Piprant — EP4 prostaglandin receptor antagonist (non-NSAID analgesic)",
+  "mechanism": "ปิดกั้น EP4 receptor ของ prostaglandin E2 อย่างจำเพาะ ลดการส่งสัญญาณปวด-อักเสบโดยไม่ยับยั้ง COX จึงรบกวน GI/ไตน้อยกว่า NSAID ทั่วไป",
+  "brandNamesTh": [
+    "Galliprant"
+  ],
+  "indications": [
+    {
+      "text": "จัดการความปวดและอักเสบจากโรคข้อเสื่อม (osteoarthritis) ในสุนัข — ทางเลือกที่อ่อนโยนต่อ GI/ไตกว่า NSAID",
+      "cites": [
+        "dailymed-grapiprant",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในสุนัขที่มีปัญหา GI, ตับ/ไตบกพร่อง, ขาดน้ำ; ข้อมูลในสุนัขอายุ < 9 เดือน/น้ำหนัก < 3.6 kg จำกัด; เลี่ยงให้ร่วม NSAID/corticosteroid",
+      "cites": [
+        "dailymed-grapiprant",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน, ท้องเสีย, เบื่ออาหาร, ซึม (โดยรวมรบกวน GI น้อยกว่า NSAID)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Grapiprant"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Osteoarthritis pain",
+      "route": "PO",
+      "dose": "2 mg/kg PO วันละครั้ง (ท้องว่าง)",
+      "cites": [
+        "plumbs",
+        "dailymed-grapiprant"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QM01AX92",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Grapiprant (veterinary) (QM01AX92)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QM01AX92&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-grapiprant",
+      "type": "package-insert",
+      "title": "Grapiprant (Galliprant) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=grapiprant",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Grapiprant",
+      "type": "monograph",
+      "title": "Grapiprant — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Grapiprant",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QM01AX92",
+      "name": "Grapiprant (veterinary)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

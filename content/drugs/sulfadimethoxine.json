@@ -1,0 +1,135 @@
+{
+  "slug": "sulfadimethoxine",
+  "nameEn": "Sulfadimethoxine",
+  "nameTh": "ซัลฟาไดเมทอกซีน",
+  "class": "Long-acting sulfonamide antibacterial / anticoccidial",
+  "mechanism": "ยับยั้ง dihydropteroate synthase ขัดขวางการสร้างกรดโฟลิกของแบคทีเรียและโคซิเดีย (bacteriostatic/coccidiostatic) ออกฤทธิ์นาน",
+  "brandNamesTh": [
+    "Albon",
+    "Bactrovet"
+  ],
+  "indications": [
+    {
+      "text": "โรคโคซิดิโอซิส (coccidiosis) ในสุนัข/แมว/สัตว์เศรษฐกิจ และการติดเชื้อแบคทีเรียที่ไวต่อ sulfonamide (ทางเดินปัสสาวะ/หายใจ/ลำไส้)",
+      "cites": [
+        "dailymed-sulfadimethoxine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ sulfonamide; ระวังในตาแห้ง (KCS), ภาวะขาดน้ำ (เสี่ยง crystalluria — ให้น้ำเพียงพอ); เว้นระยะหยุดยาในสัตว์ผลิตอาหาร",
+      "cites": [
+        "dailymed-sulfadimethoxine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ตาแห้ง (KCS), ผลึกในปัสสาวะ (crystalluria), อาเจียน, ผื่นแพ้, กดไขกระดูกเมื่อใช้นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Sulfadimethoxine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Coccidiosis",
+      "route": "PO",
+      "dose": "55 mg/kg PO วันแรก (loading) แล้ว 27.5 mg/kg วันละครั้ง ต่อจนหายอาการ ~5–20 วัน",
+      "cites": [
+        "plumbs",
+        "dailymed-sulfadimethoxine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Coccidiosis",
+      "route": "PO",
+      "dose": "55 mg/kg PO วันแรก แล้ว 27.5 mg/kg วันละครั้ง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QJ01EQ09",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Sulfadimethoxine (QJ01EQ09)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QJ01EQ09&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-sulfadimethoxine",
+      "type": "package-insert",
+      "title": "Sulfadimethoxine (Albon) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sulfadimethoxine",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Sulfadimethoxine",
+      "type": "monograph",
+      "title": "Sulfadimethoxine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Sulfadimethoxine",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QJ01EQ09",
+      "name": "Sulfadimethoxine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

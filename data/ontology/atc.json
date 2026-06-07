@@ -4306,5 +4306,107 @@
     "name": "Mucolytics",
     "level": 4,
     "parent": "R05C"
+  },
+  "QJ01DD90": {
+    "code": "QJ01DD90",
+    "name": "Ceftiofur (veterinary)",
+    "level": 5,
+    "parent": "QJ01DD"
+  },
+  "QJ01MA97": {
+    "code": "QJ01MA97",
+    "name": "Pradofloxacin (veterinary)",
+    "level": 5,
+    "parent": "QJ01MA"
+  },
+  "QJ01MA95": {
+    "code": "QJ01MA95",
+    "name": "Orbifloxacin (veterinary)",
+    "level": 5,
+    "parent": "QJ01MA"
+  },
+  "QJ01FA94": {
+    "code": "QJ01FA94",
+    "name": "Tulathromycin (veterinary)",
+    "level": 5,
+    "parent": "QJ01FA"
+  },
+  "QJ01FA91": {
+    "code": "QJ01FA91",
+    "name": "Tilmicosin (veterinary)",
+    "level": 5,
+    "parent": "QJ01FA"
+  },
+  "QJ01EQ09": {
+    "code": "QJ01EQ09",
+    "name": "Sulfadimethoxine",
+    "level": 5,
+    "parent": "QJ01EQ"
+  },
+  "QM01AX92": {
+    "code": "QM01AX92",
+    "name": "Grapiprant (veterinary)",
+    "level": 5,
+    "parent": "QM01AX"
+  },
+  "QM01AH94": {
+    "code": "QM01AH94",
+    "name": "Deracoxib (veterinary)",
+    "level": 5,
+    "parent": "QM01AH"
+  },
+  "QP53AX15": {
+    "code": "QP53AX15",
+    "name": "Fipronil",
+    "level": 5,
+    "parent": "QP53AX"
+  },
+  "QP53BX03": {
+    "code": "QP53BX03",
+    "name": "Spinosad",
+    "level": 5,
+    "parent": "QP53BX"
+  },
+  "QP51BC04": {
+    "code": "QP51BC04",
+    "name": "Ponazuril",
+    "level": 5,
+    "parent": "QP51BC"
+  },
+  "QD01AC90": {
+    "code": "QD01AC90",
+    "name": "Enilconazole (veterinary)",
+    "level": 5,
+    "parent": "QD01AC"
+  },
+  "QJ01EQ": {
+    "code": "QJ01EQ",
+    "name": "Sulfonamides (veterinary)",
+    "level": 4,
+    "parent": "QJ01E"
+  },
+  "QM01AX": {
+    "code": "QM01AX",
+    "name": "Other antiinflammatory/antirheumatic agents (incl. piprants)",
+    "level": 4,
+    "parent": "QM01A"
+  },
+  "QP53BX": {
+    "code": "QP53BX",
+    "name": "Other ectoparasiticides for systemic use",
+    "level": 4,
+    "parent": "QP53B"
+  },
+  "QP51BC": {
+    "code": "QP51BC",
+    "name": "Triazines (anticoccidials)",
+    "level": 4,
+    "parent": "QP51B"
+  },
+  "QD01AC": {
+    "code": "QD01AC",
+    "name": "Imidazole and triazole derivatives (veterinary topical antifungal)",
+    "level": 4,
+    "parent": "QD01A"
   }
 }

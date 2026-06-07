@@ -1,0 +1,145 @@
+{
+  "slug": "ceftiofur",
+  "nameEn": "Ceftiofur",
+  "nameTh": "เซฟทิโอเฟอร์",
+  "class": "Third-generation cephalosporin (veterinary, food-animal)",
+  "mechanism": "ยับยั้งการสร้างผนังเซลล์แบคทีเรีย (จับ PBP) ฤทธิ์ฆ่าเชื้อ ครอบคลุมแกรมลบกว้าง — เป็น cephalosporin รุ่น 3 ที่ขึ้นทะเบียนสำหรับสัตว์เศรษฐกิจ (metabolite ออกฤทธิ์ desfuroylceftiofur)",
+  "brandNamesTh": [
+    "Excenel",
+    "Naxcel",
+    "Excede"
+  ],
+  "indications": [
+    {
+      "text": "โรคทางเดินหายใจในโค/สุกร (BRD/SRD), foot rot, metritis; ใช้ในสุนัขสำหรับ UTI (ceftiofur sodium)",
+      "cites": [
+        "dailymed-ceftiofur",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ยากลุ่ม cephalosporin/penicillin; เว้นระยะหยุดยา (withdrawal) ในสัตว์ผลิตอาหารตามฉลาก (รูป long-acting Excede เว้นนาน)",
+      "cites": [
+        "dailymed-ceftiofur",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "บวม/ระคายบริเวณฉีด, ท้องเสียจากการรบกวนจุลินทรีย์; อาการแพ้พบไม่บ่อย",
+      "cites": [
+        "plumbs",
+        "wikipedia-Ceftiofur"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "bovine",
+      "indication": "Bovine respiratory disease",
+      "route": "SC",
+      "dose": "1.1–2.2 mg/kg SC ทุก 24 ชั่วโมง นาน 3–5 วัน; หรือรูป long-acting (CCFA) 6.6 mg/kg SC ครั้งเดียว",
+      "cites": [
+        "plumbs",
+        "dailymed-ceftiofur"
+      ]
+    },
+    {
+      "species": "porcine",
+      "indication": "Swine respiratory disease",
+      "route": "IM",
+      "dose": "3–5 mg/kg IM ทุก 24 ชั่วโมง นาน 3 วัน",
+      "cites": [
+        "plumbs"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Urinary tract infection",
+      "route": "SC",
+      "dose": "2.2 mg/kg SC ทุก 24 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QJ01DD90",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Ceftiofur (veterinary) (QJ01DD90)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QJ01DD90&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-ceftiofur",
+      "type": "package-insert",
+      "title": "Ceftiofur (Excenel/Naxcel) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ceftiofur",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Ceftiofur",
+      "type": "monograph",
+      "title": "Ceftiofur — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ceftiofur",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QJ01DD90",
+      "name": "Ceftiofur (veterinary)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

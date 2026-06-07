@@ -1,0 +1,134 @@
+{
+  "slug": "tulathromycin",
+  "nameEn": "Tulathromycin",
+  "nameTh": "ทูลาโทรมัยซิน",
+  "class": "Macrolide (azalide) antibiotic — veterinary, food-animal",
+  "mechanism": "จับ 50S ribosomal subunit ยับยั้งการสร้างโปรตีน สะสมในเนื้อเยื่อปอดสูงและออกฤทธิ์นาน จึงให้ครั้งเดียวคุมโรคทางเดินหายใจ",
+  "brandNamesTh": [
+    "Draxxin"
+  ],
+  "indications": [
+    {
+      "text": "โรคทางเดินหายใจในโคและสุกร (BRD/SRD — Mannheimia, Pasteurella, Histophilus, Actinobacillus); foot rot ในโค",
+      "cites": [
+        "dailymed-tulathromycin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ macrolide; เว้นระยะหยุดยาในสัตว์ผลิตอาหาร; ห้ามใช้ในสัตว์ที่ผลิตน้ำนมเพื่อบริโภค (ตามฉลาก)",
+      "cites": [
+        "dailymed-tulathromycin",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เจ็บ/บวมบริเวณฉีดชั่วคราว",
+      "cites": [
+        "plumbs",
+        "wikipedia-Tulathromycin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "bovine",
+      "indication": "Bovine respiratory disease",
+      "route": "SC",
+      "dose": "2.5 mg/kg SC ครั้งเดียว (ออกฤทธิ์นาน)",
+      "cites": [
+        "plumbs",
+        "dailymed-tulathromycin"
+      ]
+    },
+    {
+      "species": "porcine",
+      "indication": "Swine respiratory disease",
+      "route": "IM",
+      "dose": "2.5 mg/kg IM ครั้งเดียว",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QJ01FA94",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Tulathromycin (veterinary) (QJ01FA94)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QJ01FA94&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-tulathromycin",
+      "type": "package-insert",
+      "title": "Tulathromycin (Draxxin) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tulathromycin",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Tulathromycin",
+      "type": "monograph",
+      "title": "Tulathromycin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Tulathromycin",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QJ01FA94",
+      "name": "Tulathromycin (veterinary)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "spinosad",
+  "nameEn": "Spinosad",
+  "nameTh": "สปิโนแซด",
+  "class": "Ectoparasiticide — spinosyn (oral flea)",
+  "mechanism": "กระตุ้น nicotinic acetylcholine receptor ของแมลงแบบจำเพาะ ทำให้ประสาทถูกกระตุ้นเกินจนหมัดตายอย่างรวดเร็ว ให้แบบกินออกฤทธิ์นาน 1 เดือน",
+  "brandNamesTh": [
+    "Comfortis"
+  ],
+  "indications": [
+    {
+      "text": "กำจัดและป้องกันหมัดในสุนัข (และแมวบางผลิตภัณฑ์) แบบเม็ดเคี้ยว ออกฤทธิ์เร็ว",
+      "cites": [
+        "dailymed-spinosad",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ การให้ร่วม ivermectin/milbemycin ขนาดสูง spinosad เพิ่มความเสี่ยงพิษ (โดยเฉพาะสุนัข MDR1); ให้พร้อมอาหารเพื่อการดูดซึม",
+      "cites": [
+        "dailymed-spinosad",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน (พบบ่อยสุด โดยเฉพาะถ้าให้ตอนท้องว่าง), ซึม, เบื่ออาหาร",
+      "cites": [
+        "plumbs",
+        "wikipedia-Spinosad"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Flea control",
+      "route": "PO",
+      "dose": "30 mg/kg PO เดือนละครั้ง (ขั้นต่ำ; ให้พร้อมอาหาร)",
+      "cites": [
+        "plumbs",
+        "dailymed-spinosad"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QP53BX03",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Spinosad (QP53BX03)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QP53BX03&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-spinosad",
+      "type": "package-insert",
+      "title": "Spinosad (Comfortis) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=spinosad",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Spinosad",
+      "type": "monograph",
+      "title": "Spinosad — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Spinosad",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP53BX03",
+      "name": "Spinosad",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
