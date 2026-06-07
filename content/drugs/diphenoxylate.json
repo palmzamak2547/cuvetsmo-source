@@ -1,0 +1,125 @@
+{
+  "slug": "diphenoxylate",
+  "nameEn": "Diphenoxylate",
+  "nameTh": "ไดเฟนอกซิเลต",
+  "class": "Antidiarrheal — opioid antipropulsive",
+  "mechanism": "opioid ที่ออกฤทธิ์ต่อ μ-receptor ในลำไส้ ลดการบีบตัว (peristalsis) เพิ่มเวลาดูดซึมน้ำ ใช้ลดท้องเสียระยะสั้นในสุนัข",
+  "brandNamesTh": [
+    "Lomotil"
+  ],
+  "indications": [
+    {
+      "text": "ท้องเสียเฉียบพลันแบบไม่ติดเชื้อในสุนัข (ลดการบีบตัวลำไส้) — ใช้ระยะสั้น",
+      "cites": [
+        "dailymed-diphenoxylate atropine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ไม่แนะนำในแมว (ไวต่อ opioid); ห้ามในท้องเสียจากการติดเชื้อ/พิษ (กักเชื้อ/สารพิษ); ระวังในพันธุ์ที่มี MDR1 mutation",
+      "cites": [
+        "dailymed-diphenoxylate atropine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องผูก, ซึม, ileus; กดประสาทเมื่อเกินขนาด (กลับฤทธิ์ด้วย naloxone)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Diphenoxylate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Acute non-infectious diarrhea (short-term)",
+      "route": "PO",
+      "dose": "0.05–0.1 mg/kg PO ทุก 8–12 ชั่วโมง (ใช้ระยะสั้น)",
+      "cites": [
+        "plumbs",
+        "dailymed-diphenoxylate atropine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-A07DA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Diphenoxylate (A07DA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A07DA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-diphenoxylate atropine",
+      "type": "package-insert",
+      "title": "Diphenoxylate/atropine — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=diphenoxylate%20atropine",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Diphenoxylate",
+      "type": "monograph",
+      "title": "Diphenoxylate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Diphenoxylate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A07DA01",
+      "name": "Diphenoxylate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

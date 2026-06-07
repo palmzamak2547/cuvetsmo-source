@@ -1,0 +1,125 @@
+{
+  "slug": "propylthiouracil",
+  "nameEn": "Propylthiouracil (PTU)",
+  "nameTh": "โพรพิลไทโอยูราซิล (PTU)",
+  "class": "Antithyroid — thiouracil",
+  "mechanism": "ยับยั้ง thyroid peroxidase ขัดขวางการสร้างฮอร์โมนไทรอยด์ (และลดการเปลี่ยน T4→T3 ส่วนปลาย) ใช้ลดภาวะไทรอยด์เป็นพิษในแมว",
+  "brandNamesTh": [
+    "Propyl-Thyracil"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะไทรอยด์เป็นพิษในแมว (feline hyperthyroidism) — ปัจจุบันใช้น้อยเพราะ methimazole/carbimazole ปลอดภัยกว่า",
+      "cites": [
+        "dailymed-propylthiouracil",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ อุบัติการณ์ผลข้างเคียงรุนแรงสูงกว่า methimazole มาก (โดยเฉพาะ immune-mediated hemolytic anemia/thrombocytopenia) — methimazole เป็นตัวเลือกแรกในแมว",
+      "cites": [
+        "dailymed-propylthiouracil",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "โลหิตจาง/เกล็ดเลือดต่ำจากภูมิคุ้มกัน, อาเจียน/เบื่ออาหาร, ซึม, ตับอักเสบ",
+      "cites": [
+        "plumbs",
+        "wikipedia-Propylthiouracil"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Hyperthyroidism (rarely used)",
+      "route": "PO",
+      "dose": "50 mg/ตัว PO ทุก 8–12 ชั่วโมง — ⚠️ ติดตาม CBC ใกล้ชิด, methimazole เป็นตัวเลือกที่เหมาะกว่า",
+      "cites": [
+        "plumbs",
+        "dailymed-propylthiouracil"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-H03BA02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Propylthiouracil (H03BA02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=H03BA02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-propylthiouracil",
+      "type": "package-insert",
+      "title": "Propylthiouracil — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=propylthiouracil",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Propylthiouracil",
+      "type": "monograph",
+      "title": "Propylthiouracil — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Propylthiouracil",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "H03BA02",
+      "name": "Propylthiouracil",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

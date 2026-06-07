@@ -1,0 +1,135 @@
+{
+  "slug": "leucovorin",
+  "nameEn": "Leucovorin (folinic acid)",
+  "nameTh": "ลิวโคโวริน (กรดโฟลินิก)",
+  "class": "Folate rescue agent / antidote",
+  "mechanism": "รูป reduced folate ที่พร้อมใช้งานทันที ข้ามขั้นตอนที่ dihydrofolate reductase ถูกยับยั้ง จึงกอบกู้เซลล์ปกติจากพิษของยาต้านโฟเลต (methotrexate, pyrimethamine, trimethoprim)",
+  "brandNamesTh": [
+    "Leucovorin",
+    "Wellcovorin"
+  ],
+  "indications": [
+    {
+      "text": "กอบกู้พิษจากยาต้านโฟเลต (methotrexate rescue, พิษ pyrimethamine/trimethoprim ขนาดสูง) และภาวะขาดโฟเลต",
+      "cites": [
+        "dailymed-leucovorin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ไม่ใช้แทน vitamin B12 ในภาวะโลหิตจางที่ยังไม่วินิจฉัยแน่ชัด (อาจบดบัง B12 deficiency); ให้ทันเวลาหลังได้รับ antifolate",
+      "cites": [
+        "dailymed-leucovorin",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พบน้อย; อาจมีอาการแพ้ หรือลดประสิทธิภาพ antifolate ที่ต้องการฤทธิ์ (เช่นเมื่อใช้รักษา toxoplasma จงใช้ขนาดเหมาะสม)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Folinic_acid"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Methotrexate / antifolate rescue",
+      "route": "IV",
+      "dose": "~3 mg/m² IV/IM/PO (หรือคำนวณตามขนาด antifolate ที่ได้รับ) ให้ทันทีหลังสัมผัสยา",
+      "cites": [
+        "plumbs",
+        "dailymed-leucovorin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Antifolate toxicity / folate support (with pyrimethamine)",
+      "route": "PO",
+      "dose": "~1 mg/kg/วัน PO ระหว่างให้ pyrimethamine/sulfa เพื่อลดพิษไขกระดูก",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-V03AF03",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Calcium folinate (leucovorin) (V03AF03)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=V03AF03&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-leucovorin",
+      "type": "package-insert",
+      "title": "Leucovorin calcium — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=leucovorin",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Folinic_acid",
+      "type": "monograph",
+      "title": "Folinic acid — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Folinic_acid",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "V03AF03",
+      "name": "Calcium folinate (leucovorin)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

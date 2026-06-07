@@ -1,0 +1,135 @@
+{
+  "slug": "nystatin",
+  "nameEn": "Nystatin",
+  "nameTh": "ไนสแตติน",
+  "class": "Polyene antifungal (topical/oral, non-absorbed)",
+  "mechanism": "จับ ergosterol ของเยื่อหุ้มเซลล์เชื้อรา ทำให้เยื่อรั่วและเซลล์ตาย; ดูดซึมทางลำไส้น้อยมาก จึงใช้เฉพาะที่/ในทางเดินอาหารต่อ Candida",
+  "brandNamesTh": [
+    "Mycostatin",
+    "Nilstat"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อ Candida ที่ทางเดินอาหาร ช่องปาก ผิวหนัง และหู (โดยเฉพาะในนก/สัตว์เลี้ยงชนิดพิเศษ)",
+      "cites": [
+        "dailymed-nystatin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ใช้เฉพาะที่/ในทางเดินอาหาร ไม่ใช้รักษาเชื้อราในระบบ (ดูดซึมไม่พอ); ระวังในนกที่อ่อนแอมาก",
+      "cites": [
+        "dailymed-nystatin",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/ท้องเสียเมื่อกินขนาดสูง; ระคายเฉพาะที่พบน้อย",
+      "cites": [
+        "plumbs",
+        "wikipedia-Nystatin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Oral / GI candidiasis",
+      "route": "PO",
+      "dose": "~100,000 U PO ทุก 6–8 ชั่วโมง (รูปแขวนตะกอน) — ออกฤทธิ์เฉพาะในทางเดินอาหาร",
+      "cites": [
+        "plumbs",
+        "dailymed-nystatin"
+      ]
+    },
+    {
+      "species": "avian",
+      "indication": "GI candidiasis (crop)",
+      "route": "PO",
+      "dose": "~300,000 U/kg PO ทุก 8–12 ชั่วโมง นาน 7–14 วัน",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-D01AA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Nystatin (D01AA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=D01AA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-nystatin",
+      "type": "package-insert",
+      "title": "Nystatin — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=nystatin",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Nystatin",
+      "type": "monograph",
+      "title": "Nystatin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Nystatin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D01AA01",
+      "name": "Nystatin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

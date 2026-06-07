@@ -1,0 +1,126 @@
+{
+  "slug": "mesalazine",
+  "nameEn": "Mesalazine (5-ASA)",
+  "nameTh": "เมซาลาซีน (5-ASA)",
+  "class": "Intestinal anti-inflammatory — aminosalicylate",
+  "mechanism": "อนุพันธ์ 5-aminosalicylic acid ออกฤทธิ์ต้านการอักเสบเฉพาะที่ในเยื่อบุลำไส้ใหญ่ (ยับยั้ง prostaglandin/leukotriene) ใช้รักษาลำไส้ใหญ่อักเสบเรื้อรัง",
+  "brandNamesTh": [
+    "Pentasa",
+    "Asacol"
+  ],
+  "indications": [
+    {
+      "text": "ลำไส้ใหญ่อักเสบเรื้อรัง/IBD ส่วนลำไส้ใหญ่ในสุนัข (ทางเลือกของ sulfasalazine ที่เลี่ยงส่วน sulfa)",
+      "cites": [
+        "dailymed-mesalamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ salicylate; ⚠️ ระวังในแมว (ไวต่อ salicylate มาก); ปรับ/เลี่ยงในโรคไต — ติดตามไตและน้ำตา (KCS)",
+      "cites": [
+        "dailymed-mesalamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/เบื่ออาหาร, ตาแห้ง (keratoconjunctivitis sicca), พิษไต เมื่อใช้นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Mesalazine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Chronic colitis / IBD",
+      "route": "PO",
+      "dose": "10–20 mg/kg PO ทุก 8 ชั่วโมง (รูป delayed/sustained-release)",
+      "cites": [
+        "plumbs",
+        "dailymed-mesalamine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-A07EC02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Mesalazine (A07EC02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A07EC02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-mesalamine",
+      "type": "package-insert",
+      "title": "Mesalamine (5-ASA) — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=mesalamine",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Mesalazine",
+      "type": "monograph",
+      "title": "Mesalazine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Mesalazine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A07EC02",
+      "name": "Mesalazine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

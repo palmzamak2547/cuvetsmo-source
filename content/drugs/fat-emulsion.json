@@ -1,0 +1,135 @@
+{
+  "slug": "fat-emulsion",
+  "nameEn": "Intravenous lipid emulsion (ILE)",
+  "nameTh": "สารอิมัลชันไขมันทางหลอดเลือด (ILE)",
+  "class": "Lipid-sink antidote / parenteral nutrition",
+  "mechanism": "สร้าง “lipid compartment” ในเลือดที่ดึงยา/สารพิษที่ละลายในไขมันออกจากเนื้อเยื่อเป้าหมาย (lipid-sink) และอาจช่วยพลังงานหัวใจ ใช้แก้พิษสารลิโพฟิลิก",
+  "brandNamesTh": [
+    "Intralipid",
+    "SMOFlipid"
+  ],
+  "indications": [
+    {
+      "text": "แก้พิษเฉียบพลันจากสารที่ละลายในไขมัน (local anesthetic เช่น bupivacaine, permethrin ในแมว, ivermectin, baclofen, CCB/β-blocker, NSAID บางชนิด); ใช้เป็น parenteral nutrition ด้วย",
+      "cites": [
+        "dailymed-fat emulsion intravenous",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในภาวะไขมันในเลือดสูง/ตับอ่อนอักเสบ; ⚠️ ขนาดสูงเกินเสี่ยง fat overload (เม็ดเลือดแดงแตก, ปอดเสียหาย); ใช้สายและอุปกรณ์สะอาดป้องกันการติดเชื้อ",
+      "cites": [
+        "dailymed-fat emulsion intravenous",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "fat overload syndrome (ในขนาดสูง), ไขมันในเลือดสูงชั่วคราว, ติดเชื้อจากสาย, ปฏิกิริยาแพ้",
+      "cites": [
+        "plumbs",
+        "wikipedia-Lipid_emulsion"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Lipophilic toxicosis (lipid rescue)",
+      "route": "IV",
+      "dose": "20% emulsion: bolus 1.5 mL/kg IV แล้ว CRI 0.25 mL/kg/min นาน 30–60 นาที (ให้ซ้ำตามอาการ ติดตามซีรัมว่าใส)",
+      "cites": [
+        "plumbs",
+        "dailymed-fat emulsion intravenous"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Lipophilic toxicosis (e.g. permethrin)",
+      "route": "IV",
+      "dose": "20% emulsion: bolus 1.5 mL/kg IV แล้ว CRI 0.25 mL/kg/min นาน 30–60 นาที",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-B05BA02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Fat emulsion (intravenous lipid emulsion) (B05BA02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=B05BA02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-fat emulsion intravenous",
+      "type": "package-insert",
+      "title": "Intravenous fat emulsion — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=fat%20emulsion%20intravenous",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Lipid_emulsion",
+      "type": "monograph",
+      "title": "Lipid emulsion — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Lipid_emulsion",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "B05BA02",
+      "name": "Fat emulsion (intravenous lipid emulsion)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

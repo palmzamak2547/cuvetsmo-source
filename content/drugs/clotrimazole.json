@@ -1,0 +1,135 @@
+{
+  "slug": "clotrimazole",
+  "nameEn": "Clotrimazole",
+  "nameTh": "โคลไตรมาโซล",
+  "class": "Topical imidazole antifungal",
+  "mechanism": "ยับยั้ง 14α-demethylase ขัดขวางการสร้าง ergosterol ของเยื่อหุ้มเซลล์เชื้อรา ใช้เฉพาะที่และล้างโพรงจมูกรักษา aspergillosis",
+  "brandNamesTh": [
+    "Canesten",
+    "Lotrimin"
+  ],
+  "indications": [
+    {
+      "text": "เชื้อราที่จมูก (nasal aspergillosis — ล้างโพรงจมูกภายใต้การวางยา), ผิวหนัง/หู (Malassezia, dermatophyte)",
+      "cites": [
+        "dailymed-clotrimazole",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังการรั่วของสารล้างจมูกเข้า cribriform plate ที่เสียหาย (เสี่ยงเข้าสมอง); สำหรับใช้เฉพาะที่ ไม่ใช้ระบบ",
+      "cites": [
+        "dailymed-clotrimazole",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระคายเฉพาะที่; หลังล้างจมูกอาจมีบวม/ไหลของสารคัดหลั่งชั่วคราว",
+      "cites": [
+        "plumbs",
+        "wikipedia-Clotrimazole"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Nasal aspergillosis (topical infusion)",
+      "route": "topical",
+      "dose": "สารละลาย 1% ล้างโพรงจมูก ~60 นาที ภายใต้การวางยาสลบ (ทำโดยสัตวแพทย์); ผิวหนัง: ครีม 1% ทาวันละ 2 ครั้ง",
+      "cites": [
+        "plumbs",
+        "dailymed-clotrimazole"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Dermatophytosis / Malassezia (topical)",
+      "route": "topical",
+      "dose": "ครีม/สารละลาย 1% ทาบริเวณรอยโรค วันละ 2 ครั้ง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-D01AC01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Clotrimazole (D01AC01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=D01AC01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-clotrimazole",
+      "type": "package-insert",
+      "title": "Clotrimazole — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=clotrimazole",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Clotrimazole",
+      "type": "monograph",
+      "title": "Clotrimazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Clotrimazole",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D01AC01",
+      "name": "Clotrimazole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

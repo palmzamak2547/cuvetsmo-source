@@ -4084,5 +4084,125 @@
     "name": "Imidazothiazole derivatives",
     "level": 4,
     "parent": "P02C"
+  },
+  "V03AF03": {
+    "code": "V03AF03",
+    "name": "Calcium folinate (leucovorin)",
+    "level": 5,
+    "parent": "V03AF"
+  },
+  "V03AB03": {
+    "code": "V03AB03",
+    "name": "Sodium calcium edetate",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "V03AB14": {
+    "code": "V03AB14",
+    "name": "Protamine",
+    "level": 5,
+    "parent": "V03AB"
+  },
+  "B05BA02": {
+    "code": "B05BA02",
+    "name": "Fat emulsion (intravenous lipid emulsion)",
+    "level": 5,
+    "parent": "B05BA"
+  },
+  "H03BA02": {
+    "code": "H03BA02",
+    "name": "Propylthiouracil",
+    "level": 5,
+    "parent": "H03BA"
+  },
+  "D01AC01": {
+    "code": "D01AC01",
+    "name": "Clotrimazole",
+    "level": 5,
+    "parent": "D01AC"
+  },
+  "D01AA01": {
+    "code": "D01AA01",
+    "name": "Nystatin",
+    "level": 5,
+    "parent": "D01AA"
+  },
+  "A07EC02": {
+    "code": "A07EC02",
+    "name": "Mesalazine",
+    "level": 5,
+    "parent": "A07EC"
+  },
+  "A07DA01": {
+    "code": "A07DA01",
+    "name": "Diphenoxylate",
+    "level": 5,
+    "parent": "A07DA"
+  },
+  "B03AA07": {
+    "code": "B03AA07",
+    "name": "Ferrous sulfate",
+    "level": 5,
+    "parent": "B03AA"
+  },
+  "B03BB01": {
+    "code": "B03BB01",
+    "name": "Folic acid",
+    "level": 5,
+    "parent": "B03BB"
+  },
+  "B02AA01": {
+    "code": "B02AA01",
+    "name": "Aminocaproic acid",
+    "level": 5,
+    "parent": "B02AA"
+  },
+  "R06AA52": {
+    "code": "R06AA52",
+    "name": "Dimenhydrinate",
+    "level": 5,
+    "parent": "R06AA"
+  },
+  "R06AE05": {
+    "code": "R06AE05",
+    "name": "Meclizine",
+    "level": 5,
+    "parent": "R06AE"
+  },
+  "V03AF": {
+    "code": "V03AF",
+    "name": "Detoxifying agents for antineoplastic treatment",
+    "level": 4,
+    "parent": "V03A"
+  },
+  "B05BA": {
+    "code": "B05BA",
+    "name": "Solutions for parenteral nutrition",
+    "level": 4,
+    "parent": "B05B"
+  },
+  "H03BA": {
+    "code": "H03BA",
+    "name": "Thiouracils",
+    "level": 4,
+    "parent": "H03B"
+  },
+  "D01AA": {
+    "code": "D01AA",
+    "name": "Antibiotics (topical antifungals)",
+    "level": 4,
+    "parent": "D01A"
+  },
+  "B03AA": {
+    "code": "B03AA",
+    "name": "Iron bivalent, oral preparations",
+    "level": 4,
+    "parent": "B03A"
+  },
+  "B03BB": {
+    "code": "B03BB",
+    "name": "Folic acid and derivatives",
+    "level": 4,
+    "parent": "B03B"
   }
 }

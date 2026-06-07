@@ -1,0 +1,134 @@
+{
+  "slug": "folic-acid",
+  "nameEn": "Folic acid (vitamin B9)",
+  "nameTh": "กรดโฟลิก (วิตามินบี 9)",
+  "class": "Hematinic — vitamin B9",
+  "mechanism": "โคแฟกเตอร์สำคัญในการสร้าง DNA และเม็ดเลือดแดง ใช้แก้/ป้องกันภาวะขาดโฟเลต (เช่น โรคลำไส้เล็ก, ระหว่างให้ยาต้านโฟเลต)",
+  "brandNamesTh": [
+    "Folic acid"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะขาดโฟเลต (โรคลำไส้เล็กดูดซึมผิดปกติ, ร่วมกับการขาด cobalamin), เสริมระหว่างให้ sulfasalazine/antifolate",
+      "cites": [
+        "dailymed-folic acid",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ไม่ใช้แทน vitamin B12 ในภาวะ B12 deficiency (อาจบดบังอาการทางระบบประสาท); วินิจฉัยสาเหตุโลหิตจางก่อน",
+      "cites": [
+        "dailymed-folic acid",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ปลอดภัยสูง พบผลข้างเคียงน้อยมาก (ส่วนเกินขับทางปัสสาวะ)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Folic_acid"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Folate deficiency / supplementation",
+      "route": "PO",
+      "dose": "~0.5–2 mg/ตัว PO วันละครั้ง (ปรับตามขนาดตัวและสาเหตุ)",
+      "cites": [
+        "plumbs",
+        "dailymed-folic acid"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Folate deficiency (with cobalamin)",
+      "route": "PO",
+      "dose": "~0.25–0.5 mg/ตัว PO วันละครั้ง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-B03BB01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Folic acid (B03BB01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=B03BB01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-folic acid",
+      "type": "package-insert",
+      "title": "Folic acid — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=folic%20acid",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Folic_acid",
+      "type": "monograph",
+      "title": "Folic acid — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Folic_acid",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "B03BB01",
+      "name": "Folic acid",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

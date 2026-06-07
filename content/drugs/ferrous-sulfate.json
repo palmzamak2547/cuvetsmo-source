@@ -1,0 +1,134 @@
+{
+  "slug": "ferrous-sulfate",
+  "nameEn": "Ferrous sulfate",
+  "nameTh": "เฟอร์รัส ซัลเฟต (ธาตุเหล็ก)",
+  "class": "Oral iron supplement — hematinic",
+  "mechanism": "ให้ธาตุเหล็กไดวาเลนต์เพื่อสร้างฮีโมโกลบิน ใช้รักษาภาวะโลหิตจางจากการขาดธาตุเหล็ก (เลือดออกเรื้อรัง, เสริมร่วม ESA)",
+  "brandNamesTh": [
+    "Ferrous sulfate"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะโลหิตจางจากการขาดธาตุเหล็ก (เลือดออกในทางเดินอาหารเรื้อรัง, พยาธิ); เสริมร่วมกับ erythropoietin/darbepoetin ในโรคไตเรื้อรัง",
+      "cites": [
+        "dailymed-ferrous sulfate",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ภาวะเหล็กเกิน (hemochromatosis); ⚠️ กินมากเกินเป็นพิษเฉียบพลัน (โดยเฉพาะลูกสัตว์ — ดูยา deferoxamine แก้พิษ)",
+      "cites": [
+        "dailymed-ferrous sulfate",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/ท้องเสียหรือท้องผูก, อุจจาระดำ, ระคายกระเพาะ",
+      "cites": [
+        "plumbs",
+        "wikipedia-Iron(II)_sulfate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Iron-deficiency anemia",
+      "route": "PO",
+      "dose": "~5–10 mg/kg ของธาตุเหล็ก elemental PO วันละครั้ง (รูป ferrous sulfate ~100–300 mg/ตัว/วันตามขนาด)",
+      "cites": [
+        "plumbs",
+        "dailymed-ferrous sulfate"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Iron-deficiency anemia",
+      "route": "PO",
+      "dose": "~50–100 mg/ตัว PO วันละครั้ง (ferrous sulfate)",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-B03AA07",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Ferrous sulfate (B03AA07)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=B03AA07&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-ferrous sulfate",
+      "type": "package-insert",
+      "title": "Ferrous sulfate — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ferrous%20sulfate",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Iron(II)_sulfate",
+      "type": "monograph",
+      "title": "Ferrous sulfate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Iron(II)_sulfate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "B03AA07",
+      "name": "Ferrous sulfate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

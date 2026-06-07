@@ -1,0 +1,134 @@
+{
+  "slug": "protamine",
+  "nameEn": "Protamine sulfate",
+  "nameTh": "โพรตามีน ซัลเฟต",
+  "class": "Heparin antagonist / antidote",
+  "mechanism": "โปรตีนประจุบวกแรงที่จับกับ heparin (ประจุลบ) เกิดสารเชิงซ้อนที่ไม่มีฤทธิ์ต้านการแข็งตัว ใช้กลับฤทธิ์ heparin เกินขนาด",
+  "brandNamesTh": [
+    "Protamine"
+  ],
+  "indications": [
+    {
+      "text": "กลับฤทธิ์ (reverse) heparin/enoxaparin ที่เกินขนาดหรือเลือดออกรุนแรง",
+      "cites": [
+        "dailymed-protamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ฉีดเร็วทำให้ความดันตก/หัวใจเต้นช้ารุนแรง — ให้ช้า ๆ; ระวังปฏิกิริยา anaphylactoid; ลดขนาดตามเวลาที่ผ่านไปหลังให้ heparin (heparin ครึ่งชีวิตสั้น)",
+      "cites": [
+        "dailymed-protamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ, หัวใจเต้นช้า, ปฏิกิริยาแพ้; เกิด rebound anticoagulation ได้ในขนาดสูง",
+      "cites": [
+        "plumbs",
+        "wikipedia-Protamine_sulfate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Heparin reversal",
+      "route": "IV",
+      "dose": "1 mg ต่อ heparin 100 U ที่ให้ครั้งสุดท้าย (ลดขนาดตามเวลาที่ผ่านไป) ฉีด IV ช้า ๆ",
+      "cites": [
+        "plumbs",
+        "dailymed-protamine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Heparin reversal",
+      "route": "IV",
+      "dose": "1 mg ต่อ heparin 100 U (ปรับลดตามเวลา) ฉีด IV ช้า ๆ",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-V03AB14",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Protamine (V03AB14)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=V03AB14&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-protamine",
+      "type": "package-insert",
+      "title": "Protamine sulfate — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=protamine",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Protamine_sulfate",
+      "type": "monograph",
+      "title": "Protamine sulfate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Protamine_sulfate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "V03AB14",
+      "name": "Protamine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
