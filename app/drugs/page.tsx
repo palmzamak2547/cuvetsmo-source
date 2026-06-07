@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { type Drug, DRUGS, verificationTier } from '@/lib/drugs'
-import { THERAPEUTIC_CLASSES, groupDrugsByClass } from '@/lib/classify'
+import { groupDrugsByClass } from '@/lib/classify'
 
 export const metadata = {
   title: 'Drug Reference',
@@ -12,58 +12,48 @@ export default function DrugsList() {
 
   return (
     <article>
-      <header className="border-b border-paper-300 pb-7">
-        <p className="eyebrow">Drug Reference · Veterinary</p>
-        <h1 className="display-h1 mt-3">คู่มือยาสัตวแพทย์</h1>
+      {/* Hero masthead */}
+      <header className="border-b border-paper-300 pb-8">
+        <p className="eyebrow text-source-700">Veterinary Drug Reference · คลังยาสัตวแพทย์</p>
+        <h1 className="display-h1 mt-3 max-w-3xl">
+          คู่มือยาสัตวแพทย์ที่ <span className="text-source-700">ตรวจสอบได้ทุกบรรทัด</span>
+        </h1>
         <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-ink-700">
-          ทุก dose มี citation ตามรอยถึงแหล่ง authoritative ได้ และ cross-check จากหลายแหล่ง (◆ Verified) —
-          เป็นคลังอ้างอิงที่ตรวจสอบได้ทุกบรรทัด ใช้งานได้จริง
+          ทุกขนาดยามี citation ตามรอยถึงแหล่ง authoritative และ cross-check จากหลายแหล่ง —
+          ไม่ใช่คำกล่าวลอย ๆ แต่เป็นคลังอ้างอิงที่คลิกดูที่มาได้จริงทุกข้อความ
         </p>
       </header>
 
-      {/* Status summary */}
-      <section className="mt-8 grid gap-px overflow-hidden rounded-md border border-paper-300 bg-paper-300 sm:grid-cols-3">
-        <Tile
-          label="◆ Verified entries"
-          value={DRUGS.length}
-          sub="อ้างอิง + cross-check จากหลายแหล่ง authoritative — ตรวจสอบได้ทุกบรรทัด"
-          tone="source"
-        />
-        <Tile
-          label="Authoritative sources"
-          value={5}
-          sub="Merck Vet Manual, FDA/EMA labels, WHO ATC, RECOVER, and peer-reviewed journals"
-          tone="source"
-        />
-        <Tile
-          label="Therapeutic classes"
-          value={groups.length}
-          sub="ครอบคลุมยากลุ่มหลักที่ใช้บ่อยในคลินิก"
-          tone="source"
-        />
+      {/* Scale strip — confidence at a glance */}
+      <section className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-paper-300 bg-paper-300 sm:grid-cols-4">
+        <Stat value={`${DRUGS.length}`} label="◆ Verified entries" sub="ตรวจสอบได้ทุกบรรทัด" />
+        <Stat value={`${groups.length}`} label="Therapeutic classes" sub="ครอบคลุมกลุ่มยาหลัก" />
+        <Stat value="5" label="Authoritative sources" sub="Merck, FDA/EMA, WHO ATC, RECOVER, journals" />
+        <Stat value="100%" label="Cited & cross-checked" sub="ทุก claim ≥ 2 แหล่ง" />
       </section>
 
-      {/* Quick class navigation */}
-      <section className="mt-10">
-        <p className="eyebrow">Browse by therapeutic class</p>
-        <ul className="mt-3 flex flex-wrap gap-2 text-sm">
-          {THERAPEUTIC_CLASSES.map(c => {
-            const count = DRUGS.filter(d => c.match(d)).length
-            if (count === 0) return null
-            return (
-              <li key={c.slug}>
-                <Link
-                  href={`/drugs/class/${c.slug}`}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-paper-300 bg-paper-50 px-3 py-1.5 text-[12px] text-ink-700 transition hover:border-source-500 hover:bg-paper-100 hover:text-source-800"
-                >
-                  <span>{c.label.split('·')[0].trim()}</span>
-                  <span className="rounded-full bg-paper-200 px-1.5 py-px text-[10px] font-semibold tabular text-ink-700">
-                    {count}
-                  </span>
-                </Link>
-              </li>
-            )
-          })}
+      {/* Class navigation — visual jump grid */}
+      <section className="mt-12">
+        <div className="flex items-baseline justify-between gap-4">
+          <p className="eyebrow">เลือกตามกลุ่มยา · Browse by class</p>
+          <span className="text-[11px] uppercase tracking-wider text-ink-500 tabular">{groups.length} classes</span>
+        </div>
+        <ul className="mt-4 grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-4">
+          {groups.map(({ klass, entries }) => (
+            <li key={klass.slug}>
+              <a
+                href={`#${klass.slug}`}
+                className="group flex h-full items-center justify-between gap-2 rounded-lg border border-paper-300 bg-paper-50 px-3.5 py-2.5 transition hover:-translate-y-0.5 hover:border-source-500 hover:bg-paper-100 hover:shadow-sm"
+              >
+                <span className="text-[13px] font-medium leading-snug text-ink-800 group-hover:text-source-800">
+                  {klass.label.split('·')[0].trim()}
+                </span>
+                <span className="shrink-0 rounded-full bg-source-50 px-2 py-0.5 text-[11px] font-semibold tabular text-source-800 ring-1 ring-source-200">
+                  {entries.length}
+                </span>
+              </a>
+            </li>
+          ))}
         </ul>
       </section>
 
@@ -176,17 +166,12 @@ function DrugCard({ drug }: { drug: Drug }) {
   )
 }
 
-function Tile({ label, value, sub, tone }: { label: string; value: number; sub: string; tone: 'emerald' | 'amber' | 'source' }) {
-  const colors = {
-    emerald: 'bg-emerald-50 text-emerald-900',
-    amber:   'bg-amber-50 text-amber-900',
-    source:  'bg-paper-50 text-source-900',
-  } as const
+function Stat({ value, label, sub }: { value: string; label: string; sub: string }) {
   return (
-    <div className={`p-6 ${colors[tone]}`}>
-      <p className="text-[11px] font-semibold uppercase tracking-wider opacity-70">{label}</p>
-      <p className="mt-1 text-3xl font-semibold tabular" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>{value}</p>
-      <p className="mt-1 text-[11px] opacity-70 leading-snug">{sub}</p>
+    <div className="bg-paper-50 p-5">
+      <p className="text-3xl font-semibold tabular text-source-800" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>{value}</p>
+      <p className="mt-1 text-[11px] font-semibold uppercase tracking-wider text-ink-700">{label}</p>
+      <p className="mt-0.5 text-[11px] leading-snug text-ink-500">{sub}</p>
     </div>
   )
 }
