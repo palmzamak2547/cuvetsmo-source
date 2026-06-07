@@ -1,0 +1,126 @@
+{
+  "slug": "betamethasone-topical",
+  "nameEn": "Betamethasone (topical)",
+  "nameTh": "เบตาเมทาโซน (ยาทาภายนอก)",
+  "class": "Topical corticosteroid — potent (group III)",
+  "mechanism": "corticosteroid แรงสำหรับใช้เฉพาะที่ ลดการอักเสบและคันของผิวหนัง/ช่องหู (มักอยู่ในสูตรผสมยาหู/ยาทา)",
+  "brandNamesTh": [
+    "Betamethasone cream",
+    "Otomax (ส่วนผสม)"
+  ],
+  "indications": [
+    {
+      "text": "อักเสบ/คันเฉพาะที่ของผิวหนังและช่องหู (otitis externa — มักรวมกับยาปฏิชีวนะ/ยาฆ่าเชื้อราในสูตรหยอดหู)",
+      "cites": [
+        "dailymed-betamethasone topical",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ระวัง/เลี่ยงเมื่อแก้วหูทะลุ (สูตรหยอดหู) และบริเวณติดเชื้อที่ยังไม่คุม; ใช้นานทำให้ผิวบาง + ดูดซึมกดต่อมหมวกไต",
+      "cites": [
+        "dailymed-betamethasone topical",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ผิวบาง/ขนร่วงเฉพาะที่, การดูดซึมเข้าระบบกดแกน HPA เมื่อใช้พื้นที่กว้าง/นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Betamethasone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Localized dermatitis / otitis externa",
+      "route": "topical",
+      "dose": "ครีม/สูตรหยอดหู ทาบาง ๆ/หยอด ทุก 12–24 ชั่วโมง ตามฉลากสูตรผสม",
+      "cites": [
+        "plumbs",
+        "dailymed-betamethasone topical"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-D07AC01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Betamethasone (topical) (D07AC01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=D07AC01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-betamethasone topical",
+      "type": "package-insert",
+      "title": "Betamethasone topical — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=betamethasone%20topical",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Betamethasone",
+      "type": "monograph",
+      "title": "Betamethasone (topical) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Betamethasone",
+      "note": "Tertiary cross-check for class + mechanism + ATC code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D07AC01",
+      "name": "Betamethasone (topical)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

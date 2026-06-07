@@ -1,0 +1,125 @@
+{
+  "slug": "hydrocortisone-aceponate",
+  "nameEn": "Hydrocortisone aceponate",
+  "nameTh": "ไฮโดรคอร์ติโซน อะซีโพเนต",
+  "class": "Topical corticosteroid — diester (atopic dermatitis spray)",
+  "mechanism": "corticosteroid แบบ diester ที่ออกฤทธิ์ต้านการอักเสบเฉพาะที่แล้วถูกสลายในผิวหนัง (soft steroid) จึงดูดซึมเข้าระบบน้อย เหมาะกับโรคผิวหนังภูมิแพ้ในสุนัข",
+  "brandNamesTh": [
+    "Cortavance"
+  ],
+  "indications": [
+    {
+      "text": "อาการอักเสบและคันจากโรคผิวหนังภูมิแพ้ (atopic dermatitis) ในสุนัข — รูปสเปรย์พ่นเฉพาะที่",
+      "cites": [
+        "dailymed-hydrocortisone aceponate",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "เลี่ยงบริเวณแผลเปิด/ติดเชื้อที่ยังไม่คุม; ใช้เฉพาะที่ตามระยะเวลาที่กำหนด (ลดเสี่ยงผิวบาง)",
+      "cites": [
+        "dailymed-hydrocortisone aceponate",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ผิวบาง/ขนร่วงเฉพาะที่หากใช้นานเกิน; ดูดซึมเข้าระบบต่ำ (soft steroid)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Hydrocortisone_aceponate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Atopic dermatitis (localized)",
+      "route": "topical",
+      "dose": "สเปรย์ 0.0584% พ่นบริเวณรอยโรค วันละครั้ง นาน ~7 วัน (ปรับตามการตอบสนอง)",
+      "cites": [
+        "plumbs",
+        "dailymed-hydrocortisone aceponate"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-D07AC16",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Hydrocortisone aceponate (D07AC16)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=D07AC16&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-hydrocortisone aceponate",
+      "type": "package-insert",
+      "title": "Hydrocortisone aceponate (Cortavance) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=hydrocortisone%20aceponate",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Hydrocortisone_aceponate",
+      "type": "monograph",
+      "title": "Hydrocortisone aceponate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Hydrocortisone_aceponate",
+      "note": "Tertiary cross-check for class + mechanism + ATC code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D07AC16",
+      "name": "Hydrocortisone aceponate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

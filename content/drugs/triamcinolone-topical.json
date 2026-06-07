@@ -1,0 +1,126 @@
+{
+  "slug": "triamcinolone-topical",
+  "nameEn": "Triamcinolone (topical)",
+  "nameTh": "ไตรแอมซิโนโลน (ยาทาภายนอก)",
+  "class": "Topical corticosteroid — moderately potent (group II)",
+  "mechanism": "corticosteroid ความแรงปานกลางสำหรับใช้เฉพาะที่ ลดการอักเสบของผิวหนัง/ช่องหู มักอยู่ในสูตรผสม (เช่น Panalog/Animax)",
+  "brandNamesTh": [
+    "Panalog (ส่วนผสม)",
+    "Animax (ส่วนผสม)"
+  ],
+  "indications": [
+    {
+      "text": "อักเสบ/คันเฉพาะที่ของผิวหนังและช่องหู — มักเป็นสูตรผสมกับ nystatin + neomycin + thiostrepton (Panalog)",
+      "cites": [
+        "dailymed-triamcinolone topical",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ระวังแก้วหูทะลุ (สูตรหู); เลี่ยงบริเวณติดเชื้อที่ยังไม่คุม; ใช้นานผิวบาง + กดต่อมหมวกไต",
+      "cites": [
+        "dailymed-triamcinolone topical",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ผิวบาง/ขนร่วงเฉพาะที่; การดูดซึมเข้าระบบกด HPA",
+      "cites": [
+        "plumbs",
+        "wikipedia-Triamcinolone_acetonide"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Localized dermatitis / otitis (combination)",
+      "route": "topical",
+      "dose": "ครีม/ointment สูตรผสม ทาบาง ๆ ทุก 12–24 ชั่วโมง ตามฉลาก",
+      "cites": [
+        "plumbs",
+        "dailymed-triamcinolone topical"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-D07AB09",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Triamcinolone (topical) (D07AB09)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=D07AB09&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-triamcinolone topical",
+      "type": "package-insert",
+      "title": "Triamcinolone acetonide topical — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=triamcinolone%20topical",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Triamcinolone_acetonide",
+      "type": "monograph",
+      "title": "Triamcinolone acetonide (topical) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Triamcinolone_acetonide",
+      "note": "Tertiary cross-check for class + mechanism + ATC code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "D07AB09",
+      "name": "Triamcinolone (topical)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

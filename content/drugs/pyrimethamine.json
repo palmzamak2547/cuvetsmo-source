@@ -1,0 +1,134 @@
+{
+  "slug": "pyrimethamine",
+  "nameEn": "Pyrimethamine",
+  "nameTh": "ไพริเมทามีน",
+  "class": "Antiprotozoal — diaminopyrimidine (folate antagonist)",
+  "mechanism": "ยับยั้ง dihydrofolate reductase ของโปรโตซัว ขัดขวางการสร้างกรดโฟลิก ใช้รักษา toxoplasmosis, neosporosis และ EPM (มักร่วม sulfonamide แบบ synergistic)",
+  "brandNamesTh": [
+    "Daraprim"
+  ],
+  "indications": [
+    {
+      "text": "โรค Toxoplasma, Neospora ในสุนัข/แมว และ EPM ในม้า — ให้ร่วม sulfonamide (potentiated) และเสริม folinic acid",
+      "cites": [
+        "dailymed-pyrimethamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ กดไขกระดูก (anemia/leukopenia/thrombocytopenia จากการต้านโฟเลต) — เสริม folinic acid (leucovorin) และติดตาม CBC; ห้ามในสัตว์ตั้งท้อง (teratogenic)",
+      "cites": [
+        "dailymed-pyrimethamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก, เบื่ออาหาร/อาเจียน, ซึม; ลดลงได้ด้วยการเสริม folinic acid",
+      "cites": [
+        "plumbs",
+        "wikipedia-Pyrimethamine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Toxoplasmosis / neosporosis (with sulfonamide)",
+      "route": "PO",
+      "dose": "0.5–1 mg/kg PO วันละครั้ง ร่วม sulfonamide + folinic acid (นานหลายสัปดาห์)",
+      "cites": [
+        "plumbs",
+        "dailymed-pyrimethamine"
+      ]
+    },
+    {
+      "species": "equine",
+      "indication": "EPM (with sulfadiazine)",
+      "route": "PO",
+      "dose": "1 mg/kg PO วันละครั้ง ร่วม sulfadiazine นานหลายเดือน",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-P01BD01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Pyrimethamine (P01BD01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=P01BD01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-pyrimethamine",
+      "type": "package-insert",
+      "title": "Pyrimethamine — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=pyrimethamine",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Pyrimethamine",
+      "type": "monograph",
+      "title": "Pyrimethamine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Pyrimethamine",
+      "note": "Tertiary cross-check for class + mechanism + ATC code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "P01BD01",
+      "name": "Pyrimethamine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

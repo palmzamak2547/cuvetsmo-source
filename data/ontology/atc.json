@@ -4708,5 +4708,161 @@
     "name": "Fourth-generation cephalosporins",
     "level": 4,
     "parent": "J01D"
+  },
+  "D07AC16": {
+    "code": "D07AC16",
+    "name": "Hydrocortisone aceponate",
+    "level": 5,
+    "parent": "D07AC"
+  },
+  "D07AC01": {
+    "code": "D07AC01",
+    "name": "Betamethasone (topical)",
+    "level": 5,
+    "parent": "D07AC"
+  },
+  "D07AC13": {
+    "code": "D07AC13",
+    "name": "Mometasone (topical)",
+    "level": 5,
+    "parent": "D07AC"
+  },
+  "D07AB09": {
+    "code": "D07AB09",
+    "name": "Triamcinolone (topical)",
+    "level": 5,
+    "parent": "D07AB"
+  },
+  "D07AA02": {
+    "code": "D07AA02",
+    "name": "Hydrocortisone (topical)",
+    "level": 5,
+    "parent": "D07AA"
+  },
+  "J04AB02": {
+    "code": "J04AB02",
+    "name": "Rifampicin (rifampin)",
+    "level": 5,
+    "parent": "J04AB"
+  },
+  "P01BD01": {
+    "code": "P01BD01",
+    "name": "Pyrimethamine",
+    "level": 5,
+    "parent": "P01BD"
+  },
+  "H04AA01": {
+    "code": "H04AA01",
+    "name": "Glucagon",
+    "level": 5,
+    "parent": "H04AA"
+  },
+  "M01CC01": {
+    "code": "M01CC01",
+    "name": "Penicillamine",
+    "level": 5,
+    "parent": "M01CC"
+  },
+  "N04BD01": {
+    "code": "N04BD01",
+    "name": "Selegiline",
+    "level": 5,
+    "parent": "N04BD"
+  },
+  "D07A": {
+    "code": "D07A",
+    "name": "Corticosteroids, plain (dermatological)",
+    "level": 3,
+    "parent": "D07"
+  },
+  "D07": {
+    "code": "D07",
+    "name": "Corticosteroids, dermatological preparations",
+    "level": 2,
+    "parent": "D"
+  },
+  "D07AA": {
+    "code": "D07AA",
+    "name": "Corticosteroids, weak (group I)",
+    "level": 4,
+    "parent": "D07A"
+  },
+  "D07AB": {
+    "code": "D07AB",
+    "name": "Corticosteroids, moderately potent (group II)",
+    "level": 4,
+    "parent": "D07A"
+  },
+  "D07AC": {
+    "code": "D07AC",
+    "name": "Corticosteroids, potent (group III)",
+    "level": 4,
+    "parent": "D07A"
+  },
+  "J04": {
+    "code": "J04",
+    "name": "Antimycobacterials",
+    "level": 2,
+    "parent": "J"
+  },
+  "J04A": {
+    "code": "J04A",
+    "name": "Drugs for treatment of tuberculosis",
+    "level": 3,
+    "parent": "J04"
+  },
+  "J04AB": {
+    "code": "J04AB",
+    "name": "Antibiotics (antimycobacterial)",
+    "level": 4,
+    "parent": "J04A"
+  },
+  "P01B": {
+    "code": "P01B",
+    "name": "Antimalarials / other antiprotozoals",
+    "level": 3,
+    "parent": "P01"
+  },
+  "P01BD": {
+    "code": "P01BD",
+    "name": "Diaminopyrimidines",
+    "level": 4,
+    "parent": "P01B"
+  },
+  "H04": {
+    "code": "H04",
+    "name": "Pancreatic hormones",
+    "level": 2,
+    "parent": "H"
+  },
+  "H04A": {
+    "code": "H04A",
+    "name": "Glycogenolytic hormones",
+    "level": 3,
+    "parent": "H04"
+  },
+  "H04AA": {
+    "code": "H04AA",
+    "name": "Glycogenolytic hormones",
+    "level": 4,
+    "parent": "H04A"
+  },
+  "M01C": {
+    "code": "M01C",
+    "name": "Specific antirheumatic agents",
+    "level": 3,
+    "parent": "M01"
+  },
+  "M01CC": {
+    "code": "M01CC",
+    "name": "Penicillamine and similar agents",
+    "level": 4,
+    "parent": "M01C"
+  },
+  "N04BD": {
+    "code": "N04BD",
+    "name": "Monoamine oxidase B inhibitors",
+    "level": 4,
+    "parent": "N04B"
   }
 }

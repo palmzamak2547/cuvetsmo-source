@@ -60,9 +60,11 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'antibiotics',
     label: 'Antibiotics · ยาต้านแบคทีเรีย',
-    subtitle: 'β-lactams, tetracyclines, fluoroquinolones, nitroimidazoles',
+    subtitle: 'β-lactams, tetracyclines, fluoroquinolones, macrolides, sulfonamides, antimycobacterials',
     order: 40,
-    match: startsWithAtc('J01', 'P01AB'),
+    // J04 = antimycobacterials (rifampicin), grouped under antibacterials for the
+    // veterinary catalog (Rhodococcus, staph adjunct). Disjoint from J01/J02/J05.
+    match: startsWithAtc('J01', 'P01AB', 'J04'),
   },
   {
     slug: 'antifungals',
@@ -74,9 +76,11 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'antiparasitics',
     label: 'Antiparasitics · ยาฆ่าพยาธิ',
-    subtitle: 'Anthelmintics, endectocides, isoxazolines, anticoccidials',
+    subtitle: 'Anthelmintics, endectocides, isoxazolines, anticoccidials, antiprotozoals',
     order: 60,
-    match: startsWithAtc('P02', 'P51', 'P53', 'P54'),
+    // P01B = other antiprotozoals (pyrimethamine, atovaquone). Disjoint from
+    // antibiotics' P01AB (P01AB ≠ P01B) so order vs antibiotics is safe.
+    match: startsWithAtc('P02', 'P51', 'P53', 'P54', 'P01B'),
   },
   {
     slug: 'gi',
@@ -162,10 +166,13 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   },
   {
     slug: 'diabetes',
-    label: 'Diabetes · ยาเบาหวาน',
-    subtitle: 'Insulins and analogues',
+    label: 'Diabetes & glucose regulation · ยาเบาหวานและการควบคุมน้ำตาล',
+    subtitle: 'Insulins and analogues + glucose-elevating pancreatic hormones (glucagon)',
     order: 130,
-    match: startsWithAtc('A10'),
+    // A10 = drugs used in diabetes (insulins). H04 = pancreatic hormones
+    // (glucagon — glucose-elevating, BB/CCB-overdose antidote). H04 disjoint
+    // from H01/H02/H03 used by other endocrine classes.
+    match: startsWithAtc('A10', 'H04'),
   },
   {
     slug: 'hematology',
@@ -180,9 +187,12 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   {
     slug: 'antidotes',
     label: 'Antidotes · ยาต้าน/แก้พิษ',
-    subtitle: 'Opioid antagonists, α2-antagonist reversal, vitamin K, other antidotes',
+    subtitle: 'Opioid antagonists, α2-antagonist reversal, vitamin K, chelators, other antidotes',
     order: 150,
-    match: startsWithAtc('V03', 'B02BA'),
+    // M01CC = penicillamine (copper/lead chelator — used as an antidote in vet
+    // med: copper hepatopathy, heavy-metal toxicosis). M01CC ≠ M01A so nsaids
+    // (earlier in array) never grabs it; M03 muscle-relaxants is after antidotes.
+    match: startsWithAtc('V03', 'B02BA', 'M01CC'),
   },
   {
     slug: 'muscle-relaxants',
@@ -205,9 +215,10 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     subtitle: 'Antidepressants used as appetite stimulants in vet (mirtazapine), NMDA pain adjuncts (amantadine), other psychotropics',
     order: 170,
     // N06 psychoanaleptics + N04BB (amantadine — NMDA antagonist used as a
-    // chronic/neuropathic pain adjunct). N04BB is disjoint from apomorphine's
+    // chronic/neuropathic pain adjunct) + N04BD (selegiline — MAO-B inhibitor for
+    // canine cognitive dysfunction). N04BB/N04BD are disjoint from apomorphine's
     // N04BC (toxicology-emesis).
-    match: startsWithAtc('N06', 'N04BB'),
+    match: startsWithAtc('N06', 'N04BB', 'N04BD'),
   },
   {
     slug: 'respiratory',
@@ -262,6 +273,17 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
     // (isotretinoin for sebaceous adenitis). Disjoint from D01 antifungals +
     // D06/D08 antiseptics.
     match: startsWithAtc('D11', 'D10'),
+  },
+  {
+    slug: 'topical-corticosteroids',
+    label: 'Topical corticosteroids · คอร์ติโคสเตียรอยด์ทาภายนอก',
+    subtitle: 'Glucocorticoid creams, sprays + otic/derm topicals — atopy, otitis, localized inflammation',
+    order: 216,
+    // D07 = corticosteroids, dermatological preparations (topical hydrocortisone
+    // aceponate, betamethasone, mometasone, triamcinolone topical). Disjoint from
+    // D01 (antifungals), D06/D08 (antiseptics), D10/D11 (dermatology), D11/S01
+    // (systemic + ophthalmic steroids live elsewhere).
+    match: startsWithAtc('D07'),
   },
   {
     slug: 'antivirals',

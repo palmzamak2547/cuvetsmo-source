@@ -1,0 +1,134 @@
+{
+  "slug": "rifampicin",
+  "nameEn": "Rifampicin (rifampin)",
+  "nameTh": "ไรแฟมพิซิน (ไรแฟมพิน)",
+  "class": "Antimycobacterial / antibacterial (rifamycin)",
+  "mechanism": "ยับยั้ง DNA-dependent RNA polymerase ของแบคทีเรีย ฤทธิ์ฆ่าเชื้อ ซึมเข้าเซลล์/ฝีได้ดี ใช้กับ Rhodococcus และ staph ลึก — ต้องใช้ร่วมยาอื่นเสมอ (ดื้อยาเร็ว)",
+  "brandNamesTh": [
+    "Rifadin"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อ Rhodococcus equi ในลูกม้า (ร่วม macrolide), staphylococcal pyoderma ลึก/granuloma (adjunct), และ mycobacterial infection — ใช้ร่วมยาอื่นเสมอ",
+      "cites": [
+        "dailymed-rifampin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามใช้เดี่ยว (เกิดดื้อยาเร็วมาก); พิษต่อตับ (ติดตามเอนไซม์ตับ); เป็น enzyme inducer แรง (CYP450 — drug interaction มาก)",
+      "cites": [
+        "dailymed-rifampin",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พิษตับ, สารคัดหลั่ง/ปัสสาวะ/น้ำตาเป็นสีส้ม-แดง (ปกติ), คลื่นไส้/เบื่ออาหาร, drug interaction จากการเหนี่ยวนำเอนไซม์",
+      "cites": [
+        "plumbs",
+        "wikipedia-Rifampicin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "equine",
+      "indication": "Rhodococcus equi (foal, with macrolide)",
+      "route": "PO",
+      "dose": "5–10 mg/kg PO ทุก 12–24 ชั่วโมง ร่วมกับ macrolide (เช่น clarithromycin/azithromycin)",
+      "cites": [
+        "plumbs",
+        "dailymed-rifampin"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Deep staphylococcal pyoderma / granuloma (adjunct)",
+      "route": "PO",
+      "dose": "5–10 mg/kg PO ทุก 12–24 ชั่วโมง ร่วมยาปฏิชีวนะตัวอื่น — ติดตามตับ",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J04AB02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Rifampicin (rifampin) (J04AB02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J04AB02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-rifampin",
+      "type": "package-insert",
+      "title": "Rifampin — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=rifampin",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Rifampicin",
+      "type": "monograph",
+      "title": "Rifampicin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Rifampicin",
+      "note": "Tertiary cross-check for class + mechanism + ATC code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J04AB02",
+      "name": "Rifampicin (rifampin)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

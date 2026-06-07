@@ -1,0 +1,126 @@
+{
+  "slug": "penicillamine",
+  "nameEn": "Penicillamine",
+  "nameTh": "เพนิซิลลามีน",
+  "class": "Chelating agent / antidote (copper, lead, cystine)",
+  "mechanism": "จับ (chelate) ทองแดง ตะกั่ว และโลหะหนัก เกิดสารประกอบที่ขับออกทางปัสสาวะ และจับ cystine ลดการเกิดนิ่ว ใช้รักษาภาวะทองแดงสะสมที่ตับและพิษโลหะ",
+  "brandNamesTh": [
+    "Cuprimine",
+    "D-Penamine"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะทองแดงสะสมที่ตับ (copper-associated hepatopathy เช่นใน Bedlington Terrier), พิษตะกั่ว/ทองแดง และนิ่ว cystine ในสุนัข",
+      "cites": [
+        "dailymed-penicillamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ penicillin (cross-sensitivity เป็นไปได้); ⚠️ ให้ตอนท้องว่าง (อาหารลดการดูดซึม); อาเจียนบ่อย — แบ่งให้/ลดขนาดช่วยได้; ตั้งท้อง (teratogenic)",
+      "cites": [
+        "dailymed-penicillamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/เบื่ออาหาร (พบบ่อย), ไข้/ผื่น, โปรตีนรั่วในปัสสาวะ, กดไขกระดูกเมื่อใช้นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Penicillamine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Copper-associated hepatopathy / chelation",
+      "route": "PO",
+      "dose": "10–15 mg/kg PO ทุก 12 ชั่วโมง ตอนท้องว่าง (นานหลายเดือนสำหรับ copper storage)",
+      "cites": [
+        "plumbs",
+        "dailymed-penicillamine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-M01CC01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Penicillamine (M01CC01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01CC01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-penicillamine",
+      "type": "package-insert",
+      "title": "Penicillamine — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=penicillamine",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Penicillamine",
+      "type": "monograph",
+      "title": "Penicillamine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Penicillamine",
+      "note": "Tertiary cross-check for class + mechanism + ATC code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "M01CC01",
+      "name": "Penicillamine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
