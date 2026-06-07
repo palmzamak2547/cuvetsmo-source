@@ -1,0 +1,134 @@
+{
+  "slug": "ipratropium",
+  "nameEn": "Ipratropium bromide",
+  "nameTh": "ไอปราโทรเปียม โบรไมด์",
+  "class": "Inhaled anticholinergic bronchodilator",
+  "mechanism": "ปิดกั้น muscarinic receptor ในหลอดลม ลด bronchoconstriction ที่ผ่าน vagal tone ใช้พ่นสูดเป็นยาขยายหลอดลมในโรคหืดแมวร่วมกับ β2-agonist",
+  "brandNamesTh": [
+    "Atrovent"
+  ],
+  "indications": [
+    {
+      "text": "โรคหืดแมว/หลอดลมอักเสบ (feline asthma, chronic bronchitis) — พ่นสูดร่วมกับ β2-agonist เพื่อขยายหลอดลม",
+      "cites": [
+        "dailymed-ipratropium",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในต้อหินมุมปิด; เป็นยาขยายหลอดลมแบบควบคุม ไม่ใช่ยา rescue เดี่ยว (ออกฤทธิ์ช้ากว่า β2-agonist)",
+      "cites": [
+        "dailymed-ipratropium",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ปากแห้ง, ไอจากการพ่น; การดูดซึมเข้าระบบต่ำจึงผลข้างเคียงทั่วร่างน้อย",
+      "cites": [
+        "plumbs",
+        "wikipedia-Ipratropium_bromide"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Asthma / bronchoconstriction",
+      "route": "inhaled",
+      "dose": "พ่นสูดผ่าน spacer (MDI) ตามโปรโตคอล หรือ nebulize ~250 mcg ทุก 6–8 ชั่วโมง (มักใช้คู่ albuterol)",
+      "cites": [
+        "plumbs",
+        "dailymed-ipratropium"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Bronchoconstriction",
+      "route": "inhaled",
+      "dose": "nebulize/MDI ผ่าน spacer ตามอาการ (adjunct)",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-R03BB01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Ipratropium bromide (R03BB01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=R03BB01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-ipratropium",
+      "type": "package-insert",
+      "title": "Ipratropium — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ipratropium",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Ipratropium_bromide",
+      "type": "monograph",
+      "title": "Ipratropium bromide — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ipratropium_bromide",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "R03BB01",
+      "name": "Ipratropium bromide",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

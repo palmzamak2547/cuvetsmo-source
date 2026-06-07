@@ -1,0 +1,135 @@
+{
+  "slug": "clonazepam",
+  "nameEn": "Clonazepam",
+  "nameTh": "โคลนาซีแพม",
+  "class": "Benzodiazepine anticonvulsant / anxiolytic",
+  "mechanism": "เสริมการทำงานของ GABA-A receptor เพิ่ม chloride influx กดการชักและความวิตกกังวล ใช้เป็นยากันชักเสริมและจัดการพฤติกรรม",
+  "brandNamesTh": [
+    "Rivotril",
+    "Klonopin"
+  ],
+  "indications": [
+    {
+      "text": "ยากันชักเสริม (adjunct/cluster seizure) และจัดการความวิตกกังวล/โรคกลัวเสียง (noise phobia) ในสุนัขและแมว",
+      "cites": [
+        "dailymed-clonazepam",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "เกิดการดื้อยา (tolerance) ต่อฤทธิ์กันชักเมื่อใช้ต่อเนื่อง; ⚠️ ระวังตับในแมว (กลุ่ม benzodiazepine สัมพันธ์กับ hepatic necrosis); ห้ามหยุดทันที (withdrawal seizure)",
+      "cites": [
+        "dailymed-clonazepam",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ง่วงซึม, เดินเซ (ataxia), กระตุ้น paradoxical excitement, เพิ่มความอยากอาหาร",
+      "cites": [
+        "plumbs",
+        "wikipedia-Clonazepam"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Adjunct seizure / anxiety",
+      "route": "PO",
+      "dose": "0.1–0.5 mg/kg PO ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "plumbs",
+        "dailymed-clonazepam"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Anxiety / adjunct seizure",
+      "route": "PO",
+      "dose": "0.05–0.2 mg/kg PO ทุก 12 ชั่วโมง — ⚠️ เฝ้าระวังตับ",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-N03AE01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Clonazepam (N03AE01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N03AE01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-clonazepam",
+      "type": "package-insert",
+      "title": "Clonazepam — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=clonazepam",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Clonazepam",
+      "type": "monograph",
+      "title": "Clonazepam — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Clonazepam",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "N03AE01",
+      "name": "Clonazepam",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

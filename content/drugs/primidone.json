@@ -1,0 +1,125 @@
+{
+  "slug": "primidone",
+  "nameEn": "Primidone",
+  "nameTh": "ไพรมิโดน",
+  "class": "Barbiturate-class anticonvulsant (phenobarbital prodrug)",
+  "mechanism": "ถูกเมตาบอไลต์เป็น phenobarbital (และ PEMA) เป็นหลัก จึงออกฤทธิ์กันชักผ่าน GABA เหมือน phenobarbital",
+  "brandNamesTh": [
+    "Mysoline"
+  ],
+  "indications": [
+    {
+      "text": "โรคลมชัก (epilepsy) ในสุนัข — ปัจจุบันใช้น้อยกว่า phenobarbital โดยตรงเพราะเสี่ยงตับมากกว่า",
+      "cites": [
+        "dailymed-primidone",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ พิษต่อตับสูงกว่าการให้ phenobarbital ตรง ๆ (เพราะต้องผ่านตับ); ห้ามในแมว (ไวต่อ barbiturate); ห้ามหยุดทันที",
+      "cites": [
+        "dailymed-primidone",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ง่วงซึม, เดินเซ, กินน้ำ/ปัสสาวะ/อาหารมาก (PU/PD/polyphagia), เอนไซม์ตับขึ้น/ตับเสียหายเมื่อใช้นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Primidone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Epilepsy",
+      "route": "PO",
+      "dose": "8–20 mg/kg/วัน PO แบ่งให้ทุก 8–12 ชั่วโมง (ปรับตามระดับ phenobarbital ในเลือดและการตอบสนอง)",
+      "cites": [
+        "plumbs",
+        "dailymed-primidone"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-N03AA03",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Primidone (N03AA03)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N03AA03&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-primidone",
+      "type": "package-insert",
+      "title": "Primidone — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=primidone",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Primidone",
+      "type": "monograph",
+      "title": "Primidone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Primidone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "N03AA03",
+      "name": "Primidone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

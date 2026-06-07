@@ -1,0 +1,125 @@
+{
+  "slug": "salmeterol",
+  "nameEn": "Salmeterol",
+  "nameTh": "แซลเมเทอรอล",
+  "class": "Long-acting β2-agonist (LABA, inhaled)",
+  "mechanism": "กระตุ้น β2-adrenergic ในหลอดลมแบบออกฤทธิ์นาน คลายกล้ามเนื้อหลอดลม ใช้คุมอาการหืดแมวเป็นยาควบคุม (maintenance) ไม่ใช่ยา rescue",
+  "brandNamesTh": [
+    "Serevent"
+  ],
+  "indications": [
+    {
+      "text": "ควบคุมระยะยาวของโรคหืดแมว/หลอดลมอักเสบเรื้อรัง (maintenance) — พ่นสูดผ่าน spacer",
+      "cites": [
+        "dailymed-salmeterol",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ไม่ใช้เป็นยา rescue (ออกฤทธิ์ช้า) และไม่ใช้เดี่ยวโดยไม่มี corticosteroid สูดร่วม; ระวังในโรคหัวใจ",
+      "cites": [
+        "dailymed-salmeterol",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นเร็ว, สั่น เมื่อดูดซึมเข้าระบบ; ใช้เกินอาจ down-regulate receptor",
+      "cites": [
+        "plumbs",
+        "wikipedia-Salmeterol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Asthma maintenance (controller)",
+      "route": "inhaled",
+      "dose": "MDI 1 puff (25 mcg) พ่นผ่าน spacer (AeroKat) ทุก 12 ชั่วโมง — ใช้คู่ inhaled corticosteroid",
+      "cites": [
+        "plumbs",
+        "dailymed-salmeterol"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-R03AC12",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Salmeterol (R03AC12)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=R03AC12&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-salmeterol",
+      "type": "package-insert",
+      "title": "Salmeterol — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=salmeterol",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Salmeterol",
+      "type": "monograph",
+      "title": "Salmeterol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Salmeterol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "R03AC12",
+      "name": "Salmeterol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

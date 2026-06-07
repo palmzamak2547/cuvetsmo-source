@@ -1,0 +1,135 @@
+{
+  "slug": "lufenuron",
+  "nameEn": "Lufenuron",
+  "nameTh": "ลูเฟนูรอน",
+  "class": "Insect growth regulator — benzoylurea (chitin synthesis inhibitor)",
+  "mechanism": "ยับยั้งการสร้าง chitin ทำให้ไข่หมัดฟักไม่ได้และตัวอ่อนลอกคราบไม่ได้ ตัดวงจรชีวิตหมัด — ไม่ฆ่าหมัดตัวเต็มวัย จึงเป็นยาคุมประชากร",
+  "brandNamesTh": [
+    "Program",
+    "Sentinel (ส่วนผสม)"
+  ],
+  "indications": [
+    {
+      "text": "ควบคุมประชากรหมัดในสิ่งแวดล้อม (ตัดวงจร — ไข่/ตัวอ่อนตาย) ในสุนัขและแมว; ใช้คู่ยาฆ่าหมัดตัวเต็มวัย",
+      "cites": [
+        "dailymed-lufenuron",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ไม่ฆ่าหมัดตัวเต็มวัยที่มีอยู่ (ต้องใช้ adulticide ร่วมช่วงแรก); ให้พร้อมอาหารเพื่อการดูดซึม",
+      "cites": [
+        "dailymed-lufenuron",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ปลอดภัยสูง; พบผลข้างเคียงน้อยมาก",
+      "cites": [
+        "plumbs",
+        "wikipedia-Lufenuron"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Flea population control (IGR)",
+      "route": "PO",
+      "dose": "10 mg/kg PO เดือนละครั้ง (พร้อมอาหาร)",
+      "cites": [
+        "plumbs",
+        "dailymed-lufenuron"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Flea population control (IGR)",
+      "route": "PO",
+      "dose": "30 mg/kg PO เดือนละครั้ง (พร้อมอาหาร)",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QP53BC01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/ATCvet Index — Lufenuron (QP53BC01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QP53BC01&showdescription=no",
+      "note": "WHO ATC/ATCvet classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-lufenuron",
+      "type": "package-insert",
+      "title": "Lufenuron (Program) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lufenuron",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Lufenuron",
+      "type": "monograph",
+      "title": "Lufenuron — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Lufenuron",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP53BC01",
+      "name": "Lufenuron",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

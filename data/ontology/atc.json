@@ -4408,5 +4408,203 @@
     "name": "Imidazole and triazole derivatives (veterinary topical antifungal)",
     "level": 4,
     "parent": "QD01A"
+  },
+  "R03BB01": {
+    "code": "R03BB01",
+    "name": "Ipratropium bromide",
+    "level": 5,
+    "parent": "R03BB"
+  },
+  "R03AC12": {
+    "code": "R03AC12",
+    "name": "Salmeterol",
+    "level": 5,
+    "parent": "R03AC"
+  },
+  "R03BC01": {
+    "code": "R03BC01",
+    "name": "Cromoglicic acid (cromolyn)",
+    "level": 5,
+    "parent": "R03BC"
+  },
+  "R03DC03": {
+    "code": "R03DC03",
+    "name": "Montelukast",
+    "level": 5,
+    "parent": "R03DC"
+  },
+  "N03AE01": {
+    "code": "N03AE01",
+    "name": "Clonazepam",
+    "level": 5,
+    "parent": "N03AE"
+  },
+  "N03AA03": {
+    "code": "N03AA03",
+    "name": "Primidone",
+    "level": 5,
+    "parent": "N03AA"
+  },
+  "C02AC01": {
+    "code": "C02AC01",
+    "name": "Clonidine",
+    "level": 5,
+    "parent": "C02AC"
+  },
+  "C09CA01": {
+    "code": "C09CA01",
+    "name": "Losartan",
+    "level": 5,
+    "parent": "C09CA"
+  },
+  "N06AA12": {
+    "code": "N06AA12",
+    "name": "Doxepin",
+    "level": 5,
+    "parent": "N06AA"
+  },
+  "A11HA03": {
+    "code": "A11HA03",
+    "name": "Tocopherol (vitamin E)",
+    "level": 5,
+    "parent": "A11HA"
+  },
+  "A11GA01": {
+    "code": "A11GA01",
+    "name": "Ascorbic acid (vitamin C)",
+    "level": 5,
+    "parent": "A11GA"
+  },
+  "A11HA02": {
+    "code": "A11HA02",
+    "name": "Pyridoxine (vitamin B6)",
+    "level": 5,
+    "parent": "A11HA"
+  },
+  "R03BB": {
+    "code": "R03BB",
+    "name": "Anticholinergics (inhalant)",
+    "level": 4,
+    "parent": "R03B"
+  },
+  "R03BC": {
+    "code": "R03BC",
+    "name": "Antiallergic agents, excl. corticosteroids",
+    "level": 4,
+    "parent": "R03B"
+  },
+  "R03DC": {
+    "code": "R03DC",
+    "name": "Leukotriene receptor antagonists",
+    "level": 4,
+    "parent": "R03D"
+  },
+  "N03AE": {
+    "code": "N03AE",
+    "name": "Benzodiazepine derivatives (antiepileptic)",
+    "level": 4,
+    "parent": "N03A"
+  },
+  "C02AC": {
+    "code": "C02AC",
+    "name": "Imidazoline receptor agonists",
+    "level": 4,
+    "parent": "C02A"
+  },
+  "C02A": {
+    "code": "C02A",
+    "name": "Antiadrenergic agents, centrally acting",
+    "level": 3,
+    "parent": "C02"
+  },
+  "A11HA": {
+    "code": "A11HA",
+    "name": "Other plain vitamin preparations",
+    "level": 4,
+    "parent": "A11H"
+  },
+  "A11H": {
+    "code": "A11H",
+    "name": "Other plain vitamin preparations",
+    "level": 3,
+    "parent": "A11"
+  },
+  "A11GA": {
+    "code": "A11GA",
+    "name": "Ascorbic acid (vitamin C), plain",
+    "level": 4,
+    "parent": "A11G"
+  },
+  "A11G": {
+    "code": "A11G",
+    "name": "Ascorbic acid (vitamin C), incl. combinations",
+    "level": 3,
+    "parent": "A11"
+  },
+  "QP53AC04": {
+    "code": "QP53AC04",
+    "name": "Permethrin",
+    "level": 5,
+    "parent": "QP53AC"
+  },
+  "QP53BX02": {
+    "code": "QP53BX02",
+    "name": "Nitenpyram",
+    "level": 5,
+    "parent": "QP53BX"
+  },
+  "QP53BC01": {
+    "code": "QP53BC01",
+    "name": "Lufenuron",
+    "level": 5,
+    "parent": "QP53BC"
+  },
+  "QP54AA03": {
+    "code": "QP54AA03",
+    "name": "Doramectin",
+    "level": 5,
+    "parent": "QP54AA"
+  },
+  "D01AE13": {
+    "code": "D01AE13",
+    "name": "Selenium disulfide",
+    "level": 5,
+    "parent": "D01AE"
+  },
+  "D10AE01": {
+    "code": "D10AE01",
+    "name": "Benzoyl peroxide",
+    "level": 5,
+    "parent": "D10AE"
+  },
+  "QP53AC": {
+    "code": "QP53AC",
+    "name": "Pyrethrines and pyrethroids",
+    "level": 4,
+    "parent": "QP53A"
+  },
+  "QP53BC": {
+    "code": "QP53BC",
+    "name": "Benzoylureas (insect growth regulators)",
+    "level": 4,
+    "parent": "QP53B"
+  },
+  "D01AE": {
+    "code": "D01AE",
+    "name": "Other antifungals for topical use",
+    "level": 4,
+    "parent": "D01A"
+  },
+  "D10AE": {
+    "code": "D10AE",
+    "name": "Peroxides (anti-acne)",
+    "level": 4,
+    "parent": "D10A"
+  },
+  "D10A": {
+    "code": "D10A",
+    "name": "Anti-acne preparations for topical use",
+    "level": 3,
+    "parent": "D10"
   }
 }

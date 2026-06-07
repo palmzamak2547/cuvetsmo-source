@@ -1,0 +1,134 @@
+{
+  "slug": "ascorbic-acid",
+  "nameEn": "Ascorbic acid (vitamin C)",
+  "nameTh": "กรดแอสคอร์บิก (วิตามินซี)",
+  "class": "Water-soluble vitamin / antioxidant",
+  "mechanism": "โคแฟกเตอร์ในการสร้างคอลลาเจนและสารต้านอนุมูลอิสระ สุนัข/แมวสร้างเองได้ จึงเสริมเฉพาะกรณีพิเศษ (ปัสสาวะเป็นกรด, ภาวะเครียด/ป่วยหนัก)",
+  "brandNamesTh": [
+    "Vitamin C"
+  ],
+  "indications": [
+    {
+      "text": "เสริมในภาวะเฉพาะ — ทำให้ปัสสาวะเป็นกรด, antioxidant support, ภาวะเครียด/ป่วยหนัก (หลักฐานจำกัด เพราะสัตว์สังเคราะห์เองได้)",
+      "cites": [
+        "dailymed-ascorbic acid",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในสัตว์ที่เสี่ยงนิ่ว oxalate (วิตามินซีเปลี่ยนเป็น oxalate); ขนาดสูงทำให้ท้องเสีย",
+      "cites": [
+        "dailymed-ascorbic acid",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องเสียเมื่อขนาดสูง; เสี่ยงนิ่ว calcium oxalate ในสัตว์ที่ไวต่อ",
+      "cites": [
+        "plumbs",
+        "wikipedia-Vitamin_C"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Antioxidant / urinary acidification (adjunct)",
+      "route": "PO",
+      "dose": "~10–30 mg/kg PO วันละครั้ง (ตามข้อบ่งใช้)",
+      "cites": [
+        "plumbs",
+        "dailymed-ascorbic acid"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Antioxidant (adjunct)",
+      "route": "PO",
+      "dose": "~10–30 mg/kg PO วันละครั้ง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-A11GA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Ascorbic acid (vitamin C) (A11GA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A11GA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-ascorbic acid",
+      "type": "package-insert",
+      "title": "Ascorbic acid — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ascorbic%20acid",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Vitamin_C",
+      "type": "monograph",
+      "title": "Vitamin C — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Vitamin_C",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A11GA01",
+      "name": "Ascorbic acid (vitamin C)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

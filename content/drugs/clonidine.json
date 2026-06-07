@@ -1,0 +1,125 @@
+{
+  "slug": "clonidine",
+  "nameEn": "Clonidine",
+  "nameTh": "โคลนิดีน",
+  "class": "Central α2-adrenergic agonist",
+  "mechanism": "กระตุ้น α2-adrenergic ส่วนกลาง ลด sympathetic outflow ใช้เป็นยาเสริมลดความวิตกกังวล/พฤติกรรม และเป็นสารกระตุ้นในการทดสอบ growth hormone",
+  "brandNamesTh": [
+    "Catapres"
+  ],
+  "indications": [
+    {
+      "text": "ยาเสริมจัดการความวิตกกังวล/โรคกลัว (fear/anxiety) ในสุนัข และใช้เป็นสารกระตุ้นในการทดสอบการหลั่ง growth hormone",
+      "cites": [
+        "dailymed-clonidine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "โรคหัวใจ/หัวใจเต้นช้า, ความดันต่ำ; ห้ามหยุดทันที (rebound hypertension); เป็นยาเสริม ใช้คู่พฤติกรรมบำบัด",
+      "cites": [
+        "dailymed-clonidine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ง่วงซึม, ความดันต่ำ/หัวใจเต้นช้าชั่วคราว (ตามด้วยความดันสูง), ปากแห้ง, ท้องผูก",
+      "cites": [
+        "plumbs",
+        "wikipedia-Clonidine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Situational anxiety (adjunct)",
+      "route": "PO",
+      "dose": "0.01–0.05 mg/kg PO ก่อนเหตุการณ์/ทุก 12 ชั่วโมง (ปรับตามการตอบสนอง)",
+      "cites": [
+        "plumbs",
+        "dailymed-clonidine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C02AC01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Clonidine (C02AC01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C02AC01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-clonidine",
+      "type": "package-insert",
+      "title": "Clonidine — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=clonidine",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Clonidine",
+      "type": "monograph",
+      "title": "Clonidine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Clonidine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C02AC01",
+      "name": "Clonidine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

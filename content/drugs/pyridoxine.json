@@ -1,0 +1,134 @@
+{
+  "slug": "pyridoxine",
+  "nameEn": "Pyridoxine (vitamin B6)",
+  "nameTh": "ไพริดอกซีน (วิตามินบี 6)",
+  "class": "Water-soluble vitamin (B6) cofactor",
+  "mechanism": "โคแฟกเตอร์ในเมตาบอลิซึมของกรดอะมิโนและสารสื่อประสาท ใช้เสริมในภาวะขาด และเป็น adjunct ในพิษ ethylene glycol (ช่วยเปลี่ยน glyoxylate)",
+  "brandNamesTh": [
+    "Vitamin B6"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะขาดวิตามินบี 6, เสริมใน parenteral nutrition, และเป็น adjunct ในการรักษาพิษ ethylene glycol",
+      "cites": [
+        "dailymed-pyridoxine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ปลอดภัยสูง; ขนาดสูงมาก ๆ ระยะยาวในคนสัมพันธ์กับ peripheral neuropathy (ไม่ค่อยพบในขนาดปกติ)",
+      "cites": [
+        "dailymed-pyridoxine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พบน้อยมากในขนาดปกติ",
+      "cites": [
+        "plumbs",
+        "wikipedia-Vitamin_B6"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "B6 deficiency / EG toxicity adjunct",
+      "route": "PO",
+      "dose": "~1–5 mg/kg PO/IV วันละครั้ง (ปรับตามข้อบ่งใช้)",
+      "cites": [
+        "plumbs",
+        "dailymed-pyridoxine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "B6 deficiency / supportive",
+      "route": "PO",
+      "dose": "~1–5 mg/kg PO/IV วันละครั้ง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-A11HA02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Pyridoxine (vitamin B6) (A11HA02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A11HA02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-pyridoxine",
+      "type": "package-insert",
+      "title": "Pyridoxine — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=pyridoxine",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Vitamin_B6",
+      "type": "monograph",
+      "title": "Vitamin B6 — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Vitamin_B6",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A11HA02",
+      "name": "Pyridoxine (vitamin B6)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

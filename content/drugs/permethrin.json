@@ -1,0 +1,135 @@
+{
+  "slug": "permethrin",
+  "nameEn": "Permethrin",
+  "nameTh": "เพอร์เมทริน",
+  "class": "Ectoparasiticide — pyrethroid (topical, ⚠️ feline-toxic)",
+  "mechanism": "ปิดกั้น/ทำให้ voltage-gated sodium channel ของแมลงเปิดค้าง เกิดการกระตุ้นประสาทเกินจนตาย ใช้กำจัดหมัด เห็บ และไล่ยุง/แมลงวันในสุนัข",
+  "brandNamesTh": [
+    "Advantix (ส่วนผสม)",
+    "Permethrin spot-on"
+  ],
+  "indications": [
+    {
+      "text": "กำจัดและไล่หมัด เห็บ ยุง แมลงวัน ในสุนัข (รูป spot-on/สเปรย์/ปลอกคอ); ใช้กับปศุสัตว์",
+      "cites": [
+        "dailymed-permethrin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️⚠️ ห้ามใช้ในแมวเด็ดขาด — แมวเมตาบอไลต์ pyrethroid ช้ามาก (ขาด glucuronosyltransferase) เกิดพิษรุนแรง (กล้ามเนื้อสั่น ชัก ถึงตาย); ระวังแมวที่อยู่ร่วมบ้านสัมผัสสุนัขที่เพิ่งหยดยา",
+      "cites": [
+        "dailymed-permethrin",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "สุนัข: ระคายผิว/paresthesia บริเวณหยดยา; แมว (จากการสัมผัสผิดพลาด): tremor, ชัก, ไข้สูง, เสียชีวิต — รักษาด้วย methocarbamol + IV lipid emulsion + ประคับประคอง",
+      "cites": [
+        "plumbs",
+        "wikipedia-Permethrin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Flea / tick / fly control & repellency",
+      "route": "topical",
+      "dose": "spot-on/สเปรย์ ความเข้มข้นตามผลิตภัณฑ์ (เช่น 45–65% spot-on) ทุก ~30 วัน — เฉพาะสุนัข",
+      "cites": [
+        "plumbs",
+        "dailymed-permethrin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "CONTRAINDICATED",
+      "route": "topical",
+      "dose": "⚠️ ห้ามใช้ในแมวทุกกรณี (เป็นพิษถึงชีวิต)",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QP53AC04",
+      "type": "regulatory-database",
+      "title": "WHO ATC/ATCvet Index — Permethrin (QP53AC04)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QP53AC04&showdescription=no",
+      "note": "WHO ATC/ATCvet classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-permethrin",
+      "type": "package-insert",
+      "title": "Permethrin — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=permethrin",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Permethrin",
+      "type": "monograph",
+      "title": "Permethrin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Permethrin",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP53AC04",
+      "name": "Permethrin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

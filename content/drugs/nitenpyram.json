@@ -1,0 +1,134 @@
+{
+  "slug": "nitenpyram",
+  "nameEn": "Nitenpyram",
+  "nameTh": "ไนเทนไพแรม",
+  "class": "Ectoparasiticide — neonicotinoid (oral, fast-acting adulticide)",
+  "mechanism": "กระตุ้น nicotinic acetylcholine receptor ของแมลงแบบจำเพาะ ทำให้หมัดเป็นอัมพาตและตายภายในไม่กี่ชั่วโมง ออกฤทธิ์เร็วแต่สั้น (ฆ่าหมัดตัวเต็มวัยที่อยู่บนตัว)",
+  "brandNamesTh": [
+    "Capstar"
+  ],
+  "indications": [
+    {
+      "text": "ฆ่าหมัดตัวเต็มวัยอย่างรวดเร็ว (knockdown) ในสุนัขและแมว — ออกฤทธิ์ภายใน ~30 นาที ใช้คู่ยาคุมระยะยาว",
+      "cites": [
+        "dailymed-nitenpyram",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ออกฤทธิ์สั้น (ไม่คุมระยะยาว/ไม่ฆ่าไข่-ตัวอ่อน); ใช้ในลูกสัตว์ตามน้ำหนักขั้นต่ำของผลิตภัณฑ์",
+      "cites": [
+        "dailymed-nitenpyram",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาการคัน/กระสับกระส่ายชั่วคราว (จากหมัดตายดิ้น), พบผลข้างเคียงน้อย",
+      "cites": [
+        "plumbs",
+        "wikipedia-Nitenpyram"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Rapid flea knockdown",
+      "route": "PO",
+      "dose": "~1 mg/kg PO (ขั้นต่ำ ตามช่วงน้ำหนัก) ให้ซ้ำได้วันละครั้งตามต้องการ",
+      "cites": [
+        "plumbs",
+        "dailymed-nitenpyram"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Rapid flea knockdown",
+      "route": "PO",
+      "dose": "~1 mg/kg PO (ตามช่วงน้ำหนักของผลิตภัณฑ์)",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QP53BX02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/ATCvet Index — Nitenpyram (QP53BX02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QP53BX02&showdescription=no",
+      "note": "WHO ATC/ATCvet classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-nitenpyram",
+      "type": "package-insert",
+      "title": "Nitenpyram (Capstar) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=nitenpyram",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Nitenpyram",
+      "type": "monograph",
+      "title": "Nitenpyram — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Nitenpyram",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP53BX02",
+      "name": "Nitenpyram",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

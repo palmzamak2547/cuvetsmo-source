@@ -1,0 +1,125 @@
+{
+  "slug": "losartan",
+  "nameEn": "Losartan",
+  "nameTh": "โลซาร์แทน",
+  "class": "Angiotensin II receptor blocker (ARB)",
+  "mechanism": "ปิดกั้น angiotensin II receptor (AT1) ทำให้หลอดเลือดขยาย ลดความดันและโปรตีนรั่ว ใช้เมื่อ ACE inhibitor ไม่พอหรือทนไม่ได้",
+  "brandNamesTh": [
+    "Cozaar"
+  ],
+  "indications": [
+    {
+      "text": "ความดันโลหิตสูงและภาวะโปรตีนรั่วในปัสสาวะ (proteinuria) เมื่อ ACE inhibitor ควบคุมไม่พอหรือใช้ไม่ได้",
+      "cites": [
+        "dailymed-losartan",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ภาวะขาดน้ำ/ความดันต่ำ, ตั้งท้อง, ตีบหลอดเลือดแดงไตสองข้าง; ติดตามไตและโพแทสเซียม; ประสิทธิภาพในสุนัขแปรปรวน (การเปลี่ยนเป็น active metabolite ต่างจากคน)",
+      "cites": [
+        "dailymed-losartan",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ, ค่าไตสูงขึ้น, โพแทสเซียมสูง",
+      "cites": [
+        "plumbs",
+        "wikipedia-Losartan"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Hypertension / proteinuria",
+      "route": "PO",
+      "dose": "0.125–0.5 mg/kg PO ทุก 12–24 ชั่วโมง (ปรับตามความดัน/UPC)",
+      "cites": [
+        "plumbs",
+        "dailymed-losartan"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C09CA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Losartan (C09CA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C09CA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-losartan",
+      "type": "package-insert",
+      "title": "Losartan — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=losartan",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Losartan",
+      "type": "monograph",
+      "title": "Losartan — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Losartan",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C09CA01",
+      "name": "Losartan",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

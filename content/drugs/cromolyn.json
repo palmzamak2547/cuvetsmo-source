@@ -1,0 +1,125 @@
+{
+  "slug": "cromolyn",
+  "nameEn": "Cromolyn sodium (sodium cromoglicate)",
+  "nameTh": "โครโมลิน โซเดียม",
+  "class": "Mast cell stabilizer (inhaled, antiallergic)",
+  "mechanism": "คงสภาพเยื่อหุ้ม mast cell ป้องกันการหลั่ง histamine/mediator จึงลดการอักเสบของหลอดลมแบบป้องกัน (prophylaxis) ไม่ใช่ขยายหลอดลมทันที",
+  "brandNamesTh": [
+    "Intal"
+  ],
+  "indications": [
+    {
+      "text": "ป้องกัน (prophylaxis) อาการกำเริบของโรคหืดแมวที่มีพื้นฐาน allergic — พ่นสูด",
+      "cites": [
+        "dailymed-cromolyn",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ไม่ใช้แก้อาการเฉียบพลัน (ไม่ขยายหลอดลม); ใช้สม่ำเสมอเพื่อผลป้องกัน",
+      "cites": [
+        "dailymed-cromolyn",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ไอ/ระคายคอจากการพ่น; โดยรวมปลอดภัยสูง",
+      "cites": [
+        "plumbs",
+        "wikipedia-Cromoglicic_acid"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "feline",
+      "indication": "Asthma prophylaxis",
+      "route": "inhaled",
+      "dose": "nebulize ~20 mg ทุก 12 ชั่วโมง (ยาป้องกัน ใช้สม่ำเสมอ)",
+      "cites": [
+        "plumbs",
+        "dailymed-cromolyn"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-R03BC01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Cromoglicic acid (cromolyn) (R03BC01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=R03BC01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-cromolyn",
+      "type": "package-insert",
+      "title": "Cromolyn sodium — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cromolyn",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Cromoglicic_acid",
+      "type": "monograph",
+      "title": "Cromoglicic acid — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Cromoglicic_acid",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "R03BC01",
+      "name": "Cromoglicic acid (cromolyn)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

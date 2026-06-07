@@ -1,0 +1,134 @@
+{
+  "slug": "montelukast",
+  "nameEn": "Montelukast",
+  "nameTh": "มอนเทลูคาสต์",
+  "class": "Leukotriene receptor antagonist (oral)",
+  "mechanism": "ปิดกั้น cysteinyl-leukotriene receptor (CysLT1) ลดการอักเสบและหดตัวของหลอดลมที่เกิดจาก leukotriene ใช้เป็น adjunct ในโรคทางเดินหายใจ allergic",
+  "brandNamesTh": [
+    "Singulair"
+  ],
+  "indications": [
+    {
+      "text": "โรคทางเดินหายใจที่มีพื้นฐาน allergic (adjunct ในหืด/หลอดลมอักเสบ) — หลักฐานในสัตว์ยังจำกัด",
+      "cites": [
+        "dailymed-montelukast",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "เป็นยาควบคุม/เสริม ไม่ใช่ยา rescue; ประสิทธิภาพในสัตว์ยังไม่ชัดเท่าในคน",
+      "cites": [
+        "dailymed-montelukast",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พบน้อย; อาจมีอาการทางเดินอาหารเล็กน้อย",
+      "cites": [
+        "plumbs",
+        "wikipedia-Montelukast"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Allergic airway disease (adjunct)",
+      "route": "PO",
+      "dose": "~0.5–1 mg/kg PO วันละครั้ง",
+      "cites": [
+        "plumbs",
+        "dailymed-montelukast"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Allergic airway disease (adjunct)",
+      "route": "PO",
+      "dose": "~0.5–1 mg/kg PO วันละครั้ง (หลักฐานจำกัด)",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-R03DC03",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Montelukast (R03DC03)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=R03DC03&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-montelukast",
+      "type": "package-insert",
+      "title": "Montelukast — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=montelukast",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Montelukast",
+      "type": "monograph",
+      "title": "Montelukast — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Montelukast",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "R03DC03",
+      "name": "Montelukast",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
