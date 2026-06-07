@@ -201,7 +201,7 @@ export const THERAPEUTIC_CLASSES: TherapeuticClass[] = [
   },
   {
     slug: 'cns-psychotropic',
-    label: 'CNS · ยาด้านจิตเวช · appetite stimulants',
+    label: 'CNS & psychotropic · ยาทางจิตประสาท',
     subtitle: 'Antidepressants used as appetite stimulants in vet (mirtazapine), NMDA pain adjuncts (amantadine), other psychotropics',
     order: 170,
     // N06 psychoanaleptics + N04BB (amantadine — NMDA antagonist used as a

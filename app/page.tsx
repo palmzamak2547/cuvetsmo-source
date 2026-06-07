@@ -77,8 +77,8 @@ export default function Landing() {
           </dl>
           <hr className="rule mt-5 mb-3" />
           <p className="text-[11px] text-ink-500">
-            Cross-checked metadata from <b>DailyMed (FDA)</b>, <b>WHO EML</b>, <b>Thai FDA</b>,
-            <b> PubChem (NIH)</b>, <b>ATC (WHO)</b>, <b>WSAVA</b>
+            Cross-checked against <b>DailyMed (FDA)</b>, <b>WHO EML</b>, <b>Thai FDA</b>,
+            <b> PubChem (NIH)</b>, <b>WHO ATC</b>, and <b>WSAVA</b> guidelines
           </p>
         </aside>
       </header>

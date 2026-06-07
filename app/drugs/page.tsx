@@ -32,7 +32,7 @@ export default function DrugsList() {
         <Tile
           label="Authoritative sources"
           value={5}
-          sub="Merck Vet Manual · FDA/EMA · WHO ATC · RECOVER · peer-reviewed"
+          sub="Merck Vet Manual, FDA/EMA labels, WHO ATC, RECOVER, and peer-reviewed journals"
           tone="source"
         />
         <Tile
