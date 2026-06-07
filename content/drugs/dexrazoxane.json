@@ -1,0 +1,126 @@
+{
+  "slug": "dexrazoxane",
+  "nameEn": "Dexrazoxane",
+  "nameTh": "เดกซ์ราโซเซน",
+  "class": "Cytoprotective antidote (anthracycline extravasation / cardioprotection)",
+  "mechanism": "จับเหล็กและยับยั้ง topoisomerase II ลดการสร้างอนุมูลอิสระจาก anthracycline ใช้แก้การรั่วของ doxorubicin ออกนอกหลอดเลือดและลดพิษหัวใจสะสม",
+  "brandNamesTh": [
+    "Zinecard",
+    "Totect"
+  ],
+  "indications": [
+    {
+      "text": "แก้พิษการรั่วของ doxorubicin/anthracycline ออกนอกหลอดเลือด (extravasation) และลดพิษต่อหัวใจสะสมจาก anthracycline ในสุนัข",
+      "cites": [
+        "dailymed-dexrazoxane",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "กดไขกระดูกเสริมกับเคมีบำบัด; ให้ทาง IV คนละตำแหน่งกับที่ยารั่วภายใน ~6 ชั่วโมงแรก (extravasation)",
+      "cites": [
+        "dailymed-dexrazoxane",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูกเพิ่มขึ้น, เจ็บบริเวณฉีด, เอนไซม์ตับขึ้น",
+      "cites": [
+        "plumbs",
+        "wikipedia-Dexrazoxane"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Doxorubicin extravasation",
+      "route": "IV",
+      "dose": "ให้ ~10 เท่าของขนาด doxorubicin ที่รั่ว IV (คนละขา) ภายใน 6 ชั่วโมงแรก แล้วลดขนาดวันถัดไปตามโปรโตคอล",
+      "cites": [
+        "plumbs",
+        "dailymed-dexrazoxane"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-V03AF02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Dexrazoxane (V03AF02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=V03AF02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-dexrazoxane",
+      "type": "package-insert",
+      "title": "Dexrazoxane — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=dexrazoxane",
+      "note": "US FDA structured product label. Authoritative for mechanism, indications, contraindications.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Dexrazoxane",
+      "type": "monograph",
+      "title": "Dexrazoxane — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Dexrazoxane",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "V03AF02",
+      "name": "Dexrazoxane",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / VSSO), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

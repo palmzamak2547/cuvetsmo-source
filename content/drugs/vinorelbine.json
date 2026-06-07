@@ -1,0 +1,125 @@
+{
+  "slug": "vinorelbine",
+  "nameEn": "Vinorelbine",
+  "nameTh": "วินอเรลบีน",
+  "class": "Antineoplastic — vinca alkaloid",
+  "mechanism": "จับ tubulin ยับยั้งการสร้าง mitotic spindle หยุดการแบ่งเซลล์ที่ระยะ metaphase ใช้รักษา carcinoma (โดยเฉพาะปอด) ในสุนัข",
+  "brandNamesTh": [
+    "Navelbine"
+  ],
+  "indications": [
+    {
+      "text": "มะเร็ง carcinoma โดยเฉพาะ primary lung tumor และ bronchoalveolar carcinoma ในสุนัข",
+      "cites": [
+        "vsso",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "กดไขกระดูก; ⚠️ vesicant — รั่วนอกหลอดเลือดทำให้เนื้อตาย; ตับบกพร่องปรับขนาด",
+      "cites": [
+        "vsso",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดไขกระดูก (neutropenia), อาเจียน, เนื้อตายถ้ายารั่ว (extravasation)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Vinorelbine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Carcinoma (lung)",
+      "route": "IV",
+      "dose": "~15 mg/m² IV สัปดาห์ละครั้ง ตามโปรโตคอลมะเร็ง (ให้ทาง IV catheter ที่แน่ใจ ป้องกัน extravasation)",
+      "cites": [
+        "vsso",
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-L01CA04",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Vinorelbine (L01CA04)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=L01CA04&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "vsso",
+      "type": "guideline",
+      "title": "VSSO — Veterinary Society of Surgical Oncology chemotherapy protocols",
+      "year": 2026,
+      "url": "https://www.vsso.org/chemotherapy-protocols",
+      "note": "Veterinary oncology dosing reference for cytotoxic protocols.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Vinorelbine",
+      "type": "monograph",
+      "title": "Vinorelbine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Vinorelbine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "L01CA04",
+      "name": "Vinorelbine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / VSSO), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

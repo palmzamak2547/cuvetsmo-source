@@ -1,0 +1,125 @@
+{
+  "slug": "verapamil",
+  "nameEn": "Verapamil",
+  "nameTh": "เวอราพามิล",
+  "class": "Calcium channel blocker — phenylalkylamine (class IV antiarrhythmic)",
+  "mechanism": "ปิดกั้น L-type calcium channel ที่ node ของหัวใจ ลดการนำสัญญาณผ่าน AV node และอัตราการเต้น ใช้คุมภาวะหัวใจเต้นเร็วเหนือ ventricle ที่ดื้อยา",
+  "brandNamesTh": [
+    "Isoptin"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะหัวใจเต้นเร็วเหนือเวนทริเคิล (SVT) ที่ดื้อต่อยาอื่น — ใช้เป็นทางเลือกท้าย ๆ เพราะกดการบีบตัวหัวใจ",
+      "cites": [
+        "dailymed-verapamil",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ กดการบีบตัวหัวใจแรง (negative inotrope) — ห้ามในหัวใจล้มเหลว/AV block; ห้ามให้ร่วม β-blocker IV (เสี่ยง asystole)",
+      "cites": [
+        "dailymed-verapamil",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ, หัวใจเต้นช้า/AV block, ลดการบีบตัวหัวใจรุนแรง",
+      "cites": [
+        "plumbs",
+        "wikipedia-Verapamil"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Refractory supraventricular tachycardia",
+      "route": "IV",
+      "dose": "0.05 mg/kg IV ช้า ๆ ทุก 5 นาที (สูงสุด ~0.15–0.2 mg/kg รวม) ติด ECG/BP",
+      "cites": [
+        "plumbs",
+        "dailymed-verapamil"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C08DA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Verapamil (C08DA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C08DA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-verapamil",
+      "type": "package-insert",
+      "title": "Verapamil — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=verapamil",
+      "note": "US FDA structured product label. Authoritative for mechanism, indications, contraindications.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Verapamil",
+      "type": "monograph",
+      "title": "Verapamil — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Verapamil",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C08DA01",
+      "name": "Verapamil",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / VSSO), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

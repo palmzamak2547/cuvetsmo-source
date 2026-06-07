@@ -4960,5 +4960,119 @@
     "name": "Hydantoin derivatives",
     "level": 4,
     "parent": "N03A"
+  },
+  "L01EA01": {
+    "code": "L01EA01",
+    "name": "Imatinib",
+    "level": 5,
+    "parent": "L01EA"
+  },
+  "L01CA04": {
+    "code": "L01CA04",
+    "name": "Vinorelbine",
+    "level": 5,
+    "parent": "L01CA"
+  },
+  "V03AF02": {
+    "code": "V03AF02",
+    "name": "Dexrazoxane",
+    "level": 5,
+    "parent": "V03AF"
+  },
+  "A04AD12": {
+    "code": "A04AD12",
+    "name": "Aprepitant",
+    "level": 5,
+    "parent": "A04AD"
+  },
+  "J01DC04": {
+    "code": "J01DC04",
+    "name": "Cefaclor",
+    "level": 5,
+    "parent": "J01DC"
+  },
+  "C08DA01": {
+    "code": "C08DA01",
+    "name": "Verapamil",
+    "level": 5,
+    "parent": "C08DA"
+  },
+  "C09AA01": {
+    "code": "C09AA01",
+    "name": "Captopril",
+    "level": 5,
+    "parent": "C09AA"
+  },
+  "N06DX01": {
+    "code": "N06DX01",
+    "name": "Memantine",
+    "level": 5,
+    "parent": "N06DX"
+  },
+  "N06AX16": {
+    "code": "N06AX16",
+    "name": "Venlafaxine",
+    "level": 5,
+    "parent": "N06AX"
+  },
+  "R06AX13": {
+    "code": "R06AX13",
+    "name": "Loratadine",
+    "level": 5,
+    "parent": "R06AX"
+  },
+  "R06AX26": {
+    "code": "R06AX26",
+    "name": "Fexofenadine",
+    "level": 5,
+    "parent": "R06AX"
+  },
+  "C09CA04": {
+    "code": "C09CA04",
+    "name": "Irbesartan",
+    "level": 5,
+    "parent": "C09CA"
+  },
+  "L01EA": {
+    "code": "L01EA",
+    "name": "BCR-ABL tyrosine kinase inhibitors",
+    "level": 4,
+    "parent": "L01E"
+  },
+  "L01E": {
+    "code": "L01E",
+    "name": "Protein kinase inhibitors",
+    "level": 3,
+    "parent": "L01"
+  },
+  "L01C": {
+    "code": "L01C",
+    "name": "Plant alkaloids and other natural products",
+    "level": 3,
+    "parent": "L01"
+  },
+  "A04AD": {
+    "code": "A04AD",
+    "name": "Other antiemetics",
+    "level": 4,
+    "parent": "A04A"
+  },
+  "C08DA": {
+    "code": "C08DA",
+    "name": "Phenylalkylamine derivatives (calcium channel blockers)",
+    "level": 4,
+    "parent": "C08D"
+  },
+  "N06DX": {
+    "code": "N06DX",
+    "name": "Other anti-dementia drugs",
+    "level": 4,
+    "parent": "N06D"
+  },
+  "N06D": {
+    "code": "N06D",
+    "name": "Anti-dementia drugs",
+    "level": 3,
+    "parent": "N06"
   }
 }
