@@ -4606,5 +4606,107 @@
     "name": "Anti-acne preparations for topical use",
     "level": 3,
     "parent": "D10"
+  },
+  "S01XA18": {
+    "code": "S01XA18",
+    "name": "Ciclosporin (ophthalmic)",
+    "level": 5,
+    "parent": "S01XA"
+  },
+  "S01AD01": {
+    "code": "S01AD01",
+    "name": "Idoxuridine",
+    "level": 5,
+    "parent": "S01AD"
+  },
+  "S01BC03": {
+    "code": "S01BC03",
+    "name": "Diclofenac (ophthalmic)",
+    "level": 5,
+    "parent": "S01BC"
+  },
+  "S01FB01": {
+    "code": "S01FB01",
+    "name": "Phenylephrine (ophthalmic)",
+    "level": 5,
+    "parent": "S01FB"
+  },
+  "S01AA11": {
+    "code": "S01AA11",
+    "name": "Gentamicin (ophthalmic)",
+    "level": 5,
+    "parent": "S01AA"
+  },
+  "S01BA01": {
+    "code": "S01BA01",
+    "name": "Dexamethasone (ophthalmic)",
+    "level": 5,
+    "parent": "S01BA"
+  },
+  "J01DE01": {
+    "code": "J01DE01",
+    "name": "Cefepime",
+    "level": 5,
+    "parent": "J01DE"
+  },
+  "J01CE09": {
+    "code": "J01CE09",
+    "name": "Procaine benzylpenicillin",
+    "level": 5,
+    "parent": "J01CE"
+  },
+  "J01CE08": {
+    "code": "J01CE08",
+    "name": "Benzathine benzylpenicillin",
+    "level": 5,
+    "parent": "J01CE"
+  },
+  "J01DC02": {
+    "code": "J01DC02",
+    "name": "Cefuroxime",
+    "level": 5,
+    "parent": "J01DC"
+  },
+  "S01XA": {
+    "code": "S01XA",
+    "name": "Other ophthalmologicals",
+    "level": 4,
+    "parent": "S01X"
+  },
+  "S01X": {
+    "code": "S01X",
+    "name": "Other ophthalmologicals",
+    "level": 3,
+    "parent": "S01"
+  },
+  "S01AD": {
+    "code": "S01AD",
+    "name": "Antivirals (ophthalmic)",
+    "level": 4,
+    "parent": "S01A"
+  },
+  "S01BC": {
+    "code": "S01BC",
+    "name": "Antiinflammatory agents, non-steroids (ophthalmic)",
+    "level": 4,
+    "parent": "S01B"
+  },
+  "S01B": {
+    "code": "S01B",
+    "name": "Antiinflammatory agents (ophthalmic)",
+    "level": 3,
+    "parent": "S01"
+  },
+  "S01FB": {
+    "code": "S01FB",
+    "name": "Sympathomimetics excl. antiglaucoma (ophthalmic)",
+    "level": 4,
+    "parent": "S01F"
+  },
+  "J01DE": {
+    "code": "J01DE",
+    "name": "Fourth-generation cephalosporins",
+    "level": 4,
+    "parent": "J01D"
   }
 }

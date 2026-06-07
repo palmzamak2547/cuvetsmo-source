@@ -1,0 +1,135 @@
+{
+  "slug": "cefuroxime",
+  "nameEn": "Cefuroxime",
+  "nameTh": "เซฟูร็อกซิม",
+  "class": "Second-generation cephalosporin",
+  "mechanism": "ยับยั้งการสร้างผนังเซลล์ (จับ PBP) ทนต่อ β-lactamase ดีกว่ารุ่นแรก ครอบคลุมแกรมบวกและแกรมลบบางชนิด",
+  "brandNamesTh": [
+    "Zinacef",
+    "Zinnat"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อผิวหนัง/เนื้อเยื่ออ่อน, ทางเดินหายใจ และทางเดินปัสสาวะในสุนัขและแมว",
+      "cites": [
+        "dailymed-cefuroxime",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ยากลุ่ม cephalosporin/penicillin; ปรับขนาดในโรคไต",
+      "cites": [
+        "dailymed-cefuroxime",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/ท้องเสีย, เจ็บบริเวณฉีด, อาการแพ้",
+      "cites": [
+        "plumbs",
+        "wikipedia-Cefuroxime"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Skin / respiratory / UTI",
+      "route": "IV",
+      "dose": "10–15 mg/kg IV/IM/PO ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "plumbs",
+        "dailymed-cefuroxime"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Skin / respiratory / UTI",
+      "route": "IV",
+      "dose": "10–15 mg/kg IV/IM/PO ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J01DC02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Cefuroxime (J01DC02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J01DC02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-cefuroxime",
+      "type": "package-insert",
+      "title": "Cefuroxime — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cefuroxime",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Cefuroxime",
+      "type": "monograph",
+      "title": "Cefuroxime — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Cefuroxime",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01DC02",
+      "name": "Cefuroxime",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

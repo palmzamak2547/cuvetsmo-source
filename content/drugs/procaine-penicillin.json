@@ -1,0 +1,134 @@
+{
+  "slug": "procaine-penicillin",
+  "nameEn": "Procaine benzylpenicillin (procaine penicillin G)",
+  "nameTh": "โพรเคน เพนิซิลลิน จี",
+  "class": "Beta-lactamase sensitive penicillin (repository/long-acting)",
+  "mechanism": "penicillin G รูปเกลือ procaine ที่ปลดปล่อยช้าจากกล้ามเนื้อ คงระดับยานานขึ้น ฆ่าแบคทีเรียแกรมบวกและ anaerobe บางชนิด",
+  "brandNamesTh": [
+    "Procaine Penicillin G"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อแกรมบวกที่ไวต่อ penicillin (เช่น Streptococcus, Clostridium) ในปศุสัตว์และม้า — ออกฤทธิ์ต่อเนื่องจากการดูดซึมช้า",
+      "cites": [
+        "dailymed-procaine penicillin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ penicillin; ⚠️ ห้ามฉีด IV (procaine เป็นพิษต่อหัวใจ/ระบบประสาท); ระวังปฏิกิริยา procaine; เว้นระยะหยุดยาในสัตว์ผลิตอาหาร",
+      "cites": [
+        "dailymed-procaine penicillin",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาการแพ้, ปฏิกิริยา procaine (ตื่นเต้น/ชัก/ล้มถ้าเข้าหลอดเลือด), เจ็บบริเวณฉีด",
+      "cites": [
+        "plumbs",
+        "wikipedia-Procaine_benzylpenicillin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "bovine",
+      "indication": "Gram-positive infection",
+      "route": "IM",
+      "dose": "20,000–40,000 IU/kg IM ทุก 12–24 ชั่วโมง (เฉพาะ IM ห้าม IV)",
+      "cites": [
+        "plumbs",
+        "dailymed-procaine penicillin"
+      ]
+    },
+    {
+      "species": "equine",
+      "indication": "Gram-positive infection",
+      "route": "IM",
+      "dose": "20,000–25,000 IU/kg IM ทุก 12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J01CE09",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Procaine benzylpenicillin (J01CE09)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J01CE09&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-procaine penicillin",
+      "type": "package-insert",
+      "title": "Procaine penicillin G — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=procaine%20penicillin",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Procaine_benzylpenicillin",
+      "type": "monograph",
+      "title": "Procaine benzylpenicillin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Procaine_benzylpenicillin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01CE09",
+      "name": "Procaine benzylpenicillin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

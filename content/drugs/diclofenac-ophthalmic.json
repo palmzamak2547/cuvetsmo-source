@@ -1,0 +1,134 @@
+{
+  "slug": "diclofenac-ophthalmic",
+  "nameEn": "Diclofenac (ophthalmic)",
+  "nameTh": "ไดโคลฟีแนก (ยาหยอดตา)",
+  "class": "Topical ophthalmic NSAID",
+  "mechanism": "ยับยั้ง COX เฉพาะที่ในลูกตา ลด prostaglandin ที่ทำให้อักเสบ/miosis ใช้คุมการอักเสบของส่วนหน้าลูกตาและรักษา miosis ระหว่างผ่าตัด",
+  "brandNamesTh": [
+    "Voltaren Ophtha"
+  ],
+  "indications": [
+    {
+      "text": "การอักเสบของส่วนหน้าลูกตา (anterior uveitis), อักเสบหลังผ่าตัดตา, ป้องกัน miosis ระหว่างผ่าตัด — ใช้เมื่อกระจกตาไม่มีแผล",
+      "cites": [
+        "dailymed-diclofenac ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ระวัง/เลี่ยงเมื่อมีแผลกระจกตา (NSAID เฉพาะที่ชะลอการหายและเสี่ยง corneal melting); ระวังในสัตว์เลือดออกง่าย",
+      "cites": [
+        "dailymed-diclofenac ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "แสบตาชั่วคราว, ชะลอการหายของแผลกระจกตา, corneal melting (พบน้อยแต่รุนแรง)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Diclofenac"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Ocular inflammation / surgical miosis",
+      "route": "ocular",
+      "dose": "สารละลาย 0.1% หยอดตา 1 หยด ทุก 6–12 ชั่วโมง (ก่อนผ่าตัดให้ถี่ขึ้นตามโปรโตคอล)",
+      "cites": [
+        "plumbs",
+        "dailymed-diclofenac ophthalmic"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Ocular inflammation",
+      "route": "ocular",
+      "dose": "สารละลาย 0.1% หยอดตา 1 หยด ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-S01BC03",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Diclofenac (ophthalmic) (S01BC03)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=S01BC03&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-diclofenac ophthalmic",
+      "type": "package-insert",
+      "title": "Diclofenac ophthalmic — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=diclofenac%20ophthalmic",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Diclofenac",
+      "type": "monograph",
+      "title": "Diclofenac (ophthalmic) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Diclofenac",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01BC03",
+      "name": "Diclofenac (ophthalmic)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

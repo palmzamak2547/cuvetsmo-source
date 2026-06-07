@@ -1,0 +1,134 @@
+{
+  "slug": "cyclosporine-ophthalmic",
+  "nameEn": "Ciclosporin (ophthalmic)",
+  "nameTh": "ไซโคลสปอริน (ยาป้ายตา)",
+  "class": "Topical ophthalmic immunomodulator (calcineurin inhibitor)",
+  "mechanism": "ยับยั้ง calcineurin ใน T-lymphocyte ลดการทำลายต่อมน้ำตาจากภูมิคุ้มกัน และกระตุ้นการสร้างน้ำตา ใช้รักษาตาแห้งจากภูมิคุ้มกัน (KCS)",
+  "brandNamesTh": [
+    "Optimmune"
+  ],
+  "indications": [
+    {
+      "text": "โรคตาแห้งจากภูมิคุ้มกัน (keratoconjunctivitis sicca, KCS) และ pannus/chronic superficial keratitis ในสุนัข",
+      "cites": [
+        "dailymed-cyclosporine ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามใช้เมื่อมีการติดเชื้อที่กระจกตา/ตาที่ยังควบคุมไม่ได้; เป็นการรักษาระยะยาว (ผลเต็มที่ใช้เวลาหลายสัปดาห์)",
+      "cites": [
+        "dailymed-cyclosporine ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระคาย/ตาแดงชั่วคราวหลังป้าย; พบผลข้างเคียงระบบน้อยมาก (ดูดซึมต่ำ)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Ciclosporin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Keratoconjunctivitis sicca (dry eye)",
+      "route": "ocular",
+      "dose": "ointment 0.2% (หรือสารละลาย 1–2%) ป้ายตาที่เป็น ทุก 12 ชั่วโมง — ใช้ต่อเนื่องระยะยาว",
+      "cites": [
+        "plumbs",
+        "dailymed-cyclosporine ophthalmic"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Keratoconjunctivitis sicca / eosinophilic keratitis",
+      "route": "ocular",
+      "dose": "ointment 0.2% / สารละลาย 1–2% ป้ายตาทุก 12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-S01XA18",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Ciclosporin (ophthalmic) (S01XA18)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=S01XA18&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-cyclosporine ophthalmic",
+      "type": "package-insert",
+      "title": "Cyclosporine ophthalmic — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cyclosporine%20ophthalmic",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Ciclosporin",
+      "type": "monograph",
+      "title": "Ciclosporin (ophthalmic) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ciclosporin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01XA18",
+      "name": "Ciclosporin (ophthalmic)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

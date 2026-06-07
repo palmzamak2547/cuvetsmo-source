@@ -1,0 +1,134 @@
+{
+  "slug": "gentamicin-ophthalmic",
+  "nameEn": "Gentamicin (ophthalmic)",
+  "nameTh": "เจนตามัยซิน (ยาหยอด/ป้ายตา)",
+  "class": "Topical ophthalmic aminoglycoside antibiotic",
+  "mechanism": "aminoglycoside ที่จับ 30S ribosome ฆ่าแบคทีเรียแกรมลบเฉพาะที่ในตา ใช้รักษาเยื่อบุตา/กระจกตาอักเสบจากแบคทีเรีย",
+  "brandNamesTh": [
+    "Genoptic"
+  ],
+  "indications": [
+    {
+      "text": "เยื่อบุตาอักเสบและแผลกระจกตาติดเชื้อแบคทีเรีย (โดยเฉพาะแกรมลบ) ในสุนัขและแมว",
+      "cites": [
+        "dailymed-gentamicin ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ครอบคลุมแกรมลบดี แต่แกรมบวก/streptococci จำกัด; ระวังการระคายกระจกตาเมื่อใช้นาน",
+      "cites": [
+        "dailymed-gentamicin ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ระคายตา/แสบ, ระคายกระจกตาเมื่อใช้บ่อย/นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Gentamicin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Bacterial conjunctivitis / keratitis",
+      "route": "ocular",
+      "dose": "สารละลาย 0.3% หยอดตา 1 หยด ทุก 6–8 ชั่วโมง (แผลรุนแรงให้ถี่ขึ้น)",
+      "cites": [
+        "plumbs",
+        "dailymed-gentamicin ophthalmic"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Bacterial conjunctivitis / keratitis",
+      "route": "ocular",
+      "dose": "สารละลาย 0.3% หยอดตา 1 หยด ทุก 6–8 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-S01AA11",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Gentamicin (ophthalmic) (S01AA11)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=S01AA11&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-gentamicin ophthalmic",
+      "type": "package-insert",
+      "title": "Gentamicin ophthalmic — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=gentamicin%20ophthalmic",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Gentamicin",
+      "type": "monograph",
+      "title": "Gentamicin (ophthalmic) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Gentamicin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01AA11",
+      "name": "Gentamicin (ophthalmic)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

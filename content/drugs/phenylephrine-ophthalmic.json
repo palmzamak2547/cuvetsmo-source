@@ -1,0 +1,134 @@
+{
+  "slug": "phenylephrine-ophthalmic",
+  "nameEn": "Phenylephrine (ophthalmic)",
+  "nameTh": "ฟีนิลเอฟริน (ยาหยอดตา)",
+  "class": "Topical ophthalmic sympathomimetic (mydriatic / diagnostic)",
+  "mechanism": "กระตุ้น α1-adrenergic ที่กล้ามเนื้อ dilator ของม่านตา ทำให้รูม่านตาขยาย ใช้ขยายม่านตาและช่วยวินิจฉัยตำแหน่งรอยโรค Horner’s syndrome",
+  "brandNamesTh": [
+    "Phenylephrine eye"
+  ],
+  "indications": [
+    {
+      "text": "ขยายรูม่านตาเพื่อตรวจ/ผ่าตัด และทดสอบระบุตำแหน่งรอยโรคของ Horner’s syndrome (ดูระยะเวลาที่ม่านตาตอบสนอง)",
+      "cites": [
+        "dailymed-phenylephrine ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในต้อหิน/มุมแคบ; ความเข้มข้นสูง (10%) ดูดซึมเข้าระบบทำให้ความดันสูง/หัวใจเต้นผิดจังหวะ โดยเฉพาะสัตว์เล็ก",
+      "cites": [
+        "dailymed-phenylephrine ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "แสบตา, รูม่านตาขยาย/ไวแสง, ความดันสูง/หัวใจเต้นเร็วจากการดูดซึม (รูปเข้มข้น)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Phenylephrine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Mydriasis / Horner localization test",
+      "route": "ocular",
+      "dose": "สารละลาย 2.5–10% หยอดตา 1 หยด (ทดสอบ Horner: ดูเวลาที่รูม่านตาขยายเทียบสองข้าง)",
+      "cites": [
+        "plumbs",
+        "dailymed-phenylephrine ophthalmic"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Mydriasis / Horner localization test",
+      "route": "ocular",
+      "dose": "สารละลาย 2.5% หยอดตา 1 หยด (เลี่ยงรูปเข้มข้นในแมวเล็ก)",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-S01FB01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Phenylephrine (ophthalmic) (S01FB01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=S01FB01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-phenylephrine ophthalmic",
+      "type": "package-insert",
+      "title": "Phenylephrine ophthalmic — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=phenylephrine%20ophthalmic",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Phenylephrine",
+      "type": "monograph",
+      "title": "Phenylephrine (ophthalmic) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Phenylephrine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01FB01",
+      "name": "Phenylephrine (ophthalmic)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
