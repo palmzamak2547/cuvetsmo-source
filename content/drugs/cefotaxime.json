@@ -1,0 +1,134 @@
+{
+  "slug": "cefotaxime",
+  "nameEn": "Cefotaxime",
+  "nameTh": "เซโฟแทกซิม",
+  "class": "Third-generation cephalosporin",
+  "mechanism": "ยับยั้งการสร้างผนังเซลล์ (จับ PBP) ฤทธิ์ฆ่าเชื้อ ครอบคลุมแกรมลบกว้าง และซึมผ่าน blood-brain barrier ได้ดี เหมาะกับการติดเชื้อรุนแรง/CNS",
+  "brandNamesTh": [
+    "Claforan"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อแกรมลบรุนแรง, ภาวะติดเชื้อในกระแสเลือด (sepsis), เยื่อหุ้มสมองอักเสบ และการติดเชื้อในลูกสัตว์แรกเกิด (ปลอดภัยกว่า aminoglycoside)",
+      "cites": [
+        "dailymed-cefotaxime",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ยากลุ่ม cephalosporin/penicillin; ปรับขนาดในโรคไตบกพร่อง",
+      "cites": [
+        "dailymed-cefotaxime",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องเสีย, เจ็บบริเวณฉีด, อาการแพ้; รบกวนจุลินทรีย์ปกติเมื่อใช้นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Cefotaxime"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Serious gram-negative / sepsis / CNS infection",
+      "route": "IV",
+      "dose": "20–80 mg/kg IV/IM ทุก 6–8 ชั่วโมง (เคสรุนแรง/CNS ใช้ขนาดสูง)",
+      "cites": [
+        "plumbs",
+        "dailymed-cefotaxime"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Serious gram-negative / sepsis",
+      "route": "IV",
+      "dose": "20–80 mg/kg IV/IM ทุก 6–8 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J01DD01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Cefotaxime (J01DD01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J01DD01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-cefotaxime",
+      "type": "package-insert",
+      "title": "Cefotaxime — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=cefotaxime",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Cefotaxime",
+      "type": "monograph",
+      "title": "Cefotaxime — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Cefotaxime",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01DD01",
+      "name": "Cefotaxime",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

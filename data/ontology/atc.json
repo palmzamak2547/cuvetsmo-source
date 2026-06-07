@@ -4204,5 +4204,107 @@
     "name": "Folic acid and derivatives",
     "level": 4,
     "parent": "B03B"
+  },
+  "J01DD01": {
+    "code": "J01DD01",
+    "name": "Cefotaxime",
+    "level": 5,
+    "parent": "J01DD"
+  },
+  "J01DD02": {
+    "code": "J01DD02",
+    "name": "Ceftazidime",
+    "level": 5,
+    "parent": "J01DD"
+  },
+  "J01DC01": {
+    "code": "J01DC01",
+    "name": "Cefoxitin",
+    "level": 5,
+    "parent": "J01DC"
+  },
+  "J01DH02": {
+    "code": "J01DH02",
+    "name": "Meropenem",
+    "level": 5,
+    "parent": "J01DH"
+  },
+  "J01CF02": {
+    "code": "J01CF02",
+    "name": "Cloxacillin",
+    "level": 5,
+    "parent": "J01CF"
+  },
+  "J01CF01": {
+    "code": "J01CF01",
+    "name": "Dicloxacillin",
+    "level": 5,
+    "parent": "J01CF"
+  },
+  "J01CA12": {
+    "code": "J01CA12",
+    "name": "Piperacillin",
+    "level": 5,
+    "parent": "J01CA"
+  },
+  "C07AG02": {
+    "code": "C07AG02",
+    "name": "Carvedilol",
+    "level": 5,
+    "parent": "C07AG"
+  },
+  "C09AA05": {
+    "code": "C09AA05",
+    "name": "Ramipril",
+    "level": 5,
+    "parent": "C09AA"
+  },
+  "C01DA08": {
+    "code": "C01DA08",
+    "name": "Isosorbide dinitrate",
+    "level": 5,
+    "parent": "C01DA"
+  },
+  "A02BC03": {
+    "code": "A02BC03",
+    "name": "Lansoprazole",
+    "level": 5,
+    "parent": "A02BC"
+  },
+  "R05CB02": {
+    "code": "R05CB02",
+    "name": "Bromhexine",
+    "level": 5,
+    "parent": "R05CB"
+  },
+  "J01DC": {
+    "code": "J01DC",
+    "name": "Second-generation cephalosporins",
+    "level": 4,
+    "parent": "J01D"
+  },
+  "J01DH": {
+    "code": "J01DH",
+    "name": "Carbapenems",
+    "level": 4,
+    "parent": "J01D"
+  },
+  "J01CF": {
+    "code": "J01CF",
+    "name": "Beta-lactamase resistant penicillins",
+    "level": 4,
+    "parent": "J01C"
+  },
+  "C07AG": {
+    "code": "C07AG",
+    "name": "Alpha and beta blocking agents",
+    "level": 4,
+    "parent": "C07A"
+  },
+  "R05CB": {
+    "code": "R05CB",
+    "name": "Mucolytics",
+    "level": 4,
+    "parent": "R05C"
   }
 }

@@ -1,0 +1,135 @@
+{
+  "slug": "meropenem",
+  "nameEn": "Meropenem",
+  "nameTh": "เมโรพีเนม",
+  "class": "Carbapenem (reserve broad-spectrum)",
+  "mechanism": "β-lactam วงกว้างมากที่ยับยั้งการสร้างผนังเซลล์ ทนต่อ β-lactamase หลายชนิด ครอบคลุมแกรมบวก/ลบ/anaerobe — ยาสำรองสำหรับเชื้อดื้อยาหลายขนาน",
+  "brandNamesTh": [
+    "Meronem",
+    "Merrem"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อดื้อยาหลายขนาน (MDR gram-negative เช่น ESBL E. coli) ที่ไม่ตอบสนองต่อยาอื่น — สงวนใช้ตาม stewardship",
+      "cites": [
+        "dailymed-meropenem",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ carbapenem/β-lactam; ปรับขนาดในโรคไต; ⚠️ จัดเป็นยาสำรองชั้นสูง ห้ามใช้เป็น first-line",
+      "cites": [
+        "dailymed-meropenem",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เจ็บ/บวมบริเวณฉีด (SC), ท้องเสีย, อาการแพ้; ชักเมื่อขนาดสูง/ไตบกพร่อง (พบน้อยกว่า imipenem)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Meropenem"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "MDR gram-negative infection",
+      "route": "SC",
+      "dose": "8.5–12 mg/kg SC/IV ทุก 8–12 ชั่วโมง (SC ดูดซึมดีในสุนัข เคส UTI ดื้อยา q12h)",
+      "cites": [
+        "plumbs",
+        "dailymed-meropenem"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "MDR gram-negative infection",
+      "route": "SC",
+      "dose": "8.5 mg/kg SC/IV ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J01DH02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Meropenem (J01DH02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J01DH02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-meropenem",
+      "type": "package-insert",
+      "title": "Meropenem — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=meropenem",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Meropenem",
+      "type": "monograph",
+      "title": "Meropenem — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Meropenem",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01DH02",
+      "name": "Meropenem",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

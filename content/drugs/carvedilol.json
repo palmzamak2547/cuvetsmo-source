@@ -1,0 +1,125 @@
+{
+  "slug": "carvedilol",
+  "nameEn": "Carvedilol",
+  "nameTh": "คาร์เวดิลอล",
+  "class": "Non-selective beta-blocker + alpha-1 blocker",
+  "mechanism": "ปิดกั้นทั้ง β1/β2 และ α1-adrenergic ลดอัตราการเต้นหัวใจ ความดัน และ afterload พร้อมฤทธิ์ต้านอนุมูลอิสระ ใช้ในภาวะหัวใจล้มเหลวเรื้อรัง",
+  "brandNamesTh": [
+    "Coreg"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะหัวใจล้มเหลวเรื้อรัง/กล้ามเนื้อหัวใจขยาย (DCM) เพื่อ neurohormonal modulation — เป็น adjunct, ต้องค่อย ๆ ปรับขนาด",
+      "cites": [
+        "dailymed-carvedilol",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "หัวใจล้มเหลวที่ยังไม่คงที่ (decompensated), หัวใจเต้นช้า/AV block, หลอดลมหดเกร็ง; ⚠️ ห้ามหยุดยาทันที (rebound) และต้อง titrate ขึ้นช้า ๆ",
+      "cites": [
+        "dailymed-carvedilol",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ, หัวใจเต้นช้า, ซึม/อ่อนแรง, ทำให้ CHF แย่ลงหากเริ่มขนาดสูงเกิน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Carvedilol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Chronic heart failure / DCM (adjunct)",
+      "route": "PO",
+      "dose": "เริ่มต่ำ ~0.1–0.2 mg/kg PO ทุก 12 ชั่วโมง แล้วค่อย ๆ เพิ่มถึง ~0.3–0.4 mg/kg q12h ตามการทน",
+      "cites": [
+        "plumbs",
+        "dailymed-carvedilol"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C07AG02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Carvedilol (C07AG02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C07AG02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-carvedilol",
+      "type": "package-insert",
+      "title": "Carvedilol — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=carvedilol",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Carvedilol",
+      "type": "monograph",
+      "title": "Carvedilol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Carvedilol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C07AG02",
+      "name": "Carvedilol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

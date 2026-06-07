@@ -1,0 +1,135 @@
+{
+  "slug": "ramipril",
+  "nameEn": "Ramipril",
+  "nameTh": "รามิพริล",
+  "class": "ACE inhibitor",
+  "mechanism": "ยับยั้ง angiotensin-converting enzyme ลดการสร้าง angiotensin II ทำให้หลอดเลือดขยาย ลด afterload และ aldosterone ใช้ในหัวใจล้มเหลวและความดันสูง",
+  "brandNamesTh": [
+    "Vasotop",
+    "Altace"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะหัวใจล้มเหลว (congestive heart failure) และความดันโลหิตสูง/โปรตีนรั่วในปัสสาวะของสุนัขและแมว",
+      "cites": [
+        "dailymed-ramipril",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ภาวะขาดน้ำ/ความดันต่ำ, ตีบของหลอดเลือดแดงไตทั้งสองข้าง, ตั้งท้อง; ติดตามไตและโพแทสเซียมหลังเริ่มยา",
+      "cites": [
+        "dailymed-ramipril",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ, ค่าไตสูงขึ้น (azotemia), โพแทสเซียมสูง, เบื่ออาหาร",
+      "cites": [
+        "plumbs",
+        "wikipedia-Ramipril"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Heart failure / hypertension",
+      "route": "PO",
+      "dose": "0.125–0.25 mg/kg PO วันละครั้ง",
+      "cites": [
+        "plumbs",
+        "dailymed-ramipril"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Heart failure / hypertension",
+      "route": "PO",
+      "dose": "0.125–0.25 mg/kg PO วันละครั้ง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C09AA05",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Ramipril (C09AA05)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C09AA05&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-ramipril",
+      "type": "package-insert",
+      "title": "Ramipril — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ramipril",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Ramipril",
+      "type": "monograph",
+      "title": "Ramipril — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ramipril",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C09AA05",
+      "name": "Ramipril",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

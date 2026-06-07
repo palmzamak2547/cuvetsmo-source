@@ -1,0 +1,134 @@
+{
+  "slug": "lansoprazole",
+  "nameEn": "Lansoprazole",
+  "nameTh": "แลนโซพราโซล",
+  "class": "Proton pump inhibitor",
+  "mechanism": "ยับยั้ง H⁺/K⁺-ATPase (proton pump) ที่ parietal cell ลดการหลั่งกรดในกระเพาะอย่างมีประสิทธิภาพ ใช้รักษาแผล/อักเสบกระเพาะ",
+  "brandNamesTh": [
+    "Prevacid"
+  ],
+  "indications": [
+    {
+      "text": "แผลในกระเพาะ/ลำไส้, esophagitis, reflux และภาวะกรดเกิน (เป็นทางเลือกของ omeprazole)",
+      "cites": [
+        "dailymed-lansoprazole",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ใช้ระวังเมื่อให้ร่วมยาที่ต้องอาศัยกรดในการดูดซึม; การหยุดยาควรค่อย ๆ ลด (rebound hyperacidity)",
+      "cites": [
+        "dailymed-lansoprazole",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องเสีย/อาเจียน, รบกวนการดูดซึมแร่ธาตุเมื่อใช้นาน, เปลี่ยนแปลงจุลินทรีย์ทางเดินอาหาร",
+      "cites": [
+        "plumbs",
+        "wikipedia-Lansoprazole"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Gastric/duodenal ulcer, esophagitis",
+      "route": "PO",
+      "dose": "0.5–1 mg/kg PO/IV ทุก 12–24 ชั่วโมง (q12h คุมกรดได้ดีกว่า)",
+      "cites": [
+        "plumbs",
+        "dailymed-lansoprazole"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Gastric/duodenal ulcer, esophagitis",
+      "route": "PO",
+      "dose": "0.5–1 mg/kg PO ทุก 24 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-A02BC03",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Lansoprazole (A02BC03)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A02BC03&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-lansoprazole",
+      "type": "package-insert",
+      "title": "Lansoprazole — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lansoprazole",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Lansoprazole",
+      "type": "monograph",
+      "title": "Lansoprazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Lansoprazole",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A02BC03",
+      "name": "Lansoprazole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

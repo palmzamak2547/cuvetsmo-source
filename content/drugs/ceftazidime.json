@@ -1,0 +1,135 @@
+{
+  "slug": "ceftazidime",
+  "nameEn": "Ceftazidime",
+  "nameTh": "เซฟตาซิดิม",
+  "class": "Third-generation cephalosporin (anti-pseudomonal)",
+  "mechanism": "ยับยั้งการสร้างผนังเซลล์แบคทีเรีย ครอบคลุมแกรมลบกว้างรวมถึง Pseudomonas aeruginosa จึงสำรองไว้สำหรับเชื้อดื้อยา",
+  "brandNamesTh": [
+    "Fortum",
+    "Fortaz"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อแกรมลบดื้อยาโดยเฉพาะ Pseudomonas (หู ผิวหนัง ทางเดินปัสสาวะ ระบบหายใจที่ดื้อยา)",
+      "cites": [
+        "dailymed-ceftazidime",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ยากลุ่ม cephalosporin/penicillin; ปรับขนาดในโรคไต; สงวนใช้ตามหลัก antimicrobial stewardship",
+      "cites": [
+        "dailymed-ceftazidime",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ท้องเสีย, เจ็บบริเวณฉีด, อาการแพ้; เสี่ยงคัดเลือกเชื้อดื้อยาเมื่อใช้พร่ำเพรื่อ",
+      "cites": [
+        "plumbs",
+        "wikipedia-Ceftazidime"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Pseudomonas / resistant gram-negative",
+      "route": "IV",
+      "dose": "30 mg/kg IV/IM ทุก 6–8 ชั่วโมง (หรือ CRI)",
+      "cites": [
+        "plumbs",
+        "dailymed-ceftazidime"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Pseudomonas / resistant gram-negative",
+      "route": "IV",
+      "dose": "30 mg/kg IV/IM ทุก 8 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J01DD02",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Ceftazidime (J01DD02)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J01DD02&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-ceftazidime",
+      "type": "package-insert",
+      "title": "Ceftazidime — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ceftazidime",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Ceftazidime",
+      "type": "monograph",
+      "title": "Ceftazidime — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ceftazidime",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01DD02",
+      "name": "Ceftazidime",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

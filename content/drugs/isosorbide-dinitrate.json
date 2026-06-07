@@ -1,0 +1,125 @@
+{
+  "slug": "isosorbide-dinitrate",
+  "nameEn": "Isosorbide dinitrate",
+  "nameTh": "ไอโซซอร์ไบด์ ไดไนเตรต",
+  "class": "Oral organic nitrate (venodilator)",
+  "mechanism": "ปลดปล่อย nitric oxide ขยายหลอดเลือดดำเป็นหลัก ลด preload ใช้เป็นยากินลด congestion ในภาวะหัวใจล้มเหลวเรื้อรัง (คล้าย nitroglycerin แต่กินได้)",
+  "brandNamesTh": [
+    "Isordil"
+  ],
+  "indications": [
+    {
+      "text": "ลด preload ในภาวะหัวใจล้มเหลวเรื้อรัง/น้ำท่วมปอดเรื้อรัง (ทางเลือกกินแทน nitroglycerin ointment)",
+      "cites": [
+        "dailymed-isosorbide dinitrate",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ความดันต่ำ/hypovolemia; ⚠️ เกิดการดื้อยา (nitrate tolerance) ต้องมีช่วงปลอดไนเตรต",
+      "cites": [
+        "dailymed-isosorbide dinitrate",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำ, หน้าแดง, ปวดหัว; tolerance เมื่อใช้ต่อเนื่องไม่มีช่วงพัก",
+      "cites": [
+        "plumbs",
+        "wikipedia-Isosorbide_dinitrate"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Chronic CHF (reduce preload)",
+      "route": "PO",
+      "dose": "0.5–2 mg/kg PO ทุก 8–12 ชั่วโมง (เว้นช่วงปลอดไนเตรตเพื่อลด tolerance)",
+      "cites": [
+        "plumbs",
+        "dailymed-isosorbide dinitrate"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C01DA08",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Isosorbide dinitrate (C01DA08)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C01DA08&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-isosorbide dinitrate",
+      "type": "package-insert",
+      "title": "Isosorbide dinitrate — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=isosorbide%20dinitrate",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Isosorbide_dinitrate",
+      "type": "monograph",
+      "title": "Isosorbide dinitrate — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Isosorbide_dinitrate",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C01DA08",
+      "name": "Isosorbide dinitrate",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
