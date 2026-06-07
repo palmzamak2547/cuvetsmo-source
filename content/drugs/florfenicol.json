@@ -1,0 +1,134 @@
+{
+  "slug": "florfenicol",
+  "nameEn": "Florfenicol",
+  "nameTh": "ฟลอร์เฟนิคอล",
+  "class": "Amphenicol antibiotic (veterinary, broad-spectrum)",
+  "mechanism": "จับ 50S ribosomal subunit ยับยั้งการสร้างโปรตีน (bacteriostatic) เป็นอนุพันธ์ของ chloramphenicol ที่ไม่ก่อ aplastic anemia ในคน",
+  "brandNamesTh": [
+    "Nuflor"
+  ],
+  "indications": [
+    {
+      "text": "โรคทางเดินหายใจในโค (bovine respiratory disease — Mannheimia, Pasteurella) และการติดเชื้อในสุกร (รวมปลาในบางประเทศ)",
+      "cites": [
+        "dailymed-florfenicol",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ห้ามในสัตว์โตเต็มวัยที่ใช้เป็นพ่อแม่พันธุ์ตามฉลากบางสูตร; เว้นระยะหยุดยาในสัตว์ผลิตอาหาร; ระวังในตับ/ไตบกพร่อง",
+      "cites": [
+        "dailymed-florfenicol",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เบื่ออาหาร/กินน้ำลดลงชั่วคราว, ท้องเสีย, บวม/ระคายบริเวณฉีด",
+      "cites": [
+        "plumbs",
+        "wikipedia-Florfenicol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "bovine",
+      "indication": "Bovine respiratory disease",
+      "route": "IM",
+      "dose": "20 mg/kg IM ทุก 48 ชั่วโมง 2 ครั้ง; หรือ 40 mg/kg SC ครั้งเดียว",
+      "cites": [
+        "plumbs",
+        "dailymed-florfenicol"
+      ]
+    },
+    {
+      "species": "porcine",
+      "indication": "Respiratory infection",
+      "route": "IM",
+      "dose": "15 mg/kg IM ทุก 48 ชั่วโมง 2 ครั้ง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J01BA90",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Florfenicol (veterinary) (J01BA90)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J01BA90&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical (incl. ATCvet Q-codes) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-florfenicol",
+      "type": "package-insert",
+      "title": "Florfenicol — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=florfenicol",
+      "note": "US FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Florfenicol",
+      "type": "monograph",
+      "title": "Florfenicol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Florfenicol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01BA90",
+      "name": "Florfenicol (veterinary)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

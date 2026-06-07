@@ -1,0 +1,143 @@
+{
+  "slug": "erythromycin",
+  "nameEn": "Erythromycin",
+  "nameTh": "อีริโทรมัยซิน",
+  "class": "Macrolide antibiotic / GI prokinetic",
+  "mechanism": "จับ 50S ribosomal subunit ยับยั้งการสร้างโปรตีนของแบคทีเรีย (bacteriostatic); ขนาดต่ำกระตุ้น motilin receptor จึงใช้เป็น prokinetic ของทางเดินอาหาร",
+  "brandNamesTh": [
+    "Erythrocin"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อแบคทีเรียแกรมบวก (ผิวหนัง, ทางเดินหายใจ); ขนาดต่ำใช้กระตุ้นการบีบตัวของกระเพาะ-ลำไส้ (prokinetic) ในภาวะ ileus/gastric stasis",
+      "cites": [
+        "dailymed-erythromycin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แพ้ยากลุ่ม macrolide; ระวังในตับบกพร่อง; ⚠️ ห้ามใช้ในกระต่าย หนูตะเภา แฮมสเตอร์ ม้าโต (ทำลายจุลินทรีย์ในลำไส้ เกิด enterocolitis รุนแรง)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Erythromycin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/คลื่นไส้/ตะคริวท้อง (จากฤทธิ์ prokinetic), ท้องเสีย; ยับยั้ง CYP450 เกิด drug interaction",
+      "cites": [
+        "plumbs",
+        "dailymed-erythromycin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Bacterial infection",
+      "route": "PO",
+      "dose": "10–20 mg/kg PO ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "plumbs",
+        "dailymed-erythromycin"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Prokinetic (GI motility)",
+      "route": "PO",
+      "dose": "0.5–1 mg/kg PO/IV ทุก 8 ชั่วโมง (ขนาดต่ำ ไม่ใช่ขนาดต้านเชื้อ)",
+      "cites": [
+        "plumbs"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Bacterial infection",
+      "route": "PO",
+      "dose": "10–20 mg/kg PO ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J01FA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Erythromycin (J01FA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J01FA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical (incl. ATCvet Q-codes) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-erythromycin",
+      "type": "package-insert",
+      "title": "Erythromycin — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=erythromycin",
+      "note": "US FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Erythromycin",
+      "type": "monograph",
+      "title": "Erythromycin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Erythromycin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01FA01",
+      "name": "Erythromycin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

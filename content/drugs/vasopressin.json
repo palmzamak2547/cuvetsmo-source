@@ -1,0 +1,162 @@
+{
+  "slug": "vasopressin",
+  "nameEn": "Vasopressin (argipressin)",
+  "nameTh": "วาโซเพรสซิน (อาร์จิเพรสซิน)",
+  "class": "Vasopressor — non-adrenergic V1 agonist / antidiuretic hormone",
+  "mechanism": "กระตุ้น V1 receptor ที่กล้ามเนื้อเรียบหลอดเลือด ทำให้หลอดเลือดหดตัวโดยไม่พึ่ง adrenergic pathway (ยังออกฤทธิ์ได้แม้ในภาวะเลือดเป็นกรด) ใช้ใน CPR และช็อกที่ดื้อต่อ catecholamine",
+  "brandNamesTh": [
+    "Pitressin",
+    "Vasostrict"
+  ],
+  "indications": [
+    {
+      "text": "หัวใจหยุดเต้น (CPR — เป็นทางเลือกหรือเสริม epinephrine) และภาวะ vasodilatory shock ที่ดื้อต่อ catecholamine",
+      "cites": [
+        "recover-2024",
+        "merck-cv-pharm"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ใช้เป็น vasopressor เฉพาะในบริบทวิกฤติ (CPR / refractory shock) เท่านั้น ไม่ใช่ยาทางเลือกแรกนอกบริบทนี้",
+      "cites": [
+        "merck-cv-pharm",
+        "dailymed-vasopressin"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หลอดเลือดหดตัวมากเกินจนขาดเลือด (ผิวหนัง/อวัยวะภายใน), ลด cardiac output เมื่อขนาดสูง",
+      "cites": [
+        "merck-cv-pharm",
+        "wikipedia-Vasopressin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "CPR (cardiac arrest)",
+      "route": "IV",
+      "dose": "0.8 U/kg IV/IO ครั้งเดียว (RECOVER) — ใช้แทนหรือเสริม epinephrine",
+      "cites": [
+        "recover-2024"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Catecholamine-resistant vasodilatory shock",
+      "route": "IV",
+      "dose": "CRI 0.5–5 mU/kg/min (0.0005–0.005 U/kg/min) IV titrate ตาม MAP",
+      "cites": [
+        "merck-cv-pharm",
+        "plumbs"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "CPR (cardiac arrest)",
+      "route": "IV",
+      "dose": "0.8 U/kg IV/IO ครั้งเดียว (RECOVER)",
+      "cites": [
+        "recover-2024"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-H01BA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Vasopressin (argipressin) (H01BA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=H01BA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-vasopressin",
+      "type": "package-insert",
+      "title": "Vasopressin — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=vasopressin",
+      "note": "US FDA structured product label. Authoritative for mechanism, indications, contraindications.",
+      "cid": null
+    },
+    {
+      "id": "merck-cv-pharm",
+      "type": "textbook",
+      "title": "Systemic Pharmacotherapeutics of the Cardiovascular System — Merck Veterinary Manual",
+      "year": 2026,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system",
+      "note": "Merck (MSD) Veterinary Manual. Authoritative veterinary clinical reference.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Dose cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "recover-2024",
+      "type": "guideline",
+      "title": "RECOVER 2024 CPR Drug Dosing Charts (Reassessment Campaign on Veterinary Resuscitation)",
+      "year": 2024,
+      "url": "https://recoverinitiative.org/wp-content/uploads/2024/07/RECOVER-2024-Drug-Dosing-Charts-LBS.pdf",
+      "note": "Consensus veterinary CPR dosing charts. Authoritative emergency reference.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Vasopressin",
+      "type": "monograph",
+      "title": "Vasopressin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Vasopressin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "H01BA01",
+      "name": "Vasopressin (argipressin)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Vet Manual / Plumb’s / RECOVER 2024 / WHO ATC / FDA label), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "nitroprusside",
+  "nameEn": "Sodium nitroprusside",
+  "nameTh": "โซเดียมไนโตรปรัสไซด์",
+  "class": "Balanced arterial + venous vasodilator (critical care)",
+  "mechanism": "ปลดปล่อย nitric oxide ขยายทั้งหลอดเลือดแดงและดำ ลดทั้ง preload และ afterload อย่างรวดเร็ว ใช้ในภาวะความดันสูงวิกฤติและหัวใจล้มเหลวรุนแรง",
+  "brandNamesTh": [
+    "Nipride",
+    "Nitropress"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะความดันโลหิตสูงวิกฤติ (hypertensive emergency) และภาวะหัวใจล้มเหลวเฉียบพลันรุนแรง/น้ำท่วมปอดที่ดื้อต่อการรักษา",
+      "cites": [
+        "merck-cv-pharm",
+        "dailymed-nitroprusside"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ภาวะ hypovolemia, ความดันที่เป็นกลไกชดเชย (compensatory hypertension); ระวังพิษ cyanide/thiocyanate เมื่อให้ขนาดสูงหรือนานเกิน",
+      "cites": [
+        "merck-cv-pharm",
+        "dailymed-nitroprusside"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันต่ำรุนแรง (ต้อง titrate ระวัง), การสะสม cyanide, methemoglobinemia; จำเป็นต้องวัดความดันแบบต่อเนื่อง (arterial line) และป้องกันแสง",
+      "cites": [
+        "merck-cv-pharm",
+        "wikipedia-Sodium_nitroprusside"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Hypertensive emergency / severe CHF",
+      "route": "IV",
+      "dose": "CRI เริ่ม 0.5–1 mcg/kg/min IV แล้ว titrate ขึ้นทีละน้อยตาม BP (ทั่วไปไม่เกิน ~10 mcg/kg/min); ป้องกันแสง + วัดความดันต่อเนื่อง",
+      "cites": [
+        "merck-cv-pharm",
+        "plumbs"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Hypertensive emergency / severe CHF",
+      "route": "IV",
+      "dose": "CRI เริ่มต่ำ ~0.5 mcg/kg/min IV แล้ว titrate ตาม BP อย่างใกล้ชิด",
+      "cites": [
+        "merck-cv-pharm",
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C02DD01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Nitroprusside (C02DD01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C02DD01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-nitroprusside",
+      "type": "package-insert",
+      "title": "Sodium nitroprusside — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=nitroprusside",
+      "note": "US FDA structured product label. Authoritative for mechanism, indications, contraindications.",
+      "cid": null
+    },
+    {
+      "id": "merck-cv-pharm",
+      "type": "textbook",
+      "title": "Systemic Pharmacotherapeutics of the Cardiovascular System — Merck Veterinary Manual",
+      "year": 2026,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system",
+      "note": "Merck (MSD) Veterinary Manual. Authoritative veterinary clinical reference.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Dose cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Sodium_nitroprusside",
+      "type": "monograph",
+      "title": "Sodium nitroprusside — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Sodium_nitroprusside",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C02DD01",
+      "name": "Nitroprusside",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Vet Manual / Plumb’s / RECOVER 2024 / WHO ATC / FDA label), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

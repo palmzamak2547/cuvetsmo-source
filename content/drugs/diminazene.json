@@ -1,0 +1,135 @@
+{
+  "slug": "diminazene",
+  "nameEn": "Diminazene aceturate",
+  "nameTh": "ไดมินาซีน อะเซทูเรต",
+  "class": "Antiprotozoal — aromatic diamidine (babesiosis/trypanosomiasis)",
+  "mechanism": "aromatic diamidine ที่จับ DNA (kinetoplast/minor groove) ของโปรโตซัว ขัดขวางการจำลองสารพันธุกรรม ใช้รักษา babesiosis และ trypanosomiasis",
+  "brandNamesTh": [
+    "Berenil",
+    "Ganaseg"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อ Babesia และ Trypanosoma ในสัตว์ (โค สุนัข) — โรคจากเห็บ/แมลงพาหะที่พบในเขตร้อน",
+      "cites": [
+        "paper-diminazene-babesiosis",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ช่วงความปลอดภัยแคบ (narrow margin) — ห้ามเกินขนาด; ระวังพิเศษในสุนัข (พิษระบบประสาทส่วนกลางจากการให้ขนาดสูง/ซ้ำ); เลี่ยงในอูฐและสัตว์บางชนิดที่ไวพิเศษ",
+      "cites": [
+        "paper-diminazene-babesiosis",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เจ็บ/บวมบริเวณฉีด, อาเจียน, อาการทางระบบประสาท (กล้ามเนื้อสั่น เดินเซ ชัก) และสมองส่วนลึกถูกทำลายเมื่อเกินขนาด — โดยเฉพาะในสุนัข",
+      "cites": [
+        "plumbs",
+        "wikipedia-Diminazene"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Babesiosis",
+      "route": "IM",
+      "dose": "3.5 mg/kg IM ครั้งเดียว — ⚠️ ห้ามให้ซ้ำเกินขนาดเพราะเสี่ยงพิษระบบประสาท",
+      "cites": [
+        "plumbs",
+        "paper-diminazene-babesiosis"
+      ]
+    },
+    {
+      "species": "bovine",
+      "indication": "Babesiosis / trypanosomiasis",
+      "route": "IM",
+      "dose": "3.5 mg/kg IM (babesia) ถึง 7 mg/kg IM (trypanosome) ตามข้อบ่งใช้",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QP51DF01",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Diminazene (QP51DF01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QP51DF01&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "paper-diminazene-babesiosis",
+      "type": "paper",
+      "title": "Diminazene aceturate and imidocarb dipropionate-based combination therapy for babesiosis — a new paradigm",
+      "year": 2023,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36812788/",
+      "note": "Peer-reviewed review of diminazene/imidocarb babesiosis therapy (Ticks Tick Borne Dis).",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Diminazene",
+      "type": "monograph",
+      "title": "Diminazene — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Diminazene",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP51DF01",
+      "name": "Diminazene",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against WHO/Wikipedia. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

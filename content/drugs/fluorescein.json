@@ -1,0 +1,135 @@
+{
+  "slug": "fluorescein",
+  "nameEn": "Fluorescein (ophthalmic)",
+  "nameTh": "ฟลูออเรสซีน (ตรวจตา)",
+  "class": "Ophthalmic diagnostic dye",
+  "mechanism": "สีย้อมเรืองแสงที่ติดเฉพาะบริเวณ stroma ของกระจกตาที่ epithelium หลุด ทำให้มองเห็นแผลกระจกตาและประเมินการไหลของน้ำตา",
+  "brandNamesTh": [
+    "Fluorescein strip",
+    "Ful-Glo"
+  ],
+  "indications": [
+    {
+      "text": "ตรวจหาแผลที่กระจกตา (corneal ulcer), ทดสอบการระบายน้ำตา (Jones test) และประเมิน tear film",
+      "cites": [
+        "dailymed-fluorescein",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "แถบกระดาษปลอดเชื้อใช้ครั้งเดียวทิ้ง; ระวังการปนเปื้อน Pseudomonas หากใช้สารละลายขวดรวม",
+      "cites": [
+        "dailymed-fluorescein",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ย้อมขน/ผิวหนังเป็นสีเหลือง-เขียวชั่วคราว; แพ้พบได้น้อยมาก (เด่นกับรูปฉีด ไม่ใช่รูปตา)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Fluorescein"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Corneal ulcer detection / Jones test",
+      "route": "ocular",
+      "dose": "แตะแถบ fluorescein ที่ conjunctiva แล้วล้างด้วย sterile saline เบา ๆ ก่อนอ่านผลด้วยไฟ cobalt blue",
+      "cites": [
+        "plumbs",
+        "dailymed-fluorescein"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Corneal ulcer detection / Jones test",
+      "route": "ocular",
+      "dose": "แตะแถบ fluorescein ที่ conjunctiva แล้วล้างด้วย sterile saline",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-S01JA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Fluorescein (S01JA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=S01JA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-fluorescein",
+      "type": "package-insert",
+      "title": "Fluorescein — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=fluorescein",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Fluorescein",
+      "type": "monograph",
+      "title": "Fluorescein — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Fluorescein",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01JA01",
+      "name": "Fluorescein",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "etodolac",
+  "nameEn": "Etodolac",
+  "nameTh": "อีโทโดแลก",
+  "class": "NSAID — COX-2 preferential (canine osteoarthritis)",
+  "mechanism": "ยับยั้ง COX (เลือก COX-2 มากกว่าเล็กน้อย) ลด prostaglandin แก้ปวดและลดอักเสบในโรคข้อเสื่อมของสุนัข",
+  "brandNamesTh": [
+    "EtoGesic"
+  ],
+  "indications": [
+    {
+      "text": "อาการปวดและอักเสบจากโรคข้อเสื่อม (osteoarthritis) ในสุนัข",
+      "cites": [
+        "dailymed-etodolac",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "โรคไต/ตับ, แผลในทางเดินอาหาร, ภาวะขาดน้ำ; ห้ามใช้ร่วม NSAID/corticosteroid อื่น; ระวัง keratoconjunctivitis sicca (ตาแห้ง) ในสุนัข",
+      "cites": [
+        "dailymed-etodolac",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/ท้องเสีย, แผล GI, ตาแห้ง (KCS), พิษไต/ตับเมื่อใช้นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Etodolac"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Osteoarthritis",
+      "route": "PO",
+      "dose": "10–15 mg/kg PO วันละครั้ง",
+      "cites": [
+        "plumbs",
+        "dailymed-etodolac"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-M01AB08",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Etodolac (M01AB08)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AB08&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical (incl. ATCvet Q-codes) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-etodolac",
+      "type": "package-insert",
+      "title": "Etodolac — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=etodolac",
+      "note": "US FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Etodolac",
+      "type": "monograph",
+      "title": "Etodolac — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Etodolac",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "M01AB08",
+      "name": "Etodolac",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

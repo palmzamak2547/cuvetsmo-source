@@ -1,0 +1,134 @@
+{
+  "slug": "prednisolone-acetate-ophthalmic",
+  "nameEn": "Prednisolone acetate (ophthalmic)",
+  "nameTh": "เพรดนิโซโลน อะซิเตต (ยาหยอดตา)",
+  "class": "Topical ocular corticosteroid",
+  "mechanism": "corticosteroid ที่ซึมผ่านกระจกตาได้ดี ลดการอักเสบภายในลูกตา (anterior segment) ใช้รักษา uveitis และอักเสบหลังผ่าตัดตา",
+  "brandNamesTh": [
+    "Pred Forte"
+  ],
+  "indications": [
+    {
+      "text": "การอักเสบของส่วนหน้าลูกตา (anterior uveitis, scleritis, อักเสบหลังผ่าตัด) ที่กระจกตาไม่มีแผล",
+      "cites": [
+        "dailymed-prednisolone acetate ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามใช้เมื่อมีแผลกระจกตา (corneal ulcer) หรือสงสัยติดเชื้อรา/ไวรัสที่กระจกตา (steroid ทำให้ลุกลาม + กระจกตาทะลุ)",
+      "cites": [
+        "dailymed-prednisolone acetate ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ชะลอการหายของแผล, เพิ่มความเสี่ยงติดเชื้อกระจกตา, ความดันลูกตาสูงขึ้นเมื่อใช้นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Prednisolone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Anterior uveitis / post-op inflammation",
+      "route": "ocular",
+      "dose": "หยอดตา 1% 1 หยด ทุก 6–12 ชั่วโมง (ปรับตามความรุนแรง) — เฉพาะกระจกตาไม่มีแผล",
+      "cites": [
+        "plumbs",
+        "dailymed-prednisolone acetate ophthalmic"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Anterior uveitis / post-op inflammation",
+      "route": "ocular",
+      "dose": "หยอดตา 1% 1 หยด ทุก 8–12 ชั่วโมง — เฉพาะกระจกตาไม่มีแผล",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-S01BA04",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Prednisolone (ophthalmic) (S01BA04)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=S01BA04&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-prednisolone acetate ophthalmic",
+      "type": "package-insert",
+      "title": "Prednisolone acetate ophthalmic — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=prednisolone%20acetate%20ophthalmic",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Prednisolone",
+      "type": "monograph",
+      "title": "Prednisolone acetate (ophthalmic) — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Prednisolone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01BA04",
+      "name": "Prednisolone (ophthalmic)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

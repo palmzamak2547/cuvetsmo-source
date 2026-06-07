@@ -1,0 +1,135 @@
+{
+  "slug": "albendazole",
+  "nameEn": "Albendazole",
+  "nameTh": "อัลเบนดาโซล",
+  "class": "Anthelmintic — benzimidazole (broad-spectrum)",
+  "mechanism": "จับ β-tubulin ของพยาธิ ขัดขวางการสร้าง microtubule และการดูดซึมกลูโคส ทำให้พยาธิตาย ครอบคลุมพยาธิตัวกลม ตัวตืด พยาธิใบไม้ และ Giardia",
+  "brandNamesTh": [
+    "Valbazen",
+    "Albenza"
+  ],
+  "indications": [
+    {
+      "text": "ถ่ายพยาธิวงกว้าง (ตัวกลม ตัวตืด พยาธิใบไม้ตับ พยาธิปอด) ในสัตว์เคี้ยวเอื้อง; รักษา Giardia ในสุนัข/แมว",
+      "cites": [
+        "dailymed-albendazole",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามใช้ในสัตว์ตั้งท้องช่วงแรก (teratogenic); ⚠️ เสี่ยงกดไขกระดูก (pancytopenia) โดยเฉพาะแมวและเมื่อใช้ขนาดสูง/นานเกิน",
+      "cites": [
+        "dailymed-albendazole",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "เบื่ออาหาร, ซึม; การกดไขกระดูก (neutropenia/aplastic anemia) เมื่อใช้นาน — โดยเฉพาะแมว",
+      "cites": [
+        "plumbs",
+        "wikipedia-Albendazole"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Giardiasis",
+      "route": "PO",
+      "dose": "25 mg/kg PO ทุก 12 ชั่วโมง นาน 2–5 วัน (ใช้สั้น ๆ; fenbendazole มักปลอดภัยกว่าสำหรับ Giardia)",
+      "cites": [
+        "plumbs",
+        "dailymed-albendazole"
+      ]
+    },
+    {
+      "species": "bovine",
+      "indication": "Broad-spectrum deworming (incl. liver fluke)",
+      "route": "PO",
+      "dose": "7.5–10 mg/kg PO ครั้งเดียว",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-P02CA03",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Albendazole (P02CA03)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=P02CA03&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-albendazole",
+      "type": "package-insert",
+      "title": "Albendazole — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=albendazole",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Albendazole",
+      "type": "monograph",
+      "title": "Albendazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Albendazole",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "P02CA03",
+      "name": "Albendazole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against WHO/Wikipedia. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

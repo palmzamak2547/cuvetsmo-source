@@ -1,0 +1,135 @@
+{
+  "slug": "phenylpropanolamine",
+  "nameEn": "Phenylpropanolamine",
+  "nameTh": "ฟีนิลโพรพาโนลามีน",
+  "class": "Sympathomimetic — α-adrenergic (urethral sphincter tone)",
+  "mechanism": "กระตุ้น α-adrenergic receptor ที่กล้ามเนื้อหูรูดท่อปัสสาวะ เพิ่มแรงตึงของหูรูด ใช้รักษาภาวะกลั้นปัสสาวะไม่อยู่จากหูรูดอ่อนแรง (USMI)",
+  "brandNamesTh": [
+    "Proin",
+    "Propalin"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะปัสสาวะเล็ดจากหูรูดท่อปัสสาวะหย่อนสมรรถภาพ (urethral sphincter mechanism incompetence) โดยเฉพาะสุนัขเพศเมียที่ทำหมันแล้ว",
+      "cites": [
+        "dailymed-phenylpropanolamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ความดันโลหิตสูง, โรคหัวใจ, hyperthyroid, glaucoma, เบาหวาน; ระวังใช้ร่วมยา sympathomimetic/NSAID — ควรติดตามความดันโลหิต",
+      "cites": [
+        "dailymed-phenylpropanolamine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ความดันโลหิตสูง, หัวใจเต้นเร็ว, กระสับกระส่าย, เบื่ออาหาร, นอนไม่หลับ",
+      "cites": [
+        "plumbs",
+        "wikipedia-Phenylpropanolamine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Urethral sphincter incompetence (incontinence)",
+      "route": "PO",
+      "dose": "1–2 mg/kg PO ทุก 8–12 ชั่วโมง (รูปออกฤทธิ์นานให้วันละครั้งตามฉลาก); เริ่มต่ำ ปรับตามการตอบสนอง",
+      "cites": [
+        "plumbs",
+        "dailymed-phenylpropanolamine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Urethral sphincter incompetence (incontinence)",
+      "route": "PO",
+      "dose": "1.0–1.5 mg/kg PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QG04BX91",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Phenylpropanolamine (veterinary) (QG04BX91)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QG04BX91&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical (incl. ATCvet Q-codes) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-phenylpropanolamine",
+      "type": "package-insert",
+      "title": "Phenylpropanolamine (Proin) — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=phenylpropanolamine",
+      "note": "US FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Phenylpropanolamine",
+      "type": "monograph",
+      "title": "Phenylpropanolamine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Phenylpropanolamine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QG04BX91",
+      "name": "Phenylpropanolamine (veterinary)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

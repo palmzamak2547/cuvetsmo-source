@@ -1,0 +1,143 @@
+{
+  "slug": "levamisole",
+  "nameEn": "Levamisole",
+  "nameTh": "ลีวามิโซล",
+  "class": "Anthelmintic — imidazothiazole / immunomodulator",
+  "mechanism": "กระตุ้น nicotinic acetylcholine receptor ของพยาธิตัวกลม ทำให้กล้ามเนื้อพยาธิเป็นอัมพาตแบบเกร็งและถูกขับออก; ขนาดต่ำมีฤทธิ์กระตุ้นภูมิคุ้มกัน (immunostimulant)",
+  "brandNamesTh": [
+    "Levamisole"
+  ],
+  "indications": [
+    {
+      "text": "ถ่ายพยาธิตัวกลมในทางเดินอาหารและปอดของโค แกะ สุกร; ใช้เป็น immunostimulant และจัดการ microfilaria ในสุนัข (off-label)",
+      "cites": [
+        "dailymed-levamisole",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ช่วงความปลอดภัยแคบ — เกินขนาดเกิดพิษ cholinergic (เหมือน organophosphate); ห้ามใช้ร่วมยา cholinergic อื่น; ระวังในม้า (ไวพิษ) และสัตว์ป่วยหนัก",
+      "cites": [
+        "dailymed-levamisole",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาการ cholinergic (น้ำลายไหล, สั่น, อาเจียน, ถ่าย/ปัสสาวะ), กระสับกระส่าย; เจ็บบริเวณฉีด",
+      "cites": [
+        "plumbs",
+        "wikipedia-Levamisole"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "bovine",
+      "indication": "Gastrointestinal & lung nematodes",
+      "route": "PO",
+      "dose": "7.5 mg/kg PO/SC ครั้งเดียว (ทำซ้ำตามโปรแกรมถ่ายพยาธิ)",
+      "cites": [
+        "plumbs",
+        "dailymed-levamisole"
+      ]
+    },
+    {
+      "species": "ovine",
+      "indication": "Gastrointestinal & lung nematodes",
+      "route": "PO",
+      "dose": "7.5 mg/kg PO ครั้งเดียว",
+      "cites": [
+        "plumbs"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Immunostimulant / microfilaria (off-label)",
+      "route": "PO",
+      "dose": "ขนาดต่ำตามข้อบ่งใช้เฉพาะ (เช่น immunostimulant ~0.5–2 mg/kg) — ใช้ภายใต้การดูแลใกล้ชิด",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-P02CE01",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Levamisole (P02CE01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=P02CE01&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-levamisole",
+      "type": "package-insert",
+      "title": "Levamisole — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=levamisole",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Levamisole",
+      "type": "monograph",
+      "title": "Levamisole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Levamisole",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "P02CE01",
+      "name": "Levamisole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against WHO/Wikipedia. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

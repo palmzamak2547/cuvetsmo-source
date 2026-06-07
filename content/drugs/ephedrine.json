@@ -1,0 +1,144 @@
+{
+  "slug": "ephedrine",
+  "nameEn": "Ephedrine",
+  "nameTh": "อีเฟดรีน",
+  "class": "Vasopressor — mixed-acting sympathomimetic",
+  "mechanism": "ออกฤทธิ์ทั้งทางตรง (α/β-adrenergic) และทางอ้อม (กระตุ้นการหลั่ง norepinephrine) เพิ่มความดันโลหิต cardiac output และอัตราการเต้นหัวใจ ออกฤทธิ์นานกว่า catecholamine จึงนิยมให้แบบ bolus",
+  "brandNamesTh": [
+    "Ephedrine"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะความดันต่ำระหว่างดมยาสลบ (anesthetic-induced hypotension) — มักให้เป็น bolus เพื่อพยุงความดันชั่วคราว",
+      "cites": [
+        "merck-cv-pharm",
+        "dailymed-ephedrine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ภาวะ hypovolemia ที่ยังไม่แก้ไข, ภาวะหัวใจเต้นเร็วผิดจังหวะ (tachyarrhythmia)",
+      "cites": [
+        "merck-cv-pharm",
+        "dailymed-ephedrine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นเร็ว, ความดันสูง, arrhythmia; เกิด tachyphylaxis (การตอบสนองลดลง) เมื่อให้ซ้ำเพราะ norepinephrine store ถูกใช้หมด",
+      "cites": [
+        "merck-cv-pharm",
+        "wikipedia-Ephedrine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Anesthetic-induced hypotension",
+      "route": "IV",
+      "dose": "0.03–0.1 mg/kg IV bolus (ให้ซ้ำได้ตามการตอบสนอง)",
+      "cites": [
+        "merck-cv-pharm",
+        "plumbs"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Anesthetic-induced hypotension",
+      "route": "IV",
+      "dose": "0.03–0.1 mg/kg IV bolus (ให้ซ้ำได้ตามการตอบสนอง)",
+      "cites": [
+        "merck-cv-pharm",
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C01CA26",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Ephedrine (C01CA26)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C01CA26&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-ephedrine",
+      "type": "package-insert",
+      "title": "Ephedrine — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ephedrine",
+      "note": "US FDA structured product label. Authoritative for mechanism, indications, contraindications.",
+      "cid": null
+    },
+    {
+      "id": "merck-cv-pharm",
+      "type": "textbook",
+      "title": "Systemic Pharmacotherapeutics of the Cardiovascular System — Merck Veterinary Manual",
+      "year": 2026,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system",
+      "note": "Merck (MSD) Veterinary Manual. Authoritative veterinary clinical reference.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Dose cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Ephedrine",
+      "type": "monograph",
+      "title": "Ephedrine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Ephedrine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C01CA26",
+      "name": "Ephedrine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Vet Manual / Plumb’s / RECOVER 2024 / WHO ATC / FDA label), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

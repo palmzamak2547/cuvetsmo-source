@@ -1,0 +1,134 @@
+{
+  "slug": "neomycin",
+  "nameEn": "Neomycin (oral)",
+  "nameTh": "นีโอมัยซิน (ชนิดกิน)",
+  "class": "Aminoglycoside — oral/topical (non-absorbed)",
+  "mechanism": "จับ 30S ribosomal subunit ฆ่าแบคทีเรียในลำไส้; ดูดซึมทางลำไส้น้อยมาก จึงออกฤทธิ์เฉพาะที่ในทางเดินอาหาร",
+  "brandNamesTh": [
+    "Biosol"
+  ],
+  "indications": [
+    {
+      "text": "ลดแบคทีเรียที่สร้างแอมโมเนียในลำไส้ (ภาวะตับวาย/hepatic encephalopathy) และการติดเชื้อในลำไส้ (enteric)",
+      "cites": [
+        "dailymed-neomycin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามใช้เมื่อผนังลำไส้เสียหาย/อุดตัน (ดูดซึมเข้ากระแสเลือดแล้วเป็นพิษต่อไตและหู); ไม่ใช้รักษาการติดเชื้อในระบบ (systemic)",
+      "cites": [
+        "dailymed-neomycin",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พิษต่อไตและการได้ยิน (หากถูกดูดซึม), รบกวนจุลินทรีย์ลำไส้/ท้องเสีย, การดูดซึมสารอาหารผิดปกติเมื่อใช้นาน",
+      "cites": [
+        "plumbs",
+        "wikipedia-Neomycin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Hepatic encephalopathy / enteric",
+      "route": "PO",
+      "dose": "10–20 mg/kg PO ทุก 6–12 ชั่วโมง (ออกฤทธิ์เฉพาะในลำไส้)",
+      "cites": [
+        "plumbs",
+        "dailymed-neomycin"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Hepatic encephalopathy / enteric",
+      "route": "PO",
+      "dose": "10–20 mg/kg PO ทุก 6–12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-A07AA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Neomycin (oral) (A07AA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=A07AA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical (incl. ATCvet Q-codes) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-neomycin",
+      "type": "package-insert",
+      "title": "Neomycin — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=neomycin",
+      "note": "US FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Neomycin",
+      "type": "monograph",
+      "title": "Neomycin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Neomycin",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "A07AA01",
+      "name": "Neomycin (oral)",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

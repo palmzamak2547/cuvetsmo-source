@@ -1,0 +1,125 @@
+{
+  "slug": "afoxolaner",
+  "nameEn": "Afoxolaner",
+  "nameTh": "อะฟอกโซลาเนอร์",
+  "class": "Ectoparasiticide — isoxazoline (systemic flea/tick)",
+  "mechanism": "ปิดกั้น GABA- และ glutamate-gated chloride channel ของสัตว์ขาปล้องอย่างจำเพาะ ทำให้ระบบประสาทถูกกระตุ้นเกินจนตาย ออกฤทธิ์ฆ่าเห็บและหมัดแบบกินทั้งตัว นาน ~1 เดือน",
+  "brandNamesTh": [
+    "NexGard"
+  ],
+  "indications": [
+    {
+      "text": "กำจัดและป้องกันหมัดและเห็บในสุนัข; ช่วยควบคุมไรขี้เรื้อน (Demodex, Sarcoptes) และไรในหู (off-label)",
+      "cites": [
+        "dailymed-afoxolaner",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ใช้ด้วยความระวังในสุนัขที่มีประวัติชัก (กลุ่ม isoxazoline อาจกระตุ้นอาการทางระบบประสาท); ข้อมูลความปลอดภัยในลูกสุนัขอายุ < 8 สัปดาห์/น้ำหนักน้อยจำกัด",
+      "cites": [
+        "dailymed-afoxolaner",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน, คัน, ท้องเสีย, ซึม; พบรายงานอาการทางระบบประสาท (กล้ามเนื้อสั่น เดินเซ ชัก) ไม่บ่อย",
+      "cites": [
+        "plumbs",
+        "wikipedia-Afoxolaner"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Flea & tick control",
+      "route": "PO",
+      "dose": "2.5 mg/kg PO เดือนละครั้ง (ขั้นต่ำ; เม็ดเคี้ยวตามช่วงน้ำหนักของผลิตภัณฑ์)",
+      "cites": [
+        "plumbs",
+        "dailymed-afoxolaner"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QP53BE01",
+      "type": "regulatory-database",
+      "title": "WHO ATCvet Index — Afoxolaner (QP53BE01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QP53BE01&showdescription=no",
+      "note": "WHO ATCvet (Q-code) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-afoxolaner",
+      "type": "package-insert",
+      "title": "Afoxolaner (NexGard) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=afoxolaner",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Afoxolaner",
+      "type": "monograph",
+      "title": "Afoxolaner — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Afoxolaner",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP53BE01",
+      "name": "Afoxolaner",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / peer-reviewed), cross-checked. ATCvet code verified against WHO/Wikipedia. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

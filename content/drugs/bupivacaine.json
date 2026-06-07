@@ -1,0 +1,134 @@
+{
+  "slug": "bupivacaine",
+  "nameEn": "Bupivacaine",
+  "nameTh": "บูพิวาเคน",
+  "class": "Local anesthetic — long-acting amide",
+  "mechanism": "ปิดกั้น voltage-gated sodium channel ในเส้นประสาท ขัดขวางการนำสัญญาณความเจ็บปวด ออกฤทธิ์นาน (4–6 ชั่วโมง) เหมาะกับ regional/local block และ epidural",
+  "brandNamesTh": [
+    "Marcaine"
+  ],
+  "indications": [
+    {
+      "text": "ระงับความรู้สึกเฉพาะที่/เฉพาะส่วน (local infiltration, nerve block, epidural) เพื่อระงับปวดระหว่างและหลังผ่าตัด",
+      "cites": [
+        "dailymed-bupivacaine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามฉีดเข้าหลอดเลือดดำ (cardiotoxic รุนแรง — หัวใจหยุดเต้น); ห้ามใช้สำหรับ intravenous regional anesthesia (Bier block); ระวังขนาดรวมไม่ให้เกิน toxic dose",
+      "cites": [
+        "dailymed-bupivacaine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พิษต่อระบบประสาท (ชัก) และหัวใจ (arrhythmia, cardiac arrest) เมื่อเข้ากระแสเลือดหรือเกินขนาด; methemoglobinemia (พบน้อย)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Bupivacaine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Local/regional block, epidural",
+      "route": "IM",
+      "dose": "infiltration/nerve block สูงสุดรวม ~2 mg/kg (สารละลาย 0.25–0.5%); epidural ~1 mg/kg — ห้ามฉีด IV",
+      "cites": [
+        "plumbs",
+        "dailymed-bupivacaine"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Local/regional block",
+      "route": "IM",
+      "dose": "สูงสุดรวม ~1 mg/kg (แมวไวต่อพิษมากกว่า) — ห้ามฉีด IV",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-N01BB01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Bupivacaine (N01BB01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N01BB01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-bupivacaine",
+      "type": "package-insert",
+      "title": "Bupivacaine — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=bupivacaine",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Bupivacaine",
+      "type": "monograph",
+      "title": "Bupivacaine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Bupivacaine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "N01BB01",
+      "name": "Bupivacaine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

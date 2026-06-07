@@ -1,0 +1,144 @@
+{
+  "slug": "norepinephrine",
+  "nameEn": "Norepinephrine (noradrenaline)",
+  "nameTh": "นอร์อิพิเนฟริน (นอร์อะดรีนาลีน)",
+  "class": "Vasopressor — α1-adrenergic agonist (critical care)",
+  "mechanism": "กระตุ้น α1-adrenergic receptor เป็นหลัก (ออกฤทธิ์ β1 บ้าง) ทำให้หลอดเลือดหดตัว เพิ่ม systemic vascular resistance และ mean arterial pressure เป็น vasopressor ทางเลือกแรกใน vasodilatory/septic shock ที่ไม่ตอบสนองต่อสารน้ำ",
+  "brandNamesTh": [
+    "Levophed"
+  ],
+  "indications": [
+    {
+      "text": "ภาวะความดันโลหิตต่ำรุนแรงหรือช็อกที่ไม่ตอบสนองต่อการให้สารน้ำ (vasodilatory shock, septic shock, ความดันต่ำระหว่างดมยาสลบ)",
+      "cites": [
+        "merck-cv-pharm",
+        "dailymed-norepinephrine"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ภาวะ hypovolemia ที่ยังแก้ไขไม่เสร็จ — ต้อง resuscitate ด้วยสารน้ำก่อน ระวังการรั่วของยาออกนอกหลอดเลือด (extravasation) ที่ทำให้เนื้อเยื่อตาย ควรให้ทาง central line เมื่อทำได้",
+      "cites": [
+        "merck-cv-pharm",
+        "dailymed-norepinephrine"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หลอดเลือดส่วนปลายหดตัวมากเกินจนขาดเลือด, reflex bradycardia, ภาวะหัวใจเต้นผิดจังหวะ, เนื้อตายบริเวณที่ยารั่ว",
+      "cites": [
+        "merck-cv-pharm",
+        "wikipedia-Norepinephrine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Vasodilatory/septic shock (hypotension)",
+      "route": "IV",
+      "dose": "CRI 0.05–2 mcg/kg/min IV (เริ่ม ~0.1 mcg/kg/min แล้ว titrate ตาม MAP และ ECG)",
+      "cites": [
+        "merck-cv-pharm",
+        "plumbs"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Vasodilatory/septic shock (hypotension)",
+      "route": "IV",
+      "dose": "CRI 0.05–2 mcg/kg/min IV titrate ตาม MAP",
+      "cites": [
+        "merck-cv-pharm",
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C01CA03",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Norepinephrine (C01CA03)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C01CA03&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-norepinephrine",
+      "type": "package-insert",
+      "title": "Norepinephrine — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=norepinephrine",
+      "note": "US FDA structured product label. Authoritative for mechanism, indications, contraindications.",
+      "cid": null
+    },
+    {
+      "id": "merck-cv-pharm",
+      "type": "textbook",
+      "title": "Systemic Pharmacotherapeutics of the Cardiovascular System — Merck Veterinary Manual",
+      "year": 2026,
+      "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system",
+      "note": "Merck (MSD) Veterinary Manual. Authoritative veterinary clinical reference.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Dose cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Norepinephrine",
+      "type": "monograph",
+      "title": "Norepinephrine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Norepinephrine",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C01CA03",
+      "name": "Norepinephrine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (Merck Vet Manual / Plumb’s / RECOVER 2024 / WHO ATC / FDA label), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

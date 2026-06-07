@@ -3754,5 +3754,335 @@
     "name": "Tranexamic acid",
     "level": 5,
     "parent": "B02AA"
+  },
+  "C01D": {
+    "code": "C01D",
+    "name": "Vasodilators used in cardiac diseases",
+    "level": 3,
+    "parent": "C01"
+  },
+  "C01DA": {
+    "code": "C01DA",
+    "name": "Organic nitrates",
+    "level": 4,
+    "parent": "C01D"
+  },
+  "C02": {
+    "code": "C02",
+    "name": "Antihypertensives",
+    "level": 2,
+    "parent": "C"
+  },
+  "C02DD": {
+    "code": "C02DD",
+    "name": "Nitroferricyanide derivatives",
+    "level": 4,
+    "parent": "C02D"
+  },
+  "C01CA03": {
+    "code": "C01CA03",
+    "name": "Norepinephrine",
+    "level": 5,
+    "parent": "C01CA"
+  },
+  "C01CA06": {
+    "code": "C01CA06",
+    "name": "Phenylephrine",
+    "level": 5,
+    "parent": "C01CA"
+  },
+  "C01CA26": {
+    "code": "C01CA26",
+    "name": "Ephedrine",
+    "level": 5,
+    "parent": "C01CA"
+  },
+  "C01DA02": {
+    "code": "C01DA02",
+    "name": "Glyceryl trinitrate (nitroglycerin)",
+    "level": 5,
+    "parent": "C01DA"
+  },
+  "C02DD01": {
+    "code": "C02DD01",
+    "name": "Nitroprusside",
+    "level": 5,
+    "parent": "C02DD"
+  },
+  "C07AB09": {
+    "code": "C07AB09",
+    "name": "Esmolol",
+    "level": 5,
+    "parent": "C07AB"
+  },
+  "H01BA01": {
+    "code": "H01BA01",
+    "name": "Vasopressin (argipressin)",
+    "level": 5,
+    "parent": "H01BA"
+  },
+  "QM01AG90": {
+    "code": "QM01AG90",
+    "name": "Flunixin (veterinary)",
+    "level": 5,
+    "parent": "QM01AG"
+  },
+  "M01AA01": {
+    "code": "M01AA01",
+    "name": "Phenylbutazone",
+    "level": 5,
+    "parent": "M01AA"
+  },
+  "M01AB08": {
+    "code": "M01AB08",
+    "name": "Etodolac",
+    "level": 5,
+    "parent": "M01AB"
+  },
+  "M01AB15": {
+    "code": "M01AB15",
+    "name": "Ketorolac",
+    "level": 5,
+    "parent": "M01AB"
+  },
+  "J01FA01": {
+    "code": "J01FA01",
+    "name": "Erythromycin",
+    "level": 5,
+    "parent": "J01FA"
+  },
+  "J01AA06": {
+    "code": "J01AA06",
+    "name": "Oxytetracycline",
+    "level": 5,
+    "parent": "J01AA"
+  },
+  "J01AA08": {
+    "code": "J01AA08",
+    "name": "Minocycline",
+    "level": 5,
+    "parent": "J01AA"
+  },
+  "J01XE01": {
+    "code": "J01XE01",
+    "name": "Nitrofurantoin",
+    "level": 5,
+    "parent": "J01XE"
+  },
+  "J01FF02": {
+    "code": "J01FF02",
+    "name": "Lincomycin",
+    "level": 5,
+    "parent": "J01FF"
+  },
+  "J01DB05": {
+    "code": "J01DB05",
+    "name": "Cefadroxil",
+    "level": 5,
+    "parent": "J01DB"
+  },
+  "J01BA90": {
+    "code": "J01BA90",
+    "name": "Florfenicol (veterinary)",
+    "level": 5,
+    "parent": "J01BA"
+  },
+  "A07AA01": {
+    "code": "A07AA01",
+    "name": "Neomycin (oral)",
+    "level": 5,
+    "parent": "A07AA"
+  },
+  "QG04BX91": {
+    "code": "QG04BX91",
+    "name": "Phenylpropanolamine (veterinary)",
+    "level": 5,
+    "parent": "QG04BX"
+  },
+  "G03CB02": {
+    "code": "G03CB02",
+    "name": "Diethylstilbestrol",
+    "level": 5,
+    "parent": "G03CB"
+  },
+  "QM01AG": {
+    "code": "QM01AG",
+    "name": "Fenamates (veterinary)",
+    "level": 4,
+    "parent": "QM01A"
+  },
+  "M01AA": {
+    "code": "M01AA",
+    "name": "Butylpyrazolidines",
+    "level": 4,
+    "parent": "M01A"
+  },
+  "J01XE": {
+    "code": "J01XE",
+    "name": "Nitrofuran derivatives",
+    "level": 4,
+    "parent": "J01X"
+  },
+  "QG04BX": {
+    "code": "QG04BX",
+    "name": "Other urologicals (veterinary)",
+    "level": 4,
+    "parent": "QG04B"
+  },
+  "G03CB": {
+    "code": "G03CB",
+    "name": "Synthetic estrogens, plain",
+    "level": 4,
+    "parent": "G03C"
+  },
+  "N01BB01": {
+    "code": "N01BB01",
+    "name": "Bupivacaine",
+    "level": 5,
+    "parent": "N01BB"
+  },
+  "N01BB03": {
+    "code": "N01BB03",
+    "name": "Mepivacaine",
+    "level": 5,
+    "parent": "N01BB"
+  },
+  "N01AF03": {
+    "code": "N01AF03",
+    "name": "Thiopental",
+    "level": 5,
+    "parent": "N01AF"
+  },
+  "N01AX07": {
+    "code": "N01AX07",
+    "name": "Etomidate",
+    "level": 5,
+    "parent": "N01AX"
+  },
+  "S01ED01": {
+    "code": "S01ED01",
+    "name": "Timolol",
+    "level": 5,
+    "parent": "S01ED"
+  },
+  "S01HA04": {
+    "code": "S01HA04",
+    "name": "Proxymetacaine (proparacaine)",
+    "level": 5,
+    "parent": "S01HA"
+  },
+  "S01JA01": {
+    "code": "S01JA01",
+    "name": "Fluorescein",
+    "level": 5,
+    "parent": "S01JA"
+  },
+  "S01EC04": {
+    "code": "S01EC04",
+    "name": "Brinzolamide",
+    "level": 5,
+    "parent": "S01EC"
+  },
+  "S01FA01": {
+    "code": "S01FA01",
+    "name": "Atropine (ophthalmic)",
+    "level": 5,
+    "parent": "S01FA"
+  },
+  "S01BA04": {
+    "code": "S01BA04",
+    "name": "Prednisolone (ophthalmic)",
+    "level": 5,
+    "parent": "S01BA"
+  },
+  "N01BB": {
+    "code": "N01BB",
+    "name": "Amides (local anesthetics)",
+    "level": 4,
+    "parent": "N01B"
+  },
+  "N01AF": {
+    "code": "N01AF",
+    "name": "Barbiturates, plain (anesthetics)",
+    "level": 4,
+    "parent": "N01A"
+  },
+  "S01ED": {
+    "code": "S01ED",
+    "name": "Beta blocking agents (ophthalmic)",
+    "level": 4,
+    "parent": "S01E"
+  },
+  "S01HA": {
+    "code": "S01HA",
+    "name": "Local anesthetics (ophthalmic)",
+    "level": 4,
+    "parent": "S01H"
+  },
+  "S01JA": {
+    "code": "S01JA",
+    "name": "Colouring agents (ophthalmic diagnostics)",
+    "level": 4,
+    "parent": "S01J"
+  },
+  "S01BA": {
+    "code": "S01BA",
+    "name": "Corticosteroids, plain (ophthalmic)",
+    "level": 4,
+    "parent": "S01B"
+  },
+  "QP53BE01": {
+    "code": "QP53BE01",
+    "name": "Afoxolaner",
+    "level": 5,
+    "parent": "QP53BE"
+  },
+  "QP53BE04": {
+    "code": "QP53BE04",
+    "name": "Lotilaner",
+    "level": 5,
+    "parent": "QP53BE"
+  },
+  "QP51EX01": {
+    "code": "QP51EX01",
+    "name": "Imidocarb",
+    "level": 5,
+    "parent": "QP51EX"
+  },
+  "QP51DF01": {
+    "code": "QP51DF01",
+    "name": "Diminazene",
+    "level": 5,
+    "parent": "QP51DF"
+  },
+  "P02CE01": {
+    "code": "P02CE01",
+    "name": "Levamisole",
+    "level": 5,
+    "parent": "P02CE"
+  },
+  "P02CA03": {
+    "code": "P02CA03",
+    "name": "Albendazole",
+    "level": 5,
+    "parent": "P02CA"
+  },
+  "QP51EX": {
+    "code": "QP51EX",
+    "name": "Other agents against protozoal diseases (veterinary)",
+    "level": 4,
+    "parent": "QP51E"
+  },
+  "QP51DF": {
+    "code": "QP51DF",
+    "name": "Diamidine derivatives (antiprotozoal)",
+    "level": 4,
+    "parent": "QP51D"
+  },
+  "P02CE": {
+    "code": "P02CE",
+    "name": "Imidazothiazole derivatives",
+    "level": 4,
+    "parent": "P02C"
   }
 }

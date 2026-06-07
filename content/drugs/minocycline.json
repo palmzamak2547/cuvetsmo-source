@@ -1,0 +1,134 @@
+{
+  "slug": "minocycline",
+  "nameEn": "Minocycline",
+  "nameTh": "ไมโนไซคลิน",
+  "class": "Tetracycline antibiotic (vector-borne disease)",
+  "mechanism": "จับ 30S ribosomal subunit ยับยั้งการสร้างโปรตีน (bacteriostatic) ละลายในไขมันสูง ซึมเข้าเนื้อเยื่อ/เซลล์ได้ดี",
+  "brandNamesTh": [
+    "Minocin"
+  ],
+  "indications": [
+    {
+      "text": "โรคจากพาหะเห็บ (ehrlichiosis, anaplasmosis) เป็นทางเลือกของ doxycycline เมื่อขาดแคลน; การติดเชื้อผิวหนัง/ทางเดินหายใจ",
+      "cites": [
+        "dailymed-minocycline",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในสัตว์อายุน้อย/ตั้งท้อง (ฟันเหลือง); ตับ/ไตบกพร่อง; ให้ IV เร็วเลี่ยง (อาจความดันตก)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Minocycline"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/คลื่นไส้, ท้องเสีย, เวียนศีรษะ, คราบฟันในสัตว์อายุน้อย",
+      "cites": [
+        "plumbs",
+        "dailymed-minocycline"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Vector-borne / bacterial infection",
+      "route": "PO",
+      "dose": "5–12.5 mg/kg PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "plumbs",
+        "dailymed-minocycline"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Vector-borne / bacterial infection",
+      "route": "PO",
+      "dose": "5–12.5 mg/kg PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J01AA08",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Minocycline (J01AA08)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J01AA08&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical (incl. ATCvet Q-codes) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-minocycline",
+      "type": "package-insert",
+      "title": "Minocycline — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=minocycline",
+      "note": "US FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Minocycline",
+      "type": "monograph",
+      "title": "Minocycline — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Minocycline",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J01AA08",
+      "name": "Minocycline",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

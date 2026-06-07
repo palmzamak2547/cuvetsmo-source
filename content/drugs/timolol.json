@@ -1,0 +1,134 @@
+{
+  "slug": "timolol",
+  "nameEn": "Timolol (ophthalmic)",
+  "nameTh": "ทิโมลอล (ยาหยอดตา)",
+  "class": "Topical beta-blocker — glaucoma",
+  "mechanism": "ปิดกั้น β-adrenergic ที่ ciliary body ลดการสร้างน้ำในลูกตา (aqueous humor) จึงลดความดันลูกตา ใช้คุม glaucoma",
+  "brandNamesTh": [
+    "Timoptic"
+  ],
+  "indications": [
+    {
+      "text": "ลดความดันลูกตาในภาวะต้อหิน (glaucoma) ของสุนัขและแมว — มักใช้ร่วมกับยาลดความดันลูกตาตัวอื่น",
+      "cites": [
+        "dailymed-timolol ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในสัตว์ที่เป็นหอบหืด/หลอดลมหดเกร็ง, หัวใจเต้นช้า, AV block (ยาถูกดูดซึมระบบได้); ประสิทธิภาพในแมวจำกัด",
+      "cites": [
+        "dailymed-timolol ophthalmic",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "รูม่านตาหดเล็ก, หัวใจเต้นช้า/หลอดลมหดเกร็งจากการดูดซึมเข้าระบบ (โดยเฉพาะแมวตัวเล็ก)",
+      "cites": [
+        "plumbs",
+        "wikipedia-Timolol"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Glaucoma (IOP reduction)",
+      "route": "ocular",
+      "dose": "หยอดตา 0.5% 1 หยด ข้างที่เป็น ทุก 8–12 ชั่วโมง",
+      "cites": [
+        "plumbs",
+        "dailymed-timolol ophthalmic"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Glaucoma (IOP reduction)",
+      "route": "ocular",
+      "dose": "หยอดตา 0.5% 1 หยด ทุก 12 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-S01ED01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Timolol (S01ED01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=S01ED01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-timolol ophthalmic",
+      "type": "package-insert",
+      "title": "Timolol ophthalmic — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=timolol%20ophthalmic",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Timolol",
+      "type": "monograph",
+      "title": "Timolol — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Timolol",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "S01ED01",
+      "name": "Timolol",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

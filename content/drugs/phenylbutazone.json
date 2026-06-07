@@ -1,0 +1,135 @@
+{
+  "slug": "phenylbutazone",
+  "nameEn": "Phenylbutazone",
+  "nameTh": "ฟีนิลบิวทาโซน",
+  "class": "NSAID — pyrazolone (equine musculoskeletal analgesic)",
+  "mechanism": "ยับยั้ง COX ลดการสร้าง prostaglandin แก้ปวดและลดอักเสบของระบบกล้ามเนื้อ-กระดูก โดยเฉพาะในม้า (เรียกสั้น ๆ ว่า “bute”)",
+  "brandNamesTh": [
+    "Bute",
+    "Equipalazone"
+  ],
+  "indications": [
+    {
+      "text": "อาการปวด/อักเสบของระบบกล้ามเนื้อ-กระดูก (lameness, osteoarthritis, laminitis) ในม้า",
+      "cites": [
+        "dailymed-phenylbutazone",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️ ห้ามใช้ในสัตว์ที่ให้ผลผลิตเป็นอาหารคน (เนื้อ/นม) โดยเด็ดขาด; ห้ามในแผล GI, โรคไต/ตับ, ภาวะเลือดผิดปกติ (blood dyscrasia)",
+      "cites": [
+        "dailymed-phenylbutazone",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "แผลในทางเดินอาหาร, พิษต่อไต, การกดไขกระดูก (blood dyscrasia โดยเฉพาะในสุนัข), แผลในช่องปาก",
+      "cites": [
+        "plumbs",
+        "wikipedia-Phenylbutazone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "equine",
+      "indication": "Musculoskeletal pain / lameness",
+      "route": "PO",
+      "dose": "2.2–4.4 mg/kg PO/IV ทุก 12 ชั่วโมงในวันแรก แล้วลดเป็น 2.2–4.4 mg/kg วันละครั้ง; ใช้ขนาดต่ำสุดที่ได้ผล",
+      "cites": [
+        "plumbs",
+        "dailymed-phenylbutazone"
+      ]
+    },
+    {
+      "species": "canine",
+      "indication": "Inflammation / pain (off-label)",
+      "route": "PO",
+      "dose": "2.2–4.4 mg/kg PO ทุก 8–12 ชั่วโมง (สูงสุด ~800 mg/วัน) — off-label, ระวัง blood dyscrasia, มี NSAID สุนัขที่เหมาะกว่า",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-M01AA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Phenylbutazone (M01AA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M01AA01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical (incl. ATCvet Q-codes) classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-phenylbutazone",
+      "type": "package-insert",
+      "title": "Phenylbutazone — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=phenylbutazone",
+      "note": "US FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled dose.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Phenylbutazone",
+      "type": "monograph",
+      "title": "Phenylbutazone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Phenylbutazone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "M01AA01",
+      "name": "Phenylbutazone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / peer-reviewed), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
