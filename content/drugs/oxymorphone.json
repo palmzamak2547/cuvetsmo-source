@@ -1,0 +1,134 @@
+{
+  "slug": "oxymorphone",
+  "nameEn": "Oxymorphone",
+  "nameTh": "ออกซีมอร์โฟน",
+  "class": "Opioid — full μ-agonist",
+  "mechanism": "กระตุ้น μ-opioid receptor ระงับปวดแรง รบกวนระบบไหลเวียนน้อยกว่ามอร์ฟีน (ปล่อย histamine น้อย) ใช้ระงับปวดปานกลาง-รุนแรงและร่วมในการวางยา",
+  "brandNamesTh": [
+    "Numorphan"
+  ],
+  "indications": [
+    {
+      "text": "ระงับปวดปานกลางถึงรุนแรง (ก่อน/หลังผ่าตัด) และเป็น premedication/co-induction ในการวางยาสุนัขและแมว",
+      "cites": [
+        "dailymed-oxymorphone",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ภาวะกดการหายใจ/ความดันในกะโหลกสูง; ระวังในตับบกพร่อง; ยาควบคุมพิเศษ (controlled drug)",
+      "cites": [
+        "dailymed-oxymorphone",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "กดการหายใจ, หัวใจเต้นช้า, ตื่นเต้น/panting, อุณหภูมิกายสูงในแมว; กลับฤทธิ์ด้วย naloxone",
+      "cites": [
+        "plumbs",
+        "wikipedia-Oxymorphone"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Moderate-severe pain",
+      "route": "IV",
+      "dose": "0.05–0.2 mg/kg IV/IM/SC ทุก 2–6 ชั่วโมง (ปรับตามความปวด)",
+      "cites": [
+        "plumbs",
+        "dailymed-oxymorphone"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Moderate-severe pain",
+      "route": "IV",
+      "dose": "0.05–0.1 mg/kg IV/IM ทุก 2–6 ชั่วโมง",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-N02AA11",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Oxymorphone (N02AA11)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=N02AA11&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-oxymorphone",
+      "type": "package-insert",
+      "title": "Oxymorphone — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=oxymorphone",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Oxymorphone",
+      "type": "monograph",
+      "title": "Oxymorphone — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Oxymorphone",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "N02AA11",
+      "name": "Oxymorphone",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / VSSO), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

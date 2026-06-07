@@ -4864,5 +4864,101 @@
     "name": "Monoamine oxidase B inhibitors",
     "level": 4,
     "parent": "N04B"
+  },
+  "N02AA11": {
+    "code": "N02AA11",
+    "name": "Oxymorphone",
+    "level": 5,
+    "parent": "N02AA"
+  },
+  "N02AF02": {
+    "code": "N02AF02",
+    "name": "Nalbuphine",
+    "level": 5,
+    "parent": "N02AF"
+  },
+  "N01AH06": {
+    "code": "N01AH06",
+    "name": "Remifentanil",
+    "level": 5,
+    "parent": "N01AH"
+  },
+  "L01XA01": {
+    "code": "L01XA01",
+    "name": "Cisplatin",
+    "level": 5,
+    "parent": "L01XA"
+  },
+  "L01BC05": {
+    "code": "L01BC05",
+    "name": "Gemcitabine",
+    "level": 5,
+    "parent": "L01BC"
+  },
+  "L01BC02": {
+    "code": "L01BC02",
+    "name": "Fluorouracil",
+    "level": 5,
+    "parent": "L01BC"
+  },
+  "J02AC04": {
+    "code": "J02AC04",
+    "name": "Posaconazole",
+    "level": 5,
+    "parent": "J02AC"
+  },
+  "J02AX01": {
+    "code": "J02AX01",
+    "name": "Flucytosine",
+    "level": 5,
+    "parent": "J02AX"
+  },
+  "M03BX01": {
+    "code": "M03BX01",
+    "name": "Baclofen",
+    "level": 5,
+    "parent": "M03BX"
+  },
+  "N03AB02": {
+    "code": "N03AB02",
+    "name": "Phenytoin",
+    "level": 5,
+    "parent": "N03AB"
+  },
+  "A02BC04": {
+    "code": "A02BC04",
+    "name": "Rabeprazole",
+    "level": 5,
+    "parent": "A02BC"
+  },
+  "N01AH": {
+    "code": "N01AH",
+    "name": "Opioid anesthetics",
+    "level": 4,
+    "parent": "N01A"
+  },
+  "L01X": {
+    "code": "L01X",
+    "name": "Other antineoplastic agents",
+    "level": 3,
+    "parent": "L01"
+  },
+  "L01B": {
+    "code": "L01B",
+    "name": "Antimetabolites",
+    "level": 3,
+    "parent": "L01"
+  },
+  "J02AX": {
+    "code": "J02AX",
+    "name": "Other antifungals for systemic use",
+    "level": 4,
+    "parent": "J02A"
+  },
+  "N03AB": {
+    "code": "N03AB",
+    "name": "Hydantoin derivatives",
+    "level": 4,
+    "parent": "N03A"
   }
 }

@@ -1,0 +1,134 @@
+{
+  "slug": "posaconazole",
+  "nameEn": "Posaconazole",
+  "nameTh": "โพซาโคนาโซล",
+  "class": "Triazole antifungal (extended-spectrum)",
+  "mechanism": "ยับยั้ง 14α-demethylase ขัดขวางการสร้าง ergosterol ของเชื้อรา ครอบคลุมกว้างกว่ารุ่นเก่า รวมเชื้อราดื้อยาและ mucormycosis",
+  "brandNamesTh": [
+    "Noxafil"
+  ],
+  "indications": [
+    {
+      "text": "การติดเชื้อราในระบบที่ดื้อยา/รุนแรง (aspergillosis, cryptococcosis, mucormycosis, เชื้อราที่จมูกในสุนัข) ที่ไม่ตอบสนอง itraconazole/fluconazole",
+      "cites": [
+        "dailymed-posaconazole",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ตับบกพร่อง (ติดตามเอนไซม์ตับ); ยับยั้ง CYP3A4 (drug interaction มาก); ราคาสูง — สงวนสำหรับเคสดื้อยา",
+      "cites": [
+        "dailymed-posaconazole",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "อาเจียน/เบื่ออาหาร, เอนไซม์ตับขึ้น, drug interaction จากการยับยั้ง CYP",
+      "cites": [
+        "plumbs",
+        "wikipedia-Posaconazole"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Resistant systemic mycosis",
+      "route": "PO",
+      "dose": "~5 mg/kg PO วันละครั้ง (พร้อมอาหารมัน) — ปรับตามเชื้อและการตอบสนอง",
+      "cites": [
+        "plumbs",
+        "dailymed-posaconazole"
+      ]
+    },
+    {
+      "species": "feline",
+      "indication": "Resistant systemic mycosis",
+      "route": "PO",
+      "dose": "~5 mg/kg PO วันละครั้ง พร้อมอาหาร",
+      "cites": [
+        "plumbs"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-J02AC04",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Posaconazole (J02AC04)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=J02AC04&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-posaconazole",
+      "type": "package-insert",
+      "title": "Posaconazole — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=posaconazole",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Posaconazole",
+      "type": "monograph",
+      "title": "Posaconazole — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Posaconazole",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "J02AC04",
+      "name": "Posaconazole",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / VSSO), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

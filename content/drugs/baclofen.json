@@ -1,0 +1,125 @@
+{
+  "slug": "baclofen",
+  "nameEn": "Baclofen",
+  "nameTh": "แบโคลเฟน",
+  "class": "Centrally-acting muscle relaxant (GABA-B agonist) — ⚠️ canine toxicant",
+  "mechanism": "กระตุ้น GABA-B receptor ในไขสันหลัง ลด muscle tone; ในสัตว์เลี้ยงมีความสำคัญหลักในฐานะ \"สารพิษ\" เพราะช่วงความปลอดภัยแคบมาก",
+  "brandNamesTh": [
+    "Lioresal"
+  ],
+  "indications": [
+    {
+      "text": "ในคนใช้คลายกล้ามเนื้อเกร็ง; ⚠️ ในสุนัข/แมวแทบไม่ใช้รักษาเพราะพิษสูง — entry นี้เน้นข้อมูลพิษวิทยา (สุนัขกินยาของเจ้าของบ่อย)",
+      "cites": [
+        "dailymed-baclofen",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "⚠️⚠️ ช่วงความปลอดภัยแคบมากในสุนัข (พิษเริ่มที่ <1–3 mg/kg) — ไม่แนะนำให้ใช้รักษา; ถ้ากินเกินให้รักษาประคับประคอง (intralipid, ระบายยา, คุมชัก/หายใจ)",
+      "cites": [
+        "dailymed-baclofen",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "ในขนาดเป็นพิษ: ซึม-โคม่า, อาเจียน, กล้ามเนื้ออ่อนแรง/สั่น, ชัก, หัวใจเต้นผิดจังหวะ, กดการหายใจ",
+      "cites": [
+        "plumbs",
+        "wikipedia-Baclofen"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "canine",
+      "indication": "Toxicology reference (no safe therapeutic dose)",
+      "route": "PO",
+      "dose": "⚠️ ไม่มีขนาดรักษาที่ปลอดภัยในสุนัข — พิษที่ <1–3 mg/kg; กรณีได้รับเกินขนาดเป็นภาวะฉุกเฉินทางพิษวิทยา",
+      "cites": [
+        "plumbs",
+        "dailymed-baclofen"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-M03BX01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/DDD Index — Baclofen (M03BX01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=M03BX01&showdescription=no",
+      "note": "WHO Anatomical Therapeutic Chemical classification. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-baclofen",
+      "type": "package-insert",
+      "title": "Baclofen — DailyMed (US FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=baclofen",
+      "note": "US FDA structured product label. Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Baclofen",
+      "type": "monograph",
+      "title": "Baclofen — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Baclofen",
+      "note": "Tertiary cross-check for class + mechanism. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/DDD Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "M03BX01",
+      "name": "Baclofen",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATC / FDA label / Plumb’s / VSSO), cross-checked. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}
