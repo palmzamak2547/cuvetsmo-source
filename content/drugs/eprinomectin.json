@@ -1,0 +1,126 @@
+{
+  "slug": "eprinomectin",
+  "nameEn": "Eprinomectin",
+  "nameTh": "อีพรีโนเมกติน",
+  "class": "Endectocide — avermectin (topical, zero milk withdrawal)",
+  "mechanism": "จับ glutamate-gated chloride channel ของพยาธิและสัตว์ขาปล้อง ทำให้เป็นอัมพาตและตาย ครอบคลุมทั้งพยาธิภายในและภายนอก จุดเด่นคือตกค้างในน้ำนมต่ำมาก",
+  "brandNamesTh": [
+    "Eprinex",
+    "NexGard Combo (ส่วนผสมในแมว)"
+  ],
+  "indications": [
+    {
+      "text": "ถ่ายพยาธิตัวกลม/พยาธิปอด และกำจัดเหา ไร เห็บในโครีดนม (จุดเด่น: ZERO milk withdrawal); ส่วนผสมในผลิตภัณฑ์ครบวงจรของแมว",
+      "cites": [
+        "dailymed-eprinomectin",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ระวังในสุนัขพันธุ์ MDR1 (ABCB1) mutation (macrocyclic lactone); รูป pour-on สำหรับโค — ใช้ตามฉลาก",
+      "cites": [
+        "dailymed-eprinomectin",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "พบน้อย; ระคายผิวบริเวณราดยา (pour-on); พิษระบบประสาทในสัตว์ MDR1 หรือเกินขนาด",
+      "cites": [
+        "plumbs",
+        "wikipedia-Eprinomectin"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "bovine",
+      "indication": "Endo/ectoparasites (lactating-safe)",
+      "route": "topical",
+      "dose": "pour-on 0.5 mg/kg ราดหลัง (zero milk withdrawal ตามฉลาก)",
+      "cites": [
+        "plumbs",
+        "dailymed-eprinomectin"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-QP54AA04",
+      "type": "regulatory-database",
+      "title": "WHO ATC/ATCvet Index — Eprinomectin (QP54AA04)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=QP54AA04&showdescription=no",
+      "note": "WHO ATC/ATCvet classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-eprinomectin",
+      "type": "package-insert",
+      "title": "Eprinomectin (Eprinex) — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=eprinomectin",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Eprinomectin",
+      "type": "monograph",
+      "title": "Eprinomectin — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Eprinomectin",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "QP54AA04",
+      "name": "Eprinomectin",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / AAHA), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

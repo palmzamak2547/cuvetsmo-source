@@ -1,0 +1,126 @@
+{
+  "slug": "isoxsuprine",
+  "nameEn": "Isoxsuprine",
+  "nameTh": "ไอซอกซูพรีน",
+  "class": "Peripheral vasodilator (β-adrenergic / direct)",
+  "mechanism": "ขยายหลอดเลือดส่วนปลายผ่านฤทธิ์ β-adrenergic และคลายกล้ามเนื้อเรียบโดยตรง ใช้เพิ่มการไหลเวียนที่กีบในโรค navicular และ laminitis ของม้า",
+  "brandNamesTh": [
+    "Isoxsuprine",
+    "Vasodilan"
+  ],
+  "indications": [
+    {
+      "text": "โรค navicular และภาวะกีบอักเสบ (laminitis) ในม้า — เพิ่มการไหลเวียนที่เท้า (ประสิทธิภาพยังถกเถียง)",
+      "cites": [
+        "dailymed-isoxsuprine",
+        "plumbs"
+      ]
+    }
+  ],
+  "contraindications": [
+    {
+      "text": "ภาวะเลือดออก, หัวใจเต้นเร็ว/arrhythmia; ⚠️ จัดเป็นสารต้องห้ามในการแข่งม้า (doping); การดูดซึมทางปากในม้าแปรปรวน",
+      "cites": [
+        "dailymed-isoxsuprine",
+        "plumbs"
+      ]
+    }
+  ],
+  "sideEffects": [
+    {
+      "text": "หัวใจเต้นเร็ว, กระสับกระส่าย; โดยรวมพบผลข้างเคียงน้อย",
+      "cites": [
+        "plumbs",
+        "wikipedia-Isoxsuprine"
+      ]
+    }
+  ],
+  "dosages": [
+    {
+      "species": "equine",
+      "indication": "Navicular disease / laminitis (vasodilation)",
+      "route": "PO",
+      "dose": "0.6–1.2 mg/kg PO ทุก 12 ชั่วโมง",
+      "cites": [
+        "plumbs",
+        "dailymed-isoxsuprine"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "atc-C04AA01",
+      "type": "regulatory-database",
+      "title": "WHO ATC/ATCvet Index — Isoxsuprine (C04AA01)",
+      "year": 2026,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=C04AA01&showdescription=no",
+      "note": "WHO ATC/ATCvet classification. Code verified against Wikipedia drug infobox. Authoritative for class + INN.",
+      "cid": null
+    },
+    {
+      "id": "dailymed-isoxsuprine",
+      "type": "package-insert",
+      "title": "Isoxsuprine — DailyMed (FDA label)",
+      "year": 2026,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=isoxsuprine",
+      "note": "FDA structured product label (human or veterinary). Authoritative for indications, contraindications, labeled use.",
+      "cid": null
+    },
+    {
+      "id": "plumbs",
+      "type": "textbook",
+      "title": "Plumb's Veterinary Drug Handbook, 10th Edition",
+      "authors": "Plumb DC",
+      "year": 2023,
+      "edition": "10th",
+      "url": "https://www.plumbs.com/",
+      "note": "Standard veterinary drug reference. Species doses cross-checked against this handbook.",
+      "cid": null
+    },
+    {
+      "id": "wikipedia-Isoxsuprine",
+      "type": "monograph",
+      "title": "Isoxsuprine — Wikipedia",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Isoxsuprine",
+      "note": "Tertiary cross-check for class + mechanism + ATCvet code. CC BY-SA 4.0. Not sole authority.",
+      "cid": null
+    }
+  ],
+  "mirroredFrom": [
+    {
+      "id": "who-atc",
+      "name": "WHO ATC/ATCvet Index",
+      "url": "https://www.whocc.no/atc_ddd_index/",
+      "asOfDate": "2026-06-07",
+      "license": "WHO publication, free for use with attribution"
+    }
+  ],
+  "mirrorCIDs": [],
+  "codes": {
+    "atc": {
+      "code": "C04AA01",
+      "name": "Isoxsuprine",
+      "level": 5
+    }
+  },
+  "drafting": {
+    "aiAssisted": false,
+    "aiModel": null,
+    "aiPromptHash": null,
+    "humanReviewer": "palmzamak2547",
+    "humanReviewedAt": "2026-06-07",
+    "humanEditsRatio": null
+  },
+  "signatures": [],
+  "reviewedBy": null,
+  "lastUpdated": "2026-06-07",
+  "version": 1,
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-06-07",
+      "summary": "New entry — clinical content compiled from cited authoritative sources (WHO ATCvet / FDA label / Plumb’s / AAHA), cross-checked. ATCvet code verified against Wikipedia infobox. Every statement cited. Reviewed by palmzamak2547. Pending faculty canonical signature."
+    }
+  ]
+}

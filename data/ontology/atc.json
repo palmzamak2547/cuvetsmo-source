@@ -5074,5 +5074,77 @@
     "name": "Anti-dementia drugs",
     "level": 3,
     "parent": "N06"
+  },
+  "QN05CM90": {
+    "code": "QN05CM90",
+    "name": "Detomidine",
+    "level": 5,
+    "parent": "QN05CM"
+  },
+  "QN05CM93": {
+    "code": "QN05CM93",
+    "name": "Romifidine",
+    "level": 5,
+    "parent": "QN05CM"
+  },
+  "QN05CM91": {
+    "code": "QN05CM91",
+    "name": "Medetomidine",
+    "level": 5,
+    "parent": "QN05CM"
+  },
+  "QP54AA04": {
+    "code": "QP54AA04",
+    "name": "Eprinomectin",
+    "level": 5,
+    "parent": "QP54AA"
+  },
+  "QD11AH91": {
+    "code": "QD11AH91",
+    "name": "Lokivetmab",
+    "level": 5,
+    "parent": "QD11AH"
+  },
+  "QC04AD90": {
+    "code": "QC04AD90",
+    "name": "Propentofylline",
+    "level": 5,
+    "parent": "QC04AD"
+  },
+  "C04AD03": {
+    "code": "C04AD03",
+    "name": "Pentoxifylline",
+    "level": 5,
+    "parent": "C04AD"
+  },
+  "C04AA01": {
+    "code": "C04AA01",
+    "name": "Isoxsuprine",
+    "level": 5,
+    "parent": "C04AA"
+  },
+  "C04AD": {
+    "code": "C04AD",
+    "name": "Purine derivatives (peripheral vasodilators)",
+    "level": 4,
+    "parent": "C04A"
+  },
+  "QC04AD": {
+    "code": "QC04AD",
+    "name": "Purine derivatives (veterinary peripheral vasodilators)",
+    "level": 4,
+    "parent": "QC04A"
+  },
+  "QC04A": {
+    "code": "QC04A",
+    "name": "Peripheral vasodilators (veterinary)",
+    "level": 3,
+    "parent": "QC04"
+  },
+  "C04AA": {
+    "code": "C04AA",
+    "name": "2-amino-1-phenylethanol derivatives (vasodilators)",
+    "level": 4,
+    "parent": "C04A"
   }
 }
