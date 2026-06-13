@@ -1,6 +1,6 @@
 {
   "name": "cuvetsmo-source-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server exposing the source.cuvetsmo.com verified veterinary drug data plane — search, lookup by ontology code (ATC/RxNorm), and citation verification as tools any AI agent (cuvetsmo.com/chat, VetOS, Claude) can call. stdio + streamable-HTTP transports.",
   "type": "module",
   "bin": {
