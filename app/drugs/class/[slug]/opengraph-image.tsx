@@ -138,7 +138,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
                 fontFamily: 'system-ui, sans-serif',
               }}
             >
-              ✓ {canonical} CANONICAL
+              {canonical} CANONICAL
             </div>
           )}
           {entries.length - canonical > 0 && (

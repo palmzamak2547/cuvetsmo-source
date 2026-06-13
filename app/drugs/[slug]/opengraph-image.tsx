@@ -202,7 +202,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
             }}
           >
             {isCanonical
-              ? '✓ CANONICAL — FACULTY-REVIEWED'
+              ? 'CANONICAL — FACULTY-REVIEWED'
               : '⏳ PENDING — NOT FOR CLINICAL USE'}
           </div>
           <div

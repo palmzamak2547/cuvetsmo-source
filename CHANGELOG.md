@@ -10,6 +10,14 @@ This file is the human-readable companion to the timeline shown at [/changelog](
 
 The full 8-primitive moonshot architecture shipped in one extended session. Per ARCHITECTURE.md week-by-week plan condensed into one continuous build.
 
+### 2026-06-07 — 📚 Catalog 273 → 420 drugs (+147) across 38 therapeutic classes
+
+The largest content expansion to date — 14 batches added 147 verified drugs, taking the catalog from 273 to 420 entries (1,559 cited references). Every dose is cited (Plumb's, FDA/EMA labels, WHO ATC/ATCvet, VSSO, AAHA, RECOVER) and cross-checked across ≥2 sources; the Iron Rule 0 gate (618 content units) passes on every push.
+
+- **New therapeutic class — Topical corticosteroids (D07):** hydrocortisone aceponate (Cortavance), betamethasone, mometasone, triamcinolone, hydrocortisone topicals.
+- **Major fills:** emergency/critical-care cardiovascular (norepinephrine, vasopressin, esmolol, nitroprusside) · large-animal & modern NSAIDs (flunixin, phenylbutazone, grapiprant, deracoxib) · anesthesia (isoflurane, sevoflurane, bupivacaine, the α2 sedatives) · ophthalmic toolkit (cyclosporine, timolol, fluorescein, proparacaine) · antiparasitics including imidocarb & diminazene for tropical tick-fever and permethrin with its feline-toxicity warning · antidotes (leucovorin, calcium-EDTA, intravenous lipid emulsion, glucagon, penicillamine) · oncology (imatinib, dexrazoxane) · and the Cytopoint biologic (lokivetmab).
+- **/drugs catalog redesigned:** a bolder serif hero, a scale strip (420 entries / 38 classes / 100% cited), and a scannable class-navigation grid.
+
 ### 2026-05-27 — ◆ Verified is the standard (skip the faculty-sign gate)
 
 Follow-up to the verification-ladder redesign: faculty Ed25519 signing proved too high-friction to be the destination (most lecturers won't manage keys, and gating the use-case on it is the vaporware trap). So **multi-source, cross-checked, fully-traceable became the headline trust standard itself** — not a way-station to "real" verification.

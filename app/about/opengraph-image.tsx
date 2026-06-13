@@ -96,7 +96,7 @@ export default function Image() {
         >
           <Badge>8 PRIMITIVES</Badge>
           <Badge>11 CITED SOURCES</Badge>
-          <Badge color="#053628" bg="#ecfdf5" border="#0a6347">✓ 0 PRIOR ART FOUND</Badge>
+          <Badge color="#053628" bg="#ecfdf5" border="#0a6347">0 PRIOR ART FOUND</Badge>
         </div>
 
         <div
