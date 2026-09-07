@@ -12,6 +12,7 @@
 
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
+import { SPECIES_TH } from '@/lib/species'
 
 export type SearchEntry = {
   slug: string
@@ -30,6 +31,7 @@ export type SearchEntry = {
   signatures: number
   classSlug: string
   classLabel: string
+  species: string[]
 }
 
 export type ClassFilter = {
@@ -75,8 +77,16 @@ export default function SearchClient({
   const [query, setQuery] = useState('')
   const [status, setStatus] = useState<StatusFilter>('all')
   const [classSlug, setClassSlug] = useState<string | null>(null)
+  const [species, setSpecies] = useState<string | null>(null)
   const deferred = useDeferredValue(query)
   const inputRef = useRef<HTMLInputElement>(null)
+
+  // "Has dosing for" facets — counts over the whole catalog, most common first.
+  const speciesFilters = useMemo(() => {
+    const counts = new Map<string, number>()
+    for (const e of entries) for (const s of e.species) counts.set(s, (counts.get(s) ?? 0) + 1)
+    return [...counts.entries()].sort((a, b) => b[1] - a[1])
+  }, [entries])
 
   // Build the index once.
   const index = useMemo(() => buildIndex(entries), [entries])
@@ -93,11 +103,13 @@ export default function SearchClient({
       if (status === 'pending' && i.entry.isCanonical) return false
       // Class filter
       if (classSlug && i.entry.classSlug !== classSlug) return false
+      // Species filter
+      if (species && !i.entry.species.includes(species)) return false
       // Text filter
       if (tokens.length === 0) return true
       return tokens.every(t => i.needle.includes(t))
     })
-  }, [deferred, index, status, classSlug])
+  }, [deferred, index, status, classSlug, species])
 
   useEffect(() => {
     inputRef.current?.focus()
@@ -119,7 +131,7 @@ export default function SearchClient({
     } catch { /* ignore */ }
   }, [deferred])
 
-  const totalActiveFilters = (query.trim() ? 1 : 0) + (status !== 'all' ? 1 : 0) + (classSlug ? 1 : 0)
+  const totalActiveFilters = (query.trim() ? 1 : 0) + (status !== 'all' ? 1 : 0) + (classSlug ? 1 : 0) + (species ? 1 : 0)
 
   return (
     <div>
@@ -185,6 +197,23 @@ export default function SearchClient({
         </div>
       )}
 
+      {/* Species chips — "has dosing for" */}
+      {speciesFilters.length > 1 && (
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <span className="mr-2 text-[10px] uppercase tracking-wider text-ink-500">Has dosing for</span>
+          <FilterChip active={species === null} onClick={() => setSpecies(null)}>
+            Any
+          </FilterChip>
+          {speciesFilters.map(([s, n]) => (
+            <FilterChip key={s} active={species === s} onClick={() => setSpecies(species === s ? null : s)}>
+              <span className="capitalize">{s}</span>
+              <span className="ml-1 opacity-70">{SPECIES_TH[s] ?? ''}</span>
+              <span className="ml-1 text-[10px] tabular opacity-65">{n}</span>
+            </FilterChip>
+          ))}
+        </div>
+      )}
+
       {/* Result counter + reset */}
       <div className="mt-5 flex flex-wrap items-baseline justify-between gap-2 border-b border-paper-200 pb-2">
         <p className="text-[12px] tabular text-ink-700">
@@ -198,6 +227,7 @@ export default function SearchClient({
               setQuery('')
               setStatus('all')
               setClassSlug(null)
+              setSpecies(null)
             }}
             className="text-[11px] uppercase tracking-wider text-source-800 hover:underline"
           >
@@ -285,6 +315,11 @@ function SearchResult({ entry, query }: { entry: SearchEntry; query: string }) {
         <p className="mt-1 text-[12px] text-ink-700">
           <Highlight text={entry.class} query={query} />
         </p>
+        {entry.species.length > 0 && (
+          <p className="mt-2 flex flex-wrap gap-1 text-[10px] uppercase tracking-wider text-ink-500" aria-label="Species with dosing">
+            {entry.species.map(s => <span key={s} className="rounded-sm bg-paper-200/80 px-1.5 py-0.5">{s}</span>)}
+          </p>
+        )}
         {(entry.atcCode || entry.rxnormCui) && (
           <p className="mt-2 flex flex-wrap gap-1.5 text-[10px] text-paper-700 tabular">
             {entry.atcCode && (

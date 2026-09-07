@@ -41,6 +41,7 @@ export default function CatalogFilter({ total }: { total: number }) {
           type="search"
           value={q}
           onChange={e => setQ(e.target.value)}
+          onKeyDown={e => { if (e.key === 'Escape') setQ('') }}
           placeholder="Filter this page — ชื่อยา, ชื่อไทย, ATC code"
           autoComplete="off"
           spellCheck={false}

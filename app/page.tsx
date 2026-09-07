@@ -24,6 +24,11 @@ export default function Landing() {
     count: entries.length,
   }))
 
+  // Freshness signal — the six entries touched most recently (ties by name).
+  const recent = [...DRUGS]
+    .sort((a, b) => b.lastUpdated.localeCompare(a.lastUpdated) || a.nameEn.localeCompare(b.nameEn))
+    .slice(0, 6)
+
   const drugIndex = DRUGS.map(d => ({
     slug: d.slug,
     nameEn: d.nameEn,
@@ -72,6 +77,20 @@ export default function Landing() {
             <Link href="/drugs"   className="text-source-800 underline-offset-4 hover:underline">Full Drug Reference →</Link>
             <Link href="/sources" className="text-source-800 underline-offset-4 hover:underline">Sources + methodology</Link>
             <Link href="/api"     className="text-source-800 underline-offset-4 hover:underline">Public API</Link>
+          </div>
+
+          <div className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[12px]">
+            <span className="text-[10px] font-semibold uppercase tracking-wider text-ink-500">Recently updated</span>
+            {recent.map(d => (
+              <Link
+                key={d.slug}
+                href={`/drugs/${d.slug}`}
+                className="inline-flex items-baseline gap-1.5 text-ink-700 underline-offset-4 hover:text-source-800 hover:underline"
+              >
+                <span style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>{d.nameEn}</span>
+                <span className="text-[10px] tabular text-ink-500">{d.lastUpdated}</span>
+              </Link>
+            ))}
           </div>
         </div>
 

@@ -465,7 +465,7 @@ function drugJsonLd(drug: Drug) {
 
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
   return (
-    <section id={id} className="mt-10 scroll-mt-24">
+    <section id={id} className="mt-10 scroll-mt-28 md:scroll-mt-40">
       <h2 className="display-h2 border-l-3 border-source-300 pl-4">{title}</h2>
       <div className="mt-4">{children}</div>
     </section>

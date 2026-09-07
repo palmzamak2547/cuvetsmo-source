@@ -241,6 +241,16 @@ function EndpointCard({ ep }: { ep: Endpoint }) {
           {ep.method}
         </span>
         <code className="text-sm font-bold text-paper-900">{ep.path}</code>
+        {ep.method === 'GET' && !ep.path.includes('{') && (
+          <a
+            href={`${BASE}${ep.path}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[11px] text-source-800 underline-offset-2 hover:underline"
+          >
+            Open ↗
+          </a>
+        )}
         <span className={`ml-auto rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase ${tierStyles[ep.tier]}`}>
           {ep.tier}
         </span>

@@ -40,6 +40,7 @@ export default function SearchPage() {
       signatures: d.signatures.length,
       classSlug: klass?.slug ?? 'other',
       classLabel: klass?.label.split('·')[0].trim() ?? 'Other',
+      species: [...new Set(d.dosages.map(x => x.species))],
     }
   })
 
