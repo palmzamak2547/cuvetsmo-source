@@ -8,12 +8,14 @@
 // ImageResponse constraints:
 //   - Every element must declare a flex layout (no normal block flow).
 //   - System fonts only (no Google Fonts unless fetched + passed as ArrayBuffer).
-//   - No SVG embed via <svg>; <img src> works but adds latency.
+//   - No inline SVG; raster image tags work but add latency.
+//   - Non-emoji symbols (U+2713, U+25C6) trigger a failed dynamic font
+//     fetch at build time — keep the copy to letters, digits, and emoji.
 //
 // We use system serif (Georgia fallback) for the editorial typography.
 
 import { ImageResponse } from 'next/og'
-import { findDrug } from '@/lib/drugs'
+import { findDrug, verificationTier } from '@/lib/drugs'
 
 export const alt = 'CUVETSMO Source — drug reference preview'
 export const size = { width: 1200, height: 630 }
@@ -47,10 +49,12 @@ export default async function Image({ params }: { params: Promise<{ slug: string
     )
   }
 
-  const isCanonical = drug.reviewedBy !== null && drug.signatures.length > 0
-  const sigCount = drug.signatures.length
+  // Tier-aware, same ladder as the page. Every entry is at least "Verified"
+  // (cited + cross-checked); the expert rung only shows once an entry has a
+  // named reviewer + signature. Never a "pending / do not use" card.
+  const isExpert = verificationTier(drug) === 'expert'
   const citeCount = drug.citations.length
-  const mirrorCount = drug.mirroredFrom?.length ?? 0
+  const doseCount = drug.dosages.length
 
   return new ImageResponse(
     (
@@ -175,7 +179,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
             letterSpacing: 2,
           }}
         >
-          {mirrorCount} cross-checked sources · {citeCount} citations · {sigCount} signature{sigCount === 1 ? '' : 's'}
+          {citeCount} CITED SOURCE{citeCount === 1 ? '' : 'S'} · {doseCount} SPECIES-SPECIFIC DOSE{doseCount === 1 ? '' : 'S'}
         </div>
 
         {/* Bottom row: status + URL */}
@@ -191,19 +195,19 @@ export default async function Image({ params }: { params: Promise<{ slug: string
             style={{
               display: 'flex',
               padding: '10px 26px',
-              border: `2.5px solid ${isCanonical ? '#0a6347' : '#a87c1e'}`,
+              border: `2.5px solid ${isExpert ? '#0a6347' : '#0a635a'}`,
               borderRadius: 999,
-              background: isCanonical ? '#ecfdf5' : '#fffbeb',
-              color: isCanonical ? '#053628' : '#5c4108',
+              background: isExpert ? '#ecfdf5' : '#effcf9',
+              color: isExpert ? '#053628' : '#053634',
               fontSize: 20,
               fontWeight: 700,
               letterSpacing: 3,
               fontFamily: 'system-ui, sans-serif',
             }}
           >
-            {isCanonical
-              ? 'CANONICAL — FACULTY-REVIEWED'
-              : '⏳ PENDING — NOT FOR CLINICAL USE'}
+            {isExpert
+              ? 'EXPERT-REVIEWED — FACULTY-ENDORSED'
+              : 'VERIFIED — CITED + CROSS-CHECKED'}
           </div>
           <div
             style={{
@@ -215,7 +219,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
               fontWeight: 700,
             }}
           >
-            SOURCE.CUVETSMO.COM/{drug.slug}
+            SOURCE.CUVETSMO.COM/DRUGS/{drug.slug}
           </div>
         </div>
 

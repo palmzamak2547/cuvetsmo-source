@@ -10,6 +10,15 @@ This file is the human-readable companion to the timeline shown at [/changelog](
 
 The full 8-primitive moonshot architecture shipped in one extended session. Per ARCHITECTURE.md week-by-week plan condensed into one continuous build.
 
+### 2026-09-07 — 🔍 Honest trust copy, share cards, on-page nav, structured data, compact MCP output
+
+- **Copy matches the trust model everywhere**: home, footer, site description, and search badges now describe what is live — every entry ◆ Verified (cited + cross-checked across ≥2 authoritative sources); the expert-review rung appears only once an entry actually has a named reviewer. No page calls an entry "pending" or "not for clinical use" any more.
+- **Share cards fixed**: per-drug and per-class link previews (LINE, Facebook, X) now read "VERIFIED — CITED + CROSS-CHECKED" with cited-source and dose counts; pages without their own card inherit the rendered PNG instead of an SVG those apps cannot display.
+- **Home page**: `/api/drugs/<slug>` sample rendered from the live entry, the three channels (website, REST API + bulk export, MCP server), and a surfaces grid limited to what works today; citation-health numbers come from probe data instead of a fixed string.
+- **Drug pages**: "On this page" jump chips above the monograph, anchors on every section (`#dosage`, `#references`, …), and schema.org `Drug` + `BreadcrumbList` structured data; class pages carry an `ItemList`.
+- **MCP 0.3.0**: compact JSON results and a `sections` option on `get_drug` (e.g. `["dosages","citations"]`) so agents fetch only what they need; server version now follows `package.json`.
+- Baseline security headers (nosniff, frame-options, referrer-policy, permissions-policy).
+
 ### 2026-06-07 — 📚 Catalog 273 → 420 drugs (+147) across 38 therapeutic classes
 
 The largest content expansion to date — 14 batches added 147 verified drugs, taking the catalog from 273 to 420 entries (1,559 cited references). Every dose is cited (Plumb's, FDA/EMA labels, WHO ATC/ATCvet, VSSO, AAHA, RECOVER) and cross-checked across ≥2 sources; the Iron Rule 0 gate (618 content units) passes on every push.

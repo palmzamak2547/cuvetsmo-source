@@ -24,7 +24,7 @@ const inter = Inter({
 })
 
 const SITE_TITLE = 'CUVETSMO Source — Verified Thai Medical Knowledge'
-const SITE_DESC = 'แหล่งอ้างอิงทางการแพทย์และวิทยาศาสตร์ชีวภาพภาษาไทย ที่ทุกข้อมูลมี citation จาก peer-reviewed source และอาจารย์ผู้เชี่ยวชาญตรวจรับ — ต่อต้านยุค AI hallucination ด้วย provenance-first design'
+const SITE_DESC = `คลังอ้างอิงยาสัตวแพทย์ภาษาไทย ${DRUGS.length} รายการ — ทุก dose ทุกข้อห้ามใช้ อ้างอิงแหล่ง authoritative อย่างน้อย 2 แหล่ง และตามรอยถึงต้นทางได้ทีละบรรทัด อ่านฟรี ใช้ผ่าน API และ MCP ได้`
 
 export const metadata: Metadata = {
   title: {
@@ -51,13 +51,16 @@ export const metadata: Metadata = {
     url: 'https://source.cuvetsmo.com',
     title: SITE_TITLE,
     description: SITE_DESC,
+    // PNG from app/opengraph-image.tsx — LINE, Facebook, and X do not
+    // render SVG previews, so pages without their own OG image inherit
+    // the rendered PNG instead of the vector wordmark.
     images: [
       {
-        url: '/og-image.svg',
+        url: '/opengraph-image',
         width: 1200,
         height: 630,
         alt: 'CUVETSMO Source — Verified Thai medical knowledge',
-        type: 'image/svg+xml',
+        type: 'image/png',
       },
     ],
   },
@@ -65,7 +68,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: SITE_TITLE,
     description: SITE_DESC,
-    images: ['/og-image.svg'],
+    images: ['/opengraph-image'],
   },
   authors: [{ name: 'Palm Anuthin Danoi (CUVETSMO 68)' }],
   creator: 'CUVETSMO',
@@ -81,7 +84,8 @@ export const metadata: Metadata = {
     'WSAVA',
     'Ed25519',
     'verifiable credentials',
-    'faculty-reviewed',
+    'veterinary dosages',
+    'ยาสัตวแพทย์',
   ],
 }
 
@@ -167,8 +171,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="max-w-md">
                 <p className="font-semibold tracking-tight text-ink-900">CUVETSMO Source</p>
                 <p className="mt-2 leading-relaxed">
-                  ส่วนหนึ่งของระบบนิเวศ CUVETSMO — เว็บไซต์อ้างอิงทางการแพทย์ที่อาจารย์เซ็นต์รับทุก entry,
-                  ทุกการอ้างอิงตรวจสอบได้ที่แหล่งต้นทาง
+                  ส่วนหนึ่งของระบบนิเวศ CUVETSMO — คลังอ้างอิงยาสัตวแพทย์ที่ทุกข้อความอ้างอิงแหล่ง authoritative
+                  อย่างน้อย 2 แหล่ง และตรวจสอบได้ที่แหล่งต้นทาง
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-x-10 gap-y-2 text-[12px]">
@@ -191,8 +195,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
             </div>
             <p className="mt-8 border-t border-paper-200 pt-5 text-[11px] text-ink-500">
-              Phase 0 — Iron Rule 0: no fabrication. Every canonical claim has a verifiable citation chain
-              and a faculty signature.
+              Iron Rule 0 — no fabrication. Every clinical claim carries a citation you can follow to its
+              source; an entry with an unsourced claim does not ship.
             </p>
           </div>
         </footer>

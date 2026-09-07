@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { type Drug, DRUGS, verificationTier } from '@/lib/drugs'
 import { THERAPEUTIC_CLASSES, findClassBySlug, classifyDrug } from '@/lib/classify'
+import { jsonLd } from '@/lib/jsonld'
 
 export async function generateStaticParams() {
   return THERAPEUTIC_CLASSES.map(c => ({ slug: c.slug }))
@@ -38,8 +39,24 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
   const prev = idx > 0 ? THERAPEUTIC_CLASSES[idx - 1] : null
   const next = idx >= 0 && idx < THERAPEUTIC_CLASSES.length - 1 ? THERAPEUTIC_CLASSES[idx + 1] : null
 
+  const listJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: klass.label,
+    description: klass.subtitle,
+    url: `https://source.cuvetsmo.com/drugs/class/${klass.slug}`,
+    numberOfItems: entries.length,
+    itemListElement: entries.map((d, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: d.nameEn,
+      url: `https://source.cuvetsmo.com/drugs/${d.slug}`,
+    })),
+  }
+
   return (
     <article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(listJsonLd) }} />
       <nav className="text-xs text-ink-700">
         <Link href="/drugs" className="hover:text-source-800">← Drug Reference</Link>
       </nav>

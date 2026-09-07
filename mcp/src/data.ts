@@ -49,6 +49,8 @@ export type Drug = {
   dosages: { species: string; indication: string; route: string; dose: string; duration?: string; notes?: string; cites: string[] }[]
   interactions?: { text: string; cites: string[] }[]
   monitoring?: { text: string; cites: string[] }[]
+  storage?: { text: string; cites: string[] }[]
+  pregnancyLactation?: { text: string; cites: string[] }[]
   citations: { id: string; type: string; title: string; url?: string; year?: number; note?: string; cid?: string | null }[]
   codes: {
     atc?: { code: string; name: string; level: number }

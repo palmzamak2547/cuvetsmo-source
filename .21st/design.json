@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "project": {
+    "name": "cuvetsmo-source",
+    "productType": null,
+    "stack": [
+      "nextjs",
+      "react",
+      "tailwind-v4"
+    ]
+  },
+  "sources": {
+    "tokens": [
+      "app/globals.css"
+    ],
+    "components": [],
+    "assets": [],
+    "instructions": [
+      "CLAUDE.md"
+    ]
+  },
+  "design": {
+    "colorMode": "light",
+    "colors": {
+      "--color-source-50": {
+        "value": "#effcf9",
+        "source": "app/globals.css"
+      },
+      "--color-source-100": {
+        "value": "#c8f4ea",
+        "source": "app/globals.css"
+      },
+      "--color-source-200": {
+        "value": "#95e7d4",
+        "source": "app/globals.css"
+      },
+      "--color-source-300": {
+        "value": "#5dd1ba",
+        "source": "app/globals.css"
+      },
+      "--color-source-400": {
+        "value": "#2eb6a0",
+        "source": "app/globals.css"
+      },
+      "--color-source-500": {
+        "value": "#1a9d8b",
+        "source": "app/globals.css"
+      },
+      "--color-source-600": {
+        "value": "#0d7d70",
+        "source": "app/globals.css"
+      },
+      "--color-source-700": {
+        "value": "#0a635a",
+        "source": "app/globals.css"
+      },
+      "--color-source-800": {
+        "value": "#094f48",
+        "source": "app/globals.css"
+      },
+      "--color-source-900": {
+        "value": "#053634",
+        "source": "app/globals.css"
+      },
+      "--color-paper-50": {
+        "value": "#fbfaf7",
+        "source": "app/globals.css"
+      },
+      "--color-paper-100": {
+        "value": "#f5f3ec",
+        "source": "app/globals.css"
+      },
+      "--color-paper-200": {
+        "value": "#ebe7da",
+        "source": "app/globals.css"
+      },
+      "--color-paper-300": {
+        "value": "#d6cfbb",
+        "source": "app/globals.css"
+      },
+      "--color-paper-400": {
+        "value": "#b5ad95",
+        "source": "app/globals.css"
+      },
+      "--color-ink-500": {
+        "value": "#6b5f4f",
+        "source": "app/globals.css"
+      },
+      "--color-ink-700": {
+        "value": "#3d362d",
+        "source": "app/globals.css"
+      },
+      "--color-ink-900": {
+        "value": "#1c1814",
+        "source": "app/globals.css"
+      },
+      "--color-paper-700": {
+        "value": "#3d362d",
+        "source": "app/globals.css"
+      },
+      "--color-paper-800": {
+        "value": "#2a241e",
+        "source": "app/globals.css"
+      },
+      "--color-paper-900": {
+        "value": "#1c1814",
+        "source": "app/globals.css"
+      },
+      "--color-stamp": {
+        "value": "#be3a26",
+        "source": "app/globals.css"
+      }
+    },
+    "typography": {
+      "--font-fallback-sans": {
+        "value": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,\n                         \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans Thai\",\n                         sans-serif",
+        "source": "app/globals.css"
+      },
+      "--font-fallback-serif": {
+        "value": "Georgia, Cambria, \"Times New Roman\", Times, \"Noto Serif Thai\",\n                         serif",
+        "source": "app/globals.css"
+      },
+      "--font-mono": {
+        "value": "ui-monospace, \"SF Mono\", \"Cascadia Mono\", Menlo, Consolas,\n                         \"Liberation Mono\", monospace",
+        "source": "app/globals.css"
+      }
+    },
+    "spacing": {},
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "unknown"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [],
+    "avoid": []
+  },
+  "decisions": [],
+  "evidence": [
+    {
+      "fact": "design.colorMode:light",
+      "source": "app/globals.css"
+    },
+    {
+      "fact": "design.tokens",
+      "source": "app/globals.css"
+    },
+    {
+      "fact": "project.instructions",
+      "source": "CLAUDE.md"
+    },
+    {
+      "fact": "project.stack:nextjs",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:react",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:tailwind-v4",
+      "source": "package.json"
+    }
+  ],
+  "generatedAt": "2026-09-07T02:49:02.350Z"
+}

@@ -1,28 +1,29 @@
 import Link from 'next/link'
-import { DRUGS, verificationTier } from '@/lib/drugs'
-import { THERAPEUTIC_CLASSES, classifyDrug, groupDrugsByClass } from '@/lib/classify'
+import { DRUGS, findDrug, verificationTier } from '@/lib/drugs'
+import { groupDrugsByClass } from '@/lib/classify'
+import { computeProbeStats } from '@/lib/probe-stats'
 import HomeQuickAccess from './HomeQuickAccess'
+
+const REPO = 'https://github.com/palmzamak2547/cuvetsmo-source'
 
 export default function Landing() {
   const total = DRUGS.length
+  // Same first-match-wins grouping /drugs renders, so the headline class count
+  // equals the number of class sections a visitor actually sees.
+  const groups = groupDrugsByClass(DRUGS)
+  const classCount = groups.length
+  const citations = DRUGS.reduce((n, d) => n + d.citations.length, 0)
+  const doses = DRUGS.reduce((n, d) => n + d.dosages.length, 0)
   const community = DRUGS.filter(d => verificationTier(d) === 'community').length
   const expert = DRUGS.filter(d => verificationTier(d) === 'expert').length
-  // Use the same first-match-wins grouping the /drugs page renders, so the
-  // headline class count == the number of class sections a visitor actually sees
-  // (a class whose drugs all fall under an earlier-matching class renders 0
-  // sections and must not be counted). Keeps home == /drugs == README at 31.
-  const classCount = groupDrugsByClass(DRUGS).length
-  // citation count across all entries
-  const citations = DRUGS.reduce((n, d) => n + d.citations.length, 0)
+  const probes = computeProbeStats()
 
-  // Top therapeutic classes for the quick-access bar — derived from the same
-  // first-match-wins grouping the /drugs + class pages render, so every chip
-  // links to a class page that actually has those entries (no dead chips for
-  // classes whose drugs all fall under an earlier-matching class).
-  const topClasses = groupDrugsByClass(DRUGS)
-    .map(({ klass, entries }) => ({ slug: klass.slug, label: klass.label.split('·')[0].trim(), count: entries.length }))
+  const topClasses = groups.map(({ klass, entries }) => ({
+    slug: klass.slug,
+    label: klass.label.split('·')[0].trim(),
+    count: entries.length,
+  }))
 
-  // Slim drug list for the recently-viewed lookup
   const drugIndex = DRUGS.map(d => ({
     slug: d.slug,
     nameEn: d.nameEn,
@@ -31,80 +32,140 @@ export default function Landing() {
     isCanonical: verificationTier(d) === 'expert',
   }))
 
+  // API excerpt rendered from the live entry, so the sample can never drift
+  // from what /api/drugs/<slug> actually returns.
+  const sample = findDrug('meloxicam') ?? DRUGS[0]
+  const sampleJson = JSON.stringify(
+    {
+      apiVersion: '0.0.1',
+      data: {
+        slug: sample.slug,
+        nameEn: sample.nameEn,
+        nameTh: sample.nameTh,
+        class: sample.class,
+        codes: { atc: sample.codes?.atc?.code ?? null },
+        dosages: sample.dosages.slice(0, 1),
+      },
+    },
+    null,
+    2,
+  )
+
   return (
     <article>
       {/* ───── Hero ───── */}
-      <header className="grid items-end gap-10 lg:grid-cols-[1.4fr_1fr]">
+      <header className="grid items-start gap-10 lg:grid-cols-[1.4fr_1fr]">
         <div>
-          <p className="eyebrow">Verified Thai medical knowledge — v0</p>
+          <p className="eyebrow">Verified veterinary drug reference · คลังยาสัตวแพทย์ที่ตรวจสอบได้</p>
           <h1 className="display-h1 mt-4">
-            Drug references whose every claim,<br className="hidden sm:inline" />
-            citation, and signoff{' '}
-            <span className="italic text-source-800">verifies in your browser</span>.
+            {total} drugs. Every claim{' '}
+            <span className="italic text-source-800">traces to its source</span>.
           </h1>
           <p className="mt-6 max-w-2xl text-[17px] leading-relaxed text-ink-700">
-            ในยุคที่ AI generate ข้อความได้เป็นล้านในนาที สิ่งที่ขาดแคลนคือ <b>ความเชื่อใจที่พิสูจน์ได้</b> —
-            เว็บนี้คือชั้นข้อมูลทางการแพทย์ภาษาไทยที่ทุก dose, ทุก contraindication,
-            ทุก signature ตรวจสอบกลับไปยังแหล่งต้นทางและคีย์อาจารย์ผู้รับผิดชอบได้
-            โดยไม่ต้องเชื่อ server ของเรา
+            คลังอ้างอิงยาสัตวแพทย์ภาษาไทย — ทุก dose ทุกข้อห้ามใช้ ทุกผลข้างเคียง อ้างอิงแหล่ง authoritative
+            อย่างน้อย 2 แหล่ง และคลิกตามไปถึงต้นทางได้ทีละบรรทัด <b>ไม่ต้องเชื่อเรา — ตรวจเองได้</b>
           </p>
 
           <HomeQuickAccess topClasses={topClasses} drugIndex={drugIndex} />
 
-          <div className="mt-6 flex flex-wrap gap-3 text-[13px]">
-            <Link href="/drugs"      className="text-source-800 underline-offset-4 hover:underline">Full Drug Reference →</Link>
-            <span className="text-ink-500">·</span>
-            <Link href="/use-cases"  className="text-source-800 underline-offset-4 hover:underline">Who actually uses this?</Link>
-            <span className="text-ink-500">·</span>
-            <Link href="/about"      className="text-source-800 underline-offset-4 hover:underline">How it works</Link>
+          <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-[13px]">
+            <Link href="/drugs"   className="text-source-800 underline-offset-4 hover:underline">Full Drug Reference →</Link>
+            <Link href="/sources" className="text-source-800 underline-offset-4 hover:underline">Sources + methodology</Link>
+            <Link href="/api"     className="text-source-800 underline-offset-4 hover:underline">Public API</Link>
           </div>
         </div>
 
         {/* Editorial colophon — stamped masthead with the source seal */}
         <aside className="relative rounded-md border border-paper-300 bg-paper-100/60 p-6 pt-8 text-xs leading-relaxed text-ink-700">
-          {/* The seal mark — academic-stationery imprint */}
           <div className="mb-5 flex justify-center">
             <Seal className="h-24 w-24" />
           </div>
-          <p className="eyebrow text-center">Phase 0 — current state</p>
+          <p className="eyebrow text-center">Current state</p>
           <dl className="mt-4 grid grid-cols-2 gap-x-5 gap-y-3 tabular">
-            <Datum n={total} label="ยาในคลัง · entries" />
-            <Datum n={total} label="◆ Verified · multi-source" tone="source" />
-            <Datum n={citations} label="citations indexed" tone="source" />
+            <Datum n={total} label="drugs · ◆ Verified" tone="source" />
             <Datum n={classCount} label="therapeutic classes" />
+            <Datum n={citations} label="cited sources" tone="source" />
+            <Datum n={doses} label="species-specific doses" />
             {community > 0 && <Datum n={community} label="✓✓ community-checked" tone="source" />}
             {expert > 0 && <Datum n={expert} label="✓ expert-reviewed" tone="emerald" />}
           </dl>
           <hr className="rule mt-5 mb-3" />
           <p className="text-[11px] text-ink-500">
-            Cross-checked against <b>DailyMed (FDA)</b>, <b>WHO EML</b>, <b>Thai FDA</b>,
-            <b> PubChem (NIH)</b>, <b>WHO ATC</b>, and <b>WSAVA</b> guidelines
+            Cross-checked against <b>Merck/MSD Vet Manual</b>, <b>FDA/EMA labels</b>, <b>WHO ATC</b>,
+            <b> RECOVER 2024</b>, specialty guidelines, and peer-reviewed journals
           </p>
         </aside>
       </header>
 
       <hr className="rule-double" />
 
-      {/* ───── Thesis ───── */}
+      {/* ───── Data plane ───── */}
+      <section>
+        <p className="eyebrow">One truth, many surfaces</p>
+        <h2 className="display-h2 mt-2">อ่านบนเว็บ ดึงผ่าน API หรือให้ agent เรียกผ่าน MCP — ข้อมูลชุดเดียวกัน</h2>
+        <p className="mt-3 max-w-2xl text-ink-700">
+          ทุกช่องทางอ่านไฟล์ชุดเดียวกันบนดิสก์ ไม่มีสำเนา ไม่มีฐานข้อมูลแยก
+          แก้ยาหนึ่งตัว ทุกช่องทางเห็นพร้อมกัน
+        </p>
+        <div className="mt-7 grid gap-8 lg:grid-cols-[1.15fr_1fr]">
+          <div className="min-w-0">
+            <pre className="overflow-x-auto rounded-md border border-ink-900/10 bg-ink-900 p-4 text-[12px] leading-relaxed text-paper-100">
+              <span className="text-source-300">$ curl https://source.cuvetsmo.com/api/drugs/{sample.slug}</span>
+              {'\n'}
+              {sampleJson}
+            </pre>
+            <p className="mt-2 text-[11px] text-ink-500">
+              ตัดมาบางส่วน — response จริงมีครบทุกหัวข้อ พร้อม citations {sample.citations.length} รายการของ {sample.nameEn}
+            </p>
+          </div>
+          <ul className="space-y-5">
+            <Channel
+              kicker="Website"
+              title="อ่านบนเว็บ"
+              body="ทุก entry เปิดอ่านได้ทันที ค้นหาจากชื่อ รหัส ATC หรือข้อบ่งใช้ และค้นต่อได้แม้ไม่มีเน็ตหลังเปิดครั้งแรก"
+              href="/drugs"
+              cta="เปิดคู่มือยา"
+            />
+            <Channel
+              kicker="REST API"
+              title="ดึงผ่าน JSON"
+              body="อ่านฟรี เปิด CORS และ cache ที่ edge หรือดาวน์โหลดทั้งคลังทีเดียวเป็น JSON หรือ CSV ที่ /api/catalog"
+              href="/api"
+              cta="ดู endpoints"
+            />
+            <Channel
+              kicker="MCP server"
+              title="ให้ agent เรียกเป็น tool"
+              body="search_drugs, get_drug, get_by_code, list_classes, verify_citation และ catalog_stats ผ่าน stdio หรือ streamable HTTP — เปิด source ทั้งหมดใน repo"
+              href={`${REPO}/tree/main/mcp`}
+              cta="อ่านวิธีติดตั้ง"
+            />
+          </ul>
+        </div>
+      </section>
+
+      <hr className="rule-double" />
+
+      {/* ───── Position ───── */}
       <section>
         <p className="eyebrow">Position</p>
         <h2 className="display-h2 mt-2">เทียบกับเครื่องมือที่ใช้กันอยู่</h2>
         <div className="mt-6 grid gap-x-10 gap-y-7 md:grid-cols-2">
           <Compare
             against="ChatGPT / Gemini / Perplexity"
-            point="ทุกประโยคมี citation chain ที่ตรวจสอบได้, อาจารย์เซ็นต์รับเป็นชื่อจริง, ไม่มี hallucination"
+            point="ทุกประโยคมี citation ที่คลิกไปตรวจได้จริง ไม่มี claim ลอย ๆ — ข้อความที่ไม่มีแหล่งอ้างอิงถูก gate ปฏิเสธก่อนขึ้นเว็บ"
           />
           <Compare
             against="Plumb's (USD 300/ปี)"
-            point="ภาษาไทย, ฟรีสำหรับนิสิต + คลินิก, adapt กับยาที่มีในประเทศไทย, อ้างอิงสมาคมสัตวแพทย์ไทย + WHO + FDA + อย."
+            point="ภาษาไทย ฟรีสำหรับนิสิตและคลินิก เน้นยาที่มีใช้จริงในประเทศไทย และเปิดข้อมูลทั้งชุดให้ดึงไปใช้ต่อได้"
           />
           <Compare
             against="Wikipedia"
-            point="ทุก edit ผ่าน faculty review queue ก่อน publish, ไม่ใช่ใครก็แก้ได้, revision history เปิด audit ได้"
+            point="ทุกการแก้ไขผ่านสคริปต์ตรวจ citation ทุกบรรทัดก่อน publish ไม่ใช่ใครก็แก้ได้ และประวัติทั้งหมดเปิดให้ audit ใน git"
           />
           <Compare
             against="MIMS / UpToDate"
-            point="Provenance-first — เห็นชัดว่าข้อมูลมาจากแหล่งไหน, ปรับเป็นภาษาไทย, เปิด source code"
+            point="Provenance-first — เห็นชัดว่าแต่ละบรรทัดมาจากแหล่งไหน ปรับเป็นบริบทสัตวแพทย์ไทย และเปิด source code ทั้งหมด"
           />
         </div>
       </section>
@@ -119,108 +180,107 @@ export default function Landing() {
           <Step
             n={1}
             title="Mirror จาก authoritative source"
-            body="เริ่มต้นทุก entry จากการ mirror DailyMed (FDA), WHO Essential Medicines List, Thai FDA, PubChem, ATC, WSAVA — แหล่งที่เปิดให้ใช้ได้ตามใบอนุญาตของแต่ละแหล่ง"
+            body="เริ่มทุก entry จาก Merck/MSD Vet Manual, FDA/EMA labels, WHO ATC, guideline ของสมาคมวิชาชีพ และวารสาร peer-reviewed"
           />
           <Step
             n={2}
-            title="Tag กับ Chula curriculum"
-            body="เชื่อม entry กับรายวิชาในหลักสูตรสัตวแพทย์ พ.ศ. 2561 + 2568 — นิสิตเห็นว่าหัวข้อไหนเกี่ยวกับรายวิชาไหน"
+            title="Cross-check อย่างน้อย 2 แหล่ง"
+            body="ทุก dose ทุกข้อห้ามใช้ ต้องตรงกันอย่างน้อย 2 แหล่ง หากแหล่งขัดแย้งกันจะระบุไว้ในหมายเหตุ ไม่เลือกข้างเงียบ ๆ"
           />
           <Step
             n={3}
-            title="Faculty review queue"
-            body="อาจารย์ภาควิชาเภสัชวิทยา ภาควิชาคลินิก หรือผู้เชี่ยวชาญที่ระบุ ตรวจ Thai translation, adapt context ไทย, เซ็นต์ Ed25519 ด้วยคีย์ส่วนตัว"
+            title="Gate ก่อน publish"
+            body="สคริปต์ตรวจทุกไฟล์: citation ต้องมีอยู่จริง ทุกหัวข้อต้องอ้างอิงอย่างน้อย 1 แหล่ง รหัส ATC ต้องอยู่ใน ontology — ไม่ผ่านคือไม่ขึ้นเว็บ ทั้งบนเครื่องผู้เขียนและใน CI"
           />
           <Step
             n={4}
-            title="Publish — math takes over"
-            body="Entry ที่ผ่านการตรวจขึ้น public listing พร้อม emerald trust stamp, ทุก reader ตรวจ signature ในเครื่องตัวเองได้ด้วย Web Crypto"
-          />
-          <Step
-            n={5}
-            title="Compound over years"
-            body="ทุก entry คือ data point ถาวร — ปีที่ 5 มี Thai medical dataset ที่ไม่มีใครทำเทียบได้ → API license, institutional subscription, research grants"
+            title="Publish ทุกช่องทางพร้อมกัน"
+            body="เว็บ, API, MCP และไฟล์ export อ่านไฟล์ชุดเดียวกัน ทุก entry มีเลข version และ changelog ให้ย้อนดูได้ว่าอะไรเปลี่ยนเมื่อไร"
           />
         </ol>
       </section>
 
       <hr className="rule-double" />
 
-      {/* ───── Trust banner ───── */}
+      {/* ───── Iron Rule 0 ───── */}
       <section className="relative overflow-hidden rounded-md border border-source-300 bg-source-50/70 p-8">
         <p className="eyebrow text-source-800">Iron Rule 0</p>
-        <h2 className="display-h2 mt-2 text-source-900">Anti-AI-hallucination by construction</h2>
+        <h2 className="display-h2 mt-2 text-source-900">ไม่มีการแต่งข้อมูล — โดยโครงสร้าง ไม่ใช่โดยคำสัญญา</h2>
         <p className="mt-4 max-w-3xl text-source-900">
-          เราไม่ใช่ AI generator — เราคือ <b>citation-traceable knowledge layer</b> ที่ AI products
-          อ้างอิงเราได้ ไม่ใช่กลับกัน ทุก fact ที่ปรากฏผ่านการ verify จากมนุษย์
-          ที่มีชื่อ–ตำแหน่ง–สังกัด ของจริง คีย์ของเขา committed อยู่ในเรโปและตรวจสอบได้ทุกเวลา
+          เราไม่ใช่เครื่องมือสร้างข้อความ — เราคือ <b>ชั้นข้อมูลที่อ้างอิงได้</b> ซึ่งเครื่องมืออื่นควรอ้างอิงเรา
+          ไม่ใช่กลับกัน ทุกบรรทัดที่ปรากฏต้องชี้กลับไปยังแหล่งที่มีตัวตนจริง
+          และสคริปต์ตรวจสอบชุดเดียวกับที่เราใช้ก็เปิดให้ทุกคนรันเองได้จาก repo
         </p>
         <p className="mt-4 text-sm text-source-800">
-          Provenance + named accountability = scarce resource ในยุคที่ AI commoditize generation
+          Provenance ที่ตรวจสอบได้ = สิ่งที่หายากที่สุดในยุคที่ข้อความถูกสร้างได้ไม่จำกัด
         </p>
       </section>
 
       {/* ───── Surfaces ───── */}
       <section className="mt-16">
-        <p className="eyebrow">Phase 0 — 8 primitives shipped</p>
+        <p className="eyebrow">Everything that is live today</p>
         <h2 className="display-h2 mt-2">Surfaces</h2>
         <p className="mt-3 max-w-2xl text-ink-700">
-          แต่ละ surface ด้านล่างคือ working artifact ของหนึ่งใน primitives ที่ออกแบบไว้ใน ARCHITECTURE.md
+          ทุกหน้าด้านล่างใช้งานได้จริงตอนนี้ — ไม่มีหน้าไหนเป็นแผนในอนาคต
         </p>
         <div className="mt-7 grid gap-px overflow-hidden rounded-md border border-paper-200 bg-paper-200 sm:grid-cols-2 lg:grid-cols-3">
           <Surface
             href="/drugs"
             title="Drug Reference"
             sub={`คู่มือยาสัตวแพทย์ — ${total} entries, ${classCount} therapeutic classes`}
-            tag="P7 git-native"
+            tag="Read"
           />
           <Surface
             href="/search"
             title="Search"
             sub="ค้นจากชื่อ, ATC, RxNorm, indication — works offline"
-            tag="P8 offline PWA"
+            tag="Read"
+          />
+          <Surface
+            href="/sources"
+            title="Sources + methodology"
+            sub="แหล่งที่ใช้ กระบวนการ cross-check และสิ่งที่ยังไม่ได้ทำ"
+            tag="Read"
+          />
+          <Surface
+            href="/api"
+            title="Public API"
+            sub="Free JSON read, CORS, bulk JSON + CSV export of the whole catalog"
+            tag="Machine"
+          />
+          <Surface
+            href={`${REPO}/tree/main/mcp`}
+            title="MCP server"
+            sub="6 tools over stdio + streamable HTTP, same files as the website"
+            tag="Machine"
+          />
+          <Surface
+            href="/health"
+            title="Citation health"
+            sub={
+              probes.probed > 0
+                ? `${probes.healthy}/${probes.probed} probed upstream URLs healthy, dead-link detection`
+                : 'Upstream URL probes and dead-link detection'
+            }
+            tag="Trust"
           />
           <Surface
             href="/verify"
             title="Verify"
             sub="Browser-side Ed25519 verification, no server trust"
-            tag="P1 provenance"
-          />
-          <Surface
-            href="/credentials"
-            title="Credentials"
-            sub="W3C Verifiable Credentials, did:web root of trust"
-            tag="P4 VC pipeline"
-          />
-          <Surface
-            href="/api"
-            title="Public API"
-            sub="Free read, CORS, rate-limit headers, 402 paid tier"
-            tag="P6 inverted economics"
-          />
-          <Surface
-            href="/health"
-            title="Citation health"
-            sub="132/132 probed, 100% healthy, dead-URL detection"
-            tag="P2 fingerprint probes"
+            tag="Trust"
           />
           <Surface
             href="/trust"
             title="Chain of trust"
             sub="DID → keys → credentials + signed entries"
-            tag="P1+P4 hierarchy"
+            tag="Trust"
           />
           <Surface
             href="/log"
             title="Transparency log"
             sub="Append-only audit trail, git-tracked, tamper-evident"
-            tag="P1 append-only"
-          />
-          <Surface
-            href="/assist"
-            title="Faculty assistant"
-            sub="Side-by-side EN→TH translation editor for reviewers"
-            tag="P8 client-side"
+            tag="Trust"
           />
         </div>
       </section>
@@ -228,7 +288,7 @@ export default function Landing() {
       <p className="mt-16 text-sm text-ink-700">
         เริ่มต้นจาก{' '}
         <Link href="/drugs" className="font-semibold text-source-800 underline-offset-4 hover:underline">คู่มือยาสัตวแพทย์</Link>
-        {' '}— ทุก entry ◆ Verified: อ้างอิงและ cross-check จากหลายแหล่ง authoritative ตรวจสอบได้ทุกบรรทัด.
+        {' '}— ทุก entry ◆ Verified: อ้างอิงและ cross-check จากหลายแหล่ง authoritative ตรวจสอบได้ทุกบรรทัด
         อ่าน{' '}
         <Link href="/sources" className="font-semibold text-source-800 underline-offset-4 hover:underline">methodology + sources</Link>
         {' '}ฉบับเต็มที่ /sources
@@ -236,8 +296,6 @@ export default function Landing() {
     </article>
   )
 }
-
-// ──────────────────────────────────────────────────────────────────
 
 // ──────────────────────────────────────────────────────────────────
 // Source Seal — editorial stamp mark used in the colophon.
@@ -248,28 +306,21 @@ function Seal({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 200 200" className={className} role="img" aria-label="CUVETSMO Source seal">
       <g transform="translate(100 100)">
-        {/* outer ring */}
         <circle r="92" fill="none" stroke="#0a635a" strokeWidth="2.4" />
-        {/* inner double-stroke */}
         <circle r="80" fill="none" stroke="#0a635a" strokeWidth="1" />
-        {/* 16 ticks */}
         <g stroke="#0a635a" strokeWidth="1.7" strokeLinecap="round">
           {ticks.map(deg => (
             <line key={deg} x1="0" y1="-95" x2="0" y2="-87" transform={`rotate(${deg})`} />
           ))}
         </g>
-        {/* 12 o'clock anchor */}
         <circle cx="0" cy="-100" r="3" fill="#0a635a" />
-        {/* hairline frame around S */}
         <circle r="60" fill="none" stroke="#0a635a" strokeWidth="0.6" strokeOpacity="0.35" />
-        {/* central S */}
         <text
           x="0" y="33"
           fontFamily="var(--font-serif), Newsreader, 'Source Serif Pro', Georgia, serif"
           fontSize="126" fontWeight="700"
           fill="#0a635a" textAnchor="middle"
         >S</text>
-        {/* year stamp */}
         <text
           x="0" y="60"
           fontFamily="ui-monospace, 'SF Mono', monospace"
@@ -296,6 +347,17 @@ function Datum({ n, label, tone = 'ink' }: { n: number; label: string; tone?: 'i
         {n.toLocaleString()}
       </dd>
     </div>
+  )
+}
+
+function Channel({ kicker, title, body, href, cta }: { kicker: string; title: string; body: string; href: string; cta: string }) {
+  return (
+    <li className="border-l-2 border-source-300 pl-5">
+      <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-source-800">{kicker}</p>
+      <h3 className="mt-1 text-[17px] font-semibold text-ink-900" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>{title}</h3>
+      <p className="mt-1.5 text-[14px] leading-relaxed text-ink-700">{body}</p>
+      <Link href={href} className="mt-2 inline-block text-[13px] text-source-800 underline-offset-4 hover:underline">{cta} →</Link>
+    </li>
   )
 }
 
@@ -344,6 +406,3 @@ function Surface({ href, title, sub, tag }: { href: string; title: string; sub: 
     </Link>
   )
 }
-
-// Keep DRUGS referenced so the import survives tree-shake
-export const _allEntries = DRUGS.length

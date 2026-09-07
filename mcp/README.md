@@ -28,14 +28,15 @@ the next server start reflects it. That is what makes `source` a data *plane*
 | Tool | Purpose |
 |---|---|
 | `search_drugs` | Find drugs by name (EN/TH), brand, ATC code, or indication. Returns summaries + verification tier + source URL. |
-| `get_drug` | Full verified entry for one drug — mechanism, indications, contraindications, dosing by species, interactions, monitoring, citations. |
+| `get_drug` | Full verified entry for one drug — mechanism, indications, contraindications, dosing by species, side effects, interactions, monitoring, storage, pregnancy, citations. Optional `sections` (e.g. `["dosages","citations"]`) returns only those and saves tokens. |
 | `get_by_code` | Look up by WHO ATC (exact or class-level prefix) or RxNorm CUI. **The join key** that lets other surfaces reference a drug and resolve it back to source. |
 | `list_classes` | Therapeutic classes with drug counts. |
 | `verify_citation` | Confirm a citation id exists + is content-addressed + its source URL. The core trust primitive. |
 | `catalog_stats` | Data-plane health: drug/class counts, ontology coverage, tier breakdown, citation total. |
 
 Every result includes source URLs + verification tier so the calling agent can
-cite back to source.cuvetsmo.com.
+cite back to source.cuvetsmo.com. Results are compact JSON (no indentation) —
+they are meant for a model's context window, not a terminal.
 
 ## Build & run
 

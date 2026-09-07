@@ -213,7 +213,7 @@ export default async function Image() {
                 color: '#3d362d',
               }}
             >
-              {entries} ENTRIES · {citations} CITATIONS · {signed} SIGNATURE{signed === 1 ? '' : 'S'}
+              {entries} DRUGS · {citations} CITED SOURCES{signed > 0 ? ` · ${signed} SIGNATURE${signed === 1 ? '' : 'S'}` : ''}
             </div>
             <div
               style={{

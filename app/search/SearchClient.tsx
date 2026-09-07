@@ -80,6 +80,9 @@ export default function SearchClient({
 
   // Build the index once.
   const index = useMemo(() => buildIndex(entries), [entries])
+  // Status chips only make sense once the expert rung has entries; today every
+  // entry sits at "Verified", so a filter would only ever show an empty list.
+  const hasExpert = entries.some(e => e.isCanonical)
 
   const matches = useMemo(() => {
     const q = deferred.trim().toLowerCase()
@@ -118,30 +121,31 @@ export default function SearchClient({
         />
       </div>
 
-      {/* Status chips */}
-      <div className="mt-5 flex flex-wrap items-center gap-2">
-        <span className="mr-2 text-[10px] uppercase tracking-wider text-ink-500">Status</span>
-        <FilterChip
-          active={status === 'all'}
-          onClick={() => setStatus('all')}
-        >
-          All
-        </FilterChip>
-        <FilterChip
-          active={status === 'canonical'}
-          onClick={() => setStatus('canonical')}
-          tone="emerald"
-        >
-          ✓ Canonical
-        </FilterChip>
-        <FilterChip
-          active={status === 'pending'}
-          onClick={() => setStatus('pending')}
-          tone="amber"
-        >
-          ⏳ Pending
-        </FilterChip>
-      </div>
+      {/* Status chips — only once the expert rung is populated */}
+      {hasExpert && (
+        <div className="mt-5 flex flex-wrap items-center gap-2">
+          <span className="mr-2 text-[10px] uppercase tracking-wider text-ink-500">Status</span>
+          <FilterChip
+            active={status === 'all'}
+            onClick={() => setStatus('all')}
+          >
+            All
+          </FilterChip>
+          <FilterChip
+            active={status === 'canonical'}
+            onClick={() => setStatus('canonical')}
+            tone="emerald"
+          >
+            ✓ Expert-reviewed
+          </FilterChip>
+          <FilterChip
+            active={status === 'pending'}
+            onClick={() => setStatus('pending')}
+          >
+            ◆ Verified
+          </FilterChip>
+        </div>
+      )}
 
       {/* Class chips */}
       {classFilters.length > 0 && (
@@ -257,9 +261,9 @@ function SearchResult({ entry, query }: { entry: SearchEntry; query: string }) {
           <span className={`shrink-0 rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${
             entry.isCanonical
               ? 'border-emerald-400 bg-emerald-50 text-emerald-900'
-              : 'border-amber-400 bg-amber-50 text-amber-900'
+              : 'border-source-300 bg-source-50 text-source-800'
           }`}>
-            {entry.isCanonical ? `✓ ${entry.signatures} sig` : '⏳ pending'}
+            {entry.isCanonical ? `✓ expert · ${entry.signatures} sig` : '◆ verified'}
           </span>
         </div>
         <p className="mt-1 text-[12px] text-ink-700">

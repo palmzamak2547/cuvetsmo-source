@@ -18,7 +18,8 @@ export default async function Image({ params }: { params: Promise<{ slug: string
     return new ImageResponse(<div style={{ display: 'flex' }}>Class not found</div>, size)
   }
   const entries = DRUGS.filter(d => classifyDrug(d)?.slug === klass.slug)
-  const canonical = entries.filter(e => e.reviewedBy !== null && e.signatures.length > 0).length
+  // Expert rung is dormant today; every entry is at least "Verified".
+  const expert = entries.filter(e => e.reviewedBy !== null && e.signatures.length > 0).length
 
   const labelEn = klass.label.split('·')[0].trim()
   const labelTh = klass.label.includes('·') ? klass.label.split('·')[1].trim() : ''
@@ -123,7 +124,23 @@ export default async function Image({ params }: { params: Promise<{ slug: string
           >
             {entries.length} {entries.length === 1 ? 'ENTRY' : 'ENTRIES'}
           </div>
-          {canonical > 0 && (
+          <div
+            style={{
+              display: 'flex',
+              padding: '12px 24px',
+              border: '2px solid #0a635a',
+              borderRadius: 999,
+              background: '#effcf9',
+              color: '#053634',
+              fontSize: 20,
+              fontWeight: 700,
+              letterSpacing: 2,
+              fontFamily: 'system-ui, sans-serif',
+            }}
+          >
+            VERIFIED — CITED + CROSS-CHECKED
+          </div>
+          {expert > 0 && (
             <div
               style={{
                 display: 'flex',
@@ -138,25 +155,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
                 fontFamily: 'system-ui, sans-serif',
               }}
             >
-              {canonical} CANONICAL
-            </div>
-          )}
-          {entries.length - canonical > 0 && (
-            <div
-              style={{
-                display: 'flex',
-                padding: '12px 24px',
-                border: '2px solid #a87c1e',
-                borderRadius: 999,
-                background: '#fffbeb',
-                color: '#5c4108',
-                fontSize: 20,
-                fontWeight: 700,
-                letterSpacing: 2,
-                fontFamily: 'system-ui, sans-serif',
-              }}
-            >
-              ⏳ {entries.length - canonical} PENDING
+              {expert} EXPERT-REVIEWED
             </div>
           )}
         </div>

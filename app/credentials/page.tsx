@@ -87,7 +87,7 @@ export default function CredentialsLanding() {
         <p className="mt-1">
           The platform DID is <code className="rounded bg-white px-1 py-0.5">did:web:source.cuvetsmo.com</code>.
           The corresponding DID document lives at{' '}
-          <a href="/.well-known/did.json" target="_blank" className="text-source-700 hover:underline">
+          <a href="/.well-known/did.json" target="_blank" rel="noopener noreferrer" className="text-source-700 hover:underline">
             /.well-known/did.json
           </a> — committed to the public repo, served as a static asset.
         </p>

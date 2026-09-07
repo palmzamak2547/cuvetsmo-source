@@ -10,7 +10,7 @@
 //   versions (we want the offline experience to keep working even
 //   when the shell updates).
 
-const CACHE_VERSION = 'v1-2026-05-27'
+const CACHE_VERSION = 'v2-2026-09-07'
 const SHELL_CACHE = `source-shell-${CACHE_VERSION}`
 const CONTENT_CACHE = `source-content`  // unversioned — survives shell deploys
 

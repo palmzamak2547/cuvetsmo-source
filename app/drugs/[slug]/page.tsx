@@ -11,6 +11,7 @@ import {
   freshAttestations,
 } from '@/lib/drugs'
 import { shortCID } from '@/lib/cid'
+import { jsonLd } from '@/lib/jsonld'
 import { lookupATC, lookupRxNorm, lookupICD11, lookupLOINC } from '@/lib/ontology'
 import { classifyDrug } from '@/lib/classify'
 import RecordVisit from './RecordVisit'
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!drug) return { title: 'Not found' }
   return {
     title: `${drug.nameEn} (${drug.nameTh})`,
-    description: `${drug.class} — citation-grade Thai veterinary drug reference. ${drug.citations.length} citations, ${drug.signatures.length} signature(s).`,
+    description: `${drug.class}. ${drug.dosages.length} species-specific dose${drug.dosages.length === 1 ? '' : 's'} and ${drug.citations.length} cited sources — Thai veterinary drug reference where every claim traces to its source.`,
   }
 }
 
@@ -39,6 +40,7 @@ export default async function DrugDetail({ params }: { params: Promise<{ slug: s
   return (
     <article data-view-host>
       <RecordVisit slug={drug.slug} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(drugJsonLd(drug)) }} />
 
       {/* Breadcrumb */}
       <nav className="text-xs text-ink-700">
@@ -64,21 +66,22 @@ export default async function DrugDetail({ params }: { params: Promise<{ slug: s
 
           {/* Verification-tier banner — honest, tier-aware, never a dead "do not use" */}
           <VerificationBanner drug={drug} tier={tier} />
+          <OnThisPage drug={drug} />
 
           {drug.mechanism && (
-            <Section title="กลไกการออกฤทธิ์ · Mechanism">
+            <Section id="mechanism" title="กลไกการออกฤทธิ์ · Mechanism">
               <p>{drug.mechanism}</p>
             </Section>
           )}
 
-          <ClinicalList title="ข้อบ่งใช้ · Indications" sections={drug.indications} drug={drug} />
-          <ClinicalList title="ข้อห้ามใช้ · Contraindications" sections={drug.contraindications} drug={drug} severity="warn" />
+          <ClinicalList id="indications" title="ข้อบ่งใช้ · Indications" sections={drug.indications} drug={drug} />
+          <ClinicalList id="contraindications" title="ข้อห้ามใช้ · Contraindications" sections={drug.contraindications} drug={drug} severity="warn" />
           <DosagesTable dosages={drug.dosages} drug={drug} />
-          <ClinicalList title="ผลข้างเคียง · Side effects" sections={drug.sideEffects} drug={drug} severity="warn" />
-          {drug.interactions && <ClinicalList title="ปฏิกิริยาระหว่างยา · Interactions" sections={drug.interactions} drug={drug} />}
-          {drug.monitoring && <ClinicalList title="การติดตามผู้ป่วย · Monitoring" sections={drug.monitoring} drug={drug} />}
-          {drug.storage && <ClinicalList title="การเก็บรักษา · Storage" sections={drug.storage} drug={drug} />}
-          {drug.pregnancyLactation && <ClinicalList title="ตั้งครรภ์ / ให้นม · Pregnancy & lactation" sections={drug.pregnancyLactation} drug={drug} />}
+          <ClinicalList id="side-effects" title="ผลข้างเคียง · Side effects" sections={drug.sideEffects} drug={drug} severity="warn" />
+          {drug.interactions && <ClinicalList id="interactions" title="ปฏิกิริยาระหว่างยา · Interactions" sections={drug.interactions} drug={drug} />}
+          {drug.monitoring && <ClinicalList id="monitoring" title="การติดตามผู้ป่วย · Monitoring" sections={drug.monitoring} drug={drug} />}
+          {drug.storage && <ClinicalList id="storage" title="การเก็บรักษา · Storage" sections={drug.storage} drug={drug} />}
+          {drug.pregnancyLactation && <ClinicalList id="pregnancy" title="ตั้งครรภ์ / ให้นม · Pregnancy & lactation" sections={drug.pregnancyLactation} drug={drug} />}
 
           <References citations={drug.citations} />
 
@@ -393,9 +396,85 @@ function StatusPill({ status }: { status: 'stub' | 'mirrored' | 'rotted' }) {
 // Clinical content + citations
 // ──────────────────────────────────────────────────────────────────
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+// On-page section nav — anchor chips, no JS. Long monographs (dosage tables
+// + 6-8 clinical sections) need a jump list on every viewport; the sidebar
+// collapses below the prose on mobile, so this lives in the main column.
+const SECTION_LINKS: Array<{ id: string; label: string; has: (d: Drug) => boolean }> = [
+  { id: 'mechanism',         label: 'Mechanism',         has: d => !!d.mechanism },
+  { id: 'indications',       label: 'Indications',       has: d => d.indications.length > 0 },
+  { id: 'contraindications', label: 'Contraindications', has: d => d.contraindications.length > 0 },
+  { id: 'dosage',            label: 'Dosage',            has: d => d.dosages.length > 0 },
+  { id: 'side-effects',      label: 'Side effects',      has: d => d.sideEffects.length > 0 },
+  { id: 'interactions',      label: 'Interactions',      has: d => (d.interactions?.length ?? 0) > 0 },
+  { id: 'monitoring',        label: 'Monitoring',        has: d => (d.monitoring?.length ?? 0) > 0 },
+  { id: 'storage',           label: 'Storage',           has: d => (d.storage?.length ?? 0) > 0 },
+  { id: 'pregnancy',         label: 'Pregnancy',         has: d => (d.pregnancyLactation?.length ?? 0) > 0 },
+  { id: 'references',        label: 'References',        has: d => d.citations.length > 0 },
+]
+
+function OnThisPage({ drug }: { drug: Drug }) {
+  const links = SECTION_LINKS.filter(s => s.has(drug))
+  if (links.length < 3) return null
   return (
-    <section className="mt-10">
+    <nav aria-label="On this page" className="no-print mt-6 flex flex-wrap items-center gap-2 font-sans text-[12px]">
+      <span className="mr-1 text-[10px] font-semibold uppercase tracking-wider text-ink-500">On this page</span>
+      {links.map(l => (
+        <a
+          key={l.id}
+          href={`#${l.id}`}
+          className="rounded-full border border-paper-300 bg-paper-50 px-3 py-1 text-ink-700 transition hover:border-source-500 hover:text-source-800"
+        >
+          {l.label}
+        </a>
+      ))}
+    </nav>
+  )
+}
+
+// schema.org Drug + BreadcrumbList. Search engines and citation tools read
+// this; it is the same facts the page renders, never extra claims.
+function drugJsonLd(drug: Drug) {
+  const base = 'https://source.cuvetsmo.com'
+  const url = `${base}/drugs/${drug.slug}`
+  const klass = classifyDrug(drug)
+  const code: Array<{ '@type': 'MedicalCode'; codeValue: string; codingSystem: string }> = []
+  if (drug.codes?.atc) code.push({ '@type': 'MedicalCode', codeValue: drug.codes.atc.code, codingSystem: 'WHO ATC' })
+  if (drug.codes?.rxnorm) code.push({ '@type': 'MedicalCode', codeValue: drug.codes.rxnorm.cui, codingSystem: 'RxNorm' })
+  const crumbs = [
+    { name: 'Drug Reference', item: `${base}/drugs` },
+    ...(klass ? [{ name: klass.label.split('·')[0].trim(), item: `${base}/drugs/class/${klass.slug}` }] : []),
+    { name: drug.nameEn, item: url },
+  ]
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Drug',
+        '@id': `${url}#drug`,
+        name: drug.nameEn,
+        alternateName: [drug.nameTh, ...(drug.brandNamesTh ?? [])],
+        description: drug.mechanism ?? drug.class,
+        drugClass: drug.class,
+        administrationRoute: [...new Set(drug.dosages.map(d => d.route))],
+        code,
+        citation: drug.citations.map(c => ({ '@type': 'CreativeWork', name: c.title, ...(c.url ? { url: c.url } : {}) })),
+        url,
+        mainEntityOfPage: url,
+        dateModified: drug.lastUpdated,
+        inLanguage: ['th', 'en'],
+        publisher: { '@type': 'Organization', name: 'CUVETSMO', url: 'https://cuvetsmo.com' },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.item })),
+      },
+    ],
+  }
+}
+
+function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
+  return (
+    <section id={id} className="mt-10 scroll-mt-24">
       <h2 className="display-h2 border-l-3 border-source-300 pl-4">{title}</h2>
       <div className="mt-4">{children}</div>
     </section>
@@ -403,11 +482,13 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 }
 
 function ClinicalList({
+  id,
   title,
   sections,
   drug,
   severity,
 }: {
+  id: string
   title: string
   sections: ClinicalSection[]
   drug: Drug
@@ -415,7 +496,7 @@ function ClinicalList({
 }) {
   if (sections.length === 0) return null
   return (
-    <Section title={title}>
+    <Section id={id} title={title}>
       <ul className="space-y-3">
         {sections.map((s, i) => (
           <li key={i} className="flex gap-3">
@@ -434,7 +515,7 @@ function ClinicalList({
 function DosagesTable({ dosages, drug }: { dosages: Dosage[]; drug: Drug }) {
   if (dosages.length === 0) return null
   return (
-    <Section title="ขนาดยา · Dosage">
+    <Section id="dosage" title="ขนาดยา · Dosage">
       <div className="overflow-x-auto rounded-md border border-paper-300">
         <table className="min-w-full text-sm tabular">
           <thead className="border-b border-paper-300 bg-paper-100/70 text-[11px] uppercase tracking-wider text-ink-500">
@@ -542,7 +623,7 @@ function SameClassRelated({ drug }: { drug: Drug }) {
 function References({ citations }: { citations: Citation[] }) {
   if (citations.length === 0) return null
   return (
-    <Section title="References">
+    <Section id="references" title="References">
       <ol className="space-y-3.5 text-[13px]">
         {citations.map((c, i) => (
           <li key={c.id} id={`cite-${c.id}`} className="flex gap-3 scroll-mt-24">
