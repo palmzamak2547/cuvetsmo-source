@@ -224,6 +224,42 @@ button:disabled,
   font-feature-settings: "tnum";
 }
 
+/* ─── Dose table → dose cards below md ───────────────────────────
+   One markup, two layouts. Each <td> carries data-label; on phones the
+   row becomes a card with the label as a kicker and the dose set large.
+   Order inside the card: species, dose, route, indication, cite. */
+@media (max-width: 47.99rem) {
+  .dose-table thead { display: none; }
+  .dose-table, .dose-table tbody { display: block; width: 100%; }
+  .dose-table tr {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 0.85rem 1rem;
+    border-top: 1px solid var(--color-paper-200);
+  }
+  .dose-table tr:first-child { border-top: 0; }
+  .dose-table td { display: block; padding: 0; }
+  .dose-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-family: var(--font-sans, var(--font-fallback-sans));
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-ink-500);
+  }
+  .dose-table td[data-label="Species"] { order: 0; font-weight: 600; font-size: 1rem; color: var(--color-ink-900); }
+  .dose-table td[data-label="Species"]::before { display: none; }
+  .dose-table td[data-label="Dose"]    { order: 1; }
+  .dose-table td[data-label="Dose"] .dose { font-size: 1.05rem; color: var(--color-source-900); }
+  .dose-table td[data-label="Route"]   { order: 2; }
+  .dose-table td[data-label="Indication"] { order: 3; }
+  .dose-table td[data-label="Cite"]    { order: 4; }
+  .dose-table td[data-label="Cite"] sup { vertical-align: baseline; }
+}
+
 /* Stamp — pseudo-vintage seal for "verified" / "pending" states. */
 .stamp {
   display: inline-flex;

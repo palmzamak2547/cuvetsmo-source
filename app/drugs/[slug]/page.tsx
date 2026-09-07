@@ -16,6 +16,8 @@ import { lookupATC, lookupRxNorm, lookupICD11, lookupLOINC } from '@/lib/ontolog
 import { classifyDrug } from '@/lib/classify'
 import RecordVisit from './RecordVisit'
 import DetailViewToggle from './DetailViewToggle'
+import DoseTable from './DoseTable'
+import CiteThis from './CiteThis'
 
 export async function generateStaticParams() {
   return DRUGS.map(d => ({ slug: d.slug }))
@@ -114,6 +116,7 @@ export default async function DrugDetail({ params }: { params: Promise<{ slug: s
           <div className="space-y-5">
             <TrustStamp drug={drug} />
             <DetailViewToggle />
+            <CiteThis nameEn={drug.nameEn} nameTh={drug.nameTh} slug={drug.slug} version={drug.version} lastUpdated={drug.lastUpdated} />
             <div data-expert-only className="space-y-5">
               <SignaturePanel drug={drug} />
               <OntologyChips drug={drug} />
@@ -416,7 +419,10 @@ function OnThisPage({ drug }: { drug: Drug }) {
   const links = SECTION_LINKS.filter(s => s.has(drug))
   if (links.length < 3) return null
   return (
-    <nav aria-label="On this page" className="no-print mt-6 flex flex-wrap items-center gap-2 font-sans text-[12px]">
+    <nav
+      aria-label="On this page"
+      className="no-print mt-6 flex flex-wrap items-center gap-2 font-sans text-[12px] md:sticky md:top-16 md:z-20 md:-mx-2 md:border-b md:border-paper-200 md:bg-paper-50/90 md:px-2 md:py-2 md:backdrop-blur-sm"
+    >
       <span className="mr-1 text-[10px] font-semibold uppercase tracking-wider text-ink-500">On this page</span>
       {links.map(l => (
         <a
@@ -514,36 +520,11 @@ function ClinicalList({
 
 function DosagesTable({ dosages, drug }: { dosages: Dosage[]; drug: Drug }) {
   if (dosages.length === 0) return null
+  // citation id → [n] number, same order as the References list.
+  const citeIndex = Object.fromEntries(drug.citations.map((c, i) => [c.id, i + 1]))
   return (
     <Section id="dosage" title="ขนาดยา · Dosage">
-      <div className="overflow-x-auto rounded-md border border-paper-300">
-        <table className="min-w-full text-sm tabular">
-          <thead className="border-b border-paper-300 bg-paper-100/70 text-[11px] uppercase tracking-wider text-ink-500">
-            <tr>
-              <th className="px-4 py-2.5 text-left font-medium">Species</th>
-              <th className="px-4 py-2.5 text-left font-medium">Indication</th>
-              <th className="px-4 py-2.5 text-left font-medium">Route</th>
-              <th className="px-4 py-2.5 text-left font-medium">Dose</th>
-              <th className="px-4 py-2.5 text-left font-medium">Cite</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dosages.map((d, i) => (
-              <tr key={i} className="border-t border-paper-200 hover:bg-paper-100/50">
-                <td className="px-4 py-3 capitalize">{d.species}</td>
-                <td className="px-4 py-3">{d.indication}</td>
-                <td className="px-4 py-3 font-mono text-xs text-source-800">{d.route}</td>
-                <td className="px-4 py-3">
-                  <span className="font-mono text-[13px]">{d.dose}</span>
-                  {d.duration && <span className="block text-[11px] text-ink-500">{d.duration}</span>}
-                  {d.notes && <span className="block text-[11px] text-ink-500">{d.notes}</span>}
-                </td>
-                <td className="px-4 py-3"><CiteRefs ids={d.cites} drug={drug} inline /></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <DoseTable dosages={dosages} citeIndex={citeIndex} />
     </Section>
   )
 }

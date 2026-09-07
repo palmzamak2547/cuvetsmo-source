@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { type Drug, DRUGS, verificationTier } from '@/lib/drugs'
 import { groupDrugsByClass } from '@/lib/classify'
+import { SpeciesFacets } from './SpeciesFacets'
 
 export const metadata = {
   title: 'Drug Reference',
@@ -145,6 +146,7 @@ function DrugCard({ drug }: { drug: Drug }) {
             </span>
           )}
         </div>
+        <SpeciesFacets drug={drug} />
 
         <div className="mt-auto pt-4 flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[11px] text-ink-500">
           <span>{drug.citations.length} citation{drug.citations.length === 1 ? '' : 's'}</span>

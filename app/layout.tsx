@@ -109,6 +109,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="th" className={`${newsreader.variable} ${inter.variable}`}>
       <body>
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-md focus:bg-source-800 focus:px-3 focus:py-2 focus:text-sm focus:text-paper-50"
+        >
+          Skip to content
+        </a>
         <header className="border-b border-paper-200 bg-paper-50/85 backdrop-blur-sm sticky top-0 z-30">
           <div className="mx-auto flex max-w-6xl items-center gap-4 px-5 py-3.5">
             <Link href="/" className="group flex items-center gap-3">
@@ -161,7 +167,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        <main className="mx-auto max-w-6xl px-5 py-12 md:py-16">{children}</main>
+        <main id="main" className="mx-auto max-w-6xl px-5 py-12 md:py-16">{children}</main>
         <CommandPaletteHost drugs={paletteDrugs} />
         <ServiceWorkerRegister />
 

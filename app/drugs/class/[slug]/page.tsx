@@ -8,6 +8,7 @@ import { notFound } from 'next/navigation'
 import { type Drug, DRUGS, verificationTier } from '@/lib/drugs'
 import { THERAPEUTIC_CLASSES, findClassBySlug, classifyDrug } from '@/lib/classify'
 import { jsonLd } from '@/lib/jsonld'
+import { SpeciesFacets } from '../../SpeciesFacets'
 
 export async function generateStaticParams() {
   return THERAPEUTIC_CLASSES.map(c => ({ slug: c.slug }))
@@ -184,13 +185,14 @@ function DrugCard({ drug }: { drug: Drug }) {
             </span>
           )}
         </div>
+        <SpeciesFacets drug={drug} />
 
         <div className="mt-auto pt-4 flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[11px] text-ink-500">
-          <span>{drug.citations.length} citations</span>
+          <span>{drug.citations.length} citation{drug.citations.length === 1 ? '' : 's'}</span>
           {drug.mirroredFrom && drug.mirroredFrom.length > 0 && (
             <>
               <span aria-hidden>·</span>
-              <span>{drug.mirroredFrom.length} sources</span>
+              <span>{drug.mirroredFrom.length} source{drug.mirroredFrom.length === 1 ? '' : 's'}</span>
             </>
           )}
         </div>
