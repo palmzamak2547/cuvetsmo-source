@@ -23,9 +23,38 @@ export default function DoseTable({
   const species = useMemo(() => [...new Set(dosages.map(d => d.species))], [dosages])
   const [active, setActive] = useState<string | null>(null)
   const rows = active ? dosages.filter(d => d.species === active) : dosages
+  // Body-weight helper: pure arithmetic on the FIRST "n mg/kg" in the row,
+  // always shown next to its basis so it can be checked. Rows without a
+  // per-kg figure get nothing. Reference arithmetic, not a prescription.
+  const [weight, setWeight] = useState('')
+  const kg = Number(weight)
+  const hasKg = Number.isFinite(kg) && kg > 0
+  const anyPerKg = useMemo(() => dosages.some(d => PER_KG.test(d.dose)), [dosages])
 
   return (
     <div>
+      {anyPerKg && (
+        <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1 font-sans text-[12px] text-ink-700">
+          <label htmlFor="dose-weight" className="font-semibold uppercase tracking-wider text-[10px] text-ink-500">น้ำหนักตัว</label>
+          <span className="inline-flex items-center gap-1.5">
+            <input
+              id="dose-weight"
+              type="number"
+              inputMode="decimal"
+              min="0"
+              step="0.1"
+              value={weight}
+              onChange={e => setWeight(e.target.value)}
+              placeholder="0"
+              className="w-20 rounded-md border border-paper-300 bg-paper-50 px-2 py-1 text-right tabular text-ink-900 focus:border-source-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-source-600"
+            />
+            kg
+          </span>
+          <span className="text-[11px] text-ink-500">
+            คูณจาก mg/kg ตัวแรกของแต่ละแถว — แสดงที่มาไว้ให้ตรวจ ยืนยันกับตำราก่อนใช้เสมอ
+          </span>
+        </div>
+      )}
       {species.length > 1 && (
         <div className="mb-3 flex flex-wrap items-center gap-2 font-sans" role="group" aria-label="Filter doses by species">
           <Chip active={active === null} onClick={() => setActive(null)}>
@@ -65,6 +94,14 @@ export default function DoseTable({
                 </td>
                 <td data-label="Dose" className="px-4 py-3">
                   <span className="dose font-mono text-[13px]">{d.dose}</span>
+                  {hasKg && (() => {
+                    const c = perKg(d.dose, kg)
+                    return c ? (
+                      <span className="mt-1 block font-mono text-[12px] text-source-800" title={`${c.basis} × ${kg} kg`}>
+                        ≈ {c.total} <span className="text-ink-500">({c.basis} × {kg} kg)</span>
+                      </span>
+                    ) : null
+                  })()}
                   {d.duration && <span className="block text-[11px] text-ink-500">{d.duration}</span>}
                   {d.notes && <span className="block text-[11px] text-ink-500">{d.notes}</span>}
                 </td>
@@ -90,6 +127,22 @@ export default function DoseTable({
       </div>
     </div>
   )
+}
+
+// "0.1–0.2 mg/kg", "140 mg/kg", "1–5 g/kg", "20 IU/kg" — first match only.
+const PER_KG = /(\d+(?:\.\d+)?)(?:\s*[–-]\s*(\d+(?:\.\d+)?))?\s*(mg|mcg|µg|μg|IU|U|units?|g|mL|ml)\s*\/\s*kg/i
+
+function perKg(dose: string, kg: number): { total: string; basis: string } | null {
+  const m = dose.match(PER_KG)
+  if (!m) return null
+  const unit = m[3].replace(/^units?$/i, 'U').replace(/^μg$/, 'µg')
+  const fmt = (n: number) => (n >= 100 ? n.toFixed(0) : n >= 10 ? n.toFixed(1) : n.toFixed(2)).replace(/\.0+$|(\.\d*[1-9])0+$/, '$1')
+  const lo = parseFloat(m[1]) * kg
+  const hi = m[2] ? parseFloat(m[2]) * kg : null
+  return {
+    total: hi !== null ? `${fmt(lo)}–${fmt(hi)} ${unit}` : `${fmt(lo)} ${unit}`,
+    basis: m[0].replace(/\s+/g, ' '),
+  }
 }
 
 function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {

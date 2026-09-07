@@ -18,6 +18,7 @@ import RecordVisit from './RecordVisit'
 import DetailViewToggle from './DetailViewToggle'
 import DoseTable from './DoseTable'
 import CiteThis from './CiteThis'
+import SectionNav from './SectionNav'
 
 export async function generateStaticParams() {
   return DRUGS.map(d => ({ slug: d.slug }))
@@ -416,25 +417,9 @@ const SECTION_LINKS: Array<{ id: string; label: string; has: (d: Drug) => boolea
 ]
 
 function OnThisPage({ drug }: { drug: Drug }) {
-  const links = SECTION_LINKS.filter(s => s.has(drug))
+  const links = SECTION_LINKS.filter(s => s.has(drug)).map(({ id, label }) => ({ id, label }))
   if (links.length < 3) return null
-  return (
-    <nav
-      aria-label="On this page"
-      className="no-print mt-6 flex flex-wrap items-center gap-2 font-sans text-[12px] md:sticky md:top-16 md:z-20 md:-mx-2 md:border-b md:border-paper-200 md:bg-paper-50/90 md:px-2 md:py-2 md:backdrop-blur-sm"
-    >
-      <span className="mr-1 text-[10px] font-semibold uppercase tracking-wider text-ink-500">On this page</span>
-      {links.map(l => (
-        <a
-          key={l.id}
-          href={`#${l.id}`}
-          className="rounded-full border border-paper-300 bg-paper-50 px-3 py-1 text-ink-700 transition hover:border-source-500 hover:text-source-800"
-        >
-          {l.label}
-        </a>
-      ))}
-    </nav>
-  )
+  return <SectionNav links={links} />
 }
 
 // schema.org Drug + BreadcrumbList. Search engines and citation tools read
