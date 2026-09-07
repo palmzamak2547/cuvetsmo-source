@@ -10,7 +10,7 @@
 //   versions (we want the offline experience to keep working even
 //   when the shell updates).
 
-const CACHE_VERSION = 'v2-2026-09-07'
+const CACHE_VERSION = 'v3-2026-09-07'
 const SHELL_CACHE = `source-shell-${CACHE_VERSION}`
 const CONTENT_CACHE = `source-content`  // unversioned — survives shell deploys
 
@@ -77,9 +77,14 @@ self.addEventListener('fetch', event => {
     return
   }
 
-  // Shell: cache-first, fall back to network.
+  // Shell: stale-while-revalidate. Cached copy renders instantly, the
+  // network copy replaces it for the next visit — so a copy change on
+  // /sources or /drugs reaches returning visitors without a cache-version
+  // bump. (Cache-first here once pinned a stale /sources for a whole
+  // deploy; version bumps only cover shell-layout changes people remember
+  // to bump for.)
   if (PRECACHE_URLS.includes(url.pathname)) {
-    event.respondWith(cacheFirst(req, SHELL_CACHE))
+    event.respondWith(staleWhileRevalidate(req, SHELL_CACHE))
     return
   }
 
@@ -88,19 +93,6 @@ self.addEventListener('fetch', event => {
   // browser's offline error page).
   event.respondWith(networkFirstWithShellFallback(req))
 })
-
-async function cacheFirst(request, cacheName) {
-  const cache = await caches.open(cacheName)
-  const cached = await cache.match(request)
-  if (cached) return cached
-  try {
-    const fresh = await fetch(request)
-    if (fresh.ok) cache.put(request, fresh.clone())
-    return fresh
-  } catch (err) {
-    return new Response('Offline and not cached.', { status: 503 })
-  }
-}
 
 async function staleWhileRevalidate(request, cacheName) {
   const cache = await caches.open(cacheName)

@@ -18,7 +18,7 @@ const ENDPOINTS: Endpoint[] = [
     method: 'GET',
     path: '/api/drugs',
     tier: 'public',
-    description: 'List all canonical entries (faculty-reviewed AND signed). Pending entries are filtered out.',
+    description: 'List every verified entry — nothing is filtered by review status. The response also carries a per-tier summary (verified / community / expert).',
     example: `curl ${BASE}/api/drugs`,
     response: `{
   "apiVersion": "0.0.1",
@@ -31,7 +31,7 @@ const ENDPOINTS: Endpoint[] = [
     method: 'GET',
     path: '/api/drugs/{slug}',
     tier: 'public',
-    description: 'Single drug entry by slug. Includes pending entries (with amber status visible in response).',
+    description: 'Single drug entry by slug — every clinical section, dosages by species and route, and the full citation list.',
     example: `curl ${BASE}/api/drugs/meloxicam`,
     response: `{
   "apiVersion": "0.0.1",
@@ -41,9 +41,29 @@ const ENDPOINTS: Endpoint[] = [
   },
   {
     method: 'GET',
+    path: '/api/catalog',
+    tier: 'public',
+    description: 'The whole catalog in one request — every entry with clinical sections, dosages, citations, codes, and verification tier. Free; no key.',
+    example: `curl ${BASE}/api/catalog`,
+    response: `{
+  "count": N,
+  "drugs": [ { "slug": "meloxicam", "dosages": [...], "citations": [...], "verificationTier": "sourced", ... } ]
+}`,
+  },
+  {
+    method: 'GET',
+    path: '/api/catalog/csv',
+    tier: 'public',
+    description: 'Same catalog as RFC 4180 CSV, one row per drug × dosage (species, indication, route, dose, citation count). Opens directly in Excel / Sheets.',
+    example: `curl -O ${BASE}/api/catalog/csv`,
+    response: `Content-Type: text/csv; charset=utf-8
+Content-Disposition: attachment; filename="cuvetsmo-source-catalog.csv"`,
+  },
+  {
+    method: 'GET',
     path: '/api/by-code',
     tier: 'public',
-    rateLimit: '1000 / IP / day (Phase 1 enforced)',
+    rateLimit: '1000 / IP / day (advisory — not enforced today)',
     description: 'Filter by ontology code. Supports ATC prefix-match and RxNorm exact match.',
     example: `curl '${BASE}/api/by-code?system=atc&code=M01AC06'`,
     response: `{
@@ -71,7 +91,7 @@ const ENDPOINTS: Endpoint[] = [
     method: 'GET',
     path: '/api/log',
     tier: 'public',
-    rateLimit: '100 / IP / day (Phase 1, large payload)',
+    rateLimit: '100 / IP / day (advisory — large payload)',
     description: 'Append-only transparency log of every signature event. Audit trail for the curious.',
     example: `curl ${BASE}/api/log`,
     response: `{
@@ -89,8 +109,8 @@ const ENDPOINTS: Endpoint[] = [
     response: `{
   "apiVersion": "0.0.1",
   "summary": {
-    "totalCitations": 132, "probed": 119, "healthy": 118,
-    "unhealthy": 1, "pctProbed": 90, "pctHealthy": 99
+    "totalCitations": N, "probed": N, "healthy": N,
+    "unhealthy": N, "pctProbed": N, "pctHealthy": N
   },
   "bySource": { "dailymed": {...}, "atc": {...}, ... },
   "unhealthyEntries": [ { "cid": "...", "url": "...", "latestStatus": 404 } ]
@@ -100,7 +120,7 @@ const ENDPOINTS: Endpoint[] = [
     method: 'GET',
     path: '/api/dataset',
     tier: 'institutional',
-    description: 'Bulk dataset export. Phase 1+. Today: returns 402 + contact instructions.',
+    description: 'Institutional bulk-export placeholder: returns 402 today. The whole catalog is already free at /api/catalog (JSON) and /api/catalog/csv.',
     example: `curl -i ${BASE}/api/dataset`,
     response: `HTTP/2 402
 {
@@ -119,7 +139,7 @@ export default function APIDocsPage() {
         </p>
         <h1 className="mt-2 text-3xl font-bold text-paper-900">API documentation</h1>
         <p className="mt-2 text-paper-700">
-          Free public read of every canonical entry, ontology cross-reference, public key, and signature event.
+          Free public read of every verified entry, ontology cross-reference, public key, and signature event.
           CORS-enabled. Edge-cached. No API key required.
         </p>
       </header>
@@ -128,10 +148,10 @@ export default function APIDocsPage() {
       <section className="mt-8 rounded-2xl border-2 border-source-300 bg-source-50 p-5">
         <h2 className="text-lg font-bold text-source-900">Inverted economics</h2>
         <p className="mt-2 text-sm text-source-800">
-          Public read is free forever. Hospital EHRs, AI agents, research workflows can integrate without
+          Public read is free forever. Hospital EHRs, chatbots, research workflows can integrate without
           paying anything. <b>Institutional write</b> (POST contributions back, bulk dataset export, dataset
           DOI minting) is paid — revenue flows back to the contributing department per their reviewed entries.
-          Phase 0 ships the read surface; institutional write comes online Phase 1.
+          Today only the read surface exists; no institutional tier is live yet.
         </p>
       </section>
 
@@ -147,8 +167,7 @@ export default function APIDocsPage() {
       <section className="mt-12 rounded-xl border border-paper-200 bg-white p-5">
         <h2 className="text-lg font-bold text-paper-900">Rate limits + response headers</h2>
         <p className="mt-2 text-sm text-paper-700">
-          Phase 0 ships rate-limit headers but does not enforce them yet (so you can build integrations
-          today and not break when enforcement flips on in Phase 1):
+          Rate-limit headers are advisory today. Nothing is enforced yet, so integrations built now keep working if enforcement is ever turned on:
         </p>
         <pre className="mt-3 overflow-x-auto rounded bg-paper-100 p-3 text-[11px] font-mono text-paper-800">{`X-Source-Tier: public
 X-Source-Limit-RPD: 1000
@@ -166,7 +185,7 @@ X-Source-Enforcement: phase-0-soft`}</pre>
         <h2 className="text-lg font-bold text-paper-900">CORS</h2>
         <p className="mt-2 text-sm text-paper-700">
           All GET endpoints set <code>Access-Control-Allow-Origin: *</code>. You can fetch from any origin
-          (browser, curl, Node, Python, Go). POST is locked — Phase 1 enables it for institutional keys only.
+          (browser, curl, Node, Python, Go). There is no write API today; contributions go through the public GitHub repository.
         </p>
       </section>
 

@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Faculty onboarding · How to sign your first entry',
-  description: 'Step-by-step walkthrough: from "yes I will review" to your first cryptographically-signed canonical drug entry. ~30 minutes the first time, ~5 minutes per entry after.',
+  description: 'Step-by-step walkthrough: from "yes I will review" to your first cryptographically-signed, expert-reviewed drug entry. ~30 minutes the first time, ~5 minutes per entry after.',
 }
 
 export default function OnboardingPage() {
@@ -18,8 +18,9 @@ export default function OnboardingPage() {
         <p className="eyebrow">Faculty onboarding · walkthrough</p>
         <h1 className="display-h1 mt-3">From &ldquo;yes I&apos;ll review&rdquo; to your first signed entry — in 30 minutes.</h1>
         <p className="mt-5 max-w-2xl text-[17px] leading-relaxed text-ink-700">
-          ทุก canonical entry บน source.cuvetsmo.com ต้องมีอาจารย์ผู้เชี่ยวชาญลงนาม Ed25519. หน้านี้คือ flow จริง
-          — มี <code>$</code> prompt + sample output + อธิบายว่าแต่ละขั้นตอนทำอะไร.
+          ทุก entry วันนี้อยู่ที่ขั้น ◆ Verified (อ้างอิง + cross-check อย่างน้อย 2 แหล่ง). ขั้นถัดไป — ✓ Expert-reviewed —
+          ต้องมีอาจารย์ผู้เชี่ยวชาญลงนาม Ed25519 และยังไม่มี entry ไหนไปถึง: คุณจะเป็นผู้ลงนามคนแรก. หน้านี้คือ flow จริง
+          — มี <code>$</code> prompt + sample output + อธิบายว่าแต่ละขั้นตอนทำอะไร (ชื่อและค่าในตัวอย่างเป็นค่าสมมติ).
         </p>
       </header>
 
@@ -61,7 +62,7 @@ export default function OnboardingPage() {
 {`$ git clone https://github.com/palmzamak2547/cuvetsmo-source.git
 $ cd cuvetsmo-source
 $ npm install
-added 247 packages in 12s`}
+added 359 packages in 48s`}
                 </Terminal>
               </>
             }
@@ -77,14 +78,14 @@ added 247 packages in 12s`}
                   เลือก kid (key id) ที่สั้น เสถียร และเป็น kebab-case. Convention: <code>firstname.lastname</code>.
                 </p>
                 <Terminal>
-{`$ node scripts/keygen.mjs ekkapol.akb --display "ผศ.น.สพ.ดร. เอกพล อัครพุทธิพร"
+{`$ node scripts/keygen.mjs somsri.example --display "รศ.สพ.ญ.ดร. สมศรี ตัวอย่าง"
 
 ✓ Ed25519 keypair generated
-  kid:         ekkapol.akb
-  display:     ผศ.น.สพ.ดร. เอกพล อัครพุทธิพร
+  kid:         somsri.example
+  display:     รศ.สพ.ญ.ดร. สมศรี ตัวอย่าง
   fingerprint: ed25519:7c2b9e4f1a3d0c87
-  public:      content/keys/ekkapol.akb.pub.json  (COMMIT this)
-  private:     ~/.cuvetsmo-keys/ekkapol.akb.priv.json  (NEVER commit — outside repo)`}
+  public:      content/keys/somsri.example.pub.json  (COMMIT this)
+  private:     ~/.cuvetsmo-keys/somsri.example.priv.json  (NEVER commit — outside repo)`}
                 </Terminal>
                 <Note tone="warn">
                   <b>Private key safety.</b> The private key lands in your home directory <i>outside the repo</i>.
@@ -102,15 +103,15 @@ added 247 packages in 12s`}
             body={
               <>
                 <p>
-                  Create a PR titled <code>keys: register ekkapol.akb</code>. The maintainer merges after
+                  Create a PR titled <code>keys: register somsri.example</code>. The maintainer merges after
                   verifying your name + affiliation against the faculty directory.
                 </p>
                 <Terminal>
-{`$ git checkout -b keys/ekkapol-akb
-$ git add content/keys/ekkapol.akb.pub.json
-$ git commit -m "keys: register ekkapol.akb"
-$ git push origin keys/ekkapol-akb
-$ gh pr create --title "keys: register ekkapol.akb"
+{`$ git checkout -b keys/somsri-example
+$ git add content/keys/somsri.example.pub.json
+$ git commit -m "keys: register somsri.example"
+$ git push origin keys/somsri-example
+$ gh pr create --title "keys: register somsri.example"
 
 ✓ PR opened: github.com/palmzamak2547/cuvetsmo-source/pull/N`}
                 </Terminal>
@@ -125,29 +126,30 @@ $ gh pr create --title "keys: register ekkapol.akb"
             body={
               <>
                 <p>
-                  เปิด <code>content/drugs/&lt;slug&gt;.json</code> — read every clinical section, strip TEMPLATE markers,
-                  add Thai translations, cross-check at least one dose against an independent source. Then add your reviewer block:
+                  เปิด <code>content/drugs/&lt;slug&gt;.json</code> — read every clinical section, confirm each cited source
+                  still says what the entry says, fix any Thai phrasing, cross-check at least one dose against an independent source.
+                  Then add your reviewer block:
                 </p>
                 <Terminal lang="json">
 {`"reviewedBy": {
-  "name": "ผศ.น.สพ.ดร. เอกพล อัครพุทธิพร",
-  "title": "ผู้ช่วยศาสตราจารย์",
+  "name": "รศ.สพ.ญ.ดร. สมศรี ตัวอย่าง",
+  "title": "รองศาสตราจารย์",
   "department": "ภาควิชาเภสัชวิทยา",
   "affiliation": "คณะสัตวแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย",
   "date": "2026-06-15",
-  "did": "did:web:source.cuvetsmo.com:faculty:ekkapol-akb",
+  "did": "did:web:source.cuvetsmo.com:faculty:somsri-example",
   "signerKeyId": "ed25519:7c2b9e4f1a3d0c87"
 }`}
                 </Terminal>
                 <p>Then sign:</p>
                 <Terminal>
 {`$ npm run check
-✓ All 175 content units pass Iron Rule 0
+OK — 618 content unit(s) pass Iron Rule 0 integrity checks.
 
-$ node scripts/sign.mjs meloxicam --signer ekkapol.akb
+$ node scripts/sign.mjs meloxicam --signer somsri.example
 
 ✓ Signed meloxicam
-  signer:      ผศ.น.สพ.ดร. เอกพล อัครพุทธิพร  (kid: ekkapol.akb)
+  signer:      รศ.สพ.ญ.ดร. สมศรี ตัวอย่าง  (kid: somsri.example)
   fingerprint: ed25519:7c2b9e4f1a3d0c87
   contentHash: 10d5c44cc278d863f9d4b8ee1ed669bcc40baceaa6f74bad78ff10c3d859b033
   signature:   bm5Hb55PtAwQd/Udiue+IyPTjhJ3...  (base64, 88 chars)
@@ -164,7 +166,7 @@ Verify it:
 
           <Step
             n={5}
-            title="Open the PR, the entry goes canonical"
+            title="Open the PR, the entry becomes expert-reviewed"
             time="3 min"
             body={
               <>
@@ -177,7 +179,7 @@ $ git push origin sign/meloxicam
 $ gh pr create --title "Sign meloxicam — first faculty review" --fill`}
                 </Terminal>
                 <p>
-                  Once a maintainer merges, the entry flips from amber pending to <b>emerald canonical</b>
+                  Once a maintainer merges, the entry moves from ◆ Verified to <b>✓ Expert-reviewed</b> (emerald)
                   on the live site, and your name + title + date show up in the trust stamp + the transparency log + the chain of trust visualization. Anyone who fetches the entry — now or 10 years from now — can verify in their browser that you specifically vouched for it on this date.
                 </p>
               </>
@@ -195,9 +197,8 @@ $ gh pr create --title "Sign meloxicam — first faculty review" --fill`}
         <ul className="mt-6 space-y-2.5 text-[15px] leading-relaxed text-ink-800">
           <Check>I read every clinical section in full (not skimmed)</Check>
           <Check>I cross-checked at least one dosage against an independent authoritative source</Check>
-          <Check>I stripped every <code>TEMPLATE</code> placeholder</Check>
+          <Check>I confirmed every dose cell still matches the source it cites</Check>
           <Check>I corrected any Thai phrasing that read awkwardly to a Thai vet practitioner</Check>
-          <Check>If AI assisted the draft, <code>drafting.humanEditsRatio</code> reflects my edits honestly (&gt; 0.1)</Check>
           <Check><code>npm run check</code> passes locally with no errors</Check>
           <Check>I added myself to <code>reviewedBy</code> with full title + affiliation</Check>
           <Check>I am signing for content <b>I</b> reviewed — not delegating to a student or RA</Check>
@@ -210,7 +211,7 @@ $ gh pr create --title "Sign meloxicam — first faculty review" --fill`}
         <h2 className="display-h2 mt-2">When NOT to sign</h2>
         <ul className="mt-6 space-y-2.5 text-[15px] leading-relaxed text-ink-800">
           <X>You skimmed instead of reading every line</X>
-          <X>AI drafted and you rubber-stamped — <code>humanEditsRatio &lt; 0.1</code></X>
+          <X>You signed off on a dose without opening the source it cites</X>
           <X>A student helped translate but you didn&apos;t re-read after their edits</X>
           <X>You&apos;re uncertain about a specific dose — flag the cell as needing further review instead</X>
           <X>You feel pressure from the maintainer team — let them know rather than sign reluctantly</X>

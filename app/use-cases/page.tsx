@@ -7,6 +7,7 @@
 // strip out all the cryptographic infrastructure.
 
 import Link from 'next/link'
+import { DRUGS } from '@/lib/drugs'
 
 export const metadata = {
   title: 'Use cases · Who actually uses this',
@@ -40,7 +41,7 @@ const TIER_1: Persona[] = [
     whoEn: 'Practicing veterinarian, rural Thai clinic',
     pain: 'คนไข้มาตอนกลางคืน, dose ของยาที่ไม่ค่อยใช้, internet ล่ม, Plumb\'s subscription ทั้งคลินิก ใช้ 1 คน',
     currentWorkaround: 'Google ในมือถือ (ภาษาอังกฤษ + ช้า + offline เสมอ), ถามรุ่นพี่ผ่าน LINE, เปิด PDF จาก driver',
-    whatTheyUse: 'PWA install บนมือถือ → offline lookup → ATC code + dose by species table → emerald canonical stamp ถ้ามี',
+    whatTheyUse: 'PWA install บนมือถือ → offline lookup → ATC code + dose by species table → citation ทุกบรรทัดกดไปดูต้นทางได้',
     cryptoValue: 'medium',
     networkEffect: 'Vet เก่าสอน vet ใหม่. คลินิก 1 ใช้, vet 2-3 คน ใช้ตาม.',
     surfaces: [{ href: '/search', label: 'Search (offline)' }, { href: '/drugs/morphine', label: 'Sample drug page' }],
@@ -50,7 +51,7 @@ const TIER_1: Persona[] = [
     whoEn: 'Faculty in pharmacology or clinical departments',
     pain: 'lecture update ทุกปี, citation ต้องครบ, ต้องเลือกยาที่นิสิตจะเจอจริง, paper review need stable references',
     currentWorkaround: 'ส่วนตัว + textbook + research papers, slide ปีเก่าๆ',
-    whatTheyUse: 'Contribute Thai-translated entry → ลง signature ด้วย Ed25519 → ชื่อปรากฏใน /trust → use ใน lecture, cite ใน paper, มี audit trail',
+    whatTheyUse: 'ตรวจ entry ที่มีอยู่แล้วกับแหล่งอ้างอิง → รับรองด้วยลายเซ็นดิจิทัล Ed25519 (ระบบพร้อม — รอผู้ลงนามคนแรก) → ชื่อปรากฏใน /trust → ใช้ใน lecture, cite ใน paper, มี audit trail',
     cryptoValue: 'high',
     networkEffect: '1 faculty → 3 faculty (peer/department effect). Department reputation compounds.',
     surfaces: [{ href: '/onboarding', label: 'Onboarding walkthrough' }, { href: '/trust', label: 'Chain of trust' }, { href: '/verify', label: 'Verify in browser' }],
@@ -59,21 +60,21 @@ const TIER_1: Persona[] = [
 
 const TIER_2: Persona[] = [
   {
-    who: 'AI startups + LLM-grounded vet tools (telemedicine, decision support)',
-    whoEn: 'AI startup building vet-facing or pet-owner-facing AI tools',
-    pain: 'Hallucination liability is existential. ChatGPT/Gemini answer พ.ร.บ./dose ผิด = ลูกค้าฟ้อง. DailyMed ภาษาอังกฤษเท่านั้น. Plumb\'s ToS forbids automation. ไม่มี API ที่เปิดเสรีสำหรับ AI grounding ในวง vet ไทย',
+    who: 'Startups ที่ทำ chatbot / decision-support สำหรับวง vet (telemedicine, triage)',
+    whoEn: 'Startup building vet-facing or pet-owner-facing chatbots',
+    pain: 'Hallucination liability is existential. ChatGPT/Gemini answer พ.ร.บ./dose ผิด = ลูกค้าฟ้อง. DailyMed ภาษาอังกฤษเท่านั้น. Plumb\'s ToS forbids automation. ไม่มี API ที่เปิดเสรีสำหรับ grounding chatbot ในวง vet ไทย',
     currentWorkaround: 'Hand-craft prompts + vague disclaimers + พยายาม fine-tune model ด้วย DailyMed text',
-    whatTheyUse: '/api/drugs + /api/by-code + /api/keys → ground LLM responses → แสดง user "ที่มา: cuvetsmo.com, ลงนามโดย Dr. X" + ลิงก์ไป /verify/<slug>',
+    whatTheyUse: '/api/drugs + /api/by-code หรือ MCP server → ground คำตอบของโมเดล → แสดงผู้ใช้ "ที่มา: source.cuvetsmo.com" พร้อม citation ทุกบรรทัด + ลิงก์ไปหน้า entry',
     cryptoValue: 'very-high',
-    networkEffect: 'Trust layer effect. AI tool cite เรา → user เห็น "source: cuvetsmo.com" → trust AI tool → AI startup คนอื่น มาใช้ตาม → เรากลายเป็น default grounding ของ vet AI ecosystem ในไทย',
-    surfaces: [{ href: '/api', label: 'Public API docs' }, { href: '/api/health', label: 'Citation health (JSON)' }],
+    networkEffect: 'Trust layer effect. chatbot cite เรา → ผู้ใช้เห็น "source: cuvetsmo.com" → เชื่อ chatbot นั้นมากขึ้น → startup อื่นใช้ตาม → เรากลายเป็น default grounding ของ vet chatbot ในไทย',
+    surfaces: [{ href: '/api', label: 'Public API docs' }, { href: 'https://github.com/palmzamak2547/cuvetsmo-source/tree/main/mcp', label: 'MCP server' }, { href: '/api/health', label: 'Citation health (JSON)' }],
   },
   {
     who: 'นักวิจัย CU Vet / Mahidol / Kasetsart + senior project students',
     whoEn: 'Veterinary researchers + senior project students',
     pain: 'Citation rot — URL ที่อ้างใน paper ปี 2020 ตายปี 2025. Reference rot ทำให้ paper old ไม่ replicate ได้',
     currentWorkaround: 'archive.org, screenshot, manual download PDF',
-    whatTheyUse: 'cite c/<cid> URL ที่ไม่มีวันหาย (git history + content addressing). อ้างในงานวิจัย scientometric, รวมถึง Palm research synthesis paper',
+    whatTheyUse: 'cite c/<cid> URL ที่ไม่มีวันหาย (git history + content addressing) — อ้างในงานวิจัย scientometric หรือ systematic review',
     cryptoValue: 'high',
     networkEffect: 'Academic citations are permanent (papers indexed forever). 1 cite → discoverability ใน Scopus + Google Scholar.',
     surfaces: [{ href: '/c/65f15af11f2c1a6a4a23ff7b3094af2e36fef477c604bc34461641fa3fa50d5a', label: 'Sample CID page' }, { href: '/about', label: 'How it works' }],
@@ -86,7 +87,7 @@ const TIER_3: Persona[] = [
     whoEn: 'Hospital chains + university teaching hospitals',
     pain: 'Formulary management, drug interaction checks, compliance audits, insurance audit',
     currentWorkaround: 'Plumb\'s institutional license (USD-grade per seat), manual SOPs',
-    whatTheyUse: 'Institutional API tier — EHR integration + ATC join + signatures สำหรับ compliance + audit log',
+    whatTheyUse: 'ATC join ผ่าน API ที่มีวันนี้ → EHR integration; ชั้น institutional (SLA, audit log, การรับรองโดยอาจารย์) ยังไม่เปิด',
     cryptoValue: 'very-high',
     networkEffect: '1 reference hospital → standard ใน vet network. Insurance + accreditation bodies start citing.',
     surfaces: [{ href: '/api', label: 'Public API' }, { href: '/credentials', label: 'Verifiable Credentials' }],
@@ -96,7 +97,7 @@ const TIER_3: Persona[] = [
     whoEn: 'Government regulators',
     pain: 'AMR surveillance สำคัญตาม One Health framework, antimicrobial use audit, prescription monitoring',
     currentWorkaround: 'Paper-based reporting + survey + ad-hoc data calls',
-    whatTheyUse: 'Free open dataset + ATC + signatures for audit-grade provenance + structured JSON API',
+    whatTheyUse: 'Free open dataset (/api/catalog) + ATC + citation provenance ทุกบรรทัด + structured JSON API',
     cryptoValue: 'very-high',
     networkEffect: 'Government adoption → mandate flow-through to all clinics → universal coverage',
     surfaces: [{ href: '/api', label: 'Public API' }, { href: '/log', label: 'Transparency log' }],
@@ -142,13 +143,13 @@ export default function UseCasesPage() {
         <p className="eyebrow text-source-800">The acid test</p>
         <h2 className="display-h2 mt-2 text-source-900">ถ้าตัด crypto ทิ้งหมด ยังมีประโยชน์ไหม?</h2>
         <p className="mt-4 max-w-3xl text-[17px] leading-relaxed text-source-900" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>
-          <b>มี.</b> เหลือ "คู่มือยาสัตวแพทย์ภาษาไทย ที่อาจารย์ review" — และตลาดสำหรับ product นี้
+          <b>มี.</b> เหลือ "คู่มือยาสัตวแพทย์ภาษาไทย ที่อ้างอิงและ cross-check ทุกบรรทัด" — และตลาดสำหรับ product นี้
           มีอยู่จริง: <b>Plumb&apos;s</b> ขาย USD 300/ปี ทั่วโลก, มีทีม editor 200+ คน, เป็น
           standard ของ vet ทั่ว US/UK/CA. คนต้องการคู่มือยา ภาษาไทย ฟรี ที่ adapt กับ context ไทย —{' '}
           <i>มีอยู่แล้ว ก่อนเราเริ่ม</i>.
         </p>
         <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-source-800">
-          Crypto ของเราเป็น <b>moat</b> (กันคู่แข่ง + ต่อต้าน AI hallucination), ไม่ใช่ <b>product</b> ที่ขาย.
+          Crypto ของเราเป็น <b>moat</b> (กันคู่แข่ง + กันข้อมูลที่แต่งขึ้น), ไม่ใช่ <b>product</b> ที่ขาย.
           ผู้อ่านได้ value โดยไม่ต้องสนใจคณิตศาสตร์เลย. เปรียบเทียบกับ Defi — value อยู่ใน token speculation
           เท่านั้น, ตัด crypto ออก = ไม่เหลืออะไร.
         </p>
@@ -174,9 +175,10 @@ export default function UseCasesPage() {
       {/* Tier 2 */}
       <section>
         <p className="eyebrow">Tier 2 · 1–2 year horizon</p>
-        <h2 className="display-h2 mt-2">Once we have signed canonical entries</h2>
+        <h2 className="display-h2 mt-2">Possible today — grows with the expert rung</h2>
         <p className="mt-3 max-w-2xl text-ink-700">
-          ผู้ใช้ที่ต้องการ canonical content (faculty-signed) ก่อนจะ integrate. รอ Tier 1 ส่ง signal แล้วเข้ามา.
+          API, bulk export และ MCP server ใช้ได้แล้ววันนี้กับ entry ◆ Verified ทั้งหมด — น้ำหนักจะเพิ่มขึ้นอีก
+          เมื่อ entry เริ่มมีอาจารย์รับรอง (✓ Expert-reviewed).
         </p>
         <div className="mt-8 space-y-8">
           {TIER_2.map((p, i) => <PersonaCard key={i} persona={p} />)}
@@ -224,8 +226,8 @@ export default function UseCasesPage() {
               'Use case คือ medical reference — pain มีอยู่ก่อนแล้ว (Plumb\'s USD 300/yr)',
               'ไม่มี token, ไม่มี financial product, ไม่มี speculation',
               'Crypto เป็น MOAT (trust) ไม่ใช่ PRODUCT ที่ขาย',
-              'Network effects ไหล IN (entry สะสม, faculty มาเพิ่ม, AI grounding compound)',
-              'ตัด hype = ยังมีคู่มือยา ภาษาไทย ฟรี + signed — still useful',
+              'Network effects ไหล IN (entry สะสม, ผู้ตรวจมาเพิ่ม, chatbot grounding compound)',
+              'ตัด hype = ยังมีคู่มือยา ภาษาไทย ฟรี ที่อ้างอิงได้ทุกบรรทัด — still useful',
               'Value อยู่ใน CONTENT, ไม่ใช่ใน token',
             ]}
           />
@@ -242,19 +244,19 @@ export default function UseCasesPage() {
           <TestCard
             n={1}
             who="5 คนใน Vet 86 cohort"
-            test="เปิด /drugs/meloxicam + /search ให้ดู, ถาม: ถ้านี่ภาษาไทยเต็มและ canonical แล้ว จะใช้ก่อนสอบ?"
+            test="เปิด /drugs/meloxicam + /search ให้ดู, ถาม: จะใช้ก่อนสอบไหม? ขาดอะไร?"
             signal="Bookmark intent · ถ้าตอบ yes + ตั้งเป็น bookmark = real demand from Tier 1A"
           />
           <TestCard
             n={2}
             who="อาจารย์เภสัชวิทยา 1 คน"
             test="ส่ง /onboarding link + ARCHITECTURE.md, ถาม: จะลองสมัคร review meloxicam หรือ carprofen ดูไหม?"
-            signal="Conversion · ถ้าเซ็น entry แรกได้ภายใน 30 วัน = Tier 1C unlocked"
+            signal="Conversion · ถ้าเซ็น entry แรกได้ภายใน 30 วัน = ขั้น Expert-reviewed เริ่มมีของจริง"
           />
           <TestCard
             n={3}
-            who="คนที่ทำ AI startup ในวง vet (ถ้ามีรู้จัก)"
-            test="ส่ง /api docs + /verify ตัวอย่าง, ถาม: ถ้า dataset นี้สมบูรณ์แล้ว 1000 entries, จะ integrate ไหม?"
+            who="คนที่ทำ chatbot / decision-support ในวง vet (ถ้ามีรู้จัก)"
+            test={`ส่ง /api docs + MCP server ให้ลอง, ถาม: dataset ${DRUGS.length} entries วันนี้พอให้ integrate ไหม? ต้องการอะไรเพิ่ม?`}
             signal="API demand · ถ้า yes อย่างชัดเจน = Tier 2 wedge confirmed"
           />
         </ol>
@@ -268,7 +270,7 @@ export default function UseCasesPage() {
         <p className="eyebrow">The honest framing</p>
         <p className="mt-2 leading-relaxed text-ink-900" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>
           ไม่มี platform ใดที่ <i>guarantee</i> network effect. แต่ source.cuvetsmo.com มี structural advantages
-          เหนือกว่า Web3 vapor: pain real ที่ Plumb\'s + Mahidol + AI hallucination data confirm, crypto เป็น moat
+          เหนือกว่า Web3 vapor: pain real ที่ Plumb&apos;s + Mahidol + งานวิจัย hallucination ยืนยัน, crypto เป็น moat
           ไม่ใช่ product, value compounds in content not in token. <b>นี่ไม่ใช่ &ldquo;trust me bro&rdquo;</b> — ทุกอย่างใน{' '}
           <Link href="/about" className="text-source-800 underline-offset-2 hover:underline">/about</Link>{' '}
           มี citation real ที่ตรวจสอบได้.

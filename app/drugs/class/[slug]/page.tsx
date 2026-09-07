@@ -70,7 +70,7 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
         <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-1 text-[11px] tabular text-ink-500">
           <span>{entries.length} entries</span>
           <span aria-hidden>·</span>
-          <span className="text-source-800">◆ {entries.length} sourced</span>
+          <span className="text-source-800">◆ {entries.length} verified</span>
           {community > 0 && (
             <>
               <span aria-hidden>·</span>

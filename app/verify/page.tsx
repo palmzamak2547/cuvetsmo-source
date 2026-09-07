@@ -95,13 +95,13 @@ export default function VerifyLanding() {
       {unsigned.length > 0 && (
         <section className="mt-14">
           <div className="mb-5 flex items-baseline justify-between gap-4 border-b border-paper-200 pb-2.5">
-            <h2 className="display-h2">◆ Sourced — ยังไม่มี expert signature</h2>
+            <h2 className="display-h2">◆ Verified — ยังไม่มี expert signature</h2>
             <p className="text-[11px] uppercase tracking-wider text-ink-500 tabular">
               {unsigned.length} entr{unsigned.length === 1 ? 'y' : 'ies'}
             </p>
           </div>
           <p className="mb-5 text-sm text-ink-700">
-            entry เหล่านี้อ้างอิงแหล่ง authoritative + cross-check แล้ว — <b>ใช้อ้างอิงได้</b> (◆ Sourced).
+            entry เหล่านี้อ้างอิงแหล่ง authoritative + cross-check แล้ว — <b>ใช้อ้างอิงได้</b> (◆ Verified).
             ยังไม่มี Ed25519 signature ของอาจารย์ให้ verify · ช่วยตรวจให้เลื่อนขั้นที่{' '}
             <Link href="/feedback" className="text-source-800 underline-offset-2 hover:underline">/feedback</Link>
           </p>

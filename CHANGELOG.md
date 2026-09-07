@@ -18,6 +18,8 @@ The full 8-primitive moonshot architecture shipped in one extended session. Per 
 - **Drug pages**: "On this page" jump chips above the monograph, anchors on every section (`#dosage`, `#references`, …), and schema.org `Drug` + `BreadcrumbList` structured data; class pages carry an `ItemList`.
 - **MCP 0.3.0**: compact JSON results and a `sections` option on `get_drug` (e.g. `["dosages","citations"]`) so agents fetch only what they need; server version now follows `package.json`.
 - Baseline security headers (nosniff, frame-options, referrer-policy, permissions-policy).
+- **Explainer pages tell the truth about status**: `/about` labels each of the 8 primitives "ใช้งานอยู่" or "พร้อมแต่ยังไม่มีข้อมูล" with live numbers (signed entries, citations with CIDs, RxNorm coverage); `/sources` lists the hosts the citations actually point to, counted from the data at build time, plus the verification ladder with real counts and an honest-limits section; `/use-cases` and `/onboarding` no longer describe faculty signing as if it were already happening (the walkthrough now uses a clearly fictional sample reviewer and the real `npm run check` output); `/api` documents `/api/catalog` + `/api/catalog/csv` and drops the roadmap-phase language.
+- **Returning visitors see updates**: the offline cache used to pin the home, drug list, sources, API, verify, and search pages until a manual cache-version bump, so a returning visitor could read last month's copy. Those pages now refresh in the background on every visit while still working offline.
 
 ### 2026-06-07 — 📚 Catalog 273 → 420 drugs (+147) across 38 therapeutic classes
 

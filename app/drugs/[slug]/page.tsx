@@ -369,7 +369,7 @@ function DraftingBadge({ drug }: { drug: Drug }) {
   }
   return (
     <section className="rounded-md border border-paper-200 bg-paper-50 p-4 text-xs text-ink-700">
-      <p className="eyebrow">การอ้างอิง · Sourced</p>
+      <p className="eyebrow">การอ้างอิง · Verified</p>
       <p className="mt-2 leading-snug">
         เนื้อหาทุกหัวข้ออ้างอิงจากแหล่ง authoritative ที่ระบุไว้ (ดู Citations ด้านล่าง)
         {d.humanReviewer && <><br/>เรียบเรียง · ตรวจโดย <span className="font-mono">@{d.humanReviewer}</span></>}
