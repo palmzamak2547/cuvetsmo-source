@@ -164,7 +164,7 @@ export default function APIDocsPage() {
       </section>
 
       {/* Rate limits */}
-      <section className="mt-12 rounded-xl border border-paper-200 bg-white p-5">
+      <section className="mt-12 rounded-xl border border-paper-200 bg-paper-50 p-5">
         <h2 className="text-lg font-bold text-paper-900">Rate limits + response headers</h2>
         <p className="mt-2 text-sm text-paper-700">
           Rate-limit headers are advisory today. Nothing is enforced yet, so integrations built now keep working if enforcement is ever turned on:
@@ -181,7 +181,7 @@ X-Source-Enforcement: phase-0-soft`}</pre>
       </section>
 
       {/* CORS */}
-      <section className="mt-8 rounded-xl border border-paper-200 bg-white p-5">
+      <section className="mt-8 rounded-xl border border-paper-200 bg-paper-50 p-5">
         <h2 className="text-lg font-bold text-paper-900">CORS</h2>
         <p className="mt-2 text-sm text-paper-700">
           All GET endpoints set <code>Access-Control-Allow-Origin: *</code>. You can fetch from any origin
@@ -192,7 +192,7 @@ X-Source-Enforcement: phase-0-soft`}</pre>
       {/* Sample integration */}
       <section className="mt-8 rounded-xl border border-paper-200 bg-paper-100 p-5">
         <h2 className="text-lg font-bold text-paper-900">Sample integration</h2>
-        <pre className="mt-3 overflow-x-auto rounded bg-white p-3 text-[11px] font-mono text-paper-800">{`// Browser — fetch + verify a single entry
+        <pre className="mt-3 overflow-x-auto rounded bg-paper-50 p-3 text-[11px] font-mono text-paper-800">{`// Browser — fetch + verify a single entry
 const drug = await fetch('${BASE}/api/drugs/meloxicam').then(r => r.json())
 const key = await fetch(\`${BASE}/api/keys/\${drug.data.signatures[0].signerKeyId.split(':')[1].slice(0,99)}\`)
 // For real verification, fetch by signerId not by fingerprint slice
@@ -235,9 +235,9 @@ function EndpointCard({ ep }: { ep: Endpoint }) {
     admin:         'border-red-300     bg-red-50     text-red-900',
   } as const
   return (
-    <div className="rounded-xl border border-paper-200 bg-white p-5">
+    <div className="rounded-xl border border-paper-200 bg-paper-50 p-5">
       <div className="flex flex-wrap items-center gap-2">
-        <span className="rounded bg-paper-900 px-2 py-0.5 font-mono text-xs font-bold text-white">
+        <span className="rounded bg-ink-900 px-2 py-0.5 font-mono text-xs font-bold text-paper-50">
           {ep.method}
         </span>
         <code className="text-sm font-bold text-paper-900">{ep.path}</code>

@@ -83,7 +83,7 @@ export default async function CredentialPage({ params }: { params: Promise<{ slu
       </div>
 
       {/* Credential summary */}
-      <section className="mt-6 rounded-xl border border-paper-200 bg-white p-5">
+      <section className="mt-6 rounded-xl border border-paper-200 bg-paper-50 p-5">
         <h2 className="text-sm font-semibold text-paper-900">Credential summary</h2>
         <dl className="mt-3 grid gap-3 text-xs sm:grid-cols-[140px_1fr]">
           <Dt>Type</Dt>
@@ -118,7 +118,7 @@ export default async function CredentialPage({ params }: { params: Promise<{ slu
       </section>
 
       {/* Claims */}
-      <section className="mt-6 rounded-xl border border-paper-200 bg-white p-5">
+      <section className="mt-6 rounded-xl border border-paper-200 bg-paper-50 p-5">
         <h2 className="text-sm font-semibold text-paper-900">Claims</h2>
         <p className="mt-1 text-[11px] text-paper-700">
           The statements this credential asserts about the subject. Everything else (issuer, dates, proof) is metadata.
@@ -136,7 +136,7 @@ export default async function CredentialPage({ params }: { params: Promise<{ slu
 
       {/* Raw */}
       <section className="mt-6">
-        <details className="rounded-xl border border-paper-200 bg-white p-4">
+        <details className="rounded-xl border border-paper-200 bg-paper-50 p-4">
           <summary className="cursor-pointer text-sm font-semibold text-paper-900">
             Show the raw credential JSON (paranoid mode)
           </summary>

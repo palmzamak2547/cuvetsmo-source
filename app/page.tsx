@@ -109,8 +109,8 @@ export default function Landing() {
         </p>
         <div className="mt-7 grid gap-8 lg:grid-cols-[1.15fr_1fr]">
           <div className="min-w-0">
-            <pre className="overflow-x-auto rounded-md border border-ink-900/10 bg-ink-900 p-4 text-[12px] leading-relaxed text-paper-100">
-              <span className="text-source-300">$ curl https://source.cuvetsmo.com/api/drugs/{sample.slug}</span>
+            <pre className="terminal overflow-x-auto rounded-md p-4 text-[12px] leading-relaxed">
+              <span className="prompt">$ curl https://source.cuvetsmo.com/api/drugs/{sample.slug}</span>
               {'\n'}
               {sampleJson}
             </pre>
@@ -304,28 +304,28 @@ export default function Landing() {
 function Seal({ className }: { className?: string }) {
   const ticks = Array.from({ length: 16 }, (_, i) => i * 22.5)
   return (
-    <svg viewBox="0 0 200 200" className={className} role="img" aria-label="CUVETSMO Source seal">
+    <svg viewBox="0 0 200 200" className={`text-source-700 ${className ?? ''}`} role="img" aria-label="CUVETSMO Source seal">
       <g transform="translate(100 100)">
-        <circle r="92" fill="none" stroke="#0a635a" strokeWidth="2.4" />
-        <circle r="80" fill="none" stroke="#0a635a" strokeWidth="1" />
-        <g stroke="#0a635a" strokeWidth="1.7" strokeLinecap="round">
+        <circle r="92" fill="none" stroke="currentColor" strokeWidth="2.4" />
+        <circle r="80" fill="none" stroke="currentColor" strokeWidth="1" />
+        <g stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
           {ticks.map(deg => (
             <line key={deg} x1="0" y1="-95" x2="0" y2="-87" transform={`rotate(${deg})`} />
           ))}
         </g>
-        <circle cx="0" cy="-100" r="3" fill="#0a635a" />
-        <circle r="60" fill="none" stroke="#0a635a" strokeWidth="0.6" strokeOpacity="0.35" />
+        <circle cx="0" cy="-100" r="3" fill="currentColor" />
+        <circle r="60" fill="none" stroke="currentColor" strokeWidth="0.6" strokeOpacity="0.35" />
         <text
           x="0" y="33"
           fontFamily="var(--font-serif), Newsreader, 'Source Serif Pro', Georgia, serif"
           fontSize="126" fontWeight="700"
-          fill="#0a635a" textAnchor="middle"
+          fill="currentColor" textAnchor="middle"
         >S</text>
         <text
           x="0" y="60"
           fontFamily="ui-monospace, 'SF Mono', monospace"
           fontSize="7" letterSpacing="2.5"
-          fill="#0a635a" fillOpacity="0.55"
+          fill="currentColor" fillOpacity="0.55"
           textAnchor="middle"
         >MMXXVI</text>
       </g>

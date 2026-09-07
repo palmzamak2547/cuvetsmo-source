@@ -181,7 +181,7 @@ export default function CommandPalette({ drugs }: { drugs: PaletteDrug[] }) {
     <div className="fixed inset-0 z-50" role="dialog" aria-label="Quick search">
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-ink-900/60 backdrop-blur-sm"
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm"
         onClick={() => setOpen(false)}
         aria-hidden
       />

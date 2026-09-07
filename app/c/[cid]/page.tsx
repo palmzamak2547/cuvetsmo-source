@@ -85,7 +85,7 @@ export default async function CitationPage({ params }: { params: Promise<{ cid: 
       )}
 
       {/* Canonical metadata */}
-      <section className="mt-6 rounded-xl border border-paper-200 bg-white p-5">
+      <section className="mt-6 rounded-xl border border-paper-200 bg-paper-50 p-5">
         <h2 className="text-sm font-semibold text-paper-900">Canonical metadata</h2>
         <p className="mt-1 text-[11px] text-paper-700">
           The exact JSON sub-object whose SHA-256 hash equals the CID above
@@ -152,7 +152,7 @@ export default async function CitationPage({ params }: { params: Promise<{ cid: 
 
       {/* Probe history */}
       {file.probes && file.probes.length > 0 && (
-        <section className="mt-6 rounded-md border border-paper-300 bg-white p-5">
+        <section className="mt-6 rounded-md border border-paper-300 bg-paper-50 p-5">
           <h2 className="text-sm font-semibold text-ink-900">Probe history · upstream fingerprint</h2>
           <p className="mt-1 text-[11px] text-ink-500">
             We periodically fetch the upstream URL and store: HTTP status, response headers,

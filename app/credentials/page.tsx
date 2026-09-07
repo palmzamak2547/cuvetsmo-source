@@ -43,14 +43,14 @@ export default function CredentialsLanding() {
           </li>
         </ol>
         <p className="mt-3 text-xs text-source-700">
-          Phase 0 today: step 1 + step 2 only. Faculty onboarding (step 3+) starts in Week 6.
+          Live today: steps 1 and 2. Step 3 begins with the first faculty member who signs an entry — see /onboarding.
         </p>
       </section>
 
       {/* List */}
       {all.length === 0 ? (
         <section className="mt-10 rounded-xl border border-paper-200 bg-paper-100 p-6 text-center text-sm text-paper-700">
-          ยังไม่มี credential ที่ issued — รอ Phase 1 faculty onboarding
+          ยังไม่มี credential ที่ issued
         </section>
       ) : (
         <section className="mt-10">
@@ -60,7 +60,7 @@ export default function CredentialsLanding() {
               <li key={c.slug}>
                 <Link
                   href={`/credentials/${c.slug}`}
-                  className="block rounded-xl border-2 border-source-300 bg-white p-5 transition hover:-translate-y-0.5 hover:border-source-400 hover:shadow-md"
+                  className="block rounded-xl border-2 border-source-300 bg-paper-50 p-5 transition hover:-translate-y-0.5 hover:border-source-400 hover:shadow-md"
                 >
                   <p className="text-xs font-semibold uppercase tracking-wider text-source-700">
                     {c.credential.type.filter(t => t !== 'VerifiableCredential').join(' · ')}
@@ -85,7 +85,7 @@ export default function CredentialsLanding() {
       <section className="mt-12 rounded-xl border border-paper-200 bg-paper-100 p-4 text-xs text-paper-700">
         <p className="font-semibold text-paper-900">DID resolution</p>
         <p className="mt-1">
-          The platform DID is <code className="rounded bg-white px-1 py-0.5">did:web:source.cuvetsmo.com</code>.
+          The platform DID is <code className="rounded bg-paper-50 px-1 py-0.5">did:web:source.cuvetsmo.com</code>.
           The corresponding DID document lives at{' '}
           <a href="/.well-known/did.json" target="_blank" rel="noopener noreferrer" className="text-source-700 hover:underline">
             /.well-known/did.json

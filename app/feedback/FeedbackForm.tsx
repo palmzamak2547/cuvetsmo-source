@@ -148,7 +148,7 @@ export default function FeedbackForm() {
             onChange={e => setMessage(e.target.value)}
             placeholder={getPlaceholder(intent)}
             rows={6}
-            className="mt-1 w-full rounded-md border-2 border-paper-300 bg-white px-4 py-3 text-[15px] leading-relaxed text-ink-900 transition focus:border-source-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-source-600"
+            className="mt-1 w-full rounded-md border-2 border-paper-300 bg-paper-50 px-4 py-3 text-[15px] leading-relaxed text-ink-900 transition focus:border-source-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-source-600"
             style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}
           />
         </div>
@@ -164,7 +164,7 @@ export default function FeedbackForm() {
             value={contact}
             onChange={e => setContact(e.target.value)}
             placeholder="email, LINE, Twitter handle, GitHub username, or leave blank"
-            className="mt-1 w-full rounded-md border-2 border-paper-300 bg-white px-4 py-2.5 text-[14px] text-ink-900 transition focus:border-source-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-source-600"
+            className="mt-1 w-full rounded-md border-2 border-paper-300 bg-paper-50 px-4 py-2.5 text-[14px] text-ink-900 transition focus:border-source-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-source-600"
           />
         </div>
 

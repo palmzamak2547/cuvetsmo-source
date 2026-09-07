@@ -55,6 +55,92 @@
   --color-stamp:      #be3a26;
 }
 
+/* ─── Dark theme — "reading lamp" ────────────────────────────────
+   Same utilities everywhere; only the tokens flip. `data-theme` is set
+   before first paint by the inline script in app/layout.tsx (stored
+   choice, else the OS preference). Scoped to screen so print always
+   uses the light palette. The accent scales are inverted end-to-end
+   (50↔900, 100↔800 …) so every existing bg-x-50 + text-x-900 pairing
+   keeps its contrast without touching a single class name. */
+@media screen {
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+
+    --color-source-50:  #0c2624;
+    --color-source-100: #103532;
+    --color-source-200: #154842;
+    --color-source-300: #1c5f57;
+    --color-source-400: #25786e;
+    --color-source-500: #2f9585;
+    --color-source-600: #43b3a0;
+    --color-source-700: #63cfbb;
+    --color-source-800: #96e3d3;
+    --color-source-900: #c9f3ea;
+
+    --color-paper-50:   #131110;
+    --color-paper-100:  #1b1815;
+    --color-paper-200:  #26221d;
+    --color-paper-300:  #3a3329;
+    --color-paper-400:  #5a5040;
+
+    --color-ink-500:    #98917f;
+    --color-ink-700:    #cdc4b3;
+    --color-ink-900:    #f2ede3;
+
+    --color-paper-700:  #cdc4b3;
+    --color-paper-800:  #e0d9cb;
+    --color-paper-900:  #f2ede3;
+
+    --color-stamp:      #e06a55;
+
+    --color-emerald-50:  #0b2a1f;
+    --color-emerald-100: #0f3a2b;
+    --color-emerald-200: #145039;
+    --color-emerald-300: #1b6b4c;
+    --color-emerald-400: #2f9d6f;
+    --color-emerald-500: #34d399;
+    --color-emerald-600: #4ade80;
+    --color-emerald-700: #6ee7b7;
+    --color-emerald-800: #a7f3d0;
+    --color-emerald-900: #d1fae5;
+
+    --color-amber-50:  #2b1d06;
+    --color-amber-100: #3d2a0a;
+    --color-amber-200: #563b0c;
+    --color-amber-300: #7a540f;
+    --color-amber-400: #b47c14;
+    --color-amber-500: #f59e0b;
+    --color-amber-600: #fbbf24;
+    --color-amber-700: #fcd34d;
+    --color-amber-800: #fde68a;
+    --color-amber-900: #fef3c7;
+
+    --color-sky-50:  #0a2231;
+    --color-sky-100: #0e3146;
+    --color-sky-200: #134662;
+    --color-sky-300: #1a6187;
+    --color-sky-400: #2d8fc2;
+    --color-sky-500: #38bdf8;
+    --color-sky-600: #5cc8fa;
+    --color-sky-700: #7dd3fc;
+    --color-sky-800: #bae6fd;
+    --color-sky-900: #e0f2fe;
+
+    --color-red-50:  #2f0f0f;
+    --color-red-100: #431414;
+    --color-red-200: #5e1b1b;
+    --color-red-300: #862626;
+    --color-red-400: #c23b3b;
+    --color-red-500: #ef4444;
+    --color-red-600: #f87171;
+    --color-red-700: #fca5a5;
+    --color-red-800: #fecaca;
+    --color-red-900: #fee2e2;
+  }
+  :root[data-theme="dark"] .stamp { background: rgba(0, 0, 0, 0.25); }
+  :root[data-theme="dark"] ::selection { background: rgba(93, 209, 186, 0.3); }
+}
+
 /* ─── Type setup ─────────────────────────────────────────────────── */
 
 :root {
@@ -275,6 +361,17 @@ button:disabled,
   letter-spacing: 0.14em;
   background: rgba(255, 255, 255, 0.6);
 }
+
+/* Terminal / code block — fixed dark surface in BOTH themes, so it never
+   inverts into a light slab when the page goes dark. */
+.terminal {
+  background: #1c1814;
+  color: #f5f3ec;
+  border: 1px solid #3d362d;
+  font-family: var(--font-mono);
+}
+.terminal .prompt { color: #5dd1ba; }
+.terminal .lang   { color: #b5ad95; }
 
 /* Selection — warm tint */
 ::selection {

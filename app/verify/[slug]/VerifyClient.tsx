@@ -113,7 +113,7 @@ export default function VerifyClient({ drugJson, pairs }: Props) {
       </div>
 
       {/* Browser-computed canonical hash */}
-      <section className="rounded-xl border border-paper-200 bg-white p-4">
+      <section className="rounded-xl border border-paper-200 bg-paper-50 p-4">
         <h3 className="text-sm font-semibold text-paper-900">Browser-computed content hash</h3>
         <p className="mt-1 text-[11px] text-paper-700">
           คุณค่านี้คำนวณในเครื่องของคุณจาก raw JSON ที่ส่งมาด้านล่าง (เอา signatures[] field ออก, sort keys,
@@ -152,7 +152,7 @@ function SigCard({
     state.phase === 'verified' ? 'border-emerald-400 bg-emerald-50/80'
     : state.phase === 'invalid' || state.phase === 'hash-mismatch' ? 'border-red-300 bg-red-50'
     : state.phase === 'no-key' || state.phase === 'unsupported' ? 'border-amber-300 bg-amber-50'
-    : 'border-paper-200 bg-white'
+    : 'border-paper-200 bg-paper-50'
   // Trigger the stamp animation only when the verified state lands.
   const animClass = state.phase === 'verified' ? 'stamp-in' : ''
   return (

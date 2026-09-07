@@ -261,9 +261,9 @@ function Step({ n, title, time, body }: { n: number; title: string; time: string
 
 function Terminal({ children, lang }: { children: React.ReactNode; lang?: string }) {
   return (
-    <pre className="overflow-x-auto rounded-md border border-paper-300 bg-ink-900 px-4 py-3 text-[12px] leading-relaxed text-paper-100" style={{ fontFamily: 'var(--font-mono)' }}>
+    <pre className="terminal overflow-x-auto rounded-md px-4 py-3 text-[12px] leading-relaxed">
       {lang && (
-        <span className="mb-2 block text-[10px] uppercase tracking-wider text-paper-400">{lang}</span>
+        <span className="lang mb-2 block text-[10px] uppercase tracking-wider">{lang}</span>
       )}
       {children}
     </pre>

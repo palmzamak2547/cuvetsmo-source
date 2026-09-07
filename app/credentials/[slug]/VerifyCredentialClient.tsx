@@ -76,7 +76,7 @@ export default function VerifyCredentialClient({
           : state.phase === 'invalid'
           ? 'border-red-400 bg-red-50'
           : state.phase === 'pending'
-          ? 'border-paper-200 bg-white'
+          ? 'border-paper-200 bg-paper-50'
           : 'border-amber-400 bg-amber-50'
       }`}
     >

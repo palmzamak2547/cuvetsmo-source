@@ -4,6 +4,11 @@ import { Newsreader, Inter } from 'next/font/google'
 import './globals.css'
 import ServiceWorkerRegister from './ServiceWorkerRegister'
 import CommandPaletteHost, { CommandPaletteTrigger } from './CommandPaletteHost'
+import ThemeToggle from './ThemeToggle'
+
+// Runs before first paint: stored choice wins, otherwise follow the OS.
+// Keeps the dark palette from flashing light on load.
+const THEME_BOOT = `try{var t=localStorage.getItem('cuvetsmo.theme');if(t!=='light'&&t!=='dark'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.dataset.theme=t}catch(e){}`
 import { DRUGS } from '@/lib/drugs'
 
 // Editorial serif for long-form prose surfaces (drug detail, sources,
@@ -90,7 +95,11 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#0f766e',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#0f766e' },
+    { media: '(prefers-color-scheme: dark)', color: '#131110' },
+  ],
+  colorScheme: 'light dark',
   width: 'device-width',
   initialScale: 1,
 }
@@ -107,7 +116,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     isCanonical: d.reviewedBy !== null && d.signatures.length > 0,
   }))
   return (
-    <html lang="th" className={`${newsreader.variable} ${inter.variable}`}>
+    <html lang="th" className={`${newsreader.variable} ${inter.variable}`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
+      </head>
       <body>
         <a
           href="#main"
@@ -147,6 +159,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Link>
             <nav className="ml-auto flex items-center gap-x-5 gap-y-1 text-[13px] text-ink-700 flex-wrap justify-end">
               <CommandPaletteTrigger />
+              <ThemeToggle />
               <Link href="/drugs"       className="hover:text-source-800">Drugs</Link>
               <Link href="/verify"      className="hover:text-source-800">Verify</Link>
               <Link href="/about"       className="hover:text-source-800">About</Link>

@@ -239,7 +239,7 @@ function Panel({ title, subtitle, value, onChange, placeholder, stats, dir }: {
         placeholder={placeholder}
         dir={dir}
         rows={14}
-        className="mt-3 w-full flex-1 resize-y rounded border border-paper-200 bg-white px-3 py-2.5 text-[14px] leading-relaxed text-ink-900 transition focus:border-source-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-source-600"
+        className="mt-3 w-full flex-1 resize-y rounded border border-paper-200 bg-paper-50 px-3 py-2.5 text-[14px] leading-relaxed text-ink-900 transition focus:border-source-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-source-600"
         style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}
       />
     </div>
