@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { type Drug, DRUGS, verificationTier } from '@/lib/drugs'
 import { groupDrugsByClass } from '@/lib/classify'
 import { SpeciesFacets } from './SpeciesFacets'
+import CatalogFilter from './CatalogFilter'
 
 export const metadata = {
   title: 'Drug Reference',
@@ -58,11 +59,14 @@ export default function DrugsList() {
         </ul>
       </section>
 
+      {/* Instant filter — narrows the 420 cards below without leaving the page */}
+      <CatalogFilter total={DRUGS.length} />
+
       {/* Class-grouped index */}
       {groups.length > 0 ? (
         <section className="mt-12 space-y-12">
           {groups.map(({ klass, entries }) => (
-            <div key={klass.slug} id={klass.slug}>
+            <div key={klass.slug} id={klass.slug} data-class-section>
               <div className="mb-5 flex items-baseline justify-between gap-4 border-b border-paper-200 pb-2.5">
                 <h2 className="display-h2 text-source-900">
                   <Link href={`/drugs/class/${klass.slug}`} className="hover:underline underline-offset-4">
@@ -108,8 +112,9 @@ export default function DrugsList() {
 // gains reviewedBy/signatures or attestations.
 function DrugCard({ drug }: { drug: Drug }) {
   const t = verificationTier(drug)
+  const needle = [drug.nameEn, drug.nameTh, drug.slug, drug.codes?.atc?.code ?? '', ...(drug.brandNamesTh ?? [])].join(' ').toLowerCase()
   return (
-    <li>
+    <li data-needle={needle}>
       <Link
         href={`/drugs/${drug.slug}`}
         className={`flex h-full flex-col rounded-md border bg-paper-50 p-5 transition hover:-translate-y-0.5 hover:shadow-sm ${

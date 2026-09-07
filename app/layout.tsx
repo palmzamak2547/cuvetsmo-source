@@ -154,15 +154,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </svg>
               <div className="leading-tight">
                 <div className="text-sm font-semibold tracking-tight text-ink-900">source</div>
-                <div className="text-[10px] uppercase tracking-[0.18em] text-ink-500">CUVETSMO · verified vet knowledge</div>
+                <div className="hidden text-[10px] uppercase tracking-[0.18em] text-ink-500 sm:block">CUVETSMO · verified vet knowledge</div>
               </div>
             </Link>
             <nav className="ml-auto flex items-center gap-x-5 gap-y-1 text-[13px] text-ink-700 flex-wrap justify-end">
               <CommandPaletteTrigger />
               <ThemeToggle />
               <Link href="/drugs"       className="hover:text-source-800">Drugs</Link>
-              <Link href="/verify"      className="hover:text-source-800">Verify</Link>
-              <Link href="/about"       className="hover:text-source-800">About</Link>
+              <Link href="/verify"      className="hidden hover:text-source-800 sm:inline">Verify</Link>
+              <Link href="/about"       className="hidden hover:text-source-800 sm:inline">About</Link>
               <Link href="/use-cases"   className="hidden hover:text-source-800 lg:inline">Use cases</Link>
               <Link href="/api"         className="hidden hover:text-source-800 md:inline">API</Link>
               <Link href="/credentials" className="hidden hover:text-source-800 xl:inline">Credentials</Link>

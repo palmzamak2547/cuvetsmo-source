@@ -27,6 +27,10 @@ export default function HomeQuickAccess({
   drugIndex: RecentDrug[]
 }) {
   const [recent, setRecent] = useState<RecentDrug[]>([])
+  // 38 class chips are a wall on a phone — show the first 12, expand on demand.
+  const [allClasses, setAllClasses] = useState(false)
+  const CHIP_LIMIT = 12
+  const visibleClasses = allClasses ? topClasses : topClasses.slice(0, CHIP_LIMIT)
 
   useEffect(() => {
     try {
@@ -62,7 +66,7 @@ export default function HomeQuickAccess({
           Browse by class
         </p>
         <ul className="flex flex-wrap gap-2">
-          {topClasses.map(c => (
+          {visibleClasses.map(c => (
             <li key={c.slug}>
               <Link
                 href={`/drugs/class/${c.slug}`}
@@ -75,6 +79,18 @@ export default function HomeQuickAccess({
               </Link>
             </li>
           ))}
+          {topClasses.length > CHIP_LIMIT && (
+            <li>
+              <button
+                type="button"
+                onClick={() => setAllClasses(v => !v)}
+                aria-expanded={allClasses}
+                className="inline-flex items-center rounded-full border border-dashed border-source-400 bg-paper-50 px-3 py-1.5 text-[13px] text-source-800 transition hover:bg-source-50"
+              >
+                {allClasses ? 'Show fewer' : `All ${topClasses.length} classes`}
+              </button>
+            </li>
+          )}
         </ul>
       </div>
 
