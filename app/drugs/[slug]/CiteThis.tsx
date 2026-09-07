@@ -32,13 +32,21 @@ export default function CiteThis({
       <p className="mt-2 break-words text-[12px] leading-relaxed text-ink-700" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>
         {text}
       </p>
-      <div className="mt-3 flex items-center gap-3">
+      <div className="mt-3 flex flex-wrap items-center gap-3">
         <button
           type="button"
           onClick={copy}
           className="rounded-sm border border-source-700 bg-source-800 px-3 py-1.5 text-xs font-medium text-paper-50 transition hover:bg-source-900"
         >
           Copy citation
+        </button>
+        <button
+          type="button"
+          onClick={() => window.print()}
+          className="rounded-sm border border-paper-300 bg-paper-50 px-3 py-1.5 text-xs font-medium text-ink-700 transition hover:border-source-500 hover:text-source-800"
+          title="Print or save as PDF — the print layout drops navigation and keeps every citation"
+        >
+          Print / PDF
         </button>
         <span role="status" aria-live="polite" className="text-[11px] text-ink-500">
           {state === 'copied' ? 'Copied' : state === 'failed' ? 'Select the text to copy' : ''}

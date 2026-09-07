@@ -101,7 +101,23 @@ export default function SearchClient({
 
   useEffect(() => {
     inputRef.current?.focus()
+    // Deep link: /search?q=meloxicam opens with the query filled in.
+    try {
+      const q = new URLSearchParams(window.location.search).get('q')
+      if (q) setQuery(q)
+    } catch { /* ignore */ }
   }, [])
+
+  // Keep ?q= in the address bar so a search is shareable and survives reload.
+  useEffect(() => {
+    try {
+      const url = new URL(window.location.href)
+      const q = deferred.trim()
+      if (q) url.searchParams.set('q', q)
+      else url.searchParams.delete('q')
+      window.history.replaceState(null, '', url)
+    } catch { /* ignore */ }
+  }, [deferred])
 
   const totalActiveFilters = (query.trim() ? 1 : 0) + (status !== 'all' ? 1 : 0) + (classSlug ? 1 : 0)
 

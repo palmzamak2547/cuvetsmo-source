@@ -5,10 +5,10 @@
 
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { type Drug, DRUGS, verificationTier } from '@/lib/drugs'
+import { DRUGS, verificationTier } from '@/lib/drugs'
 import { THERAPEUTIC_CLASSES, findClassBySlug, classifyDrug } from '@/lib/classify'
 import { jsonLd } from '@/lib/jsonld'
-import { SpeciesFacets } from '../../SpeciesFacets'
+import ClassGrid from './ClassGrid'
 
 export async function generateStaticParams() {
   return THERAPEUTIC_CLASSES.map(c => ({ slug: c.slug }))
@@ -87,15 +87,24 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
         </div>
       </header>
 
-      {/* Entries grid */}
+      {/* Entries grid — client component so the species filter can narrow it */}
       {entries.length === 0 ? (
         <p className="mt-12 rounded-md border border-paper-300 bg-paper-50 p-10 text-center text-ink-700">
           ยังไม่มี entry ในกลุ่มนี้
         </p>
       ) : (
-        <ul className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {entries.map(d => <DrugCard key={d.slug} drug={d} />)}
-        </ul>
+        <ClassGrid
+          entries={entries.map(d => ({
+            slug: d.slug,
+            nameEn: d.nameEn,
+            nameTh: d.nameTh,
+            atc: d.codes?.atc?.code ?? null,
+            species: [...new Set(d.dosages.map(x => x.species))],
+            citations: d.citations.length,
+            sources: d.mirroredFrom?.length ?? 0,
+            tier: verificationTier(d),
+          }))}
+        />
       )}
 
       {/* All classes browse */}
@@ -143,60 +152,5 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
         </nav>
       )}
     </article>
-  )
-}
-
-// Every entry currently renders the sourced "◆" badge. The expert/community
-// branches below are the dormant future faculty-endorsement path the schema
-// supports (see lib/drugs.ts verificationTier); they fire only once an entry
-// gains reviewedBy/signatures or attestations.
-function DrugCard({ drug }: { drug: Drug }) {
-  const t = verificationTier(drug)
-  return (
-    <li>
-      <Link
-        href={`/drugs/${drug.slug}`}
-        className={`flex h-full flex-col rounded-md border bg-paper-50 p-5 transition hover:-translate-y-0.5 hover:shadow-sm ${
-          t === 'expert'
-            ? 'border-emerald-400/70 hover:border-emerald-500 hover:bg-emerald-50/40'
-            : t === 'community'
-            ? 'border-sky-400/70 hover:border-sky-500 hover:bg-sky-50/40'
-            : 'border-paper-300 hover:border-source-500 hover:bg-paper-100/60'
-        }`}
-      >
-        <div className="flex items-baseline justify-between gap-2">
-          <h3 className="text-[17px] font-semibold tracking-tight text-ink-900" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>
-            {drug.nameEn}
-          </h3>
-          {t === 'expert' ? (
-            <span className="shrink-0 rounded-full bg-emerald-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-50" title="Expert-reviewed">✓</span>
-          ) : t === 'community' ? (
-            <span className="shrink-0 rounded-full bg-sky-700 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-sky-50" title="Community-checked">✓✓</span>
-          ) : (
-            <span className="shrink-0 rounded-full border border-source-300 bg-source-50 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-source-800" title="Sourced">◆</span>
-          )}
-        </div>
-        <p className="text-[13px] italic text-ink-700" style={{ fontFamily: 'var(--font-serif), Georgia, serif' }}>{drug.nameTh}</p>
-
-        <div className="mt-3 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[11px] tabular text-ink-500">
-          {drug.codes?.atc && (
-            <span className="rounded border border-source-300/60 bg-paper-100 px-1.5 py-0.5 font-mono text-source-800">
-              {drug.codes.atc.code}
-            </span>
-          )}
-        </div>
-        <SpeciesFacets drug={drug} />
-
-        <div className="mt-auto pt-4 flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[11px] text-ink-500">
-          <span>{drug.citations.length} citation{drug.citations.length === 1 ? '' : 's'}</span>
-          {drug.mirroredFrom && drug.mirroredFrom.length > 0 && (
-            <>
-              <span aria-hidden>·</span>
-              <span>{drug.mirroredFrom.length} source{drug.mirroredFrom.length === 1 ? '' : 's'}</span>
-            </>
-          )}
-        </div>
-      </Link>
-    </li>
   )
 }

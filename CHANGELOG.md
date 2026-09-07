@@ -22,6 +22,9 @@ The full 8-primitive moonshot architecture shipped in one extended session. Per 
 - **Returning visitors see updates**: the offline cache used to pin the home, drug list, sources, API, verify, and search pages until a manual cache-version bump, so a returning visitor could read last month's copy. Those pages now refresh in the background on every visit while still working offline.
 - **Dosage on phones**: the five-column dose table became dose cards below tablet width (species, dose large, route, indication, cite), and entries with more than one species get species filter chips (canine · สุนัข, feline · แมว, …) with a live "N of M doses shown" announcement. The desktop table is unchanged.
 - **Drug pages**: the "On this page" chips stay pinned under the header while you scroll on desktop; a "Cite this entry" card in the sidebar copies a ready citation string; catalog and class cards show which species have dosing; a "Skip to content" link for keyboard users.
+- **Class pages filter by species**: "Has dosing for" chips (canine · สุนัข, feline · แมว, …) narrow a class to the drugs that carry a dose for that species — the question a clinician brings to a class page.
+- **Search is shareable**: the query lives in the address bar (`/search?q=meloxicam`), so a search survives reload and can be sent as a link.
+- **Print / PDF** button on every drug page — the print layout drops navigation and keeps every citation.
 - **Dark mode**: follows your system setting, with a sun/moon toggle in the header that remembers your choice. Same warm editorial palette, inverted — cream paper becomes a dark reading surface, teal stays teal, and every verified/pending/warning tint keeps its contrast. Print always uses the light palette.
 
 ### 2026-06-07 — 📚 Catalog 273 → 420 drugs (+147) across 38 therapeutic classes

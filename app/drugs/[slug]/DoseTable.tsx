@@ -10,11 +10,7 @@
 
 import { useMemo, useState } from 'react'
 import type { Dosage } from '@/lib/drugs'
-
-const SPECIES_TH: Record<string, string> = {
-  canine: 'สุนัข', feline: 'แมว', equine: 'ม้า', bovine: 'โค', porcine: 'สุกร',
-  ovine: 'แกะ', caprine: 'แพะ', avian: 'สัตว์ปีก', rabbit: 'กระต่าย', rodent: 'สัตว์ฟันแทะ', other: 'อื่น ๆ',
-}
+import { SPECIES_TH } from '@/lib/species'
 
 export default function DoseTable({
   dosages,
